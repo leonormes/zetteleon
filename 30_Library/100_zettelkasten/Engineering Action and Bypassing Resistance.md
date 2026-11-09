@@ -37,4 +37,4 @@ Applicable to workflow and system design intended to circumvent perfectionism, t
 ### Related
 
 - [[SoT - Indistractable Model (Focus Management)]]—shared mechanism: Mentions The Unschedule as a core strategy to reduce the need to escape.
-- [[Operating Protocol for High-Friction Engineering Work]]—extends: Utilizes the Unschedule and radical WIP limits to bypass resistance.
+- [[SoT - Breaking the Creation Cycle]]—extends: Utilizes the Unschedule and radical WIP limits to bypass resistance.

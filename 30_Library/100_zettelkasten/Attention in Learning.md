@@ -46,7 +46,7 @@ In the context of programming, where developers are often inundated with informa
 - [[SoT - Indistractable Model (Focus Management)]]—a worked model for managing distraction.
 - [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]]—scheduling as protection.
 - [[Physical Device Separation Reduces the Neurological Urge to Check Notifications]]—an environmental fix for the distraction the note names.
-- [[Phase 3 - Compartmentalized Focus to Beat Distraction]]—separating contexts so only one competes for attention.
+- [[SoT - Temporal Management (Blocking and Boxing)]]—separating contexts so only one competes for attention.
 - [[Task Batching is Grouping Similar Tasks to Reduce Context Switching]]—fewer switches means less attention lost.
 - [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]]—the cost of holding too many threads.
 - [[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]—interval-based sustain.

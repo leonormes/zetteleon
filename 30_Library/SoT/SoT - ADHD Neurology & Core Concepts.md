@@ -162,21 +162,14 @@ Japanese concepts that align with the ADHD experience:
 
 ---
 
-## Tensions
+> Open threads: [[HEAD - Does ADHD reflect network dysregulation or DMN-FPN maturational lag?]] · [[HEAD - How does individual symptom heterogeneity bound unified ADHD hardware models?]]
 
-Recorded as prose where the conflict is real but a typed edge would overstate it.
+### Neurological Boundaries & Historical Gaps
 
-- One architecture, or many? §1.1 presents a single "Non-Standard Hardware" table as _the_ ADHD architecture. [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]] and [[ADHD Task Initiation is Not Universally the Hardest Symptom Due to Individual Variation]] both argue the presentation varies enough that a single spec sheet misleads. No edge emitted—the table is a useful default, not a claim of universality, but it does not say so.
-- Dysregulation or developmental lag? §1.5 frames TPN/DMN as a persistent "Glitchy Switch." [[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]] offers a competing account: a maturational delay in a different network pair. These may be describing the same phenomenon at different timescales, or they may be rival mechanisms. The SoT does not adjudicate.
-- Hyperfocus listed as an unqualified feature. §3 lists Hyperfocus among the advantages with no mention of cost, while [[MOC - ADHD Hyperfixation-Burnout Cycle]], [[Hyperfixation Causes Mental Exhaustion and Burnout]] and [[ADHD Hangover or Brain Fog Following Hyperfixation]] document the other half. No `contradicts` edge emitted, because the vault appears to distinguish _hyperfocus_ (productive flow) from _hyperfixation_ (its pathological run-on)—but §3 does not draw that line, so a reader lands on "advantage" and stops.
-
-## Gaps
-
-Sections making assertions that nothing in the vault currently supports.
-
-- ~~§1.3 Gut-Brain Energy Axis—zero supporting notes.~~ Resolved 2026-09-08 by extraction, not by grounding: the claim now lives at [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]], still `epistemic_status: low` and still uncited. The gap in the argument graph is unchanged; what changed is that it's no longer asserted inline in a canonical SoT without a warning attached.
-- ~~§1.4 AMCC hypertrophy/atrophy—the willpower-muscle half has no note.~~ Resolved 2026-09-08: extracted to [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]] and wired with `depends_on`. Still load-bearing for [[SoT - ADHD Management Protocols]] §7.1 (The 15% Push).
-- ~~§4 Gaman and Kintsugi—named nowhere else.~~ Partially stale: Kintsugi was already covered in full at [[SoT - Wabi-Sabi]] §3.1—this note just never linked to it. Gaman genuinely had no note; created [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]] 2026-09-08.
+- **Architectural Scope:** The "Non-Standard Hardware" table (§1.1) serves as a functional default; individual heterogeneity is preserved in [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]].
+- **Network Dynamics:** TPN/DMN switching models coexist with maturational lag models ([[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]).
+- **Hyperfocus Cost Accounting:** Hyperfocus is distinguished from run-on hyperfixation burnout ([[MOC - ADHD Hyperfixation-Burnout Cycle]]).
+- **Historical Gaps Grounded:** Gut-Brain Axis extracted to [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]]; AMCC willpower mechanics extracted to [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]].
 
 ## See Also
 

@@ -34,7 +34,7 @@ The definitive specification of the system and its biological basis.
 
 #### Key Frameworks
 
-- PINCH Model: (Play, Interest, Novelty, Challenge, Hurry) for task engagement.
+- [[SoT - PRODOS Core Specification#2. The Dopamine Engine (The PINCH Model)|PINCH Model]]: (Play, Interest, Novelty, Challenge, Hurry) for task engagement.
 - Dual-Axis Model: Azimuth (Time) and Elevation (Attention).
 - [[SoT - The User Interface of the Self]]: The retrospective narrative.
 
@@ -45,20 +45,25 @@ The definitive specification of the system and its biological basis.
 #### Phase 1: Capture & Routing (Input)
 
 - [[Reference - File Structure]]—_Stream, HUD, Engine, Workbench, Canon, Archive._
-- [[Protocol - Autonomous Action System]]—_Agentic automation for Todoist/Obsidian._
-- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Low-friction capture and organization._
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Low-friction capture and organization, run manually or by an agent (Mode B, formerly Protocol - Autonomous Action System)._
 - [[SoT - The RPI Workflow (Context Engineering)]]—_Research-Plan-Implement._
 - [[SoT - Cognitive Engineering Protocols]]—_RAM Clearing & Emotional Regulation._
 
 #### Phase 2: Thinking & Refinement (Processor)
 
+- [[SoT - HEAD Note Contract (The Workbench)]]—_What may live in the workbench, and how a HEAD note leaves it._
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_Action-Container-Thought._
+- [[SoT - The Unified Writing to Think Process]]—_The six-stage pipeline from raw writing to structure notes._
 - [[Stage 5 Synthesise (The Outcome Layer)|SoT - Knowledge Synthesis]]—_Converting thought into canonical SoTs._
+- [[SoT - Atomic Note Standard (The Proposition Card)]]—_Shape of an atomic note._
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_The note type schemas._
+- [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] and [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_Edge syntax and the argument-graph compiler._
 - [[SoT - Material Symbols]]—_Computational scaffolding._
 
 #### Phase 3: Action & Persistence (Output)
 
 - [[SoT - Execution Protocol (GTD & PARA)]]—_The Macro Structure (PARA + GTD)._
+- [[gtd-action-system]]—_The live four-tier set-up: Obsidian, Jira, Todoist, calendar._
 - [[SoT - PRODOS Core Specification#3.2 The Scope-Lock & Starter Task (MVA)|SoT - Execution Rules (MVA)]]—_The Micro Action & Definition of Done._
 - [[Protocol - Vague-to-Action]]—_Decomposing vague tasks into binary actions._
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Blocking vs. Boxing._
@@ -71,6 +76,7 @@ The definitive specification of the system and its biological basis.
 - [[SoT - Protocol - The Launch Sequence]]—_Bypassing initiation paralysis._
 - [[SoT - PRODOS Black Box Protocol]]—_Systematizing failure._
 - [[Protocol - Weekly Command Centre]]—_The system reset ritual._
+- [[SoT - Research-to-Action Protocol]]—_Time-boxed research with a #SAVESTATE exit._
 - [[SoT - ADHD Management Protocols]]—_The Dopamine Menu & Toolkit._
 
 ---
@@ -81,9 +87,9 @@ The definitive specification of the system and its biological basis.
 
 ### 6. Related System Maps
 
-- [[MOC - ADHD Management]]—_Strategies for the neurodivergent brain._
+- [[MOC - ADHD (The Master Map)]]—_Strategies for the neurodivergent brain._
 - [[MOC - Action Management]]—_The mechanics of task flow and execution._
-- [[MOC - Day Architecture for Peak Performance]]—_The daily rhythm and schedule._
+- [[SoT - Principles for Peaceful Productivity]]—_The day-level operating principles._
 - [[MOC - Interpretation of References]]—_The semantics of the system._
 
 ---

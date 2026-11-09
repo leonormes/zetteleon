@@ -1,5 +1,5 @@
 ---
-aliases: [Research Transducer]
+aliases: [Instruction SoT - Research-to-Action Protocol, Research Transducer]
 conformant: true
 created: 2026-01-12T16:15:00+00:00
 modified: 2026-10-22T15:11:11+00:00

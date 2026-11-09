@@ -1,8 +1,7 @@
 ---
-created: 2026-03-31T10:24:46+00:00
-modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/excalidraw/scripts/downloaded/mindmap-connector
 title: Mindmap connector
+type: note
 ---
 
 /*
@@ -10,7 +9,6 @@ title: Mindmap connector
 ![](https://github.com/xllowl/obsidian-excalidraw-plugin/blob/master/images/mindmap%20connector.png)
 
 ![](https://github.com/xllowl/obsidian-excalidraw-plugin/blob/master/images/Mindmap%20connector1.png)
-
 This script creates mindmap like lines(only right and down side are available). The line will starts according to the creation time of the elements. So you may need to create the header element first.
 
 ```javascript

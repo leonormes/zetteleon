@@ -23,8 +23,8 @@ This habit is based on the principle that all things are created twice:
 
 ## ProdOS Integration
 
-This habit is the core of the upper levels of the [[LLM GTD Context|05 - Horizons of Focus]] model, specifically Horizon 5 (Purpose & Principles) and Horizon 4 (Vision). [depends_on:: [[LLM GTD Context]], confidence=medium] It is about defining your [[SoT - Goal Architecture (Vision and Alignment)|12 - Core Principles and Values]] before you begin to act. [depends_on:: [[SoT - Goal Architecture (Vision and Alignment)]], confidence=medium]
+This habit is the core of the upper levels of the the Horizons of Focus model, specifically Horizon 5 (Purpose & Principles) and Horizon 4 (Vision). [depends_on:: [[LLM GTD Context]], confidence=medium] It is about defining your [[SoT - Goal Architecture (Vision and Alignment)]] before you begin to act. [depends_on:: [[SoT - Goal Architecture (Vision and Alignment)]], confidence=medium]
 
-In the [[MOC - ProdOS]], this is formalized through commands like `/plan-life-vision`, which are designed to help articulate this personal constitution. The [[Protocol - Action-First GTD (LLM Chief of Staff)|07 - LLM as a Productivity Partner (CoS)]] facilitates this process of mental creation.
+In the [[MOC - ProdOS]], this is formalized through commands like `/plan-life-vision`, which are designed to help articulate this personal constitution. The [[Protocol - Action-First GTD (LLM Chief of Staff)]] facilitates this process of mental creation.
 
 Once the vision is set, the next step is to manage your time and actions to make that vision a reality, which is the focus of [[Habit 3 - Put First Things First]]. [supports:: [[Habit 3 - Put First Things First]], confidence=high]

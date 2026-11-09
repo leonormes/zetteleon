@@ -27,7 +27,7 @@ This paralysis is a classic example of [[MOC - Why Task Initiation is Difficult 
 
 "I can't do little, detached tasks. So building habits is a bust."
 
-This insight reveals why traditional habit-building advice fails for ADHD brains. Without the dopamine reward loop, habits can't form through repetition alone. This connects to [[SoT - Bridging the Intention-Action Gap|Why Importance and Rewards Fail to Motivate ADHD Brains]] - external motivation strategies don't work when the internal reward system is dysregulated. [extends:: [[SoT - Bridging the Intention-Action Gap]]]
+This insight reveals why traditional habit-building advice fails for ADHD brains. Without the dopamine reward loop, habits can't form through repetition alone. This connects to [[SoT - The Cognitive Physiology of Task Execution|Why Importance and Rewards Fail to Motivate ADHD Brains]] - external motivation strategies don't work when the internal reward system is dysregulated. [extends:: [[SoT - The Cognitive Physiology of Task Execution]]]
 
 ## The Broader Pattern
 

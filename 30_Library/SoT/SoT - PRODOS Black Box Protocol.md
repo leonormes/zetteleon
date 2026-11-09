@@ -47,13 +47,14 @@ Before launching a significant project (The "Capstone"), perform a Prospective H
 
 ---
 
-## 4. Architectural Guardrails (ADHD Support)
+## 4. Architectural Guardrails & Proposed Systems
 
-### 4.1 Radical Transparency
+### 4.1 Radical Transparency & Mistake Preservation
 
-To bypass the "Seniority Trap" or ego-driven denial, PRODOS operators must treat their HEAD notes as public-facing audits.
+To bypass the "Seniority Trap" or ego-driven denial, treat `HEAD` notes as transparent problem logs. Never delete active reasoning or error trails; resolve them through Chronos synthesis or archive them to `99_Archive/` with clear tombstones per [[SoT - HEAD Note Contract (The Workbench)]].
 
-- Rule: If you are tempted to delete a record of a mistake, it MUST be logged in the `episodic/` cache instead.
+> [!note] Proposed Architecture: Episodic Trace Cache
+> A proposed `episodic/` JSON trace cache and automated Scribe agent (logging `task_id`, `outcome_status`, and error taxonomies) was outlined in earlier drafts. This is currently non-operational; active agent governance runs via root `AGENTS.md` write boundaries, `10_System/prompts/00 - Prompt Library Router.md`, and output discipline governed by [[Protocol - Typed Answer Contract (TAC) for Vault Agents]].
 
 ### 4.2 The "Just Culture" Buffer
 

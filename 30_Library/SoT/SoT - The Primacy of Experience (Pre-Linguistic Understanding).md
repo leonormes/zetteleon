@@ -70,7 +70,7 @@ The Chinese Room Problem, restated through the Grounding Problem above: an LLM o
 ### Connections to Other ProdOS SoTs
 
 - [[SoT - The Cognitive Physiology of Task Execution]]—Phase 2 planning relies on pre-linguistic mental models; you simulate before you narrate.
-- [[SoT - Bridging the Intention-Action Gap]]—action must often precede the linguistic explanation of one's own motivation, not follow it.
+- [[SoT - The Cognitive Physiology of Task Execution]]—action must often precede the linguistic explanation of one's own motivation, not follow it.
 
 ---
 
@@ -84,7 +84,7 @@ The Chinese Room Problem, restated through the Grounding Problem above: an LLM o
 ## Related Knowledge
 
 - [[SoT - The Cognitive Physiology of Task Execution]]—Phase 2 planning as an instance of pre-linguistic mental modelling
-- [[SoT - Bridging the Intention-Action Gap]]—action preceding its own linguistic justification
+- [[SoT - The Cognitive Physiology of Task Execution]]—action preceding its own linguistic justification
 - [[Pre-Linguistic Thought]]—the general phenomenon this SoT treats philosophically
 - [[Language Acquisition and Development]]—mapping linguistic symbols onto pre-existing conceptual frameworks
 - [[Mental representations take multiple forms]]—pre-linguistic thought may manifest as visual/spatial representations or embodied knowledge

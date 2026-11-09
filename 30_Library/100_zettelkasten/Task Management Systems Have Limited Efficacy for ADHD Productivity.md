@@ -34,4 +34,4 @@ Task management systems are only as effective as their capacity to reliably capt
 - [[Protocol - Vague-to-Action]]—_The ProdOS answer to the initiation bottleneck: turn a heavy task into a single physical action small enough to start._
 - [[The Three Rules of Starter Tasks]]—_The same move at the level of the individual task._
 - [[SoT - Prosthetic Executive Function]]—_Externalises the trigger and the boundary, which is the executive function this claim says the list cannot supply._
-- [[SoT - Bridging the Intention-Action Gap]]—_The general treatment of the gap between having a task and starting it._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_The general treatment of the gap between having a task and starting it._

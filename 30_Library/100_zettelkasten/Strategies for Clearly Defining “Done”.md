@@ -42,7 +42,7 @@ If a criterion can be partly met, you can argue with it indefinitely. One variab
 The rule has to exist before the urge to keep refining does.
 
 - [[Action Triggers Bridge the Gap Between Motion and Action]]—_A pre-defined rule, such as "after I have researched one solution for 15 minutes, I will start implementing", is a boundary that stops the preparatory phase extending indefinitely._
-- [[Phase 2 - Aggressive Initiation to Overcome Paralysis]]—_Aim for 75% readiness rather than 100%, and keep creating separate from evaluating in a first pass._
+- [[Protocol - Vague-to-Action]]—_Aim for 75% readiness rather than 100%, and keep creating separate from evaluating in a first pass._
 
 ### 4. Use time as the Done State when Completion is Too Big
 
@@ -79,7 +79,7 @@ Perfectionism is the main reason a done state keeps moving, so the strategies ab
 - [[Satisficing Leads to Sub-optimal Solutions]]—_A tension worth holding: "good enough" can lock in the first adequate option. Tie the criteria to the purpose of the work, not to whatever is first available._
 - [[The Danger of Perpetual System-Building]]—_Perfecting the design instead of using the simplest workable version is this failure in productivity systems._
 - [[The Core Problem Confusing Preparation with Action]]—_Planning and preparing can be avoidance dressed as diligence; this note is the section it points to for the fix._
-- [[MOC - Three-Phase Protocol for Execution]]—_Where the perfectionism-neutralising and aggressive-initiation phases sit in the wider execution protocol._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Where the perfectionism-neutralising and aggressive-initiation phases sit in the wider execution protocol._
 
 ## Related
 

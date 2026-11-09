@@ -7,7 +7,7 @@ modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/protocol-autonomous-action-system
 source_of_truth: true
-status: evergreen
+status: superseded
 synthesis-count: 1
 tags: [gtd, llm, prodos, system/protocol, TheHuman/Health/ADHD, todoist]
 title: Protocol - Autonomous Action System
@@ -15,55 +15,6 @@ trust-level: stable
 type: protocol
 ---
 
-## Logic Map
+## REDIRECT
 
-Objective: To eliminate the cognitive load of "managing the system" by using an LLM-Agent to organize, route, and prompt the user.
-
-Dependencies:
-
-- Obsidian MCP: Ground truth for thinking and knowledge.
-- Todoist MCP: Ground truth for physical actions and deadlines.
-- Gemini CLI: The active orchestrator (Chief of Staff).
-
-## The Algorithm (MVAs)
-
-### 1. The Capture Phase (Human)
-
-- MVA: Dump everything into `00_Inbox/dump.md`.
-- Constraint: No formatting required. Just raw text.
-
-### 2. The Refine Phase (Agent)
-
-- Trigger: User says "Process my dump" or "I'm overwhelmed."
-- Action Sequence:
-    1. Read `00_Inbox/dump.md`.
-    2. Identify Projects vs. Next Actions.
-    3. Use `todoist_add_task` to create projects and actions.
-    4. Move processed content to `99_Archive/Processed_By_Agent/`.
-    5. Present a "Clean Runway" (top 3 actions).
-
-### 3. The Context Restoration Phase (Agent)
-
-- Trigger: Start of a new session.
-- Action Sequence:
-    1. Use `todoist_search` for tasks due 'today'.
-    2. Output: "Welcome back. Today's priority is [X]. Here are your next 3 actions."
-
-### 4. The Health Check (Agent)
-
-- Trigger: Weekly review or user request.
-- Action Sequence:
-    1. Use `todoist_get_project_health` (or equivalent).
-    2. Flag stalling projects or overdue items with a "Next Test" proposal.
-
-## Unit Test
-
-1. Run `Process my dump` with a test entry in `00_Inbox/dump.md`.
-2. Verify task appears in Todoist.
-3. Verify content is moved to Archive.
-
-## Related
-
-- [[SoT - Execution Protocol (GTD & PARA)]]—_The definitions and stages this protocol automates: Refine is Clarify and Organize, and the Health Check is Reflect._
-
-[implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]
+Consolidated 2026-11-09. The agent-run (MCP) version of the dump-to-Todoist workflow is now Mode B of [[Protocol - Action-First GTD (LLM Chief of Staff)]]. This note stays at its title because other notes link here.

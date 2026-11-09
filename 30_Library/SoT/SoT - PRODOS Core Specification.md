@@ -1,5 +1,5 @@
 ---
-aliases: [PRODOS, Productivity Operating System]
+aliases: [PRODOS, Productivity Operating System, SoT - PRODOS (System Architecture)]
 conformant: true
 created: 2026-01-03T09:45:08+00:00
 modified: 2026-10-22T15:11:11+00:00
@@ -24,7 +24,7 @@ PRODOS is a Thinking Utility designed to convert Neural Potential into Kinetic V
 
 #### 1.2 The Five Axioms
 
-1. Utility Over Truth: If a note doesn't help you act, it is noise.
+1. Utility Over Truth: If a note doesn't help you act, it is noise. _Scope: this holds inside execution (GTD tasks). It is not applied to the thinking layer, where notes earn their place by improving model fidelity at corpus level; see [[Claim - Thinking Earns Its Place by Improving Model Fidelity]], which revises [[Claim - A Note That Does Not Help You Act Is Noise]], and [[SoT - Processing IS the Work]] §6._
 2. Throughput Over Storage: The system is for Compute, not a database.
 3. Low Maintenance: Operates with < 10% Maintenance Load.
 4. Context is Scarcity: Aggressively compact context to protect attention.
@@ -59,10 +59,11 @@ The Minimal Viable Action (MVA) is the atomic unit of execution.
 - Rule: The MVA must be a physical, binary task so small it is impossible to fail (e.g., "Open the code editor").
 - Energy: The goal is to reduce Activation Energy to $\approx 0$.
 - The Unit Test: Can you say "Yes/No" to success in < 120 seconds?
+- Open: [[The Three Rules of Starter Tasks]] allows a starter task 5 to 15 minutes, against the 120 seconds here. The two are not yet reconciled; that note records the tension.
 
 #### 3.3 The Ignition Protocol ("Heat")
 
-If you are stuck in "Logic Mode," use one of these to generate movement (via the [[MOC - ProdOS#The Dopamine Engine (The PINCH Model)|PINCH Model]]):
+If you are stuck in "Logic Mode," use one of these to generate movement (via the [[#2. The Dopamine Engine (The PINCH Model)|PINCH Model]]):
 
 1. Mystery: "I wonder if I can do this without using [Tool]?"
 2. Urgency: "I have 5 minutes. How much can I get done?"
@@ -91,6 +92,16 @@ Use Instruction SoTs to offload working memory for complex tasks.
 
 ### 5. Data Schema
 
-- HEAD Notes: Active thinking and Decision Tracing.
+- HEAD Notes: Active thinking and Decision Tracing. Admission and lifecycle: [[SoT - HEAD Note Contract (The Workbench)]].
 - SoT Notes: Canonical Truth and Instruction SoTs (Checklists).
-- The Context Cache (.ai/): Machine-readable memory for the AI Executor.
+- The Context Cache (.ai/): Not built. Agent context today comes from `AGENTS.md`, the Prompt Library Router and 1MCP; see [[SoT - AI Agent Skill Architecture]].
+
+---
+
+## Related Knowledge
+
+- [[MOC - ProdOS]]—_Master hub for the system._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Neurological basis._ [depends_on:: [[SoT - The Cognitive Physiology of Task Execution]], confidence=medium]
+- [[SoT - Behavioral Architecture]]—_Environmental engineering behind the System > Willpower stance._ [depends_on:: [[SoT - Behavioral Architecture]], confidence=medium]
+- [[SoT - The Extended Mind]]—_Philosophical foundation for offloading cognition._ [depends_on:: [[SoT - The Extended Mind]], confidence=medium]
+- [[SoT - ProdOS Thinking Stream]]—_Operational guide to §3.1._

@@ -20,14 +20,14 @@ llm-action: redirect-created
 modified: 2026-07-10T23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-routines-should-be-based-on-intrinsic-motivation-not-external-pressure
 status: superseded
-superseded_by: 'SoT - Bridging the Intention-Action Gap'
+superseded_by: '[[SoT - The Cognitive Physiology of Task Execution]]'
 tags: []
 title: ADHD routines should be based on intrinsic motivation not external pressure
 type: ''
 updated: null
 ---
 
-This note's unique thinking has been integrated into the canonical Source of Truth: SoT - Bridging the Intention-Action Gap on 2025-11-13.
+This note's unique thinking has been integrated into the canonical Source of Truth: [[SoT - The Cognitive Physiology of Task Execution]] on 2025-11-13.
 
 ## From The Activation Cost of Tasks is Higher in ADHD.md
 
@@ -40,14 +40,14 @@ llm-action: redirect-created
 modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-activation-cost-of-tasks-is-higher-in-adhd
 status: superseded
-superseded_by: '[[SoT - Bridging the Intention-Action Gap]]'
+superseded_by: '[[SoT - The Cognitive Physiology of Task Execution]]'
 tags: []
 title: The Activation Cost of Tasks is Higher in ADHD
 type: ''
 updated: null
 ---
 
-This note's unique thinking has been integrated into the canonical Source of Truth: [[SoT - Bridging the Intention-Action Gap]] on 2025-11-13.
+This note's unique thinking has been integrated into the canonical Source of Truth: [[SoT - The Cognitive Physiology of Task Execution]] on 2025-11-13.
 
 ## From Why Importance and Rewards Fail to Motivate ADHD Brains.md
 
@@ -60,11 +60,11 @@ llm-action: redirect-created
 modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/why-importance-and-rewards-fail-to-motivate-adhd-brains
 status: superseded
-superseded_by: '[[SoT - Bridging the Intention-Action Gap]]'
+superseded_by: '[[SoT - The Cognitive Physiology of Task Execution]]'
 tags: []
 title: Why Importance and Rewards Fail to Motivate ADHD Brains
 type: ''
 updated: null
 ---
 
-This note's unique thinking has been integrated into the canonical Source of Truth: [[SoT - Bridging the Intention-Action Gap]] on 2025-11-13.
+This note's unique thinking has been integrated into the canonical Source of Truth: [[SoT - The Cognitive Physiology of Task Execution]] on 2025-11-13.

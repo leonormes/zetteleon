@@ -179,12 +179,12 @@ Internal willpower is a finite resource. Supplement it with external structures:
 
 ---
 
-## Tensions
+> Open threads: [[HEAD - Should boredom be trained or designed out in ADHD workflows?]] · [[HEAD - Does post-work reward anticipation compromise session focus via predictive dopamine migration?]]
 
-Recorded as prose where the conflict is real but a typed edge would overstate it.
+### Documented Model Boundaries
 
-- Monotony: train it or design it out? §7.2 prescribes deliberate boredom to reset the dopamine baseline. [[ADHD Systems Fail When They Become Monotonous]] argues that routine maintenance stops delivering dopamine and the system gets abandoned—and [[Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation]] sides with engineered novelty. These may be reconcilable (tolerance for boredom _inside_ a work block vs. novelty _across_ a system's lifecycle), but the SoT does not currently say so. This is the only `contradicts` edge emitted from this note.
-- The Dopamine Menu's dessert problem. §4 places gaming and social media at the end as a post-work reward. [[The Dopaminergic Mirage — Anticipation Migrates to the Earliest Predictive Cue]] predicts that once the dessert is reliably anticipated, the dopaminergic peak migrates _forward_ to the earliest cue predicting it—so the reward stops terminating the work session and starts driving it. No edge emitted: the mirage qualifies the menu's design assumption rather than negating the protocol.
+- **Monotony vs. Novelty:** §7.2 tests deliberate boredom tolerance inside focus sprints, contrasting with [[ADHD Systems Fail When They Become Monotonous]] across macro system lifecycles.
+- **Dopamine Menu Timing:** Post-work rewards are bounded by predictive cue migration ([[The Dopaminergic Mirage — Anticipation Migrates to the Earliest Predictive Cue]]).
 
 ## Derived Protocols
 

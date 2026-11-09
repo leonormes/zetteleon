@@ -22,10 +22,10 @@ At the task-definition layer, this habit also depends on a clean vocabulary for 
 
 ## ProdOS Integration
 
-This habit is the engine of the [[MOC - ProdOS]]. [supports:: [[MOC - ProdOS]], confidence=medium] The entire system is designed to facilitate Quadrant II living.
+This habit is the engine of the [[MOC - ProdOS]]. The entire system is designed to facilitate Quadrant II living.
 
-- The Weekly Review: The [[Protocol - Weekly Command Centre|10 - The Review and Reflection Process]] is the essential Quadrant II activity that allows you to plan the week ahead, ensuring you are scheduling your priorities. [depends_on:: [[Protocol - Weekly Command Centre]], confidence=medium]
-- Timeboxing & The Unschedule: The techniques described in [[SoT - Temporal Management (Blocking and Boxing)|11 - Time Management (Timeboxing and The Unschedule)]] are direct implementations of Habit 3. You schedule the "big rocks" (important goals) first. [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
-- Engaging Actions: The Four-Criteria Model (Context, Time, Energy, Priority) used to choose what to do, as described in [[Protocol - Action-First GTD (LLM Chief of Staff)|04 - Atomic Actions and Next Actions]], is the moment-to-moment practice of putting first things first.
+- The Weekly Review: The [[Protocol - Weekly Command Centre]] is the essential Quadrant II activity that allows you to plan the week ahead, ensuring you are scheduling your priorities. [depends_on:: [[Protocol - Weekly Command Centre]], confidence=medium]
+- Timeboxing & The Unschedule: The techniques described in [[SoT - Temporal Management (Blocking and Boxing)]] are direct implementations of Habit 3. You schedule the "big rocks" (important goals) first. [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
+- Engaging Actions: The Four-Criteria Model (Context, Time, Energy, Priority) used to choose what to do, as described in [[Protocol - Action-First GTD (LLM Chief of Staff)]], is the moment-to-moment practice of putting first things first.
 
 This habit is the bridge between your vision and your daily actions, leading towards the Public Victory, which begins with [[Habit 4 - Think Win-Win]]. [supports:: [[Habit 4 - Think Win-Win]], confidence=high]

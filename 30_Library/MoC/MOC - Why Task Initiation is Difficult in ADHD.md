@@ -54,7 +54,7 @@ Task initiation is only Phase 1. ADHD impacts the entire lifecycle:
 2. Focus (The Middle): Maintaining engagement.
 3. Effort (The Grind): Pushing through non-novel segments.
 4. Transition (The End): Stopping or switching tasks.
-See: [[MOC - Three-Phase Protocol for Execution|MOC - The Phases of Task Execution and the Impact of ADHD]]
+See: [[SoT - The Cognitive Physiology of Task Execution|The Five Cognitive Phases of Task Execution]]
 
 ---
 

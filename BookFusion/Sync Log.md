@@ -121,3 +121,5 @@ type: note
 - Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
 ## 11/9/2026, 8:06:58 AM
 - User Story Mapping Discover the Whole Story, Build the Right Product-3531505 [Open](obsidian://open?file=BookFusion%2FBooks%2FUser%20Story%20Mapping%20Discover%20the%20Whole%20Story%2C%20Build%20the%20Right%20Product-3531505.md) 0
+## 11/9/2026, 5:20:40 PM
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0

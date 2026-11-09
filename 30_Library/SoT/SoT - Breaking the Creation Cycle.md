@@ -91,3 +91,20 @@ A specific prompt structure to load into an LLM to help regain context.
 > Output B (Re-entry): Warm start commands, Smallest Next Task (≤ 15 mins).
 > Output C (Queue): MPD Tasks, Parked Ideas.
 > Output D (Novelty): Optional Spike proposal.
+
+---
+
+## 6. Stall-Break Diagnosis (Mid-Session)
+
+Added 2026-11-09 from the archived `Operating Protocol for High-Friction Engineering Work`. Use it when you stall for more than five minutes of zero progress mid-session. Do not push through. Name the stall in one word, then apply the matching response.
+
+| Diagnosis | Meaning | Response |
+| --- | --- | --- |
+| Unclear | I don't know what I'm doing | Stop. Write the next 3 actions in plain English in a scratch file, then return. |
+| Hard | I know what to do but the step is genuinely difficult | Step the problem down: smallest possible test, draw it on paper, or explain it aloud to someone or an LLM. |
+| Boring | I know what and how, but my brain refuses | Engineer novelty: change scenery, change music, narrate aloud, or body-double. |
+| Anxious | I'm avoiding it out of fear (breaking something, judgement, failure) | Name the fear in writing. Find the smallest reversible action that tests it. |
+| Depleted | Tank's empty | Run the exit ritual, go outside, and come back tomorrow. |
+
+Log each stall with date and diagnosis. After a month the pattern points at structural fixes.
+

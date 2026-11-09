@@ -20,22 +20,22 @@ The Thinking Stream is the "RAM" of the ProdOS system—a low-friction, high-thr
 ### 1. The Core Lifecycle (CRPE)
 
 1. CAPTURE: Dump mental noise into the Daily Note. Raw text, no formatting, no judgment.
-2. REFINE: If an idea is complex or "stuck," move it to a `HEAD` note in `20_Thinking`.
+2. REFINE: If an idea is complex or "stuck" and leaves a question that needs your judgement, open a `HEAD - <question>?` note in `20_Thinking/21_Workbench/`. Admission rules are in [[SoT - HEAD Note Contract (The Workbench)]].
 3. PROCESS (The 120s Loop):
     - Goal: What is the single, physical outcome desired?
     - Block: What is the exact friction preventing progress?
     - MVA: What is the next physical step that takes <120 seconds?
 4. EXIT:
-    - Action? $\rightarrow$ Move to Todoist.
-    - Fact? $\rightarrow$ Merge into a [[SoT]] note.
+    - Action? $\rightarrow$ Move to Todoist (see [[gtd-action-system]]).
+    - Fact? $\rightarrow$ Merge into a canonical note in `30_Library/SoT/` via [[Prompt - ProdOS Chronos Synthesizer]], then archive the HEAD note (leave a tombstone if other notes cite it; see the HEAD Note Contract §3.1).
     - Skill/Project? $\rightarrow$ Move to the Hangar (Project Note).
-    - Noise? $\rightarrow$ DELETE.
+    - Noise? $\rightarrow$ DELETE (raw captures only; never a HEAD note that is cited as `upstream`).
 
 ### 2. The Guardrails
 
-- NO FOLDERS: Use `20_Thinking` as a flat workbench.
+- FLAT WORKBENCH: No sub-folders inside `20_Thinking/21_Workbench/`; it is a flat queue of questions.
 - NO POLISHING: Clarity of thought is superior to aesthetics of layout.
-- NO STORAGE: If a thought is not actionable or synthetic within 24h, it is likely debt. Delete or archive.
+- NO SILENT ROT: A thought that cannot name what would settle it is debt. Fix it in place, resolve it, or archive it per the HEAD Note Contract; do not leave it open by default.
 
 ## Current Understanding
 
@@ -45,6 +45,7 @@ The 120s loop is designed to bypass the "Dumb Zone" of over-deliberation. By foc
 
 ## Related Knowledge
 
-- Kernel: [[SoT - PRODOS Core Specification]]
+- Kernel: [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=medium]
+- Workbench: [[SoT - HEAD Note Contract (The Workbench)]] [depends_on:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=medium]
 - Philosophy: [[SoT - Processing IS the Work]]
-- Automation: [[Protocol - Autonomous Action System]]
+- Automation: [[Protocol - Action-First GTD (LLM Chief of Staff)]] (Mode B: agent-run)

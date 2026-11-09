@@ -57,9 +57,9 @@ For each item, ask: _Is it actionable?_
 
 ### ☐ Phase 3: Organize (The Sorting)
 
-- [ ] Projects: Move the Project Outcome to the appropriate PARA Container.
-- [ ] Tasks: Assign a context (e.g., `@computer`) and a parent Project.
-- [ ] Blockers: Add `@waiting_for` if dependent on others.
+- [ ] Projects: Move the Project Outcome to the appropriate PARA Container (Obsidian or Jira).
+- [ ] Tasks: Assign a flat context (e.g., `@computer`) and assign to flat project (`#Work` or `#Personal`).
+- [ ] Blockers: Move to `#Waiting` with `@waiting` if dependent on others.
 
 ### ☐ Phase 4: Reflect (The Review)
 
@@ -90,13 +90,11 @@ A Project or Task is not "Done" until it meets the Exit Criteria.
 
 ---
 
-## Where It Runs
+## Executing Protocols
 
-The stages above are executed by these ProdOS notes. This SoT defines the terms and the exit test; they do the work.
+This SoT defines the vocabulary, project/container boundaries, and Definition of Done. The concrete execution workflows are operationalised by downstream protocols:
 
-- [[SoT - PRODOS Core Specification]]—_Section 3.1 (Thinking Stream) and 3.2 (the MVA) are the capture front end and the atomic Task this SoT's Phase 5 engages._
-- [[Protocol - Autonomous Action System]]—_The agent's Refine phase separates Projects from Next Actions and creates them in Todoist (Clarify and Organize); its Health Check is the Reflect stage._
-- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_The LLM hand-off for Clarify and Organize; its unit test (a physical artifact for every project, binary next actions) restates the Definition of Done in section 3._
-- [[Protocol - Vague-to-Action]]—_Clarify for items that feel too heavy to define: its Phase 1 (define done, name the outcome) is the naming rule in section 1 applied under avoidance._
-- [[The Clarification Ritual (Stuff to Action)]]—_An untested daily experiment that runs the Clarify stage as a timed 15 minute session with a strict do-not-do-the-work rule._
-- [[Protocol - Weekly Command Centre]]—_Reflect stage, run as a reduced Tier 0 floor; Move 3 is the check that every active commitment has a next action._
+- [[gtd-action-system]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Automated and manual dump clarification and triage engine._
+- [[Protocol - Weekly Command Centre]]—_The 10-minute Friday 16:30 reset protocol executing the Reflect stage._
+- [[Protocol - Vague-to-Action]]—_Decomposition protocol for heavy tasks avoiding the Clarify stage._

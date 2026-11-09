@@ -40,3 +40,12 @@
 {"kind":"completion","at":"2026-11-08T11:21:57.812914Z","note":"Deep review \u0026 ProdOS protocol comparison added to LLM GTD Context.md; wired 26 outgoing typed edges and 1 missing incoming depends_on edge in Effective Productivity Comes From the Bottom Up.md; validated 0 new errors/0 warnings/0 cycles"}
 {"kind":"intent","at":"2026-11-08T11:35:27.716855Z","title":"Refresh A Proposed Eight-Predicate Edge Vocabulary for Typed PKM Links with newer ProdOS schema and typed edges","body":"Populate missing concept frontmatter fields (definition, distinguishes_from, used_in_claims), fix dangling upstream link, update body with ProdOS two-layer reasoning vs compiler vocabulary synthesis, and add canonical typed edges."}
 {"kind":"completion","at":"2026-11-08T11:38:42.939037Z","note":"Refreshed A Proposed Eight-Predicate Edge Vocabulary for Typed PKM Links: added concept schema frontmatter (definition, distinguishes_from, used_in_claims, conformant: true), updated body with ProdOS two-layer reasoning vs compiler vocabulary synthesis, and wired 6 canonical typed edges."}
+{"kind":"intent","at":"2026-11-09T10:08:53.378003Z","title":"Bisect Obsidian plugins by editing community-plugins.json","body":"Backup to community-plugins.json.bisect-orig; disabling half of plugins per round"}
+{"kind":"completion","at":"2026-11-09T10:14:21.786273Z","note":"Bisected; obsidian-outliner breaks editor on Obsidian 1.15.1 insider; left disabled, others re-enabled"}
+{"kind":"intent","at":"2026-11-09T10:30:27.7386Z","title":"Disable autoRevealActiveFile in notebook-navigator data.json","body":"Stop navigator jumping to another folder when a file is closed"}
+{"kind":"completion","at":"2026-11-09T10:30:27.773055Z","note":"Set autoRevealActiveFile false"}
+{"kind":"intent","at":"2026-11-09T10:42:57.343718Z","title":"Create test Excalidraw drawing via CLI at 00_Inbox/Test.excalidraw.md","body":"Verify excalidraw CLI create/read/export; inline JSON, no other files"}
+{"kind":"completion","at":"2026-11-09T10:42:59.752064Z","note":"Created 00_Inbox/Test.excalidraw.md via Excalidraw CLI to verify it works"}
+{"kind":"intent","at":"2026-11-09T13:31:15.421184Z","title":"Refresh faceted PKM schema note: fix broken links, enrich"}
+{"kind":"completion","at":"2026-11-09T13:42:00.704548Z","note":"Fixed broken links in faceted PKM note"}
+{"kind":"intent","at":"2026-11-09T13:52:44.971219Z","title":"Refresh Cal Newport Deep Work note: fix links, typed edges"}

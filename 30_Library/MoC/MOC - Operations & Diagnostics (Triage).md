@@ -35,7 +35,7 @@ This hub triages the "Operational Playbooks/Diagnostics" cluster, focusing on Ze
 - [[Protocol - Metabolic Firewall]]
 - [[Protocol - 5-Minute Primal Activation]]
 - [[Protocol - Tendon Resilience (Isometrics)]]
-- [[Instruction SoT - Research-to-Action Protocol]]
+- [[SoT - Research-to-Action Protocol|Instruction SoT - Research-to-Action Protocol]]
 
 ### 4. Unprocessed Seedlings (Triage Candidates)
 

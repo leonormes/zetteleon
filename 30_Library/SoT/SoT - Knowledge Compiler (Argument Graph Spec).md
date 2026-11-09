@@ -108,12 +108,13 @@ Each phase is shippable alone and adds exactly one epistemic answer. Do not buil
 - Block-level vs note-level claims. The model supports both, but mixing them raises the block-id-uniqueness question from the Edge Vocabulary SoT §4. Prefer note-level claims until block-level proves necessary for a real argument.
 - Scope of the graph scan. Whole vault, or a designated `argument/` corpus? Default whole-vault (opt-in via edges means noise is naturally low); reassess if scans get slow or noisy.
 
-## Tensions & Gaps
+> Open threads: [[HEAD - Is the argument compiler's gap definition measuring anything real?]] · [[HEAD - How should derived contradictions be surfaced without full transitive explosion?]]
 
-- ~~No argument data yet.~~ Superseded 2026-07-25. The justification graph is no longer empty: 39 justification edges across 43 nodes, mostly a real ADHD-neurology argument converging on [[The ADHD brain operates on an Interest-Based Nervous System]]. C1 returns 12 genuine gaps—claims that support something with nothing beneath them and no `axiom` flag. What remains empty is the _conflict_ half: 0 `contradicts` edges and 0 `axiom: true` markers vault-wide, so C2's declared-axiom set is empty by construction and C3 has never fired on real data. The seeding task the original tension named is half-done: the support graph exists, the conflict graph does not.
-- Every gap is a leaf, which may mean the definition is too generous. All 12 C1 gaps are single-hop leaves feeding one hub claim, and the graph is two levels deep. A shallow star is exactly the shape that makes C1 look productive while telling you little—the "gaps" are simply the outermost ring, and adding support to any of them just moves the ring outward. C1 earns its place only once the graph has depth; until then, read its output as "here is the current frontier", not "here are 12 defects".
-- Author-asserted, not validated. Every edge is a claim _you_ made about your own reasoning. The compiler can find a gap or a contradiction in the _shape_ of what you asserted; it cannot tell you whether an individual `supports` is actually a good reason. It sharpens your thinking; it does not outsource it.
-- Atomicity discipline required. The graph is only as clean as the claims are atomic. A note bundling three assertions cannot be cleanly supported or contradicted—the Zettelkasten "one claim per node" rule is a hard prerequisite, not a stylistic preference.
+### Compiler Operational Notes
+
+- **Graph Shape Frontier:** The justification graph computes structural shape (C1 gaps, C2 foundation roots, C3 cycles). As the graph deepens beyond shallow stars, C1 transitions from frontier exploration to defect detection.
+- **Author Grounding:** Edges record author-asserted justification structure; logical validity remains a human decision rather than an automated theorem proof.
+- **Atomicity Prerequisite:** Clean graph verification requires propositions to adhere to [[SoT - Atomic Note Standard (The Proposition Card)]].
 
 [depends_on:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=5, confidence=high]
 

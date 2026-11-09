@@ -66,5 +66,4 @@ Use external cues to trigger the "Project Identity."
 - [[The Motivation Bridge - An ADHD Metaphor]] (Novelty vs. Urgency).
 - [[Non-Linear Workflows for ADHD Task Initiation]] (Working where the energy is).
 - [[Momentum-Based Re-Entry Points Ease Project Resumption]].
-- [[SoT - Overcoming Project Re-Entry Challenges]] (Redirected).
 - [[MOC - Project Continuity]].

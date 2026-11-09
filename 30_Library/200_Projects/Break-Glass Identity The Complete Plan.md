@@ -257,6 +257,6 @@ But all of that is downstream of the three answers above. Today: those three ans
 
 ---
 
-[[Operating Protocol for High-Friction Engineering Work]]
+[[SoT - Breaking the Creation Cycle]]
 
 [[Restructuring Entra ID—Scoping, IaC & PIM]]

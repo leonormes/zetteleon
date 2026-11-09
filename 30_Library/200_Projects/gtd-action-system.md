@@ -1,6 +1,9 @@
 ---
+aliases: [Four-Tier Action System, GTD Action Architecture, GTD Action System]
+conformant: true
 created: 2026-06-02T00:00:00+00:00
 modified: 2026-10-22T15:11:09+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/200-projects/gtd-action-system
 project_category: prodos
 project_name: ProdOS
@@ -9,7 +12,7 @@ source: 'Distilled from the processing note "HEAD — Gaining Control The 5 Stag
 status: stable
 tags: [5, gtd, jira, obsidian, productivity, system, todoist, workflow]
 title: gtd-action-system
-type: practice
+type: protocol
 ---
 
 > [!abstract] The system in one paragraph
@@ -271,3 +274,14 @@ The cheapest possible proof that the system works is a single clarified item lig
 > Open Todoist → Inbox → take the single easiest item → rewrite its title so it begins with a physical verb (Draft / Open / Call / Read / Message / Run) → tap it into Work or Personal.
 >
 > Stop there. One item is the entire instruction—it instantiates the whole architecture in under two minutes.
+
+---
+
+## Related Knowledge
+
+- [[SoT - Execution Protocol (GTD & PARA)]]—_The foundational Source of Truth defining the Project, Container, and Task DoD taxonomy implemented by this architecture._
+- [[Protocol - Weekly Command Centre]]—_The Friday 16:30 weekly review that maintains the Jira-Todoist cross-reference._
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_The capture and triage hand-off protocol feeding this runway._
+
+[implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=high]
+

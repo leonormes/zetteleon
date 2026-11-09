@@ -108,14 +108,14 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit
 
 This is the link/edge half of the validator [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §9 names but says does not yet exist; `fileclass validate` (CLI) covers the frontmatter half. Union of the two = the ProdOS knowledge compiler.
 
-## Tensions & Gaps
+> Open threads: [[HEAD - Does the typed-edge vocabulary survive contact with real edges?]] · [[HEAD - How should block-id uniqueness be enforced across notes in edge_lint?]]
 
-- The two readers disagree about code blocks. `edge_lint.py` masks fenced and inline code before parsing, so an edge written as a documentation _example_ is ignored. Dataview does not: it indexes inline fields inside code spans as real properties. A note explaining the syntax therefore shows up in `LIST WHERE contradicts` but not in the compiler's graph—which is exactly how this vault's own handoff note became the single Dataview `contradicts` hit while the compiler correctly reported zero. Prefer prose over a live-looking example when documenting edges, and treat DQL counts as an upper bound on real edges.
-- Syntax migrated twice. Edges were originally written `%%claim.supports{Target}%%` with bare-id targets. On 2026-07-25 all edges were migrated to a Dataview form wrapped in Obsidian comments. Later, to expose them natively in Obsidian Graph View and Dataview, the `%%` wrappers were stripped entirely, leaving `[relationship:: [[Target]]]`. Treat §1 as settled unless Dataview itself changes.
-- Block-id targets are the one un-linkable case. 16 of the 69 edges target `content-block` ids and so must stay bare, because a block is not a file. They therefore keep the rename fragility that wikilinks solved for notes. If block-level claims become common, they need either real Obsidian `^block-refs` or a namespacing scheme—see the uniqueness gap below.
-- Block ids are vault-unique by assumption. §4 resolves block ids globally, but nothing yet _enforces_ uniqueness of a `content-block` id across notes. The compiler's ambiguity warning is the only guard; a stronger scheme (namespacing ids by note) may be needed if collisions appear.
-- Overlap with frontmatter relations is a convention, not a gate. §2 says "prefer the frontmatter field for note→note", but nothing stops an author recording the same fact both ways. If this drifts in practice, promote the rule to a compiler check that flags an inline edge duplicating a frontmatter relation.
-- Vocabulary is seeded, not proven. The six relationships come from one POC plus the existing Claim/Evidence fields. Expect to add or merge types once real edges accumulate—treat `lifecycle: seedling` literally.
+### Documented Implementation Trade-offs
+
+- **Code Block Parsing Divergence:** `edge_lint.py` masks fenced/inline code before parsing, whereas Dataview indexes code spans as properties. Avoid live-syntax examples in code blocks to prevent spurious Dataview hits.
+- **Syntax Evolution:** Edges migrated from `%%claim.supports{Target}%%` to comment-wrapped Dataview fields, then finally to bare `[relationship:: [[Target]]]` on disk for native Graph View and compiler parsing.
+- **Block-ID Target Fragility:** Bare `content-block` targets remain un-linkable files; uniqueness across notes is monitored by ambiguity warnings in the compiler.
+- **Frontmatter vs. Inline:** Frontmatter fields remain preferred for note-level relationships; inline edges provide block-level granularity.
 
 [implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
 
