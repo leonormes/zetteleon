@@ -43,7 +43,7 @@ Core Axiom: If you trust your future self to "do the right thing," you have alre
 ## Related
 
 - [[External Accountability Sustains ADHD Project Commitment]] - _The Social Constraint type, with the ADHD rationale for why it works._ [synthesizes:: [[External Accountability Sustains ADHD Project Commitment]], confidence=medium]
-- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]] - _Argues the trigger should be decided and externalised before the moment of need, which is the pact logic._ [synthesizes:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], confidence=medium]
+- [[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]] - _Argues the trigger should be decided and externalised before the moment of need, which is the pact logic._ [synthesizes:: [[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]], confidence=medium]
 - [[Implementation Intentions Automate Action Initiation with If-Then Plans]] - _A lighter pre-commitment: the decision is made in advance, though nothing enforces it._
 - [[Akrasia is Acting Against One's Better Judgment]] - _The failure these pacts are designed to survive._
 - [[Commitment, Consistency, and Sunk Cost Fallacy]] - _The consistency pressure that Social Constraints exploit on purpose._

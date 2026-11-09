@@ -1,9 +1,12 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-10-27T12:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
-tags: [archery, prodos/atomic, technique]
+tags:
+- archery
+- prodos/atomic
+- technique
 title: Archery Shot Process - Loading
 type: procedure
 ---
@@ -192,6 +195,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Pushing the bow arm while pulling (two video summaries, 2026-10-08): the front-elbow video lists "actively pushing the bow arm forward while pulling" as a fault that raises the humerus and ruins string clearance. [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Release]] teach a two-way push-and-pull and a "two-sided release", and the "relaxed shot" video wants the bow arm extended against the socket. The difference may be between pushing the arm out and reaching with a set shoulder, but the summaries do not say. Both are kept. Unresolved; see [[Archery Shot Process - Open Questions]].
 - Driving the shoulders down and back (relaxed-shot video summary, 2026-10-08): it says to actively drive the shoulders down and back at full draw. Coach Ash Morgan (see [[Archery Shot Process - Raise]]) says forcing the shoulder down breaks the structural connection. Both are kept; this adds to the existing open question about how much deliberate depression to use.
 
+- Lowering from a higher raise (Gemini capture, 2026-10-27, unverified): when the bow was raised above the full-draw height (see [[Archery Shot Process - Raise]] Alternative Views), come down to the correct height during the draw, not after full draw. Keep both hands synchronised, and keep the descent and the move into loading and anchor one continuous motion. This sits with the sight path in step 8. Not yet confirmed by a coach.
 ### References
 
 - KSL / NTS LAN2 drill summary (captured 2026-09-21; underlying source notes not named): Dead Hand band variant, Partner Tap Cue, LAN2 location

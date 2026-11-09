@@ -113,3 +113,11 @@ type: note
 ## 10/20/2026, 2:23:40 PM
 
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 11/8/2026, 9:06:13 PM
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 1
+## 11/8/2026, 9:36:15 PM
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 2
+## 11/8/2026, 10:06:17 PM
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
+## 11/9/2026, 8:06:58 AM
+- User Story Mapping Discover the Whole Story, Build the Right Product-3531505 [Open](obsidian://open?file=BookFusion%2FBooks%2FUser%20Story%20Mapping%20Discover%20the%20Whole%20Story%2C%20Build%20the%20Right%20Product-3531505.md) 0

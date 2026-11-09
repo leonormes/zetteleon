@@ -67,7 +67,7 @@ When invoked on a batch of family notes or the entire domain, execute the follow
 Before any write, verify:
 
 - `title`—required; matches the filename exactly.
-- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`—lowercase).
+- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`—lowercase).
 - `tags`—required; non-empty list.
 - `conformant`—required boolean.
 - `non_conformance_reason`—required string if `conformant: false`, omitted otherwise.

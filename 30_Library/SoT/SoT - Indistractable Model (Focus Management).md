@@ -98,7 +98,7 @@ _Binding your future self to prevent impulsive behavior._
 #### Pillar 4: Pacts
 
 - [[SoT - Prosthetic Executive Function]]—_Shared mechanism: bind the future self by engineering structure outside the body instead of relying on in-the-moment willpower._
-- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]]—_Argues for moving the decision earlier to when executive function is available, which is what a pact does._
+- [[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]]—_Argues for moving the decision earlier to when executive function is available, which is what a pact does._
 - [[Use Intentional Friction to Curb Impulse Spending]]—_A concrete effort-pact analogue: added friction forces a conscious choice before spending._
 
 #### Review

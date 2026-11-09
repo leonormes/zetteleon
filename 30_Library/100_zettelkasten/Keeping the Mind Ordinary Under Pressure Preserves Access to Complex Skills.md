@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-10-21T13:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:16+00:00
+modified: 2026-11-02T19:19:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/keeping-the-mind-ordinary-under-pressure-preserves-access-to-complex-skills
 proposition: Keeping the mind at its everyday baseline under pressure plausibly preserves
   access to complex skills because pressure disrupts skilled performance when conscious

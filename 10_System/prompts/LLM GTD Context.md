@@ -1,12 +1,13 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-10-16T08:19:54+00:00
-description: "Background context on the Getting Things Done (GTD) methodology — projects vs. next actions, the five phases of workflow control, and the six horizons of focus. Inject alongside planning, review, or task-triage prompts that assume GTD vocabulary."
-modified: 2026-10-22T15:11:08+00:00
-non_conformance_reason: Type prompt is the library-wide convention for 10_System/prompts but is not in the FrontmatterContract type enum, so all prompt notes share this error and it needs a schema decision rather than a per-note fix.
+description: Background context on the Getting Things Done (GTD) methodology — projects vs. next actions, the five phases of workflow control, and the six horizons of focus. Inject alongside planning, review, or task-triage prompts that assume GTD vocabulary.
+modified: 2026-11-08T11:20:00+00:00
 permalink: llmeon/10-system/prompts/llm-gtd-context
-tags: [domain/productivity, type/context]
+tags:
+- domain/productivity
+- type/context
 title: LLM GTD Context
 type: prompt
 ---
@@ -86,34 +87,82 @@ The principle of making work visible optimizes flow and prevents capacity overlo
 ---
 
 ## Vault Notes (Not part of the Injected Context)
+> Stop injecting at the rule above. Everything below is vault navigation and ProdOS protocol comparison for humans and agents working in the vault, not GTD context for the LLM.
 
-> Stop injecting at the rule above. Everything below is vault navigation for humans and agents working in the vault, not GTD context for the LLM.
+### How the Vault Uses This Note (Incoming Edges)
 
-### How the Vault Uses This Note
+- [[Habit 2 - Begin with the End in Mind]], [[Habit 4 - Think Win-Win]], and [[Effective Productivity Comes From the Bottom Up]] each carry an incoming `depends_on` edge to this note for the Six Horizons of Focus model (Horizons 5–4, Horizon 2, and the Ground-level Bottom-Up Focus practice, respectively), because no dedicated `30_Library/` note carries that hierarchy. Do not add reverse justification edges from here back to them (doing so creates a justification cycle in `edge_lint.py`).
+- [[00 - Prompt Library Router]] routes to this note as the GTD methodology background (`10_System/prompts/`—outside `30_Library/`). Pair it with [[leon-context-core-profile]] and [[Optimised GTD Context Auditor for Pieces LTM]] when triaging open loops.
 
-- [[Habit 2 - Begin with the End in Mind]] and [[Habit 4 - Think Win-Win]] depend on this note for the Horizons of Focus model (Horizons 5 and 4, and Horizon 2, respectively), because no dedicated note carries it. Do not add links or edges from here back to them.
-- [[Effective Productivity Comes From the Bottom Up]] develops the Bottom-Up Focus practice from the summary above.
-- [[00 - Prompt Library Router]] routes to this note as the GTD methodology background. Pair it with [[leon-context-core-profile]] for the ADHD and Chief of Staff framing.
+### Related: Vault GTD & ProdOS Notes (Outgoing Typed Edges)
 
-### The Vault's Own GTD Notes, by Section
+#### Core GTD & Flow Atoms Synthesised Here
 
-- Foundational philosophy: [[GTD and the Cognitive Load of Execution]] and [[Claim - Capture is easy but processing is hard]].
-- Projects versus actions: [[SoT - Execution Protocol (GTD & PARA)]] is the vault's specialisation. It adds a PARA container above each GTD project and requires projects to be named as completed outcomes. For next actions see [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]] and the overlapping [[Next Action is the Immediate Physical Step Forward]].
-- The five phases: [[The Clarification Ritual (Stuff to Action)]], [[Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow]], [[Never Return an Item to the In-Tray Once Picked Up for Clarification]], [[The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action]] and [[For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust]]. For Reflect: [[The Purpose of a Weekly Review is to Restore Trust in Your System]] and [[Weekly Review Verifies Project Actionability and Context]].
-- Making action choices: [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]].
-- Work visibility: [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]].
-- Best practices: [[If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It]].
-- Applied elsewhere: [[Protocol - Action-First GTD (LLM Chief of Staff)]], [[Optimised GTD Context Auditor for Pieces LTM]] and [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]].
+- [synthesizes:: [[GTD and the Cognitive Load of Execution]], confidence=high]—_Section 1 & 2: separating planning decisions from physical execution avoids simultaneous DMN/TPN conflict._
+- [synthesizes:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]], confidence=high]—_Section 1 & 3: externalising commitments frees bounded working memory ("the mind is for having ideas, not holding them")._
+- [synthesizes:: [[Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked]], confidence=high]—_Section 2: the >1-step Project rule and master Projects index._
+- [synthesizes:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]], confidence=high]—_Section 2: concrete physical-activity test ("Draft email to Bob…")._
+- [synthesizes:: [[Next Action is the Immediate Physical Step Forward]], confidence=high]—_Section 2: overlapping Next Action claim closing the psychological initiation gap._
+- [synthesizes:: [[The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action]], confidence=high]—_Section 3 (Phase 2): discrete decision bridge between raw stuff and organised buckets._
+- [synthesizes:: [[Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow]], confidence=high]—_Section 3 (Phase 2): mandatory binary actionability gate routing non-actionable items to Trash, Reference, or Someday/Maybe._
+- [synthesizes:: [[Never Return an Item to the In-Tray Once Picked Up for Clarification]], confidence=high]—_Section 3 (Phase 2): one-pass inbox rule preventing repeated non-decision._
+- [synthesizes:: [[The Purpose of a Weekly Review is to Restore Trust in Your System]], confidence=high]—_Section 3 (Phase 4) & Summary: keeping lists current so the mind can let go._
+- [synthesizes:: [[Core Actions of a GTD Weekly Review]], confidence=high]—_Section 3 (Phase 4): Allen's full Get Clear, Get Current, Get Creative weekly drill._
+- [synthesizes:: [[Weekly Review Verifies Project Actionability and Context]], confidence=high]—_Section 3 (Phase 4): per-project check for done state, next action, context, and starter task._
+- [synthesizes:: [[Context Tags Enable Efficient Batching and Reduce Context Switching]], confidence=high]—_Section 2, 3 & 5: `@Context` sorting to batch similar work and cut switching costs._
+- [synthesizes:: [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]], confidence=high]—_Section 6: limiting WIP because concurrent open loops generate compounding overhead._
+- [synthesizes:: [[If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It]], confidence=high]—_Summary: the `<2 minute` efficiency threshold during Clarification._
 
-### Where This Prompt and the Vault Differ
+#### ProdOS Protocols & ADHD Adaptations Grounded by This Baseline
 
-- The project examples above ("Install new set of tires") are not named as completed outcomes, which the Execution Protocol SoT requires.
-- The "3 Ds" line (do, delegate, defer) matches no other note in the vault. The clarification notes route non-actionable items to Trash, Incubate or Reference and do not name the Ds.
-- Section 6 (Work Visibility and Flow Management) is not GTD material. It follows the work-in-progress and make-work-visible literature (see Further Reading). The twenty-minute context-switch recovery figure has no source in the vault.
+- [supports:: [[ProdOS System Overview and Development Progress]], confidence=medium]—_integrates GTD's "Mind Like Water", Horizontal Control vs Vertical Perspective, and Capture-Now/Clarify-Later model into the ProdOS Triad (Todoist + Obsidian + AI Chief of Staff)._
+- [supports:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=high]—_the vault's canonical GTD+PARA hybrid: adds PARA Containers above GTD Projects, enforces past-tense outcome naming, and formalises Project/Task Definition of Done._
+- [supports:: [[gtd-action-system]], confidence=high]—_the live four-tier GTD implementation across Obsidian (knowledge/personal outcomes), Jira (work outcomes), Todoist (flat next-action runway), and Calendar (hard landscape)._
+- [supports:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=medium]—_outsources GTD's Clarify and Organise stages ("Dump, Don't Organize") to the LLM Chief of Staff._
+- [supports:: [[Protocol - Autonomous Action System]], confidence=medium]—_agentic GTD loop via Obsidian and Todoist MCP (`00_Inbox/dump.md` → Refine → Context Restoration → Weekly Health Check)._
+- [supports:: [[Protocol - Vague-to-Action]], confidence=medium]—_applies GTD outcome-plus-next-action decomposition (Define Done → 5-minute dump → `<120s` MVA) to heavy, avoided tasks._
+- [supports:: [[Protocol - Weekly Command Centre]], confidence=medium]—_executes GTD's Reflect stage as a fixed Friday 16:30, 10-minute, four-move Tier 0 floor._
+- [supports:: [[SoT - ProdOS Thinking Stream]], confidence=low]—_adapts GTD Capture → Clarify → Organise into the 120-second CRPE loop under the Rule of Zero Toil._
+- [supports:: [[SoT - PRODOS Core Specification]], confidence=low]—_retains GTD externalised capture and physical starter actions in §3 while re-architecting execution around the Logic–Dopamine Mismatch._
+- [supports:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]—_operationalises GTD's hard-landscape Master Calendar, 100% capture pipeline, and nested temporal horizons._
+- [supports:: [[For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust]], confidence=medium]—_GTD's discrete Clarify stage supplies the pre-decided actionability that spares ADHD executive function at execution._
+- [supports:: [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]], confidence=medium]—_GTD's `@Context` filtering narrows visible tasks to what matches current tools and energy._
+
+### Deep Comparison: Canonical GTD Prompt vs ProdOS Protocol (`30_Library/`)
+
+| GTD Prompt Section | Canonical GTD Baseline (This Prompt) | ProdOS Protocol Adaptation & Divergence (`30_Library/`) |
+|:---|:---|:---|
+| **1. Philosophy & Roles** | Assumes one human operator achieves "Mind Like Water" once open loops are externalised, clarified, and organised. | Diagnoses the **Logic–Dopamine Mismatch** (logic steers, dopamine fuels; motivation follows action) in [[SoT - PRODOS Core Specification]] and splits roles across **The Triad** in [[ProdOS System Overview and Development Progress]]: Human Problem Definer, Obsidian Zettelkasten ("Computed Truth"), Todoist Action Engine, and AI Chief of Staff. Enforces a hard **Learning vs Execution** boundary in [[SoT - Processing IS the Work]] §6: PKM friction must stay human, whereas GTD organising toil is offloaded to the LLM ("Rule of Zero Toil", [[SoT - ProdOS Thinking Stream]]). |
+| **2. Projects vs Next Actions** | Two-tier model: Project (`>1` step, e.g. imperative `"Install new set of tires"`) and physical/visible Next Action (`"Draft email to Bob…"`). | **Three-tier hierarchy & naming:** [[SoT - Execution Protocol (GTD & PARA)]] adds a PARA Container above GTD Projects, mandates **past-tense Completed Outcome titles** (`"Tax Return Submitted"`), and enforces binary Project/Task DoDs. **Tool split:** [[gtd-action-system]] separates outcomes (Jira for work, Obsidian for personal) from Todoist's flat action-only runway (max one Todoist starter per active Jira ticket; `@project` and `@next_action` tags were purged in favour of `!#Inbox & !#Someday & !#Waiting`, superseding the older `@next_action`/`@now` tag note in [[ProdOS System Overview and Development Progress]]). **Granularity:** ProdOS shrinks Next Actions into `<120s` binary **Minimal Viable Actions (MVAs)** / kindling sparks ([[SoT - PRODOS Core Specification]] §3.2, [[Protocol - Vague-to-Action]]). |
+| **3. Five Workflow Phases** | Manual Capture → Clarify → Organise (6 buckets) → Full Weekly Review → Engage. | **Clarify modes:** Replaced by agentic handoff ([[Protocol - Action-First GTD (LLM Chief of Staff)]], [[Protocol - Autonomous Action System]]), the 120s CRPE stream with a 24h delete/archive rule ([[SoT - ProdOS Thinking Stream]]), or timed decomposition ([[Protocol - Vague-to-Action]]). **Calendar & Contexts:** [[gtd-action-system]] enforces strict Hard-Landscape dates (stripping overdue wish-list dates back to no-date) and compresses contexts to `@computer`/`@home`. **Reflect:** [[Protocol - Weekly Command Centre]] cuts Allen's ~2-hour [[Core Actions of a GTD Weekly Review]] down to a **10-minute Tier 0 floor** (60s read Completed wins for dopamine, 5m Todoist Inbox, 3m cap of 3 Jira starters, 60s environmental friction fix), deferring `@waiting`, calendar, and Someday reviews to earned Tier 1–2 escalations. |
+| **4. Six Horizons of Focus** | Static six-altitude cascade from Runway up to 50,000 ft Purpose & Principles. | ProdOS replaces top-down altitude checklists with **problem-first lineage**: the **Clarity Framework** ([[ProdOS System Overview and Development Progress]]) and [[SoT - The Telos Method]]'s 7-layer DAG (_Problems → Mission → Narratives → Goals → Challenges → Strategies → Projects_), paired with [[SoT - Goal Architecture (Vision and Alignment)]]'s dissociated NLP Compass (set, ecology-check, then release from conscious rehearsal) and 10-week seasonal Quintiles in [[SoT - Temporal Management (Blocking and Boxing)]]. |
+| **5. Action Choice Criteria** | Evaluate Context → Time → Energy → Priority in the moment of execution. | [[SoT - Prosthetic Executive Function]] rejects multi-criteria decisions at the Point of Performance under ADHD depletion. ProdOS adds **missing initiation fuel** via the **PINCH Dopamine Engine** and **Ignition Protocol** (Mystery, Urgency, Spite) in [[SoT - PRODOS Core Specification]] §2–3.3, routes workflow entry points directly by energy state, binds Priority to the Eisenhower Matrix in [[Protocol - Action-First GTD (LLM Chief of Staff)]], and caps daily focus via Top-One Priority and binary Energy Check in [[SoT - Principles for Peaceful Productivity]]. |
+| **6. WIP, Flow & Heuristics** | Mixes DeGrandis (*Making Work Visible*: WIP limits, unplanned work, unsourced "20-minute" switch cost) with Allen's `<2m` rule and "3 Ds" (Do, Delegate, Defer). | **WIP & Switching:** Concurrency is bounded via One-Note-Containers in [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]], Cryosleep `#SAVESTATE` dumps in [[SoT - PRODOS Core Specification]] §4, and phase batching / Boring Breaks in [[SoT - The Cognitive Physiology of Task Execution]] (the 20-minute recovery figure has no vault source). **2-Minute Rule:** Kept in [[SoT - Execution Protocol (GTD & PARA)]] and [[gtd-action-system]], repurposed as the `<120s` MVA ceiling, and suspended in strict clarification experiments. **"3 Ds":** Absent across `30_Library/`; vault gates branch first on binary actionability (Trash / Reference / Incubate) before `<2m`, `#Waiting`, or Runway. |
+
+### Tensions (Where ProdOS Diverges Under ADHD Assumptions)
+
+- [[Claim - Capture is easy but processing is hard]]—_tension with Section 3: standard GTD treats Capture and Clarify as symmetric workflow habits, whereas in ADHD capture demands near-zero executive function while clarifying overloads working memory—justifying ProdOS's LLM Chief of Staff offload._
+- [[The Clarification Ritual (Stuff to Action)]]—_tension with the 2-Minute Rule: prescribes a strict 15-minute daily "Do NOT do the work, just clarify" mode to prevent ADHD task-hijacking, deliberately suspending GTD's `<2m` immediate-execution exception._
+- [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]—_tension with Section 2 & 3: an experiment hiding granular Next Action lists in favour of 75-minute single-project blocks to preserve ADHD flow._
+- [[Horizontal vs Vertical Execution in the ADHD Mind]]—_tension with Section 2 & 5 (`axiom: true`): argues that horizontal `@Context` interleaving across disparate projects incurs context-reloading friction and starves ADHD dopamine compared to vertical single-project sessions._
+- [[SoT - Prosthetic Executive Function]]—_tension with Section 5: argues that evaluating Context, Time, Energy, and Priority in the moment of doing relies on depleted prefrontal resources at the Point of Performance rather than pre-committed environmental cues._
+
+### See Also (ProdOS Hubs & Orthogonal Frameworks)
+
+- [[MOC - ProdOS]]—_master architectural map of the ProdOS kernel, cognitive pipeline, and operational protocols._
+- [[MOC - Action Management]]—_navigation hub separating Obsidian thinking from Todoist execution._
+- [[SoT - The Telos Method]]—_7-layer Problem-to-Project Chain of Explainability replacing GTD Horizons 3–5._
+- [[SoT - Goal Architecture (Vision and Alignment)]]—_NLP Compass protocol for encoding and releasing Horizon 4–5 vision without outcome obsession._
+- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_convergent Action–Container–Thought loop preventing collector's fallacy and scope creep._
+- [[SoT - Processing IS the Work]]—_defines why PKM synthesis requires human cognitive friction while GTD execution forbids it._
+- [[SoT - Principles for Peaceful Productivity]]—_ten daily behavioural rules (including Top-One Priority and Energy Check) sitting beneath ProdOS protocols._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_five neurological phases of execution (Initiation, Encoding, Execution, Monitoring, Completion) behind ProdOS's tool boundaries._
 
 ### Further Reading (Personal Library)
 
-- [Getting Things Done — David Allen, Ch. 1 "A New Practice for a New Reality"](calibre://view-book/GCcalibreBooks/1608/EPUB)—_uses the phrase "mind like water" (compared with the martial arts and the athlete's "zone"), the state section 1 names as the goal._
-- [Getting Things Done — David Allen, Ch. 3 "Getting Projects Creatively Under Way"](calibre://view-book/GCcalibreBooks/1608/EPUB)—_describes the next-action decision as asking what, specifically, you would physically do about something if you had nothing else to do, which is the test behind section 2._
+- [Getting Things Done — David Allen, Ch. 1 "A New Practice for a New Reality"](calibre://view-book/GCcalibreBooks/1608/EPUB)—_uses the phrase "mind like water" (compared with martial arts and the athlete's "zone"), the state Section 1 names as the goal._
+- [Getting Things Done — David Allen, Ch. 3 "Getting Projects Creatively Under Way"](calibre://view-book/GCcalibreBooks/1608/EPUB)—_describes the next-action decision as asking what, specifically, you would physically do about something if you had nothing else to do, which is the test behind Section 2._
+- [Getting Things Done — David Allen, Ch. 9 "Engaging: Making the Best Action Choices", p. 279](calibre://view-book/GCcalibreBooks/1608/EPUB)—_semantic-similarity match (0.318): connects area-of-focus shifts to defining new projects and choosing actions in Section 4 & 5._
 - [Making It All Work — David Allen, Ch. 6 "Getting Control: Clarifying"](calibre://view-book/GCcalibreBooks/226/PDF)—_notes that active projects all have specific next actions determined, while the someday category has none attached._
-- [Making Work Visible — Dominica DeGrandis, Section 2.4 "Committing the Perfect Crime: Unplanned Work"](calibre://view-book/GCcalibreBooks/225/EPUB)—_the source family for section 6: unplanned work that is not made visible leaves no evidence of what is displacing planned work._
+- [Making It All Work — David Allen, Ch. 14 "Getting Perspective at Twenty Thousand Feet: Areas of Focus and Responsibility", p. 14](calibre://view-book/GCcalibreBooks/226/PDF)—_semantic-similarity match (0.327): elaborates Horizon 2 role/accountability maintenance in Section 4._
+- [Making Work Visible — Dominica DeGrandis, Section 2.4 "Committing the Perfect Crime: Unplanned Work"](calibre://view-book/GCcalibreBooks/225/EPUB)—_the source family for Section 6: unplanned work that is not made visible leaves no evidence of what is displacing planned work._

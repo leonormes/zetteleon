@@ -6,10 +6,11 @@ tags: []
 conformant: true
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
-source_quote:
-source_reference:
+source_quote: null
+source_reference: null
 supports_claims: []
 confidence: 0.5
+permalink: llmeon/10-system/templates/template-evidence
 ---
 
 %% Evidence card. Name the file "Evidence - Who Says What". source_quote is a direct extraction, not a paraphrase. confidence is a number from 0 to 1 and belongs to evidence notes only. Frontmatter values contain no colon-space, apostrophes or double quotes (reword the book subtitle). Delete these comments when done. %%

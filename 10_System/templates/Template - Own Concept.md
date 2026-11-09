@@ -7,9 +7,10 @@ tags: []
 conformant: true
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
-definition:
+definition: null
 distinguishes_from: []
 used_in_claims: []
+permalink: llmeon/10-system/templates/template-own-concept
 ---
 
 %% Hand-written version of Template - Concept. Keep the two in step. This one is for notes you write yourself, so it carries own_words: true. If any wording comes from an LLM, delete that property. %%

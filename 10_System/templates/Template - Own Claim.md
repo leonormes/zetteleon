@@ -11,6 +11,7 @@ proposition: <% tp.file.title %>
 epistemic_status: medium
 evidence_links: []
 contradicts: []
+permalink: llmeon/10-system/templates/template-own-claim
 ---
 
 %% Hand-written version of Template - Atomic Zettel. Keep the two in step. This one is for notes you write yourself, so it carries own_words: true. If any wording comes from an LLM, delete that property. %%

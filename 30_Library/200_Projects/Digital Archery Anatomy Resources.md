@@ -274,3 +274,6 @@ _This is for informational purposes only. For medical advice or diagnosis, consu
 > 54. How To Warm Up For Archery with Keith Harding (Improve Your, [https\://www\.youtube.com/watch?v=37-EJhyhI5A](https://www.youtube.com/watch?v=37-EJhyhI5A)
 > 55. Introduction and overview with Jake Kaminski Basic Recurve, [https\://www\.youtube.com/watch?v=UW0jWl2Ksl0](https://www.youtube.com/watch?v=UW0jWl2Ksl0)
 > 56. Archery Form: Recurve Anchor Point \- YouTube, [https\://youtu.be/2MQ9y5HKfY4?si=5WSZ3Fw2S\_6jMkgR](https://youtu.be/2MQ9y5HKfY4?si=5WSZ3Fw2S_6jMkgR)
+
+
+See also: [[Archery Biomechanics and Shoulder Health Protocol]] for a practical summary of the injury and rehabilitation material.

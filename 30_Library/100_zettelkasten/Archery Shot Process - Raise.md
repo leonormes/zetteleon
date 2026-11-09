@@ -1,9 +1,12 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-10-27T12:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
-tags: [archery, prodos/atomic, technique]
+tags:
+- archery
+- prodos/atomic
+- technique
 title: Archery Shot Process - Raise
 type: procedure
 ---
@@ -46,12 +49,15 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 - The "Tree Branch" Mindset: To maximize resistance to downward force, imagine your extended bow arm as a strong "tree branch" or solid block of wood. Actively trying to flex and tense every single muscle in the arm leads to fatigue, instability, and a "melted brain".
 - Relaxed start + weight shift: from a relaxed, slightly dipped posture, the shoulder seats itself down and forward on the way up—no conscious forcing needed.
 
+- Downhill draw (Gemini capture, 2026-10-27, unverified): because the raise starts slightly above the full-draw height, the draw travels in a lower direction. The shoulders settle as the bow comes down, and the bow is said to feel easier to pull.
 ### Alternative Views / Corrections
 
 - Lift Driving Force (Jake Kaminski): Kaminski teaches that the bow arm should be the main driving force for the lift, with the draw hand directly connected via the bowstring simply following the bow arm upward. This contrasts with the strict two-handed lift approach which argues that lifting primarily with the bow arm can over-engage the deltoids.
 - The "Scooping" Motion / Aggressive Pull Down (Coach Ash Morgan): While some teach aggressively pulling the shoulder down and using a "scooping" motion to keep it low (as in step 5), Coach Ash Morgan argues this breaks structural connection and pushes the shoulder out of the socket. He recommends starting with a neutral position with only a tiny bit of downward direction and raising naturally; true stability comes from conditioning, not physically forcing the joint down.
 - Soft elbow vs extended bone-on-bone arm (two video summaries, 2026-10-08): the front-elbow video says never lock out and keep a soft, slightly bent elbow. The "relaxed shot" video says keep the bow arm extended, without hyperextending, so bone-on-bone structure pushes back into the socket (see [[Archery Shot Process - Loading]]). They can be reconciled as "extended but not locked", and the pre-set micro-bend in step 5 sits between them. The exact degree of bend is not specified in either summary; ask the coach what yours should be. See [[Archery Shot Process - Open Questions]].
 
+- Raise above the full-draw height, then relax the shoulders (coach, Saturday coaching session, captured 2026-10-27): lift the bow higher than the arrow will sit at full draw, then once it is up consciously relax the shoulders to check you are not shrugging. This fits step 1 (relaxed start), step 4 (eye level) and step 7 (settle at the apex). The training-material summary agrees (Gemini capture, 2026-10-27, unverified): the bow points well above the target at its highest point, and settling down from there lets the shoulders come down because the bow is coming down. Coach Ash Morgan's warning above about forcing the shoulder down still applies: relax, don't push.
+- Open point, descent versus momentum (inferred, not sourced): "Why It Works" warns against raising excessively high and dropping into full draw on gravity or momentum. The higher raise above only works as a controlled, synchronised descent during the draw (see [[Archery Shot Process - Loading]] step 8), not a drop. Confirm with the coach how high is high enough.
 ### Faults & Diagnostics
 
 - Drawing from the Bottom: Initiating the draw from a low position (waist/chest level) forces the front shoulder upward as draw tension increases, making it mechanically impossible to establish or maintain a low, stable bow shoulder under load. Always complete the raise to eye level before drawing.

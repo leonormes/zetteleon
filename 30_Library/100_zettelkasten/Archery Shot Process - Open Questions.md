@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-10-07T13:00:00+01:00
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-11-02T19:29:46+00:00
 non_conformance_reason: agent-generated review note awaiting triage
 permalink: llmeon/00-inbox/archery-shot-process-open-questions
 source: LLM review of the archery shot-process notes 2026-10-07

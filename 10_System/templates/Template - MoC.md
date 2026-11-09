@@ -4,7 +4,8 @@ type: map
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 conformant: true
-tags: [prodos/moc]
+tags:
+- prodos/moc
 aliases: []
 prodos:
   kind: moc
@@ -12,6 +13,7 @@ prodos:
   moc:
     hub_for: []
     entry_points: []
+permalink: llmeon/10-system/templates/template-mo-c
 ---
 
 ## Overview

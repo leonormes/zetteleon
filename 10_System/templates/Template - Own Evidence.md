@@ -7,10 +7,11 @@ tags: []
 conformant: true
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
-source_quote:
-source_reference:
+source_quote: null
+source_reference: null
 supports_claims: []
 confidence: 0.5
+permalink: llmeon/10-system/templates/template-own-evidence
 ---
 
 %% Hand-written version of Template - Evidence. Keep the two in step. This one is for notes you write yourself, so it carries own_words: true. If any wording comes from an LLM, delete that property. %%

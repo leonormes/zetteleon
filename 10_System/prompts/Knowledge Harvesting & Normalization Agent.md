@@ -35,7 +35,7 @@ Canonical rule: [[AGENTS.md]] §9.1. Call Obsidian tools through 1MCP directly b
 Before any write, verify:
 
 - `title`—required; matches the filename exactly.
-- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`—lowercase). Never invent a new value. Do not write legacy keys (`last-synthesis`, `synthesis-count`, `updated`, `creation_date`).
+- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`—lowercase). Never invent a new value. Do not write legacy keys (`last-synthesis`, `synthesis-count`, `updated`, `creation_date`).
 - `tags`—required; non-empty list.
 - `conformant`—required boolean. `true` only if every required field for this note's type is populated with confidence.
 - `non_conformance_reason`—required string whenever `conformant: false`; omit when `conformant: true`.

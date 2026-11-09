@@ -1,17 +1,22 @@
 ---
-conformant: false
+conformant: true
 created: 2026-09-13T09:35:15+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-10-22T15:11:19+00:00
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
-permalink: llmeon/00-inbox/a-proposed-eight-predicate-edge-vocabulary-for-typed-pkm-links
+definition: Eight-predicate relational vocabulary (is a, part of, supports, challenges, applies to, enables, derived from, contrasts with) plus a temporary inbox marker (related to) proposed for human-readable typed PKM links.
+distinguishes_from:
+  - '[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]'
+modified: 2026-11-08T11:38:00+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-proposed-eight-predicate-edge-vocabulary-for-typed-pkm-links
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
 status: seed
-tags: [knowledge-graph, pkm, predicate-vocabulary, typed-edges]
+tags: [domain/pkm, knowledge-graph, pkm, predicate-vocabulary, topic/knowledge-architecture, typed-edges]
 title: A Proposed Eight-Predicate Edge Vocabulary for Typed PKM Links
 type: concept
-upstream: '[[PKM Meta-Graph System Research]]'
+upstream: '[[A Portable Interest and PKM Knowledge Graph]]'
+used_in_claims:
+  - '[[Claim - Domains relate through named relations, not undifferentiated association]]'
+  - '[[Typed Links for Knowledge Context]]'
 ---
 
 ## A Proposed Eight-Predicate Edge Vocabulary for Typed PKM Links
@@ -20,7 +25,7 @@ A proposed minimal predicate vocabulary for typed Markdown links in a PKM graph 
 
 ### Scope & Conditions
 
-A ninth predicate, "related to," is permitted only as a temporary inbox marker to be reviewed later into a more precise type or deleted—not a permanent category.
+A ninth predicate, "related to," is permitted only as a temporary inbox marker to be reviewed later into a more precise type or deleted. In ProdOS, these predicates serve only as human-level link reasons rather than machine-compiled syntax, and the upstream project later moved to a 14-predicate self-inquiry vocabulary.
 
 ### Evidence
 
@@ -28,11 +33,27 @@ A ninth predicate, "related to," is permitted only as a temporary inbox marker t
 
 ### Implications
 
-- This vocabulary overlaps but does not match the LLMeon vault's own controlled typed-edge vocabulary, which is a direct tension rather than a drop-in addition.
-- Reconciling the two vocabularies (or explicitly deciding they serve different purposes) is a prerequisite before this research's edge model can be adopted wholesale.
+- ProdOS uses a two-layer split: richer predicates survive as prose reasons on bullets (`is a` / `part of` → `implements`, `applies to` → `extends`, `enables` → inverse `depends_on`, `derived from` → `revises` or provenance), while `[relation:: [[Target]]]` lines stay restricted to the closed seven-word compiler set.
+- Separating `challenges` (`[contradicts:: ...]`) from `contrasts with` (`### Tensions` prose) matches the compiler split between strict negation and scoped tension.
+- Treating `related to` as an expiring stub matches the rule that bare links belong only under `### See Also`.
+
+### Related
+
+[implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=3, confidence=high]
+[extends:: [[Typed Links for Knowledge Context]], strength=3, confidence=medium]
+[supports:: [[Key questions when linking notes in the Zettelkasten method]], confidence=medium]
+[depends_on:: [[SoT - Atomic Note Standard (The Proposition Card)]], confidence=high]
+[depends_on:: [[SoT - Knowledge Compiler (Argument Graph Spec)]], confidence=high]
+
+- [[Claim - Domains relate through named relations, not undifferentiated association]]—implements: concrete eight-predicate starter set for replacing bare links with named relations.
+- [[Typed Links for Knowledge Context]]—extends: operationalises link context into eight forward-and-inverse predicate pairs.
+- [[Key questions when linking notes in the Zettelkasten method]]—supports: maps the four linking questions onto named predicates.
+- [[SoT - Atomic Note Standard (The Proposition Card)]]—depends on: requires prose link reasons on bullets while restricting standalone edges to the compiler vocabulary.
+- [[SoT - Knowledge Compiler (Argument Graph Spec)]]—depends on: formalises the closed seven-predicate compiler and the contradiction-versus-tension split.
+- [[A Portable Interest and PKM Knowledge Graph]]—provenance: upstream project that later replaced this set with a 14-predicate self-inquiry vocabulary.
 
 ### Tensions
 
 [contradicts:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=4, confidence=high]
 
-- [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]—contradicts: the vault's canonical vocabulary is a closed set of six relations (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, plus `revises`). Only `supports` overlaps. This note's `challenges`, `applies to`, `enables`, `derived from`, `contrasts with`, `is a`, and `part of` are all outside that closed set—per that SoT's own §2 rule, "the list is closed—an unknown relationship is a compiler error, not a silent pass." Adopting any of this note's predicates would require deliberately extending the canonical vocabulary table, not just using them.
+- [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]—contradicts as a compiler schema: the canonical vocabulary is a closed seven-relation set (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`), so seven predicates here must be translated or kept as prose annotations.

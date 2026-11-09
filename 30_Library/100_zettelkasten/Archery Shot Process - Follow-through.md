@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-16T14:47:00+01:00
+modified: 2026-10-26T08:48:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -42,6 +42,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - A natural forward push happens due to the physical law of equal and opposite reactions. If the bow arm remains completely frozen upon release, it indicates anticipated shot and stopped momentum.
 - Having direction and purpose in the bow hand ensures that the force of the bow drives straight forward into the target.
 - Follow-Through as Continuation of the Anchor (Gemini capture, 2026-10-16, unverified): A clean release is the natural continuation of back tension with one change, the finger flexors relax. Because firm inward and upward pressure was kept on the jawline, the sudden loss of string weight sends the draw hand straight back along the jaw or neck toward the ear. See [[Archery Shot Process - Release]].
+- The "Punchy" Wrist Is a Consequence, Not an Action: The bow wrist straightens and falls away instantly on release because it carries zero tension, not because you drive it (Laura Vanderwinkle video, YouTube ELpVkMCXTTw, 01:00).
 
 ### Faults & Diagnostics
 
@@ -60,6 +61,10 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
   2. Analyze (Internalize the Feel): Before looking at the target, check in with your physical body. The brain only retains the acute tactile memory of the shot execution for a few fleeting seconds. Ask yourself: Did I pluck the string? Did the front shoulder collapse? Was the back tension balanced?
   3. Verify: Only after mentally grading the physical execution should you look at the target face. Treat the impact simply as a secondary data point. By strictly adhering to this sequence, you build a neurological map connecting the physical feeling of a shot directly to its final destination.
 - Bow Arm Reaction (The "Pop" vs The Flinch): Perform a visual check of your bow hand the moment the shot breaks. If you maintained strong forward tension, the bow hand will naturally launch forward and pop slightly outward (to the left for right-handed archers). If the hand flinches inward to the right upon release, it is a clear diagnostic sign of a weak bow arm or a loss of tension. Flinching inward is often a subconscious habit to avoid getting hit in the face or stomach by the swinging bow. However, moving the arm is incorrect; proper grip pressure ensures the bow rotates safely away from you.
+
+### Alternative Views / Corrections
+
+- Forcing the push (Laura Vanderwinkle video, 2026-10-26): actively pushing the hand forward or forcing the wrist down through the shot creates tension and opens groups significantly; the wrist must fall away on its own (04:00). This sits against step 3 above (sustained forward bow-arm intensity, index finger pointed down). They may describe different things, forward intensity through the arm versus pushing with the hand and wrist, but the summary does not say. Both are kept. Check on video, or with the coach.
 
 ### Training Drills
 
@@ -119,6 +124,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Gemini chat on the anchor as rear sight and its role through release (captured 2026-10-16; cited sources not named, unverified)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
+- Laura Vanderwinkle bow wrist video (YouTube ELpVkMCXTTw; summary captured 2026-10-26; title and channel not recorded)
 
 ---
 

@@ -72,7 +72,7 @@ For each note that needs updating, construct the updated file content. Keep chan
 Before any write, verify:
 
 - `title`—required; matches the filename exactly.
-- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`—lowercase). Never invent a new value.
+- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`—lowercase). Never invent a new value.
 - `tags`—required; non-empty list.
 - `conformant`—required boolean. `true` only if every required field for this note's type is populated with confidence.
 - `non_conformance_reason`—required string whenever `conformant: false`; omit when `conformant: true`.

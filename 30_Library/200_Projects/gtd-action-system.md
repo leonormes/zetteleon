@@ -96,6 +96,7 @@ Anything outside those three buckets _is_ a clarified next action, by definition
 - Assign a due date only if there is a real-world negative consequence on that specific day (_"Pay vehicle tax by midnight"_).
 - A true next action is a date-free, ASAP item—done as soon as you have the time, energy and context.
 - Arbitrary "wish-list" dates destroy trust: you start dragging tasks forward day after day and the list stops being believed.
+- Morning reset: any overdue task that is not a true deadline drops its date back onto the no-date runway. Never roll it to "tomorrow". True deadlines live in Todoist's Deadline field, not the due date. Review with the `Reset` filter: `(overdue | today) & no deadline`.
 - Consequences already applied: the Todoist → Google Calendar sync was severed; Fantastical was rejected (no Android support, and its task-on-calendar feature reintroduces exactly this trap).
 
 ### 7. GTD is an Executive-function offload—not anti-ADHD
@@ -130,7 +131,9 @@ Routing decisions:
 
 ### Organise
 
-Flat projects + context labels. Delegated items → Waiting. Only true time-bound commitments → the calendar.
+Flat projects + context labels. Only true time-bound commitments → the calendar.
+
+Comms pass (2×/day): actionable >2 min → runway task, no date. Blocked on someone else → `#Waiting` task "Waiting: <who> — <what>", chase-by date in the description only. Jira-tracked → no Todoist task.
 
 ### Review → the Weekly Review
 

@@ -107,3 +107,5 @@ To bridge the Verification Gap, TDD must evolve from a "typing discipline" into 
 - Theory: [[SoT - Infrastructure Complexity]] (`rel:: supports`)
 - Philosophy: [[SoT - Simple Made Easy (Rich Hickey)]] (`rel:: supports`)
 - SDLC: [[SoT - Accelerate & DORA]]
+
+[implements:: [[Local empirical micro-testing beats centralised modelling under shifting rules]], confidence=low]

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-10-14T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-10-26T07:43:11+00:00
 non_conformance_reason: stub with no verbatim source quote yet
 permalink: llmeon/30-library/100-zettelkasten/creativity-combines-memories-and-skills-in-novel-ways
 proposition: Creativity recombines stored memories and learned skills into new arrangements,

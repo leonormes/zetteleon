@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-10-20T16:35:00+01:00
+modified: 2026-10-26T08:48:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -369,6 +369,14 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
   2. Establish a target count from the start of the draw to release (e.g. a strict 3, 4, or 5-second cadence).
   3. Shoot in synchronisation with the metronome ticks, training the subconscious to expand dynamically and break the shot within that rhythmic window rather than letting holds drift.
 
+#### 37. Visual Wrist Feedback Drill
+
+- The Goal: Give the brain instant feedback on the bow wrist falling away, which builds muscle memory faster than reviewing recorded video afterwards (Laura Vanderwinkle video, 04:26).
+- How to do it:
+  1. Stand 5 metres from a blank target.
+  2. Look directly at your bow wrist instead of the sight pin as you shoot.
+  3. Watch the wrist straighten and fall away in real time. See [[Archery Shot Process - Follow-through]].
+
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, "20:40 SPT | Guided Bow Fitness Drill", and Coach Jared Gracious form analysis/biomechanics session [YouTube 5GdJtjQvkb8]), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks, and "Why Your Shot Timing is Inconsistent [and how to fix it]" [YouTube Rw5CdSfc_rY]), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, "20:40 SPT | Guided Bow Fitness Drill", and Coach Jared Gracious form analysis/biomechanics session [YouTube 5GdJtjQvkb8]), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks, and "Why Your Shot Timing is Inconsistent [and how to fix it]" [YouTube Rw5CdSfc_rY]), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), Laura Vanderwinkle bow wrist video (YouTube ELpVkMCXTTw; title and channel not recorded), and generalized target panic/practice philosophy guidelines.

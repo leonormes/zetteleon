@@ -8,6 +8,8 @@ non_conformance_reason: "missing schema field definition for type concept (requi
 permalink: llmeon/30-library/100-zettelkasten/canonical-schema-v1
 prodos.kind: atomic
 prodos.lifecycle: archived
+status: superseded
+superseded_by: ["[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
 proposition: "Canonical Schema V1 was the initial standardized YAML frontmatter template designed to ensure all notes were machine-readable, which has since been superseded by the ProdOS Frontmatter Contract."
 tags: [metadata, schema, zettelkasten]
 title: Canonical Schema V1

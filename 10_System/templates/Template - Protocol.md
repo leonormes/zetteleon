@@ -4,7 +4,8 @@ type: protocol
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 conformant: true
-tags: [prodos/protocol]
+tags:
+- prodos/protocol
 aliases: []
 prodos:
   kind: protocol
@@ -12,6 +13,7 @@ prodos:
   protocol:
     applies_to: []
     binary_checklist: true
+permalink: llmeon/10-system/templates/template-protocol
 ---
 
 ## 1. Purpose

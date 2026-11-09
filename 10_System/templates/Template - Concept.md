@@ -6,9 +6,10 @@ tags: []
 conformant: true
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
-definition:
+definition: null
 distinguishes_from: []
 used_in_claims: []
+permalink: llmeon/10-system/templates/template-concept
 ---
 
 %% Concept card. Name the file with the term or distinction being defined. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%

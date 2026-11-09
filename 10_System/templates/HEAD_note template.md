@@ -2,21 +2,25 @@
 title: <% tp.file.title %>
 type: question
 own_words: true
-tension: ""
+tension: ''
 candidate_answers: []
 related_claims: []
 sources: []
-tags: [state/thinking, prodos/head]
+tags:
+- state/thinking
+- prodos/head
 aliases: []
 conformant: true
 status: open
 prodos:
   kind: head
   lifecycle: active
-AoL: <% (await tp.system.suggester(["Personal","Work","System"],["Personal","Work","System"],false,"Area of life")) ?? "Personal" %>
+AoL: <% (await tp.system.suggester(["Personal","Work","System"],["Personal","Work","System"],false,"Area
+  of life")) ?? "Personal" %>
 closing_condition: false
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+permalink: llmeon/10-system/templates/head-note-template
 ---
 
 ## The Question

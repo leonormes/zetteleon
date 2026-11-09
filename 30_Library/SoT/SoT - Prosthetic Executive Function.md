@@ -59,4 +59,4 @@ The objective is to create a "floor" for your life that sustains itself even if 
 - [[Time Agnosia Impairs Planning for Developers with ADHD]] (Why visual timers are needed)
 - [[Digital Tools Help Externalize Memory and Structure for ADHD Developers]] (Tool list)
 
-[supports:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], strength=4, confidence=high]
+[supports:: [[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]], strength=4, confidence=high]

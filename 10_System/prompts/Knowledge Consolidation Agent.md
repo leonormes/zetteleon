@@ -66,7 +66,7 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py --why "<title>"
 Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every write must leave these fields correct:
 
 - `title`: matches the filename.
-- `type`: one canonical lowercase value (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`). Never invent one, never leave it null.
+- `type`: one canonical lowercase value (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`). Never invent one, never leave it null.
 - `tags`: non-empty list.
 - `conformant`: boolean, `true` only if every required field for the type is populated with confidence.
 - `non_conformance_reason`: a string whenever `conformant: false`.

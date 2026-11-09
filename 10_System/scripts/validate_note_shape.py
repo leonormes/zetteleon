@@ -43,6 +43,7 @@ SHAPE_TYPES = {"claim", "concept", "evidence", "procedure"}
 VALID_TYPES = {
     "claim", "concept", "evidence", "question", "procedure", "protocol",
     "map", "journal", "project", "sot", "link_report", "equipment",
+    "source", "prompt", "tombstone",
 }
 VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded"}
 VALID_EPISTEMIC = {"high", "medium", "low", "unknown"}

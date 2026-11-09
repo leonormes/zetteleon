@@ -6,9 +6,10 @@ tags: []
 conformant: true
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
-trigger:
+trigger: null
 steps: []
-verification:
+verification: null
+permalink: llmeon/10-system/templates/template-procedure
 ---
 
 %% Procedure card. Name the file "How to ...". Steps are ordered, physical and verb-first. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%

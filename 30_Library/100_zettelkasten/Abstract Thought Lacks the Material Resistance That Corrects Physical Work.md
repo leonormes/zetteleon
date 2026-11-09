@@ -27,7 +27,9 @@ The asymmetry is overstated for many domains of abstract work. Mathematics has p
 
 - [[SoT - The Atelic Intellectual Life]]—_canonical synthesis this claim belongs to, listed under its "Self-Critique" section as the atelic argument's own strongest objection to itself._
 - [[Praxis is the Cyclical Process of Action and Reflection to Transform the World]]—_the axiom this claim's epistemic grounding rests on: physical praxis is what closes a feedback loop that abstract thought does not close on its own._
-- [[Intellectual Rigour Means Manufacturing the Friction That Abstraction Removes]]—_names the treatment where this note names the disease: if abstraction supplies no resistance, rigour is the deliberate manufacture of some._
+- [[Eufriction - Productive Friction Strengthens Thinking]]—_the nearest live note on the remedy: it argues for deliberate friction in thinking, though about slowing processing for depth, not about seeking disconfirming evidence._
+- [[Epistemic Actions - Thinking via Doing]]—_the mechanism seen from the other side: acting on the physical world hands a cognitive task to a fast, reliable feedback loop that thought alone lacks._
+- [[Reality Testing]]—_a different external check for the same gap: other people's agreement or disagreement stands in where the material does not push back._
 - [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—_quotes this note directly as the more precisely-stated version of its own claim that thinking must be tested by contact with reality, not by inspection._
 - [[Falsifiability Is Necessary But Not Sufficient for a Claim to Be Scientific]]—_complicates the Steelman below: falsifiability names the resistance mechanism science is supposed to have, but a badly designed experiment can fail to be unforgiving in the way timber is, which narrows the Steelman's claim that "the experiment" resists preferences as reliably as matter does._
 
@@ -38,3 +40,5 @@ The asymmetry is overstated for many domains of abstract work. Mathematics has p
 [supports:: [[Confirmation as a Perceived Shortcut to Truth]], strength=4, confidence=high]
 
 [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]
+
+[supports:: [[Epistemic Actions - Thinking via Doing]], strength=3, confidence=medium]

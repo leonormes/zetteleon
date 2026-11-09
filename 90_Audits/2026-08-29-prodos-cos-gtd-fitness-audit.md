@@ -232,7 +232,7 @@ Judged against your own criterion in [[SoT - Prosthetic Executive Function]]: _"
 
 Every scripted component works. Every component requiring you to write something at a moment of your choosing has failed. There is no counter-example in the data.
 
-That is not a discipline problem. It is precisely what [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]] predicts: asking for executive resource at the point of performance is architectural negligence—_and the CoS does this in four places._
+That is not a discipline problem. It is precisely what [[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]] predicts: asking for executive resource at the point of performance is architectural negligence—_and the CoS does this in four places._
 
 ### The Reframe
 

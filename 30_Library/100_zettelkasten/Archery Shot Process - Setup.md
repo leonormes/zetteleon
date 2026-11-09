@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-10-26T08:48:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -81,6 +81,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Bow Hand Reaction Flinch: Subconsciously squeezing the grip to steady the sight pin or dipping the bow arm right before the arrow releases. You must trust your sling and actively keep the hand completely "dead" to avoid introducing torque.
 - Thumb Joint Pressure: If the grip slips off the meaty thumb pad and the draw weight sits directly on the thumb joint, it will cause painful wrist strain and long-term injury. Always follow the "Lifeline Rule": the grip should contact only the fleshy pad of the thumb, staying completely clear of the lifeline crease running through the center of the palm.
 - Actively dragging the shoulder artificially down out of its socket creates unnecessary tension.
+- Tense Bow Hand: Holding tension in the bow hand or wrist does not ruin the shot, but it adds micro-movements at release that widen arrow groups (Laura Vanderwinkle video, 03:38).
 
 ### Elite Archer Variant—Florian Unruh's Draw Cycle
 
@@ -136,6 +137,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 
 - Thumb pressure and elbow rotation (front-elbow video summary, 2026-10-08): the grip step above says to actively push the thumb toward the target and pull the pinky back. The video says allowing the thumb to come up puts improper pressure on the riser, rotates the elbow inward into the string path, and makes a locked-out arm more likely (see High Thumb Pressure in [[Archery Shot Process - Pre-draw]]). These may describe different things, pushing through the thumb pad versus the thumb riding up the riser, but the summary does not say. Both are kept. Check the thumb position on video, or with the coach.
 - Relaxed bow hand (relaxed-shot video summary, 2026-10-08): confirms the existing guidance that the bow hand stays relaxed with no death grip or rigid tension to force the pin onto the middle. No change needed.
+- Passive bow pressure (Laura Vanderwinkle video, 2026-10-26): at full draw, keep the bow's pressure on the hand without pushing the bow down or holding the wrist up in the grip (01:14). This sits against the Active Tension Balance step above (push the thumb toward the target, pull the pinky back). They may describe different things, an active hand structure at setup versus a passive wrist at full draw, but the summary does not say. Both are kept. Check on video, or with the coach.
 
 ### References
 
@@ -153,6 +155,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Captured anchor cue summary (captured 2026-09-30; source not named): wrist cock at the hook
 - Holding SPT guided workout video summary (captured 2026-10-20; NTS visual hook check [00:11:49])
+- Laura Vanderwinkle bow wrist video (YouTube ELpVkMCXTTw; summary captured 2026-10-26; title and channel not recorded)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] for tab sizing, base plate/spacer fit, and leather trimming that affect the hook and grip.
 

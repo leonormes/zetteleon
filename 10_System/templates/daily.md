@@ -8,6 +8,7 @@ tags: []
 aliases: []
 prodos:
   kind: journal
+permalink: llmeon/10-system/templates/daily
 ---
 
 ```journal-nav

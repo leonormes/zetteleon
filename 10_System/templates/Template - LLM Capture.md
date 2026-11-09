@@ -2,13 +2,15 @@
 title: <% tp.file.title %>
 type: concept
 status: seed
-tags: [source/llm]
+tags:
+- source/llm
 conformant: false
 non_conformance_reason: raw LLM paste awaiting triage
 source: LLM conversation <% tp.date.now("YYYY-MM-DD") %>
-source_url:
+source_url: null
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+permalink: llmeon/10-system/templates/template-llm-capture
 ---
 
 %% Raw LLM output, not your own writing, so this note has no own_words property on purpose.

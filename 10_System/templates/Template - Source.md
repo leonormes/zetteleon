@@ -3,15 +3,17 @@ title: <% tp.file.title %>
 type: source
 own_words: true
 status: seed
-tags: [source/book]
+tags:
+- source/book
 conformant: true
-source_reference: "{{VALUE:citation}}"
-authors: "{{VALUE:authors}}"
-year: "{{VALUE:year}}"
-calibre_id: "{{VALUE:calibre_id}}"
-calibre_link: "{{VALUE:calibre_link}}"
+source_reference: '{{VALUE:citation}}'
+authors: '{{VALUE:authors}}'
+year: '{{VALUE:year}}'
+calibre_id: '{{VALUE:calibre_id}}'
+calibre_link: '{{VALUE:calibre_link}}'
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+permalink: llmeon/10-system/templates/template-source
 ---
 
 %% One note per book or article. The citation lives here once, so every Evidence or point note

@@ -1,0 +1,13 @@
+{"kind":"session_meta","at":"2026-11-03T10:39:24.773846Z","tool":"claude-code","model":"claude-sonnet-5-5","session_id":"be23ee2a-ec79-48b6-8d29-08845ce28171"}
+{"kind":"prompt","at":"2026-11-03T10:40:27.323212Z","text":"I have plugged in my android phone with a usb-c into the side of my macbook. But the macOS is not picking up the adb device. Is there a way to restart the drivers? I have tried unplugging and replugging in a few times but nothing"}
+{"kind":"command","at":"2026-11-03T10:40:36.267238Z","cmd":"which adb; adb version 2\u003e\u00261 | head -2; echo ---; adb devices -l 2\u003e\u00261; echo ---; system_profiler SPUSBDataType 2\u003e/dev/null | grep -iE -B2 -A8 \"google|samsung|pixel|android|oneplus|xiaomi|motorola\" | head -40"}
+{"kind":"session_end","at":"2026-11-03T10:40:44.254631Z"}
+{"kind":"prompt","at":"2026-11-03T10:42:26.65609Z","text":"the lead and phone have previously linked ok. I have been using scrcpy sucessfully. It is a pixel 9 with all the latest updates installed"}
+{"kind":"command","at":"2026-11-03T10:42:34.134398Z","cmd":"system_profiler SPUSBDataType 2\u003e\u00261 | head -60; echo ---IOREG; ioreg -p IOUSB -l -w0 | grep -E '\"(USB Product Name|kUSBProductString|idVendor)\"' | head -20; echo ---PS; ps aux | grep -E 'adb|scrcpy' | grep -v grep"}
+{"kind":"session_end","at":"2026-11-03T10:42:41.94949Z"}
+{"kind":"prompt","at":"2026-11-03T10:47:23.814191Z","text":"looking at the phone it is not even charging when plugged in. The debug while usb is on in the settings. I am assuming it is the macOS USB controller"}
+{"kind":"session_end","at":"2026-11-03T10:47:30.21361Z"}
+{"kind":"prompt","at":"2026-11-03T10:55:04.485213Z","text":"try again. I changed the lead"}
+{"kind":"command","at":"2026-11-03T10:55:11.068229Z","cmd":"ioreg -p IOUSB -w0 | grep -i -E \"pixel|google\" || echo \"not seen\"; echo ---; adb kill-server; adb start-server 2\u003e\u00261; adb devices -l"}
+{"kind":"session_end","at":"2026-11-03T10:55:15.275334Z"}
+{"kind":"session_end","at":"2026-11-03T10:55:41.480055Z"}

@@ -2,7 +2,7 @@
 aliases: [Music and Community]
 conformant: false
 created: 2025-11-10T11:09:00+00:00
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-10-26T11:52:06+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/authentic-music-creates-communities-while-commercial-music-creates-consumers
 tags: [authenticity, community, consumerism, music]

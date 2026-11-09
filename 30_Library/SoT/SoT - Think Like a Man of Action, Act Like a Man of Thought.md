@@ -78,7 +78,7 @@ Real-world data beats theoretical models.
 - [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—_The counterweight: it revises the claim above, so Protocol A's "stop and act" has a limit when the thinking is improving the model._
 - [[SoT - The Atelic Intellectual Life]]—_Live tension: it argues intellectual work has value outside any resulting action, which this SoT's action test would discount._
 - [[Claim - Action Precedes Motivation Is a Directional Heuristic, Not an Absolute Law]]—_Qualifies Protocol D's act-first stance as a heuristic; it already extends this SoT._
-- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]]—_Adds that the trigger for the action should be decided before the moment it is needed; it already extends this SoT._
+- [[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]]—_Adds that the trigger for the action should be decided before the moment it is needed; it already extends this SoT._
 - [[The 5-Minute Action Overcomes Initiation Barriers]]—_A concrete small-start technique in the spirit of Protocol B._
 - [[Executive Dysfunction - The Root of Analysis Paralysis]]—_The mechanism behind the "Thinker" Trap in section 2._
 - [[SoT - Perfectionism and Analysis Paralysis]]—_The wider treatment of the Thinker Trap._

@@ -64,6 +64,7 @@ Focuses on expansion, extending the bow, triggering the release, and follow-thro
 - [[Digital Archery Anatomy Resources]]—Anatomy and biomechanics resource list (year-two material).
 - Three A's of Accuracy: Aim, Anchor, Alignment | Archery Basics (NUSensei)
 
+- [[Archery Biomechanics and Shoulder Health Protocol]]—Common shoulder injuries, the form faults behind them, and a three-phase conditioning protocol.
 ## Unreviewed Claims
 
 Loose claims extracted from the self-coaching resources, not yet reviewed against the step notes.

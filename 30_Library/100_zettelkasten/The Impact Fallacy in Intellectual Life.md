@@ -22,4 +22,3 @@ Intellectual impact can be quieter and more personal:
 The value of the intellectual journey is not negated just because the map is not published for others. The thinking itself is the point.
 
 - [[The Distinction Between Appreciation and Creation]]
-- [[The Solitude of the Deep Thinker]]

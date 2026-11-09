@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-10-29T09:38:26+00:00
 permalink: llmeon/00-inbox/treating-belief-as-a-magic-switch-can-backfire-by-draining-the-energy-needed-for-action
 proposition: Slogans such as just believe or think positive treat beliefs as magic
   switches or passive wishes, which can backfire by relaxing the body as if the goal

@@ -42,7 +42,7 @@ The vault contains approximately 2,000 notes, many of which are unread collectio
 Before any write, verify:
 
 - `title`—required; matches the filename exactly.
-- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`—lowercase). A navigational hub is always `type: map`. Never invent a new value.
+- `type`—required; one of the canonical values (`claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`—lowercase). A navigational hub is always `type: map`. Never invent a new value.
 - `tags`—required; non-empty list.
 - `conformant`—required boolean. `true` only if every required field is populated with confidence.
 - `non_conformance_reason`—required string whenever `conformant: false`; omit when `conformant: true`.

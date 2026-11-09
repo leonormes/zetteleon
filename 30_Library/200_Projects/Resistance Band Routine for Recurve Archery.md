@@ -496,3 +496,6 @@ Avoid "floating" your hand in open space or relying on soft skin that slides. Pr
 ---
 
 🎯 Would you like to review a quick mirror drill to verify your facial contacts, or look at how finger tab adjustments (like shelf height) impact your anchor?
+
+
+See also: [[Archery Biomechanics and Shoulder Health Protocol]] for the injury background and the wider shoulder-health protocol.

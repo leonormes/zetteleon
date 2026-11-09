@@ -4,7 +4,8 @@ type: sot
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 conformant: true
-tags: [prodos/sot]
+tags:
+- prodos/sot
 aliases: []
 prodos:
   kind: sot
@@ -17,6 +18,7 @@ prodos:
     last_synthesis: <% tp.date.now("YYYY-MM-DD") %>
     synthesis_count: 0
 see_also: []
+permalink: llmeon/10-system/templates/template-so-t
 ---
 
 ## 2. Working Knowledge (Core Concepts)

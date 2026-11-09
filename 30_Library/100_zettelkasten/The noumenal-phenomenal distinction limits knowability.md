@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-31T20:06:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-10-29T09:38:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
 proposition: "Kant's epistemology distinguishes between the noumenal world (reality as it truly is) and the phenomenal world (reality as we experience it), creating fundamental limits on our ability to know external reality and other minds directly."
 tags: [epistemology, Kant, limits-of-knowledge, TheHuman/Philosophy]

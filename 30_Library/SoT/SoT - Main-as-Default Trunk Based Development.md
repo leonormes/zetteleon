@@ -93,3 +93,5 @@ See also: [[SoT - Accelerate & DORA]]
 
 - [[SoT - Software Configuration Management Patterns]]—_Everything is Code, The Mainline Model, and Continuous Integration._
 - [[SoT - DevOps & Infrastructure Architecture Strategy]]—_Addressing complexity vs. cognition in DevOps practices._
+
+[implements:: [[Local empirical micro-testing beats centralised modelling under shifting rules]], confidence=low]

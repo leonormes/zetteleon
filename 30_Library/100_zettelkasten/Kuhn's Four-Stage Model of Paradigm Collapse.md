@@ -42,10 +42,11 @@ Describes the sociology of paradigm change, not a claim about any single paradig
 
 ### Related
 
-[supports:: [[SoT - Generative Intelligence]], confidence=medium]
+- [supports:: [[SoT - Generative Intelligence]], confidence=medium]—this atom grounds that SoT's framing of Generative Intelligence as Kuhn's "Scientific Revolution" (paradigm creation) versus Applicative Intelligence as "Normal Science" (paradigm mastery); this note supplies the underlying Kuhnian mechanism that framing presupposes.
+- [supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=low]—the Ptolemaic epicycles example is this model's own Model Drift stage playing out over 1,500 years: a flawed core assumption patched with growing complexity rather than questioned.
+- [supports:: [[A Paradigm Only Collapses When a Viable Replacement Exists]], confidence=low]—corollary, same source.
+- [supports:: [[Paradigm Shifts Complete Through Generational Turnover, Not Persuasion]], confidence=low]—corollary, same source.
 
-- [[SoT - Generative Intelligence]]—this atom supports and grounds that SoT's framing of Generative Intelligence as corresponding to Kuhn's "Scientific Revolution" (paradigm creation) versus Applicative Intelligence as "Normal Science" (paradigm mastery); this note supplies the underlying Kuhnian mechanism that framing presupposes.
-- [[Ptolemaic System as a Patched Flawed Model]]—the Ptolemaic epicycles example is this model's own Model Drift stage playing out over 1,500 years: a flawed core assumption patched with growing complexity rather than questioned.
-- [[A Paradigm Only Collapses When a Viable Replacement Exists]]—corollary, same source.
-- [[Paradigm Shifts Complete Through Generational Turnover, Not Persuasion]]—corollary, same source.
+### See Also
+
 - [[Consilience Signals Genuine Scientific Consensus]]—same source conversation, adjacent question: that note (and its four sibling diagnostics) tests whether a _current_ consensus is legitimate; this note describes how a consensus _rises and falls over time_, the historical dimension the snapshot diagnostics don't cover.
