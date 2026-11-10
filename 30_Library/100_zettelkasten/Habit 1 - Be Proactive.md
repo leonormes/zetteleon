@@ -63,4 +63,4 @@ Read against the rest of the vault, Habit 1 is the productivity-framed form of a
 
 ### Maps
 
-- [[MOC - Character and Virtue]]—_Lists the Frankl freedom-of-response claim as the enabling condition for character work; it does not yet list this note._
+- [[MOC - Character and Virtue]]—_§3 places this note alongside the Frankl freedom-of-response claim as the operational form of the enabling condition for character work._
