@@ -16,8 +16,8 @@ permalink: llmeon/book-fusion/books/sketch-your-mind-6984222
 **Book URL**: https://reader.bookfusion.com/books/6984222-sketch-your-mind?type=epub_reflowable
 **Description**: Sketch Your Mind: Nurture a Playful and Creative Brain shows how to break free from text-first thinking and embrace a visual approach to personal knowledge management. It explains how 4D PKM integrates sketches, diagrams, and spatial layouts to reveal hidden connections and spark deeper insights. Drawing on stories, examples, and practical tools, it encourages readers to build playful “Idea Integration Boards” and “Visual Zettelkasten” networks. Each chapter highlights small steps to transform scattered notes into a living ecosystem of ideas that evolve over time. By reactivating our innate ability to think visually, the book offers a path to clarity, creativity, and truly meaningful learning. 
 **Date Added**: 2025-10-21 13:08:33 UTC
-**Last Updated**: 2026-11-09 17:22:00 UTC
-**Progress**: <progress max="100" value="15.05">15.05%</progress>
+**Last Updated**: 2026-11-10 03:24:31 UTC
+**Progress**: <progress max="100" value="25.17">25.17%</progress>
 
 ---
 
@@ -35,3 +35,8 @@ permalink: llmeon/book-fusion/books/sketch-your-mind-6984222
 %%begin-highlight-5802426%%
 ![[BookFusion/Books/Sketch Your Mind-6984222/5802426|5802426]]
 %%end-highlight-5802426%%
+%%begin-highlight-5809281%%
+### Chapter 3
+
+![[BookFusion/Books/Sketch Your Mind-6984222/5809281|5809281]]
+%%end-highlight-5809281%%
