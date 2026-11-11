@@ -1,0 +1,22 @@
+---
+aliases:
+- PFC
+created: 2025-11-12 14:10:01+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- brain
+- executive-function
+- TheHuman/Neuroscience
+title: The Prefrontal Cortex Provides Executive Control Over Action
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-prefrontal-cortex-provides-executive-control-over-action
+---
+
+## The Prefrontal Cortex Provides Executive Control Over Action
+
+Summary: The prefrontal cortex (PFC) acts as the brain's executive control center, responsible for maintaining representations of goals and guiding the neural activity required to achieve them.
+
+Details: The PFC sends bias signals throughout the brain to orchestrate task performance. Different subregions handle distinct functions: the dorsolateral PFC manages working memory and planning, while ventromedial regions evaluate risk and reward. This hierarchical system allows for the management of complex, goal-directed behavior, from responding to immediate external cues to following abstract, internally-held rules.

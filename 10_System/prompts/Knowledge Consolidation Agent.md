@@ -1,5 +1,15 @@
 ---
-created: 2026-02-01T14:02:03+00:00
+created: 2026-02-01 14:02:03+00:00
+modified: 2026-02-02 21:12:11+00:00
+tags:
+- agent/consolidation
+- domain/pkm
+- sot
+- type/system
+title: Knowledge Consolidation Agent
+type: prompt
+version: 2
+permalink: llmeon/10-system/prompts/knowledge-consolidation-agentT14:02:03+00:00
 description: "Consolidate an input note into the vault by finding duplicates and overlapping notes, merging and deprecating where the evidence supports it, and linking the rest with typed edges in the compiler-visible vocabulary. The front door for new content that may already exist in the vault."
 modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/knowledge-consolidation-agent

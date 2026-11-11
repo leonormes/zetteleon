@@ -1,5 +1,16 @@
 ---
-created: 2026-04-02T10:30:00+00:00
+created: 2026-04-02 11:30:00+01:00
+modified: 2026-04-02 11:30:00+01:00
+tags:
+- agent/refinery
+- domain/pkm
+- sot
+- moc
+- type/system
+title: Knowledge Harvesting & Normalization Agent
+type: prompt
+version: 1
+permalink: llmeon/10-system/prompts/knowledge-harvesting-normalization-agentT10:30:00+00:00
 description: "Take an existing SoT/MoC and scour the vault for fragments/duplicates to integrate and normalise back into it."
 modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/knowledge-harvesting-normalization-agent
