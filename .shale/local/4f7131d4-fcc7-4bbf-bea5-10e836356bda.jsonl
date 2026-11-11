@@ -14,3 +14,7 @@
 {"kind":"command","at":"2026-11-11T10:42:54.563921Z","cmd":"adb shell dumpsys meminfo 2\u003e\u00261 | sed -n '1,45p'; echo ...; adb shell dumpsys meminfo 2\u003e\u00261 | grep -E \"Total RAM|Free RAM|Used RAM|Lost RAM|ZRAM|Tuning|cached\""}
 {"kind":"command","at":"2026-11-11T10:43:04.774038Z","cmd":"adb shell dumpsys meminfo 2\u003e\u00261 | sed -n '/Total PSS by process/,/^$/p' | head -14; adb shell cat /proc/meminfo | grep -E \"MemAvailable|SwapTotal|SwapFree\""}
 {"kind":"session_end","at":"2026-11-11T10:43:16.346117Z"}
+{"kind":"intent","at":"2026-11-11T11:10:44.198951Z","title":"Move FitFile K8s secrets management notes and ops playbooks to .trash","body":"User confirmed deletion of 4 core FitFile secrets notes in 100_zettelkasten and 10 VSO playbooks/commands in Work/ops to .trash"}
+{"kind":"completion","at":"2026-11-11T11:16:32.135441Z","note":"Moved 14 FitFile K8s secrets management notes and ops playbooks to .trash"}
+{"kind":"intent","at":"2026-11-11T11:19:17.868002Z","title":"Move generic VSO, K8s secrets, and FitFile security architectural notes to .trash","body":"Moving SoT - VSO Authentication, SoT - Vault Secrets Operator, SoT - Kubernetes Secrets Management, MoC - FitFile Security \u0026 Secrets, and SoT - Vault Infrastructure Automation to .trash as requested by user"}
+{"kind":"completion","at":"2026-11-11T11:19:40.662344Z","note":"Moved 5 generic VSO, K8s secrets, and FitFile security architectural notes to .trash"}

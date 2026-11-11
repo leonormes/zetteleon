@@ -1,17 +1,9 @@
 ---
-aliases:
-  - Infrastructure Triage
-  - Networking Triage
+aliases: [Infrastructure Triage, Networking Triage]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-11T11:20:53+00:00
 permalink: llmeon/30-library/mo-c/moc-data-centric-infrastructure-networking-triage
-tags:
-  - cloud
-  - devops
-  - infrastructure
-  - moc
-  - networking
-  - triage
+tags: [cloud, devops, infrastructure, moc, networking, triage]
 title: MOC - Data-Centric Infrastructure & Networking (Triage)
 type: map
 ---
@@ -42,28 +34,12 @@ This hub triages the "Domain III" (Data-Centric Systems) cluster, focusing on In
 ### 3. Infrastructure & Automation
 
 - [[SoT - AKS IP Allocation & Subnet Sizing]]
-- [[SoT - ArgoCD Networking Patterns]]
 - [[SoT - Automated Cloud Resource Hibernation]]
 - [[SoT - CUE Configuration]]
 - [[SoT - FitFile Deployment - Strategy & Architecture]]
-- [[SoT - GitLab CLI Authentication]]
 - [[SoT - HashiCorp Vault Architecture]]
 - [[SoT - State Synchronization Models]]
 
 ### 4. Unprocessed Seedlings (Triage Candidates)
 
-- [[Data-Centric Networking Focuses on Packet Journey Through Devices]]
 - [[Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure]]
-- [[Internet Gateway in AWS Networking]]
-- [[Configuration Kernel]]
-- [[Configuration Generator]]
-- [[Intent-Implementation Separation]]
-- [[Configuration as Generated Output]]
-- [[Configuration Error Surface Area]]
-- [[Naming Protocol]]
-
-### 5. Recommended Actions
-
-- [x] Harvest: Integrate the "Naming Protocol" and "Intent-Implementation Separation" notes into the [[SoT - Generative Infrastructure Configuration Framework]].
-- [x] Consolidate: Review the "Configuration" seedlings and merge them into a single [[SoT - Software Configuration Management Patterns]]. (Integrated into GIC Framework SoT instead).
-- [x] Synthesise: Map the "ArgoCD Networking Patterns" onto the [[SoT - The Data-Centric Theory of Networking]].
