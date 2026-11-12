@@ -32,6 +32,6 @@ An idea that looks "skeletal" once externalised may genuinely have been weak all
 
 ## Knowledge Graph
 
-[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—reflexive specialisation of the general definition: IoED applied to one's own ideas rather than an external system
+[[IoED Definition Gap Felt vs Actual Understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—reflexive specialisation of the general definition: IoED applied to one's own ideas rather than an external system
 
-[extends:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]]
+[extends:: [[IoED Definition Gap Felt vs Actual Understanding]]]

@@ -31,9 +31,9 @@ Both biases could be instances of a single underlying phenomenon—a general fai
 
 ## Knowledge Graph
 
-[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction claim presupposes the IoED definition
+[[IoED Definition Gap Felt vs Actual Understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction claim presupposes the IoED definition
 
-[depends_on:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]]
+[depends_on:: [[IoED Definition Gap Felt vs Actual Understanding]]]
 
 [[SoT - Dunning-Kruger Effect]]—the distinction equally presupposes the DKE definition to be legible
 

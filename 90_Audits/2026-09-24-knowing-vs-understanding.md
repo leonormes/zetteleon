@@ -19,7 +19,7 @@ No broken links (resolver: 0 unresolved before and after).
 ### Findings
 
 1. `type: comparison` is a singleton. It is not in the contract's type enum and no other note uses it. The note is really one assertion ("understanding integrates knowledge into actionable frameworks while knowing merely accumulates facts") with a table behind it, so it is now a `claim`.
-2. Five sibling notes already make versions of this distinction and none linked to each other: [[The Gap Between Knowing a Fact and Understanding a Concept]], [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]], [[2026-07-25-familiarity-vs-comprehension-distinct-states]], [[SOLO Taxonomy Describes Understanding Levels]] and [[Myopic Understanding]]. They differ enough (an example, the learning view, a debugging view, a five-level scale, an argument map) that I linked them and did not merge.
+2. Five sibling notes already make versions of this distinction and none linked to each other: [[The Gap Between Knowing a Fact and Understanding a Concept]], [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]], [[Familiarity vs Comprehension Distinct States]], [[SOLO Taxonomy Describes Understanding Levels]] and [[Myopic Understanding]]. They differ enough (an example, the learning view, a debugging view, a five-level scale, an argument map) that I linked them and did not merge.
 3. The table's claim was unevidenced, and its "merely accumulates" wording is too strong.
 
 ### Changes

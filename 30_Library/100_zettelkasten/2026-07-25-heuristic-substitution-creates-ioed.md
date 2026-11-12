@@ -31,6 +31,6 @@ This could instead be plain confidence miscalibration rather than a specific sub
 
 ## Knowledge Graph
 
-[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this is the causal mechanism that explains why the gap exists
+[[IoED Definition Gap Felt vs Actual Understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this is the causal mechanism that explains why the gap exists
 
-[supports:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]]
+[supports:: [[IoED Definition Gap Felt vs Actual Understanding]]]

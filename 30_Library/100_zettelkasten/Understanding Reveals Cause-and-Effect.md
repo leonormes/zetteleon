@@ -48,7 +48,7 @@ The argument map [[Myopic Understanding]] treats these as one step, the "stronge
 
 - [[Understanding Enables Accurate Predictions]]—_Step 1 of the map: the prediction payout this claim goes beyond (it carries the `extends` edge)._
 - [[Broader Understanding Enhances Predictive & Causal Insight]]—_Step 3: both payouts scale with the width of the view._
-- [[Comparison - Knowing vs Understanding]] and [[2026-07-25-familiarity-vs-comprehension-distinct-states]]—_Knowing that something happens versus knowing why._
+- [[Comparison - Knowing vs Understanding]] and [[Familiarity vs Comprehension Distinct States]]—_Knowing that something happens versus knowing why._
 - [[2026-07-25-five-whys-chain-drills-to-first-principles]]—_A method for walking a causal chain until understanding runs out._
 - [[Abductive Reasoning Infers the Best Explanation for a Set of Observations]]—_Inferring the cause from the effects._
 - [[Mathematical and Musical Ability Show a Moderate Correlation Without Proving Shared Causation]]—_A worked example of correlation not being causation._

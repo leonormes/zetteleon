@@ -23,7 +23,7 @@ Thin, not orphaned. It is well linked in (7 inbound files) but nearly closed on 
 
 | Query | Style | Result |
 |---|---|---|
-| "tacit knowledge versus explicit knowledge; knowing how cannot be fully articulated or written down" | conceptual variant | [[Types of Non-Linguistic Knowledge]], [[Comparison - Knowing vs Understanding]], [[2026-07-25-externalising-tacit-knowledge-illusion-of-profundity]], [[Knowledge Transmission Is Reconstruction, Not Copying]], [[Communicating Depends on Modelling What the Listener Already Knows]], [[MOC - From Information to Knowledge]] |
+| "tacit knowledge versus explicit knowledge; knowing how cannot be fully articulated or written down" | conceptual variant | [[Types of Non-Linguistic Knowledge]], [[Comparison - Knowing vs Understanding]], [[Externalising Tacit Knowledge Illusion of Profundity]], [[Knowledge Transmission Is Reconstruction, Not Copying]], [[Communicating Depends on Modelling What the Listener Already Knows]], [[MOC - From Information to Knowledge]] |
 | Backlink graph | literal anchor | the 7 inbound files above |
 | Manual reads of the candidates | literal anchor | confirmed [[Flawed Mental Models Limit Mastery]], [[Semantic Diffusion Creates False Alignment]] exist |
 
@@ -34,7 +34,7 @@ Thin, not orphaned. It is well linked in (7 inbound files) but nearly closed on 
 | [[The Illusion of Shared Understanding in Teams]] | Use. Its "team model" is a patchwork of "often tacit" models. | Fails. Its core claim (same words, different models) survives without the tacit/explicit distinction. | Partly | Retracting the concept does not move it | Plain link. I first wrote `depends_on` and reverted it (see below) |
 | [[Types of Non-Linguistic Knowledge]] | Use. Tacit is one of its five kinds. | n/a | n/a | n/a | Plain link (its existing `extends` edge stays) |
 | [[Documenting Mental Models Enables Project Re-entry]] | Use. Documenting is making tacit explicit. | Coherent | Yes | No move | Plain link, listed in `used_in_claims` |
-| [[2026-07-25-externalising-tacit-knowledge-illusion-of-profundity]] | Use. Its mechanism is exactly the tacit context that vanishes on externalising. | Coherent | Yes | No move | Plain link, in `used_in_claims` |
+| [[Externalising Tacit Knowledge Illusion of Profundity]] | Use. Its mechanism is exactly the tacit context that vanishes on externalising. | Coherent | Yes | No move | Plain link, in `used_in_claims` |
 | [[Knowledge Transmission Is Reconstruction, Not Copying]] | Use, weak. Limits how far explicit form transmits knowledge. | Coherent | Yes | No move | Plain link, in `used_in_claims` |
 | [[Semantic Diffusion Creates False Alignment]], [[Flawed Mental Models Limit Mastery]] | Mention. Both are named in the Illusion note's links. | n/a | n/a | n/a | Plain link |
 | [[Comparison - Knowing vs Understanding]] | Mention. Different axis. | n/a | n/a | n/a | Plain link, in `distinguishes_from` |

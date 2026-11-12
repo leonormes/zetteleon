@@ -1,0 +1,2 @@
+{"kind":"session_meta","at":"2026-11-11T12:14:40.473989Z","tool":"claude-code"}
+{"kind":"completion","at":"2026-11-11T12:14:40.489138Z","model":"claude-sonnet-5-5","note":"Added rumdl mise package, user-level rumdl.toml, nvim LSP entry; not yet committed"}

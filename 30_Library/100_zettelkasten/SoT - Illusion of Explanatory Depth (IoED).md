@@ -142,7 +142,7 @@ While related, the two biases operate on different axes:
 - [[Time-Boxing Research Prevents Productive Procrastination]]: Operational antidote to the Research Rabbit Hole.
 - [[Flawed Mental Models Limit Mastery]]: IoED as the primary barrier to mastery; recovery protocol.
 
-[supports:: [[2026-07-25-familiarity-vs-comprehension-distinct-states]], strength=4, confidence=high]
+[supports:: [[Familiarity vs Comprehension Distinct States]], strength=4, confidence=high]
 
 [supports:: [[2026-07-25-heuristic-substitution-creates-ioed]], strength=4, confidence=high]
 

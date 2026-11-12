@@ -36,9 +36,9 @@ Some would argue IoED isn't a distinct mechanism at all—just Dunning-Kruger ap
 Claims that build on this definition (see their own `## Knowledge Graph` sections for the typed edges):
 
 - [[2026-07-25-heuristic-substitution-creates-ioed|Heuristic Substitution Creates the Illusion of Explanatory Depth]]—supplies the causal mechanism
-- [[2026-07-25-familiarity-vs-comprehension-distinct-states|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]]—supplies the conceptual conflation
+- [[Familiarity vs Comprehension Distinct States|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]]—supplies the conceptual conflation
 - [[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability|Premature Loop Closure Drives ADHD's Heightened Vulnerability to IoED]]—ADHD-specific extension
-- [[2026-07-25-externalising-tacit-knowledge-illusion-of-profundity|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—reflexive extension
+- [[Externalising Tacit Knowledge Illusion of Profundity|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—reflexive extension
 - [[2026-07-25-ioed-vs-dunning-kruger-distinction|IoED and Dunning-Kruger Effect Differ in Driver, Calibration Axis, and Correction]]—depends on this definition
 
 [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

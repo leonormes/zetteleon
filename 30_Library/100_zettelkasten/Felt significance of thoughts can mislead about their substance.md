@@ -56,7 +56,7 @@ The four causes listed above each have their own note.
 - Mood and mental state colour how a thought feels. [[2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity]] (intensity of feeling mistaken for soundness), [[The I've Cracked It Illusion During ADHD Hyperfixation]] (the clarity of a fixation read as a calling) and [[Emotional Reasoning]] (feelings taken as evidence).
 - Novel associations feel profound. [[Apophenia is the Tendency to Perceive Patterns in Random Data]] and [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]] (ease of processing read as depth).
 
-The manifestations have notes too: [[The Disappointment of Written Thoughts]] (profound in the head, dull on the page), [[2026-07-25-externalising-tacit-knowledge-illusion-of-profundity]] (the private scaffolding that vanishes when an idea is written down) and [[2026-07-25-familiarity-vs-comprehension-distinct-states]] (feeling familiar versus understanding why).
+The manifestations have notes too: [[The Disappointment of Written Thoughts]] (profound in the head, dull on the page), [[Externalising Tacit Knowledge Illusion of Profundity]] (the private scaffolding that vanishes when an idea is written down) and [[Familiarity vs Comprehension Distinct States]] (feeling familiar versus understanding why).
 
 ## What to Do About It
 

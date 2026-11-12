@@ -3,7 +3,7 @@ conformant: true
 created: 2026-05-04T08:01:26+00:00
 definition: Emergence is the phenomenon where complex patterns, behaviours or properties arise from the interactions of simpler components and cannot be predicted by analysing the components alone.
 distinguishes_from: ["[[Autopoiesis The Self-Referential System]]", "[[Cybernetics]]"]
-modified: 2026-11-10T16:48:07+00:00
+modified: 2026-11-11T11:34:50+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/5c-emergence-1
 title: Emergence
@@ -28,7 +28,6 @@ Which sense a note means matters: the strong sense supports claims about irreduc
 ## Where It Shows Up in the Vault
 
 - [[Bottom-Up Organization Allows Emergent Structure]]—_Knowledge architecture that emerges from the links between ideas instead of a predefined hierarchy._
-- [[Global Stability in Kubernetes Emerges From Many Narrow Negative Feedback Loops]]—_Cluster stability as a property of many small loops, not of any one._
 - [[Extrapolating Pathology to Normal Function Is a Hasty Generalisation]]—_An intact brain shows a unity that a severed one does not, because integration yields something the parts lack._
 - [[Dividing a Process Does Not Make the Intact Process Illusory]]—_Water can be split into hydrogen and oxygen, yet its wetness is real._
 - [[Harris Claims Consciousness Is Divisible]] and [[Harris Speculates Intact Brains May Host Overlapping Subjectivity]]—_The consciousness debate that leans on the same idea._

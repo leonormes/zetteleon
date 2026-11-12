@@ -40,7 +40,7 @@ Understanding integrates knowledge into actionable frameworks while knowing mere
 
 - [[The Gap Between Knowing a Fact and Understanding a Concept]]—_The same distinction told through an example (a fact versus its implications), and why the awe of understanding is hard to share._
 - [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]]—_The learning-side version: rote acquisition versus constructing meaning._
-- [[2026-07-25-familiarity-vs-comprehension-distinct-states]]—_Knowing that something happens versus knowing why, and why only the latter supports fixing it._
+- [[Familiarity vs Comprehension Distinct States]]—_Knowing that something happens versus knowing why, and why only the latter supports fixing it._
 - [[Information vs Knowledge]]—_One step earlier on the arc: information becoming knowledge. This table covers the step after._
 - [[Tacit vs Explicit Knowledge]]—_A different axis: whether knowledge can be written down, not whether it is understood._
 - [[SOLO Taxonomy Describes Understanding Levels]]—_Grades understanding in five levels, where this table gives a two-way split._

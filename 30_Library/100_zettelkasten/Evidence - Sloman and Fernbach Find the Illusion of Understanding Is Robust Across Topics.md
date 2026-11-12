@@ -29,6 +29,6 @@ It measures felt understanding, not felt significance, and it is about knowing h
 
 [supports:: [[Felt significance of thoughts can mislead about their substance]], confidence=medium]
 
-[supports:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]], confidence=medium]
+[supports:: [[IoED Definition Gap Felt vs Actual Understanding]], confidence=medium]
 
 The second edge is the direct one: Sloman and Fernbach are reporting Rozenblit and Keil's illusion of explanatory depth itself, so this note is evidence for the definition, not only for the analogous felt-significance claim.

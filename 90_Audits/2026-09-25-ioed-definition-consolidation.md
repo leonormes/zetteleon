@@ -6,7 +6,7 @@ title: 2026-09-25-ioed-definition-consolidation
 type: note
 ---
 
-## Consolidation—[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]—2026-09-25
+## Consolidation—[[IoED Definition Gap Felt vs Actual Understanding]]—2026-09-25
 
 > Run of [[Knowledge Consolidation Agent]] (v4). An earlier pass on this note is in [[2026-07-30-ioed-definition]]; this run re-checks it for duplicates and overlaps against today's vault.
 

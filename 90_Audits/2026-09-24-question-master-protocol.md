@@ -18,7 +18,7 @@ type: note
 
 ### Finding: a Mis-typed Edge Closed a Loop
 
-The note carried `[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` (added in the 2026-07-30 run). That fails the denial test: if active questioning did not work, the SoT's diagnosis that the illusion exists would still stand; it would only lose one remedy. It also created a cycle: IoED SoT → [[2026-07-25-familiarity-vs-comprehension-distinct-states]] → this note → IoED SoT.
+The note carried `[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` (added in the 2026-07-30 run). That fails the denial test: if active questioning did not work, the SoT's diagnosis that the illusion exists would still stand; it would only lose one remedy. It also created a cycle: IoED SoT → [[Familiarity vs Comprehension Distinct States]] → this note → IoED SoT.
 
 Fix: retyped it to `[implements:: [[SoT - Illusion of Explanatory Depth (IoED)]], confidence=medium]` with a sentence explaining why. The audit's cycle count dropped from 35 to 34, and no new gap appeared. This reverses a decision from the earlier run.
 
@@ -35,8 +35,8 @@ No existing ProdOS protocol applies this technique, so I did not force a link. T
 
 ### Left Alone
 
-- The same cycle pattern exists through [[2026-07-25-build-it-standard-tests-understanding-via-creation]], [[2026-07-25-five-whys-chain-drills-to-first-principles]] and [[Information Retrieval Is Not Learning]] (all `supports` the IoED SoT, which supports [[2026-07-25-familiarity-vs-comprehension-distinct-states]]). Not changed here.
-- Title is a date-prefixed slug, not a declarative sentence; the sentence lives in an alias, and [[2026-07-25-familiarity-vs-comprehension-distinct-states]] links through that alias. Not renamed.
+- The same cycle pattern exists through [[2026-07-25-build-it-standard-tests-understanding-via-creation]], [[2026-07-25-five-whys-chain-drills-to-first-principles]] and [[Information Retrieval Is Not Learning]] (all `supports` the IoED SoT, which supports [[Familiarity vs Comprehension Distinct States]]). Not changed here.
+- Title is a date-prefixed slug, not a declarative sentence; the sentence lives in an alias, and [[Familiarity vs Comprehension Distinct States]] links through that alias. Not renamed.
 - Empty fields: `## Open Questions` (falsifiers, crux, counter-positions) is blank and `evidence_links` is empty; the only evidence is the SoT's own line.
 
 ### Validation

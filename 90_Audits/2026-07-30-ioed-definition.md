@@ -6,7 +6,7 @@ title: 2026-07-30-ioed-definition
 type: note
 ---
 
-## Positioning—[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]—2026-07-30
+## Positioning—[[IoED Definition Gap Felt vs Actual Understanding]]—2026-07-30
 
 ### Baseline
 

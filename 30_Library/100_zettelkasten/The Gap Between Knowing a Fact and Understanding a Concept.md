@@ -36,7 +36,7 @@ Links:
 Typed edges (each target verified to exist; strength of fit is my reading, not stated in the note):
 
 - [extends:: [[Comparison - Knowing vs Understanding]], confidence=medium]—*Adds the communication consequence (understanding cannot be handed over as a fact) to the general knowing-versus-understanding contrast.*
-- [supports:: [[2026-07-25-familiarity-vs-comprehension-distinct-states]], confidence=medium]—*The same fact/concept split, framed as knowing that versus knowing why; near-duplicate worth merging or differentiating.*
+- [supports:: [[Familiarity vs Comprehension Distinct States]], confidence=medium]—*The same fact/concept split, framed as knowing that versus knowing why; near-duplicate worth merging or differentiating.*
 - [supports:: [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]], confidence=medium]—*"Building an internal mental model" is the construction of meaning this claim names.*
 - [depends_on:: [[Understanding Compresses Information into Cognitive Chunks]], confidence=medium]—*The "intricate structure" of a mental model is plausibly the chunked, compressed pattern this claim describes (inferred).*
 - [depends_on:: [[Prior Knowledge Organized as Schemas Provides the Foundation for New Learning]], confidence=low]—*A model can only be built on existing schemas, which is why the listener without them cannot see the structure (inferred).*

@@ -1,17 +1,10 @@
 ---
 aliases: []
-created: 2025-08-31 16:08:50+00:00
+created: 2025-08-31T16:08:50+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
-status: ''
-tags: []
-title: Universality vs Diversity Tension
-type: ''
-updated: null
+modified: 2026-11-11T11:31:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/universality-vs-diversity-tensionT16:08:50+00:00
-last_reviewed: ''
-modified: 2026-10-29T09:37:40+00:00
-permalink: llmeon/30-library/100-zettelkasten/universality-vs-diversity-tension
+status: ''
 tags: []
 title: Universality vs Diversity Tension
 type: ''

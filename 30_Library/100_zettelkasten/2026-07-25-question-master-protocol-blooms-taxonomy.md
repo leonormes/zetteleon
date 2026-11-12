@@ -33,9 +33,9 @@ Generating higher-order questions is itself a skill that assumes some baseline c
 
 ## Knowledge Graph
 
-No outgoing edge from this note—[[2026-07-25-familiarity-vs-comprehension-distinct-states|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
+No outgoing edge from this note—[[Familiarity vs Comprehension Distinct States|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
 
-The IoED SoT lists this protocol as one of its named forcing functions (section 4E). This note carries out that remedy but gives the SoT no evidence for the illusion itself, so the edge is `implements`, not `supports`. Typed `supports`, it closed a loop through [[2026-07-25-familiarity-vs-comprehension-distinct-states|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] and back to the SoT.
+The IoED SoT lists this protocol as one of its named forcing functions (section 4E). This note carries out that remedy but gives the SoT no evidence for the illusion itself, so the edge is `implements`, not `supports`. Typed `supports`, it closed a loop through [[Familiarity vs Comprehension Distinct States|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] and back to the SoT.
 
 [implements:: [[SoT - Illusion of Explanatory Depth (IoED)]], confidence=medium]
 

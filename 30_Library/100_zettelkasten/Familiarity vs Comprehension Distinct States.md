@@ -31,9 +31,9 @@ In many practical domains, reliable prediction is functionally sufficient—an o
 
 ## Knowledge Graph
 
-[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction is what makes the gap possible: the illusion lives in the conflation of these two states
+[[IoED Definition Gap Felt vs Actual Understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction is what makes the gap possible: the illusion lives in the conflation of these two states
 
-[supports:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]]
+[supports:: [[IoED Definition Gap Felt vs Actual Understanding]]]
 
 [[2026-07-25-build-it-standard-tests-understanding-via-creation|The Build-It Standard Tests Understanding Through Creation]]—the antidote's rationale rests directly on this distinction
 

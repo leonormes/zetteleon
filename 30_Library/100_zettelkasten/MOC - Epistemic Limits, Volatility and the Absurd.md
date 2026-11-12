@@ -1,23 +1,13 @@
 ---
-aliases:
-- Zone and Absurd Map
+aliases: [Zone and Absurd Map]
 conformant: true
-created: 2026-11-01 12:00:00+00:00
-entry_points:
-- '[[Human Scientific Frameworks Fail to Model Systems That Lack a Human-Comprehensible
-  Purpose]]'
-- '[[SoT - The Philosophy of the Absurd (Camus)]]'
-modified: 2026-11-01 12:00:00+00:00
-scope: Where human sense-making meets systems that will not be made sense of, in science
-  and in meaning
+created: 2026-11-01T12:00:00+00:00
+modified: 2026-11-11T14:15:49+00:00
+permalink: llmeon/30-library/mo-c/moc-epistemic-limits-volatility-and-the-absurd
 status: draft
-tags:
-- prodos/moc
-- topic/epistemology
-- TheHuman/Philosophy
+tags: [prodos/moc, TheHuman/Philosophy, topic/epistemology]
 title: MOC - Epistemic Limits, Volatility and the Absurd
 type: map
-permalink: llmeon/30-library/mo-c/moc-epistemic-limits-volatility-and-the-absurd
 ---
 
 ## MOC - Epistemic Limits, Volatility and the Absurd
@@ -26,14 +16,14 @@ Two branches around one shared structure: a drive to make sense meets something 
 
 ### Branch 1: Epistemic Limits and Volatility
 
-#### The four Zone claims (new, in the own-words queue)
+#### The Four Zone Claims (New, in the Own-words Queue)
 
 - [[Human Scientific Frameworks Fail to Model Systems That Lack a Human-Comprehensible Purpose]]—_frameworks bound to human purposes fail on purposeless systems._
 - [[Local empirical micro-testing beats centralised modelling under shifting rules]]—_cheap local probes beat central theory when rules shift._
 - [[Institutions That Contain Anomalies Adapt to Falsifying Data More Slowly Than Autonomous Actors]]—_containment institutions favour stability over accuracy._
 - [[Novelty-Seeking Cognitive Profiles Act as Epistemic Sensors Against Institutional Inertia]]—_explorers act as the institution's anomaly sensors._
 
-#### Why frameworks fail
+#### Why Frameworks Fail
 
 - [[Kuhn's Four-Stage Model of Paradigm Collapse]]—_anomalies are patched over before a crisis forces replacement._
 - [[Kuhn's Incommensurability Thesis Denies Simple Cross-Paradigm Progress]]—_rival paradigms cannot be compared on a single scale._
@@ -44,14 +34,13 @@ Two branches around one shared structure: a drive to make sense meets something 
 - [[The Map is Not the Territory]]—_a model is not the thing it models._
 - [[SoT - Reality, Models, and the Limits of Accuracy]]—_all models are wrong, some are useful._
 
-#### How to act under volatility
+#### How to Act under Volatility
 
 - [[Anti-Fragility Means Systems That Benefit From Volatility]]—_small reversible bets convert volatility into information._
 - [[Epistemic Actions - Thinking via Doing]]—_probing the world replaces simulating it._
 - [[Prediction Error Breaks Feedback Loops]]—_reality testing corrects a model left unchecked._
-- [[Global Stability in Kubernetes Emerges From Many Narrow Negative Feedback Loops]]—_many local loops, not one central controller._
 
-#### Agile practice as an applied case (inferred analogy)
+#### Agile Practice as an Applied case (Inferred Analogy)
 
 Agile practices cope with shifting requirements, not shifting underlying rules, so the fit is an analogy. The two SoT notes carry `implements` edges to the micro-testing claim.
 
@@ -59,7 +48,7 @@ Agile practices cope with shifting requirements, not shifting underlying rules, 
 - [[SoT - Main-as-Default Trunk Based Development]]—_continuously shipping the smallest robust increments, with feedback owned until validated in production._
 - [[Focus on Short-Term Learning Over Rigid Long-Term Planning]]—_the personal-planning version of the same stance; the micro-testing claim extends it._
 
-#### Institutions and bias
+#### Institutions and Bias
 
 - [[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]—_the case for institutional structure as a corrective; in tension with the third Zone claim._
 
@@ -75,11 +64,11 @@ Agile practices cope with shifting requirements, not shifting underlying rules, 
 - [[The Preconditions for Purpose]]—_what has to be in place before purpose is possible._
 - [[SoT - Metaphysics of Purpose]]—_whether the universe holds latent or actual purpose._
 
-### Bridge (inferred, for Leon to confirm)
+### Bridge (Inferred, for Leon to Confirm)
 
 The two branches meet where a mind built to explain (see [[Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth]]) runs into a world with no purpose to find. In Branch 1 the failure is a model that does not fit. In Branch 2 it is meaning that is not there to find. Roadside Picnic and Solaris dramatise both at once. This is a reading, not a settled link, and no typed edge records it.
 
-### Books (personal library)
+### Books (Personal Library)
 
 Opens in Calibre. Each is marked by how it was matched, because the search scores were low.
 

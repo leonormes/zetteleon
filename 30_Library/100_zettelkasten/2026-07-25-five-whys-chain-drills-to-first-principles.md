@@ -33,6 +33,6 @@ Five is an arbitrary heuristic depth—some causal chains bottom out in fewer it
 
 ## Knowledge Graph
 
-No outgoing edge from this note—[[2026-07-25-familiarity-vs-comprehension-distinct-states|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
+No outgoing edge from this note—[[Familiarity vs Comprehension Distinct States|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
 
 [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

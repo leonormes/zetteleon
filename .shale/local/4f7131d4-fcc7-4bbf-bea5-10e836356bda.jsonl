@@ -18,3 +18,8 @@
 {"kind":"completion","at":"2026-11-11T11:16:32.135441Z","note":"Moved 14 FitFile K8s secrets management notes and ops playbooks to .trash"}
 {"kind":"intent","at":"2026-11-11T11:19:17.868002Z","title":"Move generic VSO, K8s secrets, and FitFile security architectural notes to .trash","body":"Moving SoT - VSO Authentication, SoT - Vault Secrets Operator, SoT - Kubernetes Secrets Management, MoC - FitFile Security \u0026 Secrets, and SoT - Vault Infrastructure Automation to .trash as requested by user"}
 {"kind":"completion","at":"2026-11-11T11:19:40.662344Z","note":"Moved 5 generic VSO, K8s secrets, and FitFile security architectural notes to .trash"}
+{"kind":"intent","at":"2026-11-11T11:24:34.84026Z","title":"Move HashiCorp Vault foundational architecture and KV data structure notes to .trash","body":"Moving SoT - Vault KV Data Structure and SoT - HashiCorp Vault Architecture to .trash as requested by user"}
+{"kind":"completion","at":"2026-11-11T11:24:43.249338Z","note":"Moved SoT - Vault KV Data Structure and SoT - HashiCorp Vault Architecture to .trash"}
+{"kind":"intent","at":"2026-11-11T11:33:27.261584Z","title":"Move Three-Phase Protocol for Execution notes, phases, and associated archive SoTs/MoCs to .trash","body":"Moving Phase 2, Phase 3, MOC - Three-Phase Protocol for Execution and its associated legacy SoTs to .trash as requested by user"}
+{"kind":"completion","at":"2026-11-11T11:33:39.865097Z","note":"Moved Phase 2, Phase 3, MOC - Three-Phase Protocol for Execution and associated legacy execution SoTs to .trash"}
+{"kind":"session_meta","at":"2026-11-11T12:10:04.230579Z","tool":"claude-code","session_id":"4f7131d4-fcc7-4bbf-bea5-10e836356bda"}
