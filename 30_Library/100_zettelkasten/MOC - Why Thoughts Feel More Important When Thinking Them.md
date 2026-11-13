@@ -44,7 +44,7 @@ By externalizing thoughts, writing creates psychological distance that allows us
 
 ## The Significance-Substance Gap
 
-[[Felt significance of thoughts can mislead about their substance]] rel:: core-insight
+[[Felt Significance of Thoughts Can Mislead About Their Substance]] rel:: core-insight
 
 The crucial realization is that felt importance and actual substance are separate dimensions that often dissociate. A thought can feel profound without being novel. An idea can seem insightful without being valid. The subjective experience of "this is important" is not reliable evidence about the quality of the thought itself.
 

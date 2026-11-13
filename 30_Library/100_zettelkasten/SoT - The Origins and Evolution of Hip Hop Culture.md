@@ -2,7 +2,7 @@
 aliases: [Breakdance Origins, Four Elements of Hip Hop, Hip Hop Culture SoT, Hip Hop History]
 conformant: true
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-10-22T15:11:10+00:00
+modified: 2026-11-13T10:41:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-origins-and-evolution-of-hip-hop-culture
 tags: [art, culture, dance, hip_hop, history, music]
@@ -92,5 +92,15 @@ The "Commercialization vs. Authenticity" tension defines the modern era.
 
 ## Related
 
-- [[Expressive Music Organically Builds Its Own Scene]]
-- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]
+- [[Expressive Music Organically Builds Its Own Scene]]—_Hip Hop's 1970s South Bronx origins exemplify an expressive scene growing organically outside mainstream systems._
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]—_the 1970s-to-2020s trajectory illustrates the tension between community roots and mass commercialization._
+- [[Creative Expression Across Mediums]]—_Hip Hop's Four Elements (aural, oral, physical, visual) unite multiple non-linguistic and linguistic mediums into one movement._
+- [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]]—_Hip Hop emerged as a creative and attitudinal response to systemic neglect and urban decay._
+
+[implements:: [[Expressive Music Organically Builds Its Own Scene]], strength=5, confidence=high]
+
+[supports:: [[Authentic Music Creates Communities While Commercial Music Creates Consumers]], strength=4, confidence=high]
+
+[implements:: [[Creative Expression Across Mediums]], strength=4, confidence=high]
+
+[supports:: [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]], strength=3, confidence=medium]

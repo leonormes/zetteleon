@@ -18,4 +18,4 @@ The idea of Words as Imperfect Representations of Meaning resonates with several
 
 ## Related
 
-- [[Ideas exist beyond linguistic expression]]—_words as shadows of ideas._
+- [[Ideas Exist Beyond Linguistic Expression]]—_words as shadows of ideas._

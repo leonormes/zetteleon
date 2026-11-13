@@ -32,7 +32,7 @@ Outcome: A conscious understanding of the core insight you have just unearthed. 
 
 - [[Stage 2 Clarify (The On Writing Well Layer)]]—_The preceding stage._ [depends_on:: [[Stage 2 Clarify (The On Writing Well Layer)]]]
 - [[Stage 4 Connect (The Zettelkasten Layer)]]—_The next stage._
-- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]
 - [[SoT - HEAD Note Contract (The Workbench)]]—_Where a question this stage raises goes if it is yours to resolve: a HEAD note is defined as an open question the human owns._
 - [[2026-07-25-question-master-protocol-blooms-taxonomy]]—_A related questioning technique, asking analyse-, evaluateand create-level questions of the same material._
 - [[Writing puts us in the powerful position of being able to observe our thinking]]—_The claim behind this stage: writing makes your own thinking observable, which is what the reflection reads._

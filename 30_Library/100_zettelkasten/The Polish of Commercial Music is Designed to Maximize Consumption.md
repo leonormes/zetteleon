@@ -1,10 +1,14 @@
 ---
 aliases: [Polished Music Production]
-conformant: false
+conformant: true
+contradicts: []
 created: 2025-11-10T11:07:00+00:00
-modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: medium
+evidence_links: []
+modified: 2026-11-13T10:41:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/the-polish-of-commercial-music-is-designed-to-maximize-consumption
+proposition: "The polished, frictionless sound of commercial music is intentionally engineered to maximise palatability and mass consumption."
 tags: [commerce, music, product, production]
 title: The Polish of Commercial Music is Designed to Maximize Consumption
 type: claim
@@ -20,3 +24,11 @@ Details: Just like a commercial product such as a phone or a film, commercial mu
 
 - [[Commercial Music is Engineered for Mass Appeal by Specialist Teams]] - Explains the team-based approach to creating this polish.
 - [[Music as a Product is Born From a Market-Driven Goal]] - Explores the business intent behind the music.
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]—_the social effect of frictionless consumption._
+- [[The Rawness of Expressive Music is a Sign of its Honesty]]—_the contrasting expressive aesthetic._
+- [[Eufriction - Productive Friction Strengthens Thinking]]—_commercial polish removes all friction for passive consumption, the aesthetic inverse of productive friction._
+- [[SoT - Wabi-Sabi]]—_represents the perfectionist aesthetic that wabi-sabi explicitly counter-balances._
+
+[depends_on:: [[Commercial Music is Engineered for Mass Appeal by Specialist Teams]], strength=4, confidence=high]
+
+[supports:: [[Authentic Music Creates Communities While Commercial Music Creates Consumers]], strength=4, confidence=high]

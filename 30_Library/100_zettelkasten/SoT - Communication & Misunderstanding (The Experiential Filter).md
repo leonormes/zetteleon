@@ -2,12 +2,19 @@
 aliases: [Communication Theory, Cross-Cultural Communication, Experiential Filter, Misunderstanding, Shared Understanding]
 conformant: true
 created: 2026-01-02T15:20:00+00:00
-modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+modified: 2026-11-13T11:44:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-communication-misunderstanding-the-experiential-filter
-tags: [communication, misunderstanding, psychology, social-cognition]
+see_also: ["[[MOC - The Gap Between Thought and Language]]", "[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]"]
+tags: [communication, misunderstanding, prodos/sot, psychology, social-cognition]
 title: SoT - Communication & Misunderstanding (The Experiential Filter)
 type: sot
+---
+
+## Minimum Viable Understanding (MVU)
+
+Communication is coordination, not transmission: words do not carry thoughts from one brain to another, but act as instructions for the listener to reconstruct meaning through their own experiential filter (history, culture, values). Because no two experiential filters are identical, misunderstanding is the default state unless speakers actively model what the listener knows, anchor abstractions in shared concrete experience, and iterate through feedback and repair.
+
 ---
 
 ## 1. The Mechanic of Communication
@@ -51,4 +58,24 @@ Misunderstanding is the default state, not an anomaly. It arises when the Experi
 
 ## Related
 
-- [[The Illusion of Shared Understanding in Teams]]—_The team-scale case: shared vocabulary hides differing mental models until a crisis. Section 3.3, Explicit Clarification, is the remedy._
+- [[MOC - The Gap Between Thought and Language]]—_the domain map connecting this SoT to pre-linguistic representation and translation mechanics._
+- [[Communication Is Inherently Lossy Like Image Compression]]—_the encoding-decoding bottleneck that makes one-shot transmission impossible._
+- [[Words Are Pointers, Not Containers of Meaning]]—_atomic claim behind §1's thesis that words are stimuli triggering reconstruction._
+- [[Communicating Depends on Modelling What the Listener Already Knows]]—_atomic claim behind §2's Curse of Knowledge and §3's calibration._
+- [[Shared biological architecture enables communication]]—_the baseline neurobiological overlap that makes reconstruction possible at all._
+- [[Common experiential anchors ground abstract concepts]]—_atomic claim behind §3.1's Establishing Common Ground._
+- [[Communication requires iterative approximation]]—_atomic claim behind §3.3's Active Repair loop._
+- [[Meaning emerges from language games]]—_philosophical grounding for §3's definition of shared understanding as sufficient functional overlap._
+- [[The Illusion of Shared Understanding in Teams]]—_the team-scale case: shared vocabulary hides differing mental models until a crisis; Section 3.3, Explicit Clarification, is the remedy._
+
+[synthesizes:: [[Communication Is Inherently Lossy Like Image Compression]], strength=5, confidence=high]
+
+[synthesizes:: [[Words Are Pointers, Not Containers of Meaning]], strength=5, confidence=high]
+
+[synthesizes:: [[Communicating Depends on Modelling What the Listener Already Knows]], strength=5, confidence=high]
+
+[synthesizes:: [[Common experiential anchors ground abstract concepts]], strength=4, confidence=high]
+
+[synthesizes:: [[Communication requires iterative approximation]], strength=5, confidence=high]
+
+[synthesizes:: [[Meaning emerges from language games]], strength=4, confidence=high]

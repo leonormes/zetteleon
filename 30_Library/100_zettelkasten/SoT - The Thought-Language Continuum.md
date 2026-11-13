@@ -1,20 +1,27 @@
 ---
-aliases: []
+aliases: [Thought-Language Continuum]
 conformant: true
 created: 2025-12-11T00:00:00+00:00
-modified: 2026-10-22T15:11:10+00:00
-non_conformance_reason: ''
+modified: 2026-11-13T11:44:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-the-thought-language-continuum
-tags: []
+see_also: ["[[MOC - The Gap Between Thought and Language]]", "[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]"]
+tags: [ai, cognition, communication, language, linguistics, philosophy-of-mind, prodos/sot]
 title: SoT - The Thought-Language Continuum
 type: sot
 ---
 
+## 1. Minimum Viable Understanding (MVU)
+
+Thought and language form a continuum rather than an identity: pre-linguistic experience and subjective awareness ground meaning, inner speech bridges raw thought into sequential structure, and explicit language shapes attention and coordinates minds. Disembodied AI models operate purely on the symbolic surface of this continuum—manipulating linguistic pointers without phenomenal consciousness or experiential grounding—while human speakers must actively reduce cognitive load and use concrete narrative to translate internal thought across the gap.
+
+---
+
 ## 2. Core Concepts
 
-### A. The Inseparability of Thought and Language
+### A. The Interplay of Thought and Language
 
-- Linguistic Relativity (Sapir-Whorf Hypothesis): The structure of a language affects its speakers' world view or cognition. Our language influences how we perceive and think about reality.
+- Linguistic Relativity (Sapir-Whorf Hypothesis): The structure of a language affects its speakers' world view or cognition. Our language influences how we perceive and carve up reality without strictly imprisoning capacity.
 - Inner Speech: The silent verbalization of thoughts plays a crucial role in cognitive processes, problem-solving, and self-regulation. It represents a bridge between raw thought and articulated expression.
 
 ---
@@ -53,3 +60,22 @@ Beyond structuring your content, effective delivery ensures your message is not 
 
 - Principle: The perceived energy of a speaker is often significantly lower than the speaker's felt energy. What feels "super energetic" to you usually comes across as just "engaging" to the audience.
 - Application: Consciously project more enthusiasm, conviction, and vocal variety than you think is necessary. This ensures your delivery is dynamic and holds the listener's attention.
+
+---
+
+## 5. Related Knowledge
+
+- [[MOC - The Gap Between Thought and Language]]—_the domain map connecting this SoT to pre-linguistic representation and communication mechanics._
+- [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]—_sibling SoT establishing the embodied, pre-linguistic foundation beneath the symbolic layer._
+- [[Language Discretises Continuous Experience]]—_atomic claim explaining why mapping continuous experience onto discrete words loses nuance._
+- [[Words Are Pointers, Not Containers of Meaning]]—_atomic claim behind §3's point that symbolic systems manipulate pointers rather than meaning itself._
+- [[Qualia and Linguistic Limitations]]—_maps the phenomenal consciousness and subjective feel (§3) that resist purely linguistic capture._
+- [[Implications for Consciousness and Philosophy of Mind]]—_explores the philosophical consequences of the gap between symbolic proficiency and phenomenal awareness._
+
+[extends:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]], strength=4, confidence=high]
+
+[synthesizes:: [[Language Discretises Continuous Experience]], strength=4, confidence=high]
+
+[synthesizes:: [[Words Are Pointers, Not Containers of Meaning]], strength=4, confidence=high]
+
+[synthesizes:: [[Qualia and Linguistic Limitations]], strength=4, confidence=medium]

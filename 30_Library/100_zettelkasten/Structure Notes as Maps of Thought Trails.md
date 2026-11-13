@@ -15,7 +15,7 @@ title: Structure Notes as Maps of Thought Trails
 type: claim
 ---
 
-In a PKM that embraces [[SoT - The Unified Writing to Think Process|writing as a thinking tool]], the role of the polished, summary-style note changes. It is no longer the final product or the primary artifact of value. Instead, it becomes a Structure Note (or Map of Content) that serves as a high-level guide to the messy, authentic thinking process that produced it.
+In a PKM that embraces [[SoT - Unified Writing to Think Process|writing as a thinking tool]], the role of the polished, summary-style note changes. It is no longer the final product or the primary artifact of value. Instead, it becomes a Structure Note (or Map of Content) that serves as a high-level guide to the messy, authentic thinking process that produced it.
 
 Instead of a single, conclusive "wiki entry," you have a network of smaller, more personal atomic notes capturing the journey:
 
@@ -39,4 +39,4 @@ Links:
 
 [extends:: [[Hub Notes Provide Entry Points to Idea Clusters]], strength=3, confidence=medium]
 
-[depends_on:: [[SoT - The Unified Writing to Think Process]]]—_The writing-to-think paradigm this claim presupposes; the closest real target for the original (broken) "Writing as a Thinking Tool" link._
+[depends_on:: [[SoT - Unified Writing to Think Process]]]—_The writing-to-think paradigm this claim presupposes; the closest real target for the original (broken) "Writing as a Thinking Tool" link._

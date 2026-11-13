@@ -2,16 +2,22 @@
 aliases: [Intent vs Impact, Respect Agreement, The Team Charter]
 conformant: true
 created: 2026-01-07T00:00:00+00:00
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-13T12:02:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-family-communication-team-charter
-tags: [communication, conflict-resolution, family, relationship]
+see_also: ["[[MOC - Relational Dynamics & Family (Triage)]]", "[[SoT - Framework for Healthy Communication]]", "[[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]"]
+tags: [communication, conflict-resolution, family, prodos/sot, relationship]
 title: SoT - Family Communication & Team Charter
 type: sot
 ---
 
-## SoT - Family Communication & Team Charter
+## Minimum Viable Understanding (MVU)
 
-### 1. The Core Diagnosis: Process vs. Outcome
+Household conflict rarely stems from opposing goals; it stems from mismatched process values (long-term *Efficiency* vs. immediate *Stress Relief*) and the illusion that explaining harder in the moment will change behaviour ([[The Information Deficit Model is a Fallacy]]). Rather than arguing about tasks or lecturing while someone is overwhelmed, this charter replaces in-the-moment persuasion with pre-agreed protocols negotiated when calm: Tag-Team Handovers, Intent-vs-Impact repair, frequency matching, and Weekly Family Meetings.
+
+---
+
+## 1. The Core Diagnosis: Process vs. Outcome
 
 Conflict often arises not from disagreement on goals (e.g., "A tidy house"), but from a fundamental mismatch in Process Values.
 
@@ -98,7 +104,10 @@ When dealing with partners or children, recognise which conversation type is act
 - Practical (Decision-making): "What is this really about? How do we fix this?"
 - Emotional (Feeling-centric): "How do we feel about this? Do you hear me?"
 - Social Identity (Who we are): "What group do I belong to? Who are we?"
+
 _Rule_: Match the speaker's frequency. Never offer practical system fixes or logical arguments when a partner or child is having an emotional conversation. Validate their feelings first to establish psychological safety before bridging into practical problem-solving.
+
+---
 
 ### 5. Defense Against Weaponization
 
@@ -121,3 +130,21 @@ To keep the household systems running smoothly and ensure everyone feels heard, 
   1. Win of the Week: Celebrate efforts, improvements, and milestones.
   2. Checklist/Rotation Review: Confirm chore rotations for the upcoming week.
   3. System Tweaks: An open forum for kids and parents to raise issues (e.g., "This job is too hard/unfair") and update checklists.
+
+---
+
+## 7. Related Knowledge
+
+- [[The Information Deficit Model is a Fallacy]]—_explains why repeating logical arguments in the moment fails to change partner or household behaviour._
+- [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]]—_behavioural principle behind replacing verbal reminders with pre-agreed defaults and clear protocols._
+- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—_models why identical words land differently across Efficiency vs. Immediacy experiential filters._
+- [[SoT - Framework for Healthy Communication]]—_provides the Intent vs. Impact axioms and Data-Impact-Proposal-Check calibration loop._
+- [[SoT - Family Household Governance]]—_operational chore rotations, visual checklists, and study sprints governed by this charter._
+- [[SoT - Family Financial Wellness]]—_parallel structural-autonomy design for money (One-Pot Model + Budget Date Night)._
+- [[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]—_active workbench thread tracking experiments and observations on this charter in practice._
+
+[implements:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]
+
+[implements:: [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]], strength=4, confidence=high]
+
+[extends:: [[SoT - Framework for Healthy Communication]], strength=4, confidence=high]

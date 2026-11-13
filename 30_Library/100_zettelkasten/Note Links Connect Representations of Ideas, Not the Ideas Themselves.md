@@ -42,7 +42,7 @@ Source: [[beyond words]] (line 42).
 - [[Creating Meaningful Links]]—extends: distinguishes meaningful from superficial links; this note supplies a reason superficial ones fail.
 - [[Key questions when linking notes in the Zettelkasten method]]—shared mechanism: questions to ask so that a link expresses a real relationship.
 - [[Zettelkasten System Essence]]—shared mechanism: the size of the link graph is not evidence of understanding.
-- [[Ideas exist beyond linguistic expression]]—shared mechanism: a note is a representation of an idea in the same way words are.
+- [[Ideas Exist Beyond Linguistic Expression]]—shared mechanism: a note is a representation of an idea in the same way words are.
 - [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—shared mechanism: notes that state claims give links something substantive to connect.
 - [[Vague Notes Make Links Between Them Tenuous]]—extends: the consequence for note quality: vague notes make the links between them tenuous.
 

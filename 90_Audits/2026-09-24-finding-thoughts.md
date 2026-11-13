@@ -20,7 +20,7 @@ A first-person problem statement: "I don't know how to find things in obsidianâ€
 |---|---|
 | How do I find things? | [[Hub Notes Provide Entry Points to Idea Clusters]], [[Keyword Index Provides Sparse Entry Points]], [[Semantic Search via Embeddings]], [[Retrieval-Augmented Generation (RAG) Grounds LLM Outputs in External Knowledge]] |
 | How do I continue without rewriting? | [[Linking as a Redundancy Reduction Strategy in Zettelkasten]] (the most direct: one canonical note per idea, link instead of restating), [[Key questions when linking notes in the Zettelkasten method]], [[Creating Meaningful Links]], [[Practice - Flat linking and tagging]], [[SoT - HEAD Note Contract (The Workbench)]], [[SoT - Evolutionary Note System]], [[Create a 'Research Hole' Parking Lot]] |
-| Why is it a recurring theme? | [[My Main PKM Problem Is the Continuity of Thinking]] (the ADHD explanation), [[Zettelkasten Ain't Easy]], [[MOC - Project Continuity]], [[Documenting Mental Models Enables Project Re-entry]], [[Continuation Rituals Bridge Work Sessions for ADHD]], [[SoT - The Unified Writing to Think Process]], [[Stage 3 Understand (The Writing to Learn Layer)]] |
+| Why is it a recurring theme? | [[My Main PKM Problem Is the Continuity of Thinking]] (the ADHD explanation), [[Zettelkasten Ain't Easy]], [[MOC - Project Continuity]], [[Documenting Mental Models Enables Project Re-entry]], [[Continuation Rituals Bridge Work Sessions for ADHD]], [[SoT - Unified Writing to Think Process]], [[Stage 3 Understand (The Writing to Learn Layer)]] |
 
 ### Gaps in the Vault
 

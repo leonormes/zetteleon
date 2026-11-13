@@ -2,8 +2,10 @@
 aliases: [Action-First Cognition, Embodied Understanding, Experiential Grounding, Language as a Tool, Pre-Linguistic Cognition, Pre-Linguistic Understanding, Primacy of Experience]
 conformant: true
 created: 2026-01-02T15:00:00+00:00
-modified: 2026-10-22T15:11:10+00:00
+modified: 2026-11-13T11:44:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-the-primacy-of-experience-pre-linguistic-understanding
+see_also: ["[[MOC - The Gap Between Thought and Language]]", "[[SoT - The Thought-Language Continuum]]", "[[SoT - Communication & Misunderstanding (The Experiential Filter)]]"]
 source_of_truth: true
 tags: [ai, cognition, cognitive_science, education, embodiment, language, linguistics, TheHuman/Philosophy, understanding]
 title: SoT - The Primacy of Experience (Pre-Linguistic Understanding)
@@ -67,11 +69,6 @@ Because of the Translation Gap above, "Do you understand?" is a weak check—the
 
 The Chinese Room Problem, restated through the Grounding Problem above: an LLM operates entirely on the "Map" level (language) with zero access to the "Territory" (pre-linguistic reality)—it can generate "the stove is hot" without having the neural pathway for pain or heat. Under this view, AI hallucination is better modelled as an error of _grounding_ than an error of _fact_: the system does not "know" anything in the experiential sense; it predicts the token sequence that co-occurs with the input.
 
-### Connections to Other ProdOS SoTs
-
-- [[SoT - The Cognitive Physiology of Task Execution]]—Phase 2 planning relies on pre-linguistic mental models; you simulate before you narrate.
-- [[SoT - The Cognitive Physiology of Task Execution]]—action must often precede the linguistic explanation of one's own motivation, not follow it.
-
 ---
 
 ## Tensions & Gaps
@@ -83,11 +80,27 @@ The Chinese Room Problem, restated through the Grounding Problem above: an LLM o
 
 ## Related Knowledge
 
-- [[SoT - The Cognitive Physiology of Task Execution]]—Phase 2 planning as an instance of pre-linguistic mental modelling
-- [[SoT - The Cognitive Physiology of Task Execution]]—action preceding its own linguistic justification
-- [[Pre-Linguistic Thought]]—the general phenomenon this SoT treats philosophically
-- [[Language Acquisition and Development]]—mapping linguistic symbols onto pre-existing conceptual frameworks
-- [[Mental representations take multiple forms]]—pre-linguistic thought may manifest as visual/spatial representations or embodied knowledge
-- [[Types of Non-Linguistic Knowledge]]—taxonomy of the non-linguistic knowledge forms this SoT argues are primary
-- [[Language of Thought]]—background on what pre-linguistic mental content is structured as
-- [[Repeated Pre-Linguistic Experience Builds the Familiarity That Enables Richer Paraphrase]]—a developmental account of how this primacy feeds back into linguistic expression over time
+- [[MOC - The Gap Between Thought and Language]]—_the domain map indexing this SoT alongside its atomic claims._
+- [[Ideas exist beyond linguistic expression]]—_atomic claim that internal concepts precede and transcend verbal expression._
+- [[Mental representations take multiple forms]]—_pre-linguistic thought manifests as visual/spatial representations, logical schemas, or embodied know-how._
+- [[Pre-Linguistic Thought]]—_the developmental and cognitive phenomenon this SoT treats philosophically._
+- [[Bodily Feelings Act as Pre-Verbal Cognition]]—_somatic markers as an embodied, pre-verbal decision mechanism._
+- [[Image Schemas Ground Abstract Concepts in Bodily Experience]]—_the bodily-pattern layer underlying Lakoff and Johnson's conceptual metaphors._
+- [[Types of Non-Linguistic Knowledge]]—_taxonomy of the experiential, embodied, and tacit knowledge forms this SoT argues are primary._
+- [[Words Are Pointers, Not Containers of Meaning]]—_atomic claim behind the "Language as a Tool, Not a Source" section above._
+- [[Language of Thought]]—_rival propositional (Mentalese) hypothesis rejected in Working Knowledge above._
+- [[Language Acquisition and Development]]—_mapping linguistic symbols onto pre-existing conceptual frameworks._
+- [[Repeated Pre-Linguistic Experience Builds the Familiarity That Enables Richer Paraphrase]]—_developmental account of how experiential primacy feeds back into linguistic expression._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Phase 2 planning relies on pre-linguistic mental models; action often precedes linguistic explanation._
+
+[synthesizes:: [[Ideas exist beyond linguistic expression]], strength=5, confidence=high]
+
+[synthesizes:: [[Mental representations take multiple forms]], strength=5, confidence=high]
+
+[synthesizes:: [[Bodily Feelings Act as Pre-Verbal Cognition]], strength=4, confidence=high]
+
+[synthesizes:: [[Image Schemas Ground Abstract Concepts in Bodily Experience]], strength=4, confidence=high]
+
+[synthesizes:: [[Words Are Pointers, Not Containers of Meaning]], strength=4, confidence=high]
+
+[contradicts:: [[Language of Thought]], strength=4, confidence=high]

@@ -1,8 +1,10 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-10T11:10:00+00:00
 last_reviewed: ''
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-11-13T10:41:00+00:00
+non_conformance_reason: "type 'instructional' is not in the FrontmatterContract enum; body is a diagnostic heuristic rather than a strict procedure"
 permalink: llmeon/30-library/100-zettelkasten/asking-why-a-song-exists-helps-determine-its-authenticity
 status: seed
 tags: [analysis, critical-thinking, music, question]
@@ -29,4 +31,13 @@ Example:
 
 ## Related
 
-- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]—_the community-versus-consumer consequence of expressive versus commercial intent._
+- [[Music as a Product is Born From a Market-Driven Goal]]—_unpacks the second possibility: songs created to satisfy a market need._
+- [[The Rawness of Expressive Music is a Sign of its Honesty]]—_sonic indicator of the first possibility: genuine expressive need._
+- [[Integrity Means Acting in Accordance With Chosen Values]]—_asks whether creative output aligns with chosen intrinsic values rather than external market incentives._
+
+[depends_on:: [[Authentic Music Creates Communities While Commercial Music Creates Consumers]], strength=4, confidence=high]
+
+[depends_on:: [[Music as a Product is Born From a Market-Driven Goal]], strength=4, confidence=high]
+
+[extends:: [[Integrity Means Acting in Accordance With Chosen Values]], strength=3, confidence=medium]

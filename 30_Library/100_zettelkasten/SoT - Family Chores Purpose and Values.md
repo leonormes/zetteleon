@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T12:52:00+00:00
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-13T16:42:27+00:00
 permalink: llmeon/30-library/so-t/so-t-family-chores-purpose-and-values
 tags: [chores, family, planning, purpose, values]
 title: SoT - Family Chores Purpose and Values
@@ -52,7 +52,7 @@ What does it look and feel like when our household systems are running smoothly?
 
 - Executive Function Scaffolding: laminated zone checklists; music/podcast pairing while cleaning; micro-steps under 5 minutes to start.
 - Parent-only medical pet care (dog Addison's)—canonical rules in [[SoT - Master Household Chores Inventory]], not restated here.
-- Missed-job handling: single neutral reminder + non-punitive review—operational detail in [[Family Chores Operational Plan]]; family wording in [[Family Chores - Everyone's Guide]].
+- Missed-job handling: single neutral reminder + non-punitive review—operational detail in; family wording in [[Family Chores - Everyone's Guide]].
 
 ---
 
@@ -78,7 +78,7 @@ Three layers (schedules and checklists live in the Tier 1 plan and Tier 2 guide,
 ### Related Notes
 
 - Everyone's Chores Guide: [[Family Chores - Everyone's Guide]]—_The plain-English daily and weekly checklists for the whole family._
-- Operational Plan: [[Family Chores Operational Plan]]—_The technical details, system architecture, and background design of the chores rotation._
+- Operational Plan:—_The technical details, system architecture, and background design of the chores rotation._
 - Household Governance SOT: [[SoT - Family Household Governance]]—_Core rules for our distributed household system, earned access, and storage hierarchy._
 - Team Charter SOT: [[SoT - Family Communication & Team Charter]]—_Handling differences in system values (Efficiency vs. Immediacy) and implementing tag-team handovers._
 - Growth Mindset Protocol: [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Deconstructing perfectionism, process-based parenting, and running failure autopsies._

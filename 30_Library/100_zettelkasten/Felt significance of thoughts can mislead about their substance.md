@@ -1,17 +1,26 @@
 ---
-aliases: [felt vs actual importance, significance-substance gap]
+aliases:
+- felt vs actual importance
+- significance-substance gap
 axiom: true
 conformant: true
 contradicts: []
-created: 2025-10-31T20:48:00+00:00
+created: 2025-10-31 20:48:00+00:00
 epistemic_status: high
-evidence_links: ["[[Evidence - Kahneman Says Confidence Tracks the Quality of the Story Not the Amount of Evidence]]", "[[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics]]"]
-modified: 2026-10-22T15:11:17+00:00
-permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
-prodos.kind: atomic
-prodos.lifecycle: stable
-proposition: The phenomenological experience of a thought feeling important or profound is not a reliable indicator of its actual validity or substance.
-tags: [critical-thinking, metacognition, TheHuman/Cognition]
+evidence_links:
+- '[[Evidence - Kahneman Says Confidence Tracks the Quality of the Story Not the Amount
+  of Evidence]]'
+- '[[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across
+  Topics]]'
+modified: 2026-11-13 11:25:00+00:00
+non_conformance_reason: ''
+permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance-1
+proposition: The phenomenological experience of a thought feeling important or profound
+  is not a reliable indicator of its actual validity or substance.
+tags:
+- critical-thinking
+- metacognition
+- TheHuman/Cognition
 title: Felt significance of thoughts can mislead about their substance
 type: claim
 ---
@@ -43,9 +52,15 @@ Common manifestations:
 
 The practical implication: Felt significance should be treated as a signal to examine a thought more carefully (through writing or articulation), not as evidence of the thought's actual value. The feeling itself is real and valid, but it's about the experience of thinking, not the quality of what is thought.
 
-[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
+[depends_on:: [[Thoughts are bundled with phenomenological qualities]], strength=5, confidence=high]
 
-[supports:: [[SoT - Metacognitive Calibration]]]
+[depends_on:: [[The brain is biased toward its own thoughts in the moment]], strength=4, confidence=high]
+
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]
+
+[supports:: [[SoT - Metacognitive Calibration]], strength=5, confidence=high]
+
+[supports:: [[Protocol - Typed Answer Contract (TAC) for Vault Agents]], strength=4, confidence=high]
 
 ## Where the Causes Live in the Vault
 
@@ -76,7 +91,7 @@ The manifestations have notes too: [[The Disappointment of Written Thoughts]] (p
 
 - [[Stage 3 Understand (The Writing to Learn Layer)]]—_Its aim is to move from a "vague feeling of profundity" to an articulated piece of knowledge._
 - [[Stage 2 Clarify (The On Writing Well Layer)]]—_The step where the felt idea first meets clear prose._
-- [[SoT - The Unified Writing to Think Process]]—_The method that builds this check in._
+- [[SoT - Unified Writing to Think Process]]—_The method that builds this check in._
 - [[SoT - Illusion of Explanatory Depth (IoED)]]—_The wider illusion this belongs to; it already carries the `supports` edge from this note._
 - [[MOC - Why Thoughts Feel More Important When Thinking Them]]—_The hub that lists this note as its core insight._
 

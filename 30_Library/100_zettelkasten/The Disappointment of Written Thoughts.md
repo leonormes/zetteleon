@@ -21,9 +21,9 @@ This phenomenon occurs because the "profundity" we feel is often an emotional an
 
 When the idea looks dull on paper, it is not a failure of the writer, but the first moment of true clarity. The dull sentence is a crucial piece of data, revealing a gap between your intuition and your articulated knowledge. The goal is to see this dullness not as a final judgment, but as the raw material to be shaped.
 
-This experience is best understood through the lens of [[SoT - The Unified Writing to Think Process#6. The Core Distinction: Type A vs. Type B Writing|Exploratory vs Explanatory Writing]]. We are mistakenly judging our messy, exploratory first draft by the standards of a polished, explanatory final product. A practical method to overcome the resistance caused by this disappointment is [[The Five-Minute Free-Write Technique]].
+This experience is best understood through the lens of [[SoT - Unified Writing to Think Process#6. The Core Distinction: Type A vs. Type B Writing|Exploratory vs Explanatory Writing]]. We are mistakenly judging our messy, exploratory first draft by the standards of a polished, explanatory final product. A practical method to overcome the resistance caused by this disappointment is [[The Five-Minute Free-Write Technique]].
 
-[depends_on:: [[SoT - The Unified Writing to Think Process]], strength=3, confidence=high]
+[depends_on:: [[SoT - Unified Writing to Think Process]], strength=3, confidence=high]
 
 ## Related
 
@@ -32,7 +32,7 @@ This experience is best understood through the lens of [[SoT - The Unified Writi
 - [[Writing Creates Cognitive Distance for Objective Evaluation]]—shared mechanism: the same externalisation-creates-distance effect, applied here to emotional/motivational fallout rather than logical bias-correction.
 - [[Writing puts us in the powerful position of being able to observe our thinking]]—sibling claim in the same writing-to-think cluster; that note frames externalisation as a strength (observing/correcting reasoning), this one names its characteristic cost (the dullness on the page).
 
-> Link-repair note: `[[Exploratory vs Explanatory Writing]]` was broken—no note by that name or alias exists anywhere in the vault. [[SoT - The Unified Writing to Think Process]] §5 ("Related Components") already documents removing the same dangling link from its own body for the same reason, and records that the distinction is instead fully defined in-note at its §6 ("The Core Distinction: Type A vs. Type B Writing"). Repointed there via a heading anchor rather than re-creating the missing note—high confidence, this is the vault's own prior-established resolution, not a guess.
+> Link-repair note: `[[Exploratory vs Explanatory Writing]]` was broken—no note by that name or alias exists anywhere in the vault. [[SoT - Unified Writing to Think Process]] §5 ("Related Components") already documents removing the same dangling link from its own body for the same reason, and records that the distinction is instead fully defined in-note at its §6 ("The Core Distinction: Type A vs. Type B Writing"). Repointed there via a heading anchor rather than re-creating the missing note—high confidence, this is the vault's own prior-established resolution, not a guess.
 
 ---
 

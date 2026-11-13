@@ -41,7 +41,7 @@ Source: [[beyond words]] (line 350).
 ### Related
 
 - [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—extends: already states that language transmits 'instructions for reconstruction'; this note isolates the point for knowledge transfer.
-- [[Communication is inherently lossy like image compression]]—shared mechanism: the decoding and reconstruction steps of that note's four-step process.
+- [[Communication Is Inherently Lossy Like Image Compression]]—shared mechanism: the decoding and reconstruction steps of that note's four-step process.
 - [[Communication requires iterative approximation]]—shared mechanism: reconstruction is refined through feedback.
 - [[Tacit vs Explicit Knowledge]]—shared mechanism: the tacit layer is not carried by the words and has to be rebuilt by the receiver.
 - [[The Illusion of Shared Understanding in Teams]]—shared mechanism: teams assume the message reconstructed matches the one sent.

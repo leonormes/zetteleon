@@ -1,10 +1,14 @@
 ---
 aliases: [Music and Community]
-conformant: false
+conformant: true
+contradicts: []
 created: 2025-11-10T11:09:00+00:00
-modified: 2026-10-26T11:52:06+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: medium
+evidence_links: []
+modified: 2026-11-13T10:41:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/authentic-music-creates-communities-while-commercial-music-creates-consumers
+proposition: "Authentic, ground-up music fosters participatory communities, whereas commercial, top-down music positions listeners as passive consumers."
 tags: [authenticity, community, consumerism, music]
 title: Authentic Music Creates Communities While Commercial Music Creates Consumers
 type: claim
@@ -18,6 +22,15 @@ Details: When people gather for authentic music, they are participating in a sha
 
 ## Related
 
-- [[Asking Why a Song Exists Helps Determine its Authenticity]]
+- [[Asking Why a Song Exists Helps Determine its Authenticity]]—_diagnostic lens for telling the two modes apart._
+- [[Expressive Music Organically Builds Its Own Scene]]—_how ground-up expressive music generates participatory communities._
+- [[Commercial Music is Engineered for Mass Appeal by Specialist Teams]]—_the production model behind commercial consumerism._
 - [[The Polish of Commercial Music is Designed to Maximize Consumption]]—_the production-side mechanism behind commercial polish._
 - [[The Rawness of Expressive Music is a Sign of its Honesty]]—_the sonic mark of the authentic side of that contrast._
+- [[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]]—_participatory music communities treat music as an atelic shared experience, whereas commercial products frame it as a telic transaction._
+
+[synthesizes:: [[Expressive Music Organically Builds Its Own Scene]], strength=4, confidence=high]
+
+[synthesizes:: [[Commercial Music is Engineered for Mass Appeal by Specialist Teams]], strength=4, confidence=high]
+
+[extends:: [[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]], strength=3, confidence=medium]

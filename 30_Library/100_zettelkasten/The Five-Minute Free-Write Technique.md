@@ -14,7 +14,7 @@ type: procedure
 verification: You kept writing until the timer ended without editing. The exercise is judged on completion, not on the quality of the text.
 ---
 
-This is a practical exercise, inspired by a method described in William Zinsser's "Writing to Learn," designed to overcome the resistance and friction associated with [[The Disappointment of Written Thoughts]]. It practises what [[SoT - The Unified Writing to Think Process#6. The Core Distinction: Type A vs. Type B Writing|Exploratory Writing]] asks for: writing for yourself, with the mess allowed.
+This is a practical exercise, inspired by a method described in William Zinsser's "Writing to Learn," designed to overcome the resistance and friction associated with [[The Disappointment of Written Thoughts]]. It practises what [[SoT - Unified Writing to Think Process#6. The Core Distinction: Type A vs. Type B Writing|Exploratory Writing]] asks for: writing for yourself, with the mess allowed.
 
 Its goal is not to produce good writing, but to practice the physical act of converting thought to text and to lower the stakes of the creative process.
 
@@ -26,13 +26,13 @@ Its goal is not to produce good writing, but to practice the physical act of con
 4. Do Not Judge or Edit: If you run out of things to say, write "I don't know what to say next" or repeat the last word until a new thought arrives. The goal is continuous motion.
 5. Stop When the Timer Ends: Once the timer goes off, you are done.
 
-This exercise helps to "clear the palate," getting the jumble of thoughts out of your head and onto the page. By consistently practicing this, you train yourself to push through the initial discomfort of [[SoT - The Unified Writing to Think Process|writing as a thinking tool]] and begin to build a habit of exploratory writing.
+This exercise helps to "clear the palate," getting the jumble of thoughts out of your head and onto the page. By consistently practicing this, you train yourself to push through the initial discomfort of [[SoT - Unified Writing to Think Process|writing as a thinking tool]] and begin to build a habit of exploratory writing.
 
 ## After the Timer
 
 The output is raw material, not a note. Mundane or dull results are expected and are the starting point for clarifying, as described in [[Mundane Written Thoughts are the Starting Point for Deeper Insight]]. If something is worth keeping, rewrite it in your own words as a separate step.
 
-[implements:: [[SoT - The Unified Writing to Think Process]], strength=4, confidence=high]
+[implements:: [[SoT - Unified Writing to Think Process]], strength=4, confidence=high]
 
 [supports:: [[Focus on the Process Not the Product in Daily Writing]], strength=3, confidence=medium]
 

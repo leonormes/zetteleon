@@ -12,7 +12,7 @@ type: note
 
 ### Verdict: Keep, as One Stage Atom of the Writing Pipeline
 
-- It is already wired: it sits in the six-stage chain of [[SoT - The Unified Writing to Think Process]] (each stage `depends_on` the previous one, and the SoT points to it as "Full atomic note"). Stage 4 depends on it, Stage 5 on that, and [[Writing puts us in the powerful position of being able to observe our thinking]] `extends` it. Its grounding chain bottoms out on Stage 0.
+- It is already wired: it sits in the six-stage chain of [[SoT - Unified Writing to Think Process]] (each stage `depends_on` the previous one, and the SoT points to it as "Full atomic note"). Stage 4 depends on it, Stage 5 on that, and [[Writing puts us in the powerful position of being able to observe our thinking]] `extends` it. Its grounding chain bottoms out on Stage 0.
 - It is the thinnest stage: the SoT's own Stage 3 section carries more (write sequentially "This means X, which implies Y…", and paraphrasing for deep processing) than the atom does. The atom is a valid reflection step, but not the fuller account.
 - The gap: it was `conformant: false`, missing `distinguishes_from` and `used_in_claims`, and nothing tied it to the ProdOS side of the workbench.
 

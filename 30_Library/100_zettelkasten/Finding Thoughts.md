@@ -52,7 +52,7 @@ Your question had three parts. Each has an answer elsewhere in the graph.
 - [[MOC - Project Continuity]]—_The hub for re-entering work._
 - [[Documenting Mental Models Enables Project Re-entry]]—_Capture the mental model while it is live so there is a bridge back._
 - [[Continuation Rituals Bridge Work Sessions for ADHD]]—_A consistent restart routine._
-- [[SoT - The Unified Writing to Think Process]]—_The writing-to-think method your note mentions, with [[Stage 4 Connect (The Zettelkasten Layer)]] as the linking step._
+- [[SoT - Unified Writing to Think Process]]—_The writing-to-think method your note mentions, with [[Stage 4 Connect (The Zettelkasten Layer)]] as the linking step._
 - [[Stage 3 Understand (The Writing to Learn Layer)]]—_Its question "What new questions does this note raise?" is where a thought you want to continue becomes a HEAD note._
 
 ## Where It Applies in ProdOS

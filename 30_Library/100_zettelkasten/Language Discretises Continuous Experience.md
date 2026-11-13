@@ -39,9 +39,9 @@ Source: [[beyond words]] (line 296).
 
 ### Related
 
-- [[Communication is inherently lossy like image compression]]—extends: identifies one source of the loss: naming a continuous state with a finite vocabulary.
+- [[Communication Is Inherently Lossy Like Image Compression]]—extends: identifies one source of the loss: naming a continuous state with a finite vocabulary.
 - [[Qualia and Linguistic Limitations]]—shared mechanism: both mark experience that resists complete linguistic capture.
-- [[Ideas exist beyond linguistic expression]]—shared mechanism: the idea outruns the words chosen for it.
+- [[Ideas Exist Beyond Linguistic Expression]]—shared mechanism: the idea outruns the words chosen for it.
 - [[Thoughts are bundled with phenomenological qualities]]—shared mechanism: both concern qualities of experience that words do not carry.
 - [[Writing isolates propositional content from phenomenological experience]]—shared mechanism: writing likewise strips the felt qualities of a thought.
 

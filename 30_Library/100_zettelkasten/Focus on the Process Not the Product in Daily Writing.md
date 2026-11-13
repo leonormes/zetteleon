@@ -5,13 +5,16 @@ contradicts: []
 created: 2025-10-30T12:10:02+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-13T11:16:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/focus-on-the-process-not-the-product-in-daily-writing
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: For daily writing to function as an effective thinking tool, the goal must be engaging in the cognitive process of translation rather than creating a polished product.
-source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
-tags: [process, TheHuman/Mindset, writing]
+source: '[[MOC - PKM as Process vs Product]]'
+tags:
+- process
+- TheHuman/Mindset
+- writing
 title: Focus on the Process Not the Product in Daily Writing
 type: claim
 ---

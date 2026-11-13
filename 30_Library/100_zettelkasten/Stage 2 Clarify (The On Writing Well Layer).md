@@ -27,4 +27,4 @@ Outcome: A concise, clear, and energetic atomic note. The original idea is no lo
 
 - [[Stage 1 Generate (The Goldberg Layer)]]—_The preceding stage._ [depends_on:: [[Stage 1 Generate (The Goldberg Layer)]]]
 - [[Stage 3 Understand (The Writing to Learn Layer)]]—_The next stage._
-- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]

@@ -15,11 +15,11 @@ type: claim
 updated: null
 ---
 
-To effectively use [[SoT - The Unified Writing to Think Process|Writing as a Thinking Tool]], it is crucial to write in a personal, authentic voice. A PKM is not a formal academic paper; it is a journal of your intellectual journey. Using a human voice makes knowledge accessible, engaging, and truly your own.
+To effectively use [[SoT - Unified Writing to Think Process|Writing as a Thinking Tool]], it is crucial to write in a personal, authentic voice. A PKM is not a formal academic paper; it is a journal of your intellectual journey. Using a human voice makes knowledge accessible, engaging, and truly your own.
 
 [extends:: [[Personal Context and Relevance are Key to Knowledge Formation]], strength=4, confidence=high]
 
-[depends_on:: [[SoT - The Unified Writing to Think Process]], strength=3, confidence=medium]
+[depends_on:: [[SoT - Unified Writing to Think Process]], strength=3, confidence=medium]
 
 This involves:
 
@@ -35,7 +35,7 @@ By making your notes personal, you transform a sterile database of facts into a 
 
 - [[MOC - PKM as Process vs Product]]—the canonical hub; names this note explicitly as "The Method" for making the process-over-product approach effective.
 - [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]—a related but distinct function of personal language: that note's "own words" is a _comprehension diagnostic_ (can you paraphrase it?); this note's "own voice" is an _ownership and engagement_ register (does it sound like you, feelings and all?). The two often co-occur but answer different questions.
-- [[Writing puts us in the powerful position of being able to observe our thinking]]—the metacognitive-observation function of writing, sibling to this note's authenticity function under the same [[SoT - The Unified Writing to Think Process|writing-to-think]] paradigm.
+- [[Writing puts us in the powerful position of being able to observe our thinking]]—the metacognitive-observation function of writing, sibling to this note's authenticity function under the same [[SoT - Unified Writing to Think Process|writing-to-think]] paradigm.
 
 ---
 

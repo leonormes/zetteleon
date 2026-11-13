@@ -17,7 +17,7 @@ type: project
 > - Entry map: [[MOC - ProdOS]]
 > - Live execution set-up and Todoist taxonomy: [[gtd-action-system]]
 > - Note types: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]
-> - Writing pipeline: [[SoT - The Unified Writing to Think Process]]
+> - Writing pipeline: [[SoT - Unified Writing to Think Process]]
 >
 > What remains below is the Assurance Layer proposal, which is not implemented and has no other home yet.
 

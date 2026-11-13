@@ -42,7 +42,7 @@ Source: [[beyond words]] (line 330).
 
 - [[Communication requires iterative approximation]]—shared mechanism: repair through feedback between people, where redundancy corrects errors within a single message.
 - [[Non-Verbal Cues in Social Judgment]]—extends: names non-verbal cues that serve as parallel channels alongside the words.
-- [[Communication is inherently lossy like image compression]]—shared mechanism: redundancy is one counter to the loss that note describes.
+- [[Communication Is Inherently Lossy Like Image Compression]]—shared mechanism: redundancy is one counter to the loss that note describes.
 
 ### See Also
 

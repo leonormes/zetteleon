@@ -1,16 +1,29 @@
 ---
-aliases: [Affect as Information]
+aliases:
+  - Affect as Information
 conformant: true
 created: 2025-06-18T17:28:14+00:00
 definition: The cognitive distortion where an emotional state is treated as primary evidence of objective reality rather than as subjective biological data.
-distinguishes_from: ["[[Metacognitive Awareness]]", "[[Mind-Reading Fallacy and Projection]]", "[[Negativity Bias]]"]
+distinguishes_from:
+  - "[[Metacognitive Awareness]]"
+  - "[[Mind-Reading Fallacy and Projection]]"
+  - "[[Negativity Bias]]"
 modified: 2026-11-10T08:58:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-reasoning
 status: stable
-tags: [cbt, cognitive-distortion, emotion, metacognition, TheHuman/Cognition/bias]
+tags:
+  - cbt
+  - cognitive-distortion
+  - emotion
+  - metacognition
+  - TheHuman/Cognition/bias
 title: Emotional Reasoning
 type: concept
-used_in_claims: ["[[Emotions Are Not Reliable Indicators of Reality]]", "[[Felt significance of thoughts can mislead about their substance]]", "[[One Wrong Instinct Read as Proof That Instincts Cannot Be Trusted Feeds a Worry Loop]]", "[[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]]"]
+used_in_claims:
+  - "[[Emotions Are Not Reliable Indicators of Reality]]"
+  - "[[Felt Significance of Thoughts Can Mislead About Their Substance]]"
+  - "[[One Wrong Instinct Read as Proof That Instincts Cannot Be Trusted Feeds a Worry Loop]]"
+  - "[[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]]"
 ---
 
 ## Emotional Reasoning

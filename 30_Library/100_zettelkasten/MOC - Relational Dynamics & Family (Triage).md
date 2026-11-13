@@ -2,8 +2,9 @@
 aliases: [Family Triage, Relational Triage]
 conformant: true
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-13T12:16:08+00:00
 permalink: llmeon/30-library/mo-c/moc-relational-dynamics-family-triage
+status: stable
 tags: [family, moc, parenting, relationships, triage]
 title: MOC - Relational Dynamics & Family (Triage)
 type: map
@@ -21,7 +22,8 @@ These notes manage physical household systems, rotas, and child-led choring habi
 
 - [[Family Chores - Everyone's Guide]]—_Child-facing Tier 2 manual with daily checklists, pet care summaries, and family values._
 - [[SoT - Family Chores Purpose and Values]]—_GTD Natural Planning Model articulating the why behind shared home maintenance._
-- [[SoT - Family Household Governance]]—_Canonical Tier 1 Parent SoT: rotation tables, study sprints, whole-family ownership, Zofja onboarding, and operational cadence._
+- [[Protocol - Co-Admin Onboarding (Zofja)]]—_Framing and 6-step onboarding sequence for co-administering the household system without conflict._
+- [[SoT - Family Household Governance]]—_Canonical Tier 1 Parent SoT: Earned Access, storage zoning, operational cadence, rotation tables, and whole-family ownership._
 - [[SoT - Master Household Chores Inventory]]—_Canonical checklists, Definitions of Done, and pet-care SoPs for all household tasks._
 
 ---
@@ -48,7 +50,6 @@ These notes explore interpersonal communication, mutual respect, and cooperative
 
 #### Atomic Claims—Maintenance & Repair
 
-- [[The Fault vs Repair Distinction in Relationship Dynamics]]—_Distinguishes blame attribution from the active work of restoring trust._
 - [[The Silent Void - Absence of Engagement as a Response]]—_Patterns of non-engagement as a relational maintenance failure mode._
 - [[The No Solution Deflection in Difficult Conversations]]—_Deflection tactic that blocks repair by refusing to propose changes._
 
@@ -56,6 +57,10 @@ These notes explore interpersonal communication, mutual respect, and cooperative
 
 - [[SoT - The Multifaceted Role of a Parent]]—_Canonical pillars: provider, nurturer, guide, and educator._
 - [[A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship]]—_Core claim on protecting the spousal bond within family life._
+
+#### Active Workbench Thread
+
+- [[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]—_Active inquiry applying [[The Information Deficit Model is a Fallacy]] and [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]] to household chores, organisation, and money._
 
 ---
 
@@ -65,6 +70,8 @@ These notes detail neurodivergent-friendly parenting strategies, visual scaffold
 
 #### Protocols & Dashboards
 
+- [[MOC - Bessie]]—_Dedicated hub for Bessie's GCSE subjects, SEN advocacy, and family strategies._
+- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—_3-step Study Sprints, Grace Period & Failure Autopsy, visual checklists, and parent education ledger._
 - [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Regulation zones, connection capital, failure autopsies, and Fiore's Unschedule._
 - [[SoT - Bessie GCSE Dashboard]]—_Live exam matrix, milestone tracker, and neuro-inclusive ways of working for Bessie's GCSE pathway._
 
@@ -100,16 +107,5 @@ These notes organise shared budgeting, joint agency, and cooperative financial r
 - [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—_Core claim defining collaborative versus policing budget dynamics._
 - [[Disrespectful Spending Violates Shared Agreements and Erodes Trust]]—_Core claim on spending that breaches agreed budget boundaries._
 - [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic]]—_Core claim on major purchases made without discussion._
-- [[Financial Double Standards for Spending Undermine Fairness in a Relationship]]—_Core claim on asymmetric spending rules between partners._
 
 ---
-
-### 5. Triage Actions & Open Loops
-
-- [x] Integrate kid-friendly values and the check-in script from `00_Inbox/Home Care Purpose & Values.md` into Everyone's Guide and deprecate.
-- [x] Create missing claim [[A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money]] (referenced by Healthy Relationship MOC).
-- [x] Expand triage hub with neurodiversity, repair, and finance claim coverage.
-- [ ] Deprecate `00_Inbox/For pet care we have a dog who has addisons diseas`—content already folded into [[SoT - Master Household Chores Inventory]] §9 (inbox is human territory; flag for manual deprecation).
-- [ ] Review Non-Conformant notes in the Family base and ensure TAC frontmatter compliance.
-- [ ] Resolve broken link `[[Conversation Guide - Our Partnership]]` in [[MOC - Healthy Relationship Expectations and Needs]]—note does not exist; create or remove reference.
-- [ ] Fix broken links in [[SoT - Bessie GCSE Dashboard]] (`[[2025-06-17]]`, `[[Template - Neuro-Inclusive Day]]`).

@@ -2,15 +2,13 @@
 aliases: [Edge Syntax, Edge Vocabulary, Knowledge Graph Relations, Typed Edges]
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-10-22T15:11:10+00:00
+modified: 2026-11-13T16:17:35+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
 see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
 title: SoT - Typed Edge Vocabulary (Knowledge Graph Relations)
 type: sot
 ---
-
-> Open threads: [[HEAD - Does the typed-edge vocabulary survive contact with real edges?]]
 
 > Canonical status: this note is the authoritative spec for typed edges—inline, machine-checkable relationships between notes and blocks. It is the link/edge counterpart to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], which governs the _note-level_ schema. Where the two overlap (e.g. `contradicts`, `supports`), the Frontmatter Contract's frontmatter fields are authoritative for note→note relations; typed edges extend the same vocabulary down to the _block_ level and add optional weighting. New relationship types are added here only.
 
@@ -77,7 +75,7 @@ The compiler (§6) fails an edge whose target resolves to nothing (a _dangling e
 
 The reverse-engineered POC (`30_Library/200_Projects/linux-namespaces.md`) encoded every edge twice—once as a JSON-LD `Relationship` block, once as a Dataview inline field. Two sources of truth for one fact guarantee drift, and the note's own frontmatter had already been shredded by a YAML round-trip through Obsidian's tooling—direct evidence that hand-authored nested structures are fragile in this vault. The `[…]` form is chosen as sole authority because it is one line, survives YAML rewriters (it lives in the body, not frontmatter), is trivially greppable, and—since it is a Dataview inline field—is queryable without any tooling of our own.
 
-### 5.1 Ingest Scope (What the cOmpiler dOes _not_ rEad)
+### 5.1 Ingest Scope (What the Compiler Does _not_ Read)
 
 Relationship information exists in this vault in four other shapes. `edge_lint.py` parses only the §1 encoding. This is a deliberate scope boundary, recorded here so it is a visible decision rather than a silent omission:
 
@@ -108,14 +106,12 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit
 
 This is the link/edge half of the validator [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §9 names but says does not yet exist; `fileclass validate` (CLI) covers the frontmatter half. Union of the two = the ProdOS knowledge compiler.
 
-> Open threads: [[HEAD - Does the typed-edge vocabulary survive contact with real edges?]] · [[HEAD - How should block-id uniqueness be enforced across notes in edge_lint?]]
-
 ### Documented Implementation Trade-offs
 
-- **Code Block Parsing Divergence:** `edge_lint.py` masks fenced/inline code before parsing, whereas Dataview indexes code spans as properties. Avoid live-syntax examples in code blocks to prevent spurious Dataview hits.
-- **Syntax Evolution:** Edges migrated from `%%claim.supports{Target}%%` to comment-wrapped Dataview fields, then finally to bare `[relationship:: [[Target]]]` on disk for native Graph View and compiler parsing.
-- **Block-ID Target Fragility:** Bare `content-block` targets remain un-linkable files; uniqueness across notes is monitored by ambiguity warnings in the compiler.
-- **Frontmatter vs. Inline:** Frontmatter fields remain preferred for note-level relationships; inline edges provide block-level granularity.
+- Code Block Parsing Divergence: `edge_lint.py` masks fenced/inline code before parsing, whereas Dataview indexes code spans as properties. Avoid live-syntax examples in code blocks to prevent spurious Dataview hits.
+- Syntax Evolution: Edges migrated from `%%claim.supports{Target}%%` to comment-wrapped Dataview fields, then finally to bare `[relationship:: [[Target]]]` on disk for native Graph View and compiler parsing.
+- Block-ID Target Fragility: Bare `content-block` targets remain un-linkable files; uniqueness across notes is monitored by ambiguity warnings in the compiler.
+- Frontmatter vs. Inline: Frontmatter fields remain preferred for note-level relationships; inline edges provide block-level granularity.
 
 [implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
 

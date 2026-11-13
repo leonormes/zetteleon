@@ -2,15 +2,26 @@
 aliases: [Functional Fitness, Longevity Protocol, Physical Hardware Maintenance]
 conformant: true
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-13T12:28:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-physical-health-and-vitality
+see_also:
+  - "[[MOC - Health and Vitality]]"
+  - "[[SoT - Metabolic Health & Satiety Management]]"
+  - "[[SoT - Primal Movement Patterns]]"
+status: stable
 tags: [fitness, health, longevity, mobility, physical_hardware]
 title: SoT - Physical Health and Vitality
 type: sot
 ---
 
 > The goal is Compression of Morbidity: "maintaining high function until the very end of life, rather than a slow, painful decline."
+
+## 1. Minimum Viable Understanding (MVU)
+
+Physical health in ProdOS is platform engineering for the ADHD brain: daily spinal decompression (hanging), controlled active mobility, functional strength patterns (hinge/squat, carry, push/pull), isometric tendon resilience, and protein-forward metabolic fuel. Because consistency fails under boredom, training is structured into short, varied, high-engagement sessions that regulate dopamine and norepinephrine as baseline hardware maintenance.
+
+---
 
 ## 2. The 5-Point Longevity Protocol
 
@@ -21,24 +32,22 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 ### A. Hang Every Day (Spine & Grip)
 
 - Goal: Spinal decompression and shoulder health. Grip strength is a primary biomarker for longevity.
-- Action: Passive or active hang for 1 cumulative minute daily. See [[SoT - Hanging Mechanics and Progressions]] for technical execution.
+- Action: Passive or active hang for 1 cumulative minute daily (see [[Archery Biomechanics and Shoulder Health Protocol]] for shoulder mechanics).
 - Why: Counters the compression of sitting and coding.
 
 ### B. Mobility over Flexibility (Control)
 
-- Goal: Usable range of motion, not just passive stretching. See [[SoT - Functional Mobility & Primal Movement]].
-- Action: Level Changes. The ability to get from standing to the floor and back up without hands is a critical survival skill for aging.
-- Target: 5–10 minutes of active mobility work daily. (See [[SoT - Protocol - Daily Mobility Foundation]]).
+- Goal: Usable range of motion, not just passive stretching. See [[SoT - Primal Movement Patterns]] and [[SoT - The Negotiable Body]].
+- Action: Level Changes. The ability to get from standing to the floor and back up without hands is a critical survival skill for ageing.
+- Target: 5–10 minutes of active mobility work daily (see [[SoT - Protocol - 5-Minute Primal Activation]]).
 
 ### C. Strength for Capability (Function)
 
 - Goal: Train to _do_ things, not just to lift numbers.
 - Action: Focus on the "Big Three" Functional Patterns:
-
-    1. Pick Up: Deadlifts / Squats (Floor to Hip).
-    2. Carry: Farmers Walks / Rucking (Load under motion).
-    3. Push/Pull: Managing external forces in multiple planes.
-
+  1. Pick Up: Deadlifts / Squats (Floor to Hip).
+  2. Carry: Farmers Walks / Rucking (Load under motion).
+  3. Push/Pull: Managing external forces in multiple planes.
 - Mindset: "Build yourself up, don't break yourself down." Ignore PRs if they risk injury.
 
 ### D. Define the "Why" (Teleology)
@@ -50,7 +59,7 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 ### E. Community (The Glue)
 
 - Goal: Accountability and purpose.
-- Action: Train with others (Gym, Dojo, Running Club).
+- Action: Train with others (Gym, Dojo, Archery Club, Running Club).
 - Data: Purpose + Community is the strongest statistical predictor of longevity and adherence.
 
 ### F. Natural, Constant Movement
@@ -61,7 +70,7 @@ To remain pain-free and capable at 60, 70, and beyond, these five actions are no
 
 ### G. Calisthenics & Structural Integrity (The Framework)
 
-_Source: [[99_Archive/range of motion|Range of Motion Principles]]_
+_Source: Range of Motion Principles_
 
 For bodyweight training, structural integrity supersedes repetition count.
 
@@ -74,7 +83,7 @@ For bodyweight training, structural integrity supersedes repetition count.
 
 - Goal: Strengthen connective tissue through "Time Under Tension" (TUT) and end-range loading.
 - Protocol: See [[SoT - Protocol - Tendon Resilience (Isometrics)]].
-- Key Insight: Tendons adapt slower than muscles and require static holds (not reps) to trigger collagen remodeling.
+- Key Insight: Tendons adapt slower than muscles and require static holds (not reps) to trigger collagen remodelling.
 
 ---
 
@@ -82,12 +91,12 @@ For bodyweight training, structural integrity supersedes repetition count.
 
 For the neurodivergent brain, consistency is the enemy. We must design for Dopamine and Novelty.
 
-- Short Sessions: 20-30 minutes of high intensity beats 90 minutes of "slogging." (See [[Morning HIIT Boosts BDNF and Neuroplasticity]]).
-- Gamification: Track "Streaks" or use apps that visualize progress (Visual Feedback).
-- Variety: Rotate modalities (Kettlebells -> Calisthenics -> Rucking) to prevent boredom, provided the _Movement Patterns_ (Squat, Hinge, Push, Pull) remain consistent.
-- Hardware Optimisation: Exercise is the most effective way to regulate ADHD symptoms (Dopamine/Norepinephrine release). It is not "optional"; it is medication.
-- Metabolic Fuel: Proper satiety management and protein-heavy nutrition (precursors for Tyrosine) are essential for baseline regulation. See [[SoT - Metabolic Health & Satiety Management]].
-- Financial Hardware (YNAB): Financial stability is a critical component of executive function support. Using [[SoT - The YNAB Method|The YNAB Method]] counters "Money Blindness" and "Impulsivity." Explicitly budgeting for the "ADHD Tax" (late fees, impulse replacements) removes the shame cycle and restores cognitive bandwidth for other tasks.
+- Short Sessions: 20–30 minutes of high intensity beats 90 minutes of "slogging" (supporting BDNF and executive regulation; see [[Cerebellum Function and Exercise for ADHD Regulation]] and [[Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function]]).
+- Gamification: Track "Streaks" or use apps that visualise progress (Visual Feedback).
+- Variety: Rotate modalities (Kettlebells → Calisthenics → Rucking → Archery) to prevent boredom, provided the _Movement Patterns_ (Squat, Hinge, Push, Pull) remain consistent.
+- Hardware Optimisation: Exercise is the most effective way to regulate ADHD symptoms (Dopamine/Norepinephrine release). It is not "optional"; it is medication (see [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains]]).
+- Metabolic Fuel: Proper satiety management and protein-heavy nutrition (precursors for Tyrosine) are essential for baseline regulation. See [[SoT - Metabolic Health & Satiety Management]] and [[Protocol - Metabolic Firewall]].
+- Financial Hardware (YNAB): Financial stability is a critical component of executive function support. Using the YNAB approach in [[SoT - Family Financial Wellness]] counters "Money Blindness" and "Impulsivity," removing the shame cycle and restoring cognitive bandwidth.
 
 ---
 
@@ -96,3 +105,23 @@ For the neurodivergent brain, consistency is the enemy. We must design for Dopam
 - Profile: Male, 52. 5ft 11in. 91kg (down from 120kg).
 - Focus: Functional strength and athletic physique.
 - Constraint: Must be ADHD-friendly (low friction, high engagement).
+
+---
+
+## 5. Related Knowledge & Typed Edges
+
+- [[MOC - Health and Vitality]]—_parent navigation hub for physical hardware, mental software, and metabolic fuel._
+- [[SoT - Primal Movement Patterns]]—_foundational human movement patterns._
+- [[SoT - Protocol - 5-Minute Primal Activation]]—_daily 5-minute mobility and activation routine._
+- [[SoT - Protocol - Tendon Resilience (Isometrics)]]—_isometric loading protocol for connective tissue._
+- [[SoT - Push-Up Progression (Squat University)]]—_full-ROM calisthenics pushing mechanics._
+- [[SoT - Metabolic Health & Satiety Management]]—_protein leverage, fibre, and satiety framework._
+- [[Archery Biomechanics and Shoulder Health Protocol]]—_shoulder alignment and draw-force conditioning._
+
+[implements:: [[Cerebellum Function and Exercise for ADHD Regulation]], strength=4, confidence=high]
+
+[implements:: [[Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function]], strength=4, confidence=high]
+
+[implements:: [[Motion Creates Emotion to Overcome Inertia]], strength=3, confidence=high]
+
+[extends:: [[SoT - The Negotiable Body]], strength=4, confidence=high]

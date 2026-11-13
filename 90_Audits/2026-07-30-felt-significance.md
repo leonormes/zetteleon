@@ -6,7 +6,7 @@ title: 2026-07-30-felt-significance
 type: note
 ---
 
-## Positioning—[[Felt significance of thoughts can mislead about their substance]]—2026-07-30
+## Positioning—[[Felt Significance of Thoughts Can Mislead About Their Substance]]—2026-07-30
 
 ### Baseline
 

@@ -70,6 +70,6 @@ Evidence, transcripts, and analysis of how school provision matched (or failed) 
 ### 🏡 Family Context & Strategies
 
 - [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]
-- [[SoT - Family Household Governance]]—§8 Neurodiverse Scaffolding is Bessie-specific
+- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—Study Sprints, Failure Autopsy, visual checklists, and accommodations (extracted from [[SoT - Family Household Governance]])
 - [[Family Chores - Everyone's Guide]]
 - [[MOC - Relational Dynamics & Family (Triage)]]

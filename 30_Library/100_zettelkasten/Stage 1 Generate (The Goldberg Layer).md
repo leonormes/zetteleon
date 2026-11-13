@@ -31,4 +31,4 @@ Outcome: A raw, unedited block of text that contains the "first thoughts" and em
 
 - [[Stage 0 Prepare (The Extended Mind Layer)]]—_The preceding stage._ [depends_on:: [[Stage 0 Prepare (The Extended Mind Layer)]]]
 - [[Stage 2 Clarify (The On Writing Well Layer)]]—_The next stage._
-- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]

@@ -53,7 +53,7 @@ The definitive specification of the system and its biological basis.
 
 - [[SoT - HEAD Note Contract (The Workbench)]]—_What may live in the workbench, and how a HEAD note leaves it._
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_Action-Container-Thought._
-- [[SoT - The Unified Writing to Think Process]]—_The six-stage pipeline from raw writing to structure notes._
+- [[SoT - Unified Writing to Think Process]]—_The six-stage pipeline from raw writing to structure notes._
 - [[Stage 5 Synthesise (The Outcome Layer)|SoT - Knowledge Synthesis]]—_Converting thought into canonical SoTs._
 - [[SoT - Atomic Note Standard (The Proposition Card)]]—_Shape of an atomic note._
 - [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_The note type schemas._

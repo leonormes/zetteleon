@@ -6,7 +6,7 @@ title: 2026-09-25-felt-significance
 type: note
 ---
 
-## Enrichment—[[Felt significance of thoughts can mislead about their substance]]—2026-09-25
+## Enrichment—[[Felt Significance of Thoughts Can Mislead About Their Substance]]—2026-09-25
 
 > Per [[00 - Prompt Library Router]] this is a connected-but-thin claim (310 words, complete claim fields, two `supports` edges, one inbound link), so the single-note refresh applies ([[Note Refresh & Link Auditor]]). Lexical search only (1MCP tools were unavailable).
 

@@ -25,6 +25,6 @@ This increased awareness helps us identify and correct weaknesses in our reasoni
 - [extends:: [[Committing Thought to Language Reveals Actual Versus Assumed Beliefs]]]—_Both describe writing as making thought visible and auditable; this is the reciprocal link._
 - [extends:: [[Writing Creates Cognitive Distance for Objective Evaluation]]]—_Shares the same externalisation mechanism but a distinct emphasis: that note is about reducing emotional bias, this one about correcting logical/argument-structure errors._
 - [extends:: [[Stage 3 Understand (The Writing to Learn Layer)]]]—_The reflective stage of the same writing-to-think pipeline._
-- [depends_on:: [[SoT - The Unified Writing to Think Process]], strength=3, confidence=medium]—_The umbrella framework both links above sit inside._
+- [depends_on:: [[SoT - Unified Writing to Think Process]], strength=3, confidence=medium]—_The umbrella framework both links above sit inside._
 - [supports:: [[Writing as Cognitive Rigour]]]—_Writing serves as a diagnostic tool for finding logical inconsistencies in thought._
 - [supports:: [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]]—_Paraphrasing tests actual comprehension by externalising the thought structure._

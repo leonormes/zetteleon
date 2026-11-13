@@ -36,8 +36,8 @@ The value isn't in the summary note itself; it's in the rich, contextual, person
 
 ## Related Concepts
 
-- [[SoT - The Unified Writing to Think Process|Writing as a Thinking Tool]]
-- [[SoT - The Unified Writing to Think Process#6. The Core Distinction: Type A vs. Type B Writing|Exploratory vs Explanatory Writing]]
+- [[SoT - Unified Writing to Think Process|Writing as a Thinking Tool]]
+- [[SoT - Unified Writing to Think Process#6. The Core Distinction: Type A vs. Type B Writing|Exploratory vs Explanatory Writing]]
 - [[MOC - PKM as Process vs Product]]—the navigation hub for this exact distinction; despite sharing almost the same title, neither note linked to the other until now.
 
-> Link-repair note: both links above were broken—`[[Writing as Thinking Tool]]` and `[[Exploratory vs Explanatory Writing]]` match no note or alias anywhere in the vault. Same repair already applied to [[The Disappointment of Written Thoughts]] and documented as the vault's established resolution in [[SoT - The Unified Writing to Think Process]] §5: the concept is fully defined in-note at that SoT's §6.
+> Link-repair note: both links above were broken—`[[Writing as Thinking Tool]]` and `[[Exploratory vs Explanatory Writing]]` match no note or alias anywhere in the vault. Same repair already applied to [[The Disappointment of Written Thoughts]] and documented as the vault's established resolution in [[SoT - Unified Writing to Think Process]] §5: the concept is fully defined in-note at that SoT's §6.

@@ -26,4 +26,4 @@ Outcome: A coherent understanding of a complex topic, captured in a structure no
 ## Related
 
 - [[Stage 4 Connect (The Zettelkasten Layer)]]—_The preceding stage._ [depends_on:: [[Stage 4 Connect (The Zettelkasten Layer)]]]
-- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]

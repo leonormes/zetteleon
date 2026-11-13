@@ -29,4 +29,4 @@ Outcome: A new, well-formed atomic note that is integrated into your Zettelkaste
 
 - [[Stage 3 Understand (The Writing to Learn Layer)]]—_The preceding stage._ [depends_on:: [[Stage 3 Understand (The Writing to Learn Layer)]]]
 - [[Stage 5 Synthesise (The Outcome Layer)]]—_The next stage._
-- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]

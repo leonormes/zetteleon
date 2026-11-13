@@ -21,11 +21,11 @@ Summary: Thoughts that appear mundane or ordinary when first written should not 
 
 Details: The initial written draft is rarely the final, polished thought. Its value lies in providing a concrete starting point. By treating this mundane output as the beginning of an exploration, one can begin to elaborate, add detail, ask clarifying questions, and connect it to other ideas. This iterative process of refining the mundane is how simple observations are developed into more complex and meaningful insights.
 
-[supports:: [[SoT - The Unified Writing to Think Process]], confidence=high]
+[supports:: [[SoT - Unified Writing to Think Process]], confidence=high]
 
 ## Related
 
-- [[SoT - The Unified Writing to Think Process]]—_this claim is the thesis of that SoT's Stage 1→Stage 2 transition: Stage 1 (Generate) deliberately produces messy, mundane raw output, and Stage 2 (Clarify) treats that mundane draft as the starting material to be refined, not a failed attempt._
+- [[SoT - Unified Writing to Think Process]]—_this claim is the thesis of that SoT's Stage 1→Stage 2 transition: Stage 1 (Generate) deliberately produces messy, mundane raw output, and Stage 2 (Clarify) treats that mundane draft as the starting material to be refined, not a failed attempt._
 - [[Stage 1 Generate (The Goldberg Layer)]]—_the mechanism that produces the "mundane" raw material this claim says not to discard._
 - [[Stage 2 Clarify (The On Writing Well Layer)]]—_the refinement stage this claim justifies: the mundane draft is worked, not rewritten from scratch._
 - [[Writing in Iterative Refinement]]—_a near-duplicate claim: revision cycles improve understanding, not just prose. Worth a consolidation look if you want a single canonical version._

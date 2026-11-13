@@ -26,4 +26,4 @@ The Method: Prime Your Mind for Insight
 ## Related
 
 - [[Stage 1 Generate (The Goldberg Layer)]]—_The next stage._
-- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]
