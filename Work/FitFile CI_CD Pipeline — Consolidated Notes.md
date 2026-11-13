@@ -3,7 +3,20 @@ author: Hermes (consolidation)
 created: 2026-08-24T17:00:00+00:00
 modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/30-library/200-projects/pipeline-best-practices-research-prompt
-tags: [1, argo-cd, ci-cd, cicd, devops, fitfile, gitlab, pipeline, research-prompt, SDLC, security, trivy, vulnerability-management]
+tags:
+  - 1
+  - argocd
+  - ci-cd
+  - cicd
+  - devops
+  - fitfile
+  - gitlab
+  - pipeline
+  - research-prompt
+  - SDLC
+  - security
+  - trivy
+  - vulnerability-management
 title: FitFile CI_CD Pipeline — Consolidated Notes
 type: note
 ---

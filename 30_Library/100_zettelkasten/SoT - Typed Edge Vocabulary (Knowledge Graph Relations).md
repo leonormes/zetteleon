@@ -17,7 +17,7 @@ type: sot
 
 A typed edge is a one-line, reading-view-invisible annotation that records a _directed, named_ relationship from the note (or block) it sits in to another note or block: `[relationship:: [[target]]]`. It replaces the flat `[[wikilink]]`—which says only "these two are related"—with a claim the machine can check: _this concept implements that one; this claim contradicts that one_. The point is not ontological richness for its own sake (that fails the Utility-over-Truth axiom); it is that a compiler can then resolve every target, flag dangling references, and let you ask graph questions—"what contradicts this?", "what does this depend on?"—without hand-maintaining a second index. One encoding only: the `[…:: …]` form is the single source of truth. No JSON-LD, no duplicated metadata blocks.
 
-The interior is a Dataview inline field, which buys the encoding a second reader for free: Dataview indexes every edge as a queryable property, so single-hop questions (`LIST WHERE contradicts`) are answerable _inside Obsidian with zero code_, while the compiler (§6) handles everything DQL structurally cannot—validation, traversal, cycle detection.
+The interior is a Dataview inline field, which buys the encoding a second and third reader for free: Dataview indexes every edge as a queryable property (`LIST WHERE contradicts`), **K-Plex** (`.obsidian/plugins/k-plex/`) renders every edge and its reciprocal partner on the interactive Idea Compass, Mind Map, and Facets graph (where plain `[[wikilinks]]` are intentionally hidden via `inferAllLinksAsFriends: false`), and the compiler (§6) handles everything DQL structurally cannot—validation, multi-hop traversal, C1–C4 argument auditing, and cycle detection.
 
 ## 1. Syntax
 
@@ -38,19 +38,19 @@ One edge per marker. Multiple edges from the same block = multiple markers, one 
 
 ## 2. Relationship Vocabulary (Controlled)
 
-Direction is always source → target, read "_source `relationship` target_".
+Direction is always source → target, read "_source `relationship` target_". K-Plex automatically renders the paired inverse label when viewing from the target note:
 
-| Relationship  | Meaning (source → target)                                 | Overlaps existing field    |
-|:------------ |:-------------------------------------------------------- |:------------------------- |
-| `extends`     | Source builds on / specialises the target.                |—|
-| `synthesizes` | Source combines several targets into a higher-order idea. |—|
-| `implements`  | Source is a concrete realisation of an abstract target.   |—|
-| `contradicts` | Source conflicts with / negates the target.               | Claim `contradicts`        |
-| `supports`    | Source provides evidence or argument _for_ the target.    | Evidence `supports_claims` |
-| `depends_on`  | Source requires the target to make sense or function.     |—|
-| `revises`     | Points to an older revision of an idea                    |                            |
+| Relationship  | Meaning (source → target)                                 | K-Plex Idea Compass (Source → Target / Inverse on Target) | Overlaps existing field    |
+|:------------ |:-------------------------------------------------------- |:--------------------------------------------------------- |:------------------------- |
+| `extends`     | Source builds on / specialises the target.                | **North (`parents`)** `extends` / **South (`children`)** `extended_by` |—|
+| `synthesizes` | Source combines several targets into a higher-order idea. | **South (`children`)** `synthesizes` / **North (`parents`)** `synthesized_in` |—|
+| `implements`  | Source is a concrete realisation of an abstract target.   | **North (`parents`)** `implements` / **South (`children`)** `implemented_by` |—|
+| `contradicts` | Source conflicts with / negates the target.               | **East (`rightFriends`)** `contradicts` (symmetric)       | Claim `contradicts`        |
+| `supports`    | Source provides evidence or argument _for_ the target.    | **West (`leftFriends`)** `supports` / **West** `supported_by` | Evidence `supports_claims` |
+| `depends_on`  | Source requires the target to make sense or function.     | **North (`parents`)** `depends_on` / **South (`children`)** `prerequisite_of` |—|
+| `revises`     | Points to an older revision of an idea                    | **Sequence (`previous`)** `revises` / **Sequence (`next`)** `revised_by` |—|
 
-Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. Where an edge duplicates a frontmatter relation already required by a note's fileClass (e.g. a `claim` note's `contradicts`), prefer the frontmatter field for note→note and reserve the inline edge for block→block or block→note precision.
+Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. For K-Plex visibility, write inline `[<relationship>:: [[<target>]]]` edges on their own line below the annotated prose bullet in `### Related` or `### Tensions`, and never duplicate the same target in frontmatter `see_also` (K-Plex's `frontmatter-overrides-body-ontology` precedence rule suppresses inline body edges when a frontmatter ontology role exists between the same pair in a different compass direction). An SoT or MoC pointing down at its component notes uses `synthesizes` (South); an atomic note pointing up at an SoT, MoC, or broader concept uses `extends`, `implements`, or `depends_on` (North).
 
 ## 3. Edge Attributes (Optional)
 

@@ -74,12 +74,12 @@ Produce a decision brief and stop: both notes' propositions side by side, what e
 
 The one thing you may write directly into `30_Library/`.
 
-- Vocabulary is closed: `extends` · `synthesizes` · `implements` · `contradicts` · `supports` · `depends_on`. Anything else is a compiler error. `refines` → `extends`. `is_example_of`/`is_part_of` → `implements`. `enables` → usually the reverse edge (`depends_on`). `supersedes`/`historically_followed_by` → no edge, prose only. `same_as` → no edge, that's a merge recommendation. `related_to`/`generalizes` → leave untyped and say so.
-- Only `supports` and `depends_on` are ingested by the argument audit (`edge_lint.py:352`). `implements`/`extends`/`synthesizes` pass the linter, appear in Dataview, and do nothing for the C1 gap list. Say which kind you're writing.
+- Vocabulary is closed (7 predicates): `extends` · `synthesizes` · `implements` · `contradicts` · `supports` · `depends_on` · `revises`. Anything else is a compiler error. `refines` → `extends` (or `revises` when updating an earlier formulation of a claim). `is_example_of`/`is_part_of` → `implements`. `enables` → usually the reverse edge (`depends_on`). `supersedes`/`historically_followed_by` → `revises` if updating an active claim, frontmatter `supersedes`/`superseded_by` on deprecated notes, otherwise prose only. `same_as` → no edge, that's a merge recommendation. `related_to`/`generalizes` → leave untyped (or frontmatter `see_also` for lateral links that have no inline typed edge; never duplicate a typed-edge target in `see_also`, or K-Plex's `frontmatter-overrides-body-ontology` rule will suppress the inline edge).
+- Only `supports` and `depends_on` are ingested by the argument audit (`edge_lint.py:352`). `implements`/`extends`/`synthesizes` pass the linter, appear in Dataview, and drive the **K-Plex Idea Compass** (`depends_on`/`extends`/`implements` → North; `synthesizes` → South from hubs only; `supports` → West; `contradicts` → East; `revises` → Sequence/Previous), while doing nothing for the C1 gap list. Say which kind and compass slot you're writing.
 - Syntax: `[<rel>:: [[<target>]], strength=1-5, confidence=high|medium|low]`. Note targets are always wikilinks. One edge per marker.
 - Never emit a dangling edge. Resolve the target by filename, `title`, alias and `prodos.id` _before_ writing. If it doesn't exist, propose a stub instead.
-- Prefer frontmatter where a fileClass already models the relation (a `claim` note's `contradicts`, an `evidence` note's `supports_claims`). Reserve inline edges for block-level precision.
-- Fewer, higher-quality edges. Navigational and See-Also links stay untyped.
+- Populate matching frontmatter where a fileClass already models the relation (a `claim` note's `contradicts`/`evidence_links`, an `evidence` note's `supports_claims`), and emit inline `[…]` edges for K-Plex compass positioning and block-level precision.
+- Fewer, higher-quality edges. Navigational links without one of the 7 predicates stay untyped.
 
 ### C · Claim Stub (P3 Tasks)
 
@@ -124,7 +124,7 @@ Hold these under pushback. If Leon explicitly asks for one specific edit mid-ses
 
 - No canonical note, SoT, MoC, conflict note or timeline note. Stubs only.
 - No proposition or body-prose edits, no renames, no deletions unless Leon requests that specific edit in-session.
-- No edge type outside the six. If none fits, leave the link untyped and say which relation you wanted and why it has no home. Never invent a type; new types are added only by editing [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §2.
+- No edge type outside the seven (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`). If none fits, leave the link untyped and say which relation you wanted and why it has no home. Never invent a type; new types are added only by editing [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §2.
 - No dangling edge, ever. Verify the target exists this session—by alias and `prodos.id`, not just filename.
 - No asserting a note is missing without that same check. A note called missing that actually exists is the most damaging error available here: it sends the follow-up work off to author a duplicate.
 - No "0 errors" claim without having run the linter this session.

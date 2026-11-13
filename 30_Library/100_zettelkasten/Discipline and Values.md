@@ -11,7 +11,11 @@ permalink: llmeon/30-library/100-zettelkasten/discipline-and-values
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Discipline is the conscious alignment of choices with deeply held values, rather than the mere exercise of self-denial.
-tags: [beliefs, discipline, eudaimonia, values]
+tags:
+  - belief
+  - discipline
+  - eudaimonia
+  - values
 title: Discipline and Values
 type: claim
 ---

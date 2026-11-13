@@ -13,6 +13,8 @@ type: prompt
 This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt in `10_System/prompts/` now carries a consistent `type/<category>` tag and a one-sentence `description` written for machine routing. Use this note to pick the right prompt; use [[LLM Prompts]] (the base) to browse by category.
 
 > Cross-cutting requirement—Output Contract: every `type/system`, `type/protocol`, and `type/context`-driving-analysis prompt in this library is governed by [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]: state confidence, cite evidence via `[[wikilink]]`, and flag insufficient context explicitly instead of guessing. This applies regardless of which prompt below you route to—it is not itself a routing choice.
+>
+> Cross-cutting requirement—K-Plex Idea Compass & 7-Predicate Typed Edges: every prompt that creates or updates note links must follow [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Because K-Plex (`inferAllLinksAsFriends: false`) hides plain `[[wikilinks]]`, meaningful relationships must be paired with a standalone `[<relationship>:: [[<target>]]]` line from the closed 7-word vocabulary (`depends_on`, `extends`, `implements` → North; `synthesizes` → South from hubs only; `supports` → West; `contradicts` → East; `revises` → Sequence) or a mapped frontmatter relationship property, and must never duplicate an inline typed-edge target in frontmatter `see_also`.
 
 ## Taxonomy
 

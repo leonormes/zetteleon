@@ -114,10 +114,15 @@ status: seed
 tags: [moc, triage]
 conformant: true
 non_conformance_reason: <only when conformant is false, otherwise omit>
+scope: "<1-2 sentences on what this triage hub covers>"
+entry_points: ["[[Note Name]]"]
+sub_maps: []
 created: [Current Date]
 modified: [Current Date]
 ---
 ```
+
+> K-Plex note: populate `entry_points` (and `sub_maps` where child MOCs exist) with quoted `[[wikilinks]]` so the MOC's primary targets render in **South (`children`)** on the K-Plex Idea Compass (plain body `[[wikilinks]]` without `entry_points` or `[synthesizes:: [[Note]]]` do not appear in K-Plex).
 
 ## Navigation Hub: [Theme Name]
 

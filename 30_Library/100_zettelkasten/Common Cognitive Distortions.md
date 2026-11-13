@@ -1,16 +1,28 @@
 ---
-aliases: [Cognitive Distortions]
+aliases:
+  - Cognitive Distortions
 conformant: true
 created: 2025-02-07T12:57:55+00:00
-definition: "Systematic errors in interpreting evidence about oneself, others, or a situation, such as mind reading (treating an inferred guess about what another person is thinking as established fact) or selective abstraction (fixating on one negative detail while discounting everything else), that convert ambiguous input into a confidently negative conclusion."
-distinguishes_from: ["[[Metacognitive Awareness]]", "[[Negativity Bias]]"]
+definition: Systematic errors in interpreting evidence about oneself, others, or a situation, such as mind reading (treating an inferred guess about what another person is thinking as established fact) or selective abstraction (fixating on one negative detail while discounting everything else), that convert ambiguous input into a confidently negative conclusion.
+distinguishes_from:
+  - "[[Metacognitive Awareness]]"
+  - "[[Negativity Bias]]"
 modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/common-cognitive-distortions
-tags: [beliefs, reframing, TheHuman/Cognition, TheHuman/Cognition/bias]
+tags:
+  - belief
+  - reframing
+  - TheHuman/Cognition
+  - TheHuman/Cognition/bias
 title: Common Cognitive Distortions
 type: concept
-used_in_claims: ["[[Beliefs as Defining Spaces]]", "[[Metacognitive Awareness]]", "[[MOC - Why Thoughts Feel More Important When Thinking Them]]", "[[SoT - Belief Architecture & Cognitive Spaces]]", "[[SoT - The Negativity Bias]]"]
+used_in_claims:
+  - "[[Beliefs as Defining Spaces]]"
+  - "[[Metacognitive Awareness]]"
+  - "[[MOC - Why Thoughts Feel More Important When Thinking Them]]"
+  - "[[SoT - Belief Architecture & Cognitive Spaces]]"
+  - "[[SoT - The Negativity Bias]]"
 ---
 
 Negative thinking patterns often encompass various cognitive distortions, such as mind reading and selective abstraction.

@@ -34,7 +34,7 @@ Decide what should happen to an input before anything is written, so that the va
 2. Finish all five gates before routing. Never dispatch on a partial result.
 3. Verify before asserting. Never call something a duplicate, or absent, without reading the candidate or searching its filename, frontmatter `title`, `aliases` and `prodos.id`. Never fabricate a Gate 1 candidate; if search returns nothing useful, say so.
 4. Tension unless proven otherwise. Record disagreement in the intake report with the assumption difference named, and propose a HEAD note for it ([[SoT - HEAD Note Contract (The Workbench)]] §4: canonical notes carry no `## Tensions` section, only an `> Open threads:` pointer). Propose a `contradicts` edge only if Gate 3 passes. When unsure, mark `UNSURE` and escalate to the user; a wrong `contradicts` edge manufactures a conflict that exists only in the model's imagination.
-5. Closed edge vocabulary. Any edge you write is `[<relationship>:: [[Target]]]` using only `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. Never write `rel::`: the compiler does not parse it. Resolve the target before writing it. Only `supports` and `depends_on` feed the argument audit's gap list; say which kind you wrote.
+5. Closed 7-word edge vocabulary & K-Plex Idea Compass. Any edge you write is `[<relationship>:: [[Target]]]` using only `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`. Never write `rel::`: neither `edge_lint.py` nor K-Plex parses it. Resolve the target before writing it. Only `supports` and `depends_on` feed the argument audit's gap list; say which kind you wrote and which K-Plex Idea Compass axis it populates (`depends_on`/`extends`/`implements` → North; `synthesizes` → South from hubs only; `supports` → West; `contradicts` → East; `revises` → Sequence/Previous). Never duplicate a typed-edge target in frontmatter `see_also`.
 6. The only writes the router may make are (a) one typed edge on an existing note, (b) a frontmatter correction or alias on an existing note. Tensions are reported and proposed as HEAD notes, never written into a canonical note. After any of these, run the whole-vault lint (below); it must report `0 error(s)`. Everything else is downstream.
 7. Declare your tooling tier and downgrade coverage claims if you only had lexical search.
 
@@ -73,8 +73,8 @@ For each candidate record: filename, `type`, grounding status if known, and the 
 |---|---|---|
 | Duplicate | Same thesis, same scope, same epistemic weight | [[sys_merger]] |
 | Shadow duplicate | Same thesis, different vocabulary or source | [[Knowledge Consolidation Agent]] |
-| Supporting | Input is evidence for the candidate | Router writes `[supports:: …]` on the source note (Hard Rule 6) |
-| Refining | Input narrows, extends or specialises the candidate | Router writes `[extends:: …]` or `[synthesizes:: …]` |
+| Supporting | Input is evidence for the candidate | Router writes `[supports:: …]` on the source note (West in K-Plex; Hard Rule 6) |
+| Refining / Updating | Input narrows, extends, instantiates, or updates the candidate | Router writes `[extends:: …]` / `[implements:: …]` (North in K-Plex), `[revises:: …]` (Sequence in K-Plex), or `[synthesizes:: …]` (South from a hub) |
 | Contradicting | Input asserts the opposite under the same assumptions | Gate 3 |
 | Related, not duplicate | Overlaps in topic or mechanism but makes a different claim | Plain annotated link; no edge (the downstream prompt writes it) |
 | Genuinely new | No significant overlap after Gates 1 to 3 | Gate 5 |

@@ -33,7 +33,7 @@ Before any write, verify: `title` (required, matches filename), `type: map` (req
 1. Analyze the Domain: Review the provided list of notes, search results, or the general topic requested by the user.
 2. Determine Structure: Group the notes into logical phases, sub-categories, or workflows (e.g., "Core Concepts", "Thinking Stream", "Active Workbench", "Protocols").
 3. Annotate: For every link included, provide a 1-sentence italicised annotation describing its exact purpose or contents, taken from the linked note's own opening text. Where a link's reason for belonging in the group is your inference, mark it `(inferred)` so Leon can confirm or reword it. The overview sentence about _why_ the group exists is Leon's to write: leave it as a prompt.
-4. Format: Ensure readability with markdown structural elements and blockquotes.
+4. Format & K-Plex Wiring: Ensure readability with markdown structural elements and blockquotes. Because K-Plex (`inferAllLinksAsFriends: false`) hides plain `[[wikilinks]]`, populate frontmatter `entry_points: ["[[SoT - Core Concept 1]]", ...]` (and `sub_maps` for child MoCs) so the hub's primary branches appear in **South (`children`)** on the K-Plex Idea Compass, and pair core synthesis entries in the body with `[synthesizes:: [[Note]]]` on the line below where the MoC actively synthesises those claims.
 
 ## OUTPUT FORMAT
 
@@ -50,6 +50,9 @@ status: seed
 tags: [moc]
 conformant: true
 non_conformance_reason: <only when conformant is false, otherwise omit>
+scope: "<1-2 sentences defining what belongs in this map>"
+entry_points: ["[[SoT - Core Concept 1]]", "[[SoT - Core Concept 2]]"]
+sub_maps: []
 created: <ISO8601>
 modified: <ISO8601>
 ---

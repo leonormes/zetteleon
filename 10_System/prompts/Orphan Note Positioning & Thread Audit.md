@@ -18,7 +18,7 @@ version: 3
 >
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—stated confidence, `[[wikilink]]` evidence, and an explicit `UNSURE`/no-evidence flag instead of a guess, in every section below.
 >
-> Schema Contracts: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edge syntax, the closed six-word vocabulary), [[SoT - Knowledge Compiler (Argument Graph Spec)]] (what the compiler actually computes from those edges), [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema).
+> Schema Contracts: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edge syntax, the closed seven-word vocabulary, and K-Plex Idea Compass roles), [[SoT - Knowledge Compiler (Argument Graph Spec)]] (what the compiler actually computes from those edges), [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema).
 >
 > Write scope: [[AGENTS.md]] §9.3 permits agents to write freely in `30_Library/100_zettelkasten/` (which also holds MoCs, SoTs and protocols) and `30_Library/200_Projects/`—typed-edge lines, `axiom:` markers, plain links, `## Related`/`### Further Reading` sections, MoC anchor lines and frontmatter conformance fields all included. The human curates afterwards via review (`git diff` and the audit file), not by pre-approving each write. Never write outside those two folders (plus the one audit file in `90_Audits/` and any claim stub in `00_Inbox/`), never write to a protected note, never rewrite the Target's existing prose (append new sections only), and never edit a hub's existing entries beyond adding one line.
 >
@@ -90,32 +90,35 @@ Then run the same three tests used to _sever_ edges, here used to decide whether
 
 Passing candidates → §1.5 (typed edge). Failing-but-topically-real candidates → §1.6 (plain link recommendation). Zero prose/context candidates → report as NO EVIDENCE, do not propose.
 
-### 1.5 Draft Typed Edges (Closed Vocabulary Only)
+### 1.5 Draft Typed Edges (Closed Seven-Word Vocabulary + K-Plex Idea Compass)
 
-For each candidate that passes all three tests, draft `[<relationship>:: [[target]]]` using only: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. State which of these three is happening, since it changes what the compiler does with the edge:
+For each candidate that passes all three tests, draft `[<relationship>:: [[target]]]` using only the closed seven-word vocabulary: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`. State both what the compiler (`edge_lint.py`) does with the edge and where it places the note on the **K-Plex Idea Compass** (since K-Plex hides plain `[[wikilinks]]` and renders only typed edges and relational frontmatter):
 
-- `supports` / `depends_on` → feeds C1 gap detection and C4 provenance directly.
-- `contradicts` → feeds C3 conflict detection. Apply the contradiction-vs-tension test first: _can both claims hold if you change one background assumption?_ Yes → this is a `## Tensions` prose note, not an edge. No, and both notes exist → `contradicts`.
-- `extends` / `synthesizes` / `implements` → structural only; the compiler ignores these for C1–C3 and may optionally weight them as weak C4 provenance. Don't expect them to move an exposure score.
+- `depends_on` → feeds C1 gap detection and C4 provenance directly; places `<target>` in **North (`parents`)** on the Target's K-Plex Idea Compass (and places the Target in **South (`children`)** as `prerequisite_of` on `<target>`'s compass).
+- `supports` → feeds C1 gap detection and C4 provenance directly; places `<target>` in **West (`leftFriends`)** as `supports` (and places the Target in **West** as `supported_by` on `<target>`'s compass).
+- `contradicts` → feeds C3 conflict detection and places `<target>` in **East (`rightFriends`)**. Apply the contradiction-vs-tension test first: _can both claims hold if you change one background assumption?_ Yes → this is a `## Tensions` prose note (or `distinguishes_from` on a `concept` note), not a `contradicts` edge. No, and both notes exist → `contradicts`.
+- `revises` → places `<target>` in **Sequence (`previous`)** (and `revised_by` in `next` on `<target>`'s compass) when the Target refines or updates an earlier claim.
+- `extends` / `implements` → structural hierarchy; places `<target>` (the broader concept, principle, or SoT/MoC) in **North (`parents`)** on the Target's K-Plex Idea Compass (and places the Target in **South (`children`)** as `extended_by` / `implemented_by` on `<target>`'s compass). The compiler ignores these for C1–C3 and weights them as weak C4 provenance.
+- `synthesizes` → structural hub-to-component edge; emitted **only** by a higher-order SoT, MoC, or synthesis note pointing **South (`children`)** to the component claims it integrates (which makes the SoT/MoC appear in **North (`parents`)** as `synthesized_in` when viewing the component note in K-Plex). Never write `synthesizes` on a narrow atomic note pointing up at a hub.
 
-If the relationship you want isn't one of the six, translate rather than inventing:
+If the relationship you want isn't one of the seven, translate rather than inventing:
 
 | Wanted | Do this instead |
 |---|---|
-| `refines`, `specializes` | `extends` |
+| `refines`, `specializes` | `extends` (or `revises` if updating an earlier formulation of the same claim) |
 | `is_example_of`, `is_part_of` | `implements` |
 | `enables` | usually the reverse edge: target `depends_on` source |
-| `supersedes`, `historically_followed_by` | no edge—prose only, note it in the report |
+| `supersedes`, `historically_followed_by` | `revises` if refining an active claim; frontmatter `supersedes`/`superseded_by` if deprecating a note; otherwise prose only |
 | `same_as` | no edge—that's a merge recommendation for Leon, not a relationship |
-| `related_to`, `generalizes` | leave the link untyped |
+| `related_to`, `generalizes` | leave the link untyped (or frontmatter `see_also` if lateral, never duplicating a typed-edge target) |
 
-Never propose a `rel::` line in a MoC as if it were an edge—`edge_lint.py` does not parse that grammar ([[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §5.1). A typed edge only ever lives on the Target's own file (or the target note's file if direction runs the other way), never inside a hub.
+Never propose a `rel::` line in a MoC as if it were an edge—`edge_lint.py` does not parse that grammar ([[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §5.1). A typed edge lives on the Target's own file (or on the hub/target note's file as `[synthesizes:: [[Target]]]` when wiring a core component into an SoT/MoC).
 
 Resolve every target by search before drafting—`prodos.id`, then title/filename, then alias. Never emit a dangling edge; if the natural target doesn't exist, stop and go to §1.8 instead.
 
-### 1.6 Plain-link and MoC-anchor Decisions
+### 1.6 Plain-link and MoC-anchor Decisions (and K-Plex Visibility)
 
-For topical-but-not-logical candidates: recommend a `[[wikilink]]` for a `## Related`/`## See Also` section, with a one-sentence italicised annotation explaining the connection (per the Annotated Link Rule). For MoC anchoring: name which MoC and which section, quoting the nearest existing entry as the pattern to match. These are applied in Part 2. For each hub, pick ONE primary home and, at most, one secondary; add exactly one line per hub, matching the neighbouring entry's pattern. Record each in the Patch B table.
+For topical-but-not-logical candidates: recommend a `[[wikilink]]` for a `## Related`/`## See Also` section, with a one-sentence italicised annotation explaining the connection (per the Annotated Link Rule). Remember that plain `[[wikilinks]]` do not appear on the K-Plex Idea Compass: if a lateral link should appear in K-Plex's West (`leftFriends`) compass slot, also propose adding it to frontmatter `see_also`—**but never put a note in `see_also` if it already has an inline typed edge in Patch A**, as K-Plex's `frontmatter-overrides-body-ontology` rule will suppress the inline edge's compass position. For MoC/SoT anchoring: name which MoC/SoT and which section, quoting the nearest existing entry as the pattern to match; if the Target is a core component of that SoT/MoC, either propose `[extends:: [[Hub]]]` / `[implements:: [[Hub]]]` on the Target or `[synthesizes:: [[Target]]]` in the SoT (or `entry_points` in a `map`'s frontmatter) so the hub-to-note link is traversable in K-Plex. For each hub, pick ONE primary home and, at most, one secondary; add exactly one line per hub, matching the neighbouring entry's pattern. Record each in the Patch B table.
 
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
@@ -171,7 +174,7 @@ If the Target is not a node in the argument graph (`--why`/`--impact` report "no
 Two refinements:
 
 - Exposure/dependents count only `supports` and `depends_on` edges. `contradicts` is a conflict flag, not a dependent. `extends`/`synthesizes`/`implements` are structural—note them, but don't let them inflate a dependents count; the compiler doesn't either (§4 of the Knowledge Compiler spec).
-- Analytical classification during traversal can still use the richer five-concept lens (`supports`/`prerequisite_of`/`instance_of`/`contrasts_with`/`related_to`) for reasoning about _what kind of relationship this is_—but any edge that survives testing and gets proposed as a Patch A typing must be translated through the §1.5 table into the six-word closed vocabulary before it's written. The reasoning vocabulary and the write vocabulary are different tools; don't write the reasoning word into the file.
+- Analytical classification during traversal can still use the richer five-concept lens (`supports`/`prerequisite_of`/`instance_of`/`contrasts_with`/`related_to`) for reasoning about _what kind of relationship this is_—but any edge that survives testing and gets proposed as a Patch A typing must be translated through the §1.5 table into the seven-word closed vocabulary before it's written. The reasoning vocabulary and the write vocabulary are different tools; don't write the reasoning word into the file.
 
 ---
 
@@ -193,7 +196,7 @@ One file per run: `90_Audits/YYYY-MM-DD-<seed-slug>.md`. Part 1, the Applied tab
 ### Candidate Connections
 | Candidate | Use/Mention evidence | Denial | Substitution | Load | Verdict |
 
-### Patch A — Typed Edges (six-word vocabulary only)
+### Patch A — Typed Edges (seven-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 
 ### Patch B — Plain Links / MoC Anchors

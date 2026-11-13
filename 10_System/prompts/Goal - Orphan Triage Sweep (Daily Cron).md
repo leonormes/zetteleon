@@ -32,7 +32,7 @@ You are running a proposal-only orphan-repair sweep. Baseline measured 2026-07-1
 
 For each note, read it fully, then search the vault (MoCs first, then title/alias/content similarity) and issue ONE of:
 
-- LINK—the note has standalone value. Propose 2–4 candidate connections, each formatted as: `[[candidate note]]` + one sentence of rationale + the suggested direction (which note should mention which). Always check whether an existing `MOC - *` should list it.
+- LINK—the note has standalone value. Propose 2–4 candidate connections, each formatted as: `[[candidate note]]` + one sentence of rationale + the suggested direction (which note should mention which) + the matching typed edge from the 7-word vocabulary (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`) and its K-Plex Idea Compass slot (North: `depends_on`/`extends`/`implements`; South: `synthesizes` from a hub; West: `supports` or `see_also`; East: `contradicts`; Sequence: `revises`) so the note becomes visible in K-Plex once applied. Always check whether an existing `MOC - *` or `SoT - *` should list it.
 - MERGE—the note duplicates or near-duplicates another note. Name the survivor, quote the unique content worth carrying over (verbatim, minimal).
 - ARCHIVE—superseded, trivial, or a stale fragment. One sentence of justification. Suggested destination: `99_Archive/`. Never default to ARCHIVE because a note is about PKM or productivity; judge it on content.
 - UNSURE—genuinely ambiguous. Say why in one sentence. Max 2 UNSURE per run; force a verdict otherwise.

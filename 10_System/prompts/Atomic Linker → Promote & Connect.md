@@ -89,45 +89,46 @@ This index is your "semantic search space." You match atoms against it.
 
 ---
 
-### Semantic Connection Protocol
+### Semantic Connection Protocol (and K-Plex Idea Compass Orientation)
 
-For each atom, identify connections using these five lenses (in priority order):
+In this vault, K-Plex (`inferAllLinksAsFriends: false`, `showInferredNodes: false`) only renders a connection on the Idea Compass when it is backed by either an inline typed edge (`[<rel>:: [[<target>]]]`, using the closed 7-word vocabulary from [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]) or a configured frontmatter relationship field. Plain `[[wikilinks]]` in prose bullets are invisible in K-Plex by design.
+
+For each atom, identify connections using these five lenses (in priority order) and pair each `### Related` / `### Tensions` bullet with its standalone typed-edge line on the line immediately below:
 
 #### 1. Direct Concept Match
 
 The atom's core concept is explicitly discussed in an existing note.
 
-- Link type: `[[Note Name]]` in the body text where the concept appears.
+- Link type: `[[Note Name]]` in the body text where the concept appears; if the atom depends on or applies that concept, also populate `upstream` (or `used_in_claims` on `concept` notes) or add a `### Related` entry with `` `[depends_on:: [[Note Name]]]` `` (North / `parents` in K-Plex).
 - Confidence required: HIGH—the existing note must demonstrably cover the same idea.
 
-#### 2. Shared Mechanism / Pattern
+#### 2. Shared Mechanism / Pattern (or Prerequisite Dependency)
 
-The atom describes a mechanism, heuristic, or causal chain that mirrors one in another note,
-
+The atom describes a mechanism, heuristic, or causal chain that mirrors or rests on one in another note,
 even if the domain differs.
 
-- Link type: Listed under `## Related` with annotation: `[[Note Name]] — shared mechanism: \<name>`.
+- Link type: Listed under `### Related` with annotation: `- [[Note Name]]—shared mechanism: \<name>`, plus `` `[depends_on:: [[Note Name]]]` `` (North / `parents` in K-Plex) or `` `[implements:: [[Note Name]]]` `` if it instantiates an abstract pattern.
 - Confidence required: MEDIUM or above.
 
-#### 3. Tension / Contradiction
+#### 3. Tension / Contradiction / Revision
 
-The atom makes a claim that is in direct tension with a claim in another note.
+The atom makes a claim that is in direct tension with, contradicts, or revises a claim in another note.
 
-- Link type: Listed under `## Tensions` with annotation: `[[Note Name]] — contradicts: \<brief>`. This section holds only an annotated link to a rival note. If the disagreement is a closable open question, do not write it into the note: add it to the link report as a proposed HEAD note ([[SoT - HEAD Note Contract (The Workbench)]] §4).
+- Link type: Listed under `### Tensions` with annotation: `- [[Note Name]]—contradicts: \<brief>`, plus `` `[contradicts:: [[Note Name]]]` `` on the next line (East / `rightFriends` in K-Plex; also add `"[[Note Name]]"` to frontmatter `contradicts` on `claim` notes, or `distinguishes_from` on `concept` notes). If the atom updates or refines an older formulation rather than opposing it, use `` `[revises:: [[Note Name]]]` `` (Sequence / `previous` in K-Plex). If two claims hold under different background assumptions, keep the annotated bullet under `### Tensions` without `contradicts`. If the disagreement is a closable open question, do not write it into the note: add it to the link report as a proposed HEAD note ([[SoT - HEAD Note Contract (The Workbench)]] §4).
 - Confidence required: MEDIUM or above.
 
-#### 4. Supports / Extends
+#### 4. Supports / Extends / Implements
 
-The atom provides evidence, a boundary condition, or a refinement for an existing note.
+The atom provides evidence, a boundary condition, a concrete implementation, or a refinement for an existing note (or SoT/MoC).
 
-- Link type: Listed under `## Related` with annotation: `[[Note Name]] — extends: \<brief>`.
+- Link type: Listed under `### Related` with annotation: `- [[Note Name]]—extends: \<brief>` (or `supports:` / `implements:`), followed on the next line by `` `[extends:: [[Note Name]]]` `` (North / `parents`), `` `[implements:: [[Note Name]]]` `` (North / `parents`), or `` `[supports:: [[Note Name]]]` `` (West / `leftFriends`). Never write `synthesizes` on an atomic note pointing up at a hub (`synthesizes` belongs on the higher-order MoC/SoT pointing South to its component notes).
 - Confidence required: MEDIUM or above.
 
-#### 5. Common Tag Cluster
+#### 5. Common Tag Cluster (Lateral)
 
 The atom shares 2+ tags with an existing note but no stronger semantic link was found.
 
-- Link type: Listed under `## See Also` (weakest link tier).
+- Link type: Listed under `### See Also` (weakest link tier). If the lateral link should appear on K-Plex's West (`leftFriends`) axis, add `"[[Note Name]]"` to frontmatter `see_also`. **K-Plex precedence rule:** never put a note in frontmatter `see_also` if you already link it via an inline typed edge (`depends_on`, `extends`, `implements`, `supports`, `contradicts`, `revises`), because K-Plex's `frontmatter-overrides-body-ontology` rule will suppress the inline edge's compass position.
 - Confidence required: LOW is acceptable here.
 
 #### 6. Personal Library Match (Optional, external—not a Vault Link)
@@ -201,11 +202,14 @@ upstream: "[[<Source or HEAD note, if one exists>]]"
 ### Related
 
 - [[Existing Note A]]—shared mechanism: <why the connection exists>
+[depends_on:: [[Existing Note A]]]
 - [[Existing Note B]]—extends: <why the connection exists>
+[extends:: [[Existing Note B]]]
 
 ### Tensions
 
-- [[Existing Note C]]—tension, not contradiction: <the assumption that differs>
+- [[Existing Note C]]—contradicts: <the shared assumption violated, or tension if assumption-dependent>
+[contradicts:: [[Existing Note C]]]
 
 ### See Also
 
@@ -216,12 +220,12 @@ upstream: "[[<Source or HEAD note, if one exists>]]"
 - [<Book title, author, location>](calibre://view-book/Library_Name/book_id/FORMAT)—_<one line on what it corroborates>_
 ```
 
-Rules that the validator checks:
+Rules that the validator and K-Plex check:
 
 - The first line of the body is `## <title>`. There is no H1, and sections are H3 (`###`), never H4.
 - Section order is fixed: Scope & Conditions, Evidence, Implications, then Related, Tensions, See Also, Further Reading. The first three are required; omit an optional section rather than leave it empty or write "None found".
 - Every bullet under Related and Tensions has a dash and a reason after the link. A bare link is allowed only under See Also.
-- At most 7 links across Related, Tensions and See Also. A typed edge, when one is warranted, goes on its own line in the closed vocabulary; never `rel::`.
+- At most 7 links across Related, Tensions and See Also. Pair every Related/Tensions link that carries one of the 7 canonical predicates (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`) with its standalone `[<relationship>:: [[<target>]]]` line immediately below the bullet so it renders on the K-Plex Idea Compass; never write `rel::`.
 - Every `[[wikilink]]` points to a note that exists.
 
 ### File Naming Convention

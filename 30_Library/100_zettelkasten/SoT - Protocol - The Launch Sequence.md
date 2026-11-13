@@ -3,15 +3,14 @@ aliases: [Launch Sequence, The Initiation Algorithm]
 conformant: true
 created: 2025-12-23T20:00:20+00:00
 last_reviewed: '2025-12-23'
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-13T17:49:27+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
-status: stable
 project_category: prodos
+status: stable
 tags: [action, initiation, productivity, protocol, TheHuman/Health/ADHD]
 title: SoT - Protocol - The Launch Sequence
 type: sot
-updated: null
 ---
 
 ## 1. Goal: Bypassing the "Brainbound" Bottleneck

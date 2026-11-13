@@ -81,8 +81,9 @@ Propose a surgical plan and stop for Leon's approval before Phase 4:
 
 ### Phase 4: Execution (Only the Steps Leon Approved)
 
-1. Update Target: surgical update to the SoT/MOC with the approved integrations.
-2. Deprecate: on each approved duplicate set `status: superseded` and `superseded_by: ["[[Canonical Note]]"]`, add `archive` to `tags`, and replace the body with a redirect notice. Never delete.
+1. Update Target & Wire K-Plex Edges: surgical update to the SoT/MOC with the approved integrations. For standalone atomic notes or cross-domain references that remain distinct (not deprecated), wire them into the K-Plex Idea Compass using the 7-word vocabulary from [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`): emit `[synthesizes:: [[Component Note]]]` in the SoT/MOC (renders South / `children` on the hub and North / `synthesized_in` on the component) or `[extends:: [[Target SoT]]]` / `[implements:: [[Target SoT]]]` on the component note (renders North / `parents`). Plain `[[wikilinks]]` without a typed edge or relational frontmatter property (`entry_points`, `merged_from`, `supersedes`, `see_also`) do not appear in K-Plex.
+2. Deprecate: on each approved duplicate set `status: superseded` and `superseded_by: ["[[Canonical Note]]"]` (which renders on K-Plex's Sequence `next` axis, paired with `supersedes` / `merged_from` on the canonical note's `previous` axis), add `archive` to `tags`, and replace the body with a redirect notice. Never delete.
+3. Validate: if any typed edge was added, run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` (whole vault) and confirm `0 error(s)`.
 
 ---
 

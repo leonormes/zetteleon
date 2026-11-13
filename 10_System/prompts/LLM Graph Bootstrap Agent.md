@@ -87,18 +87,19 @@ You may NOT author a canonical note, conflict note, timeline note, MoC or SoT; e
 
 ---
 
-## EDGE TYPES
+## EDGE TYPES & K-PLEX IDEA COMPASS
 
-The vocabulary is closed. `<relationship>` is EXACTLY one of:
+The vocabulary is closed. `<relationship>` is EXACTLY one of the seven predicates below, each mapped to a directional slot on the **K-Plex Idea Compass** (where K-Plex automatically renders the inverse label when viewing from the target note):
 
-| Relationship | Meaning (source → target) |
-|---|---|
-| `extends` | Source builds on / specialises the target. |
-| `synthesizes` | Source combines several targets into a higher-order idea. |
-| `implements` | Source is a concrete realisation of an abstract target. |
-| `contradicts` | Source conflicts with / negates the target. |
-| `supports` | Source provides evidence or argument _for_ the target. |
-| `depends_on` | Source requires the target to make sense or function. |
+| Relationship | Meaning (source → target) | K-Plex Idea Compass Role (Source → Target / Inverse on Target) |
+|---|---|---|
+| `extends` | Source builds on / specialises the target. | **North (`parents`)** as `extends` / **South (`children`)** as `extended_by` |
+| `synthesizes` | Source (SoT/MoC/hub) combines several targets into a higher-order idea. | **South (`children`)** as `synthesizes` / **North (`parents`)** as `synthesized_in` |
+| `implements` | Source is a concrete realisation of an abstract target. | **North (`parents`)** as `implements` / **South (`children`)** as `implemented_by` |
+| `contradicts` | Source conflicts with / negates the target. | **East (`rightFriends`)** as `contradicts` (symmetric, dashed) |
+| `supports` | Source provides evidence or argument _for_ the target. | **West (`leftFriends`)** as `supports` / **West** as `supported_by` |
+| `depends_on` | Source requires the target to make sense or function. | **North (`parents`)** as `depends_on` / **South (`children`)** as `prerequisite_of` |
+| `revises` | Source updates, refines, or corrects an earlier target claim/note. | **Sequence (`previous`)** as `revises` / **Sequence (`next`)** as `revised_by` |
 
 Syntax:
 
@@ -107,14 +108,14 @@ Syntax:
 [<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]
 ```
 
-Rules—each of these is a linter error if broken:
+Rules—each of these is a linter error or K-Plex visibility bug if broken:
 
-1. Any word outside the six is a compiler error. `refines`, `supersedes`, `enables`, `is_example_of`, `is_part_of`, `same_as`, `related_to`, `generalizes`, `specializes`, `historically_followed_by` are not in this vault's vocabulary. If none of the six fits, leave the link untyped and say so—never invent a type. New types are added only by editing [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §2.
+1. Any word outside the seven is a compiler error. `refines`, `supersedes`, `enables`, `is_example_of`, `is_part_of`, `same_as`, `related_to`, `generalizes`, `specializes`, `historically_followed_by` are not inline edge types in this vault's vocabulary. If none of the seven fits, leave the link untyped and say so—never invent a type. New types are added only by editing [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §2.
 2. Never emit a dangling edge. Every target must resolve to an existing note or `content-block` id, verified by search _before_ you write it. Never point an edge at a concept you have merely named ("Prompt Engineering (Traditional)", "Unconstrained AI Consolidation")—if the target note doesn't exist, the edge doesn't exist. Propose the note as a stub instead.
 3. A note target is ALWAYS a `[[wikilink]]`, never bare. Only a `content-block` id may be bare.
-4. `rel::` is not an edge. The visible `rel:: <relationship>` inline field found in some MoCs is explicitly _not parsed_ by the compiler (Edge Vocabulary §5.1). Never propose it as a way to write an edge.
-5. Prefer frontmatter for relations a fileClass already models—a `claim` note's `contradicts`, an `evidence` note's `supports_claims`. Reserve inline edges for block-level precision or relations frontmatter doesn't cover.
-6. Fewer, higher-quality edges. Navigational and See-Also links stay untyped.
+4. `rel::` is not an edge. The visible `rel:: <relationship>` inline field found in some MoCs is explicitly _not parsed_ by the compiler or K-Plex (Edge Vocabulary §5.1). Never propose it as a way to write an edge.
+5. K-Plex visibility and frontmatter precedence. Because K-Plex sets `inferAllLinksAsFriends: false`, plain `[[wikilinks]]` do not appear on the K-Plex Idea Compass—only the 7 inline typed edges and configured frontmatter relationship fields (`upstream`, `source`, `evidence_links`, `supports_claims`, `contradicts`, `distinguishes_from`, `used_in_claims`, `entry_points`, `candidate_answers`, `supersedes`, `superseded_by`, `merged_from`, `see_also`) render. **Never duplicate a target in frontmatter `see_also` if you also propose an inline typed edge to that target**, because K-Plex's `frontmatter-overrides-body-ontology` rule will suppress the inline edge's compass position.
+6. Hub directionality (`synthesizes` vs `extends`/`implements`). An SoT or MoC pointing down to its component claims uses `synthesizes` (South); an atomic claim pointing up to an SoT, MoC, or broader concept uses `extends`, `implements`, or `depends_on` (North). Never invert this.
 
 ### Where the Old Vocabulary Maps
 
@@ -122,12 +123,12 @@ If the analysis wants a relationship the vault has no type for, translate or dow
 
 | Wanted | Do this instead |
 |---|---|
-| `refines`, `specializes` | `extends` |
+| `refines`, `specializes` | `extends` (or `revises` when updating an earlier formulation of the same claim) |
 | `is_example_of`, `is_part_of` | `implements` (source is the concrete realisation) |
 | `enables` | usually the reverse edge: target `depends_on` source |
-| `supersedes`, `historically_followed_by` | no edge. Record in the report's Timeline Shifts section as prose. Supersession is a temporal judgement the compiler doesn't model. |
+| `supersedes`, `historically_followed_by` | `revises` if a newer active claim updates an older active claim; frontmatter `supersedes`/`superseded_by` if deprecating a duplicate; otherwise prose in Timeline Shifts. |
 | `same_as` | no edge. That's a merge recommendation for the human, not a relationship. |
-| `related_to`, `generalizes` | leave the link untyped. |
+| `related_to`, `generalizes` | leave the link untyped (or frontmatter `see_also` for lateral links that have no inline typed edge). |
 
 ---
 
@@ -176,11 +177,11 @@ Claim A · Claim B · the assumption difference · recommended treatment (`contr
 
 ### Timeline Shifts
 
-Older practice → newer practice → what changed. Prose only—no edges.
+Older practice → newer practice → what changed (`revises` edge if both notes are active claims and the newer explicitly updates the older; otherwise prose).
 
 ### Proposed Typed Edges
 
-Source note · edge type (one of the six) · target note (must exist) · rationale · validated?
+Source note · edge type (one of the seven) · K-Plex compass slot (North/South/West/East/Sequence) · target note (must exist) · rationale · validated?
 
 ### Unresolved Links Found
 

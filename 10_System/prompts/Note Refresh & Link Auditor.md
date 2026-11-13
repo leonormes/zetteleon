@@ -51,23 +51,29 @@ The Target note's `title`, `type` (lowercase, one of `claim`, `concept`, `eviden
 
 > Note: `type` is now enforced by the Fileclass plugin (the fileClass folder is `10_System/fileClasses/`, alias = `type`). A note with `type: claim` is validated against the `claim` schema live in Obsidian. Fill the type-specific fields (e.g. a `claim`'s `proposition`, `epistemic_status`; an `evidence` note's `source_quote`, `confidence`) where the note's content supports them.
 
-## TYPED-EDGE COMPLIANCE (MANDATORY)
+## TYPED-EDGE & K-PLEX IDEA COMPASS COMPLIANCE (MANDATORY)
 
-> Canonical schema: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Validator: `10_System/scripts/edge_lint.py` (report-only, non-zero exit on any error).
+> Canonical schema: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Validator: `10_System/scripts/edge_lint.py` (report-only, non-zero exit on any error). Visual consumer: **K-Plex** (`.obsidian/plugins/k-plex/`).
 
-Beyond fixing `[[wikilinks]]`, this prompt makes the Target's relationships machine-checkable. A typed edge is a one-line, annotation that types a relationship the note already implies—the interior is a Dataview inline field, so the same edge is also queryable inside Obsidian with zero extra tooling:
+Beyond fixing `[[wikilinks]]`, this prompt makes the Target's relationships machine-checkable by `edge_lint.py`, queryable in Dataview, and visually navigable on the **K-Plex Idea Compass**. Because K-Plex is configured with `inferAllLinksAsFriends: false` and `showInferredNodes: false`, **plain `[[wikilinks]]` do not appear on the K-Plex Idea Compass**—only inline typed edges (`[<relationship>:: [[<target>]]]`) and configured frontmatter relationship properties render:
 
 `[<relationship>:: [[<target>]]]`—optionally `[<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]`—or, for a content-block target only, `[<relationship>:: <block-id>]`
 
 Obey these rules:
 
-1. Controlled vocabulary. `<relationship>` is EXACTLY one of: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. Any other word is a linter error. Never invent a relationship type; if none fits, leave the link untyped.
-2. Type meaningful links only. Add a typed edge for a `[[wikilink]]` _only_ when the connection genuinely carries one of the six relationships. Navigational / `See Also` / MoC-membership links stay untyped. Keep the human `[[wikilink]]` in the prose—the `[…]` edge sits beside it.
-3. Prefer frontmatter for relations a fileClass already models. A `claim` note's `contradicts` and an `evidence` note's `supports_claims` are frontmatter fields (Frontmatter Contract §3). Use those fields for note→note relations; reserve inline `[…]` edges for block-level precision or relationships not covered by frontmatter.
-4. A note target is ALWAYS a `[[wikilink]]`, never bare. This is what keeps the edge rename-safe (Obsidian rewrites the wikilink automatically) and lets the target resolve by `prodos.id`, then title/filename, then alias. Only a content-block id (§5) may be written bare—the linter WARNs if a note target isn't a wikilink.
-5. Never create a dangling edge. Every target MUST resolve to a real note or `content-block` id. Verify existence via search BEFORE writing the edge. If the natural target does not exist, DO NOT fabricate it—flag it `UNSURE` per the Output Contract and propose creating it as a separate action.
-6. Blocks only for genuine multi-concept notes. If (and only if) the Target holds several distinct addressable atoms, wrap each in `<!--content-block-start type="concept" id="kebab-case-id"-->` … `<!--content-block-end-->` with a vault-unique id, and attach edges per block using that bare id as the target. A single-concept note needs no blocks—put note-level edges in the body. Duplicate block ids trigger the linter's "ambiguous" warning.
-7. Attributes are optional. Add `strength` (1–5) or `confidence` (`high`/`medium`/`low`) only when the note's own content justifies the weight. Never guess them.
+1. Controlled seven-word vocabulary. `<relationship>` is EXACTLY one of: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`. Any other word is a linter error. Never invent a relationship type; if none fits, leave the link untyped.
+2. K-Plex Idea Compass orientation (directionality matters): K-Plex automatically inverts incoming edges (`field` ↔ `partner`) across compass axes:
+   - **North (`parents`):** `depends_on` (↔ `prerequisite_of`), `extends` (↔ `extended_by`), `implements` (↔ `implemented_by`), plus frontmatter `upstream` and `source`. Emitted by the narrower/dependent note toward the broader/foundational target or SoT/MoC.
+   - **South (`children`):** `synthesizes` (↔ `synthesized_in`), plus frontmatter `used_in_claims`, `entry_points`, `candidate_answers`. Emitted by a higher-order hub (`sot`, `map`, or synthesis claim) down toward its component notes. Never write `synthesizes` on an atomic note pointing up at a hub.
+   - **West (`leftFriends`):** `supports` (↔ `supported_by`), plus frontmatter `supports_claims` / `evidence_links`, and `see_also` / `related_claims` for lateral links.
+   - **East (`rightFriends`):** `contradicts`, plus frontmatter `contradicts`, `distinguishes_from` (on `concept` notes), and `tension` (on `question` notes).
+   - **Sequence (`previous` ↔ `next`):** `revises` (↔ `revised_by`), plus frontmatter `supersedes` / `superseded_by` and `merged_from`.
+3. Type meaningful links and avoid K-Plex precedence collisions. Add a typed edge for a `[[wikilink]]` whenever the connection genuinely carries one of the seven relationships. Keep the human `[[wikilink]]` in the prose bullet—the `[…]` edge sits on the line immediately below it. **K-Plex precedence rule (`frontmatter-overrides-body-ontology`):** never duplicate a target in frontmatter `see_also` if you also link that same target via an inline typed edge (`depends_on`, `extends`, `implements`, `synthesizes`, `contradicts`, `revises`), or K-Plex will suppress the inline edge's compass position in favour of `see_also` (West). Use `see_also` only for lateral links that have no inline typed edge.
+4. Populate frontmatter relations that Fileclass and K-Plex model. A `claim` note's `evidence_links` / `contradicts`, a `concept` note's `distinguishes_from` / `used_in_claims`, an `evidence` note's `supports_claims` / `source_reference`, and a `map` note's `entry_points` are frontmatter fields (Frontmatter Contract §3) that also render directly in K-Plex. Populate them alongside inline edges where appropriate (inline `contradicts`/`supports` and frontmatter `contradicts`/`supports_claims` share the same K-Plex compass role, so they do not conflict).
+5. A note target is ALWAYS a `[[wikilink]]`, never bare. This keeps the edge rename-safe (Obsidian rewrites the wikilink automatically) and lets the target resolve by `prodos.id`, then title/filename, then alias. Only a content-block id (§5) may be written bare—the linter WARNs if a note target isn't a wikilink.
+6. Never create a dangling edge. Every target MUST resolve to a real note or `content-block` id. Verify existence via search BEFORE writing the edge. If the natural target does not exist, DO NOT fabricate it—flag it `UNSURE` per the Output Contract and propose creating it as a separate action.
+7. Blocks only for genuine multi-concept notes. If (and only if) the Target holds several distinct addressable atoms, wrap each in `<!--content-block-start type="concept" id="kebab-case-id"-->` … `<!--content-block-end-->` with a vault-unique id, and attach edges per block using that bare id as the target. A single-concept note needs no blocks—put note-level edges in the body. Duplicate block ids trigger the linter's "ambiguous" warning.
+8. Attributes are optional. Add `strength` (1–5) or `confidence` (`high`/`medium`/`low`) only when the note's own content justifies the weight. Never guess them.
 
 ## THE PROCESS
 
@@ -87,11 +93,11 @@ Obey these rules:
    - Scattered fragments that should be linked to the Target.
    - The correct targets for broken links discovered in Phase 1.
 
-### Phase 2.5: Typed-Edge Synthesis
+### Phase 2.5: Typed-Edge Synthesis (and K-Plex Compass Enrichment)
 
-1. Classify surviving links: for each `[[wikilink]]` that passed Phase 1, decide whether it carries one of the six relationships (see Typed-Edge Compliance). If yes—and it is not already modelled as a frontmatter field—draft the matching `[relationship:: [[target]]]` edge to sit beside it.
+1. Classify surviving links: for each `[[wikilink]]` that passed Phase 1, decide whether it carries one of the seven relationships (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`). If yes, draft the matching `[relationship:: [[target]]]` edge to sit immediately below its prose bullet so it appears on the K-Plex Idea Compass.
 2. Resolve every target: confirm each drafted edge's target is a real note or block via search. Downgrade any unresolved edge to an `UNSURE` proposal—do not write it.
-3. Discover typed relationships: from the Phase 2 semantic neighbours, add typed edges for any that stand in a clear relationship to the Target (e.g. the Target `implements` an SoT, `extends` a broader concept, `contradicts` a rival claim, `depends_on` a prerequisite).
+3. Discover typed relationships: from the Phase 2 semantic neighbours, add typed edges for any that stand in a clear relationship to the Target (e.g. the Target `implements` or `extends` an SoT/concept [North], `contradicts` a rival claim [East], `depends_on` a prerequisite [North], `supports` a downstream claim [West], `revises` an older formulation [Sequence], or—if the Target is itself an SoT/MoC—`synthesizes` its component claims [South]). Also populate matching relational frontmatter (`upstream`, `evidence_links`, `contradicts`, `distinguishes_from`, `used_in_claims`, `supports_claims`, and `see_also` only for lateral links without an inline typed edge).
 4. Decide granularity: if the Target holds multiple distinct atoms, plan `content-block` wrappers (unique kebab-case ids) so edges can attach per block; otherwise keep edges at note level in the body.
 
 ### Phase 2.6: Personal Library Discovery (ARCHILLES Ebooks)
@@ -119,7 +125,7 @@ Apply the following updates to the note:
 The refresh is COMPLETE only when both validators pass:
 
 1. Frontmatter: the Target satisfies the FrontmatterContract; Fileclass validates `type`'s schema live on save (check the note-fields modal shows no ✗).
-2. Edges: run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` (no arguments, whole vault) if you have shell access (PyYAML is mandatory—the script refuses to run without it rather than silently misresolving titles); otherwise mentally apply its checks (vocabulary ∈ the six; note targets are wikilinks; every target resolves; `strength`∈1–5 / `confidence`∈enum; no danglers). Do not report success while any edge ERROR remains. Report any residual warnings (e.g. a bare note target, or ambiguous ids) for human review.
+2. Edges: run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` (no arguments, whole vault) if you have shell access (PyYAML is mandatory—the script refuses to run without it rather than silently misresolving titles); otherwise mentally apply its checks (vocabulary ∈ the seven; note targets are wikilinks; every target resolves; `strength`∈1–5 / `confidence`∈enum; no danglers). Do not report success while any edge ERROR remains. Report any residual warnings (e.g. a bare note target, or ambiguous ids) for human review.
 
 ---
 
@@ -144,7 +150,7 @@ The refresh is COMPLETE only when both validators pass:
 
 ### 3. Typed Edges
 
-- Added: [`[<one of the six>:: [[target]]]` for each, or "None"]
+- Added: [`[<one of the seven>:: [[target]]]` for each, or "None"]
 - UNSURE (target unresolved, proposed not written): [List or "None"]
 
 ### 3b. Further Reading Added
