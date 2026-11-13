@@ -3,10 +3,19 @@ aliases: []
 conformant: false
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
+steps:
+  - Slowly relax the fingers while still pulling back with shoulder tension
+  - Let the string push the fingers out of the way and treat the release as a reaction to the clicker
+  - Drop finger tension to about 40 percent
+  - Keep the fingers curled in their original hook shape
+  - Keep pressure against the finger spacer of the tab through the release
+  - Keep pushing through the front side as hard as the draw elbow keeps squeezing
+trigger: When the clicker drops at the end of expansion
+verification: The string slips away without you knowing the exact moment, the hand keeps its hook shape and does not open wide or flap, and the line of tension carries on through the shot
 type: procedure
 ---
 

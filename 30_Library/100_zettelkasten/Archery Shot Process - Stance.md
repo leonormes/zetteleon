@@ -3,10 +3,18 @@ aliases: []
 conformant: false
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-26T07:47:37+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance-1
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Stance
+steps:
+  - Straddle the shooting line with your feet roughly shoulder-width apart in your chosen stance
+  - Keep the hips parallel to the line of your feet for the whole shot
+  - Keep your weight even between front and back foot and bias it about 60/40 onto the balls of the feet
+  - Keep the knees straight but active and not locked
+  - Keep your feet where they are and do not shuffle between arrows
+trigger: At the start of each shot cycle on the shooting line, before building posture
+verification: Centre of pressure holds at about 60/40 toe to heel with no rocking onto the heels during expansion, and the feet have not moved between arrows
 type: procedure
 ---
 

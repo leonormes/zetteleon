@@ -3,10 +3,19 @@ aliases: []
 conformant: false
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-26T08:48:50+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
+steps:
+  - Keep squeezing the draw elbow around the spine after release
+  - Let the draw hand travel straight back to the area between the ear and the neck
+  - Keep the draw elbow level with the shoulder in a horizontal plane
+  - Point the bow hand index finger straight down on release and keep the bow arm straight
+  - Hold the internal rotation of the bow arm until the arrow hits the target
+  - Keep the core solid and the head still
+trigger: Immediately after the string is released, while the arrow is in flight
+verification: The draw elbow finishes level with the shoulder with the scapula fully retracted, the hand ends between the ear and the neck without dropping downwards, and the bow falls into the sling with the bow arm still straight
 type: procedure
 ---
 

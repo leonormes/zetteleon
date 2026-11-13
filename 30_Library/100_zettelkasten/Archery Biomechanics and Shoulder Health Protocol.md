@@ -11,6 +11,16 @@ tags:
 - prodos/atomic
 - training
 title: Archery Biomechanics and Shoulder Health Protocol
+steps:
+  - Check for a hollow back with the wall drill and for alignment with the plumb line before shooting
+  - Reach the base of the bow hand toward the target as you raise the bow to settle the bow shoulder low
+  - Line up the draw elbow with or slightly behind the arrow and set front alignment before aligning the torso
+  - Rotate the draw elbow around the body to end range and do not pull straight back
+  - Do mobility work such as shoulder dislocates and the doorway chest stretch two to three times a week
+  - Do scapular stability work such as push-up plus, band rows with a 3 second hold and face pulls
+  - Do lower trapezius and rotator cuff work such as prone Y-raises and side-lying external rotations
+trigger: Before and during training blocks to keep the shoulder healthy, and whenever shoulder pain, a high bow shoulder or a hollow back shows up
+verification: The plumb line bisects the ear lobe, shoulder centre and hip joint and falls slightly in front of the ankle, the acromion divot is visible on top of the bow shoulder, and shooting causes no shoulder pain or joint noise
 type: procedure
 ---
 

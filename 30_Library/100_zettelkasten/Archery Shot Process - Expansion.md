@@ -3,10 +3,19 @@ aliases: []
 conformant: false
 created: 2026-07-21T09:02:00+00:00
 modified: 2026-10-27T16:19:23+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
+steps:
+  - Treat the hold as a transition and keep tension building without ever stopping
+  - Keep the draw elbow moving away from the target and around the body
+  - Keep extending the bow shoulder toward the target
+  - Push actively into the grip while pulling the string back
+  - Expand smoothly through the last 1 to 4 millimetres of the clicker
+  - Squeeze the draw elbow around the spine through the click, the release and the follow-through
+trigger: At full draw and anchor, to continue tension through the clicker to the shot
+verification: Only 1 to 4 millimetres of arrow is left under the clicker at full draw and anchor, and the clicker drops in one smooth continuous movement with no freezing and no pulling with the hand
 type: procedure
 ---
 

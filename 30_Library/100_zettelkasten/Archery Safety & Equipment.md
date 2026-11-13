@@ -3,10 +3,17 @@ aliases: ["Archery Equipment & Tuning"]
 conformant: false
 created: 2026-09-21T14:36:18+01:00
 modified: 2026-10-14T08:46:00+01:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment
+steps:
+  - Test your eye dominance with the triangle test before buying equipment
+  - Wear an arm guard and a finger tab every time
+  - Never release the string without an arrow loaded
+  - Wait to install a clicker until your draw length repeats within about 5 to 6 millimetres
+trigger: Before buying equipment or shooting for the first time, and whenever setting up gear
+verification: Your dominant eye is known, the arm guard and tab are on for every shot, no dry fires happen, and the clicker is only added once draw length is repeatable
 type: procedure
 ---
 

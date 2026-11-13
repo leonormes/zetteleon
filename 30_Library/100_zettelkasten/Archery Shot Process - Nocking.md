@@ -3,10 +3,17 @@ aliases: []
 conformant: false
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-nocking
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Nocking
+steps:
+  - Stay in your lane and hold the bow vertical with the lower limb resting against your inner calf
+  - Rest the arrow shaft on top of the arrow rest flipper above the shelf
+  - Click the arrow nock onto the string directly under the brass nocking indicator bead
+  - Turn the fletchings so two hen vanes point toward the bow window and the odd-coloured index vane points away from the riser
+trigger: When standing on the shooting line with the bow ready and an arrow to load, before setting the hands
+verification: The arrow sits on top of the flipper, the nock clicks under the bead every time, and the index vane clears the riser and shelf with no wild flyers or high-low grouping
 type: procedure
 ---
 

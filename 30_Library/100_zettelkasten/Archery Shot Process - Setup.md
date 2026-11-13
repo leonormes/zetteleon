@@ -3,10 +3,19 @@ aliases: []
 conformant: false
 created: 2026-07-21T09:02:00+00:00
 modified: 2026-10-26T08:48:50+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
+steps:
+  - Put on a finger tab or glove and an arm guard
+  - Clear any bulky clothing that could catch the string
+  - Rest the bow on your foot or thigh and not on the long rod while you set up
+  - Hook the string first, placing it in the first joint groove of the middle finger and wrapping the index and ring fingers around it
+  - Roll the fingers in so a pad of flesh sits between the string and the joint and not deep in the knuckle groove
+  - Place the bow hand into the grip last and keep it relaxed
+trigger: After posture is set and before raising the bow, when placing the hands on the string and the grip
+verification: The hook sits on the finger pads without pinching or numbness, the bow hand stays relaxed, and nothing snags the string
 type: procedure
 ---
 

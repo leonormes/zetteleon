@@ -3,13 +3,24 @@ aliases: []
 conformant: false
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-27T12:45:25+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags:
 - archery
 - prodos/atomic
 - technique
 title: Archery Shot Process - Raise
+steps:
+  - Start relaxed with no continuous tension in the front shoulder
+  - Shift a small amount of weight onto the front foot so the bow shoulder drops
+  - Take up about 1 inch of tension on the string
+  - Raise both hands to eye level while inhaling for four seconds
+  - Rotate the bow arm internally so the elbow turns outward
+  - Reach the base of the bow hand toward the target at the top of the raise
+  - Breathe out and settle downward slightly at the apex
+  - Hold the reach while pulling the string back
+trigger: After setup, with hook and grip set, to lift the bow toward eye level before the draw
+verification: The bow shoulder sits down and forward with no locked-out bow elbow, and the reaching tension continues unbroken into the draw
 type: procedure
 ---
 

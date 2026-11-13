@@ -3,10 +3,18 @@ aliases: []
 conformant: false
 created: 2026-08-03T17:00:00+01:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-bowstring-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Bowstring Maintenance
+steps:
+  - Secure both string loops before letting go so the string cannot untwist
+  - Hook the bottom loop onto the top limb when unstringing the bow
+  - Store the string on the limb or in a twist keeper and protect the centre serving from sharp bends
+  - Check for too few twists by trying to separate the strands with your fingers
+  - Wax the string when it looks fuzzy, white or frayed and before shooting in damp weather
+trigger: When unstringing the bow, storing a string, or when the string looks fuzzy or the brace height drifts
+verification: Brace height is unchanged after storage, the strands do not separate easily, and the exposed string stays free of fuzz and fraying
 type: procedure
 ---
 

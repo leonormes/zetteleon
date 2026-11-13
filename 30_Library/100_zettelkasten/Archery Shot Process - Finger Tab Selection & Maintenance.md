@@ -3,10 +3,17 @@ aliases: []
 conformant: false
 created: 2026-08-24T00:00:00+01:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-finger-tab-selection-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Finger Tab Selection & Maintenance
+steps:
+  - Choose face leather at least 1 millimetre thick for every 10 lb of draw weight
+  - Fit the base plate so the hand sits flush against the jaw at anchor
+  - Clean the face leather to remove salt and oil
+  - Replace grooved or worn leather straight away
+trigger: When choosing a tab or setting one up for your draw weight, and at regular maintenance
+verification: The leather is thick enough that no pain-driven flinch softens back tension, the hand sits flush at anchor, and no groove in the face leather catches the string
 type: procedure
 ---
 

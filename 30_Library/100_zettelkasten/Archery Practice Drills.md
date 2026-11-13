@@ -3,10 +3,17 @@ aliases: []
 conformant: false
 created: 2026-07-22T00:00:00+00:00
 modified: 2026-10-26T08:48:50+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
+steps:
+  - Benchmark where you are with video from several angles, a timed hold, current score averages and an equipment check
+  - Pick one drill for the block and do not work through all of them
+  - Run the drill at a blank bale without aiming when the aim is a form rebuild
+  - Measure progress against the same benchmarks
+trigger: When choosing what to practise for the next block of training
+verification: Progress is measured against the same video, hold-time, score and equipment benchmarks taken at the start, and only one drill is in play per block
 type: procedure
 ---
 

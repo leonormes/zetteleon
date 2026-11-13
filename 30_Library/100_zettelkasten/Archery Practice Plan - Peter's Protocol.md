@@ -3,10 +3,16 @@ aliases: []
 conformant: false
 created: 2026-07-27T23:00:00+01:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-plan-peters-protocol
 tags: [archery, practice, prodos/atomic, training]
 title: "Archery Practice Plan - Peter's Protocol"
+steps:
+  - Practise the 10-step shot recipe at home with resistance band drills
+  - Draw to your regular anchor on your own equipment and do static holds without dry firing
+  - Attend the blank-bale session with Peter and put all your attention on executing the shot recipe
+trigger: When starting a block of practice with the three-phase plan, or when planning a home or range session
+verification: Each shot follows the 10 steps in order with none skipped, and attention stays on the process and not on where the arrows land
 type: procedure
 ---
 

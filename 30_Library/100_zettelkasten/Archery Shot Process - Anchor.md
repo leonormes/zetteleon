@@ -3,10 +3,19 @@ aliases: []
 conformant: false
 created: 2026-07-21T09:02:00+00:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
+steps:
+  - Lift the chin slightly and place the hand on the neck with no gap
+  - Settle into the anchor in one fluid motion straight back
+  - Align the string blur to the same spot each time such as the edge of the riser or beside the sight pin
+  - Keep the front shoulder extended and the core solid
+  - Focus on the target so the bullseye is clear and the sight pin is slightly blurry
+  - Keep the hand where it is if string alignment is slightly off and do not shift it across the face
+trigger: At the end of the draw when the string reaches the face, to fix the final reference point
+verification: The same soft tissue and skeletal reference points touch every time, the index finger and bow shelf sit on the same level, and the string blur lands on the same spot
 type: procedure
 ---
 

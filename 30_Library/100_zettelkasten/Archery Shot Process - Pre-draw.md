@@ -3,10 +3,18 @@ aliases: []
 conformant: false
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Pre-draw
+steps:
+  - Rotate through the core to align the torso for a straight solid connection
+  - Line up the bow wrist, bow shoulder and draw shoulder in one straight line like a rifle barrel
+  - Set the upper draw arm at roughly 90 degrees to the shoulders with the draw elbow on or slightly behind the arrow line
+  - Apply slight tension to the string without aiming yet
+  - Pause briefly and check that the hook and grip have not changed
+trigger: After the raise and before drawing, as a checklist to confirm alignment
+verification: Posture is tall, the front shoulder stays set down with the acromion divot visible on top of the shoulder, and the bow wrist, bow shoulder and draw shoulder sit in one line
 type: procedure
 ---
 

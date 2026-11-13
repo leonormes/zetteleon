@@ -3,13 +3,24 @@ aliases: []
 conformant: false
 created: 2026-07-21T09:02:00+00:00
 modified: 2026-10-27T12:45:25+00:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags:
 - archery
 - prodos/atomic
 - technique
 title: Archery Shot Process - Loading
+steps:
+  - Start the draw by leading with the back of the drawing shoulder
+  - Move the drawing hand in a clean straight diagonal line toward the lower jaw
+  - Lead the pull with the draw elbow and move the whole drawing shoulder as a unit
+  - Keep the hand limp except for the forearm tension that holds the finger hook static
+  - Draw the remaining length with the back muscles and take the draw elbow up and around
+  - Keep the head still and bring the string to the face
+  - Stop at the load position about half an inch below the jaw
+  - Bring the sight down onto the target from above
+trigger: After the pre-draw checks pass, when drawing the bow to the anchor
+verification: The string reaches the face without the head moving forward, the hand travels in a straight line without looping, and the draw stops at the load position about half an inch below the jaw
 type: procedure
 ---
 

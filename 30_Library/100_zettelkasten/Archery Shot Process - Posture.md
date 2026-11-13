@@ -3,10 +3,18 @@ aliases: []
 conformant: false
 created: 2026-07-21T09:02:00+00:00
 modified: 2026-10-14T08:46:00+01:00
-non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
+non_conformance_reason: Title is not in How to form, so the note keeps its step or reference title
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture-1
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
+steps:
+  - Breathe out fully so the ribcage drops, then hold it down with light abdominal tension
+  - Squeeze the glutes to tuck the pelvis under
+  - Stack shoulders over hips over ankles in one vertical line with no lean toward or away from the target
+  - Look straight at the target with a soft gaze and a neutral neck and keep the head still
+  - Take three long slow breaths to reset before rebuilding posture for the next arrow
+trigger: After the stance is set and before the hands go on the bow
+verification: In full posture a partner pressing on your upper chest, first steadily and then with a light sudden push, cannot rock you back onto your heels or make you lean into the push
 type: procedure
 ---
 
