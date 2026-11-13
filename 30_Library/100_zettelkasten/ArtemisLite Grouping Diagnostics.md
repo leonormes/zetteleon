@@ -32,3 +32,8 @@ Applies when diagnosing systemic form or equipment flaws using statistical hit p
 ### Related
 
 - [[Archery Shot Process - Faults and Diagnostics]]—extends: provides statistical validation for diagnosing horizontal vs vertical spread.
+
+
+## Graph Edges
+
+[extends:: [[Archery Shot Process - Faults and Diagnostics]]]

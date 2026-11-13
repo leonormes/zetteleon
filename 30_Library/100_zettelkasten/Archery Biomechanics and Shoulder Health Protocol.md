@@ -114,3 +114,14 @@ Archery creates severe muscular imbalances (hyper-strong back/draw side, tight p
 - [[Resistance Band Routine for Recurve Archery]]: the conditioning in section 4 overlaps its shoulder-health routine.
 - [[Digital Archery Anatomy Resources]]: wider anatomy and rehab literature for sections 1 and 4.
 - [[Archery Year-One Coaching Framework (Months 5-12)]]: shelves back-tension anatomy to year two, so treat section 3's scapular detail as reference, not a to-do.
+
+
+## Graph Edges
+
+[extends:: [[Archery Shot Process - Posture]]]
+
+[extends:: [[Archery Shot Process - Raise]]]
+
+[extends:: [[Archery Shot Process - Pre-draw]]]
+
+[extends:: [[Archery Shot Process - Loading]]]

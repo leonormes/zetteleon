@@ -5,6 +5,7 @@ created: 2025-12-07T00:00:00+00:00
 modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/sot/the-unified-writing-to-think-process
+project_category: prodos
 tags: [learning, pkm, thinking, writing]
 title: SoT - The Unified Writing to Think Process
 type: sot

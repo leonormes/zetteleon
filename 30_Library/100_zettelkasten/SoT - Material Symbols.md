@@ -5,6 +5,7 @@ created: 2025-12-23T19:53:27+00:00
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-material-symbols
+project_category: prodos
 tags: [extended_mind, language, logic, scaffolding, TheHuman/Cognition]
 title: SoT - Material Symbols
 type: sot

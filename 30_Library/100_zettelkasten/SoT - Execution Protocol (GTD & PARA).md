@@ -7,6 +7,7 @@ modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 status: stable
+project_category: prodos
 tags: [gtd, para, system/protocol]
 title: SoT - Execution Protocol (GTD & PARA)
 type: sot

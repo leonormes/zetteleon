@@ -1,7 +1,9 @@
 ---
 aliases: ["Archery Equipment & Tuning"]
+conformant: false
 created: 2026-09-21T14:36:18+01:00
 modified: 2026-10-14T08:46:00+01:00
+non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment

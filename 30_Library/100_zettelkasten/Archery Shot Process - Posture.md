@@ -1,7 +1,9 @@
 ---
 aliases: []
+conformant: false
 created: 2026-07-21T09:02:00+00:00
 modified: 2026-10-14T08:46:00+01:00
+non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture-1
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -119,3 +121,8 @@ For balance work on an unstable surface or with eyes closed, see [[Archery Shot 
 ---
 
 [[MOC - Archery Shot Process]]
+
+
+## Graph Edges
+
+[depends_on:: [[Archery Shot Process - Stance]]]

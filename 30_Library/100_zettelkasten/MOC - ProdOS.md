@@ -5,6 +5,7 @@ created: 2025-12-04T14:38:32+00:00
 modified: 2026-11-09T17:44:46+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/mo-c/moc-prod-os
+project_category: prodos
 tags: [moc, prodos, SAVESTATE, SoftwareEngineering/Architecture]
 title: MOC - ProdOS
 type: map

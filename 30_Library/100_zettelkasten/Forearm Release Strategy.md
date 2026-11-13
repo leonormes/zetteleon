@@ -34,3 +34,8 @@ Applies to the release phase of a recurve archery shot.
 ### Related
 
 - [[Archery Shot Process - Release]]—contradicts: the Release note teaches passive finger relaxation and says extensor use causes a wide, flappy release. Unresolved; ask the coach before changing either note. Year-one practice follows the Release note.
+
+
+## Graph Edges
+
+[contradicts:: [[Archery Shot Process - Release]]]

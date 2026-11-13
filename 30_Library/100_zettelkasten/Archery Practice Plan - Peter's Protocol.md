@@ -1,7 +1,9 @@
 ---
 aliases: []
+conformant: false
 created: 2026-07-27T23:00:00+01:00
 modified: 2026-10-22T15:11:18+00:00
+non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-plan-peters-protocol
 tags: [archery, practice, prodos/atomic, training]
 title: "Archery Practice Plan - Peter's Protocol"
@@ -91,3 +93,28 @@ _Goal: Focus purely on biomechanical form on the shooting range without visual a
 - [[MOC - Archery Shot Process|MOC - Archery Shot Process]]—Complete guide and hub for all individual archery shot process steps.
 - [[Archery Year-One Coaching Framework (Months 5-12)]]—Current block plan and session templates. Where it differs from this protocol, the framework is the newer plan.
 - [[Archery Practice Drills|Archery Practice Drills]]—Expanded library of mental frameworks, training protocols, and physical archery drills.
+
+
+## Graph Edges
+
+[synthesizes:: [[Archery Shot Process - Nocking]]]
+
+[synthesizes:: [[Archery Shot Process - Stance]]]
+
+[synthesizes:: [[Archery Shot Process - Posture]]]
+
+[synthesizes:: [[Archery Shot Process - Setup]]]
+
+[synthesizes:: [[Archery Shot Process - Raise]]]
+
+[synthesizes:: [[Archery Shot Process - Pre-draw]]]
+
+[synthesizes:: [[Archery Shot Process - Loading]]]
+
+[synthesizes:: [[Archery Shot Process - Anchor]]]
+
+[synthesizes:: [[Archery Shot Process - Expansion]]]
+
+[synthesizes:: [[Archery Shot Process - Release]]]
+
+[synthesizes:: [[Archery Shot Process - Follow-through]]]

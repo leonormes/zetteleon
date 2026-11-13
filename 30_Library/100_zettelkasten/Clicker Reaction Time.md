@@ -32,3 +32,8 @@ Pertains to the neurological processing of the clicker's auditory cue in recurve
 ### Related
 
 - [[Archery Shot Process - Release]]—extends: the neurological speed requirement of an involuntary release.
+
+
+## Graph Edges
+
+[extends:: [[Archery Shot Process - Release]]]

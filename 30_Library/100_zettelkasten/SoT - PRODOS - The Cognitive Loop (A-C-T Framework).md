@@ -6,6 +6,7 @@ last-synthesis: 2026-04-04
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
+project_category: prodos
 tags: [cognitive-loop, framework, prodos, protocol, TheHuman/Health/ADHD]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
 type: sot

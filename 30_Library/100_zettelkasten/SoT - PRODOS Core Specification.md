@@ -5,6 +5,7 @@ created: 2026-01-03T09:45:08+00:00
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-prodos-core-specification
+project_category: prodos
 tags: [adhd-optimization, execution, prodos, system-architecture]
 tier: 1-Foundation
 title: SoT - PRODOS Core Specification

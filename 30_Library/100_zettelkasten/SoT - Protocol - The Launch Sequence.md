@@ -7,6 +7,7 @@ modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 status: stable
+project_category: prodos
 tags: [action, initiation, productivity, protocol, TheHuman/Health/ADHD]
 title: SoT - Protocol - The Launch Sequence
 type: sot

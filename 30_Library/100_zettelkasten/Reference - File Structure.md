@@ -6,6 +6,7 @@ last_reviewed: ''
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/reference-file-structure
+project_category: prodos
 tags: []
 title: Reference - File Structure
 type: sot

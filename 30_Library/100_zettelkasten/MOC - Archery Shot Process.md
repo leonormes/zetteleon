@@ -1,5 +1,6 @@
 ---
 aliases: []
+conformant: true
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-archery-shot-process
@@ -77,3 +78,58 @@ Loose claims extracted from the self-coaching resources, not yet reviewed agains
 - [[Forearm Release Strategy]]—contradicts [[Archery Shot Process - Release]] (active extensor opening versus passive relaxation).
 - [[Clicker Reaction Time]]—extends the Release note; clicker-dependent.
 - [[The Draw Force Line (DFL)]]—Axis from grip pressure point through the arrow to the draw elbow; extends [[Archery Shot Process - Anchor]].
+
+
+## Graph Edges
+
+[synthesizes:: [[Archery Shot Process - Nocking]]]
+
+[synthesizes:: [[Archery Shot Process - Stance]]]
+
+[synthesizes:: [[Archery Shot Process - Posture]]]
+
+[synthesizes:: [[Archery Shot Process - Setup]]]
+
+[synthesizes:: [[Archery Shot Process - Raise]]]
+
+[synthesizes:: [[Archery Shot Process - Pre-draw]]]
+
+[synthesizes:: [[Archery Shot Process - Loading]]]
+
+[synthesizes:: [[Archery Shot Process - Anchor]]]
+
+[synthesizes:: [[Archery Shot Process - Expansion]]]
+
+[synthesizes:: [[Archery Shot Process - Release]]]
+
+[synthesizes:: [[Archery Shot Process - Follow-through]]]
+
+[synthesizes:: [[Archery Shot Process - Faults and Diagnostics]]]
+
+[synthesizes:: [[ArtemisLite Grouping Diagnostics]]]
+
+[synthesizes:: [[Archery Learning Sequence - Build the Whole Process First]]]
+
+[synthesizes:: [[Archery Shot Process - Open Questions]]]
+
+[synthesizes:: [[Archery Safety & Equipment]]]
+
+[synthesizes:: [[Archery Practice Plan - Peter's Protocol]]]
+
+[synthesizes:: [[Archery Practice Drills]]]
+
+[synthesizes:: [[Resistance Band Routine for Recurve Archery]]]
+
+[synthesizes:: [[Archery Shot Process - Finger Tab Selection & Maintenance]]]
+
+[synthesizes:: [[Archery Shot Process - Bowstring Maintenance]]]
+
+[synthesizes:: [[Digital Archery Anatomy Resources]]]
+
+[synthesizes:: [[Archery Biomechanics and Shoulder Health Protocol]]]
+
+[synthesizes:: [[Forearm Release Strategy]]]
+
+[synthesizes:: [[Clicker Reaction Time]]]
+
+[synthesizes:: [[The Draw Force Line (DFL)]]]

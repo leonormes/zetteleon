@@ -5,6 +5,7 @@ created: 2025-12-24T12:12:06+00:00
 modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-telos-method
+project_category: prodos
 tags: [ai_integration, framework, strategy, telos]
 title: SoT - The Telos Method
 type: sot

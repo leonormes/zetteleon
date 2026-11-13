@@ -6,6 +6,7 @@ modified: 2026-10-22T15:11:11+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
 see_also: ["[[Prompt - ProdOS Chronos Synthesizer]]", "[[Reference - File Structure]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - ProdOS Thinking Stream]]"]
 status: stable
+project_category: prodos
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/workbench]
 title: SoT - HEAD Note Contract (The Workbench)
 type: sot

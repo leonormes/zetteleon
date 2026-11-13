@@ -6,6 +6,7 @@ definition: "The final stage of the Unified Writing to Think process, focusing o
 modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/stage-5
+project_category: prodos
 tags: [cognition, pkm, writing]
 title: Stage 5 Synthesise (The Outcome Layer)
 type: concept

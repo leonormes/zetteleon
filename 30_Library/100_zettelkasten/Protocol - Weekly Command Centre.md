@@ -4,6 +4,7 @@ conformant: true
 created: 2025-12-20T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/so-t/protocol-weekly-command-centre
+project_category: prodos
 tags: [gtd, productivity, protocol, system/reset, TheHuman/Health/ADHD]
 title: Protocol - Weekly Command Centre
 trigger: "Friday 16:30 — recurring Todoist reminder fires"

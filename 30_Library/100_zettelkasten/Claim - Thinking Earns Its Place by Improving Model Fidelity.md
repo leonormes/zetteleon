@@ -11,6 +11,7 @@ permalink: llmeon/30-library/100-zettelkasten/claim-thinking-earns-its-place-by-
 position-date: 2026-08-29
 proposition: ''
 supersedes: ['[[Claim - A Note That Does Not Help You Act Is Noise]]']
+project_category: prodos
 tags: [domain/pkm, prodos, topic/knowledge-architecture, topic/metacognition]
 title: Claim - Thinking Earns Its Place by Improving Model Fidelity
 type: claim

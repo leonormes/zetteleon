@@ -9,6 +9,7 @@ modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/the-three-rules-of-starter-tasks
 proposition: Effective starter tasks follow three rules, which are that their purpose is only to build momentum, that they last five to fifteen minutes at most, and that each is a single simple physical action.
+project_category: prodos
 tags: [momentum, task-initiation, TheHuman/Health/ADHD, topic/productivity]
 title: The Three Rules of Starter Tasks
 type: claim

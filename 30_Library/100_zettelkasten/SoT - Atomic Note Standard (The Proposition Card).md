@@ -6,6 +6,7 @@ modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-atomic-note-standard-the-proposition-card
 see_also: ["[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]", "[[The Atomicity Principle - One Idea Per Note]]"]
+project_category: prodos
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/zettelkasten]
 title: SoT - Atomic Note Standard (The Proposition Card)
 type: sot

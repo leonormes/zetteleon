@@ -1,7 +1,9 @@
 ---
 aliases: []
+conformant: false
 created: 2026-07-22T00:00:00+00:00
 modified: 2026-10-26T08:48:50+00:00
+non_conformance_reason: Step or reference note written as prose sections, not the procedure schema (trigger, steps, verification), and not titled as a How to
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills

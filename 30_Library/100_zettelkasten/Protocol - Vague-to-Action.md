@@ -7,6 +7,7 @@ modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/protocol-vague-to-action
 status: evergreen
+project_category: prodos
 tags: [execution, prodos, protocol, task-decomposition, task-initiation, TheHuman/Health/ADHD]
 title: Protocol - Vague-to-Action
 trigger: A captured task feels heavy or vague, or you notice you are avoiding it

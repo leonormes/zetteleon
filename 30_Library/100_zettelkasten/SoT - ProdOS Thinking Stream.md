@@ -6,6 +6,7 @@ modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-prod-os-thinking-stream
 source_of_truth: true
+project_category: prodos
 tags: [prodos, system/protocol, thinking, type/SoT, workflow]
 title: SoT - ProdOS Thinking Stream
 type: sot

@@ -6,6 +6,7 @@ modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-behavioral-architecture
 source_of_truth: true
+project_category: prodos
 tags: [behavioral-science, design, prodos/sot, systems-thinking]
 title: SoT - Behavioral Architecture
 type: sot

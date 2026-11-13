@@ -5,6 +5,7 @@ created: 2025-12-07T00:00:00+00:00
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
+project_category: prodos
 tags: [pkm, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
 title: SoT - Processing IS the Work
 type: sot

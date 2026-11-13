@@ -33,3 +33,8 @@ Applies to the full draw and holding phases of archery.
 ### Related
 
 - [[Archery Shot Process - Anchor]]—extends: the required bone alignment of the drawing elbow to support the expansion.
+
+
+## Graph Edges
+
+[extends:: [[Archery Shot Process - Anchor]]]
