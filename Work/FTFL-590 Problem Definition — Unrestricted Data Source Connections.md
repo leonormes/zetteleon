@@ -4,11 +4,20 @@ conformant: false
 created: 2026-09-29T11:28:21+01:00
 date: 2026-09-29
 modified: 2026-10-22T15:11:04+00:00
-non_conformance_reason: "agent-drafted work note awaiting Leon's review and edit"
+non_conformance_reason: agent-drafted work note awaiting Leon's review and edit
 permalink: llmeon/work/ftfl-590-problem-definition-unrestricted-data-source-connections
 related_ticket: FTFL-590
 status: draft
-tags: [app-05, data-sources, fitfile, ftfl-585, ftfl-590, pentest, problem-definition, security, source/llm, ssrf]
+tags:
+  - data-sources
+  - fitfile
+  - ftfl-585
+  - ftfl-590
+  - pentest
+  - problem-definition
+  - security
+  - source/llm
+  - ssrf
 title: FTFL-590 Problem Definition — Unrestricted Data Source Connections
 type: concept
 ---
