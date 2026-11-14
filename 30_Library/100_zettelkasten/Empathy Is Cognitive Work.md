@@ -2,20 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:17+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/empathy-is-cognitive-work
-proposition: Understanding another person requires active effort to bridge conceptual
-  gaps, beyond hearing their words.
+proposition: Understanding another person requires active effort to bridge conceptual gaps, beyond hearing their words.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [cognition, communication, empathy, listening, understanding]
+tags:
+  - cognition
+  - communication
+  - empathy
+  - listening
+  - understanding
 title: Empathy Is Cognitive Work
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Empathy Is Cognitive Work
@@ -30,7 +34,7 @@ Stated as an implication of the gap between thought and language; the source lat
 
 > "Empathy is cognitive work: Truly understanding others requires active effort to bridge conceptual gaps, not just hearing their words."
 
-Source: [[beyond words]] (line 151).
+Source: [[Beyond Words]] (line 151).
 
 ### Implications
 

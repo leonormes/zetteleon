@@ -14,8 +14,10 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 > Cross-cutting requirement—Output Contract: every `type/system`, `type/protocol`, and `type/context`-driving-analysis prompt in this library is governed by [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]: state confidence, cite evidence via `[[wikilink]]`, and flag insufficient context explicitly instead of guessing. This applies regardless of which prompt below you route to—it is not itself a routing choice.
 >
-> Cross-cutting requirement—K-Plex Idea Compass & 7-Predicate Typed Edges: every prompt that creates or updates note links must follow [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Because K-Plex (`inferAllLinksAsFriends: false`) hides plain `[[wikilinks]]`, meaningful relationships must be paired with a standalone `[<relationship>:: [[<target>]]]` line from the closed 7-word vocabulary (`depends_on`, `extends`, `implements` → North; `synthesizes` → South from hubs only; `supports` → West; `contradicts` → East; `revises` → Sequence) or a mapped frontmatter relationship property, and must never duplicate an inline typed-edge target in frontmatter `see_also`.
-
+> Cross-cutting requirement—K-Plex & Typed-Edge Architecture: every prompt that creates, edits, merges, or analyses notes operates on **K-Plex** by default alongside [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]:
+> - **Idea Compass & 7-Predicate Typed Edges (`inferAllLinksAsFriends: false`):** Plain `[[wikilinks]]` are invisible in K-Plex. Pair meaningful relationships with a standalone `[<relationship>:: [[<target>]]]` line (`depends_on`, `extends`, `implements` → North; `synthesizes` → South from hubs only; `supports` → West; `contradicts` → East; `revises` → Sequence) or a mapped frontmatter property (`upstream`, `source`, `sources`, `entry_points`, `candidate_answers`, `supports_claims`, `evidence_links`, `distinguishes_from`, `tension`, `supersedes`, `superseded_by`, `merged_from`). Under `frontmatter-overrides-body-ontology`, never duplicate an inline typed-edge target in frontmatter `see_also`.
+> - **K-Plex Views & Section Expansion:** Built-in views are Compass (`classic`), Mind Map (`mindmap`), and Facets (`wuxing`, with `LLMeon` presets `prodos-types` concentric by `type` and `prodos-status` horizontal by `status`). Long hubs (`sot`, `map`, `project`) expand by `##` headings in Compass and Mind Map—place inline edges under the specific `##` heading where the target belongs.
+> - **Runtime Inspection (`window.kplexApi.v1`):** Inspect K-Plex neighbours, precedence evidence (`evidence({sourceId, targetId})`), ontology postings (`ontologyDocuments`, `inspectOntologyOccurrences`), and Mind Map exports via `obsidian vault="LLMeon" eval` using `.agents/skills/kplex-obsidian-cli/SKILL.md`.
 ## Taxonomy
 
 | Category | Definition | Use it when… | Base view |
@@ -111,6 +113,17 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 - Three lenses on the same folder: [[Prompt - Zettelkasten Audit (Allosso Rubric)]] judges _how the notes are made_ (source layer, link reasons, keywords, review, readiness to write from). [[Zettelkasten Thinking-Pattern Analyst]] analyses _what the notes say_ about your thinking. [[Justification Graph Audit & Gap Closure]] audits _whether the argument graph is grounded_. Run the Allosso audit first when the vault feels like a collection, because the other two assume connected, sourced notes.
 - Three ProdOS Architects (distinct outputs, same family): [[Prompt - ProdOS Chronos Synthesizer]] outputs a SoT. [[Prompt - ProdOS MoC Cartographer]] outputs a MOC. [[Prompt - ProdOS Protocol Architect]] outputs a Protocol. Choose by desired artefact type, not by task description alone.
 
+## Agent Skills in `.agents/skills/` (Mechanical & Tooling Layer)
+
+Alongside the epistemic prompts above, five ProdOS-adapted agent skills live in `.agents/skills/` for tool and syntax execution:
+
+| Skill | Path | When to use |
+|---|---|---|
+| `kplex-obsidian-cli` | `.agents/skills/kplex-obsidian-cli/SKILL.md` | Inspect and drive `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` (`neighbors`, `evidence`, `ontologyGuide`, `ontologyDocuments`, `inspectOntologyOccurrences`, `canvases`, `exportMarkdown`, canvas view/preset switching) and reference LLMeon's K-Plex ontology pairs and precedence rules. |
+| `obsidian-bases` | `.agents/skills/obsidian-bases/SKILL.md` | Creating or editing `.base` files in `02_bases/` (formulas, `days_stale`, summaries, `type: kanban` boards) or embedding inline ` ```base ` dynamic tables (`this.file.links`) inside MoCs/SoTs. |
+| `obsidian-cli` | `.agents/skills/obsidian-cli/SKILL.md` | Tier 2 fallback when `obsidian-llmeon` 1MCP is unreachable (`vault="LLMeon"` first-arg rule, `--json` last-arg rule, `content=` backslash guard) and hot-reloading K-Plex (`plugin:reload id=k-plex`, `dev:errors`). |
+| `defuddle-knap` | `.agents/skills/defuddle-knap/SKILL.md` | Stage 0 web capture (`defuddle parse <url> --md --json`) and safe YAML frontmatter templating (`knap render` with `yaml_property`) into `00_Inbox/` before [[Prompt - Vault Ingest Router]] or [[Atomic Signal Extractor → Write TMP file]]. |
+| `archery-consolidation` | `.agents/skills/archery-consolidation/SKILL.md` | Skill wrapper for [[Archery Shot Process - Knowledge Consolidation]]. |
 ## Task-logs (historical—do not Route to These)
 
 These were captured as prompt notes but are one-off, dated, project-specific tasks. Keep for record-keeping; the CoS should never select them for a _new_ task:

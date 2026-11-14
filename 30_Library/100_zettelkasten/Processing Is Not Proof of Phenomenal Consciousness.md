@@ -37,4 +37,4 @@ Details: This is the strongest objection to Harris's leap from "the right hemisp
 
 ### See Also
 
-- [[beyond words]]—_both mark the gap between a representation or process and the lived experience it cannot fully capture._
+- [[Beyond Words]]—_both mark the gap between a representation or process and the lived experience it cannot fully capture._

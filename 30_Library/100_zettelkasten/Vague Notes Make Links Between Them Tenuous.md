@@ -2,19 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/vague-notes-make-links-between-them-tenuous
 proposition: When notes are vague or lack depth, the links between them are tenuous, because interpreting the connection depends on the existing knowledge and mental models of the reader.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [ambiguity, linking, note-quality, notes, pkm]
+tags:
+  - ambiguity
+  - linking
+  - note-quality
+  - notes
+  - pkm
 title: Vague Notes Make Links Between Them Tenuous
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Vague Notes Make Links Between Them Tenuous
@@ -29,7 +34,7 @@ Applies where the reader's own model, not the note, supplies the meaning of the 
 
 > "If the notes are vague or lack depth, the links become even more tenuous. The interpretation of the connection relies heavily on our existing knowledge and mental models, which may not be fully captured in the notes."
 
-Source: [[beyond words]] (line 44).
+Source: [[Beyond Words]] (line 44).
 
 ### Implications
 

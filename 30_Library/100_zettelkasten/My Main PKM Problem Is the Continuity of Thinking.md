@@ -1,14 +1,17 @@
 ---
-conformant: false
+conformant: true
+contradicts: []
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
-modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: "missing required field - type; missing required field - tags"
+evidence_links: []
+modified: 2026-11-14T13:42:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.-1
 prodos.kind: claim
 prodos.lifecycle: stable
 proposition: "ADHD disrupts the continuity of thinking in PKM systems because returning to a project lacks the initial novelty-based dopamine reward, prompting a desire to start fresh."
+tags: [adhd, cognition/continuity, pkm, prodos]
 title: My Main PKM Problem Is the Continuity of Thinking
+type: claim
 ---
 
 ## The Continuity Problem
@@ -60,7 +63,7 @@ Reframe returning ideas not as competing with the original structure, but as evo
 
 - [[MOC - ADHD Project Continuation Challenge]]—extends: the broader cognitive difficulty of maintaining engagement in long-term projects for ADHD brains. [extends:: [[MOC - ADHD Project Continuation Challenge]]]
 - [[MOC - Project Continuity]]—synthesizes: aggregated strategies for bridging work sessions. [synthesizes:: [[MOC - Project Continuity]]]
-- [[SoT - Evolutionary Note System]]—supports: a workflow designed specifically to lower the friction of capturing flow-state thoughts (via HEAD notes) before eventually merging them. [supports:: [[SoT - Evolutionary Note System]]]
+- [[SoT - HEAD Note Contract (The Workbench)]]—supports: a workflow designed specifically to lower the friction of capturing flow-state thoughts (via HEAD notes) before eventually merging them into canonical SoTs. [supports:: [[SoT - HEAD Note Contract (The Workbench)]]]
 - [[GTD and the Cognitive Load of Execution]]—depends_on: the cognitive cost of reloading context is a primary barrier to execution. [depends_on:: [[GTD and the Cognitive Load of Execution]]]
 - [[MOC - Why Task Initiation is Difficult in ADHD]]—extends: the friction of returning to a note is a specific manifestation of task initiation paralysis. [extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]
 - [[MOC - PKM as Process vs Product]]—supports: abandoning the "perfect" note structure in favor of writing as a messy process of thinking. [supports:: [[MOC - PKM as Process vs Product]]]

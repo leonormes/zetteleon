@@ -45,8 +45,9 @@ Canonical rule: [[AGENTS.md]] §9.1. State which tier you actually reached.
 1. Obsidian tools through 1MCP, called directly by name. For this vault the server is `obsidian-llmeon` (`obsidian-llmeon_1mcp_search_semantic`, `_search_text`, `_wikilinks`, `_note_read`). Do not use `obsidian-hermes`: it points at a different vault. There is no discovery step and never a `retrieve_tools`/`call_tool` two-step. If a tool seems missing, run `curl -s http://127.0.0.1:3050/health | jq.servers`.
    - `search_semantic` can error. Retry once, then fall back to `search_text` and say so.
    - `search_text` on broad queries can return over 100k characters. Restrict `fields` (for example `title`, `headings`, `tags`), set `max_results`, and use `jq` on a saved result file rather than reading it whole.
-2. The `obsidian` CLI with `vault=LLMeon` passed explicitly, when MCP is unreachable.
-3. Raw filesystem read/write only as a last resort, and never blind: read the file first.
+2. The `obsidian` CLI with `vault="LLMeon"` passed as the **very first argument** (and `--json`/`--copy` placed last after the command; see `.agents/skills/obsidian-cli/SKILL.md`), when MCP is unreachable.
+3. For raw web URLs handed to the router: run `defuddle parse "<url>" --md --json` (see `.agents/skills/defuddle-knap/SKILL.md`) to strip navigation/clutter and extract `title`, `author`, and clean Markdown before running Gate 1.
+4. Raw filesystem read/write only as a last resort, and never blind: read the file first.
 
 If you have only lexical search, say so. "No candidate found" then means "none found by keyword", not "none exists", which is how shadow duplicates get through.
 

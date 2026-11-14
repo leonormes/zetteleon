@@ -2,10 +2,11 @@
 aliases: [Active Externalism, Cumulative Thinking, Distributed Cognition, Embodied Cognition, EMT, HEC, Hypothesis of Extended Cognition, The Extended Mind Thesis]
 conformant: true
 created: 2025-12-07T18:28:36+00:00
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-14T10:17:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-extended-mind
 project_category: prodos
+status: stable
 tags: [extended_mind, mental_models, pkm, TheHuman/Cognition, TheHuman/Health/ADHD, TheHuman/Philosophy]
 title: SoT - The Extended Mind
 type: sot
@@ -38,11 +39,12 @@ Cognition extends in multiple directions, all of which are leveraged by ProdOS t
 
 - Principle: Thinking is a physical act. Our bodies play a crucial role in shaping thought.
 - The Negotiable Body: Human bodily boundaries are plastic. We genuinely incorporate tools (like a blind person's cane or a keyboard) rather than just using them.
+- Cognitive Priming: Movement, natural environments, and interoceptive signals prepare the mind before formal capture ([[Stage 0 Prepare (The Extended Mind Layer)]]).
 - See Also: [[SoT - The Negotiable Body]]
 
 ### B. Situated Cognition (The Environment)
 
-- Principle: We think _with_ our environment. We perform Epistemic Actions—physical actions (like rotating Tetris blocks or shuffling Index Cards) performed to aid computation rather than just to change the world.
+- Principle: We think _with_ our environment. We perform [[Epistemic Actions - Thinking via Doing|Epistemic Actions]]—physical actions (like rotating Tetris blocks or shuffling Index Cards) performed to aid computation rather than just to change the world.
 - Niche Construction: Humans actively engineer structural layers (like specialized workspaces or IDEs) to reshape how our biological brains process information.
 
 ### C. Distributed Cognition (The Network)
@@ -75,26 +77,41 @@ The Result: You start having conversations with your past self. The system ensur
 
 ## 6. Application: PRODOS as an External Brain
 
-PRODOS is the operational implementation of the Extended Mind.
+PRODOS is the operational implementation of the Extended Mind. Under the strong constitutive reading, [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It|the external scaffold IS the executive function for the operation]]—removing it removes the faculty rather than merely making tasks harder, which makes availability, reliability, and backup primary cognitive design concerns.
 
 | Biological Deficit (ADHD) | Extended Mind Solution (PRODOS) |
 |:--- |:--- |
-| Volatile Working Memory | Offloading (Storage): HEAD notes capture the "state" of a thought so RAM can be flushed. |
+| Volatile Working Memory | Offloading (Storage): HEAD notes and [[Externalize Memory Aggressively (cognitive offloading)|aggressive externalisation]] capture the "state" of a thought so RAM can be flushed. |
 | Initiation Paralysis | Situated Cognition (Cues): Templates and MVAs provide environmental triggers to bypass executive dysfunction. |
 | Time Blindness | Re-spatializing (Time): Time-blocking visualizes time as a physical object/container. |
 | Scatter/Overwhelm | Distributed Cognition (Structure): MOCs hold the architecture, allowing the user to focus on the leaf node. |
 
 ---
 
-## 7. Related Components
+## 7. Tensions & Limits
+
+- [[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]—_limit: unlike type systems or infrastructure state files, cognitive scaffolds have no formal reconciliation engine to detect drift from the user's real needs; regular review is the manual substitute._
+- [[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]]—_partial tension: tools extend storage and retrieval, but the active work of understanding and connecting ideas still requires human engagement._
+
+---
+
+## 8. Related Components
 
 - [[MOC - ProdOS]]—_The central map of the system's architecture and cognitive loops._
 - [[SoT - PRODOS Core Specification]]—_The unified specification for the ProdOS system architecture._
 - [[SoT - Evolutionary Note System]]
 - [[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits|SoT - Identity-Based Habits]]—_The mechanism for self-image upgrades to sustain long-term behavioral change._
-- [[SoT - Material Symbols]]
-- [[SoT - The Negotiable Body]]
-- [[SoT - Cognitive Tools and Visual Abstraction]]
+- [[SoT - Material Symbols]]—_Distributed cognition via public symbols and language._
+[synthesizes:: [[SoT - Material Symbols]], strength=4, confidence=high]
+- [[SoT - The Negotiable Body]]—_Plasticity of bodily boundaries and tool incorporation._
+[synthesizes:: [[SoT - The Negotiable Body]], strength=4, confidence=high]
+- [[SoT - Cognitive Tools and Visual Abstraction]]—_Visual and external representations as thinking media._
+[synthesizes:: [[SoT - Cognitive Tools and Visual Abstraction]], strength=4, confidence=high]
 - [[Natural-Born Cyborgs - Human Plasticity and Tool Merger]]—_Explores the biological plasticity that allows for seamless tool incorporation._
+[synthesizes:: [[Natural-Born Cyborgs - Human Plasticity and Tool Merger]], strength=5, confidence=high]
+- [[Stage 0 Prepare (The Extended Mind Layer)]]—_Embodied movement, nature, and interoceptive priming before writing._
+[synthesizes:: [[Stage 0 Prepare (The Extended Mind Layer)]], strength=3, confidence=high]
+- [[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]—_Epistemic boundary on constitutive scaffolding._
+[synthesizes:: [[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]], strength=3, confidence=medium]
 - [[The Parity Principle - Functional Equivalence in Cognition]]—_The core philosophical criteria for functional equivalence between internal and external processes._
 - [[SoT - Behavioral Architecture]]—_The implementation of environmental determinism to scaffold action._

@@ -2,20 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/language-discretises-continuous-experience
-proposition: Language maps a continuous range of experience onto a finite set of words,
-  so nuance is lost in the mapping.
+proposition: Language maps a continuous range of experience onto a finite set of words, so nuance is lost in the mapping.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [discretisation, emotion, expression, language, nuance]
+tags:
+  - discretisation
+  - emotion
+  - expression
+  - language
+  - nuance
 title: Language Discretises Continuous Experience
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Language Discretises Continuous Experience
@@ -30,7 +34,7 @@ The source's example is the spectrum of emotion reduced to words such as "happy"
 
 > "language inherently discretizes continuous experience. The spectrum of emotions we feel must be mapped onto a finite set of words like "happy," "ecstatic," or "content," inevitably losing nuance in the process."
 
-Source: [[beyond words]] (line 296).
+Source: [[Beyond Words]] (line 296).
 
 ### Implications
 

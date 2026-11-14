@@ -3,8 +3,8 @@ aliases: [Sophisticated Paraphrase Test]
 conformant: true
 created: 2026-09-15T00:00:00+00:00
 definition: "The line between developing an existing idea and presenting a genuinely new one. Developing an idea keeps its original thesis intact while shifting its focus, broadening its scope of evidence, or adding a dimension the original lacked. It is best classified as a sophisticated paraphrase rather than a new idea, because paraphrase-invariance — the same underlying claim surviving a change of words or examples — still holds across the change."
-distinguishes_from: ["[[Paraphrasing is a Complex Cognitive Skill|Simple Paraphrasing]]"]
-modified: 2026-10-22T15:11:17+00:00
+distinguishes_from: ["[[Elaboration Through Own Words Deepens Understanding|Simple Paraphrasing]]"]
+modified: 2026-11-14T13:06:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/developing-an-idea-differs-from-presenting-a-new-one
 tags: [epistemics, language, paraphrasing, topic/learning, topic/philosophy]
 title: Developing an Idea Differs From Presenting a New One
@@ -24,7 +24,7 @@ If one or more of these hold and the core thesis is unchanged, the result is a s
 
 ## Related
 
-[extends:: [[Paraphrasing is a Complex Cognitive Skill]]]
+[extends:: [[Elaboration Through Own Words Deepens Understanding]]]
 
-- [[Paraphrasing is a Complex Cognitive Skill]]—this is a diagnostic test for classifying one specific kind of paraphrase (an extended argument) rather than a general claim about paraphrasing's cognitive value.
+- [[Elaboration Through Own Words Deepens Understanding]]—this is a diagnostic test for classifying one specific kind of paraphrase (an extended argument) rather than a general claim about paraphrasing's cognitive value.
 - [[Paraphrasing Demonstrates the Independence of Meaning from Language]]—the invariance test this distinction relies on to justify calling extension-with-same-thesis a paraphrase rather than a new claim.

@@ -1,19 +1,15 @@
 ---
 aliases: []
+conformant: false
 created: 2025-07-16T17:30:04+00:00
-last_reviewed: 'null'
-modified: 2026-10-22T15:11:15+00:00
+modified: 2026-11-14T13:06:20+00:00
+non_conformance_reason: "Superseded duplicate merged into Elaboration Through Own Words Deepens Understanding"
 permalink: llmeon/30-library/100-zettelkasten/paraphrasing-is-a-complex-cognitive-skill
-tags: [paraphrasing, TheHuman/Cognition, TheHuman/Cognition/thinking, topic/learning]
+status: superseded
+superseded_by: ["[[Elaboration Through Own Words Deepens Understanding]]"]
+tags: [archive, paraphrasing, TheHuman/Cognition, TheHuman/Cognition/thinking, topic/learning]
 title: Paraphrasing is a Complex Cognitive Skill
-type: 'null'
-updated: null
+type: claim
 ---
 
-Paraphrasing is a complex cognitive skill that goes far beyond simply replacing words with synonyms. True paraphrasing requires a deep understanding of the original text's underlying meaning.
-
-This skill is fundamental to learning and thinking because it forces a mental translation process. To re-express an idea in a new way, one must first grasp its core essence. This act of translation and re-creation is a powerful method for deepening one's own understanding.
-
-The reason this is a complex skill, and not a simple mechanical act, is because [[Paraphrasing Demonstrates the Independence of Meaning from Language|language and meaning are not the same thing]], as [[Words are Imperfect Representations of Meaning]]. The difficulty and value of this process is why [[The Processing Is the Hard Part|the processing is the hard part]] in any knowledge work.
-
-This act of translation is a powerful form of [[Writing puts us in the powerful position of being able to observe our thinking|writing that allows us to observe our own thinking]]. It is a "reflective practice" that helps build and refine the mental frameworks, or schemas, that constitute deep knowledge.
+This note's thinking has been integrated into [[Elaboration Through Own Words Deepens Understanding]] on 2026-11-14.

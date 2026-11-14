@@ -133,6 +133,7 @@ Use this process:
 6. Look for sequences: problem → model → implication → related notes → next question.
 7. Build a hierarchy from individual notes to themes to worldview.
 
+8. Inspect the live K-Plex graph at runtime when available (see `.agents/skills/kplex-obsidian-cli/SKILL.md`): query `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` (`status()`, `ontology()`, `neighbors({id, role})`, `evidence({sourceId, targetId})`, `ontologyDocuments({field})`) alongside `uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit`. Remember that K-Plex uses `inferAllLinksAsFriends: false`, so plain `[[wikilinks]]` without inline typed edges or relational frontmatter are invisible in Compass/Mind Map views.
 ## Output Format
 
 Return your findings in this structure:

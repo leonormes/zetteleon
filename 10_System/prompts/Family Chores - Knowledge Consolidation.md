@@ -65,6 +65,12 @@ For each note that needs updating, construct the updated file content. Keep chan
 
 ---
 
+
+### 4. K-Plex Graph Wiring
+
+- K-Plex runs with `inferAllLinksAsFriends: false`, so family SoTs, Protocols, Plans, and MOCs need typed edges or relational frontmatter to appear on the Idea Compass and Mind Map.
+- Ensure valid lowercase `type` (`sot`, `protocol`, `map`, `project`) and `status` (`draft`, `seed`, `stable`, `evergreen`, `stale`, `active`) so notes populate K-Plex's `prodos-types` and `prodos-status` Facets presets.
+- Wire `[[Family Chores Operational Plan]]` and domain SoTs using frontmatter `entry_points` and body `[synthesizes:: [[Protocol or SoT]]]` placed under each thematic `##` section heading (for K-Plex section expansion); wire Protocols with `[implements:: [[SoT - Governing Note]]]` or `[depends_on:: [[Prerequisite]]]` (North); wire superseded duplicates with frontmatter `supersedes` / `superseded_by` (`status: stale`), and never duplicate inline typed-edge targets in `see_also`.
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every note this agent creates or edits inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint, not optional guidance.

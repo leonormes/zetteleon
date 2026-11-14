@@ -59,6 +59,7 @@ Exclude ch. 8-11 and the Revision Checklist, which govern drafts. If you cannot 
 5. Before crediting link reasons, check whether annotations are templated (repeated label phrases).
 6. Say where the source layer might live outside the folder (Calibre, ARCHILLES) before reporting a funnel shortfall.
 
+7. K-Plex Connectivity & Precedence Audit (Criterion 3 — Connection): check what share of links are **K-Plex-visible** (inline 7-predicate `[<relationship>:: [[Target]]]` or mapped relational frontmatter such as `upstream`, `evidence_links`, `distinguishes_from`, `tension`, `see_also`), since K-Plex runs with `inferAllLinksAsFriends: false` and leaves bare `[[wikilinks]]` invisible on the Idea Compass. Flag any `see_also` collision suppressing a body inline typed edge (`frontmatter-overrides-body-ontology`). You can verify resolved neighbours, field postings, and precedence evidence via `window.kplexApi.v1` (`neighbors`, `evidence`, `ontologyDocuments`, see `.agents/skills/kplex-obsidian-cli/SKILL.md`) alongside `edge_lint.py --audit`.
 ## Output
 
 - Scorecard: one line per rule 1-7 with metric, rating and chapter reference.

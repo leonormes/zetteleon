@@ -2,13 +2,15 @@
 aliases: [The Admin Illusion, The Interpreter Module, User Interface of the Self]
 conformant: true
 created: 2025-12-23T19:56:26+00:00
-modified: 2026-10-22T15:11:10+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-the-user-interface-of-the-self
 project_category: prodos
+see_also: ["[[SoT - PRODOS Core Specification]]", "[[SoT - Prosthetic Executive Function]]"]
+status: stable
 tags: [agency, cognitive_science, mental_models, TheHuman/Identity, TheHuman/Neuroscience]
 title: SoT - The User Interface of the Self
 type: sot
+upstream: ["[[MOC - ProdOS]]"]
 ---
 
 ## 1. Definitive Statement
@@ -47,3 +49,10 @@ The "Self" is heavily constrained by the underlying physical architecture:
 ## 5. Summary
 
 The conscious "Self" is a high-latency, limited-bandwidth integration tool. It does not run the system; it narrates it. Understanding this architecture allows for better "system administration" of one's own mind, especially in managing executive dysfunction.
+
+---
+
+## Related
+
+- [[SoT - Prosthetic Executive Function]] [supports:: [[SoT - Prosthetic Executive Function]], confidence=high]
+- [[SoT - PRODOS Core Specification]] [supports:: [[SoT - PRODOS Core Specification]], confidence=medium]

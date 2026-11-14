@@ -1,65 +1,64 @@
 ---
 aliases: []
 conformant: true
+contrasts_with: ["[[Practice - Flat linking and tagging]]"]
 created: 2026-01-03T10:07:49+00:00
-last_reviewed: ''
-modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:42:00+00:00
 permalink: llmeon/30-library/so-t/reference-file-structure
 project_category: prodos
-tags: []
+see_also: ["[[SoT - HEAD Note Contract (The Workbench)]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
+status: stable
+tags: [architecture, prodos, reference, taxonomy]
 title: Reference - File Structure
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## Reference - File Structure & Naming Conventions
 
 ### 1. The Core Structure
 
-To maximize LLM context window efficiency and human retrieval speed, the vault is organized into these primary domains:
+To maximize LLM context window efficiency and human retrieval speed, the vault follows the `AGENTS.md` §0 taxonomy (reconciled with the 2026-11-09 `30_Library/100_zettelkasten/` flattening):
 
 | Directory | Component | Role | Cognitive Phase |
 |:--- |:--- |:--- |:--- |
 | `00_Inbox/` | The Stream | Frictionless Capture | Capture |
 | `01_journals/` | The Log | Daily Notes & Time Logs | Capture / Reflect |
 | `02_bases/` | The HUD | System Dashboards (`.base` files) | Orient |
-| `10_Actions/` | The Engine | Project Management | Engage (Doing) |
-| `20_Thinking/` | The Workbench | Active Workspace (`HEAD` notes) | Refine (Thinking) |
-| `30_Library/` | The Canon | Long-term Knowledge (`SoT` notes) | Synthesize (Knowing) |
+| `10_System/` | The Kernel Tooling | Templates, Scripts, FileClasses, Prompts | Infrastructure |
+| `20_Thinking/21_Workbench/` | The Workbench | Active Question Queue (`HEAD -` notes) | Refine (Thinking) |
+| `30_Library/100_zettelkasten/` | The Canon | Flattened Knowledge Graph (`Claim`, `SoT`, `Protocol`, `MOC`, `Source`, `Q`) | Synthesize (Knowing) |
+| `30_Library/200_projects/` | The Hangar | Project Anchor Notes | Engage (Doing) |
+| `30_Library/ops/` | Operations | Operational References & Runbooks | Execute |
 
-#### A. The Stream (`00_Inbox` & `01_journals`)
+#### A. The Stream (`00_Inbox/` & `01_journals/`)
 
-- `00_Inbox/`: A temporary holding ground for raw inputs. Zero Retention Rule: Must be emptied every 24-48 hours.
-- `01_journals/`: Contains Daily Notes (`YYYY-MM-DD`). This is the chronological log of your life, capturing fleeting thoughts, logs, and rapid-fire bullets.
+- `00_Inbox/`: Temporary capture entry point routed by `[[Prompt - Vault Ingest Router]]`.
+- `01_journals/`: Daily Notes (`YYYY-MM-DD`) and chronological life logs. Existing notes here are protected human territory (`AGENTS.md` §6.1).
 
-#### B. The HUD (`02_bases`)
+#### B. The HUD (`02_bases/`)
 
-- Contents: `.base` files (e.g., `HEAD.base`, `SoT.base`) which serve as Dataview Dashboards to query the state of the vault without manual curation.
+- Contents: Obsidian `.base` files (`Thinking.base`, `SoT.base`, `MOCx.base`, etc.) providing live structured views driven by `[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]`.
 
-#### C. The Engine (`10_Actions`)
+#### C. System Tooling (`10_System/`)
 
-- Sub-folder: `11_Projects`
-- Purpose: Project management views and "State Snapshots" (`Project - Title.md`).
-- Rule: Projects link to `HEAD` notes for thinking and `SoT` notes for resources. They do not store knowledge themselves.
+- Contents: Templates, validators (`validate_note_frontmatter.py`, `validate_note_shape.py`, `edge_lint.py`), fileClasses, and `10_System/prompts/` governed by `[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]`.
 
-#### D. The Workbench (`20_Thinking`)
+#### D. The Workbench (`20_Thinking/21_Workbench/`)
 
-- Sub-folder: `21_Workbench`
-- Purpose: The home of HEAD Notes. This is the active "RAM" of the system.
-- Rule: No Folders. A flat list of active thinking threads.
-- Naming: `HEAD - <question>?`—the title must be a question. Legacy `HEAD - Topic` notes are flagged by the sweep, not auto-renamed.
-- Lifecycle: Ephemeral. Created to solve a problem, then archived or merged.
-- Admission control (2026-08-03): governed by [[SoT - HEAD Note Contract (The Workbench)]]. A note must pass four tests—Ownership, Origin, Convergence, Actionability—to live here. Captures (anything carrying `source:`/`captured:`/`author:`) go to `00_Inbox/`, not here; the Web Clipper was retargeted at the inbox on this date. Unresolved tensions from canonical notes are harvested _into_ here by [[Prompt - Tension Harvester]], leaving a `> Open threads:` pointer behind. Audited by [[Protocol - Workbench Compliance Sweep]].
+- Purpose: Flat queue of unresolved human questions (`HEAD - <question>?`) acting as active RAM.
+- Rules: No sub-folders; protected human territory (`AGENTS.md` §6.1).
+- Admission control (2026-08-03): governed by `[[SoT - HEAD Note Contract (The Workbench)]]` (Ownership, Origin, Convergence, Actionability). Captures (`source:`/`captured:`/`author:`) go to `00_Inbox/`, not here. Unresolved tensions from canonical notes are harvested into here by `[[Prompt - Tension Harvester]]`, leaving a `> Open threads:` pointer behind. Audited by `[[Protocol - Workbench Compliance Sweep]]`.
 
-#### E. The Canon (`30_Library`)
+#### E. The Canon (`30_Library/100_zettelkasten/`, `200_projects/`, `ops/`)
 
-- Purpose: The home of durable knowledge.
-- Rule: High Trust. Only verified, synthesized knowledge enters the `SoT` folder.
+- `30_Library/100_zettelkasten/` (flattened 2026-11-09): holds atomic claims (`Claim -` or full-sentence titles), questions (`Q —`), Sources (`Source -`), Maps of Content (`MOC -`), Sources of Truth (`SoT -`), and Protocols (`Protocol -`). Note type is set by frontmatter `type` and title prefix (`[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]`), not subfolder path.
+- `30_Library/200_projects/`: Project anchor and state notes linking to Todoist/Jira execution and `HEAD`/`SoT` thinking.
+- `30_Library/ops/`: Operational runbooks and reference sheets.
 
-#### F. The Archive (`99_Archive`)
+#### F. The Archive (`99_Archive/`)
 
-- Purpose: To hide "Dead" content from Search / Context Window.
-- Trigger: Processed HEAD notes and completed Projects move here.
+- Purpose: Retires resolved `HEAD` notes (with tombstones where cited; see HEAD Note Contract §3.1) and completed/deprecated material out of active working views.
 
 ---
 
@@ -67,7 +66,14 @@ To maximize LLM context window efficiency and human retrieval speed, the vault i
 
 #### The "No-Filing" Rule
 
-We do not "file" notes in ProdOS; we Tag and Link.
+We do not "file" notes by topic folder in ProdOS; we Type, Tag, and Link.
 
-- Folders are for _System Architecture_ (Permissions/Types).
-- Links are for _Knowledge Architecture_ (Context).
+- Folders define _Lifecycle & Write Boundaries_ (Inbox, Journal, Workbench, Canon, System).
+- Links and K-Plex typed edges define _Knowledge Architecture_ (`[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]`).
+
+### Related
+
+- [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
+- [depends_on:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=high]
+- [supports:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]

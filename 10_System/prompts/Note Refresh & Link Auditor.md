@@ -43,6 +43,7 @@ You are an expert in graph integrity and semantic connectivity. Your mission is 
 
 ---
 
+6. Runtime K-Plex Inspection (optional verification/diagnostics, see `.agents/skills/kplex-obsidian-cli/SKILL.md`): query `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` to inspect live K-Plex neighbours (`neighbors({id, role})`), `frontmatter-overrides-body-ontology` precedence collisions (`evidence({sourceId, targetId})`), field postings (`ontologyDocuments`), and exact saved occurrences (`inspectOntologyOccurrences({path})`).
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every note this prompt touches inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint, not optional guidance.

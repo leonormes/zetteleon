@@ -75,6 +75,7 @@ Based on the semantic search:
 
 ---
 
+- K-Plex Control-Plane Wiring (`inferAllLinksAsFriends: false`): Keep `type: procedure` and `status: draft|stable` (places `cmd_` and `playbook_` notes in K-Plex's `prodos-types` **Procedures & Projects** ring and `prodos-status` Facets). Alongside `requires_tunnel` in YAML, emit at least one K-Plex Idea Compass edge under `## Related` or `## Prerequisites`—for example `[depends_on:: [[cmd_prerequisite_tunnel]]]` or `[implements:: [[SoT - Governing Architecture]]]` (or frontmatter `upstream`)—so the DevOps control plane renders as a navigable North/South prerequisite tree (`depends_on` ↔ `prerequisite_of`) in K-Plex. Never duplicate inline typed-edge targets in `see_also`.
 ## The Architecture Guidelines (When Creating Notes)
 
 ### 1. Atomic Command (`tag: cmd`)

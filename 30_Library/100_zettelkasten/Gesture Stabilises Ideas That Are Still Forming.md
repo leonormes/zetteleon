@@ -2,20 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: low
 evidence_links: []
 modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/gesture-stabilises-ideas-that-are-still-forming
-proposition: Gesture acts as a virtual diagram that stabilises and advances ideas
-  that are still forming in the mind.
+proposition: Gesture acts as a virtual diagram that stabilises and advances ideas that are still forming in the mind.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [embodied-cognition, gesture, ideas, pre-linguistic, thinking]
+tags:
+  - embodied-cognition
+  - gesture
+  - ideas
+  - pre-linguistic
+  - thinking
 title: Gesture Stabilises Ideas That Are Still Forming
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Gesture Stabilises Ideas That Are Still Forming
@@ -30,7 +34,7 @@ Applies to inchoate ideas not yet consciously formulated. The source attributes 
 
 > "Gesture plays a crucial role in shaping inchoate notions still forming in our minds, acting as a virtual diagram to stabilise and advance our emerging understanding."
 
-Source: [[beyond words]] (line 230).
+Source: [[Beyond Words]] (line 230).
 
 ### Implications
 

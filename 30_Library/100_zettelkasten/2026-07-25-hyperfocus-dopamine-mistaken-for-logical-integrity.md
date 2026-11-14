@@ -4,17 +4,15 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:19+00:00
+modified: 2026-11-14T13:06:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity
-prodos.kind: atomic
-prodos.lifecycle: stable
 proposition: "When an idea arises during a hyperfocus session or a high-intensity dopamine state, the intensity of the felt breakthrough can be mistaken for evidence that the idea's underlying logic is actually sound."
 tags: [bias, learning, mental_models, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: 2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity
 type: claim
 ---
 
-An idea born inside a hyperfocus session, or a high-intensity dopamine state, arrives with a strong feeling of breakthrough. That feeling is easy to mistake for evidence that the idea itself is logically sound—but intensity of feeling and soundness of logic are two different things. This is the ADHD-specific intensifier sitting directly on top of [[Externalising Tacit Knowledge Illusion of Profundity|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]].
+An idea born inside a hyperfocus session, or a high-intensity dopamine state, arrives with a strong feeling of breakthrough. That feeling is easy to mistake for evidence that the idea itself is logically sound—but intensity of feeling and soundness of logic are two different things. This is the ADHD-specific intensifier sitting directly on top of [[The Disappointment of Written Thoughts|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]].
 
 ## Evidence
 
@@ -32,8 +30,8 @@ Hyperfocus sessions may also produce genuinely higher-quality ideas via sustaine
 
 ## Knowledge Graph
 
-[[Externalising Tacit Knowledge Illusion of Profundity|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—this is the ADHD-specific intensifier of that general mechanism, not a standalone claim
+[[The Disappointment of Written Thoughts|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—this is the ADHD-specific intensifier of that general mechanism, not a standalone claim
 
-[extends:: [[Externalising Tacit Knowledge Illusion of Profundity]]]
+[extends:: [[The Disappointment of Written Thoughts]]]
 
 [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

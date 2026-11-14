@@ -1,16 +1,17 @@
 ---
 aliases: [Analysis Paralysis, Fear of Failure, The Perfectionism Trap]
 conformant: true
+contrasts_with: ["[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
 created: 2025-10-28T00:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis
-see_also: []
-superseded_by: ''
-supersedes: ''
+project_category: prodos
+see_also: ["[[Protocol - Vague-to-Action]]", "[[SoT - PRODOS Black Box Protocol]]"]
+status: stable
 tags: [prodos, TheHuman/Cognition/bias, TheHuman/Mindset, TheHuman/Psychology]
 title: SoT - Perfectionism and Analysis Paralysis
 type: sot
+upstream: ["[[MOC - ProdOS]]"]
 ---
 
 > In ADHD, it manifests as Analysis Paralysis: "the inability to start a task because the cost of \"doing it wrong\" feels existentially threatening."
@@ -46,3 +47,10 @@ ProdOS architecture is designed to break this cycle by enforcing Process over Pr
 3. Iterative Synthesis: We accept that truth is evolutionary. You don't write the final SoT; you _grow_ it from imperfect drafts.
 
 [[Flawed Mental Models Limit Mastery]]
+
+## Related
+
+- [[ADHD Overthinking is a Substitute for Action]] [depends_on:: [[ADHD Overthinking is a Substitute for Action]], confidence=high]
+- [[Protocol - Vague-to-Action]] [supports:: [[Protocol - Vague-to-Action]], confidence=high]
+- [[SoT - PRODOS Black Box Protocol]] [supports:: [[SoT - PRODOS Black Box Protocol]], confidence=high]
+- [[I am enslaved to the work of zetteling]]—_First-person case of system perfectionism and compulsive linking displacing real thinking._ [supports:: [[I am enslaved to the work of zetteling]], confidence=medium]

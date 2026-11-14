@@ -1,16 +1,15 @@
 ---
 aliases: []
 created: 2025-11-11T04:37:15+00:00
-last_reviewed: ''
+last_reviewed: ""
 modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-most-fundamental-issue-initial-conversation-strategy
 see_also: []
-superseded_by: ''
-supersedes: ''
-tags: ['1']
+superseded_by: ""
+supersedes: ""
 title: The Most Fundamental Issue & Initial Conversation Strategy
-type: ''
-updated: null
+type: ""
+updated:
 ---
 
 ## Analysis: The Most Fundamental Issue & Initial Conversation Strategy

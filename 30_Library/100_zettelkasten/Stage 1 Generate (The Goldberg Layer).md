@@ -1,14 +1,16 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-12-04T12:00:00+00:00
 definition: "The first writing stage of the Unified Writing to Think process, focusing on capturing raw energy without judgment."
-modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
+distinguishes_from: ["[[Stage 0 Prepare (The Extended Mind Layer)]]", "[[Stage 2 Clarify (The On Writing Well Layer)]]"]
+modified: 2026-11-14T13:07:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-1
+status: stable
 tags: [cognition, pkm, writing]
 title: Stage 1 Generate (The Goldberg Layer)
 type: concept
+used_in_claims: ["[[Mundane Written Thoughts are the Starting Point for Deeper Insight]]", "[[Sprint Journaling Prevents Overwhelm in ADHD]]"]
 ---
 
 _The Goal: To capture the raw energy of a thought without judgment._
@@ -29,6 +31,8 @@ Outcome: A raw, unedited block of text that contains the "first thoughts" and em
 
 ## Related
 
-- [[Stage 0 Prepare (The Extended Mind Layer)]]—_The preceding stage._ [depends_on:: [[Stage 0 Prepare (The Extended Mind Layer)]]]
+- [[Stage 0 Prepare (The Extended Mind Layer)]]—_The preceding stage._
+[depends_on:: [[Stage 0 Prepare (The Extended Mind Layer)]]]
 - [[Stage 2 Clarify (The On Writing Well Layer)]]—_The next stage._
-- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._
+[extends:: [[SoT - Unified Writing to Think Process]]]

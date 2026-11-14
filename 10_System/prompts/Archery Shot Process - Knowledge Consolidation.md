@@ -73,6 +73,12 @@ When the user provides a New Capture HEAD Note or video summary, execute the fol
 
 ---
 
+
+### 5. K-Plex Idea Compass & Typed-Edge Integration
+
+- Because K-Plex runs with `inferAllLinksAsFriends: false`, plain `[[wikilinks]]` between raw archery captures and the 10 step notes do not appear in Compass or Mind Map views.
+- Wire the 10-step sequence in frontmatter (`Previous` / `Next`) or inline (`[depends_on:: [[Archery Shot Process - Preceding Step]]]`), and record raw source captures in frontmatter `sources` / `upstream`.
+- Pair biomechanical explanations, drills, and supporting links with explicit inline edges (`[supports:: [[Target Step or Claim]]]`, `[implements:: [[Biomechanical Principle]]]`), and represent opposing coaching cues under `### Alternative Views / Corrections` via `[contradicts:: [[Competing Cue]]]` or frontmatter `contrasts_with` / `distinguishes_from`. Never duplicate inline typed-edge targets in `see_also` (`frontmatter-overrides-body-ontology`).
 ## OUTPUT FORMAT
 
 Do NOT output the complete file contents or large markdown diffs in your response. Since you are updating the files directly via MCP tools or file system tools, keep your response concise. Present your analysis and a summary of actions in the following structure:

@@ -1,16 +1,20 @@
 ---
+conformant: true
 created: 2026-07-17T00:00:00+00:00
 description: Universal output-discipline protocol for any ProdOS vault agent. Enforces stated confidence, cited evidence, and an explicit uncertainty flag on every response " — no unlabelled free prose. Reference this from any prompt's Output Contract callout;" route here for the enforcement rule, and to SoT - Typed Answer Contract (TAC) for LLM Output for the underlying theory.
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/protocol-typed-answer-contract-tac-for-vault-agents
+project_category: prodos
 see_also: ["[[Goal - Orphan Triage Sweep (Daily Cron)]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
-source_of_truth: true
+status: stable
 tags: [domain/ai, sot, type/protocol]
 title: Protocol - Typed Answer Contract (TAC) for Vault Agents
 type: protocol
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 [implements:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], strength=5, confidence=high]
+[implements:: [[SoT - PRODOS Core Specification]], confidence=high]
 
 > Output Contract: this note IS the Output Contract. It defines the rule other prompts point to—it has no upstream contract to follow, only the rules below.
 

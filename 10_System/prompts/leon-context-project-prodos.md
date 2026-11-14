@@ -18,6 +18,7 @@ I am building "prodOS"—an LLM-powered productivity operating system designed t
 ### Tech Stack & Integrations
 
 - Core: Obsidian (Markdown PKM) + Todoist (Tasks) + LLM Orchestration.
+- Visual Knowledge Graph & API: **K-Plex** (`.obsidian/plugins/k-plex/data.json`), driving the Idea Compass, Mind Map, and Facets (`prodos-types`, `prodos-status`) views from 7-predicate inline edges and relational frontmatter, inspectable at runtime via `window.kplexApi.v1` (`obsidian vault="LLMeon" eval`, see `.agents/skills/kplex-obsidian-cli/SKILL.md`).
 - Philosophy: GTD methodology enhanced for ADHD (The "Indistractable Stack").
 - UX Paradigm: Command palette + persistent sidebar assistant.
 

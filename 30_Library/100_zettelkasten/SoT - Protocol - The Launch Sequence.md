@@ -1,16 +1,17 @@
 ---
 aliases: [Launch Sequence, The Initiation Algorithm]
 conformant: true
+contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
 created: 2025-12-23T20:00:20+00:00
-last_reviewed: '2025-12-23'
-modified: 2026-11-13T17:49:27+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 project_category: prodos
+see_also: ["[[Protocol - Vague-to-Action]]", "[[SoT - PRODOS Black Box Protocol]]"]
 status: stable
 tags: [action, initiation, productivity, protocol, TheHuman/Health/ADHD]
 title: SoT - Protocol - The Launch Sequence
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## 1. Goal: Bypassing the "Brainbound" Bottleneck
@@ -89,3 +90,12 @@ When resistance is high, execute this sequence:
 2. Kinetic: Stand up. Pace for 60 seconds while verbalizing the first action (e.g., "I will open the file").
 3. Context: Sit in your Start Zone or trigger a Body Doubling session.
 4. Execute: You have now offloaded the initiation cost. Begin.
+
+---
+
+## Related
+
+- [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - Prosthetic Executive Function]] [implements:: [[SoT - Prosthetic Executive Function]], confidence=high]
+- [[Protocol - Vague-to-Action]] [depends_on:: [[Protocol - Vague-to-Action]], confidence=medium]
+- [[Strong Habits Override Weak Intentions]] [depends_on:: [[Strong Habits Override Weak Intentions]], confidence=high]

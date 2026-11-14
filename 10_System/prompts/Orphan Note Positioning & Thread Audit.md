@@ -55,6 +55,7 @@ You are positioning a single note that currently has no meaningful place in the 
 
 ---
 
+6. Runtime K-Plex Inspection (optional diagnostics, see `.agents/skills/kplex-obsidian-cli/SKILL.md`): query `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` to inspect resolved compass neighbours (`neighbors({id, role})`), `frontmatter-overrides-body-ontology` collisions (`evidence({sourceId, targetId})`), and saved field occurrences (`inspectOntologyOccurrences({path})`).
 ## PART 1—Positioning & Enrichment (Discover, then Decide)
 
 ### 1.1 Baseline

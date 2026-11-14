@@ -2,20 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-11-12T14:32:42+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/digital-tools-cannot-replace-the-cognitive-processes-of-understanding-and-connecting-ideas
-proposition: Digital tools cannot replace the cognitive processes involved in understanding
-  and connecting ideas.
+proposition: Digital tools cannot replace the cognitive processes involved in understanding and connecting ideas.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [cognition, digital-tools, limits, pkm, understanding]
+tags:
+  - cognition
+  - digital-tools
+  - limits
+  - pkm
+  - understanding
 title: Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas
@@ -30,7 +34,7 @@ The source grants that such tools can aid the storage and retrieval of informati
 
 > "Digital tools can aid in the storage and retrieval of information, but they cannot replace the cognitive processes involved in understanding and connecting ideas."
 
-Source: [[beyond words]] (line 50).
+Source: [[Beyond Words]] (line 50).
 
 ### Implications
 

@@ -1,15 +1,16 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-12-04T12:00:00+00:00
 definition: "The final stage of the Unified Writing to Think process, focusing on synthesizing connected notes into larger arguments or structure notes."
-modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
+distinguishes_from: ["[[Stage 4 Connect (The Zettelkasten Layer)]]"]
+modified: 2026-11-14T13:07:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-5
-project_category: prodos
+status: stable
 tags: [cognition, pkm, writing]
 title: Stage 5 Synthesise (The Outcome Layer)
 type: concept
+used_in_claims: ["[[Structure Notes as Maps of Thought Trails]]"]
 ---
 
 _The Goal: To use your connected notes to build larger arguments and summaries._
@@ -26,5 +27,9 @@ Outcome: A coherent understanding of a complex topic, captured in a structure no
 
 ## Related
 
-- [[Stage 4 Connect (The Zettelkasten Layer)]]—_The preceding stage._ [depends_on:: [[Stage 4 Connect (The Zettelkasten Layer)]]]
-- [[SoT - Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - Unified Writing to Think Process]]]
+- [[Stage 4 Connect (The Zettelkasten Layer)]]—_The preceding stage._
+[depends_on:: [[Stage 4 Connect (The Zettelkasten Layer)]]]
+- [[Structure Notes as Maps of Thought Trails]]—supports: structure notes serve as maps of emerging arguments across atomic notes.
+[supports:: [[Structure Notes as Maps of Thought Trails]]]
+- [[SoT - Unified Writing to Think Process]]—_The overarching framework._
+[extends:: [[SoT - Unified Writing to Think Process]]]

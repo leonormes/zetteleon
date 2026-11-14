@@ -1,17 +1,20 @@
 ---
 conformant: false
 created: 2026-09-01T16:18:55+00:00
-created_utc: '2026-09-01T16:18:54.888265+00:00'
-modified: 2026-10-22T15:11:17+00:00
-non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
+created_utc: 2026-09-01T16:18:54.888265+00:00
+modified: 2026-11-14T12:49:07+00:00
+non_conformance_reason: missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)
 permalink: llmeon/00-inbox/define-space-objectives-before-organizing
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q
 status: seed
-tags: [organization, physical-space, planning, workflow]
+tags:
+  - organization
+  - physical-space
+  - planning
+  - workflow
 title: Define Space Objectives Before Organizing
 type: procedure
-upstream: '[[tmp_atoms_mujin_7_rules]]'
 ---
 
 ## Define Space Objectives Before Organizing
@@ -33,4 +36,3 @@ Applies to any physical workspace redesign or optimization project.
 
 ### Related
 
-- [[ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions]]—extends: Defining workflows applies to household chores and space clearing.

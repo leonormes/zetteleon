@@ -2,19 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:19+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/a-pkm-is-personal-because-notes-only-represent-ideas-held-in-one-head
 proposition: Because the ideas are mostly in the head of the owner and the notes only represent them, another person cannot take the notes and understand the same things.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [notes, personal, pkm, transferability, understanding]
+tags:
+  - notes
+  - personal
+  - pkm
+  - transferability
+  - understanding
 title: A PKM Is Personal Because Notes Only Represent Ideas Held in One Head
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## A PKM Is Personal Because Notes Only Represent Ideas Held in One Head
@@ -29,7 +34,7 @@ Follows from the claim that notes are representations rather than the ideas them
 
 > "Because the ideas are mostly in our heads, and the notes are just representations, a PKM is a very personal thing. Another person could not simply take your notes and understand the same things."
 
-Source: [[beyond words]] (line 51).
+Source: [[Beyond Words]] (line 51).
 
 ### Implications
 

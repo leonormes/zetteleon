@@ -2,21 +2,23 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/shared-biological-architecture-enables-communication
-proposition: Because humans share the same basic neural architecture, they process
-  perceptual, emotional and spatial patterns in broadly similar ways, giving communication
-  a common foundation.
+proposition: Because humans share the same basic neural architecture, they process perceptual, emotional and spatial patterns in broadly similar ways, giving communication a common foundation.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [biology, cognition, communication, shared-understanding]
+tags:
+  - biology
+  - cognition
+  - communication
+  - shared-understanding
 title: Shared biological architecture enables communication
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Shared Biological Architecture Enables Communication
@@ -31,7 +33,7 @@ Concerns basic perception, emotion and spatial processing; it does not claim tha
 
 > "Humans share a common neurological structure. Our brains process certain patterns similarly because we have evolved the same basic neural architecture."
 
-Source: [[beyond words]] (line 119).
+Source: [[Beyond Words]] (line 119).
 
 ### Implications
 

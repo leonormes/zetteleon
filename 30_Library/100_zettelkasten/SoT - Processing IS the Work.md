@@ -1,14 +1,19 @@
 ---
 aliases: [Active Processing, Good Enough Processing, Processing IS the Work]
 conformant: true
+contrasts_with: ["[[The Collector's Fallacy Conflates Gathering with Assimilation]]"]
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+merged_from: ["[[SoT - Evolutionary Note System]]"]
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
 project_category: prodos
+see_also: ["[[SoT - Unified Writing to Think Process]]", "[[SoT - HEAD Note Contract (The Workbench)]]"]
+status: stable
 tags: [pkm, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
+tension: ["[[Claim - A Note That Does Not Help You Act Is Noise]]", "[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]"]
 title: SoT - Processing IS the Work
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## 1. Definitive Statement
@@ -81,8 +86,10 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 ## 5. Related Source of Truth (SoT) & Maps
 
 - [[MOC - PKM as Process vs Product]]—_The central map exploring the philosophical shift from collecting to active cognitive processing._
-- [[SoT - PRODOS Core Specification]]—_Defines the "Utility Over Truth" axiom that prioritizes actionable information over abstract hoarding._
-- [[SoT - Evolutionary Note System]]—_Defines the "Merge Protocol" (HEAD -> SoT) as the physical mechanism for processing and synthesis._
+- [[SoT - PRODOS Core Specification]]—_Defines the "Utility Over Truth" axiom that prioritizes actionable information over abstract hoarding._ [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - HEAD Note Contract (The Workbench)]]—_Canonical workbench contract defining the volatile HEAD lifecycle (`HEAD` -> `SoT`) absorbed from [[SoT - Evolutionary Note System]]._ [supports:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=high]
+- [[SoT - Unified Writing to Think Process]]—_Concrete six-stage writing-to-think workflow._ [supports:: [[SoT - Unified Writing to Think Process]], confidence=high]
+- [[Writing Acts as an External Working Memory]]—_Why externalising processing lowers cognitive load._ [depends_on:: [[Writing Acts as an External Working Memory]], confidence=high]
 - [[SoT - Habit Formation Framework#1. Philosophy: Process Primacy|SoT - Process Primacy]]—_The core philosophy that systems (the process) determine outcomes (the product)._
 - [[SoT - The Extended Mind]]—_The theoretical basis for why offloading processing to an external system is a biological necessity._
 - [[SoT - The Cognitive Physiology of Task Execution]]—_Explains the neurological basis of the "Wall of Awful" and the Mood Repair Trap._

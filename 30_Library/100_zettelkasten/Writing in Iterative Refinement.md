@@ -1,25 +1,15 @@
 ---
 aliases: []
+conformant: false
 created: 2025-02-07T12:57:53+00:00
-ID: 9e
-last_reviewed: 'null'
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-14T13:06:20+00:00
+non_conformance_reason: "Superseded duplicate merged into Mundane Written Thoughts are the Starting Point for Deeper Insight"
 permalink: llmeon/30-library/100-zettelkasten/writing-in-iterative-refinement
-tags: [topic/pkm/zettelkasten, topic/writing]
+status: superseded
+superseded_by: ["[[Mundane Written Thoughts are the Starting Point for Deeper Insight]]"]
+tags: [archive, topic/pkm/zettelkasten, topic/writing]
 title: Writing in Iterative Refinement
-type: permanent
-updated: null
+type: claim
 ---
 
-- Writing makes our thinking "stable" enough to systematically revise
-- We can experiment with different phrasings and organizations
-- Each revision cycle improves not just the writing but our underlying understanding
-
-[[SoT - The Extended Mind|The Extended Mind Thesis]]
-
-[[Educating Your Zettelkasten]]
-
-## Related
-
-- [[Writing as Cognitive Rigour]] - Highlights how the process of writing exposes flaws in thought.
-- [[Writing puts us in the powerful position of being able to observe our thinking]] - The mechanism that makes iterative refinement possible.
+This note's thinking has been integrated into [[Mundane Written Thoughts are the Starting Point for Deeper Insight]] on 2026-11-14.

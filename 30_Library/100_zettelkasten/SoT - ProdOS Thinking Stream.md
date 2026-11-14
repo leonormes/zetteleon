@@ -1,15 +1,18 @@
 ---
 conformant: true
+contrasts_with: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]"]
 created: 2026-04-02T10:55:00+00:00
-last-synthesis: 2026-04-02
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+merged_from: ["[[SoT - Cognitive Engineering Protocols]]"]
+modified: 2026-11-14T13:41:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prod-os-thinking-stream
-source_of_truth: true
 project_category: prodos
-tags: [prodos, system/protocol, thinking, type/SoT, workflow]
+see_also: ["[[SoT - HEAD Note Contract (The Workbench)]]", "[[SoT - Unified Writing to Think Process]]"]
+status: stable
+tags: [prodos, system/protocol, thinking, workflow]
+tension: ["[[The Danger of Perpetual System-Building]]"]
 title: SoT - ProdOS Thinking Stream
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -20,7 +23,7 @@ The Thinking Stream is the "RAM" of the ProdOS system—a low-friction, high-thr
 
 ### 1. The Core Lifecycle (CRPE)
 
-1. CAPTURE: Dump mental noise into the Daily Note. Raw text, no formatting, no judgment.
+1. CAPTURE: Dump mental noise into the Daily Note. Raw text, no formatting, no judgment. Translating abstract feeling and unprocessed noise into linear syntax activates the Prefrontal Cortex (PFC), dampening Amygdala/Mid-Cingulate stress loops and freeing Working Memory RAM (Neuro-Synchronization). If the dump feels overwhelming, cap it at the top 10 loudest items and triage via [[Protocol - Action-First GTD (LLM Chief of Staff)]].
 2. REFINE: If an idea is complex or "stuck" and leaves a question that needs your judgement, open a `HEAD - <question>?` note in `20_Thinking/21_Workbench/`. Admission rules are in [[SoT - HEAD Note Contract (The Workbench)]].
 3. PROCESS (The 120s Loop):
     - Goal: What is the single, physical outcome desired?
@@ -28,7 +31,7 @@ The Thinking Stream is the "RAM" of the ProdOS system—a low-friction, high-thr
     - MVA: What is the next physical step that takes <120 seconds?
 4. EXIT:
     - Action? $\rightarrow$ Move to Todoist (see [[gtd-action-system]]).
-    - Fact? $\rightarrow$ Merge into a canonical note in `30_Library/SoT/` via [[Prompt - ProdOS Chronos Synthesizer]], then archive the HEAD note (leave a tombstone if other notes cite it; see the HEAD Note Contract §3.1).
+    - Fact? $\rightarrow$ Merge into a canonical `SoT -` note in `30_Library/100_zettelkasten/` via [[Prompt - ProdOS Chronos Synthesizer]], then archive the HEAD note (leave a tombstone if other notes cite it; see the HEAD Note Contract §3.1).
     - Skill/Project? $\rightarrow$ Move to the Hangar (Project Note).
     - Noise? $\rightarrow$ DELETE (raw captures only; never a HEAD note that is cited as `upstream`).
 
@@ -46,7 +49,9 @@ The 120s loop is designed to bypass the "Dumb Zone" of over-deliberation. By foc
 
 ## Related Knowledge
 
-- Kernel: [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=medium]
+- Kernel: [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
 - Workbench: [[SoT - HEAD Note Contract (The Workbench)]] [depends_on:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=medium]
-- Philosophy: [[SoT - Processing IS the Work]]
+- Philosophy: [[SoT - Processing IS the Work]] [implements:: [[SoT - Processing IS the Work]], confidence=high]
+- Mechanism: [[Writing Acts as an External Working Memory]] [depends_on:: [[Writing Acts as an External Working Memory]], confidence=high]
+- Writing pipeline: [[SoT - Unified Writing to Think Process]] [supports:: [[SoT - Unified Writing to Think Process]], confidence=high]
 - Automation: [[Protocol - Action-First GTD (LLM Chief of Staff)]] (Mode B: agent-run)

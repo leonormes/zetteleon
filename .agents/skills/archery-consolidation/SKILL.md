@@ -58,7 +58,12 @@ Follow these steps autonomously:
 ### 3. Redundancy & Conflict Check
 - **Redundant:** If the information is already fully covered, discard it.
 - **New detail:** If it provides a fresh angle, cue, or biomechanical clarification, integrate it.
-- **Contradiction:** If there is a disagreement across coaching systems (e.g. KSL vs. standard recurve), do not delete the existing instruction. Document it under an `### Alternative Views / Corrections` subheading in the target note.
+- **Contradiction:** If there is a disagreement across coaching systems (e.g. KSL vs. standard recurve), do not delete the existing instruction. Document it under an `### Alternative Views / Corrections` subheading in the target note, and wire opposing cues with K-Plex challenger semantics (`contradicts` inline edge or `contrasts_with` / `distinguishes_from` in frontmatter).
+
+### 3b. K-Plex Idea Compass & Typed-Edge Wiring
+- K-Plex runs with `inferAllLinksAsFriends: false`, so plain `[[wikilinks]]` between coaching captures and the 10 step notes do not appear on the Idea Compass or Mind Map.
+- Wire the 10-step sequence via frontmatter `Previous` / `Next` (or inline `[depends_on:: [[Archery Shot Process - Preceding Step]]]`) and source captures via frontmatter `sources` / `upstream`.
+- When adding biomechanical rationale, drills, or cross-references inside a step note, pair meaningful links with inline typed edges (e.g. `[supports:: [[Target Step or Claim]]]`, `[implements:: [[Biomechanical Principle]]]`) and never duplicate inline typed-edge targets in `see_also` (`frontmatter-overrides-body-ontology`).
 
 ### 4. File Update Execution
 - Call `shale intent "<brief description>"` before editing files.

@@ -1,15 +1,19 @@
 ---
 aliases: [PRODOS, Productivity Operating System, SoT - PRODOS (System Architecture)]
 conformant: true
+contrasts_with: ["[[The Danger of Perpetual System-Building]]"]
 created: 2026-01-03T09:45:08+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-core-specification
 project_category: prodos
+see_also: ["[[MOC - Action Management]]", "[[MOC - ADHD (The Master Map)]]", "[[SoT - Prosthetic Executive Function]]"]
+status: stable
 tags: [adhd-optimization, execution, prodos, system-architecture]
+tension: ["[[The Three Rules of Starter Tasks]]", "[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]"]
 tier: 1-Foundation
 title: SoT - PRODOS Core Specification
 type: sot
+upstream: ["[[MOC - ProdOS]]"]
 ---
 
 ## PRODOS Unified Specification
@@ -47,11 +51,11 @@ When a task lacks intrinsic motivation, the Problem Definer must "gamify" the ex
 
 ### 3. Execution Protocols
 
-The definitions these protocols assume (PARA Container, GTD Project, Task, and the Definition of Done) live in [[SoT - Execution Protocol (GTD & PARA)]].
+The definitions these protocols assume (PARA Container, GTD Project, Task, and the Definition of Done) live in [[SoT - Execution Protocol (GTD & PARA)]]. [synthesizes:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=high]
 
 #### 3.1 The Thinking Stream & 120s Loop
 
-Before any action, you must clear mental RAM. See [[SoT - ProdOS Thinking Stream]] for the Capture-Refine-Process-Exit loop.
+Before any action, you must clear mental RAM. See [[SoT - ProdOS Thinking Stream]] for the Capture-Refine-Process-Exit loop. [synthesizes:: [[SoT - ProdOS Thinking Stream]], confidence=high]
 
 #### 3.2 The Scope-Lock & Starter Task (MVA)
 
@@ -105,4 +109,7 @@ Use Instruction SoTs to offload working memory for complex tasks.
 - [[SoT - The Cognitive Physiology of Task Execution]]—_Neurological basis._ [depends_on:: [[SoT - The Cognitive Physiology of Task Execution]], confidence=medium]
 - [[SoT - Behavioral Architecture]]—_Environmental engineering behind the System > Willpower stance._ [depends_on:: [[SoT - Behavioral Architecture]], confidence=medium]
 - [[SoT - The Extended Mind]]—_Philosophical foundation for offloading cognition._ [depends_on:: [[SoT - The Extended Mind]], confidence=medium]
-- [[SoT - ProdOS Thinking Stream]]—_Operational guide to §3.1._
+- [[SoT - Prosthetic Executive Function]]—_Prosthetic scaffolding design principle._ [depends_on:: [[SoT - Prosthetic Executive Function]], confidence=high]
+- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]]—_Systems-over-goals premise behind Low Maintenance & Firmware._ [depends_on:: [[You Fall to the Level of Your Systems, Not Rise to Your Goals]], confidence=high]
+- [[Protocol - Weekly Command Centre]]—_Weekly reflect cadence._ [synthesizes:: [[Protocol - Weekly Command Centre]], confidence=high]
+- [[SoT - Protocol - The Launch Sequence]]—_Initiation scaffolding._ [synthesizes:: [[SoT - Protocol - The Launch Sequence]], confidence=high]

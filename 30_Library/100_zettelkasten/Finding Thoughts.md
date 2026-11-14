@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-05-09T20:07:21+00:00
 epistemic_status: high
 evidence_links: ["[[Evidence - Ahrens on Luhmann Overview Notes Reached From the Index as Entry Points Into a Topic]]"]
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/finding-thoughts
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -22,7 +22,7 @@ I don't know how to find things in obsidian. Like this bullet point. Let's say a
 
 I have come back here from the main index. It is exactly right. I have to link things this way. It is very simple!
 
-[supports:: [[SoT - Evolutionary Note System]]]
+[supports:: [[SoT - HEAD Note Contract (The Workbench)]]]
 
 ## What the Vault Already Answers
 
@@ -41,13 +41,12 @@ Your question had three parts. Each has an answer elsewhere in the graph.
 - [[Key questions when linking notes in the Zettelkasten method]]—_What is this part of, and what is it similar to or different from: the questions to ask at the moment of linking._
 - [[Creating Meaningful Links]]—_Contextual, and other, link types, and why the reason for a link matters._
 - [[Practice - Flat linking and tagging]]—_Store flat and link, which removes the "where does this go?" decision at capture._
-- [[SoT - HEAD Note Contract (The Workbench)]]—_A thought you want to return to is an open question. Park it as a HEAD note, phrased as a question, where you will see it._
-- [[SoT - Evolutionary Note System]]—_The merge protocol: ephemeral thinking is squashed into durable notes, so a thought grows in place._
+- [[SoT - HEAD Note Contract (The Workbench)]]—_A thought you want to return to is an open question. Park it as a HEAD note, phrased as a question, where you will see it; settled answers merge into canonical notes via [[SoT - Processing IS the Work]]._
 - [[Create a 'Research Hole' Parking Lot]]—_A place to park a thread so it does not derail you and can be picked up later._
 
 ### Why is This a Recurring Theme?
 
-- [[My Main PKM Problem Is the Continuity of Thinking]]—_Returning to a project lacks the novelty reward of starting it, which prompts starting fresh. The rewrite habit has an ADHD explanation._
+- [[My Main PKM Problem Is the Continuity of Thinking]]—_Returning to a project lacks the novelty reward of starting it, which prompts starting fresh. The rewrite habit has an ADHD explanation._ [supports:: [[My Main PKM Problem Is the Continuity of Thinking]], confidence=high]
 - [[Zettelkasten Ain't Easy]]—_The effort in the method is the thinking, not the filing. Already linked above._
 - [[MOC - Project Continuity]]—_The hub for re-entering work._
 - [[Documenting Mental Models Enables Project Re-entry]]—_Capture the mental model while it is live so there is a bridge back._
@@ -58,17 +57,3 @@ Your question had three parts. Each has an answer elsewhere in the graph.
 ## Where It Applies in ProdOS
 
 - [[Prompt - Vault Ingest Router]]—_Locates related notes before anything new is created, so a repeat thought is routed to its existing home._
-- [[Knowledge Consolidation Agent]]—_Finds where a new note belongs and merges duplicates, the after-the-fact fix for a rewritten thought._
-- [[Note Refresh & Link Auditor]] and [[Orphan Note Positioning & Thread Audit]]—_The prompts that do the "link things this way" step for a single note._
-- [[00 - Prompt Library Router]]—_Picks between them._
-
-## Not Yet Answered in the Vault
-
-- No note states the human habit "search the vault before writing a new note". The ingest prompts do it for agents, and the redundancy note gives the principle.
-- No note explains how to search inside Obsidian itself (which search to use when). [[Semantic Search via Embeddings]] covers the concept only.
-
-### Further Reading (Personal Library)
-
-- [How to Take Smart Notes — Sönke Ahrens](calibre://view-book/GCcalibreBooks/704/EPUB)—_Luhmann's four cross-reference types, and overview notes reached from the index as topic entry points (see the Evidence note)._
-- [A System for Writing — Bob Doto](calibre://view-book/GCcalibreBooks/1491/EPUB)—_Luhmann's keyword index was the primary way he engaged with his slip box, and its sparseness let chance take part in the search._
-- [How to Make Notes and Write — Dan Allosso and S.F. Allosso](calibre://view-book/GCcalibreBooks/708/EPUB)—_When processing a note, ask how it relates to something already stored, and send an idea you are not ready for to a "Sleeping" folder._

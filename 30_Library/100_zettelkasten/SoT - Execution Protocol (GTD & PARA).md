@@ -1,16 +1,17 @@
 ---
 aliases: [Execution Protocol, Hybrid GTD PARA]
 conformant: true
+contrasts_with: ["[[SoT - ProdOS Thinking Stream]]"]
 created: 2026-01-08T07:41:15+00:00
-last_reviewed: ''
-modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
-status: stable
 project_category: prodos
+see_also: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]", "[[Protocol - Weekly Command Centre]]", "[[Reference - File Structure]]"]
+status: stable
 tags: [gtd, para, system/protocol]
 title: SoT - Execution Protocol (GTD & PARA)
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 Purpose: To harmonize the structural organization of PARA with the execution workflow of GTD. This protocol is the single source of truth for defining work and "done."
@@ -95,7 +96,9 @@ A Project or Task is not "Done" until it meets the Exit Criteria.
 
 This SoT defines the vocabulary, project/container boundaries, and Definition of Done. The concrete execution workflows are operationalised by downstream protocols:
 
+- [[SoT - PRODOS Core Specification]]—_Kernel rules and axioms implemented by this execution protocol._ [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - Prosthetic Executive Function]]—_Design principle of externalising project and task structure._ [depends_on:: [[SoT - Prosthetic Executive Function]], confidence=high]
 - [[gtd-action-system]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Automated and manual dump clarification and triage engine._
-- [[Protocol - Weekly Command Centre]]—_The 10-minute Friday 16:30 reset protocol executing the Reflect stage._
-- [[Protocol - Vague-to-Action]]—_Decomposition protocol for heavy tasks avoiding the Clarify stage._
+- [[Protocol - Weekly Command Centre]]—_The 10-minute Friday 16:30 reset protocol executing the Reflect stage._ [supports:: [[Protocol - Weekly Command Centre]], confidence=high]
+- [[Protocol - Vague-to-Action]]—_Decomposition protocol for heavy tasks avoiding the Clarify stage._ [supports:: [[Protocol - Vague-to-Action]], confidence=high]

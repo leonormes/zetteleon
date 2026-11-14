@@ -46,6 +46,7 @@ You are an expert in epistemic bookkeeping, not epistemics itself. Your job is t
 
    PyYAML is mandatory—a bare `python3` invocation refuses to run rather than silently misresolving titles and under-reporting gaps.
 
+4. Runtime K-Plex Inspection (optional diagnostics, see `.agents/skills/kplex-obsidian-cli/SKILL.md`): query `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` (`neighbors({id, role})`, `evidence({sourceId, targetId})` for `frontmatter-overrides-body-ontology` overrides, and `inspectOntologyOccurrences({path})`) when verifying how written edges resolve on the live Idea Compass.
 ## THE PROCESS
 
 ### Phase 1: Baseline

@@ -2,13 +2,15 @@
 aliases: [Chain of Explainability, Human 3.0 Framework, Self-Capture Architecture]
 conformant: true
 created: 2025-12-24T12:12:06+00:00
-modified: 2026-10-22T15:11:10+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-the-telos-method
 project_category: prodos
+see_also: ["[[SoT - PRODOS Core Specification]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
+status: stable
 tags: [ai_integration, framework, strategy, telos]
 title: SoT - The Telos Method
 type: sot
+upstream: ["[[MOC - ProdOS]]"]
 ---
 
 > [!definition] Definition
@@ -76,4 +78,5 @@ The Telos Method is designed to be Machine Readable.
 
 - [[SoT - The Inspiration Economy (Human 3.0)]]
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-- [[SoT - PRODOS Core Specification]]
+- [[SoT - PRODOS Core Specification]] [supports:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - The Extended Mind]] [implements:: [[SoT - The Extended Mind]], confidence=medium]

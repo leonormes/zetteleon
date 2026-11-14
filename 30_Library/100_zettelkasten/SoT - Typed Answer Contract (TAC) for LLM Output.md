@@ -1,15 +1,20 @@
 ---
 aliases: [Structured Output Contract, TAC, Typed Answer Contract]
+conformant: true
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-10-22T15:11:10+00:00
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-answer-contract-tac-for-llm-output
+project_category: prodos
 see_also: ["[[MOC - AI Software Engineering]]", "[[MVC Enforcement Structural Gates for LLM Agents]]", "[[SoT - Agentic AI Design Patterns]]", "[[SoT - AI Agent Skill Architecture]]", "[[SoT - PRODOS Core Specification]]"]
+status: stable
 tags: [domain/ai, prodos/sot, topic/pkm]
 title: SoT - Typed Answer Contract (TAC) for LLM Output
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 [implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]
+[implements:: [[SoT - PRODOS Core Specification]], confidence=high]
 
 ## Minimum Viable Understanding (MVU)
 

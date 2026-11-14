@@ -39,6 +39,8 @@ Canonical rule: [[AGENTS.md]] §9.1. Call Obsidian tools through 1MCP directly b
 
 ---
 
+
+For live K-Plex runtime inspection—checking compass neighbours (`neighbors({id, role})`), `frontmatter-overrides-body-ontology` overrides (`evidence({sourceId, targetId})`), field usage (`ontologyDocuments`), or Mind Map Markdown exports (`exportMarkdown`)—query `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` (see `.agents/skills/kplex-obsidian-cli/SKILL.md`).
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every note this agent creates or edits inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint, not optional guidance.

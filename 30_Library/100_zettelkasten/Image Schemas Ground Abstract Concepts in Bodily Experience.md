@@ -2,19 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/image-schemas-ground-abstract-concepts-in-bodily-experience
 proposition: Recurring patterns of bodily experience, called image schemas, structure abstract concepts, as physical containment underlies expressions such as being in a good mood.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [abstraction, conceptual-metaphor, embodied-cognition, image-schemas, language]
+tags:
+  - abstraction
+  - conceptual-metaphor
+  - embodied-cognition
+  - image-schemas
+  - language
 title: Image Schemas Ground Abstract Concepts in Bodily Experience
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Image Schemas Ground Abstract Concepts in Bodily Experience
@@ -29,7 +34,7 @@ The source hedges the first passage ("might operate through") and attributes the
 
 > "Abstract conceptual thinking might operate through what philosophers call image schemas—recurring patterns of bodily experience that structure our understanding."
 
-Source: [[beyond words]] (line 286).
+Source: [[Beyond Words]] (line 286).
 
 ### Implications
 

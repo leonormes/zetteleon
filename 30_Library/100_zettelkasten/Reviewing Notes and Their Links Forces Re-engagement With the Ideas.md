@@ -2,19 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/reviewing-notes-and-their-links-forces-re-engagement-with-the-ideas
 proposition: Reviewing notes and the links between them forces the brain to re-engage with the ideas, which is where the real value of a PKM system lies.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [learning, notes, pkm, reengagement, review]
+tags:
+  - learning
+  - notes
+  - pkm
+  - reengagement
+  - review
 title: Reviewing Notes and Their Links Forces Re-engagement With the Ideas
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Reviewing Notes and Their Links Forces Re-engagement With the Ideas
@@ -29,7 +34,7 @@ Presented as the main source of value in a knowledge system, rather than capture
 
 > "The review of notes, and the links between them, is where the real value of a PKM system is found. The review forces the brain to re-engage with the ideas, and to re-evaluate the links between them."
 
-Source: [[beyond words]] (line 49).
+Source: [[Beyond Words]] (line 49).
 
 ### Implications
 

@@ -1,15 +1,18 @@
 ---
 aliases: [Action-First GTD, Agent GTD, Autonomous Action, Dump Don't Organize, LLM Chief of Staff, Todoist MCP Integration]
 conformant: true
+contrasts_with: ["[[SoT - ProdOS Thinking Stream]]"]
 created: 2026-02-11T11:40:00+00:00
-modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+merged_from: ["[[SoT - Cognitive Engineering Protocols]]"]
+modified: 2026-11-14T13:41:00+00:00
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
-status: stable
 project_category: prodos
+see_also: ["[[SoT - Execution Protocol (GTD & PARA)]]", "[[Protocol - Vague-to-Action]]"]
+status: stable
 tags: [gtd, llm, system/protocol, TheHuman/Health/ADHD]
 title: Protocol - Action-First GTD (LLM Chief of Staff)
 type: protocol
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## Logic Map
@@ -111,9 +114,9 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 ## Related
 
 - [[SoT - Think Like a Man of Action, Act Like a Man of Thought]]—_Philosophy of decoupling generation from organization._ [depends_on:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]], confidence=medium]
-- [[SoT - Cognitive Engineering Protocols]]—_Module A (The Brain Dump) provides the raw input mechanism._ [depends_on:: [[SoT - Cognitive Engineering Protocols]], confidence=medium]
+- [[SoT - ProdOS Thinking Stream]]—_Supplies the raw RAM-clearing Brain Dump (Neuro-Synchronization) input mechanism._ [depends_on:: [[SoT - ProdOS Thinking Stream]], confidence=high]
 - [[The Time Management Matrix (Eisenhower Matrix)]] [depends_on:: [[The Time Management Matrix (Eisenhower Matrix)]], confidence=medium]—_the triage logic behind this protocol's `!!Priority` step; that note's own Related section explains the mapping quadrant-by-quadrant._
-- [[SoT - Execution Protocol (GTD & PARA)]]—_Defines the Project, Container and Task vocabulary this protocol sorts input into, and the Definition of Done its unit test checks._
+- [[SoT - Execution Protocol (GTD & PARA)]]—_Defines the Project, Container and Task vocabulary this protocol sorts input into, and the Definition of Done its unit test checks._ [implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]
+- [[SoT - PRODOS Core Specification]]—_The ProdOS kernel whose Context is Scarcity and Starter Task rules govern execution._ [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[Writing Acts as an External Working Memory]]—_Why offloading open loops onto paper/text frees cognitive capacity._ [depends_on:: [[Writing Acts as an External Working Memory]], confidence=high]
 - [[gtd-action-system]]—_The live four-tier operational architecture and flat Todoist runway targeted by this protocol._ [implements:: [[gtd-action-system]], confidence=high]
-
-[implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]

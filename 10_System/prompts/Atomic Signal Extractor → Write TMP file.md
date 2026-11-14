@@ -31,6 +31,7 @@ Hard Constraints
 - British English.
 - No external facts, speculation, or hallucinations.
 - If the source does not support the idea, exclude it.
+- URL Pre-Stage (`defuddle` + `knap`, see `.agents/skills/defuddle-knap/SKILL.md`): If the user supplies a URL instead of pasted text, extract clean Markdown and metadata first via `defuddle parse "<url>" --md --json` (or pipe into `knap render` using `yaml_property` filters for safe YAML quoting) to populate `Title`, `Source URL`, `Author/Speaker`, and `SOURCE TEXT` without web clutter. Never fabricate text if extraction fails.
 
 ## TAC Note
 
@@ -38,6 +39,10 @@ This tmp file (`type: tmp_atoms`, `status: tmp`) is a temporary staging artefact
 
 ---
 
+
+## K-Plex Downstream Compatibility
+
+The `Kind` (`Claim`, `Concept`, `Question`, `Evidence`, etc.), `Statement`, and candidate connections you extract here feed Step 2 (`[[Atomic Linker → Promote & Connect]]`), which maps them onto the **K-Plex Idea Compass** (`claim`, `concept`, `question`, `evidence`, `procedure`) and wires them with 7-predicate inline edges (`depends_on`, `extends`, `implements`, `synthesizes`, `supports`, `contradicts`, `revises`). Downstream `link_report` notes record `source_atoms` pointing back to this staging file, which K-Plex keeps `hidden` from visual canvases automatically.
 ## Updated User Template
 
 ```md

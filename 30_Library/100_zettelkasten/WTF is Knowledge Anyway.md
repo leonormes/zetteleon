@@ -1,13 +1,13 @@
 ---
-aliases: []
+aliases: [21-wtf_is_knowledge_anyway]
 conformant: true
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-14T10:20:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/21-wtf-is-knowledge-anyway
 status: stable
 tags: [epistemology, knowledge, pkm, source]
-title: 21-wtf_is_knowledge_anyway
+title: WTF is Knowledge Anyway
 type: journal
 ---
 
@@ -32,10 +32,10 @@ Leon's opening thoughts: knowledge is "bits of information", "sequences of infor
 
 - [[Information Answers Who, What, When and Where Questions While Knowledge Answers Why and How]]
 - [[Knowledge Supports Prediction and Inference Where Information Alone Does Not]]
-- [[AI Output Contains No Insight Until a Human Reads and Interprets It]]
+- `AI Output Contains No Insight Until a Human Reads and Interprets It` *(missing from disk—unlinked to avoid a dangling reference; nearest live note: [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]])*
 - [[Knowledge Acquired by Different Routes Keeps Its Factual Content, Verifiability and Practical Application]]
 - [[Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility]]
-- [[An Effective Knowledge Representation Needs Representational Adequacy, Inferential Adequacy and Efficiency, and Acquisitional Efficiency]]
+- `An Effective Knowledge Representation Needs Representational Adequacy, Inferential Adequacy and Efficiency, and Acquisitional Efficiency` *(missing from disk—unlinked to avoid a dangling reference)*
 - [[Relationships Between Pieces of Knowledge Can Be Logical, Hierarchical, Associative, Contextual or Temporal]]
 
 ### Already Covered Elsewhere (Not Re-extracted)
@@ -43,7 +43,8 @@ Leon's opening thoughts: knowledge is "bits of information", "sequences of infor
 - Knowledge as processed, experienced information, and the DIKW step: [[Information vs Knowledge]], [[What is information]].
 - Data becoming information through context, structure, analysis and purpose: [[What is information]].
 - Why knowledge is harder to transfer than information: [[Knowledge Transmission Is Reconstruction, Not Copying]].
-- Where the vault treats meaning: [[MOC - From Information to Knowledge]].
+- Where the vault treats meaning: [[MOC - From Information to Knowledge]]—_the overarching map for this session's questions._
+[extends:: [[MOC - From Information to Knowledge]], strength=3, confidence=medium]
 
 ### Not Extracted
 

@@ -2,13 +2,15 @@
 aliases: [Cognitive Superniche, Material Symbols Thesis, Scaffolding]
 conformant: true
 created: 2025-12-23T19:53:27+00:00
-modified: 2026-11-13T17:49:16+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-material-symbols
-project_category: 
+project_category: prodos
+see_also: ["[[SoT - The Extended Mind]]", "[[SoT - HEAD Note Contract (The Workbench)]]"]
+status: stable
 tags: [extended_mind, language, logic, scaffolding, TheHuman/Cognition]
 title: SoT - Material Symbols
 type: sot
+upstream: ["[[MOC - ProdOS]]"]
 ---
 
 ## 1. Definitive Statement
@@ -63,3 +65,11 @@ Andy Clark describes language as an actively engineered layer of structure overl
 
 - Templates as Scaffolding: Structured notes provide the symbols needed to navigate complex projects without relying on internal memory.
 - Synthesis: The act of writing (`HEAD -> SoT`) is the process of objectifying thought to enable second-order correction.
+
+---
+
+## Related
+
+- [[SoT - The Extended Mind]] [extends:: [[SoT - The Extended Mind]], confidence=high]
+- [[Writing Acts as an External Working Memory]] [depends_on:: [[Writing Acts as an External Working Memory]], confidence=high]
+- [[SoT - PRODOS Core Specification]] [supports:: [[SoT - PRODOS Core Specification]], confidence=medium]

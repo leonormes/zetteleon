@@ -2,19 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-11-10T18:06:32+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/communicating-depends-on-modelling-what-the-listener-already-knows
 proposition: Effective communication depends on the implicit model a speaker holds of what the listener already knows and is likely to misunderstand.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [audience, communication, mental-models, theory-of-mind, understanding]
+tags:
+  - audience
+  - communication
+  - mental-models
+  - theory-of-mind
+  - understanding
 title: Communicating Depends on Modelling What the Listener Already Knows
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Communicating Depends on Modelling What the Listener Already Knows
@@ -29,7 +34,7 @@ Described in the source as theory of mind, present "to varying extents" in diffe
 
 > "Theory of Mind: We have, to varying extents, the ability to model the mental states of others. When communicating, we are implicitly making best guesses about what our interlocutor already knows, doesn't know, and is likely to misunderstand. This is essential for effective communication."
 
-Source: [[beyond words]] (line 191).
+Source: [[Beyond Words]] (line 191).
 
 ### Implications
 

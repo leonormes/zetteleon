@@ -38,4 +38,4 @@ One of the most famous, and most fiercely contested, thought experiments in phil
 
 ### Related
 
-- [[beyond words]]—shared mechanism: both probe whether correct linguistic manipulation implies genuine conceptual/semantic representation.
+- [[Beyond Words]]—shared mechanism: both probe whether correct linguistic manipulation implies genuine conceptual/semantic representation.

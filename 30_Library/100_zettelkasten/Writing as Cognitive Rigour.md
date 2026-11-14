@@ -1,16 +1,20 @@
 ---
+conformant: true
+contradicts: []
 created: 2026-04-14T17:43:28+00:00
-created_utc: '2026-04-14T12:20:00Z'
-kind: heuristic
-modified: 2026-10-22T15:11:13+00:00
+created_utc: "2026-04-14T12:20:00Z"
+epistemic_status: high
+evidence_links: []
+modified: 2026-11-14T13:07:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-as-cognitive-rigour
+proposition: "Writing is the primary tool for technical and formal rigour because unwritten ideas remain unexamined illusions of thought."
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs
-status: seed
+status: stable
 tags: [cognition, documentation, rigour, writing]
 title: Writing as Cognitive Rigour
-type: atom
-upstream: '[[Daily Writing is a Cognitive Practice for Structuring Thought]]'
+type: claim
+upstream: "[[SoT - The Extended Mind]]"
 ---
 
 ## Writing as Cognitive Rigour
@@ -32,9 +36,12 @@ A general principle for architecture, engineering, and formal reasoning.
 
 ### Related
 
-- [[Committing Thought to Language Reveals Actual Versus Assumed Beliefs]]—direct concept match: writing as a tool for exposing internal contradictions.
-- [[Articulating Reasoning on Paper is Like Rubber Duck Debugging for Life]]—shared mechanism: both frame writing as a diagnostic tool for thought.
-- [[Writing puts us in the powerful position of being able to observe our thinking]]—supports: enables the audit of one's own logic.
+- [[SoT - Unified Writing to Think Process]]—implements: anchors formal debugging-by-writing inside the writing-to-think process.
+[implements:: [[SoT - Unified Writing to Think Process]]]
+- [[Writing puts us in the powerful position of being able to observe our thinking]]—depends on: making thought visible in full-sentence prose exposes hidden internal contradictions.
+[depends_on:: [[Writing puts us in the powerful position of being able to observe our thinking]]]
+- [[Daily Writing is a Cognitive Practice for Structuring Thought]]—depends on: regular structured writing establishes the habit that surfaces formal inconsistencies.
+[depends_on:: [[Daily Writing is a Cognitive Practice for Structuring Thought]]]
 
 ### See Also
 

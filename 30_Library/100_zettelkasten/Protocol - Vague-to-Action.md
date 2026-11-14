@@ -1,17 +1,18 @@
 ---
 aliases: [Task Decomposition Protocol, Vague-to-Action]
 conformant: true
+contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
 created: 2026-04-04T12:00:00+00:00
-last-synthesis: 2026-04-04
-modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ""
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/protocol-vague-to-action
-status: evergreen
 project_category: prodos
+see_also: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]", "[[SoT - Protocol - The Launch Sequence]]"]
+status: evergreen
 tags: [execution, prodos, protocol, task-decomposition, task-initiation, TheHuman/Health/ADHD]
 title: Protocol - Vague-to-Action
 trigger: A captured task feels heavy or vague, or you notice you are avoiding it
 type: protocol
+upstream: ["[[MOC - ProdOS]]", "[[SoT - Execution Protocol (GTD & PARA)]]"]
 ---
 
 ## Objective

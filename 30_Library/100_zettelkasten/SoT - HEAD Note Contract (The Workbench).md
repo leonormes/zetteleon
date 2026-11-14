@@ -1,15 +1,19 @@
 ---
 aliases: [HEAD Compliance, HEAD Note Contract, Thinking Note Contract, Workbench Contract]
 conformant: true
+contrasts_with: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]"]
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-10-22T15:11:11+00:00
+merged_from: ["[[SoT - Evolutionary Note System]]"]
+modified: 2026-11-14T13:41:00+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
+project_category: prodos
 see_also: ["[[Prompt - ProdOS Chronos Synthesizer]]", "[[Reference - File Structure]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - ProdOS Thinking Stream]]"]
 status: stable
-project_category: prodos
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/workbench]
+tension: ["[[My Main PKM Problem Is the Continuity of Thinking]]", "[[I am enslaved to the work of zetteling]]"]
 title: SoT - HEAD Note Contract (The Workbench)
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 > Canonical status: this note is the authoritative spec for what may live in `20_Thinking/21_Workbench/`. It is the workbench counterpart to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema) and [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edges). Where this note and a prompt disagree, this note wins. `AGENTS.md` §0 and [[Reference - File Structure]] §D link here.
@@ -156,6 +160,15 @@ Decided 2026-07-27, after an audit found about 24 atomic notes citing four merge
 - Who: Leon, or the Workbench Sweep once he approves its routing table. [[Prompt - ProdOS Chronos Synthesizer]] only lists the proposed tombstone, per AGENTS §6.1.
 - This does not relax supersession: the answer still goes into the living SoT. It only stops the old title becoming an orphaned reference.
 
+### 3.2 Future Automation Candidates (NeuroStack)
+
+Conserved from the superseded [[SoT - Evolutionary Note System]]; these remain design candidates rather than live rules:
+
+- Stale-note detection: a note surfacing in search where it does not belong is treated as a prediction error and a signal to reconsolidate or deprecate it.
+- Excitability decay: recently active notes rank higher in retrieval while unused ones fade via exponential decay.
+- Tiered retrieval: retrieve triples first, then summaries, then full content, to conserve context tokens.
+- Session briefs: automatically rebuild active mental context after interruptions.
+
 ## 4. Tensions Live in the Queue, Pointers Live in the Canon
 
 A canonical note (`SoT`, `Claim`, `MoC`, project) MUST NOT carry a `## Tensions & Gaps`, `## Open Questions`, or equivalent prose section. Those sections are where open problems go to be forgotten—the reader of an SoT is looking for the answer and skims past the caveats.
@@ -190,4 +203,8 @@ A question has an exit by construction. That is the whole design.
 
 ## Related
 
+- [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - Processing IS the Work]] [implements:: [[SoT - Processing IS the Work]], confidence=high]
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
+- [[Protocol - Workbench Compliance Sweep]] [supports:: [[Protocol - Workbench Compliance Sweep]], confidence=high]
 - [[Stage 3 Understand (The Writing to Learn Layer)]]—_Its key question "What new questions does this note raise?" is a natural source of HEAD notes: any answer that needs your judgement belongs in the workbench._

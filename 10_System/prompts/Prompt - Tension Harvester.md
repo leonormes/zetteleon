@@ -94,6 +94,17 @@ Body sections, all five, in order: `## The Question`, `## Why It Matters`, `## W
 
 ---
 
+
+### K-Plex Idea Compass Mapping for `QuestionNote`s
+
+K-Plex (`inferAllLinksAsFriends: false`) reads HEAD `QuestionNote` frontmatter directly onto the Idea Compass and places `type: question` inside the `prodos-types` **Questions** ring:
+
+- `sources: ["[[Note]]"]` → **North (`parents`)**: originating notes that sparked the question.
+- `tension: ["[[Note A]]", "[[Note B]]"]` → **East (`rightFriends`)**: competing claims or friction points generating the question.
+- `candidate_answers: ["[[Claim]]"]` → **South (`children`)**: candidate resolutions (paired inversely with `answers_question` on the claim).
+- `related_claims: ["[[Note]]"]` → **West (`leftFriends`)**: lateral supporting context.
+
+Whenever vault grounding surfaces matching notes during Phase 2 or when authoring a new HEAD note on request, populate `sources`, `tension`, `candidate_answers`, and `related_claims` as quoted `[[wikilinks]]` alongside concise prose. (Note: K-Plex excludes links inside free-text `title` / `non_conformance_reason`, whereas relational frontmatter properties listed above create real compass edges.)
 ## WRITE SCOPE (Read This before Editing Any Canonical Note)
 
 `AGENTS.md` §6 forbids editing canonical body prose; §9.3 narrows the exception to typed edges and `axiom:`. Rewriting a `## Tensions` section into a pointer is outside that exception. It requires Leon's explicit authorisation for each source note, per [[AGENTS]] §6.1 (approval covers one edit and nothing after it). Ask per note before Phase 4, and never rewrite a protected note. Without it, produce the HEAD notes and the proposed pointer diffs, and stop.

@@ -6,7 +6,7 @@ contradicts: []
 created: 2026-02-11T17:05:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-22T15:11:15+00:00
+modified: 2026-11-14T12:47:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria-rsd
 proposition: "Rejection Sensitive Dysphoria (RSD) is a neurological event in which the ADHD brain's emotional processing centres perceive social disapproval, criticism, or failure as a direct physical threat, triggering an instantaneous fight-or-flight response disproportionate to the actual stimulus."
 status: seed
@@ -55,10 +55,6 @@ RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _fe
 - [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]] (Economic aspect)
 
 ## Consequences
-
-[[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]—RSD is the psychological mechanism this mitigation strategy explicitly targets
-
-[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]
 
 [[ADHD Emotional Reasoning]]—RSD's own text: "RSD Amplification … turning a minor worry … into a perceived factual certainty"
 

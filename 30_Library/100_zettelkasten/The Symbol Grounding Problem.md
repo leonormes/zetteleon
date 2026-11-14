@@ -1,19 +1,18 @@
 ---
 conformant: true
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
-definition: The symbol grounding problem is the difficulty that words are arbitrary
-  symbols whose meaning depends on a relationship to experience.
+created_utc: 2026-09-21T08:54:40+00:00
+definition: The symbol grounding problem is the difficulty that words are arbitrary symbols whose meaning depends on a relationship to experience.
 distinguishes_from: []
-modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T10:36:10+00:00
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/the-symbol-grounding-problem
 source_title: beyond words (vault note)
 source_url: UNKNOWN
 tags: [experience, language, meaning, semantics, symbol-grounding]
 title: The Symbol Grounding Problem
 type: concept
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 used_in_claims: []
 ---
 
@@ -29,7 +28,7 @@ The source illustrates it with the word "red", which means nothing without the e
 
 > "the symbol-grounding problem highlights how words derive meaning from their relationship to experience. The word "red" means nothing without the experience of seeing red, creating a circular challenge for pure language-based understanding."
 
-Source: [[beyond words]] (line 300).
+Source: [[Beyond Words]] (line 300).
 
 ### Implications
 

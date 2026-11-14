@@ -76,6 +76,8 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py --why "<title>"
 
 `--path` takes a folder, and a single-file path scans 0 notes, so validate with no arguments. `--why`/`--impact` only find notes that are nodes in the argument graph; "no node found" is a valid answer for a note with only structural edges.
 
+
+For live K-Plex runtime inspection—checking resolved compass neighbours (`neighbors({id, role})`), `frontmatter-overrides-body-ontology` collisions (`evidence({sourceId, targetId})`), field postings (`ontologyDocuments`), or saved occurrences (`inspectOntologyOccurrences({path})`)—query `window.kplexApi.v1` via `obsidian vault="LLMeon" eval` (see `.agents/skills/kplex-obsidian-cli/SKILL.md`).
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
 Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every write must leave these fields correct:

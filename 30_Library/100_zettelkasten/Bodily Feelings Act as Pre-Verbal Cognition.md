@@ -2,20 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: low
 evidence_links: []
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/bodily-feelings-act-as-pre-verbal-cognition
-proposition: Bodily feelings work as a primary form of cognition that guides decisions
-  before conscious verbal reasoning occurs.
+proposition: Bodily feelings work as a primary form of cognition that guides decisions before conscious verbal reasoning occurs.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [cognition, decision-making, emotion, pre-linguistic, somatic-markers]
+tags:
+  - cognition
+  - decision-making
+  - emotion
+  - pre-linguistic
+  - somatic-markers
 title: Bodily Feelings Act as Pre-Verbal Cognition
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Bodily Feelings Act as Pre-Verbal Cognition
@@ -30,7 +34,7 @@ The source attributes this to Antonio Damasio's research on somatic markers; the
 
 > "Antonio Damasio's research on somatic markers suggests that bodily feelings serve as a primary form of cognition, guiding decisions before conscious verbal reasoning occurs."
 
-Source: [[beyond words]] (line 284).
+Source: [[Beyond Words]] (line 284).
 
 ### Implications
 

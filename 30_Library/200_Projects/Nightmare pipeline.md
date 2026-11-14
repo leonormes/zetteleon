@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:52+00:00
 last_reviewed: ''
-modified: 2026-10-22T15:11:09+00:00
+modified: 2026-11-14T12:23:01+00:00
 permalink: llmeon/30-library/200-projects/nightmare-pipeline
 project_category: development
 project_name: SDLC
@@ -52,4 +52,3 @@ The final paragraph about code quality being "lovely, easy and delightful" contr
 
 - [[SOT - CI-CD Pipelines]] _This SoT defines the architecture and stages of a ruthlessly robust CI/CD pipeline, the very gauntlet the note demands._
 - [[SoT - Test-Driven Development]] _TDD is the primary mechanism by which code is 'smashed, bent, and burned' before it reaches production._
-- [[Integrate Security into the Workflow (Shift Left)]] _Embedding security early ensures the pipeline is treacherous not just for functional bugs but for vulnerabilities too._

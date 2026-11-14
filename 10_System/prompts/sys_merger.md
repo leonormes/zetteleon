@@ -65,3 +65,9 @@ tags: [prodos, sot]
 conformant: true     # or false, with non_conformance_reason
 ---
 ```
+
+### K-Plex Lineage & Synthesis Wiring
+
+1. **Sequence Lineage (Frontmatter):** On the surviving merged note, record lineage via `supersedes: ["[[Deprecated Source A]]"]` or `merged_from: ["[[Deprecated Source A]]"]` (which K-Plex maps onto the **Sequence (`previous` / `next`)** axis). When deprecated source notes are kept as stubs rather than deleted, propose setting `status: stale` (or `superseded`) and `superseded_by: ["[[Surviving Target Note]]"]` on them.
+2. **Typed Synthesis Edges (`inferAllLinksAsFriends: false`):** Plain `[[wikilinks]]` inside the merged note remain invisible in K-Plex. Pair surviving component claims, prerequisites, and governing specs with explicit 7-predicate inline edges—`[synthesizes:: [[Component Claim]]]` (under the relevant `##` heading so K-Plex section expansion attaches per section), `[depends_on:: [[Prerequisite]]]` / `[implements:: [[Governing SoT]]]` (North), or `[supports:: [[Corroborating Note]]]` (West).
+3. **Precedence Check:** Under `frontmatter-overrides-body-ontology`, never duplicate a body inline typed-edge target in frontmatter `see_also`. Run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` when typed edges are written.

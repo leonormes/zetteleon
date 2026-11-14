@@ -2,7 +2,7 @@
 conformant: true
 contradicts: []
 created: 2026-09-01T16:19:00+00:00
-created_utc: '2026-09-01T16:18:54.888265+00:00'
+created_utc: 2026-09-01T16:18:54.888265+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:13+00:00
@@ -11,10 +11,13 @@ proposition: Storage setups must be fundamentally adaptable and modular to handl
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q
 status: seed
-tags: [adaptability, modularity, resilience, systems]
+tags:
+  - adaptability
+  - modularity
+  - resilience
+  - systems
 title: Workspace Storage Must Be Modular and Adaptable
 type: claim
-upstream: '[[tmp_atoms_mujin_7_rules]]'
 ---
 
 ## Workspace Storage Must Be Modular and Adaptable

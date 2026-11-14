@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2025-10-31T12:56:00+00:00
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-14T12:47:16+00:00
 non_conformance_reason: "Title is not in How to do X format and renaming would break nine inbound links"
 permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism
 steps: [Ask what part you can control, Assume the intent is to give you data to improve, Notice the defensive reaction and name it as a reaction to criticism, Pick out the specific behaviour or output that can be changed and discard vague judgements, Strip away the tone and delivery to find the factual claim underneath]
@@ -38,4 +38,3 @@ Transform your perception of criticism by consciously shifting the frame from a 
 - [[Common Cognitive Distortions]] - _Mind reading, assuming the critic's intent, is the distortion that the "assume useful intent" step replaces with a deliberate choice._
 - [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]] - _Explains why criticism can feel like a verdict on the self, which the message-versus-delivery split is meant to undo._
 - [[Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling]] - _The same problem from the giver's side: phrasing a critique so it does not read as an attack._
-- [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]] - _An environmental alternative: real-time feedback in a normal social setting softens the sting without needing the reframe._

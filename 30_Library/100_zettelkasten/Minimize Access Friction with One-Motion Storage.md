@@ -2,7 +2,7 @@
 conformant: true
 contradicts: []
 created: 2026-09-01T16:18:57+00:00
-created_utc: '2026-09-01T16:18:54.888265+00:00'
+created_utc: 2026-09-01T16:18:54.888265+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:15+00:00
@@ -11,10 +11,13 @@ proposition: Frequently used supplies should be accessible in a single physical 
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q
 status: seed
-tags: [accessibility, flow, friction, workspace]
+tags:
+  - accessibility
+  - flow
+  - friction
+  - workspace
 title: Minimize Access Friction with One-Motion Storage
 type: claim
-upstream: '[[tmp_atoms_mujin_7_rules]]'
 ---
 
 ## Minimize Access Friction with One-Motion Storage

@@ -1,5 +1,6 @@
 ---
-aliases: [ADHD Paralysis]
+aliases:
+  - ADHD Paralysis
 conformant: true
 contradicts: []
 created: 2025-10-29T16:38:00+00:00
@@ -7,9 +8,11 @@ epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-paralysis-is-the-inability-to-start-a-task-until-it-becomes-an-emergency
-proposition: "ADHD Paralysis is a cognitive freeze response in which an individual cannot initiate a task because the brain's reward system is insufficiently stimulated by it, breaking only once the task becomes an acute emergency that provides enough dopamine to trigger action."
-source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
-tags: [executive_function, task_initiation, TheHuman/Health/ADHD]
+proposition: ADHD Paralysis is a cognitive freeze response in which an individual cannot initiate a task because the brain's reward system is insufficiently stimulated by it, breaking only once the task becomes an acute emergency that provides enough dopamine to trigger action.
+tags:
+  - executive_function
+  - task_initiation
+  - TheHuman/Health/ADHD
 title: ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency
 type: claim
 ---

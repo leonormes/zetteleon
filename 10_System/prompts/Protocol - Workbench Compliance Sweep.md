@@ -43,6 +43,8 @@ Every note you leave in the workbench must carry `title`, `type: question`, `tag
 
 ---
 
+
+Note on K-Plex wiring: backfilling `type: question`, `status`, `sources`, `tension`, `candidate_answers`, and `related_claims` directly positions the HEAD note in K-Plex's `prodos-types` (`Questions` ring) and on the **Idea Compass** (`sources` → North/`parents`, `tension` → East/`rightFriends`, `candidate_answers` → South/`children`, `related_claims` → West/`leftFriends`) without altering protected body prose (`AGENTS.md` §6.1).
 ## THE PROCESS
 
 ### Phase 1: Inventory
@@ -73,7 +75,7 @@ For each surviving note, decide whether its question is still open.
 
 - Question answered in the note's own body, or superseded by an SoT → propose Chronos synthesis: name the target SoT and hand off to [[Prompt - ProdOS Chronos Synthesizer]]. Do not synthesise here.
 - A note whose HEAD question has been folded into an SoT by Chronos (`status: resolved`) → add it to the routing table as a move to `99_Archive/`, for Leon's approval. Chronos does not archive HEAD notes; this step does.
-- `status: open` and `modified` older than 90 days → report as STALE. Do not move it. Ask one question: _is this still live?_ Staleness is information about the question, not a defect to clean up.
+- `status: open` and `modified` older than 90 days → report as STALE (matches the `days_stale` / `stale_flag` formula in `02_bases/Thinking.base`). Do not move it. Ask one question: _is this still live?_ Staleness is information about the question, not a defect to clean up.
 
 ### Phase 4: Test 4—actionability
 

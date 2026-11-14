@@ -5,8 +5,7 @@ contradicts: []
 created: 2025-10-31T20:46:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-13T11:23:30+00:00
-non_conformance_reason: ""
+modified: 2026-11-14T13:06:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-isolates-propositional-content-from-phenomenological-experience
 proposition: "Externalising a thought in writing strips away its felt emotional resonance and associative context, leaving only its bare propositional content for examination."
 see_also: ["[[MOC - Why Thoughts Feel More Important When Thinking Them]]"]
@@ -39,9 +38,8 @@ This claim is derived from phenomenological observation and synthesis across the
 - [[Language Discretises Continuous Experience]]—_linguistic mechanism: mapping continuous felt experience onto finite words inevitably drops affective nuance._
 - [[Writing Creates Cognitive Distance for Objective Evaluation]]—_downstream effect: isolating bare propositions is what creates psychological distance for objective scrutiny._
 - [[Felt Significance of Thoughts Can Mislead About Their Substance]]—_diagnostic consequence: explains why thoughts that feel profound internally can look ordinary once written._
-- [[The Disappointment of Written Thoughts]]—_affective cost: names the characteristic letdown when felt profundity vanishes on the page._
-- [[Externalising Tacit Knowledge Illusion of Profundity]]—_parallel framing: describes the same loss of private scaffolding through the Illusion of Explanatory Depth._
-- [[Committing Thought to Language Reveals Actual Versus Assumed Beliefs]]—_logical audit: once stripped of felt conviction, the remaining propositions expose contradictions between assumed and actual beliefs._
+- [[The Disappointment of Written Thoughts]]—_affective cost: names the characteristic letdown when felt profundity vanishes on the page (also via lost tacit scaffolding)._
+- [[Writing puts us in the powerful position of being able to observe our thinking]]—_logical audit: once stripped of felt conviction, the remaining propositions expose contradictions between assumed and actual beliefs._
 
 [depends_on:: [[Thoughts are bundled with phenomenological qualities]], strength=5, confidence=high]
 

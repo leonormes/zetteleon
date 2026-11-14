@@ -1,13 +1,17 @@
 ---
-aliases: [Context Compression, Context Engineering, High-Signal Prompting, Information Density, Prompt Optimization]
+aliases: [Context Compression, Context Engineering, High-Signal Prompting, Information Density, Prompt Optimization, RPI Workflow, SoT - The RPI Workflow (Context Engineering)]
 conformant: true
+contrasts_with: ["[[SoT - Context Rot]]"]
 created: 2026-01-30T11:00:00+00:00
-modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-context-engineering
+project_category: prodos
+see_also: ["[[SoT - Research-to-Action Protocol]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
+status: stable
 tags: [ai-engineering, context-management, discipline, prompt-engineering]
 title: SoT - Context Engineering
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 > Open threads: [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]
@@ -50,4 +54,9 @@ Prompts should resemble a Domain Manifesto. State the "Laws of the Universe" (e.
 
 ---
 
-See Also: [[SoT - Context Rot]], [[SoT - Macro-Micro Unification]], [[SoT - Structural Intelligence]]
+## Related
+
+- See Also: [[SoT - Context Rot]], [[SoT - Macro-Micro Unification]], [[SoT - Structural Intelligence]]
+- [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [supports:: [[SoT - Research-to-Action Protocol]], confidence=medium]
+- [supports:: [[Protocol - Typed Answer Contract (TAC) for Vault Agents]], confidence=medium]

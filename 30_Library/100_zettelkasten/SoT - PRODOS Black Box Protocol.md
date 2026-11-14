@@ -1,14 +1,17 @@
 ---
 aliases: [Black Box Thinking, Error Engine, Marginal Gains]
 conformant: true
+contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
 created: 2026-01-11T21:20:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-black-box-protocol
 project_category: prodos
+see_also: ["[[SoT - Protocol - The Launch Sequence]]", "[[Protocol - Vague-to-Action]]"]
+status: stable
 tags: [adhd-tools, improvement-logic, prodos, system-architecture]
 title: SoT - PRODOS Black Box Protocol
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## 1. The Core Philosophy
@@ -62,3 +65,11 @@ To bypass the "Seniority Trap" or ego-driven denial, treat `HEAD` notes as trans
 Distinguish between Complexity Errors (unpredictable) and Protocol Errors (ignoring the checklist).
 
 - Action: If it's a Protocol Error, the MVA is to simplify the checklist until "Activation Energy ≈ 0."
+
+---
+
+## Related
+
+- [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - Prosthetic Executive Function]] [implements:: [[SoT - Prosthetic Executive Function]], confidence=high]
+- [[SoT - Protocol - The Launch Sequence]] [supports:: [[SoT - Protocol - The Launch Sequence]], confidence=medium]

@@ -2,7 +2,34 @@ filters:
   and:
     - file.inFolder("20_Thinking")
     - file.ext == "md"
+formulas:
+  days_stale: '(now() - file.mtime).days.round(0)'
+  stale_flag: 'if((now() - file.mtime).days > 90 && status == "open", "⚠️ >90d Stale", "✅ Active")'
+properties:
+  note.AoL:
+    displayName: "Area"
+  note.closing_condition:
+    displayName: "Has Exit?"
+  formula.days_stale:
+    displayName: "Days Since Touch"
+  formula.stale_flag:
+    displayName: "Health"
 views:
+  - type: kanban
+    name: Workbench Board
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - open
+      - thinking
+      - resolved
+    order:
+      - file.name
+      - AoL
+      - tension
+      - closing_condition
+      - formula.days_stale
   - type: table
     name: Think about this
     filters:
@@ -12,10 +39,14 @@ views:
       - file.name
       - tension
       - AoL
+      - formula.days_stale
+      - formula.stale_flag
       - file.mtime
     sort:
       - property: file.mtime
         direction: ASC
+    summaries:
+      formula.days_stale: Average
     columnSize:
       file.name: 667
       file.mtime: 130

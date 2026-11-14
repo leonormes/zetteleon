@@ -1,12 +1,18 @@
 ---
-conformant: false
+conformant: true
+contradicts: []
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: high
+evidence_links: []
+modified: 2026-11-14T13:07:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-in-own-words-distinguishes-comprehension-from-the-illusion-of-knowledge
+proposition: "Translating a concept into ones own words forces engagement with causal structure and distinguishes genuine comprehension from the illusion of knowledge."
+status: stable
 tags: [comprehension, learning, pkm, writing]
+tension: ["[[The Disappointment of Written Thoughts]]"]
 title: Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge
 type: claim
+upstream: ["[[SoT - Unified Writing to Think Process]]", "[[Stage 3 Understand (The Writing to Learn Layer)]]"]
 ---
 
 ## Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge
@@ -28,10 +34,14 @@ Applies when taking ownership of any external idea or complex body of informatio
 
 ### Related
 
-- [[Elaboration Through Own Words Deepens Understanding]]—direct concept match: both identify own-words translation as the mechanism for distinguishing genuine from superficial understanding.
-- [[SoT - Illusion of Explanatory Depth (IoED)]]—direct concept match: the "illusion of knowledge" this atom describes is precisely IoED—conflating familiarity (recognition) with comprehension (causal knowledge).
-- [[Passive Study Habits Foster the Illusion of Fluency]]—shared mechanism: passive engagement creates false comprehension signals; this atom provides the corrective procedure.
-- [[Writing puts us in the powerful position of being able to observe our thinking]]—shared mechanism: both frame writing as a verification and observation tool rather than merely a communication act.
+- [[Elaboration Through Own Words Deepens Understanding]]—extends: pairs the comprehension-diagnostic framing with the broader schema-building role of paraphrasing.
+[extends:: [[Elaboration Through Own Words Deepens Understanding]]]
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—implements: identifies the illusion of knowledge as IoED conflating recognition familiarity with causal comprehension.
+[implements:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
+- [[Passive Study Habits Foster the Illusion of Fluency]]—depends on: contrasts false comprehension signals from passive study with own-words reconstruction.
+[depends_on:: [[Passive Study Habits Foster the Illusion of Fluency]]]
+- [[Writing puts us in the powerful position of being able to observe our thinking]]—depends on: externalising thoughts in full-sentence prose makes comprehension gaps observable.
+[depends_on:: [[Writing puts us in the powerful position of being able to observe our thinking]]]
 
 ### Tensions
 

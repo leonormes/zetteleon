@@ -2,7 +2,7 @@
 conformant: true
 contradicts: []
 created: 2026-09-01T16:18:59+00:00
-created_utc: '2026-09-01T16:18:54.888265+00:00'
+created_utc: 2026-09-01T16:18:54.888265+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:15+00:00
@@ -11,10 +11,13 @@ proposition: Flat surfaces are sacred zones meant exclusively for active work an
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q
 status: seed
-tags: [friction, organization, task-initiation, workspace]
+tags:
+  - friction
+  - organization
+  - task-initiation
+  - workspace
 title: Preserve Flat Surfaces for Active Work Only
 type: claim
-upstream: '[[tmp_atoms_mujin_7_rules]]'
 ---
 
 ## Preserve Flat Surfaces for Active Work Only

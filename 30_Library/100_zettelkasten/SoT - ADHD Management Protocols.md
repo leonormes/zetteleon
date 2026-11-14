@@ -2,7 +2,7 @@
 aliases: [ADHD Protocols, ADHD Scaffolding Protocols]
 conformant: true
 created: 2026-01-03T10:10:29+00:00
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-14T12:49:21+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
 prodos.kind: protocol
 prodos.lifecycle: active
@@ -27,8 +27,6 @@ _Rests on: task-initiation difficulty being neurological rather than moral, and 
 ## 2. Environmental Design: Systematized Calm
 
 The core principle: "Make good choices easy and bad choices hard."
-
-[implements:: [[Reducing friction is a key strategy for building ADHD-friendly habits]], strength=5, confidence=high] [depends_on:: [[Habits are Automatic Behaviors Triggered by Environmental Cues]], confidence=high] [depends_on:: [[Making a behavior easy increases the likelihood it will become a habit]], confidence=high] [supports:: [[ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions]], confidence=medium]
 
 ### 2.1 Spatial Zoning
 
@@ -140,8 +138,6 @@ _Step 1 exists specifically to break the compulsive re-planning loop named in th
 - Pair Programming: Provides instant feedback and shared cognition, bypassing RSD spirals.
 - Reframing: Code reviews are a critique of the _artifact_, not the _architect_.
 
-[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=5, confidence=high] [implements:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]], confidence=high]
-
 ---
 
 ## 7. Resilience & Tenacity Protocols
@@ -184,8 +180,8 @@ Internal willpower is a finite resource. Supplement it with external structures:
 
 ### Documented Model Boundaries
 
-- **Monotony vs. Novelty:** §7.2 tests deliberate boredom tolerance inside focus sprints, contrasting with [[ADHD Systems Fail When They Become Monotonous]] across macro system lifecycles.
-- **Dopamine Menu Timing:** Post-work rewards are bounded by predictive cue migration ([[The Dopaminergic Mirage — Anticipation Migrates to the Earliest Predictive Cue]]).
+- Monotony vs. Novelty: §7.2 tests deliberate boredom tolerance inside focus sprints, contrasting with [[ADHD Systems Fail When They Become Monotonous]] across macro system lifecycles.
+- Dopamine Menu Timing: Post-work rewards are bounded by predictive cue migration ([[The Dopaminergic Mirage — Anticipation Migrates to the Earliest Predictive Cue]]).
 
 ## Derived Protocols
 

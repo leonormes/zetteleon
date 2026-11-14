@@ -1,15 +1,17 @@
 ---
 aliases: [A-C-T Framework, Action-Container-Thought, Kinetic Valve, The Cognitive Loop]
 conformant: true
+contrasts_with: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 created: 2026-04-04T12:30:00+00:00
-last-synthesis: 2026-04-04
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 project_category: prodos
+see_also: ["[[SoT - Unified Writing to Think Process]]", "[[Protocol - Vague-to-Action]]"]
+status: stable
 tags: [cognitive-loop, framework, prodos, protocol, TheHuman/Health/ADHD]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## 1. Minimum Viable Understanding (MVU)
@@ -63,7 +65,7 @@ For ADHD brains, the "Research Rabbit Hole" and "Information Hoarding" provide i
 
 - [[MOC - ProdOS]]
 - [[SoT - Illusion of Explanatory Depth (IoED)|The Collector's Fallacy]] (The problem A-C-T solves)
-- [[SoT - PRODOS Core Specification]] (The underlying engine)
-- [[SoT - Prosthetic Executive Function]] (The theory of externalized EF)
-- [[Protocol - Vague-to-Action]] (How to execute Phase A)
-- [[Knowledge Emerges Through Application and Experience]] (Why the Action phase works: application produces the experiential information that theory cannot)
+- [[SoT - PRODOS Core Specification]] (The underlying engine) [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - Prosthetic Executive Function]] (The theory of externalized EF) [implements:: [[SoT - Prosthetic Executive Function]], confidence=high]
+- [[Protocol - Vague-to-Action]] (How to execute Phase A) [supports:: [[Protocol - Vague-to-Action]], confidence=high]
+- [[Knowledge Emerges Through Application and Experience]] (Why the Action phase works: application produces the experiential information that theory cannot) [depends_on:: [[Knowledge Emerges Through Application and Experience]], confidence=high]

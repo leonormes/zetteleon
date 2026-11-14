@@ -29,6 +29,17 @@ My Obsidian vault uses a Binary Architecture:
 - Git-Model: HEAD (current view), STAGING (raw capture), THREAD (history).
 - Resonance Scoring: A metric to counter recency bias by rating genuine insight quality over time.
 
+### K-Plex Knowledge Architecture & Idea Compass
+
+- Visual Knowledge Compiler: **K-Plex** (`.obsidian/plugins/k-plex/`) renders the graph with `inferAllLinksAsFriends: false` and `showInferredNodes: false`—plain `[[wikilinks]]` remain hidden unless typed via `[<relationship>:: [[Target]]]` or mapped relational frontmatter.
+- Idea Compass Axes:
+  - **North (`parents` — Origin/Governance):** `depends_on`, `extends`, `implements`, `upstream`, `source`, `uses_concept`
+  - **South (`children` — Synthesis/Generative):** `synthesizes`, `entry_points`, `candidate_answers`
+  - **West (`leftFriends` — Support):** `supports`, `supports_claims`, `evidence_links`, `see_also`
+  - **East (`rightFriends` — Challenge):** `contradicts`, `distinguishes_from`, `contrasts_with`, `tension`
+  - **Sequence (`previous` / `next` — Lineage):** `revises`, `supersedes`, `superseded_by`, `merged_from`
+- Facets & Precedence: Preset views organise neighbourhoods by `type` (`prodos-types`) and lifecycle `status` (`prodos-status`). Under `frontmatter-overrides-body-ontology`, frontmatter takes precedence over body edges—never duplicate an inline typed-edge target in `see_also`.
+
 ### Goal
 
 To prevent "Digital Hoarding." All knowledge must eventually serve an output or an action.

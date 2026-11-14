@@ -5,10 +5,16 @@ date: 2026-06-19
 modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/ftfl-512-cicd-incident-report
 project_name: Pipeline
-related_tickets: [FTFL-999]
+related_tickets:
+  - FTFL-999
 sources: Two independent read-only investigations (live-cluster probe + LTM/SoT synthesis), reconciled
 status: stable
-tags: [1, 1/, 2, 3, 4, 5, 6/]
+tags:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 ticket: FTFL-512
 title: FTFL-512_CICD_Incident_Report
 ---

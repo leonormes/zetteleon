@@ -2,21 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/redundancy-across-channels-corrects-communication-errors
-proposition: Communication carries meaning through several channels at once, so a
-  receiver can reconstruct the intended meaning when part of the signal is missed
-  or misread.
+proposition: Communication carries meaning through several channels at once, so a receiver can reconstruct the intended meaning when part of the signal is missed or misread.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [channels, communication, error-correction, multimodal, redundancy]
+tags:
+  - channels
+  - communication
+  - error-correction
+  - multimodal
+  - redundancy
 title: Redundancy Across Channels Corrects Communication Errors
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Redundancy Across Channels Corrects Communication Errors
@@ -31,7 +34,7 @@ Channels named in the source are words, tone, facial expressions, gestures and c
 
 > "Redundancy and multimodal communication provide error correction. Human communication rarely relies on a single channel. We simultaneously use words, tone, facial expressions, gestures, and contextual cues to convey meaning."
 
-Source: [[beyond words]] (line 330).
+Source: [[Beyond Words]] (line 330).
 
 ### Implications
 

@@ -2,21 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-21T08:54:40+00:00
-created_utc: '2026-09-21T08:54:40+00:00'
+created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/00-inbox/knowledge-transmission-is-reconstruction-not-copying
-proposition: Transmitting knowledge through language means the receiver reconstructs
-  meaning against a background of shared experience, rather than copying information
-  from one mind to another.
+proposition: Transmitting knowledge through language means the receiver reconstructs meaning against a background of shared experience, rather than copying information from one mind to another.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-tags: [communication, epistemology, knowledge-transfer, reconstruction, understanding]
+tags:
+  - communication
+  - epistemology
+  - knowledge-transfer
+  - reconstruction
+  - understanding
 title: Knowledge Transmission Is Reconstruction, Not Copying
 type: claim
-upstream: '[[beyond words]]'
+upstream: "[[Beyond Words]]"
 ---
 
 ## Knowledge Transmission Is Reconstruction, Not Copying
@@ -31,7 +34,7 @@ Applies wherever knowledge passes through linguistic symbols; the source contras
 
 > "knowledge transmission is not merely copying information from one mind to another but reconstructing meaning through active engagement with linguistic symbols against a background of shared experience and assumptions."
 
-Source: [[beyond words]] (line 350).
+Source: [[Beyond Words]] (line 350).
 
 ### Implications
 

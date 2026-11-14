@@ -60,6 +60,12 @@ When invoked on a batch of family notes or the entire domain, execute the follow
 
 ---
 
+
+### 4. K-Plex Graph & Status Wiring
+
+- Because K-Plex runs with `inferAllLinksAsFriends: false`, plain `[[wikilinks]]` on family MOCs, SoTs, and Protocols are invisible unless wired into K-Plex's ontology.
+- Ensure every triaged note sets valid lowercase `type` (`sot`, `protocol`, `map`, `project`, `claim`, `concept`) and `status` (`seed`, `draft`, `stable`, `evergreen`, `stale`) for K-Plex's `prodos-types` and `prodos-status` Facets presets.
+- On `[[MOC - Relational Dynamics & Family (Triage)]]` and domain SoTs, wire core notes via frontmatter `entry_points` and body `[synthesizes:: [[Component Note]]]` under the matching `##` section heading; on Protocols, add `[implements:: [[SoT - Governing Note]]]` or `[depends_on:: [[Prerequisite]]]` (North). On superseded notes set `status: superseded` and `superseded_by` (and `supersedes` on the survivor for K-Plex Sequence lineage); never duplicate inline typed-edge targets in `see_also` (`frontmatter-overrides-body-ontology`).
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every note created or edited by this prompt inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint.

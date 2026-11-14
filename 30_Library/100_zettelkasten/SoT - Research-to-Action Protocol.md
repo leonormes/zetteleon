@@ -1,14 +1,17 @@
 ---
 aliases: [Instruction SoT - Research-to-Action Protocol, Research Transducer]
 conformant: true
+contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
 created: 2026-01-12T16:15:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-research-to-action-protocol
 project_category: prodos
+see_also: ["[[SoT - Context Engineering]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
+status: stable
 tags: [adhd-tools, prodos, protocol, research]
 title: SoT - Research-to-Action Protocol
 type: sot
+upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
 ## Instruction SoT - Research-to-Action Protocol
@@ -45,8 +48,8 @@ If the Hurry Timer fires first:
 - [[MOC - ADHD Experiments & Protocols]]
 - [[MOC - ADHD (The Master Map)]]
 - [[MOC - ADHD Project Continuation Challenge]]
-- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
+- [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]] [implements:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]], confidence=high]
 - [[Time-Boxing Research Prevents Productive Procrastination]]—_The atomic technique at the core of the Hangar Phase: one specific question, a fixed timer, then act._
-- [[Knowledge Emerges Through Application and Experience]]—_The premise behind the hard start: understanding comes from applying, so try the work before reading more about it._
-
-[depends_on:: [[Knowledge Emerges Through Application and Experience]], confidence=medium]
+- [[Knowledge Emerges Through Application and Experience]]—_The premise behind the hard start: understanding comes from applying, so try the work before reading more about it._ [depends_on:: [[Knowledge Emerges Through Application and Experience]], confidence=medium]
+- [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]—_Scope guardrail against research becoming a substitute for physical execution._ [depends_on:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], confidence=medium]
