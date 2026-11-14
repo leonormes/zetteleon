@@ -3,16 +3,16 @@ aliases: [Unified Writing Process, Writing to Learn, Writing to Think, SoT - The
 conformant: true
 contrasts_with: ["[[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]]"]
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-11-14T13:08:00+00:00
+modified: 2026-11-14T14:00:00+00:00
 permalink: llmeon/30-library/sot/the-unified-writing-to-think-process
 project_category: prodos
-see_also: ["[[MOC - PKM as Process vs Product]]", "[[MOC - ProdOS]]", "[[PKM as Process vs Product]]", "[[MOC - Why Thoughts Feel More Important When Thinking Them]]"]
+see_also: ["[[MOC - PKM as Process vs Product]]", "[[SoT - PRODOS Core Specification]]", "[[PKM as Process vs Product]]", "[[MOC - Why Thoughts Feel More Important When Thinking Them]]"]
 status: stable
 tags: [learning, pkm, thinking, writing]
 tension: ["[[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]"]
 title: SoT - Unified Writing to Think Process
 type: sot
-upstream: ["[[SoT - The Extended Mind]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - ProdOS Thinking Stream]]", "[[SoT - Processing IS the Work]]"]
+upstream: ["[[SoT - The Extended Mind]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Processing IS the Work]]"]
 ---
 
 ## 1. Definitive Statement
@@ -185,7 +185,7 @@ _Full atomic note: [[Stage 5 Synthesise (The Outcome Layer)]]._
 
 - [[SoT - The Extended Mind]]—_North (`upstream`): philosophical foundation for thinking outside the brain._
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_North (`upstream`): the Doing half paired with this SoT's Thinking half._
-- [[SoT - ProdOS Thinking Stream]]—_North (`upstream`): mechanical CAPTURE→REFINE→PROCESS→EXIT loop feeding Stage 0/1._
+- [[SoT - PRODOS Core Specification]]—_North (`upstream`): §3 Thinking Stream (CAPTURE→REFINE→PROCESS→EXIT) feeding Stage 0/1._
 - [[SoT - Processing IS the Work]]—_North (`upstream`): reframes daily note processing as the primary epistemic act._
 - [[MOC - PKM as Process vs Product]]—_West (`see_also`): entry hub for process-first note-making._
 - [[Writing as Cognitive Rigour]]—_South (`synthesizes` in §3): architectural and logical debugging via writing._

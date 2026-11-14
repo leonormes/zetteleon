@@ -1,17 +1,30 @@
 ---
-aliases: [A-C-T Framework, Action-Container-Thought, Kinetic Valve, The Cognitive Loop]
+aliases:
+- A-C-T Framework
+- Action-Container-Thought
+- Kinetic Valve
+- The Cognitive Loop
 conformant: true
-contrasts_with: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
+contrasts_with:
+- '[[SoT - Illusion of Explanatory Depth (IoED)]]'
 created: 2026-04-04T12:30:00+00:00
 modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 project_category: prodos
-see_also: ["[[SoT - Unified Writing to Think Process]]", "[[Protocol - Vague-to-Action]]"]
+see_also:
+- '[[SoT - Unified Writing to Think Process]]'
+- '[[Protocol - Vague-to-Action]]'
 status: stable
-tags: [cognitive-loop, framework, prodos, protocol, TheHuman/Health/ADHD]
+tags:
+- cognitive-loop
+- framework
+- prodos
+- protocol
+- TheHuman/Health/ADHD
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

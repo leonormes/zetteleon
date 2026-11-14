@@ -1,19 +1,33 @@
 ---
-aliases: [Active Processing, Good Enough Processing, Processing IS the Work]
+aliases:
+- Active Processing
+- Good Enough Processing
+- Processing IS the Work
 conformant: true
-contrasts_with: ["[[The Collector's Fallacy Conflates Gathering with Assimilation]]"]
+contrasts_with:
+- '[[The Collector''s Fallacy Conflates Gathering with Assimilation]]'
 created: 2025-12-07T00:00:00+00:00
-merged_from: ["[[SoT - Evolutionary Note System]]"]
+merged_from:
+- '[[SoT - Evolutionary Note System]]'
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
 project_category: prodos
-see_also: ["[[SoT - Unified Writing to Think Process]]", "[[SoT - HEAD Note Contract (The Workbench)]]"]
+see_also:
+- '[[SoT - Unified Writing to Think Process]]'
+- '[[SoT - HEAD Note Contract (The Workbench)]]'
 status: stable
-tags: [pkm, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
-tension: ["[[Claim - A Note That Does Not Help You Act Is Noise]]", "[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]"]
+tags:
+- pkm
+- TheHuman/Health/ADHD
+- TheHuman/Mindset
+- topic/productivity
+tension:
+- '[[Claim - A Note That Does Not Help You Act Is Noise]]'
+- '[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]'
 title: SoT - Processing IS the Work
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## 1. Definitive Statement

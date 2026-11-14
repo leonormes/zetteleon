@@ -1,16 +1,27 @@
 ---
-aliases: [The Admin Illusion, The Interpreter Module, User Interface of the Self]
+aliases:
+- The Admin Illusion
+- The Interpreter Module
+- User Interface of the Self
 conformant: true
 created: 2025-12-23T19:56:26+00:00
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-the-user-interface-of-the-self
 project_category: prodos
-see_also: ["[[SoT - PRODOS Core Specification]]", "[[SoT - Prosthetic Executive Function]]"]
+see_also:
+- '[[SoT - PRODOS Core Specification]]'
+- '[[SoT - Prosthetic Executive Function]]'
 status: stable
-tags: [agency, cognitive_science, mental_models, TheHuman/Identity, TheHuman/Neuroscience]
+tags:
+- agency
+- cognitive_science
+- mental_models
+- TheHuman/Identity
+- TheHuman/Neuroscience
 title: SoT - The User Interface of the Self
 type: sot
-upstream: ["[[MOC - ProdOS]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## 1. Definitive Statement

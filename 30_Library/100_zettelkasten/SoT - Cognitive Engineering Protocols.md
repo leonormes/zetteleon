@@ -1,16 +1,26 @@
 ---
-aliases: [Brain Dump Protocol, Cognitive Engineering Protocols]
+aliases:
+- Brain Dump Protocol
+- Cognitive Engineering Protocols
 conformant: true
 created: 2026-01-03T10:18:04+00:00
 modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-cognitive-engineering-protocols
 project_category: prodos
 status: superseded
-superseded_by: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]", "[[SoT - ProdOS Thinking Stream]]"]
-tags: [cognition, gtd, prodos, protocol, working-memory]
+superseded_by:
+- '[[Protocol - Action-First GTD (LLM Chief of Staff)]]'
+- '[[SoT - PRODOS Core Specification]]'
+tags:
+- cognition
+- gtd
+- prodos
+- protocol
+- working-memory
 title: SoT - Cognitive Engineering Protocols
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 > [!info] Superseded (2026-11-14)

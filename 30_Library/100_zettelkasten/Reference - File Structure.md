@@ -1,17 +1,25 @@
 ---
 aliases: []
 conformant: true
-contrasts_with: ["[[Practice - Flat linking and tagging]]"]
+contrasts_with:
+- '[[Practice - Flat linking and tagging]]'
 created: 2026-01-03T10:07:49+00:00
 modified: 2026-11-14T13:42:00+00:00
 permalink: llmeon/30-library/so-t/reference-file-structure
 project_category: prodos
-see_also: ["[[SoT - HEAD Note Contract (The Workbench)]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
+see_also:
+- '[[SoT - HEAD Note Contract (The Workbench)]]'
+- '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
 status: stable
-tags: [architecture, prodos, reference, taxonomy]
+tags:
+- architecture
+- prodos
+- reference
+- taxonomy
 title: Reference - File Structure
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## Reference - File Structure & Naming Conventions

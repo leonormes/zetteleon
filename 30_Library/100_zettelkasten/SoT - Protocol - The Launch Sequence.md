@@ -1,17 +1,28 @@
 ---
-aliases: [Launch Sequence, The Initiation Algorithm]
+aliases:
+- Launch Sequence
+- The Initiation Algorithm
 conformant: true
-contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
+contrasts_with:
+- '[[SoT - Perfectionism and Analysis Paralysis]]'
 created: 2025-12-23T20:00:20+00:00
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 project_category: prodos
-see_also: ["[[Protocol - Vague-to-Action]]", "[[SoT - PRODOS Black Box Protocol]]"]
+see_also:
+- '[[Protocol - Vague-to-Action]]'
+- '[[SoT - PRODOS Black Box Protocol]]'
 status: stable
-tags: [action, initiation, productivity, protocol, TheHuman/Health/ADHD]
+tags:
+- action
+- initiation
+- productivity
+- protocol
+- TheHuman/Health/ADHD
 title: SoT - Protocol - The Launch Sequence
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## 1. Goal: Bypassing the "Brainbound" Bottleneck

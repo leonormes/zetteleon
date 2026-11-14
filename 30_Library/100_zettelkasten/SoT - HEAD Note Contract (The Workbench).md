@@ -1,19 +1,36 @@
 ---
-aliases: [HEAD Compliance, HEAD Note Contract, Thinking Note Contract, Workbench Contract]
+aliases:
+- HEAD Compliance
+- HEAD Note Contract
+- Thinking Note Contract
+- Workbench Contract
 conformant: true
-contrasts_with: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]"]
+contrasts_with:
+- '[[Protocol - Action-First GTD (LLM Chief of Staff)]]'
 created: 2026-08-03T00:00:00+01:00
-merged_from: ["[[SoT - Evolutionary Note System]]"]
+merged_from:
+- '[[SoT - Evolutionary Note System]]'
 modified: 2026-11-14T13:41:00+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
 project_category: prodos
-see_also: ["[[Prompt - ProdOS Chronos Synthesizer]]", "[[Reference - File Structure]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - ProdOS Thinking Stream]]"]
+see_also:
+- '[[Prompt - ProdOS Chronos Synthesizer]]'
+- '[[Reference - File Structure]]'
+- '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
+- '[[SoT - Processing IS the Work]]'
 status: stable
-tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/workbench]
-tension: ["[[My Main PKM Problem Is the Continuity of Thinking]]", "[[I am enslaved to the work of zetteling]]"]
+tags:
+- domain/pkm
+- prodos/sot
+- topic/knowledge-architecture
+- topic/workbench
+tension:
+- '[[My Main PKM Problem Is the Continuity of Thinking]]'
+- '[[I am enslaved to the work of zetteling]]'
 title: SoT - HEAD Note Contract (The Workbench)
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 > Canonical status: this note is the authoritative spec for what may live in `20_Thinking/21_Workbench/`. It is the workbench counterpart to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema) and [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edges). Where this note and a prompt disagree, this note wins. `AGENTS.md` §0 and [[Reference - File Structure]] §D link here.

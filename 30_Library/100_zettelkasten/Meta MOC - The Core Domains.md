@@ -6,7 +6,7 @@ aliases:
 conformant: true
 created: 2025-12-16T09:45:00+00:00
 description: Top-level Meta MOC categorising the primary domains of thought, Maps of Content (MoCs), and Sources of Truth (SoTs) within 30_Library/100_zettelkasten.
-modified: 2026-11-13T12:21:00+00:00
+modified: 2026-11-14T14:00:00+00:00
 permalink: llmeon/30-library/mo-c/meta-moc-the-core-domains
 see_also:
   - "[[Reference - Vault Interest Map]]"
@@ -37,12 +37,10 @@ _How I engineer my external environment, note graph, and workflows to support co
 
 ### Core ProdOS Architecture
 
-- [[MOC - ProdOS]]—_Master entry point for the Productivity Operating System._
+- [[SoT - PRODOS Core Specification]]—_Master entry point and kernel specification for ProdOS (Five Axioms, PINCH dopamine engine, 120s Thinking Stream, Scope-Lock MVA, Cryosleep, and phase directory)._
 - [[MOC - Operations & Diagnostics (Triage)]]—_Operational triage hub and system diagnostics._
-- [[SoT - PRODOS Core Specification]]—_The kernel specification (PINCH dopamine engine, Scope-Lock, Cryosleep)._
 - [[SoT - The Extended Mind]]—_Philosophical foundation for active externalism and cognitive offloading._
 - [[SoT - Systems Thinking]]—_First-principles lens on feedback loops, bottlenecks, and emergence._
-- [[SoT - ProdOS Thinking Stream]]—_Low-friction capture-to-action processing loop._
 - [[MOC - Action Management]]—_Execution mechanics across GTD, PARA, and daily action flow._
 
 ### Knowledge Graph, Writing & Note Standards

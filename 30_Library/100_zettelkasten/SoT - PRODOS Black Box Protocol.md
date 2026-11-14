@@ -1,17 +1,28 @@
 ---
-aliases: [Black Box Thinking, Error Engine, Marginal Gains]
+aliases:
+- Black Box Thinking
+- Error Engine
+- Marginal Gains
 conformant: true
-contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
+contrasts_with:
+- '[[SoT - Perfectionism and Analysis Paralysis]]'
 created: 2026-01-11T21:20:00+00:00
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-black-box-protocol
 project_category: prodos
-see_also: ["[[SoT - Protocol - The Launch Sequence]]", "[[Protocol - Vague-to-Action]]"]
+see_also:
+- '[[SoT - Protocol - The Launch Sequence]]'
+- '[[Protocol - Vague-to-Action]]'
 status: stable
-tags: [adhd-tools, improvement-logic, prodos, system-architecture]
+tags:
+- adhd-tools
+- improvement-logic
+- prodos
+- system-architecture
 title: SoT - PRODOS Black Box Protocol
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## 1. The Core Philosophy

@@ -1,16 +1,27 @@
 ---
-aliases: [Cognitive Superniche, Material Symbols Thesis, Scaffolding]
+aliases:
+- Cognitive Superniche
+- Material Symbols Thesis
+- Scaffolding
 conformant: true
 created: 2025-12-23T19:53:27+00:00
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-material-symbols
 project_category: prodos
-see_also: ["[[SoT - The Extended Mind]]", "[[SoT - HEAD Note Contract (The Workbench)]]"]
+see_also:
+- '[[SoT - The Extended Mind]]'
+- '[[SoT - HEAD Note Contract (The Workbench)]]'
 status: stable
-tags: [extended_mind, language, logic, scaffolding, TheHuman/Cognition]
+tags:
+- extended_mind
+- language
+- logic
+- scaffolding
+- TheHuman/Cognition
 title: SoT - Material Symbols
 type: sot
-upstream: ["[[MOC - ProdOS]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## 1. Definitive Statement

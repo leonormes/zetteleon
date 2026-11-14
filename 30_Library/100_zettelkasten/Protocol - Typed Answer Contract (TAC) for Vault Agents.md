@@ -5,12 +5,18 @@ description: Universal output-discipline protocol for any ProdOS vault agent. En
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/protocol-typed-answer-contract-tac-for-vault-agents
 project_category: prodos
-see_also: ["[[Goal - Orphan Triage Sweep (Daily Cron)]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
+see_also:
+- '[[Goal - Orphan Triage Sweep (Daily Cron)]]'
+- '[[SoT - Typed Answer Contract (TAC) for LLM Output]]'
 status: stable
-tags: [domain/ai, sot, type/protocol]
+tags:
+- domain/ai
+- sot
+- type/protocol
 title: Protocol - Typed Answer Contract (TAC) for Vault Agents
 type: protocol
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 [implements:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], strength=5, confidence=high]

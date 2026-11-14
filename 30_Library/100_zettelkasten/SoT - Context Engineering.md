@@ -1,17 +1,32 @@
 ---
-aliases: [Context Compression, Context Engineering, High-Signal Prompting, Information Density, Prompt Optimization, RPI Workflow, SoT - The RPI Workflow (Context Engineering)]
+aliases:
+- Context Compression
+- Context Engineering
+- High-Signal Prompting
+- Information Density
+- Prompt Optimization
+- RPI Workflow
+- SoT - The RPI Workflow (Context Engineering)
 conformant: true
-contrasts_with: ["[[SoT - Context Rot]]"]
+contrasts_with:
+- '[[SoT - Context Rot]]'
 created: 2026-01-30T11:00:00+00:00
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-context-engineering
 project_category: prodos
-see_also: ["[[SoT - Research-to-Action Protocol]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
+see_also:
+- '[[SoT - Research-to-Action Protocol]]'
+- '[[SoT - Typed Answer Contract (TAC) for LLM Output]]'
 status: stable
-tags: [ai-engineering, context-management, discipline, prompt-engineering]
+tags:
+- ai-engineering
+- context-management
+- discipline
+- prompt-engineering
 title: SoT - Context Engineering
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 > Open threads: [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]

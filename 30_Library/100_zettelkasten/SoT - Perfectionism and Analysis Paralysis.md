@@ -1,17 +1,28 @@
 ---
-aliases: [Analysis Paralysis, Fear of Failure, The Perfectionism Trap]
+aliases:
+- Analysis Paralysis
+- Fear of Failure
+- The Perfectionism Trap
 conformant: true
-contrasts_with: ["[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
+contrasts_with:
+- '[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]'
 created: 2025-10-28T00:00:00+00:00
 modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis
 project_category: prodos
-see_also: ["[[Protocol - Vague-to-Action]]", "[[SoT - PRODOS Black Box Protocol]]"]
+see_also:
+- '[[Protocol - Vague-to-Action]]'
+- '[[SoT - PRODOS Black Box Protocol]]'
 status: stable
-tags: [prodos, TheHuman/Cognition/bias, TheHuman/Mindset, TheHuman/Psychology]
+tags:
+- prodos
+- TheHuman/Cognition/bias
+- TheHuman/Mindset
+- TheHuman/Psychology
 title: SoT - Perfectionism and Analysis Paralysis
 type: sot
-upstream: ["[[MOC - ProdOS]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 > In ADHD, it manifests as Analysis Paralysis: "the inability to start a task because the cost of \"doing it wrong\" feels existentially threatening."

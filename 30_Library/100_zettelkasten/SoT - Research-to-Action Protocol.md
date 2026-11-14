@@ -1,17 +1,27 @@
 ---
-aliases: [Instruction SoT - Research-to-Action Protocol, Research Transducer]
+aliases:
+- Instruction SoT - Research-to-Action Protocol
+- Research Transducer
 conformant: true
-contrasts_with: ["[[SoT - Perfectionism and Analysis Paralysis]]"]
+contrasts_with:
+- '[[SoT - Perfectionism and Analysis Paralysis]]'
 created: 2026-01-12T16:15:00+00:00
 modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-research-to-action-protocol
 project_category: prodos
-see_also: ["[[SoT - Context Engineering]]", "[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]"]
+see_also:
+- '[[SoT - Context Engineering]]'
+- '[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]'
 status: stable
-tags: [adhd-tools, prodos, protocol, research]
+tags:
+- adhd-tools
+- prodos
+- protocol
+- research
 title: SoT - Research-to-Action Protocol
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 ## Instruction SoT - Research-to-Action Protocol

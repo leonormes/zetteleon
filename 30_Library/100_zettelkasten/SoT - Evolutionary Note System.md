@@ -1,15 +1,29 @@
 ---
-aliases: [Evolving Notes, Living Note System, NeuroStack Workflow, The Merge Protocol]
+aliases:
+- Evolving Notes
+- Living Note System
+- NeuroStack Workflow
+- The Merge Protocol
 conformant: true
 created: 2025-11-13T00:00:00+00:00
 modified: 2026-11-14T13:47:00+00:00
 permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 status: superseded
-superseded_by: ["[[SoT - HEAD Note Contract (The Workbench)]]", "[[SoT - Processing IS the Work]]"]
-tags: [ai, knowledge-management, pkm, synthesis, TheHuman/Cognition, thinking, topic/knowledge-architecture]
+superseded_by:
+- '[[SoT - HEAD Note Contract (The Workbench)]]'
+- '[[SoT - Processing IS the Work]]'
+tags:
+- ai
+- knowledge-management
+- pkm
+- synthesis
+- TheHuman/Cognition
+- thinking
+- topic/knowledge-architecture
 title: SoT - Evolutionary Note System
 type: sot
-upstream: ["[[MOC - ProdOS]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 > [!info] Superseded (2026-11-14)

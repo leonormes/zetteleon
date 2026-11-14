@@ -1,17 +1,27 @@
 ---
-aliases: [Execution Protocol, Hybrid GTD PARA]
+aliases:
+- Execution Protocol
+- Hybrid GTD PARA
 conformant: true
-contrasts_with: ["[[SoT - ProdOS Thinking Stream]]"]
+contrasts_with:
+- '[[SoT - Processing IS the Work]]'
 created: 2026-01-08T07:41:15+00:00
 modified: 2026-11-14T13:45:00+00:00
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 project_category: prodos
-see_also: ["[[Protocol - Action-First GTD (LLM Chief of Staff)]]", "[[Protocol - Weekly Command Centre]]", "[[Reference - File Structure]]"]
+see_also:
+- '[[Protocol - Action-First GTD (LLM Chief of Staff)]]'
+- '[[Protocol - Weekly Command Centre]]'
+- '[[Reference - File Structure]]'
 status: stable
-tags: [gtd, para, system/protocol]
+tags:
+- gtd
+- para
+- system/protocol
 title: SoT - Execution Protocol (GTD & PARA)
 type: sot
-upstream: ["[[MOC - ProdOS]]", "[[SoT - PRODOS Core Specification]]"]
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
 Purpose: To harmonize the structural organization of PARA with the execution workflow of GTD. This protocol is the single source of truth for defining work and "done."
