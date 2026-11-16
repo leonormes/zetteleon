@@ -2,9 +2,9 @@
 aliases: [Focus Management, The Indistractable Model, Traction vs Distraction]
 conformant: true
 created: 2025-12-24T12:10:45+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ""
+modified: 2026-11-15T10:30:00+00:00
 permalink: llmeon/30-library/so-t/so-t-indistractable-model-focus-management
+status: stable
 tags: [focus, indistractable, productivity, psychology, TheHuman/Health/ADHD]
 title: SoT - Indistractable Model (Focus Management)
 type: sot
@@ -40,6 +40,7 @@ _If you don't schedule it, you can't complain when it's gone._
 - Timeboxing: Deciding what to do and when, reserving time for "You," "Relationships," and "Work" (Marc Zao-Sanders).
 - The Unschedule: Schedule guilt-free play _before_ work to reduce resentment and the need to escape (Neil Fiore).
 - Energy Management: Align tasks with energy highs/lows (Key Result Areas) rather than just time slots (Rob Moore).
+- The Catch-All Pad (Distraction List): Keep an unfiltered scratchpad beside an active timebox to jot down intrusive thoughts immediately and return focus to the task.
 
 #### Pillar 3: Hack Back External Triggers (Environmental Design)
 
@@ -87,7 +88,7 @@ _Binding your future self to prevent impulsive behavior._
 - [[Timeboxing Combats the Principle of Least Resistance]]—_Why a scheduled block beats choosing in the moment: it overrides the pull towards easy tasks._
 - [[Event-based pacing matches boom and bust energy cycles]]—_Supports the Energy Management point: capacity oscillates, so fixed time slots assume energy that is not there._
 - [[Self-monitoring reveals personal energy and trigger patterns]]—_A way to gather the data needed to align tasks with energy highs and lows, and to spot triggers._
-- [[Distraction Management in Timeboxing (Catch-All List)]]—_Applies this model inside a timebox and already links here with an `implements` edge._
+- [[Protocol - Vague-to-Action]]—_Uses a 5-minute unfiltered brain dump as a catch-all pad during task decomposition and links here with an `implements` edge._
 
 #### Pillar 3: External Triggers
 

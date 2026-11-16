@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:13:00+00:00
 permalink: llmeon/00-inbox/gesture-stabilises-ideas-that-are-still-forming
 proposition: Gesture acts as a virtual diagram that stabilises and advances ideas that are still forming in the mind.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - embodied-cognition
   - gesture
@@ -43,16 +43,16 @@ Source: [[Beyond Words]] (line 230).
 
 ### Related
 
-- [[Pre-Linguistic Thought]]—shared mechanism: gesture is one way thought is shaped before it reaches words.
-- [[Arranging as Thinking Is an Epistemic Action, Not Diagramming as Output]]—shared mechanism: physical manipulation used to work an idea out rather than to display it.
-- [[Pantomime as Proto-Language]]—shared mechanism: gesture as a medium for expressing thought ahead of speech.
-- [[Non-Verbal Cues in Social Judgment]]—shared mechanism: gestures also serve as a communication channel.
-- [[Mental representations take multiple forms]]—shared mechanism: embodied knowledge as one form of representation independent of words.
+- [[Pre-Linguistic Thought]]—_extends: gesture is one way thought is shaped before it reaches words._ [extends:: [[Pre-Linguistic Thought]], strength=4, confidence=medium]
+- [[Arranging as Thinking Is an Epistemic Action, Not Diagramming as Output]]—_extends: physical manipulation used to work an idea out rather than to display it._ [extends:: [[Arranging as Thinking Is an Epistemic Action, Not Diagramming as Output]], strength=4, confidence=high]
+- [[Pantomime as Proto-Language]]—_shared mechanism: gesture as a medium for expressing thought ahead of speech._
+- [[Non-Verbal Cues in Social Judgment]]—_shared mechanism: gestures also serve as a communication channel._
+- [[Mental representations take multiple forms]]—_shared mechanism: embodied knowledge as one form of representation independent of words._
 
 ### See Also
 
 - [[Types of Non-Linguistic Knowledge]]
 
-#### Further Reading
+### Further Reading
 
 - [The Extended Mind — Annie Murphy Paul, "Thinking with Gesture", p. 83](calibre://view-book/GCcalibreBooks/405/PDF)—_reports that gesture supplies a temporary scaffold for still wobbly understanding of a subject._

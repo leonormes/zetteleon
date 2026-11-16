@@ -1,17 +1,28 @@
 ---
-aliases: [Architect's Avoidance, Trap of the Architect]
+aliases:
+- Architect's Avoidance
+- Trap of the Architect
 conformant: false
 created: 2026-08-07T00:00:00+01:00
-definition: "The Trap of the Architect is the pattern in which a person with strong systems-building capability — designing productivity architectures, digital schemas, or infrastructure — uses that capability as a sophisticated, high-dopamine substitute for the unstructured physical action the architecture was meant to enable, so that refining the blueprint replaces laying the bricks."
-distinguishes_from: ["[[Pseudo-productivity Heuristic]]", "[[System-Hopping]]", "[[Tool tinkering is a form of productive procrastination]]"]
+definition: The Trap of the Architect is the pattern in which a person with strong systems-building capability — designing productivity architectures, digital schemas, or infrastructure — uses that capability as a sophisticated, high-dopamine substitute for the unstructured physical action the architecture was meant to enable, so that refining the blueprint replaces laying the bricks.
+distinguishes_from:
+- '[[Pseudo-productivity Heuristic]]'
+- '[[System-Hopping]]'
+- '[[Tool tinkering is a form of productive procrastination]]'
 epistemic_status: medium
 modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: "missing schema field used_in_claims for type concept (required when conformant - true)"
+non_conformance_reason: missing schema field used_in_claims for type concept (required when conformant - true)
 permalink: llmeon/30-library/100-zettelkasten/the-trap-of-the-architect-is-sophisticated-system-building-substituting-for-physical-action
-tags: [avoidance, meta-work, pkm, TheHuman/Health/ADHD, topic/productivity]
+status: stable
+tags:
+- avoidance
+- meta-work
+- pkm
+- TheHuman/Health/ADHD
+- topic/productivity
 title: The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action
 type: concept
-upstream: "[[HEAD - The Trap of the Architect]]"
+upstream: '[[HEAD - The Trap of the Architect]]'
 ---
 
 The Trap of the Architect names a specific failure mode: intellectual and architectural competence—the ability to design a deployment pipeline, a mathematical model, or a multi-tiered PKM schema—gets redirected at the self, producing elaborate plans for living instead of the living itself. The trap is not that the architecture is bad; it is that endless refinement of the blueprint provides the dopamine hit of intellectual accomplishment without the physical vulnerability of executing it, so the architecture never converges on a use.

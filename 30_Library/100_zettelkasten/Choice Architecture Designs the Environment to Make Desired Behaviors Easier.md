@@ -1,17 +1,26 @@
 ---
-aliases: [Choice Architecture, Nudge Theory]
+aliases:
+  - Choice Architecture
+  - Nudge Theory
 axiom: true
 conformant: true
 contradicts: []
 created: 2025-11-10T17:13:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-13T12:04:00+00:00
+modified: 2026-11-15T08:52:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/choice-architecture-designs-the-environment-to-make-desired-behaviors-easier
-proposition: "Designing the physical, financial, or social environment to make desired choices the path of least resistance shifts behaviour more reliably than persuasion or willpower."
-see_also: ["[[MOC - Relational Dynamics & Family (Triage)]]", "[[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]"]
-tags: [behavior-change, design, environment, family, nudge, TheHuman/Psychology]
+proposition: Designing the physical, financial, or social environment to make desired choices the path of least resistance shifts behaviour more reliably than persuasion or willpower.
+see_also:
+  - "[[MOC - Relational Dynamics & Family (Triage)]]"
+tags:
+  - behavior-change
+  - design
+  - environment
+  - family
+  - nudge
+  - TheHuman/Psychology
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 type: claim
 ---
@@ -41,7 +50,6 @@ This claim is derived from behavioural-design synthesis across the executive-fun
 - [[SoT - Family Financial Wellness]]—_money application: the One-Pot Model and automatic equal personal spending transfers remove the need for daily financial policing._
 - [[SoT - Prosthetic Executive Function]]—_ADHD application: uses external choice architecture to offload executive-function demands._
 - [[Discipline Is a Property of External Structure More Than of Will]]—_structural parallel: consistent action follows environmental scaffolding more than willpower._
-- [[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]—_active inquiry applying this principle to household chores and money._
 
 [supports:: [[SoT - Prosthetic Executive Function]], strength=5, confidence=high]
 

@@ -4,9 +4,14 @@ created: 2025-10-20T08:00:02+00:00
 last_reviewed: 'null'
 modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-danger-of-perpetual-system-building
-tags: [perfectionism, TheHuman/Health/ADHD, topic/productivity, topic/systems]
+status: stable
+tags:
+- perfectionism
+- TheHuman/Health/ADHD
+- topic/productivity
+- topic/systems
 title: The Danger of Perpetual System-Building
-type: 'null'
+type: concept
 updated: null
 ---
 

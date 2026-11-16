@@ -4,14 +4,13 @@ conformant: true
 created: 2025-08-19T23:58:53+00:00
 definition: "Externalize memory aggressively is the practice of moving recall, plans and open questions out of the head and into a trusted external system, so the mind is used to generate ideas and the system is used to store them."
 distinguishes_from: ["[[Epistemic Actions - Thinking via Doing]]"]
-modified: 2026-11-14T10:03:00+00:00
-non_conformance_reason: ""
+modified: 2026-11-15T10:42:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/externalize-memory-aggressively-cognitive-offloading
 status: stable
 tags: [topic/pkm]
 title: Externalize Memory Aggressively (cognitive offloading)
 type: concept
-used_in_claims: ["[[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]", "[[Digital Tools Help Externalize Memory and Structure for ADHD Developers]]", "[[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]]", "[[Task Management Systems Have Limited Efficacy for ADHD Productivity]]", "[[Spatial Arrangement Externalises Relational Structure to Reduce Working Memory Load]]"]
+used_in_claims: ["[[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]", "[[SoT - Prosthetic Executive Function]]", "[[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]]", "[[Task Management Systems Have Limited Efficacy for ADHD Productivity]]", "[[Spatial Arrangement Externalises Relational Structure to Reduce Working Memory Load]]"]
 ---
 
 ## Externalize Memory Aggressively (cognitive offloading)
@@ -35,11 +34,8 @@ This concept is derived from practical PKM and software-engineering workflows—
 
 ### Related
 
-- [[SoT - The Extended Mind]]—_extends: operationalises Active Externalism by treating a trusted external notebook or vault as a literal constituent of memory._
-[extends:: [[SoT - The Extended Mind]], strength=4, confidence=high]
-- [[SoT - Prosthetic Executive Function]]—_extends: a broader system that relies on aggressive externalisation to compensate for recall limitations._
-[extends:: [[SoT - Prosthetic Executive Function]]]
-- [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]—_supports: the primary claim that offloading retention frees limited working memory for reasoning._
-[supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]], strength=4, confidence=high]
+- [[SoT - The Extended Mind]]—_extends: operationalises Active Externalism by treating a trusted external notebook or vault as a literal constituent of memory._ [extends:: [[SoT - The Extended Mind]], strength=4, confidence=high]
+- [[SoT - Prosthetic Executive Function]]—_extends and supports the prosthetic model through aggressive cognitive offloading while distinguishing storage from initiation._ [supports:: [[SoT - Prosthetic Executive Function]], strength=4, confidence=high] [extends:: [[SoT - Prosthetic Executive Function]]]
+- [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]—_supports: the primary claim that offloading retention frees limited working memory for reasoning._ [supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]], strength=4, confidence=high]
 - [[Epistemic Actions - Thinking via Doing]]—_distinction: listed under `distinguishes_from`; that note is about manipulating external representations to compute, whereas this one is about storing recall and state._
 - [[Spatial Arrangement Externalises Relational Structure to Reduce Working Memory Load]]—_technique: a specific spatial method within the broader strategy of cognitive offloading._

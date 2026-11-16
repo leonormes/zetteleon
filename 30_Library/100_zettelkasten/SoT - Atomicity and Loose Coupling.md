@@ -1,11 +1,19 @@
 ---
-aliases: [Atomic Notes vs. Interconnectedness, Loose Coupling, The Problem of False Atoms SoT]
+aliases:
+- Atomic Notes vs. Interconnectedness
+- Loose Coupling
+- The Problem of False Atoms SoT
 conformant: true
 created: 2025-12-12T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-atomicity-and-loose-coupling
-tags: [atomicity, pkm, topic/systems, zettelkasten]
+status: stable
+tags:
+- atomicity
+- pkm
+- topic/systems
+- zettelkasten
 title: SoT - Atomicity and Loose Coupling
 type: sot
 ---

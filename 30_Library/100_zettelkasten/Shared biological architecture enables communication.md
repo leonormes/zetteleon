@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/shared-biological-architecture-enables-communication
 proposition: Because humans share the same basic neural architecture, they process perceptual, emotional and spatial patterns in broadly similar ways, giving communication a common foundation.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - biology
   - cognition
@@ -42,10 +42,10 @@ Source: [[Beyond Words]] (line 119).
 
 ### Related
 
-- [[Cross-Cultural Communication Effectiveness]]—extends: lists shared biological frameworks as one factor among several; this note isolates that factor.
-- [[Common experiential anchors ground abstract concepts]]—shared mechanism: a second shared foundation for understanding, from common experience rather than common biology.
-- [[Communication requires iterative approximation]]—shared mechanism: the feedback process that closes whatever gap the shared foundation leaves.
-- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—extends: explains how diverging experiential filters cause misunderstanding above the shared biological layer.
+- [[Languages Co-Evolve With Culture to Encode Locally Relevant Distinctions]]—_complements: biology provides the universal floor while cultural co-evolution builds community-specific distinctions above it._
+- [[Common experiential anchors ground abstract concepts]]—_shared mechanism: a second shared foundation for understanding, from common experience rather than common biology._
+- [[Communication requires iterative approximation]]—_shared mechanism: the feedback process that closes whatever gap the shared foundation leaves._
+- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—_extends: explains how diverging experiential filters cause misunderstanding above the shared biological layer._ [extends:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]
 
 ### See Also
 

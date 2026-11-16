@@ -1,13 +1,25 @@
 ---
-aliases: [Atomic Note Standard, Note Shape Standard, Proposition Card, Zettel Standard]
+aliases:
+- Atomic Note Standard
+- Note Shape Standard
+- Proposition Card
+- Zettel Standard
 conformant: true
 created: 2026-09-26T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-atomic-note-standard-the-proposition-card
-see_also: ["[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]", "[[The Atomicity Principle - One Idea Per Note]]"]
 project_category: prodos
-tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/zettelkasten]
+see_also:
+- '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
+- '[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]'
+- '[[The Atomicity Principle - One Idea Per Note]]'
+status: stable
+tags:
+- domain/pkm
+- prodos/sot
+- topic/knowledge-architecture
+- topic/zettelkasten
 title: SoT - Atomic Note Standard (The Proposition Card)
 type: sot
 ---

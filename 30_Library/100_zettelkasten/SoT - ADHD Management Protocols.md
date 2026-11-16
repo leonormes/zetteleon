@@ -1,5 +1,7 @@
 ---
-aliases: [ADHD Protocols, ADHD Scaffolding Protocols]
+aliases:
+- ADHD Protocols
+- ADHD Scaffolding Protocols
 conformant: true
 created: 2026-01-03T10:10:29+00:00
 modified: 2026-11-14T12:49:21+00:00
@@ -7,7 +9,12 @@ permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
 prodos.kind: protocol
 prodos.lifecycle: active
 project_category: prodos
-tags: [initiation, productivity, system/protocol, TheHuman/Health/ADHD]
+status: stable
+tags:
+- initiation
+- productivity
+- system/protocol
+- TheHuman/Health/ADHD
 title: SoT - ADHD Management Protocols
 type: protocol
 ---
@@ -124,8 +131,7 @@ _Step 1 exists specifically to break the compulsive re-planning loop named in th
 - IDE: Use linters and snippets to reduce Working Memory load.
 - Task Management: Use rigid ticket breakdown (ProdOS/Todoist) to externalize "Next Actions."
 
-[implements:: [[Digital Tools Help Externalize Memory and Structure for ADHD Developers]], strength=5, confidence=high]
-
+[implements:: [[SoT - Prosthetic Executive Function]], strength=5, confidence=high]
 ### 6.2 Managing the "Wall of Code"
 
 - Initiation: Coding requires massive context loading. Use Analog Anchors (Stack Tracing on paper) to load context before touching the keyboard.

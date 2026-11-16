@@ -7,8 +7,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: high
 evidence_links: ["[[Beyond Words]]"]
-modified: 2026-11-14T11:59:20+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/words-are-pointers-not-containers-of-meaning
 proposition: Words point towards meaning held in the lived experience of each person rather than containing meaning inside themselves.
 see_also: ["[[MOC - The Gap Between Thought and Language]]", "[[MOC Symbols vs Concepts They Represent]]"]
@@ -41,22 +40,10 @@ Source: [[Beyond Words]] (line 181).
 
 ### Related
 
-- [[The Symbol Grounding Problem]]—_Semantic foundation: pointers only resolve because symbols are anchored in non-symbolic experience._
-- [[Meaning emerges from language games]]—_Pragmatic foundation: pointer resolution depends on shared social use rather than isolated definitions._
-- [[Communication Is Inherently Lossy Like Image Compression]]—_Information-theoretic consequence: encoding experience into pointers discards context that must be re-inferred._
-- [[Knowledge Transmission Is Reconstruction, Not Copying]]—_Learning consequence: listeners reconstruct meaning from their own experiential store._
-- [[The Information Deficit Model is a Fallacy]]—_Behavioural consequence: repeating words cannot supply missing experiential referents._
+- [[The Symbol Grounding Problem]]—_Semantic foundation: pointers only resolve because symbols are anchored in non-symbolic experience._ [extends:: [[The Symbol Grounding Problem]], strength=4, confidence=high]
+- [[Meaning emerges from language games]]—_Pragmatic foundation: pointer resolution depends on shared social use rather than isolated definitions._ [depends_on:: [[Meaning emerges from language games]], strength=4, confidence=high]
+- [[Communication Is Inherently Lossy Like Image Compression]]—_Information-theoretic consequence: encoding experience into pointers discards context that must be re-inferred._ [supports:: [[Communication Is Inherently Lossy Like Image Compression]], strength=4, confidence=high]
+- [[Knowledge Transmission Is Reconstruction, Not Copying]]—_Learning consequence: listeners reconstruct meaning from their own experiential store._ [supports:: [[Knowledge Transmission Is Reconstruction, Not Copying]], strength=4, confidence=high]
+- [[The Information Deficit Model is a Fallacy]]—_Behavioural consequence: repeating words cannot supply missing experiential referents._ [supports:: [[The Information Deficit Model is a Fallacy]], strength=4, confidence=high]
 - [[Language Discretises Continuous Experience]]—_Structural limit: discrete pointers carve up continuous pre-linguistic experience._
 - [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—_Synthesis: models how pointers pass through each person's experiential filter._
-
-[depends_on:: [[The Symbol Grounding Problem]], strength=4, confidence=high]
-
-[depends_on:: [[Meaning emerges from language games]], strength=4, confidence=high]
-
-[supports:: [[Communication Is Inherently Lossy Like Image Compression]], strength=4, confidence=high]
-
-[supports:: [[Knowledge Transmission Is Reconstruction, Not Copying]], strength=4, confidence=high]
-
-[supports:: [[The Information Deficit Model is a Fallacy]], strength=4, confidence=high]
-
-[supports:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]

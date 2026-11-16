@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-10T10:37:03+00:00
 last_reviewed: 'null'
-modified: 2026-10-22T15:11:16+00:00
+modified: 2026-11-14T22:05:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/make-it-stupidly-simple
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten, topic/productivity/gtd]
 title: Make It Stupidly Simple
@@ -22,8 +22,6 @@ ADHD thrives on complexity because it gives you endless ways to tweak instead of
 ---
 
 [[2025-04-21]]
-
-[[Back to Simpler Ways]]
 
 ## Related
 

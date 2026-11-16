@@ -1,9 +1,16 @@
 ---
+conformant: true
 created: 2026-08-03T00:00:00+01:00
 description: Run the four HEAD-note compliance tests over every note in 20_Thinking/21_Workbench, route failures out to their correct home, and report stale or unactionable threads. Use on a recurring basis, or after any bulk capture.
-modified: 2026-10-22T15:11:08+00:00
+modified: 2026-11-15T10:17:00+00:00
 permalink: llmeon/10-system/prompts/protocol-workbench-compliance-sweep
-tags: [agent/sweeper, domain/pkm, prodos/protocol, topic/workbench, type/protocol]
+status: stable
+tags:
+- agent/sweeper
+- domain/pkm
+- prodos/protocol
+- topic/workbench
+- type/protocol
 title: Protocol - Workbench Compliance Sweep
 type: prompt
 version: 1
@@ -16,7 +23,7 @@ version: 1
 
 > Trigger: `20_Thinking/21_Workbench/` needs auditing—routinely, or after a burst of capture. For harvesting tensions _out of canonical notes into_ the workbench, use [[Prompt - Tension Harvester]] instead. For routing a single new piece of content, use [[Prompt - Vault Ingest Router]].
 >
-> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence by `[[wikilink]]`, explicit uncertainty flag. Never guess a routing decision; flag `UNSURE` and leave the note in place.
+> Output Contract: follow [[SoT - Typed Answer Contract (TAC) for LLM Output]] ([[AGENTS]] §7)—confidence, evidence by `[[wikilink]]`, explicit uncertainty flag. Never guess a routing decision; flag `UNSURE` and leave the note in place.
 >
 > Canonical schema: [[SoT - HEAD Note Contract (The Workbench)]]. That note is authoritative. If this protocol and the contract disagree, the contract wins and this protocol is the bug.
 
@@ -134,3 +141,11 @@ Flag every note whose title does not end in `?`. Propose a question-form title f
 - `edge_lint.py`: [baseline N errors → post-sweep N errors]
 - Confidence: [high / medium / low]
 - UNSURE (left in place): [list or "None"]
+
+---
+
+## Connected ProdOS Specs
+
+- [[SoT - HEAD Note Contract (The Workbench)]]—_Enforces the four workbench compliance tests, QuestionNote schema, and 99_Archive routing rules._ [implements:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=high]
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_Validates QuestionNote (§3.4) frontmatter fields across 20_Thinking/21_Workbench/._ [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
+- [[SoT - Typed Answer Contract (TAC) for LLM Output]]—_Governs confidence, evidence links, UNSURE flags, and Tier 2 validation._ [depends_on:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], confidence=high]

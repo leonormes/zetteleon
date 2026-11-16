@@ -7,8 +7,12 @@ epistemic_status: high
 evidence_links: []
 modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/motivation-volition-and-control-are-distinct-aspects-of-the-action-process
-proposition: "The process of action is clarified by distinguishing three related but distinct concepts: motivation (the drive to act), volition (the subjective, deliberate experience of acting), and control (the sense of mastery that an action will produce its intended outcome) — not all motivated actions feel volitional, and control applies to both deliberate and automatic actions."
-tags: [action, TheHuman/Motivation, TheHuman/Psychology]
+proposition: 'The process of action is clarified by distinguishing three related but distinct concepts: motivation (the drive to act), volition (the subjective, deliberate experience of acting), and control (the sense of mastery that an action will produce its intended outcome) — not all motivated actions feel volitional, and control applies to both deliberate and automatic actions.'
+status: stable
+tags:
+- action
+- TheHuman/Motivation
+- TheHuman/Psychology
 title: Motivation, Volition, and Control are Distinct Aspects of the Action Process
 type: claim
 ---

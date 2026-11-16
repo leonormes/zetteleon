@@ -1,17 +1,18 @@
 ---
 aliases:
-  - Productivity Systems Map
+- Productivity Systems Map
 created: 2025-11-10T13:10:00+00:00
-criteria: ""
+criteria: ''
 exclusions: Specific tutorials for GTD or Atomic Habits.
 modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/mo-c/moc-productivity-systems-vs-historical-achievement
 scope: An exploration of how external systems and collective structures substitute for internal willpower, both historically and in modern neurodiverse contexts.
+status: stable
 tags:
-  - history
-  - TheHuman/Cognition
-  - topic/productivity
-  - topic/systems
+- history
+- TheHuman/Cognition
+- topic/productivity
+- topic/systems
 title: MOC - Productivity Systems vs Historical Achievement
 type: map
 ---

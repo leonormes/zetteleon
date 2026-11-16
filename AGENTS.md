@@ -100,6 +100,37 @@ Text an agent drafts is never given `own_words`, and drafts for Leon's own-writi
 
 ---
 
+### 7. Typed Answer Contract (TAC) & Structural Validation Gates
+
+Canonical spec: [[SoT - Typed Answer Contract (TAC) for LLM Output]]. Every agent operating in this vault is governed by a two-tier contract—epistemic honesty in output (Tier 1) and executable validator gates on vault writes (Tier 2).
+
+#### 7.1 Tier 1 — Output Discipline (The 4 TAC Rules)
+
+1. **State confidence (`high` | `medium` | `low`):** Every substantive claim, classification, or recommendation carries an explicit confidence signal.
+2. **Cite vault evidence (`[[wikilink]]`):** Every claim about vault content must link to the specific note (`[[Note Title]]`). Never assert that a note exists or is missing without verifying via search first.
+3. **Flag insufficient context explicitly (`UNSURE`):** Never guess or fabricate links, titles, or facts when retrieval is incomplete. Output `UNSURE`, state what is missing, and declare your tooling tier if you fell back to lexical search.
+4. **Separate vault facts from outside knowledge:** Visibly distinguish general training knowledge from vault-sourced facts.
+
+#### 7.2 Tier 2 — Mandatory Pre-Completion Write Gates
+
+Before declaring any task that creates or edits vault notes complete (and before running `shale done`), run the applicable validators and resolve all errors (`0 error(s)` required):
+
+1. **Frontmatter Contract Gate (all edited/created notes):**
+   ```
+   uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "<file>"
+   ```
+   If a required type-specific field cannot be verified from the source, set `conformant: false` and state the missing fields in `non_conformance_reason` rather than guessing.
+2. **Atomic Proposition Gate (new atomic notes in `30_Library/100_zettelkasten/`):**
+   ```
+   python3 10_System/scripts/validate_note_shape.py "<file>"
+   ```
+3. **Typed-Edge & Argument Compiler Gate (whenever typed edges, note titles, or `axiom:` markers change):**
+   ```
+   uv run --with pyyaml python3 10_System/scripts/edge_lint.py
+   ```
+
+---
+
 ### 9. Typed Edge / Justification Graph Workflow
 
 Governs how agents interact with the vault's typed-edge system and argument-graph compiler. Canonical syntax: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Canonical capabilities: [[SoT - Knowledge Compiler (Argument Graph Spec)]].

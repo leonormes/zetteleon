@@ -1,13 +1,24 @@
 ---
-aliases: [Cal Newport, Planning Systems, Sarah Hart-Unger]
+aliases:
+- Cal Newport
+- Planning Systems
+- Sarah Hart-Unger
 conformant: true
 created: 2025-12-29T20:02:17+00:00
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-temporal-management-blocking-and-boxing
-source_of_truth: true
 project_category: prodos
-tags: [cal-newport, parkinsons-law, sarah-hart-unger, scheduling, strategy, time-management, topic/productivity]
+source_of_truth: true
+status: stable
+tags:
+- cal-newport
+- parkinsons-law
+- sarah-hart-unger
+- scheduling
+- strategy
+- time-management
+- topic/productivity
 title: SoT - Temporal Management (Blocking and Boxing)
 type: sot
 ---

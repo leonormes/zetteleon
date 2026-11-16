@@ -7,11 +7,10 @@ conformant: true
 contrasts_with:
 - '[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]'
 created: 2025-10-28T00:00:00+00:00
-modified: 2026-11-14T13:47:00+00:00
+modified: 2026-11-15T10:30:00+00:00
 permalink: llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis
 project_category: prodos
 see_also:
-- '[[Protocol - Vague-to-Action]]'
 - '[[SoT - PRODOS Black Box Protocol]]'
 status: stable
 tags:
@@ -62,6 +61,6 @@ ProdOS architecture is designed to break this cycle by enforcing Process over Pr
 ## Related
 
 - [[ADHD Overthinking is a Substitute for Action]] [depends_on:: [[ADHD Overthinking is a Substitute for Action]], confidence=high]
-- [[Protocol - Vague-to-Action]] [supports:: [[Protocol - Vague-to-Action]], confidence=high]
+- [[Protocol - Vague-to-Action]]—_Operationalises the MVA antidote by shrinking avoided tasks into < 120-second binary actions._ [supports:: [[Protocol - Vague-to-Action]], confidence=high]
 - [[SoT - PRODOS Black Box Protocol]] [supports:: [[SoT - PRODOS Black Box Protocol]], confidence=high]
 - [[I am enslaved to the work of zetteling]]—_First-person case of system perfectionism and compulsive linking displacing real thinking._ [supports:: [[I am enslaved to the work of zetteling]], confidence=medium]

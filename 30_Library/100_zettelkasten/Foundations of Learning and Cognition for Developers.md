@@ -4,7 +4,7 @@ conformant: true
 created: 2025-05-26T20:23:10+00:00
 definition: The application of the general learning processes, attention, perception and memory, to the specific demands of reading, writing and mastering code.
 distinguishes_from: ["[[How the Brain Learns Core Cognitive Processes]]", "[[The Neuroscience of Developer Cognition]]"]
-modified: 2026-10-23T09:00:00+00:00
+modified: 2026-11-15T10:42:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/foundations-of-learning-and-cognition-for-developers
 status: stable
 tags: [cognition, learning, software-engineering, TheHuman/Cognition]
@@ -59,7 +59,7 @@ This acts as the psychological bridge to [[The Neuroscience of Developer Cogniti
 - [[Desirable Difficulty in Skill Acquisition]]—productive struggle is part of building skill.
 - [[Problem-Solving and Application Consolidate Learning by Actively Using Knowledge]]—building things is what consolidates learning.
 - [[Writing Acts as an External Working Memory]]—notes and written plans offload the bottleneck.
-- [[Digital Tools Help Externalize Memory and Structure for ADHD Developers]]—the same offloading where executive function is weaker.
+- [[SoT - Prosthetic Executive Function]]—the same offloading where executive function is weaker.
 - [[Executive Function Deficits in ADHD Impact Developer Productivity]]—a case where the foundations are not evenly available.
 
 ## Tensions

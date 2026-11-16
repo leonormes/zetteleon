@@ -1,10 +1,14 @@
 ---
 aliases: [Relation Fields, Semantic Links]
-conformant: false
+conformant: true
+contradicts: []
 created: 2025-10-31T08:19:00+00:00
-modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: high
+evidence_links: []
+modified: 2026-11-14T16:49:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/typed-links-for-knowledge-context
+proposition: Typed links use inline relationship syntax to label how two notes relate, transforming bare wikilinks into a machine-readable semantic graph that supports directional navigation and argument compilation.
+status: stable
 tags: [linking, semantics, topic/knowledge-architecture, zettelkasten]
 title: Typed Links for Knowledge Context
 type: claim
@@ -12,27 +16,24 @@ type: claim
 
 ## Typed Links for Knowledge Context
 
-Summary: Typed links use inline field syntax (e.g., `[[Note]] rel:: supports`) to label the relationship between a structural note and an atomic note, transforming bare links into meaningful, machine-readable connections.
+Typed links use inline relationship syntax (`[<relationship>:: [[Target]]]`) to label the relationship between notes, transforming bare `[[wikilinks]]` into meaningful, machine-readable connections.
 
-Details:
+### Mechanism & ProdOS Evolution
 
-A bare wikilink `[[Atomic Note]]` tells you that two notes are connected, but not _why_ or _how_. A typed link answers that question by adding semantic metadata.
+A bare wikilink `[[Atomic Note]]` records only that two notes are associated, not _why_ or _how_. A typed link answers that question by attaching a controlled relationship predicate:
 
-Common relation types include:
+- **Canonical ProdOS Syntax ([[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]):** `[<relationship>:: [[Target]]]` using the closed 7-predicate vocabulary (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`).
+- **Legacy MoC Syntax (Deprecated for Compilation):** Earlier notes used visible inline fields such as `[[Note]] rel:: supports`, `rel:: part-of`, or `rel:: mitigates`. Neither `edge_lint.py` nor K-Plex parses `rel::`; canonical notes use `[<relationship>:: [[Target]]]` plus natural prose explanation on the bullet line.
 
-- `rel:: part-of`: Atomic note is a component of the larger structure
-- `rel:: example-of`: Atomic note exemplifies the concept
-- `rel:: supports`: Atomic note provides evidence for an argument
-- `rel:: contradicts`: Atomic note challenges or opposes the point
-- `rel:: mitigates`: Atomic note reduces risk or provides a solution
+### Why It Matters (Human + Computer Division)
 
-Example: Instead of `[[Error Budgets]]`, you write `[[Error Budgets]] rel:: mitigates strategy:: "Use bounded failure modes"`. This tells both humans and machines that the atomic note "Error Budgets" _mitigates_ a risk mentioned in the structural note.
-
-Typed links are placed inline within the narrative of a structural note (map, argument, comparison). They become queryable via Dataview, enabling you to ask questions like "show me all atomic notes that contradict this argument" or "find examples of X".
-
-Without typed links, a MOC is just a list of links. With typed links, it becomes a semantic graph.
+1. **Human Elaboration:** Choosing a predicate and writing a one-sentence prose annotation forces the author to articulate the exact conceptual bridge rather than hoarding unexamined links ([[Creating Meaningful Links]], [[Eufriction - Productive Friction Strengthens Thinking]]).
+2. **Three-Reader Execution:** Once written by the human, the same `[<relationship>:: [[Target]]]` line is read by Dataview (single-hop queries), **K-Plex** (directional Idea Compass, Mind Map, and Facets), and `edge_lint.py` ([[SoT - Knowledge Compiler (Argument Graph Spec)]] C1–C5 gap, foundation, conflict, and provenance checks).
 
 ## Related
 
-- [[Creating Meaningful Links]] - Details how typed links add the necessary context.
-- [[Personal Context and Relevance are Key to Knowledge Formation]] - Why contextual metadata is critical for a Zettelkasten.
+- [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]—_The authoritative 7-predicate syntax and K-Plex Idea Compass specification implementing this claim._
+- [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_Specifies how the argument compiler interrogates `supports`, `depends_on`, and `contradicts` edges across the vault._ [implements:: [[SoT - Knowledge Compiler (Argument Graph Spec)]], strength=4, confidence=high]
+- [[Claim - Domains relate through named relations, not undifferentiated association]]—_Establishes that named relations carry load-bearing epistemic structure that bare links discard._ [extends:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
+- [[Creating Meaningful Links]]—_Explains why explicit link context is essential for human sense-making._ [extends:: [[Creating Meaningful Links]], strength=4, confidence=high]
+- [[Personal Context and Relevance are Key to Knowledge Formation]]—_Grounds why the human author must supply the relational context._

@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/vague-notes-make-links-between-them-tenuous
 proposition: When notes are vague or lack depth, the links between them are tenuous, because interpreting the connection depends on the existing knowledge and mental models of the reader.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - ambiguity
   - linking
@@ -43,8 +43,8 @@ Source: [[Beyond Words]] (line 44).
 
 ### Related
 
-- [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—shared mechanism: topical notes are epistemically inert, as vague notes are.
-- [[Main Notes Are the Essential Building Blocks]]—shared mechanism: main notes are written in complete sentences to capture one thought, the opposite of vague notes.
-- [[Creating Meaningful Links]]—shared mechanism: link quality depends on the intention behind the connection.
-- [[Committing Thought to Language Reveals Actual Versus Assumed Beliefs]]—shared mechanism: precise written language surfaces the vagueness that unexpressed thought hides.
-- [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]]—extends: explains why a link between two notes depends on the reader's interpretation.
+- [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—_shared mechanism: topical notes are epistemically inert, as vague notes are._
+- [[Main Notes Are the Essential Building Blocks]]—_extends: main notes are written in complete sentences to capture one thought, the opposite of vague notes._ [extends:: [[Main Notes Are the Essential Building Blocks]], strength=4, confidence=high]
+- [[Creating Meaningful Links]]—_shared mechanism: link quality depends on the intention behind the connection._
+- [[Committing Thought to Language Reveals Actual Versus Assumed Beliefs]]—_shared mechanism: precise written language surfaces the vagueness that unexpressed thought hides._
+- [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]]—_extends: explains why a link between two notes depends on the reader's interpretation._ [extends:: [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]], strength=4, confidence=high]

@@ -1,15 +1,16 @@
 ---
 conformant: true
-contradicts: []
+contradicts:
+  - "[[SoT - Prosthetic Executive Function]]"
 created: 2026-10-21T14:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-11-15T10:42:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/an-external-scaffold-is-the-executive-function-for-an-adhd-system-and-not-an-aid-to-it-1
 proposition: On the strong constitutive reading of extended mind theory, an external
   task scaffold is the executive function for an ADHD cognitive system and not an
   aid to it, so removing it removes the faculty and does not merely make tasks harder.
-status: seed
+status: draft
 tags: [executive-function, ext-mind, formal-methods, TheHuman/Health/ADHD, topic/pkm]
 title: An External Scaffold Is the Executive Function for an ADHD System and Not an
   Aid to It
@@ -40,22 +41,17 @@ The SoT dates the Clark and Chalmers paper to 1998 and Paul's book gives 1995. W
 ### Implications
 
 - If the scaffold is part of the cognitive system, losing access to it is a loss of capacity and not an inconvenience. That makes backup, availability and a single point of failure real design concerns for the vault (inferred).
-- It explains why [[External Structure and ADHD]] and [[Discipline Is a Property of External Structure More Than of Will]] treat structure as a property of the system and not of will.
+- It explains why [[SoT - Prosthetic Executive Function]] and [[Discipline Is a Property of External Structure More Than of Will]] treat structure as a property of the system and not of will.
 
 ### Related
 
-[implements:: [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]], strength=3, confidence=medium]
-
-[depends_on:: [[SoT - The Extended Mind]], strength=5, confidence=high]
-
-[extends:: [[SoT - Prosthetic Executive Function]], strength=3, confidence=medium]
-
-- [[SoT - The Extended Mind]]—depends on: the constitutive reading is the parity principle applied to a task scaffold.
-- [[SoT - Prosthetic Executive Function]]—extends: the instrumental design guidance that this claim pushes to a constitutive reading.
-- [[External Structure and ADHD]]—shared mechanism: external timers and boundaries as structure that replaces a failing internal one.
-- [[Writing Acts as an External Working Memory]]—shared mechanism: writing as the externalised working memory in this claim.
-- [[MOC - ADHD Functional Neurology & Scaffolding]]—part of: the map where this claim sits.
+- [[SoT - The Extended Mind]]—_depends on: the constitutive reading is the parity principle applied to a task scaffold._ [depends_on:: [[SoT - The Extended Mind]], strength=5, confidence=high]
+- [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]]—_implements the constitutive-structure stance in the ADHD cognitive system._ [implements:: [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]], strength=3, confidence=medium]
+- [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]—_depends on the internal working-memory bottleneck that forces externalisation of operational state._ [depends_on:: [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]], strength=4, confidence=high]
+- [[Writing Acts as an External Working Memory]]—_shared mechanism: writing as the externalised working memory in this claim._
+- [[MOC - ADHD Functional Neurology & Scaffolding]]—_part of: the map where this claim sits._
 
 ### Tensions
 
-- [[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]—tension, not contradiction: the claim is defensible through extended mind theory but has no formal check of the kind that types and schemas have.
+- [[SoT - Prosthetic Executive Function]]—_tension between strong constitutive scaffolding and EF-independent push floors: adversarial audit shows passive notebooks still fail at initiation unless externally pushed._ [contradicts:: [[SoT - Prosthetic Executive Function]], strength=4, confidence=medium]
+- [[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]—_tension, not contradiction: the claim is defensible through extended mind theory but has no formal check of the kind that types and schemas have._

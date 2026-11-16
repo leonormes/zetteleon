@@ -1,122 +1,199 @@
 ---
-aliases: [Argument Compiler, Argument Graph, Belief Tracing, Knowledge Compiler]
+aliases:
+  - Argument Compiler
+  - Argument Graph
+  - Belief Tracing
+  - Knowledge Compiler
 conformant: true
+contrasts_with:
+  - "[[The Danger of Perpetual System-Building]]"
+  - "[[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]"
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-14T19:58:49+00:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-compiler-argument-graph-spec
-see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"]
 project_category: prodos
-tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
+see_also:
+  - "[[SoT - Human vs AI Cognition]]"
+  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
+  - "[[SoT - Unified Writing to Think Process]]"
+status: stable
+tags:
+  - domain/pkm
+  - topic/knowledge-architecture
+  - topic/knowledge-graph
+tension:
+  - "[[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]"
 title: SoT - Knowledge Compiler (Argument Graph Spec)
 type: sot
+upstream:
+  - "[[SoT - Processing IS the Work]]"
+  - "[[SoT - PRODOS Core Specification]]"
+  - "[[SoT - The Extended Mind]]"
 ---
 
-> Open threads: [[HEAD - Is the argument compiler's gap definition measuring anything real?]]
-
-> Canonical status: this note specifies the semantics and compiler capabilities of the knowledge graph—what the tool _computes_ and _answers_. Its sibling [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] fixes the syntax (how edges are written and resolved). The validator is `10_System/scripts/edge_lint.py`; capabilities below extend it. Roadmap in §5 is the source of truth for build order—do one phase, ship it, then reassess.
+> Canonical status: this note specifies the semantics, cognitive boundary, and compiler capabilities of the knowledge graph—what the tool _computes_ and _answers_. Its sibling [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] fixes the syntax (how edges are written and resolved). The validator/compiler is `10_System/scripts/edge_lint.py`; alongside Dataview and K-Plex (`.obsidian/plugins/k-plex/`), it forms the vault's three-reader architecture.
 
 ## Minimum Viable Understanding (MVU)
 
-The vault holds atomic claims. A typed edge records _why_ one claim stands: `A supports B`, `A contradicts B`, `A depends_on B`. Once enough claims are wired this way, the collection stops being a pile of notes and becomes a directed argument graph—and a graph can be interrogated by a computer in ways a human cannot hold in their head. Four questions become mechanical: _Where is my argument unsupported?_ (a claim doing work with nothing beneath it). _What are my actual foundations?_ (the axioms everything rests on). _Where do I contradict myself?_ (conflicting or circular claims). _Why do I believe X, and what falls if X falls?_ (trace the justification thread up and down). This is Zettelkasten's atomicity plus a compiler: not a theorem prover and not a truth oracle, but a bookkeeper for your own reasoning that flags the gaps, roots, and contradictions you would otherwise miss. It is opt-in—most notes never join the argument graph, and that is fine.
+The vault holds atomic claims (`type: claim`). A typed edge records _why_ one claim stands (`[supports:: [[Target]]]`, `[depends_on:: [[Target]]]`, `[contradicts:: [[Target]]]`). Once enough claims are wired this way, the collection stops being a pile of notes and becomes a directed argument graph that a computer can interrogate in ways biological working memory cannot hold in RAM:
 
-## 1. Vision & Scope
+- _Where is my argument unsupported?_ (C1 gaps: a load-bearing claim with nothing beneath it).
+- _What are my actual foundations?_ (C2: declared axioms vs. smuggled assumptions vs. empirical bedrock).
+- _Where do I contradict myself?_ (C3: explicit conflicts, live tensions, and circular reasoning).
+- _Why do I believe X, and what falls if X falls?_ (C4: provenance and impact trees).
+- _What already exists near a new thought?_ (C5: token-overlap routing at ingest so duplicates never silently land).
 
-In scope. Claims (and claim-blocks) that participate in reasoning, connected by justification edges, plus a compiler that computes epistemic properties of that graph (§3) and reports them—never auto-edits.
+Three readers share one on-disk edge syntax: `edge_lint.py` compiles the whole argument graph, Dataview answers live single-hop queries, and K-Plex projects relationships onto the interactive Idea Compass, Mind Map, and Facets views. The computer is a strict epistemic bookkeeper, not a truth oracle or surrogate thinker: it surfaces structural blind spots so the human author is forced to think deeper, ground claims, or drop illusions.
+
+---
+
+## 1. Vision, Scope & The Cognitive Division of Labour (ProdOS Alignment)
+
+In scope. Claim notes (and `content-block` blocks) participating in reasoning via justification edges, compiled by `10_System/scripts/edge_lint.py` and surfaced report-only—never auto-edited.
 
 Explicitly out of scope.
 
-- Not all content is argumentation. Reference notes, procedures, journal entries, MoCs—most of the vault—never join the argument graph and are never flagged for "missing support". A note is in the graph _only_ if it emits or receives a justification edge.
-- Not a logic engine. No formal soundness, no proof checking, no truth values. `A supports B` is a bookkeeping assertion _you_ made, not a validated inference. The compiler checks graph _shape_, not logical validity.
-- No belief enforcement. The tool surfaces gaps and conflicts; resolving them is always a human decision.
+- Not all content is argumentation. Procedures, SoTs, MoCs, journals, and reference notes never get flagged for "missing support" unless they emit or receive justification edges (`not is_claim` nodes with outgoing `supports` count as non-claim bedrock).
+- Not a logic engine. No formal soundness or truth oracle: `[supports:: [[Target]]]` records a human bookkeeping assertion. The compiler verifies graph _shape_, not logical validity.
+- No belief enforcement. The tool exposes structural gaps, cycles, and conflicts; resolving them is always a human decision.
+
+### 1.1 Enhancing Thinking vs. Replacing It (The ProdOS Boundary)
+
+ProdOS enforces a hard boundary between Execution and Learning ([[SoT - PRODOS Core Specification]] §3 & §5, [[SoT - Processing IS the Work]] §6):
+
+- GTD Execution (_Rule of Zero Toil_): Administrative sorting, tagging, and task routing waste ADHD executive function and are safely offloaded to the LLM Chief of Staff ([[Protocol - Action-First GTD (LLM Chief of Staff)]]).
+- PKM & Sense-Making (_Productive Friction / Eufriction_): Understanding cannot be outsourced. Cognitive strain is not a cost to eliminate—it is the mechanism that builds mental models and competence ([[Eufriction - Productive Friction Strengthens Thinking]], [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]). If an agent drafts propositions or stitches ideas silently, the vault grows in file count while human comprehension atrophies ([[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]], [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]).
+
+Therefore, the Knowledge Compiler divides labour cleanly between silicon and mind ([[SoT - The Extended Mind]], [[SoT - Human vs AI Cognition]]):
+
+| Responsibility | Computer (`edge_lint.py` + K-Plex + Agents) | Human Author (Leon) |
+|:--- |:--- |:--- |
+| Memory & Traversal | Hold 700+ nodes in index; trace multi-hop `--why`/`--impact` chains and DFS cycles beyond working memory ([[Writing Acts as an External Working Memory]]). | Interpret meaning, run causal mental simulations, and judge whether a purported reason actually holds. |
+| Epistemic Diagnosis | Flag C1 unsupported load-bearing claims, C3 live tensions, dangling edges, and near-duplicate ingest candidates (`--route`). | Decide whether to research/write support, narrow scope into a `HEAD` tension, set `axiom: true`, or discard the claim. |
+| Authorship & Grounding | Enforce report-only TAC discipline ([[SoT - Typed Answer Contract (TAC) for LLM Output]]); never touch `own_words: true` notes (`AGENTS.md` §6). | Author genuine claims in own words ([[SoT - Unified Writing to Think Process]]), supplying lived experience and symbol grounding. |
+
+- Forcing Function Against IoED: By catching load-bearing claims that lack upstream evidence or axiom flags, the compiler breaks the Illusion of Explanatory Depth ([[SoT - Illusion of Explanatory Depth (IoED)]]) and sends the author back into [[SoT - Unified Writing to Think Process]] (Stages 3–5) or a `HEAD - <question>?` workbench note ([[SoT - HEAD Note Contract (The Workbench)]]).
+- Formal Closure Limit & Anti-Tinkering Guardrail: Unlike compiler type-checkers or infrastructure state reconciliation engines, cognitive scaffolds lack formal closure against reality ([[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]). Tooling serves inquiry—expanding compiler complexity without exercising it on real claims violates the anti-tinkering guardrail ([[The Danger of Perpetual System-Building]], [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]).
+
+---
 
 ## 2. The Model (Minimal)
 
-Three primitives, nothing more:
+Three primitives govern the argument graph; note-level YAML conformance and atomic proposition quality are gated alongside it by `10_System/scripts/validate_note_frontmatter.py` ([[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]) and `10_System/scripts/validate_note_shape.py` ([[SoT - Atomic Note Standard (The Proposition Card)]]):
 
 | Primitive | What it is | How it's written |
-|:---|:---|:---|
-| Claim node | An atomic assertion that can be true or false. | A note `type: claim`, or a `content-block type="claim" id="…"`. |
-| Justification edge | A directed "reason" relationship between claims. | A typed edge (§4): `[supports:: [[Target]]]` etc. |
-| Axiom marker | Declares a claim _foundational_—deliberately unsupported, a starting premise. | `axiom: true` in frontmatter (note-level), or `axiom="true"` on the `content-block-start` comment (block-level). |
+|:--- |:--- |:--- |
+| Claim node | An atomic assertion that can be true or false. | A note `type: claim`, or a `<!--content-block-start type="claim" id="…"-->` block. |
+| Justification edge | A directed "reason" or conflict relationship. | An inline typed edge (§4): `[supports:: [[Target]]]`, `[depends_on:: [[Target]]]`, `[contradicts:: [[Target]]]`. |
+| Axiom marker | Declares a claim _foundational_—deliberately chosen premise, ungrounded by design. | `axiom: true` in frontmatter (note-level), or `axiom="true"` on the `content-block-start` comment (block-level). |
 
-That is the whole data model. Everything the compiler does (§3) is a graph computation over these three things.
+---
 
-## 3. What the Compiler Computes (The fOur cApabilities)
+## 3. What the Compiler Computes (Capabilities C1–C5)
 
-Direction convention: `A supports B` is an edge A → B, read "A is a reason for B". So B's justification is found by walking edges _backwards into_ B. The same holds for `depends_on` (A depends_on B = A → B, "A presupposes B"). Together these two are the justification edges; `contradicts` is a symmetric conflict edge.
+Direction convention in `10_System/scripts/edge_lint.py`: `A [supports:: [[B]]]` adds `(A, B)` to the justification graph (`sup_out[A] += 1`, `sup_in[B] += 1`), read _"A is a reason for B"_. `A [depends_on:: [[B]]]` adds `(A, B)` (`dep_out[A] += 1`, `dep_in[B] += 1`), read _"A presupposes B"_.
 
-### C1—Gap Detection (Unsupported wOrking cLaims)
+### C1—Gap Detection (`--audit`)
 
-- Definition: a claim node that (a) _supports something_ (out-degree ≥ 1 on justification edges) but (b) has _no incoming_ justification edge and (c) is _not_ marked `axiom`.
-- Answers: _"Where does my argument assert something it never justifies?"_
-- Why this definition: a claim that supports nothing and is supported by nothing is just an isolated note—not a gap. A gap is a claim _doing load-bearing work_ with nothing beneath it and no honest "I take this as given" flag. The fix is a forced, healthy choice: add support, or declare it an axiom.
+- Definition: A `type: claim` node that is load-bearing (`sup_out >= 1` or `dep_in >= 1`—either it supports something else or something depends on it) while ungrounded (`sup_in == 0` and not `axiom: true`).
+- Answers: _"Where does my argument assert something load-bearing without grounding it?"_
+- Why: Isolated claims with no edges stay silent. A claim doing load-bearing work forces an explicit human choice: supply incoming support, or consciously mark `axiom: true`.
 
-### C2—Foundation Audit (Roots & aXioms)
+### C2—Foundation Audit (`--audit`)
 
-- Definition: two sets. _Declared axioms_ = nodes with `axiom: true`. _Undeclared foundations_ = the C1 gap set (unsupported load-bearing claims).
-- Answers: _"What does my whole structure actually rest on—and which of those foundations have I consciously chosen versus smuggled in?"_
-- Note: every undeclared foundation is a decision waiting to be made. Resolving C1 gaps _is_ the act of auditing your foundations; the two capabilities are the same computation viewed from opposite ends.
+Reports three foundation sets:
 
-### C3—Conflict Detection
+1. Declared axioms: participating nodes with `axiom: true`.
+2. Undeclared foundations: the C1 gap set (load-bearing claims not yet grounded or marked `axiom: true`).
+3. Non-claim bedrock: non-claim, non-axiom nodes (`evidence`, `sot`, `source`, `journal`, etc.) with `sup_out >= 1`—legitimate external leaves that ground claims without needing support themselves.
 
-- Definition (v-first): (a) any `contradicts` edge = a live conflict; (b) any _cycle_ in the `supports`/`depends_on` graph = circular reasoning.
-- Answers: _"Where do I hold claims that fight each other, or justify a claim using itself?"_
-- Deferred (v-later): _derived_ contradiction—a claim transitively supported by both X and something that contradicts X. Powerful but needs the traversal engine (C4) first.
+### C3—Conflict & Tension Detection (`--audit`)
 
-### C4—Provenance / Thread-pulling
+Checks three conflict shapes in the graph:
 
-- Definition: two traversals from a chosen node X. _Why(X)_ = the transitive closure of justification edges _into_ X, down to axioms/leaves—the justification tree. _Impact(X)_ = the transitive closure _out of_ X—everything that would be threatened if X fell.
-- Answers: _"Why do I believe X, all the way to bedrock?"_ and _"If X turns out wrong, what else collapses?"_
-- Output: an indented tree (text first; visualisation is a later luxury).
+1. Explicit contradiction edges: any `[contradicts:: [[Target]]]` edge.
+2. Live tensions: `type: claim` nodes that are simultaneously supported (`sup_in >= 1`) and in conflict (`contra >= 1`)—held beliefs you have argued both for and against.
+3. Circular reasoning: directed DFS cycles in the combined `supports`/`depends_on` graph.
 
-## 4. Relationship Vocabulary (The aRgumentation sUbset)
+- Contradiction vs. Scoped Tension Gate ([[Prompt - Vault Ingest Router]] Gate 3): Before adding `[contradicts::]`, apply the assumption probe: _"Can both claims hold if you change one background assumption?"_ If yes, keep both valid and record a scoped tension (`> Open threads:` → `HEAD` note or `tension:` frontmatter). If no (shared assumption violated), emit `[contradicts:: [[Target]]]`.
+- Deferred: derived transitive contradictions (`X` supported by `A` and something contradicting `A`).
 
-The full vocabulary lives in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Of its six relationships, three are justification/conflict edges and carry the argument graph:
+### C4—Provenance & Impact Thread-Pulling (`--why <TITLE>`, `--impact <TITLE>`)
 
-| Edge | Meaning (A → B) | Role in the graph |
-|:---|:---|:---|
-| `supports` | A is evidence or a reason for B. | justification (inferential) |
-| `depends_on` | A presupposes B; B is a premise of A. | justification (presuppositional) |
-| `contradicts` | A conflicts with B (symmetric). | conflict |
+- `--why <TITLE>`: Traverses incoming `supports` and outgoing `depends_on` down to axioms and bedrock leaves (_"Why do I believe X, down to bedrock?"_).
+- `--impact <TITLE>`: Traverses outgoing `supports` and incoming `depends_on` (_"If X falls, what else collapses?"_).
 
-The other three (`extends`, `synthesizes`, `implements`) are structural, not argumentative—the compiler ignores them for C1–C3 and may optionally include them in C4 provenance as weak/structural links (flagged as such). No new relationship types are needed for v1; if argumentation reveals a genuine gap (e.g. a distinct `rebuts` vs `undercuts`), it is added _there_, not here.
+### C5—Ingest Routing, Graph Export & Regression (`--route`, `--export-json`, `--regress`)
 
-## 5. Roadmap (Iterate slowly—one cApability per pHase)
+- `--route "<proposition>"`: Jaccard token-overlap matcher against graph-participating claims (displaying `grounded` / `axiom` / `GAP` status) plus unwired vault claims, used by [[Prompt - Vault Ingest Router]] Gate 1 so new thoughts attach to the existing graph rather than landing as duplicate orphans.
+- `--export-json <file>`: Exports resolved nodes and edges as structured JSON.
+- `--regress`: Runs deterministic self-contained fixture cases in `10_System/evals/structural/` covering target resolution, syntax masking, and lint warnings.
 
-| Phase | Capability | Build | Status |
-|:---|:---|:---|:---|
-| v0 | Typed edges + resolution | `edge_lint.py`—no danglers, controlled vocab, targets resolve. | done |
-| v1 | Gap detection + foundation audit (C1, C2) | Add the `axiom` marker; add `edge_lint.py --audit`: build the justification subgraph, list gaps and declared-vs-undeclared foundations. | built, unused |
-| v2 | Conflict detection (C3) | Report `contradicts` edges; detect cycles in the supports graph. | built, untested—no `contradicts` edge exists yet |
-| v3 | Provenance (C4) | `edge_lint.py --why <title>` and `--impact <title>`—print the justification / impact tree. | built, working |
-| v4+ | Derived contradictions, strength-weighted confidence, visualisation, cross-note argument views (Bases) |—| deferred |
+---
 
-Each phase is shippable alone and adds exactly one epistemic answer. Do not build vN+1 until vN has been used on real claims and earned its place.
+## 4. Relationship Vocabulary & K-Plex Visual Projection
 
-> Status correction (2026-07-25). This table previously read `v1 next / v2 planned / v3 planned`. All three were in fact already implemented in `edge_lint.py`. The build discipline above was therefore not followed—v1–v3 were written in one pass, ahead of the data. The honest current state is that the _code_ runs but only v0 and v3 have been exercised against real edges: v1 returns 12 gaps (below), and v2 has never fired, because the vault contains zero `contradicts` edges. The next task is not more code; it is recording a real contradiction and a real axiom so v1 and v2 can be judged on output rather than assumed correct.
+The full controlled vocabulary is defined in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (7 closed predicates):
+
+| Edge | Meaning (Source → Target) | Compiler Role (`edge_lint.py`) | K-Plex Idea Compass Axis |
+|:--- |:--- |:--- |:--- |
+| `supports` | Source is evidence or reason for Target. | Argumentation (`--audit`, `--why`, `--impact`) | West (`supports` ↔ `supported_by`) |
+| `depends_on` | Source presupposes Target as a premise. | Argumentation (`--audit`, `--why`, `--impact`) | North (`depends_on` ↔ `prerequisite_of`) |
+| `contradicts` | Source conflicts with / negates Target. | Conflict (`--audit`: contradictions, live tensions) | East (`contradicts`, symmetric) |
+| `extends` | Source builds on or specialises Target. | Syntactic / resolution validation only | North (`extends` ↔ `extended_by`) |
+| `implements` | Source concretises abstract Target. | Syntactic / resolution validation only | North (`implements` ↔ `implemented_by`) |
+| `synthesizes` | Hub summarises component Targets. | Syntactic / resolution validation only | South (`synthesizes` ↔ `synthesized_in`) |
+| `revises` | Source updates an earlier formulation. | Syntactic / resolution validation only | Sequence (`revises` ↔ `revised_by`) |
+
+- K-Plex Visual Layer: Because `inferAllLinksAsFriends: false` in K-Plex, only typed inline `[…]` edges and configured frontmatter fields render on Compass (`classic`), Mind Map (`mindmap`), and Facets (`wuxing`, grouping nodes by `type` via `prodos-types` and lifecycle `status` via `prodos-status`). Never duplicate an inline typed-edge target in frontmatter `see_also` (`frontmatter-overrides-body-ontology` precedence collapses North/South/East roles into West).
+
+---
+
+## 5. Implementation Status & Live Vault Baseline
+
+| Phase | Capability | Tooling | Status |
+|:--- |:--- |:--- |:--- |
+| v0 | Controlled vocabulary & wikilink target resolution | `edge_lint.py` | Live |
+| v1 | C1 Gap detection & C2 Foundation audit | `edge_lint.py --audit` | Live |
+| v2 | C3 Conflict detection (contradictions, live tensions, DFS cycles) | `edge_lint.py --audit` | Live |
+| v3 | C4 Justification provenance & impact trees | `edge_lint.py --why` / `--impact` | Live |
+| v3.5 | C5 Ingest claim routing, JSON graph export, fixture regression suite, K-Plex Compass/Facets | `--route`, `--export-json`, `--regress`, `k-plex` | Live |
+| v4+ | Derived transitive contradictions, strength-weighted propagation |—| Deferred |
+
+- Live Vault Baseline (2026-11-14): `edge_lint.py --audit` indexes 792+ participating nodes, 950+ justification edges, and 52 contradiction edges (`95 gap(s), 98 axiom(s), 113 bedrock, 52 contradiction(s), 10 live tension(s), 44 cycle(s)`).
+- Operational Workflows: Maintained via [[Prompt - Vault Ingest Router]] (pre-write routing), [[Note Refresh & Link Auditor]] (note-level wiring), [[Justification Graph Audit & Gap Closure]] (human-approved axiom/support closure), and [[Prompt - Vault Graph Programme (Session Driver)]].
+
+---
 
 ## 6. Simplicity Guards (Non-goals)
 
-- Report-only, always. The compiler proposes; it never rewrites a note (mirrors `edge_lint.py` and the `UNSURE` discipline in [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]).
-- Opt-in graph. Silence on a note is the default. Only claims with justification edges are ever assessed.
-- No confidence maths yet. `strength`/`confidence` attributes stay advisory prioritisation aids, not inputs to a computed truth score, until a real need proves otherwise (see the schema-complexity ceiling in [[SoT - Typed Answer Contract (TAC) for LLM Output]]).
-- One marker, no ontology. The only new schema element in v1 is the boolean `axiom`. Resist adding node kinds or edge types speculatively.
+- Report-only, always. The compiler diagnoses; it never rewrites a note (mirrors `edge_lint.py`, TAC `UNSURE` discipline in [[SoT - Typed Answer Contract (TAC) for LLM Output]], and `own_words: true` protection in `AGENTS.md` §6).
+- Opt-in graph. Silence on non-argument notes is by design.
+- No computed truth maths. `strength` (1–5) and `confidence` (`high`/`medium`/`low`) stay advisory human markers rather than automated truth weights ([[SoT - Typed Answer Contract (TAC) for LLM Output]]).
+- Minimal schema. One boolean (`axiom: true`) and one closed 7-predicate set; add structure only when real reasoning proves it necessary.
 
-## 7. Open Questions (Deferred dEcisions)
+---
 
-- Axiom representation. `axiom: true` (chosen, minimal) vs an `epistemic_status: axiom` enum value vs a `#axiom` tag. Boolean chosen for orthogonality (an axiom can be highor low-confidence), but revisit if it clutters frontmatter.
-- Do structural edges count in provenance? C4 could include `extends`/`implements` as weak lineage. Default: exclude from C1–C3, optionally include in C4 with a flag. Decide when C4 is built.
-- Block-level vs note-level claims. The model supports both, but mixing them raises the block-id-uniqueness question from the Edge Vocabulary SoT §4. Prefer note-level claims until block-level proves necessary for a real argument.
-- Scope of the graph scan. Whole vault, or a designated `argument/` corpus? Default whole-vault (opt-in via edges means noise is naturally low); reassess if scans get slow or noisy.
+## 7. Open Questions (Deferred Decisions)
 
-> Open threads: [[HEAD - Is the argument compiler's gap definition measuring anything real?]] · [[HEAD - How should derived contradictions be surfaced without full transitive explosion?]]
+- Derived contradictions without explosion: When to implement v4 transitive conflict detection ([[HEAD - How should derived contradictions be surfaced without full transitive explosion?]]).
+- Gap precision: Whether current C1 gap criteria measure genuine inferential debt cleanly at scale ([[HEAD - Is the argument compiler's gap definition measuring anything real?]]).
+- Block-level vs. note-level claims: Keep preferring atomic note-level claims (`validate_note_shape.py`) until block-level arguments prove essential.
+- Structural provenance flag: Whether an optional `--why --include-structural` mode should trace `extends`/`implements` alongside `supports`/`depends_on`.
 
-### Compiler Operational Notes
+---
 
-- **Graph Shape Frontier:** The justification graph computes structural shape (C1 gaps, C2 foundation roots, C3 cycles). As the graph deepens beyond shallow stars, C1 transitions from frontier exploration to defect detection.
-- **Author Grounding:** Edges record author-asserted justification structure; logical validity remains a human decision rather than an automated theorem proof.
-- **Atomicity Prerequisite:** Clean graph verification requires propositions to adhere to [[SoT - Atomic Note Standard (The Proposition Card)]].
+## 8. Related Architecture & Epistemic Claims
 
-[depends_on:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=5, confidence=high]
-
-[supports:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=medium]
+- [[SoT - PRODOS Core Specification]]—_Implements Phase 2 Refinement & Architect Mode graph verification._ [implements:: [[SoT - PRODOS Core Specification]], strength=5, confidence=high]
+- [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]—_Depends on the closed 7-predicate syntax and K-Plex Compass mapping._ [depends_on:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=5, confidence=high]
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_Depends on `type: claim`, `status`, and `axiom` metadata schema._ [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], strength=4, confidence=high]
+- [[SoT - Atomic Note Standard (The Proposition Card)]]—_Depends on atomic, single-proposition notes so graph edges remain clean and unambiguous._ [depends_on:: [[SoT - Atomic Note Standard (The Proposition Card)]], strength=4, confidence=high]
+- [[Claim - Domains relate through named relations, not undifferentiated association]]—_Provides the machine-checkable graph capabilities that make typed relations load-bearing._ [supports:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
+- [[SoT - Processing IS the Work]]—_Operationalises the PKM half of Processing IS the Work by exposing structural gaps for human synthesis rather than automating thinking._ [supports:: [[SoT - Processing IS the Work]], strength=4, confidence=high]
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—_Acts as a structural forcing function that exposes ungrounded assumptions hiding behind familiarity._ [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]
+- [[Eufriction - Productive Friction Strengthens Thinking]]—_Synthesises desirable cognitive friction into automated gap detection that prompts deeper human elaboration._ [synthesizes:: [[Eufriction - Productive Friction Strengthens Thinking]], strength=4, confidence=high]
+- [[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]]—_Synthesises the boundary that digital tools handle storage, retrieval, and graph traversal while understanding stays human._ [synthesizes:: [[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]], strength=4, confidence=high]
+- [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—_Synthesises the principle that human lived context supplies the meaning behind every connection._ [synthesizes:: [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]], strength=4, confidence=high]
+- [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]—_Synthesises the rule that propositions and arguments must be authored by the human, never auto-generated._ [synthesizes:: [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]], strength=4, confidence=high]
+- [[A Proposed Eight-Predicate Edge Vocabulary for Typed PKM Links]]—_Synthesises the closed-vocabulary and contradiction-vs-tension design lessons into the production compiler._ [synthesizes:: [[A Proposed Eight-Predicate Edge Vocabulary for Typed PKM Links]], strength=3, confidence=high]

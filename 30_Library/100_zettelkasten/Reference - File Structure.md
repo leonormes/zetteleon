@@ -4,12 +4,9 @@ conformant: true
 contrasts_with:
 - '[[Practice - Flat linking and tagging]]'
 created: 2026-01-03T10:07:49+00:00
-modified: 2026-11-14T13:42:00+00:00
+modified: 2026-11-15T10:17:00+00:00
 permalink: llmeon/30-library/so-t/reference-file-structure
 project_category: prodos
-see_also:
-- '[[SoT - HEAD Note Contract (The Workbench)]]'
-- '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
 status: stable
 tags:
 - architecture
@@ -50,7 +47,7 @@ To maximize LLM context window efficiency and human retrieval speed, the vault f
 
 #### C. System Tooling (`10_System/`)
 
-- Contents: Templates, validators (`validate_note_frontmatter.py`, `validate_note_shape.py`, `edge_lint.py`), fileClasses, and `10_System/prompts/` governed by `[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]`.
+- Contents: Templates, validators (`validate_note_frontmatter.py`, `validate_note_shape.py`, `edge_lint.py`), fileClasses, and `10_System/prompts/` governed by `[[SoT - Typed Answer Contract (TAC) for LLM Output]]`.
 
 #### D. The Workbench (`20_Thinking/21_Workbench/`)
 
@@ -81,7 +78,7 @@ We do not "file" notes by topic folder in ProdOS; we Type, Tag, and Link.
 
 ### Related
 
-- [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
-- [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
-- [depends_on:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=high]
-- [supports:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]
+- [[SoT - PRODOS Core Specification]]—_Implements the directory and lifecycle boundary architecture of ProdOS._ [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_Type and schema rules that replace topic subfolders in 30_Library/100_zettelkasten/._ [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
+- [[SoT - HEAD Note Contract (The Workbench)]]—_Admission control and 99_Archive retirement rules for 20_Thinking/21_Workbench/._ [depends_on:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=high]
+- [[SoT - Execution Protocol (GTD & PARA)]]—_Aligns vault project anchors and archive boundaries with GTD execution._ [supports:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]

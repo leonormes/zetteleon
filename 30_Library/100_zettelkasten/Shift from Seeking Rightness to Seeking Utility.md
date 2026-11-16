@@ -1,5 +1,7 @@
 ---
-aliases: [Confidence from Utility, Pragmatic Truth]
+aliases:
+- Confidence from Utility
+- Pragmatic Truth
 conformant: true
 contradicts: []
 created: 2025-11-06T19:58:02+00:00
@@ -7,8 +9,13 @@ epistemic_status: medium
 evidence_links: []
 modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/shift-from-seeking-rightness-to-seeking-utility
-proposition: "Since objective 'rightness' is an unattainable epistemic standard, a more stable foundation for confidence is a belief's utility—whether it is effective and leads to a better outcome—rather than a claim to objective truth."
-tags: [confidence, pragmatism, truth, utility]
+proposition: Since objective 'rightness' is an unattainable epistemic standard, a more stable foundation for confidence is a belief's utility—whether it is effective and leads to a better outcome—rather than a claim to objective truth.
+status: stable
+tags:
+- confidence
+- pragmatism
+- truth
+- utility
 title: Shift from Seeking Rightness to Seeking Utility
 type: claim
 ---

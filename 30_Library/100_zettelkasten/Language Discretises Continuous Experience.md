@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/language-discretises-continuous-experience
 proposition: Language maps a continuous range of experience onto a finite set of words, so nuance is lost in the mapping.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - discretisation
   - emotion
@@ -43,11 +43,11 @@ Source: [[Beyond Words]] (line 296).
 
 ### Related
 
-- [[Communication Is Inherently Lossy Like Image Compression]]—extends: identifies one source of the loss: naming a continuous state with a finite vocabulary.
-- [[Qualia and Linguistic Limitations]]—shared mechanism: both mark experience that resists complete linguistic capture.
-- [[Ideas Exist Beyond Linguistic Expression]]—shared mechanism: the idea outruns the words chosen for it.
-- [[Thoughts are bundled with phenomenological qualities]]—shared mechanism: both concern qualities of experience that words do not carry.
-- [[Writing isolates propositional content from phenomenological experience]]—shared mechanism: writing likewise strips the felt qualities of a thought.
+- [[Communication Is Inherently Lossy Like Image Compression]]—_extends: identifies one source of the loss: naming a continuous state with a finite vocabulary._ [extends:: [[Communication Is Inherently Lossy Like Image Compression]], strength=4, confidence=high]
+- [[Qualia and Linguistic Limitations]]—_extends: captures subjective experience that resists finite discretisation._ [extends:: [[Qualia and Linguistic Limitations]], strength=4, confidence=high]
+- [[Ideas Exist Beyond Linguistic Expression]]—_shared mechanism: the idea outruns the words chosen for it._
+- [[Thoughts are bundled with phenomenological qualities]]—_shared mechanism: both concern qualities of experience that words do not carry._
+- [[Writing isolates propositional content from phenomenological experience]]—_shared mechanism: writing likewise strips the felt qualities of a thought._
 
 ### See Also
 

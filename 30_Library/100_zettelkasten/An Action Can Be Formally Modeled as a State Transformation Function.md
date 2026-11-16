@@ -1,11 +1,17 @@
 ---
-aliases: [Formal Action Model]
+aliases:
+- Formal Action Model
 conformant: false
 created: 2025-11-10T15:04:00+00:00
 modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+non_conformance_reason: missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)
 permalink: llmeon/30-library/100-zettelkasten/an-action-can-be-formally-modeled-as-a-state-transformation-function
-tags: [action, model, theory, topic/productivity]
+status: stable
+tags:
+- action
+- model
+- theory
+- topic/productivity
 title: An Action Can Be Formally Modeled as a State Transformation Function
 type: claim
 ---

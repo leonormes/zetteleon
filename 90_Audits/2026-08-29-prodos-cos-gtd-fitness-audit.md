@@ -4,7 +4,15 @@ created: 2026-08-28T23:00:00+00:00
 modified: 2026-10-22T15:11:06+00:00
 non_conformance_reason: ''
 permalink: llmeon/90-audits/2026-08-29-prodos-cos-gtd-fitness-audit
-tags: [1, adhd, audit, cos, executive-function, gtd, prodos]
+status: stable
+tags:
+- 1
+- adhd
+- audit
+- cos
+- executive-function
+- gtd
+- prodos
 title: 2026-08-29-prodos-cos-gtd-fitness-audit
 type: note
 ---

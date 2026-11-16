@@ -109,6 +109,7 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 - [[SoT - The Cognitive Physiology of Task Execution]]—_Explains the neurological basis of the "Wall of Awful" and the Mood Repair Trap._
 - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]—_Broader strategies for managing the emotional and cognitive loops that block processing._
 - [[Stage 5 Synthesise (The Outcome Layer)]]—_The practical workflow for the final stage of the processing cycle._
+- [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_Computes structural gaps, foundations, and conflicts across the argument graph to prompt human synthesis without automating away the thinking._
 
 ---
 

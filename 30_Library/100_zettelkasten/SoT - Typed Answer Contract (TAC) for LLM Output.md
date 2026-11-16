@@ -1,73 +1,108 @@
 ---
-aliases:
-- Structured Output Contract
-- TAC
-- Typed Answer Contract
+aliases: [Output Contract, Protocol - Typed Answer Contract, Structured Output Contract, TAC, Typed Answer Contract, Vault Agent Output Contract]
 conformant: true
+contrasts_with: ["[[SoT - Context Rot]]"]
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-11-14T13:45:00+00:00
+modified: 2026-11-14T17:08:14+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-answer-contract-tac-for-llm-output
 project_category: prodos
-see_also:
-- '[[MOC - AI Software Engineering]]'
-- '[[MVC Enforcement Structural Gates for LLM Agents]]'
-- '[[SoT - Agentic AI Design Patterns]]'
-- '[[SoT - AI Agent Skill Architecture]]'
-- '[[SoT - PRODOS Core Specification]]'
+see_also: ["[[Goal - Orphan Triage Sweep (Daily Cron)]]", "[[SoT - Agentic AI Design Patterns]]", "[[SoT - AI Agent Skill Architecture]]", "[[SoT - Knowledge Compiler (Argument Graph Spec)]]"]
 status: stable
-tags:
-- domain/ai
-- prodos/sot
-- topic/pkm
+tags: [domain/ai, prodos/sot, sot, topic/pkm, type/protocol]
 title: SoT - Typed Answer Contract (TAC) for LLM Output
 type: sot
-upstream:
-- '[[SoT - PRODOS Core Specification]]'
+upstream: ["[[SoT - Flow Engineering]]", "[[SoT - PRODOS Core Specification]]"]
 ---
 
-[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]
-[implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+> Canonical status: this note is the unified Source of Truth and enforcement protocol for the Typed Answer Contract (TAC) across both production LLM pipelines and ProdOS vault agents.
 
 ## Minimum Viable Understanding (MVU)
 
-An LLM should never return free-form prose as its final answer when the answer needs to be trusted, checked, or acted on. Force the output into a small structured contract instead—a schema with fields for the answer, a confidence score, source references, and an explicit "I don't have enough information" flag—and reject or hold back any output that fails to fill it in honestly. In production RAG systems this is enforced with a Pydantic/JSON schema and a validating library (`instructor`); in the ProdOS vault it is enforced with a markdown-native rule set (see [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]). Either way, the mechanism is the same: structure forces honesty about what the model actually knows, catching hallucination _before_ it reaches the user rather than relying on the user to catch it after the fact.
+An LLM must never return ungrounded free-form prose when its output needs to be trusted, checked, or written to the vault. Fluent prose masks hallucination behind the illusion of substance ([[Felt significance of thoughts can mislead about their substance]]). Force the output into a small Typed Answer Contract (TAC) instead: explicit confidence, traceable source citations, a mandatory `missing_info` / `UNSURE` escape hatch, and hard structural validation gates before any file mutation is accepted. In code RAG systems this is enforced via Pydantic/`instructor`; in the ProdOS vault it is enforced via a Two-Tier Gate (`AGENTS.md` §7 + executable CLI validators).
 
-## Working Knowledge (Core Concepts)
+---
 
-The Typed Answer Contract pattern, as described in the source article ("Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination," TDS, July 2026), replaces a RAG system's free-text response with a validated schema containing:
+## 1. The Vault Agent Output Contract (The 4 Mandatory Rules)
 
-- `answer`—the actual response content.
-- `is_definitive`—whether the model believes this fully answers the question, as opposed to a partial or hedged answer.
-- `confidence`—a 0–1 self-assessed score for how well-supported the answer is by retrieved context.
-- `source_ids`—explicit references to which retrieved chunks/documents were actually used, enabling traceability.
-- `missing_info`—a boolean flag: if true, the answer is _never surfaced to the user_—the system instead reports that it cannot answer, rather than guessing.
-- `evidence` (in extraction variants)—sub-fields like `source_quote` and `page_number`, forcing the model to point to the exact text it drew from rather than paraphrasing from memory.
+Every ProdOS vault agent or prompt (including any prompt carrying an `> Output Contract:` callout) must apply all four rules below:
 
-The schema is validated and auto-retried (via `instructor` or an equivalent structured-output library) until the model actually produces a conformant object—the model cannot escape into unstructured prose. Reported production result (legal Q&A system): hallucination rate fell from 12% to 1.7%, with roughly 30% of generated answers rejected by the `missing_info`/low-confidence gate before ever reaching a user.
+1. State Confidence (`high` | `medium` | `low`): Every substantive claim, classification, or recommendation carries an explicit confidence signal—inline (`(confidence: high)`) or at section end. Never present inferred or speculative claims with the same weight as directly verified vault facts. Treat self-assessed confidence as a human-review prioritisation aid, not proof of correctness.
+2. Cite Vault Evidence (`[[wikilink]]`): Every factual claim about the vault's content must point to its exact source note (`[[Note Title]]`) and, where practical, the section or quoted line. Never assert what a note says or whether a note exists without reading/searching first.
+3. Flag Insufficient Context Explicitly (`UNSURE`): If search, retrieval, or note text does not contain enough evidence to answer or wire an edge, halt and output `UNSURE` (modelled on [[Goal - Orphan Triage Sweep (Daily Cron)]]). State what is missing and propose the smallest safe next step (e.g. a stub in `00_Inbox/` or a human decision) rather than guessing or fabricating links, titles, or facts. If you fell back from 1MCP/CLI to lexical search, declare your tooling tier and downgrade coverage claims.
+4. Separate Vault Facts from Outside Knowledge: Never blend general model training knowledge with vault-retrieved facts unlabelled. Distinguish them explicitly via separate headings or inline attribution (_"In general…"_ vs. _"In `[[Note]]`…"_).
 
-This is a specific, code-enforced instance of a more general principle already present in this vault: that reliability comes from structural gates, not from asking a model nicely to be careful. See [[MVC Enforcement Structural Gates for LLM Agents]] for the same idea applied to context assembly rather than output formatting.
+---
 
-## Current Understanding (Workflows & Practices)
+## 2. Production RAG Architecture & Theoretical Grounding
 
-In a code/production context (e.g. a FastAPI RAG backend), TAC is implemented literally: a Pydantic model, an `instructor`-wrapped LLM client, and application logic that branches on `missing_info` and `confidence` before ever rendering a response to a user.
+In production RAG systems ("Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination," July 2026), free-text generation is replaced by a validated schema (`instructor` / Pydantic) containing:
 
-In the ProdOS vault—a markdown/Obsidian agent context rather than a code pipeline—there is no schema validator sitting between the model and the note. The adaptation implemented here (2026-07-17) is a markdown-native version of the same contract, enforced by convention rather than by a validator:
+- `answer`: the response content.
+- `is_definitive`: boolean indicating whether retrieved context fully answers the query.
+- `confidence`: `0.0–1.0` support score against retrieved chunks.
+- `source_ids`: explicit chunk/document identifiers used.
+- `missing_info`: boolean gate—if `true`, the system suppresses the generated answer and reports what cannot be verified instead of guessing.
+- `evidence`: structured `source_quote` and location fields forcing exact grounding rather than memory paraphrase.
 
-- Every governed vault-agent prompt (persona/system/protocol prompts in `10_System/prompts/`) carries an `> Output Contract:` callout pointing at [[Protocol - Typed Answer Contract (TAC) for Vault Agents]].
-- That protocol requires: stated confidence (`high`/`medium`/`low`), cited evidence (`[[wikilink]]` + quoted line where practical), an explicit "insufficient context" flag instead of a guessed answer, and clear separation between outside/training knowledge and vault-retrieved facts.
-- The vault already had a working instance of the `missing_info` idea before TAC was named as such: [[Goal - Orphan Triage Sweep (Daily Cron)]]'s `UNSURE` category, where the daily orphan-repair sweep proposes placements only, and explicitly flags notes it can't confidently place rather than forcing a guess. TAC formalizes and generalizes that existing pattern across the whole prompt library rather than introducing a new one.
-- This is intentionally a lighter-weight enforcement than the code version: there is no automatic rejection/retry loop, so the contract depends on each prompt actually following its Output Contract callout—a discipline-plus-structure hybrid rather than a pure structural gate. Reviewer note: reintroducing an actual programmatic check (e.g. a linter that verifies agent output has the four required elements) would close this gap if unreliability becomes visible in practice.
+Empirical Impact & Schema-Complexity Ceiling:
 
-Related implementation touchpoints:
+- Hallucination Drop: Validation + auto-retry reduced production legal Q&A hallucinations from 12% to 1.7%, with ~30% of ungrounded answers intercepted by the `missing_info` / low-confidence gate before reaching a user.
+- The ~15-Field Ceiling: Schemas exceeding ~15 nested fields degrade LLM reasoning and compliance. ProdOS enforces this ceiling across the stack: 4 rules for agent output (§1), minimal YAML envelopes in [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], and 7 closed predicates + 2 optional attributes (`strength`, `confidence`) in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]].
 
-- [[SoT - Agentic AI Design Patterns]] §2E (Knowledge Retrieval/RAG) and §3 (Implementation in ProdOS, "Reliability") now reference this SoT.
-- [[MOC - AI Software Engineering]] §8 indexes this as a peer to the vault's other AI-engineering patterns (Cognitive Bridge, Context Rot, LLM Wiki Pattern, etc.).
-- [[SoT - AI Agent Skill Architecture]]'s progressive-disclosure principle is complementary: TAC governs _what shape the output takes_, skill architecture governs _what context the agent has access to_ when producing it.
+---
 
-## Tensions & Gaps
+## 3. Two-Tier Enforcement in ProdOS (Structure Over Discipline)
 
-- Schema complexity trade-off. The source article notes schemas with 15+ nested fields start to _degrade_ model performance rather than improve reliability—there's a real ceiling on how much structure helps. The markdown adaptation here deliberately stays to four rules, not an exhaustive field list, for the same reason.
-- Self-assessed confidence can be overconfident. A model scoring its own `confidence` field is still the same model that might hallucinate the answer—self-assessment is a useful signal, not a guarantee. Treat stated confidence as a prioritization aid for human review, not proof of correctness.
-- Structure doesn't fix broken retrieval. TAC (in either its coded or markdown form) makes it _visible_ when an agent lacks sufficient grounding—it does not improve the underlying retrieval/search quality. If a vault agent's source notes or search results are themselves incomplete or poorly indexed, TAC will more reliably surface an `UNSURE`/low-confidence result, but it cannot manufacture correct answers from bad retrieval.
-- No automated enforcement yet. As noted above, the vault-native version relies on each governed prompt's own compliance with its Output Contract callout; nothing currently checks vault-agent output post-hoc against the four rules. This is a known gap, not a design choice—worth revisiting if agent output drifts from the contract in practice.
-- Origin note superseded. This SoT supersedes the working note `Typed-Answer-Contract-RAG.md` (formerly in `20_Thinking/21_Workbench/`), which has since been moved to `.trash/` now that its ideas are embedded here and in the governed prompts.
+An earlier version of this spec relied solely on prompt callouts ("enforced by convention rather than by a validator"). ProdOS now enforces TAC through a Two-Tier Structural Gate codified in `AGENTS.md` §7:
+
+| Tier | Scope | Enforcement Mechanism | Failure Handling |
+|:--- |:--- |:--- |:--- |
+| Tier 1: Epistemic Output Gate | Chat replies, triage tables, audit reports, synthesis proposals | `AGENTS.md` §7.1 + `> Output Contract:` callouts across `10_System/prompts/` enforcing Rules 1–4 (`confidence`, `[[wikilink]]`, `UNSURE`, source separation). | Classified as `tac-or-output-validation-failure` under [[Protocol - Diagnose an Agent Failure]]; requires a root-cause fix + regression case in `10_System/evals/`. |
+| Tier 2: Pre-Completion Write Gate | Creating, editing, or wiring any note in the vault | Mandatory CLI validators (`AGENTS.md` §7.2) that exit non-zero on schema, shape, or graph violations before `shale done`. | Agent must fix all errors (`0 error(s)`) or set `conformant: false` with an explicit `non_conformance_reason` rather than faking compliance. |
+
+### Tier 2 Executable Validators (Mandatory Before `shale done`)
+
+1. Frontmatter Contract Gate (`validate_note_frontmatter.py`):
+
+   ```bash
+   uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "<file>"
+   ```
+
+   Verifies `title`, `type`, `tags`, `conformant`, `status`, and `type`-specific fields (`proposition`, `epistemic_status`, `contradicts`, `evidence_links` on claims) per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. If an agent cannot verify a required field, it must set `conformant: false` and populate `non_conformance_reason` (the note-level equivalent of `missing_info: true`).
+
+2. Atomic Proposition Gate (`validate_note_shape.py`):
+
+   ```bash
+   python3 10_System/scripts/validate_note_shape.py "<file>"
+   ```
+
+   Enforces [[SoT - Atomic Note Standard (The Proposition Card)]] on atomic notes created in `30_Library/100_zettelkasten/`.
+
+3. Knowledge Compiler & Edge Gate (`edge_lint.py`):
+
+   ```bash
+   uv run --with pyyaml python3 10_System/scripts/edge_lint.py
+   ```
+
+   Enforces [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] and [[SoT - Knowledge Compiler (Argument Graph Spec)]]: rejects unknown predicates, bare note targets, dangling links, and ambiguous targets (`0 error(s)` required), while `--audit` checks C1–C3 argument grounding.
+
+4. Protected-Note & Provenance Gate (`AGENTS.md` §6 & `shale`):
+   Agents never edit notes with `own_words: true` or existing notes in `01_journals/` and `20_Thinking/`, and bracket every file-editing task with `shale intent` and `shale done`.
+
+---
+
+## 4. Known Limits & Guardrails
+
+- Self-Assessed Confidence Is Not Grounding: A model scoring its own `confidence` is vulnerable to the same fluency bias it is rating ([[Felt significance of thoughts can mislead about their substance]], [[SoT - Illusion of Explanatory Depth (IoED)]]). Confidence orders human review; `[[wikilink]]` evidence and `edge_lint.py` verify the facts.
+- Structure Cannot Fix Blind Retrieval: TAC makes missing context _visible_ (`UNSURE` / `conformant: false`), but cannot manufacture knowledge from incomplete search. Always prefer Tier 1 `obsidian-llmeon` 1MCP semantic/text tools + `obsidian` CLI over raw filesystem grep (`AGENTS.md` §9.1).
+
+---
+
+## 5. Related Architecture & Epistemic Claims
+
+- [[SoT - PRODOS Core Specification]]—_Implements Phase 2 Refinement & Architect Mode agent governance._ [implements:: [[SoT - PRODOS Core Specification]], strength=5, confidence=high]
+- [[SoT - Flow Engineering]]—_Replaces prompt-level wishful thinking with structural validation gates._ [implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]
+- [[MVC Enforcement Structural Gates for LLM Agents]]—_Synthesises the structural-gate principle: MVC gates what context enters the agent, TAC gates what output and writes leave it._ [synthesizes:: [[MVC Enforcement Structural Gates for LLM Agents]], strength=4, confidence=high]
+- [[Protocol - Diagnose an Agent Failure]]—_Defines the `tac-or-output-validation-failure` root-cause class and `10_System/evals/` regression requirement._ [supports:: [[Protocol - Diagnose an Agent Failure]], strength=4, confidence=high]
+- [[SoT - Context Engineering]]—_Upstream context-compression discipline paired with TAC output discipline._
+- [[Felt significance of thoughts can mislead about their substance]]—_Cognitive basis for why fluent, confident-sounding LLM prose requires explicit evidence and uncertainty gates._

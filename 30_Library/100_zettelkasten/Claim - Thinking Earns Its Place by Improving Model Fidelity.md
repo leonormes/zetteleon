@@ -1,5 +1,6 @@
 ---
-aliases: [Model Fidelity]
+aliases:
+- Model Fidelity
 conformant: true
 contradicts: []
 created: 2026-08-28T23:00:00+00:00
@@ -9,10 +10,16 @@ modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-thinking-earns-its-place-by-improving-model-fidelity
 position-date: 2026-08-29
-proposition: ''
-supersedes: ['[[Claim - A Note That Does Not Help You Act Is Noise]]']
 project_category: prodos
-tags: [domain/pkm, prodos, topic/knowledge-architecture, topic/metacognition]
+proposition: ''
+status: stable
+supersedes:
+- '[[Claim - A Note That Does Not Help You Act Is Noise]]'
+tags:
+- domain/pkm
+- prodos
+- topic/knowledge-architecture
+- topic/metacognition
 title: Claim - Thinking Earns Its Place by Improving Model Fidelity
 type: claim
 ---

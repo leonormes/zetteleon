@@ -4,13 +4,19 @@ conformant: true
 contradicts: []
 created: 2025-11-10T15:09:00+00:00
 epistemic_status: low
-evidence_links: ["[[Evidence - Tracy Momentum Principle Says Starting Costs More Energy Than Continuing]]"]
+evidence_links:
+- '[[Evidence - Tracy Momentum Principle Says Starting Costs More Energy Than Continuing]]'
 modified: 2026-10-22T15:11:13+00:00
-non_conformance_reason: ""
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/the-three-rules-of-starter-tasks
-proposition: Effective starter tasks follow three rules, which are that their purpose is only to build momentum, that they last five to fifteen minutes at most, and that each is a single simple physical action.
 project_category: prodos
-tags: [momentum, task-initiation, TheHuman/Health/ADHD, topic/productivity]
+proposition: Effective starter tasks follow three rules, which are that their purpose is only to build momentum, that they last five to fifteen minutes at most, and that each is a single simple physical action.
+status: stable
+tags:
+- momentum
+- task-initiation
+- TheHuman/Health/ADHD
+- topic/productivity
 title: The Three Rules of Starter Tasks
 type: claim
 ---

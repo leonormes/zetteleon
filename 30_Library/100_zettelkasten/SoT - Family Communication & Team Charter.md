@@ -1,19 +1,28 @@
 ---
-aliases: [Intent vs Impact, Respect Agreement, The Team Charter]
+aliases:
+  - Intent vs Impact
+  - Respect Agreement
+  - The Team Charter
 conformant: true
 created: 2026-01-07T00:00:00+00:00
-modified: 2026-11-13T12:02:00+00:00
+modified: 2026-11-15T13:06:54+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-family-communication-team-charter
-see_also: ["[[MOC - Relational Dynamics & Family (Triage)]]", "[[SoT - Framework for Healthy Communication]]", "[[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]"]
-tags: [communication, conflict-resolution, family, prodos/sot, relationship]
+see_also:
+  - "[[MOC - Relational Dynamics & Family (Triage)]]"
+  - "[[SoT - Framework for Healthy Communication]]"
+tags:
+  - communication
+  - conflict-resolution
+  - family
+  - relationship
 title: SoT - Family Communication & Team Charter
 type: sot
 ---
 
 ## Minimum Viable Understanding (MVU)
 
-Household conflict rarely stems from opposing goals; it stems from mismatched process values (long-term *Efficiency* vs. immediate *Stress Relief*) and the illusion that explaining harder in the moment will change behaviour ([[The Information Deficit Model is a Fallacy]]). Rather than arguing about tasks or lecturing while someone is overwhelmed, this charter replaces in-the-moment persuasion with pre-agreed protocols negotiated when calm: Tag-Team Handovers, Intent-vs-Impact repair, frequency matching, and Weekly Family Meetings.
+Household conflict rarely stems from opposing goals; it stems from mismatched process values (long-term _Efficiency_ vs. immediate _Stress Relief_) and the illusion that explaining harder in the moment will change behaviour ([[The Information Deficit Model is a Fallacy]]). Rather than arguing about tasks or lecturing while someone is overwhelmed, this charter replaces in-the-moment persuasion with pre-agreed protocols negotiated when calm: Tag-Team Handovers, Intent-vs-Impact repair, frequency matching, and Weekly Family Meetings.
 
 ---
 
@@ -29,7 +38,7 @@ Conflict often arises not from disagreement on goals (e.g., "A tidy house"), but
 
 The Solution: We stop arguing about the _Task_ (Tidying) and start negotiating the _System_ (Team Charter).
 
-#### 1.1 The Self-Sacrifice / Resentment Loop
+### 1.1 The Self-Sacrifice / Resentment Loop
 
 A common pitfall is taking on 100% of household administration and childcare coordination to "prove worth" or show love. This results in postnatal anxiety and severe ADHD mental overload.
 
@@ -37,17 +46,17 @@ A common pitfall is taking on 100% of household administration and childcare coo
 
 ---
 
-### 2. The Team Charter (The "Respect Manual")
+## 2. The Team Charter (The "Respect Manual")
 
 Respect is not an identity ("I am a nice person"); it is a set of specific, agreed-upon Actions.
 
-#### 2.1 The "Intent vs. Impact" Protocol
+### 2.1 The "Intent vs. Impact" Protocol
 
 We agree that we are both good people with good intentions. Conflict happens in the gap between _Intent_ and _Impact_.
 
 - The Script: _"I know your intention was [Good Intent], but the impact on me was [Bad Impact]. Can we close that gap?"_
 
-#### 2.2 The "Invalidation Stalemate" Breaker
+### 2.2 The "Invalidation Stalemate" Breaker
 
 When one partner is stressed by something the other finds trivial (e.g., a messy room vs. "it's not a problem"), the conflict deadlocks.
 
@@ -56,11 +65,11 @@ When one partner is stressed by something the other finds trivial (e.g., a messy
 
 ---
 
-### 3. Operational Protocols (The "We" Solutions)
+## 3. Operational Protocols (The "We" Solutions)
 
 To bridge the gap between "Efficiency" and "Immediacy," we use pre-agreed protocols.
 
-#### Protocol A: The "Tag-Team" Handover (Immediate Relief)
+### Protocol A: The "Tag-Team" Handover (Immediate Relief)
 
 - Trigger: One partner reaches emotional saturation ("I can't deal with this").
 - Action: They explicitly "Tap Out."
@@ -69,14 +78,14 @@ To bridge the gap between "Efficiency" and "Immediacy," we use pre-agreed protoc
     - _Result:_ Husband validates her need for relief ("Go rest") AND implements his optimal process ("Kids, Mum is resting. We are tidying this now.").
 - Self-Care: Intentionally schedule quiet tea/coffee breaks for the tapped-out partner during their rest window to combat noise pollution and mental fatigue.
 
-#### Protocol B: The "Team System" Agreement (Long Term)
+### Protocol B: The "Team System" Agreement (Long Term)
 
 We agree on non-negotiable standards _away_ from the heat of the moment.
 
 - Logic: When a parent enforces a rule, they are not being "mean"; they are executing the Shared Team Charter.
 - Benefit: The "Efficiency" partner feels backed up; the "Immediacy" partner doesn't have to be the sole enforcer.
 
-#### Protocol C: Sequencing Validation and Resilience (Parental SLA)
+### Protocol C: Sequencing Validation and Resilience (Parental SLA)
 
 To prevent children from "splitting" the parents (relying on one for emotional venting and the other for fixing), we establish a sequential response contract:
 
@@ -86,7 +95,7 @@ To prevent children from "splitting" the parents (relying on one for emotional v
 
 ---
 
-### 4. The Conversation Architecture
+## 4. The Conversation Architecture
 
 How to discuss chores and system issues without triggering defensive "Identity" reactions.
 
@@ -97,7 +106,7 @@ How to discuss chores and system issues without triggering defensive "Identity" 
     - _"I feel disrespected when my strategy is ignored and I'm just given orders."_
 4. Invite Collaboration: "What does feeling respected look like for _you_? Let's build our definition together."
 
-#### 4.1 The Supercommunicator Rule (Matching Conversation Frequencies)
+### 4.1 The Supercommunicator Rule (Matching Conversation Frequencies)
 
 When dealing with partners or children, recognise which conversation type is active:
 
@@ -109,7 +118,7 @@ _Rule_: Match the speaker's frequency. Never offer practical system fixes or log
 
 ---
 
-### 5. Defense Against Weaponization
+## 5. Defense Against Weaponization
 
 To ensure "Respect" doesn't become a tool for control:
 
@@ -120,7 +129,7 @@ To ensure "Respect" doesn't become a tool for control:
 
 ---
 
-### 6. Weekly Family Meetings
+## 6. Weekly Family Meetings
 
 To keep the household systems running smoothly and ensure everyone feels heard, we hold structured family meetings once or twice a week.
 
@@ -141,7 +150,6 @@ To keep the household systems running smoothly and ensure everyone feels heard, 
 - [[SoT - Framework for Healthy Communication]]—_provides the Intent vs. Impact axioms and Data-Impact-Proposal-Check calibration loop._
 - [[SoT - Family Household Governance]]—_operational chore rotations, visual checklists, and study sprints governed by this charter._
 - [[SoT - Family Financial Wellness]]—_parallel structural-autonomy design for money (One-Pot Model + Budget Date Night)._
-- [[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]—_active workbench thread tracking experiments and observations on this charter in practice._
 
 [implements:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]
 

@@ -8,7 +8,7 @@ conformant: true
 contrasts_with:
 - '[[SoT - Illusion of Explanatory Depth (IoED)]]'
 created: 2026-04-04T12:30:00+00:00
-modified: 2026-11-14T13:47:00+00:00
+modified: 2026-11-14T20:03:12+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 project_category: prodos
 see_also:
@@ -29,7 +29,7 @@ upstream:
 
 ## 1. Minimum Viable Understanding (MVU)
 
-The A-C-T Framework is a convergent cognitive loop—the "Kinetic Valve" of ProdOS—designed to defeat [[collectors fallacy|The Collector's Fallacy]] (hoarding information) and Analysis Paralysis (over-planning).
+The A-C-T Framework is a convergent cognitive loop—the "Kinetic Valve" of ProdOS—designed to defeat collectors fallacy (hoarding information) and Analysis Paralysis (over-planning).
 
 It forces a rapid transition from abstract thinking to physical execution by breaking the workflow into three distinct, non-overlapping phases, converting "Neural Potential" into "Kinetic Value" (see [[SoT - PRODOS Core Specification#1.1 The Definition|PRODOS Core Specification]]).
 

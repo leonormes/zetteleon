@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:13:00+00:00
 permalink: llmeon/00-inbox/image-schemas-ground-abstract-concepts-in-bodily-experience
 proposition: Recurring patterns of bodily experience, called image schemas, structure abstract concepts, as physical containment underlies expressions such as being in a good mood.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - abstraction
   - conceptual-metaphor
@@ -43,12 +43,12 @@ Source: [[Beyond Words]] (line 286).
 
 ### Related
 
-- [[Mental representations take multiple forms]]—extends: adds image schemas as a mechanism by which embodied experience structures abstract thought.
-- [[Common experiential anchors ground abstract concepts]]—shared mechanism: shared bodily experience gives different languages common reference points.
-- [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]—extends: covers conceptual metaphor (Lakoff and Johnson) as the bridge from experience to abstraction; this note isolates the image-schema layer beneath it.
-- [[Types of Non-Linguistic Knowledge]]—shared mechanism: embodied knowledge held without reduction to words.
-- [[The Symbol Grounding Problem]]—shared mechanism: both concern grounding abstract meaning in experience.
+- [[Mental representations take multiple forms]]—_extends: adds image schemas as a mechanism by which embodied experience structures abstract thought._ [extends:: [[Mental representations take multiple forms]], strength=4, confidence=high]
+- [[Common experiential anchors ground abstract concepts]]—_shared mechanism: shared bodily experience gives different languages common reference points._
+- [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]—_extends: covers conceptual metaphor (Lakoff and Johnson) as the bridge from experience to abstraction; this note isolates the image-schema layer beneath it._ [extends:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]], strength=4, confidence=high]
+- [[Types of Non-Linguistic Knowledge]]—_shared mechanism: embodied knowledge held without reduction to words._
+- [[The Symbol Grounding Problem]]—_shared mechanism: both concern grounding abstract meaning in experience._
 
-#### Further Reading
+### Further Reading
 
 - [The Unfolding of Language — Guy Deutscher, Ch. 4 "A Reef of Dead Metaphors"](calibre://view-book/GCcalibreBooks/1476/EPUB)—_traces abstract concepts back through spatial relations to parts of the body, from physical proximity to possession and from seizing to understanding._

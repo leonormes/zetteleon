@@ -1,20 +1,52 @@
 ---
-aliases: [MOC - ProdOS, PRODOS, ProdOS Index, ProdOS Thinking Stream, Productivity Operating System, SoT - PRODOS (System Architecture), SoT - ProdOS Thinking Stream, Start Here]
+aliases:
+  - MOC - ProdOS
+  - PRODOS
+  - ProdOS Index
+  - ProdOS Thinking Stream
+  - Productivity Operating System
+  - SoT - PRODOS (System Architecture)
+  - SoT - ProdOS Thinking Stream
+  - Start Here
 conformant: true
-contrasts_with: ["[[The Danger of Perpetual System-Building]]", "[[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]"]
+contrasts_with:
+  - "[[The Danger of Perpetual System-Building]]"
+  - "[[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]"
 created: 2026-01-03T09:45:08+00:00
-merged_from: ["[[MOC - ProdOS]]", "[[SoT - ProdOS Thinking Stream]]", "[[SoT - Cognitive Engineering Protocols]]"]
+merged_from:
+  - "[[SoT - ProdOS Thinking Stream]]"
+  - "[[SoT - Cognitive Engineering Protocols]]"
 modified: 2026-11-14T13:59:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-core-specification
 project_category: prodos
-see_also: ["[[MOC - Action Management]]", "[[MOC - ADHD (The Master Map)]]", "[[MOC - Interpretation of References]]", "[[SoT - The Extended Mind]]", "[[SoT - Unified Writing to Think Process]]"]
+see_also:
+  - "[[MOC - Action Management]]"
+  - "[[MOC - ADHD (The Master Map)]]"
+  - "[[MOC - Interpretation of References]]"
+  - "[[SoT - The Extended Mind]]"
+  - "[[SoT - Unified Writing to Think Process]]"
 status: stable
-tags: [adhd-optimization, execution, moc, prodos, SAVESTATE, SoftwareEngineering/Architecture, system-architecture, system/protocol, thinking, workflow]
-tension: ["[[The Three Rules of Starter Tasks]]", "[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]", "[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]", "[[Claim - A Note That Does Not Help You Act Is Noise]]"]
+tags:
+  - adhd-optimization
+  - execution
+  - moc
+  - prodos
+  - SAVESTATE
+  - SoftwareEngineering/Architecture
+  - system-architecture
+  - system/protocol
+  - thinking
+  - workflow
+tension:
+  - "[[The Three Rules of Starter Tasks]]"
+  - "[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]"
+  - "[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]"
+  - "[[Claim - A Note That Does Not Help You Act Is Noise]]"
 tier: 1-Foundation
 title: SoT - PRODOS Core Specification
 type: sot
-upstream: ["[[Meta MOC - The Core Domains]]"]
+upstream:
+  - "[[Meta MOC - The Core Domains]]"
 ---
 
 # PRODOS — Unified System Specification & Master Hub
@@ -158,8 +190,7 @@ _Converting messy drafts and research into verified atomic propositions, structu
 - [[SoT - Context Engineering]]—_Signal density over accumulation for LLM workflows._ [synthesizes:: [[SoT - Context Engineering]], confidence=high]
 - [[SoT - Research-to-Action Protocol]]—_Time-boxed 20-minute technical research with hard start and `#SAVESTATE` exit._ [synthesizes:: [[SoT - Research-to-Action Protocol]], confidence=high]
 - [[SoT - Perfectionism and Analysis Paralysis]]—_Breaking the all-or-nothing fear loop with MVA, messy HEAD drafts, and iterative synthesis._ [synthesizes:: [[SoT - Perfectionism and Analysis Paralysis]], confidence=high]
-- [[SoT - Typed Answer Contract (TAC) for LLM Output]]—_Structured output constraints replacing ungrounded LLM prose._ [synthesizes:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], confidence=high]
-- [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—_Universal 4-rule output-discipline protocol for vault prompts and agents._ [synthesizes:: [[Protocol - Typed Answer Contract (TAC) for Vault Agents]], confidence=high]
+- [[SoT - Typed Answer Contract (TAC) for LLM Output]]—_Unified 4-rule output contract, RAG schema ceiling, and two-tier structural validation gates for vault agents._ [synthesizes:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], confidence=high]
 
 ---
 

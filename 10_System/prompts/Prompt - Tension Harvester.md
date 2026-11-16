@@ -1,8 +1,10 @@
 ---
+conformant: true
 created: 2026-08-03T00:00:00+01:00
 description: Harvest unresolved tensions out of canonical SoT/Claim/MoC notes into clustered HEAD notes in the workbench, replacing each source section with a one-line Open threads pointer. Use when open problems are buried inside canonical notes where nobody works them.
-modified: 2026-10-22T15:11:08+00:00
+modified: 2026-11-15T10:17:00+00:00
 permalink: llmeon/10-system/prompts/prompt-tension-harvester
+status: stable
 tags: [agent/harvester, domain/pkm, topic/knowledge-graph, topic/workbench, type/system]
 title: Prompt - Tension Harvester
 type: prompt
@@ -16,7 +18,7 @@ version: 1
 
 > Trigger: canonical notes are carrying `## Tensions & Gaps` / `## Open Questions` sections and those open problems are never getting worked. For auditing what is _already in_ the workbench, use [[Protocol - Workbench Compliance Sweep]]. For folding a _resolved_ HEAD note back into canon, use [[Prompt - ProdOS Chronos Synthesizer]]—this prompt runs in the opposite direction.
 >
-> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence by `[[wikilink]]`, explicit uncertainty flag.
+> Output Contract: follow [[SoT - Typed Answer Contract (TAC) for LLM Output]] ([[AGENTS]] §7)—confidence, evidence by `[[wikilink]]`, explicit uncertainty flag.
 >
 > Canonical schema: [[SoT - HEAD Note Contract (The Workbench)]], especially §4 (pointer format) and §2 (HEAD schema). That note is authoritative.
 
@@ -188,3 +190,11 @@ For each source note, replace the harvested section with a single pointer line p
 - `edge_lint.py`: [baseline → post]
 - Confidence: [high / medium / low]
 - UNSURE: [list or "None"]
+
+---
+
+## Connected ProdOS Specs
+
+- [[SoT - HEAD Note Contract (The Workbench)]]—_Executes canon → workbench harvesting into QuestionNote HEAD notes and §4 Open threads pointers._ [implements:: [[SoT - HEAD Note Contract (The Workbench)]], confidence=high]
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_Applies the QuestionNote (§3.4) frontmatter contract to newly created HEAD notes._ [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
+- [[SoT - Typed Answer Contract (TAC) for LLM Output]]—_Governs confidence, evidence links, UNSURE flags, and Tier 2 validation._ [depends_on:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], confidence=high]

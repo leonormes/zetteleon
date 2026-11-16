@@ -6,11 +6,10 @@ conformant: true
 contrasts_with:
 - '[[SoT - Perfectionism and Analysis Paralysis]]'
 created: 2025-12-23T20:00:20+00:00
-modified: 2026-11-14T13:45:00+00:00
+modified: 2026-11-15T10:30:00+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 project_category: prodos
 see_also:
-- '[[Protocol - Vague-to-Action]]'
 - '[[SoT - PRODOS Black Box Protocol]]'
 status: stable
 tags:
@@ -106,7 +105,7 @@ When resistance is high, execute this sequence:
 
 ## Related
 
-- [[SoT - PRODOS Core Specification]] [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
-- [[SoT - Prosthetic Executive Function]] [implements:: [[SoT - Prosthetic Executive Function]], confidence=high]
-- [[Protocol - Vague-to-Action]] [depends_on:: [[Protocol - Vague-to-Action]], confidence=medium]
-- [[Strong Habits Override Weak Intentions]] [depends_on:: [[Strong Habits Override Weak Intentions]], confidence=high]
+- [[SoT - PRODOS Core Specification]]—_Kernel rules and initiation architecture operationalised by this launch sequence._ [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
+- [[SoT - Prosthetic Executive Function]]—_Supplies the external scaffolding principle across spatial, kinetic, and social layers._ [implements:: [[SoT - Prosthetic Executive Function]], confidence=high]
+- [[Protocol - Vague-to-Action]]—_Prerequisite decomposition step that defines the physical `< 120s` MVA before kinetic initiation begins._ [depends_on:: [[Protocol - Vague-to-Action]], confidence=medium]
+- [[Strong Habits Override Weak Intentions]]—_Explains why environmental and habitual cues outperform bare intention when energy is low._ [depends_on:: [[Strong Habits Override Weak Intentions]], confidence=high]

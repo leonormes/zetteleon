@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:19+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/a-pkm-is-personal-because-notes-only-represent-ideas-held-in-one-head
 proposition: Because the ideas are mostly in the head of the owner and the notes only represent them, another person cannot take the notes and understand the same things.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - notes
   - personal
@@ -43,9 +43,9 @@ Source: [[Beyond Words]] (line 51).
 
 ### Related
 
-- [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—shared mechanism: the value rests on the individual's own context.
-- [[Personal Context and Relevance are Key to Knowledge Formation]]—shared mechanism: knowledge forms when information is tied to the individual's own experience.
-- [[Making Knowledge Personal Through Voice]]—shared mechanism: a PKM is written in the owner's own voice as a record of their journey.
-- [[Tacit vs Explicit Knowledge]]—shared mechanism: the unwritten layer of understanding is not readable by others.
-- [[Zettelkasten System Essence]]—extends: the Zettelkasten lives in the mental processes of the person using it.
-- [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]]—shared mechanism: notes are representations of ideas rather than the ideas themselves.
+- [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—_shared mechanism: the value rests on the individual's own context._
+- [[Personal Context and Relevance are Key to Knowledge Formation]]—_shared mechanism: knowledge forms when information is tied to the individual's own experience._
+- [[Making Knowledge Personal Through Voice]]—_shared mechanism: a PKM is written in the owner's own voice as a record of their journey._
+- [[Tacit vs Explicit Knowledge]]—_shared mechanism: the unwritten layer of understanding is not readable by others._
+- [[Zettelkasten System Essence]]—_extends: the Zettelkasten lives in the mental processes of the person using it._ [extends:: [[Zettelkasten System Essence]], strength=4, confidence=high]
+- [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]]—_extends: notes are representations of ideas rather than the ideas themselves._ [extends:: [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]], strength=4, confidence=high]

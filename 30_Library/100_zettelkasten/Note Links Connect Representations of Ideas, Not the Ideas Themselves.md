@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/note-links-connect-representations-of-ideas-not-the-ideas-themselves
 proposition: A link between two notes joins representations of ideas, so linking on shared keywords or superficial similarity does not connect the ideas themselves.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - linking
   - notes
@@ -43,12 +43,12 @@ Source: [[Beyond Words]] (line 42).
 
 ### Related
 
-- [[Creating Meaningful Links]]—extends: distinguishes meaningful from superficial links; this note supplies a reason superficial ones fail.
-- [[Key questions when linking notes in the Zettelkasten method]]—shared mechanism: questions to ask so that a link expresses a real relationship.
-- [[Zettelkasten System Essence]]—shared mechanism: the size of the link graph is not evidence of understanding.
-- [[Ideas Exist Beyond Linguistic Expression]]—shared mechanism: a note is a representation of an idea in the same way words are.
-- [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—shared mechanism: notes that state claims give links something substantive to connect.
-- [[Vague Notes Make Links Between Them Tenuous]]—extends: the consequence for note quality: vague notes make the links between them tenuous.
+- [[Creating Meaningful Links]]—_extends: distinguishes meaningful from superficial links; this note supplies a reason superficial ones fail._ [extends:: [[Creating Meaningful Links]], strength=4, confidence=high]
+- [[Key questions when linking notes in the Zettelkasten method]]—_shared mechanism: questions to ask so that a link expresses a real relationship._
+- [[Zettelkasten System Essence]]—_extends: the size of the link graph is not evidence of understanding._ [extends:: [[Zettelkasten System Essence]], strength=4, confidence=high]
+- [[Ideas Exist Beyond Linguistic Expression]]—_shared mechanism: a note is a representation of an idea in the same way words are._
+- [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—_shared mechanism: notes that state claims give links something substantive to connect._
+- [[Vague Notes Make Links Between Them Tenuous]]—_extends: the consequence for note quality: vague notes make the links between them tenuous._
 
 ### See Also
 

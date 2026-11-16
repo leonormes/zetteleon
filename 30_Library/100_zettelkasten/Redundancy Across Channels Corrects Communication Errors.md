@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:13:00+00:00
 permalink: llmeon/00-inbox/redundancy-across-channels-corrects-communication-errors
 proposition: Communication carries meaning through several channels at once, so a receiver can reconstruct the intended meaning when part of the signal is missed or misread.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - channels
   - communication
@@ -43,14 +43,14 @@ Source: [[Beyond Words]] (line 330).
 
 ### Related
 
-- [[Communication requires iterative approximation]]—shared mechanism: repair through feedback between people, where redundancy corrects errors within a single message.
-- [[Non-Verbal Cues in Social Judgment]]—extends: names non-verbal cues that serve as parallel channels alongside the words.
-- [[Communication Is Inherently Lossy Like Image Compression]]—shared mechanism: redundancy is one counter to the loss that note describes.
+- [[Communication requires iterative approximation]]—_extends: repair through feedback between people, where redundancy corrects errors within a single message._ [extends:: [[Communication requires iterative approximation]], strength=4, confidence=high]
+- [[Non-Verbal Cues in Social Judgment]]—_shared mechanism: names non-verbal cues that serve as parallel channels alongside the words._
+- [[Communication Is Inherently Lossy Like Image Compression]]—_extends: redundancy is one counter to the loss that note describes._ [extends:: [[Communication Is Inherently Lossy Like Image Compression]], strength=4, confidence=high]
 
 ### See Also
 
 - [[SoT - Communication & Misunderstanding (The Experiential Filter)]]
 
-#### Further Reading
+### Further Reading
 
 - [The Princeton Companion to Mathematics — Gowers, Barrow-Green & Leader (eds.), VII.6 "Reliable Transmission of Information", p. 879](calibre://view-book/GCcalibreBooks/1137/PDF)—_gives the information-theoretic principle behind this note: redundant symbols let a receiver recover the original message despite errors._

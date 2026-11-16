@@ -1,23 +1,37 @@
 ---
-aliases: [Edge Syntax, Edge Vocabulary, Knowledge Graph Relations, Typed Edges]
+aliases:
+- Edge Syntax
+- Edge Vocabulary
+- Knowledge Graph Relations
+- Typed Edges
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-11-13T16:17:35+00:00
+modified: 2026-11-14T16:49:00+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
-see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
 project_category: prodos
-tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
+see_also:
+- '[[SoT - Typed Answer Contract (TAC) for LLM Output]]'
+- '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
+- '[[SoT - Knowledge Compiler (Argument Graph Spec)]]'
+status: stable
+tags:
+- domain/pkm
+- prodos/sot
+- topic/knowledge-architecture
+- topic/knowledge-graph
 title: SoT - Typed Edge Vocabulary (Knowledge Graph Relations)
 type: sot
+upstream:
+- '[[SoT - PRODOS Core Specification]]'
 ---
 
-> Canonical status: this note is the authoritative spec for typed edges—inline, machine-checkable relationships between notes and blocks. It is the link/edge counterpart to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], which governs the _note-level_ schema. Where the two overlap (e.g. `contradicts`, `supports`), the Frontmatter Contract's frontmatter fields are authoritative for note→note relations; typed edges extend the same vocabulary down to the _block_ level and add optional weighting. New relationship types are added here only.
+> Canonical status: this note is the authoritative spec for typed edges—inline, machine-checkable relationships between notes and blocks. It is the link/edge counterpart to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], which governs the _note-level_ schema, and the syntactic foundation for [[SoT - Knowledge Compiler (Argument Graph Spec)]], which specifies what the argument compiler computes. Where frontmatter and inline edges overlap (e.g. `contradicts`, `supports`), the Frontmatter Contract's frontmatter fields are authoritative for note→note relations; typed edges extend the same vocabulary down to the _block_ level and add optional weighting. New relationship types are added here only.
 
 ## Minimum Viable Understanding (MVU)
 
 A typed edge is a one-line, reading-view-invisible annotation that records a _directed, named_ relationship from the note (or block) it sits in to another note or block: `[relationship:: [[target]]]`. It replaces the flat `[[wikilink]]`—which says only "these two are related"—with a claim the machine can check: _this concept implements that one; this claim contradicts that one_. The point is not ontological richness for its own sake (that fails the Utility-over-Truth axiom); it is that a compiler can then resolve every target, flag dangling references, and let you ask graph questions—"what contradicts this?", "what does this depend on?"—without hand-maintaining a second index. One encoding only: the `[…:: …]` form is the single source of truth. No JSON-LD, no duplicated metadata blocks.
 
-The interior is a Dataview inline field, which buys the encoding a second and third reader for free: Dataview indexes every edge as a queryable property (`LIST WHERE contradicts`), **K-Plex** (`.obsidian/plugins/k-plex/`) renders every edge and its reciprocal partner on the interactive Idea Compass, Mind Map, and Facets graph (where plain `[[wikilinks]]` are intentionally hidden via `inferAllLinksAsFriends: false`), and the compiler (§6) handles everything DQL structurally cannot—validation, multi-hop traversal, C1–C4 argument auditing, and cycle detection.
+The interior is a Dataview inline field, which buys the encoding a second and third reader for free: Dataview indexes every edge as a queryable property (`LIST WHERE contradicts`), **K-Plex** (`.obsidian/plugins/k-plex/`) renders every edge and its reciprocal partner on the interactive Idea Compass, Mind Map, and Facets graph (where plain `[[wikilinks]]` are intentionally hidden via `inferAllLinksAsFriends: false`), and the compiler (§6, [[SoT - Knowledge Compiler (Argument Graph Spec)]]) handles everything DQL structurally cannot—validation, multi-hop traversal, C1–C5 argument auditing/routing, and cycle detection.
 
 ## 1. Syntax
 
@@ -50,7 +64,7 @@ Direction is always source → target, read "_source `relationship` target_". K-
 | `depends_on`  | Source requires the target to make sense or function.     | **North (`parents`)** `depends_on` / **South (`children`)** `prerequisite_of` |—|
 | `revises`     | Points to an older revision of an idea                    | **Sequence (`previous`)** `revises` / **Sequence (`next`)** `revised_by` |—|
 
-Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. For K-Plex visibility, write inline `[<relationship>:: [[<target>]]]` edges on their own line below the annotated prose bullet in `### Related` or `### Tensions`, and never duplicate the same target in frontmatter `see_also` (K-Plex's `frontmatter-overrides-body-ontology` precedence rule suppresses inline body edges when a frontmatter ontology role exists between the same pair in a different compass direction). An SoT or MoC pointing down at its component notes uses `synthesizes` (South); an atomic note pointing up at an SoT, MoC, or broader concept uses `extends`, `implements`, or `depends_on` (North).
+Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. For K-Plex visibility, write inline `[<relationship>:: [[<target>]]]` edges alongside or immediately below the annotated prose bullet in `### Related` or `### Tensions`, and never duplicate the same target in frontmatter `see_also` (K-Plex's `frontmatter-overrides-body-ontology` precedence rule suppresses inline body edges when a frontmatter ontology role exists between the same pair in a different compass direction). An SoT or MoC pointing down at its component notes uses `synthesizes` (South); an atomic note pointing up at an SoT, MoC, or broader concept uses `extends`, `implements`, or `depends_on` (North).
 
 ## 3. Edge Attributes (Optional)
 
@@ -80,40 +94,42 @@ The reverse-engineered POC (`30_Library/200_Projects/linux-namespaces.md`) encod
 
 Relationship information exists in this vault in four other shapes. `edge_lint.py` parses only the §1 encoding. This is a deliberate scope boundary, recorded here so it is a visible decision rather than a silent omission:
 
-| Shape | Example | Count | Status |
-|:---|:---|---:|:---|
-| §1 typed edge | `[supports:: [[X]]]` | 69 | parsed—canonical |
-| Visible inline field | `rel:: contradicts` in MoC prose | ~303 | not parsed—different grammar (relationship as _value_, not field name), and visible in reading view |
-| Prose tension list | `[[X]]—contradicts: <explanation>` under `## Tensions` | ~133 | not parsed—free text, carries an explanation a typed edge cannot hold |
-| Frontmatter relation | `contradicts:` in a `claim` fileClass | 2 | not parsed—`fileclass validate` owns the frontmatter half (§6) |
+| Shape | Example | Status |
+|:---|:---|:---|
+| §1 typed edge | `[supports:: [[X]]]` | parsed—canonical (~1,900+ edges across ~800 notes) |
+| Visible inline field | `rel:: contradicts` in legacy MoC prose | not parsed by `edge_lint.py` or K-Plex—different grammar (relationship as _value_, not field name) |
+| Prose tension list | `[[X]]—contradicts: <explanation>` under `## Tensions` | not parsed—free text carrying assumption explanations |
+| Frontmatter relation | `contradicts:`, `upstream:`, `see_also:` | validated by `validate_note_frontmatter.py` and rendered directly by K-Plex |
 
-The prose and frontmatter forms are not deprecated: §2 already prefers the frontmatter field for note→note relations, and a prose tension records _why_ two notes conflict, which no edge attribute captures. They are complementary, not rivals. The visible `rel::` form in MoCs is the only genuine near-duplicate of §1, and migrating it is optional—a decision to make only if those MoCs start carrying argument weight.
+The prose and frontmatter forms are complementary, not rivals: frontmatter fields handle note-level structural hierarchy and K-Plex facets/compass roles, prose explains _why_ two notes interact, and §1 inline edges carry block/note-level compiler semantics.
 
 ## 6. Compiler Contract
 
-The typed-edge layer is only as good as the pass that checks it. A conformant compiler (`10_System/scripts/edge_lint.py`, written and in use) MUST, over its scope:
+The typed-edge layer is only as good as the pass that checks it. A conformant compiler (`10_System/scripts/edge_lint.py`, live in production; epistemic capabilities specified in [[SoT - Knowledge Compiler (Argument Graph Spec)]]) MUST, over its scope:
 
 1. Extract every `[<rel>:: <target>[, attrs]]`, ignoring occurrences inside fenced or inline code so this spec's own examples are not linted as data.
-2. Reject any `<rel>` outside the §2 vocabulary.
+2. Reject any `<rel>` outside the §2 vocabulary (ignoring Obsidian Tasks plugin fields `due`, `completion`, `priority`).
 3. Resolve every `<target>` per §4; report dangling (0 matches) and ambiguous (>1) as errors, and a bare note target as a warning.
 4. Validate attribute types per §3 (`strength` ∈ 1–5, `confidence` in enum).
-5. Emit a report only—propose, never auto-edit (mirrors the `UNSURE`/dry-run discipline in [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]).
+5. Emit a report only—propose, never auto-edit (mirrors the `UNSURE`/dry-run discipline in [[SoT - Typed Answer Contract (TAC) for LLM Output]]).
 
-`edge_lint.py` requires PyYAML and refuses to run without it. Frontmatter supplies both `title` (needed to resolve edge targets) and `type` (needed to identify claims); without it the tool silently reported false dangling errors and a false-empty gap audit. For a report-only tool, refusing to run beats printing confident wrong answers.
+`edge_lint.py` requires PyYAML and refuses to run without it. Frontmatter supplies both `title` (needed to resolve edge targets) and `type` (needed to identify claims); without it the tool silently reported false dangling errors and a false-empty gap audit.
 
 ```bash
 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit
 ```
 
-This is the link/edge half of the validator [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §9 names but says does not yet exist; `fileclass validate` (CLI) covers the frontmatter half. Union of the two = the ProdOS knowledge compiler.
+Union of `validate_note_frontmatter.py` (frontmatter schema), `validate_note_shape.py` (atomic proposition standard), and `edge_lint.py` (typed-edge linter and C1–C5 argument compiler) = the ProdOS knowledge compiler ([[SoT - Knowledge Compiler (Argument Graph Spec)]]).
 
 ### Documented Implementation Trade-offs
 
 - Code Block Parsing Divergence: `edge_lint.py` masks fenced/inline code before parsing, whereas Dataview indexes code spans as properties. Avoid live-syntax examples in code blocks to prevent spurious Dataview hits.
-- Syntax Evolution: Edges migrated from `%%claim.supports{Target}%%` to comment-wrapped Dataview fields, then finally to bare `[relationship:: [[Target]]]` on disk for native Graph View and compiler parsing.
+- Syntax Evolution: Edges migrated from `%%claim.supports{Target}%%` to comment-wrapped Dataview fields, then finally to bare `[relationship:: [[Target]]]` on disk for native K-Plex, Dataview, and compiler parsing.
 - Block-ID Target Fragility: Bare `content-block` targets remain un-linkable files; uniqueness across notes is monitored by ambiguity warnings in the compiler.
-- Frontmatter vs. Inline: Frontmatter fields remain preferred for note-level relationships; inline edges provide block-level granularity.
+- Frontmatter vs. Inline: Frontmatter fields remain preferred for note-level relationships; never duplicate an inline typed-edge target in `see_also` (`frontmatter-overrides-body-ontology` in K-Plex).
 
-[implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
+## 7. Related Components
 
-[implements:: [[Typed Links for Knowledge Context]], strength=5, confidence=high]
+- [[SoT - PRODOS Core Specification]]—_Implements Phase 2 Refinement & Architect Mode edge specification._ [implements:: [[SoT - PRODOS Core Specification]], strength=5, confidence=high]
+- [[Claim - Domains relate through named relations, not undifferentiated association]]—_Implements named, directed relations at the note and block level._ [implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
+- [[Typed Links for Knowledge Context]]—_Implements machine-checkable typed links replacing legacy `rel::` prose fields._ [implements:: [[Typed Links for Knowledge Context]], strength=5, confidence=high]

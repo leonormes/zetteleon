@@ -1,11 +1,10 @@
 ---
-aliases: [communication philosophy, The Unruly Terrain Between Thought and Language, thought and language gap]
+aliases: [Beyond Words, beyond words, communication philosophy, The Unruly Terrain Between Thought and Language, thought and language gap]
 conformant: true
 created: 2025-10-31T20:08:00+00:00
 criteria: "Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding"
 exclusions: Specific linguistic theories, detailed neuroscience of language processing
-modified: 2026-11-13T11:44:00+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/30-library/mo-c/moc-the-gap-between-thought-and-language
 scope: "Philosophical exploration of the relationship between thought, language, and communication"
 see_also: ["[[MOC - Why Thoughts Feel More Important When Thinking Them]]", "[[MOC - How Can I Know Something]]", "[[MOC - The Nature and Origins of Intelligence]]"]
@@ -17,7 +16,7 @@ type: map
 
 ## The Gap Between Thought and Language Overview
 
-> Routing map for notes examining how pre-linguistic mental states relate to linguistic expression, why encoding thoughts into words loses resolution, and how interpersonal understanding and writing-to-think navigate that gap.
+> Routing map for notes examining how pre-linguistic mental states relate to linguistic expression, why encoding thoughts into words loses resolution, and how interpersonal understanding and writing-to-think navigate that gap. Consolidates notes originally extracted from the `Beyond Words` exploration.
 
 ### 1. The Core Architecture (SoTs)
 
@@ -42,6 +41,7 @@ type: map
 - [[Communication Is Inherently Lossy Like Image Compression]] — _Models encoding internal mental states into words and decoding them in another mind as a lossy compression pipeline._
 - [[Language Discretises Continuous Experience]] — _Shows that mapping a continuous spectrum of experience onto a finite vocabulary drops nuance at the encoding step._
 - [[Words Are Pointers, Not Containers of Meaning]] — _Argues that words act as stimuli that trigger reconstruction from the listener's own models rather than carrying meaning intact._
+- [[The Symbol Grounding Problem]] — _Defines the circularity problem that arbitrary linguistic symbols derive meaning only through grounding in non-symbolic experience._
 - [[Qualia and Linguistic Limitations]] — _Maps how the subjective, qualitative feel of experience resists complete linguistic capture._
 - [[Types of Non-Linguistic Knowledge]] — _Classifies experiential, embodied, tacit, aesthetic, and spiritual knowledge that cannot be reduced to propositions._
 
@@ -50,6 +50,9 @@ type: map
 - [[Shared biological architecture enables communication]] — _Grounds human communication in shared neurobiological structures for perception, emotion, and social cues._
 - [[Common experiential anchors ground abstract concepts]] — _Explains how universal human experiences provide shared reference points across linguistic and cultural divides._
 - [[Communication requires iterative approximation]] — _Frames communication as a continuous feedback loop of monitoring and repair rather than one-shot transmission._
+- [[Redundancy Across Channels Corrects Communication Errors]] — _Shows how multimodal channels and verbal repetition protect meaning against noise and partial misreading._
+- [[Knowledge Transmission Is Reconstruction, Not Copying]] — _Establishes that listeners rebuild meaning against shared experience rather than unpacking an identical copy._
+- [[Languages Co-Evolve With Culture to Encode Locally Relevant Distinctions]] — _Explains how cultural lexicalisation and social scripts compress intra-community communication while creating cross-cultural divergence._
 - [[Meaning emerges from language games]] — _Uses Wittgenstein's philosophy to show that words gain meaning through functional overlap in shared social practices._
 - [[Communicating Depends on Modelling What the Listener Already Knows]] — _Highlights theory of mind as essential for calibrating messages to what an interlocutor knows and might misunderstand._
 - [[Empathy Is Cognitive Work]] — _Characterises empathy as the deliberate cognitive effort required to reconstruct another person's experiential frame._
@@ -59,11 +62,16 @@ type: map
 - [[Code Frame Switching]] — _Describes shifting between internalized cultural and linguistic frames in bi-cultural communication._
 - [[Universality vs Diversity Tension]] — _Tracks the tension between universal cognitive anchors and culturally specific linguistic frameworks._
 
-### 5. Working the Gap (Writing & Non-Linguistic Media)
+### 5. Working the Gap (Writing, PKM & Non-Linguistic Media)
 
 - [[Writing isolates propositional content from phenomenological experience]] — _Shows how externalising thought onto paper strips away felt significance to leave bare propositions._
 - [[Writing Creates Cognitive Distance for Objective Evaluation]] — _Explains how turning internal monologue into an external artifact enables objective self-critique._
 - [[Daily Writing is a Cognitive Practice for Structuring Thought]] — _Frames daily exploratory writing as an epistemic practice that forces vague thoughts into logical structure._
+- [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]] — _Warns against mistaking surface keyword links between note artefacts for genuine conceptual connections._
+- [[Vague Notes Make Links Between Them Tenuous]] — _Explains why shallow, unelaborated notes force links to lean on unstated mental models in the reader's head._
+- [[Reviewing Notes and Their Links Forces Re-engagement With the Ideas]] — _Locates a PKM's real cognitive value in revisiting and testing connections rather than initial capture._
+- [[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]] — _Bounds external PKM and graph tooling to storage and mechanical checks, leaving synthesis human._
+- [[A PKM Is Personal Because Notes Only Represent Ideas Held in One Head]] — _Explains why another reader cannot absorb the owner's tacit context from notes alone._
 - [[Creative Expression Across Mediums]] — _Explores how music, visual art, and movement convey experiential nuances that verbal language drops._
 
 ### 6. Epistemological Boundaries

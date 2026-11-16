@@ -1,20 +1,19 @@
 ---
 aliases:
-- Demarcation and Method
-- Philosophy of Science Progression
+  - Demarcation and Method
+  - Philosophy of Science Progression
 conformant: true
-created: 2026-10-23 09:00:00+00:00
-modified: 2026-10-23 09:00:00+00:00
+created: 2026-10-23T09:00:00+00:00
+modified: 2026-11-15T13:09:37+00:00
 see_also:
-- '[[MOC - How Can I Know Something]]'
-- '[[MOC - Theory and Reality (Godfrey-Smith)]]'
-- '[[SoT - Sources and Limits of Knowledge]]'
+  - "[[MOC - How Can I Know Something]]"
+  - "[[MOC - Theory and Reality (Godfrey-Smith)]]"
+  - "[[SoT - Sources and Limits of Knowledge]]"
 status: draft
 tags:
-- topic/epistemology
-- topic/philosophy-of-science
-- prodos/sot
-- TheHuman/Philosophy
+  - topic/epistemology
+  - topic/philosophy-of-science
+  - TheHuman/Philosophy
 title: SoT - What Makes Science Knowledge
 type: sot
 permalink: llmeon/30-library/so-t/so-t-what-makes-science-knowledge
@@ -51,9 +50,7 @@ The four new notes in this thread are secondhand reports from an AI chat and are
 
 ## 2. What the Chain Leaves Standing
 
-- [[A Scientific Theory Is a Well-Tested Explanatory Framework Not a Promoted Hypothesis]]—_a theory is a developed framework, not a guess awaiting promotion._
 - [[Reproducibility and Replicability Are Distinct Standards of Scientific Reliability]]—_two separate reliability checks that are often conflated._
-- [[A Falsifiable Engineering Claim Names Its Outcome Comparison Confounders and Uncertainty Bound]]—_what falsifiability looks like when applied to an everyday causal claim._
 - [[Philosophy of Science Should Be Naturalistic, Continuous With Science Itself]]—_study how science works using the sciences themselves._
 - [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]]—_a graded alternative to confirm-or-refute._
 

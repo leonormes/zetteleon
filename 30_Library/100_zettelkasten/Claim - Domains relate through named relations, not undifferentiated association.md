@@ -4,11 +4,12 @@ contradicts: []
 created: 2026-07-27T10:10:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-11-14T16:49:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-domains-relate-through-named-relations-not-undifferentiated-association
 position-date: 2026-07-27
 proposition: "Knowledge domains stand in specific, directed, nameable relations to one another (informs, extends, catalyses, intersects), and recording the relation type carries information that a bare associative link discards."
-related_to: ["[[Claim - Flat associative structure beats rigid hierarchy]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]", "[[Typed Links for Knowledge Context]]"]
+related_to: ["[[Claim - Flat associative structure beats rigid hierarchy]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]", "[[SoT - Knowledge Compiler (Argument Graph Spec)]]", "[[Typed Links for Knowledge Context]]"]
+status: stable
 tags: [linking, pkm, structure, topic/knowledge-architecture, topic/knowledge-graph, topic/pkm]
 title: Claim - Domains relate through named relations, not undifferentiated association
 type: claim
@@ -34,9 +35,9 @@ Harvested from §2 "The Relationship Matrix" of [[SoT - Knowledge Architecture (
 
 ## Mechanism
 
-A bare link asserts only _these two are related_. A named relation asserts something checkable: that one thing extends another, or contradicts it, or depends on it. The difference is not ontological richness for its own sake—it is that a compiler can then resolve targets, flag danglers, and answer traversal questions ("what rests on this?", "what conflicts with this?") without a hand-maintained second index.
+A bare link asserts only _these two are related_. A named relation asserts something checkable: that one thing extends another, or contradicts it, or depends on it. The difference is not ontological richness for its own sake—it is that a compiler ([[SoT - Knowledge Compiler (Argument Graph Spec)]]) can then resolve targets, flag danglers, project neighbours onto the K-Plex Idea Compass, and answer traversal questions ("what rests on this?", "what conflicts with this?") without a hand-maintained second index.
 
-This claim is the ancestor of the vault's controlled vocabulary. The four informal relation names above (`Informs`, `Extends`, `Catalyses`, `Intersects`) were generalised into the six-term closed set in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]—`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`—where the vocabulary became machine-checkable rather than descriptive.
+This claim is the ancestor of the vault's controlled vocabulary. The four informal relation names above (`Informs`, `Extends`, `Catalyses`, `Intersects`) were generalised into the seven-term closed set in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]—`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`—where the vocabulary became machine-checkable rather than descriptive.
 
 ## Counter-positions
 
@@ -50,7 +51,7 @@ Whether the relation type is _load-bearing_—i.e. whether any question gets ans
 
 ## Falsifier
 
-If graph queries over typed edges reliably returned the same results as untyped adjacency plus a text search, the typing would be decoration. Conversely, `edge_lint.py --why` and `--impact` are only definable over typed edges: they traverse `supports`/`depends_on` specifically and would be meaningless over a homogeneous link graph. That the vault has working commands which _require_ the types is the strongest evidence for the claim to date.
+If graph queries over typed edges reliably returned the same results as untyped adjacency plus a text search, the typing would be decoration. Conversely, `edge_lint.py --why` and `--impact` ([[SoT - Knowledge Compiler (Argument Graph Spec)]] §3) and K-Plex's directional Idea Compass are only definable over typed edges: they traverse `supports`/`depends_on` specifically and would be meaningless over a homogeneous link graph. That the vault has working commands which _require_ the types is the strongest evidence for the claim to date.
 
 ## Open Threads
 

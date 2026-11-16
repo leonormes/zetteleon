@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:17+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:13:00+00:00
 permalink: llmeon/00-inbox/empathy-is-cognitive-work
 proposition: Understanding another person requires active effort to bridge conceptual gaps, beyond hearing their words.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - cognition
   - communication
@@ -43,15 +43,15 @@ Source: [[Beyond Words]] (line 151).
 
 ### Related
 
-- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—extends: lists active repair strategies such as clarification and paraphrasing that put this effort into practice.
-- [[Communication requires iterative approximation]]—shared mechanism: iterative checking is the effortful part of understanding another person.
-- [[Qualia and Linguistic Limitations]]—shared mechanism: others' experience exceeds what their words convey.
+- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—_extends: lists active repair strategies such as clarification and paraphrasing that put this effort into practice._ [extends:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]
+- [[Communication requires iterative approximation]]—_shared mechanism: iterative checking is the effortful part of understanding another person._
+- [[Qualia and Linguistic Limitations]]—_shared mechanism: others' experience exceeds what their words convey._
 
 ### See Also
 
 - [[MOC - The Gap Between Thought and Language]]
 
-#### Further Reading
+### Further Reading
 
 - [Supercommunicators — Charles Duhigg, "Touchy-Feely Hedge Funders"](calibre://view-book/GCcalibreBooks/700/EPUB)—_says effective communication requires adopting the perspective of the other person and showing empathy._
 - [Emotional Intelligence — Daniel Goleman, Ch. 7 "The Roots of Empathy"](calibre://view-book/GCcalibreBooks/300/EPUB)—_notes that emotions are rarely put into words, so intuiting another person's feelings depends on reading nonverbal channels such as tone of voice, gesture and facial expression._

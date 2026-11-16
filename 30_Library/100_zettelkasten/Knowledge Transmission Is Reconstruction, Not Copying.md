@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:13:00+00:00
 permalink: llmeon/00-inbox/knowledge-transmission-is-reconstruction-not-copying
 proposition: Transmitting knowledge through language means the receiver reconstructs meaning against a background of shared experience, rather than copying information from one mind to another.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - communication
   - epistemology
@@ -43,9 +43,9 @@ Source: [[Beyond Words]] (line 350).
 
 ### Related
 
-- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—extends: already states that language transmits 'instructions for reconstruction'; this note isolates the point for knowledge transfer.
-- [[Communication Is Inherently Lossy Like Image Compression]]—shared mechanism: the decoding and reconstruction steps of that note's four-step process.
-- [[Communication requires iterative approximation]]—shared mechanism: reconstruction is refined through feedback.
-- [[Tacit vs Explicit Knowledge]]—shared mechanism: the tacit layer is not carried by the words and has to be rebuilt by the receiver.
-- [[The Illusion of Shared Understanding in Teams]]—shared mechanism: teams assume the message reconstructed matches the one sent.
-- [[Documenting Mental Models Enables Project Re-entry]]—shared mechanism: documentation serves as scaffolding for reconstructing a mental model later.
+- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—_extends: already states that language transmits 'instructions for reconstruction'; this note isolates the point for knowledge transfer._ [extends:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=5, confidence=high]
+- [[Communication Is Inherently Lossy Like Image Compression]]—_extends: the decoding and reconstruction steps of that note's four-step process._ [extends:: [[Communication Is Inherently Lossy Like Image Compression]], strength=4, confidence=high]
+- [[Communication requires iterative approximation]]—_shared mechanism: reconstruction is refined through feedback._
+- [[Tacit vs Explicit Knowledge]]—_shared mechanism: the tacit layer is not carried by the words and has to be rebuilt by the receiver._
+- [[The Illusion of Shared Understanding in Teams]]—_shared mechanism: teams assume the message reconstructed matches the one sent._
+- [[Documenting Mental Models Enables Project Re-entry]]—_shared mechanism: documentation serves as scaffolding for reconstructing a mental model later._

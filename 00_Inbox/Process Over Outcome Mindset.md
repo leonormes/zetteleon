@@ -4,7 +4,7 @@ conformant: true
 created: 2025-09-11T20:23:33+00:00
 definition: "A mindset that locates the value of an activity in engaging with the process itself—curiosity, understanding, and the neurochemical reward of insight—rather than in the external outcome, credential, or completion metric it produces."
 distinguishes_from: []
-modified: 2026-10-22T15:11:15+00:00
+modified: 2026-11-14T15:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/process-over-outcome-mindset
 tags: [TheHuman/Health/ADHD, TheHuman/Mindset, TheHuman/Motivation, topic/learning]
 title: Process Over Outcome Mindset
@@ -27,7 +27,6 @@ Confidence grounded in process trusts your ability to sense, decide, and adjust 
 ## Related
 
 - [[SoT - Reframe Your Mindset From Pretender to Explorer]]—_names this note as "the Practice" of its own Process-Over-Outcome pillar: valuing the act of learning over the status of being learned._ [implements:: [[SoT - Reframe Your Mindset From Pretender to Explorer]], confidence=high]
-- [[The ADHD brain operates on an Interest-Based Nervous System]]—_the neurobiological hub this mindset's motivation pattern draws on._
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—_the intense-focus mechanism behind the BGP-routing example above._ [depends_on:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], confidence=medium]
 - [[Outcome-Goal Systems Cause Motivational Decay - Process Milestones Sustain Engagement]]—_supplies the reward-prediction-error mechanism explaining why terminus-only reward structures fail and process milestones sustain engagement._ [depends_on:: [[Outcome-Goal Systems Cause Motivational Decay - Process Milestones Sustain Engagement]], confidence=high]
 - [[Hedonic Adaptation to Achieved Goals Is a Biological Certainty, Not a Character Failing]]—_the neuroscientific reason process-oriented systems outperform outcome-oriented ones for sustained wellbeing._ [depends_on:: [[Hedonic Adaptation to Achieved Goals Is a Biological Certainty, Not a Character Failing]], confidence=high]

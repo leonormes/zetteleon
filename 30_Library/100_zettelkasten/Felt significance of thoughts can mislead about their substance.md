@@ -17,6 +17,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance-1
 proposition: The phenomenological experience of a thought feeling important or profound
   is not a reliable indicator of its actual validity or substance.
+status: stable
 tags:
 - critical-thinking
 - metacognition
@@ -60,7 +61,7 @@ The practical implication: Felt significance should be treated as a signal to ex
 
 [supports:: [[SoT - Metacognitive Calibration]], strength=5, confidence=high]
 
-[supports:: [[Protocol - Typed Answer Contract (TAC) for Vault Agents]], strength=4, confidence=high]
+[supports:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], strength=4, confidence=high]
 
 ## Where the Causes Live in the Vault
 
@@ -97,7 +98,7 @@ The manifestations have notes too: [[The Disappointment of Written Thoughts]] (p
 
 ### Where It Applies in ProdOS
 
-- [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—_The same principle applied to agents: state confidence, cite evidence and flag insufficient context, so a fluent answer is not accepted on how convincing it feels._
+- [[SoT - Typed Answer Contract (TAC) for LLM Output]]—_The same principle applied to agents: state confidence, cite evidence and flag insufficient context, so a fluent answer is not accepted on how convincing it feels._
 - [[SoT - HEAD Note Contract (The Workbench)]]—_A HEAD note holds an open question you own, which keeps a thought that feels important from being filed as settled._
 - [[Note Refresh & Link Auditor]] and [[Orphan Note Positioning & Thread Audit]]—_Their evidence steps ask each claim to point at something beyond the feeling that it is true._
 

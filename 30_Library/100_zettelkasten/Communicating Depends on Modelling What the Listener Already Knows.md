@@ -5,12 +5,12 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-11-10T18:06:32+00:00
-non_conformance_reason: ""
+modified: 2026-11-16T10:13:00+00:00
 permalink: llmeon/00-inbox/communicating-depends-on-modelling-what-the-listener-already-knows
 proposition: Effective communication depends on the implicit model a speaker holds of what the listener already knows and is likely to misunderstand.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
+status: stable
 tags:
   - audience
   - communication
@@ -43,14 +43,14 @@ Source: [[Beyond Words]] (line 191).
 
 ### Related
 
-- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—shared mechanism: its 'Curse of Knowledge' is the failure of this model: the speaker assumes the listener shares their context.
-- [[Communication requires iterative approximation]]—shared mechanism: feedback is how a wrong model of the listener gets corrected.
-- [[The Illusion of Shared Understanding in Teams]]—shared mechanism: assumed alignment stands in for checking what others actually know.
+- [[SoT - Communication & Misunderstanding (The Experiential Filter)]]—_extends: its 'Curse of Knowledge' is the failure of this model: the speaker assumes the listener shares their context._ [extends:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]
+- [[Communication requires iterative approximation]]—_shared mechanism: feedback is how a wrong model of the listener gets corrected._
+- [[The Illusion of Shared Understanding in Teams]]—_shared mechanism: assumed alignment stands in for checking what others actually know._
 
 ### See Also
 
 - [[MOC - The Gap Between Thought and Language]]
 
-#### Further Reading
+### Further Reading
 
 - [The Sense of Style — Steven Pinker, Ch. 3 "The Curse of Knowledge"](calibre://view-book/GCcalibreBooks/801/EPUB)—_names the curse of knowledge, that the better you know something the less you remember how hard it was to learn, as the main reason good people write bad prose._

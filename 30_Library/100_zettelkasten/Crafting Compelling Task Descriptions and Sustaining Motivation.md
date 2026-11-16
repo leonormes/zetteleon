@@ -9,8 +9,13 @@ modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/crafting-compelling-task-descriptions-and-sustaining-motivation
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Effective task execution requires defining the physical next action with specificity while simultaneously anchoring it to a motivational 'Why'."
-tags: [execution, motivation, prodos, task-management]
+proposition: Effective task execution requires defining the physical next action with specificity while simultaneously anchoring it to a motivational 'Why'.
+status: stable
+tags:
+- execution
+- motivation
+- prodos
+- task-management
 title: Crafting Compelling Task Descriptions and Sustaining Motivation
 type: claim
 ---

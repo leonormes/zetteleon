@@ -64,8 +64,7 @@ _Backbone_ is the precise word for what external structure supplies, and it is w
 - [[Protecting Attention is the First Rule of Discipline]]—the highest-leverage single instance of environment design in a distraction-saturated setting. Attention protection _is_ choice architecture applied to inputs.
 - [[Effective Systems are Built From Tiny Initial Actions]] and [[Making a behavior easy increases the likelihood it will become a habit]]—the design rule that follows. If the point of a support is to lower activation energy, the first version must be almost embarrassingly small, or it reintroduces the cost it exists to remove.
 - [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]]—the time dimension: why a low-friction system beats a high-motivation sprint over any horizon longer than a few weeks.
-- [[External Structure and ADHD]]—the clinical application, where the claim stops being an optimisation and becomes a requirement.
-
+- [[SoT - Prosthetic Executive Function]]—the clinical application, where the claim stops being an optimisation and becomes a requirement.
 ## The Historical Argument
 
 The claim that great achievements ran on external structure rather than raw willpower is not self-evident, and the vault already contains the three-note argument that establishes it:

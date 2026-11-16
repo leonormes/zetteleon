@@ -1,5 +1,6 @@
 ---
-aliases: [Pragmatism]
+aliases:
+- Pragmatism
 axiom: true
 conformant: true
 contradicts: []
@@ -8,8 +9,13 @@ epistemic_status: high
 evidence_links: []
 modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatism-defines-truth-by-practical-consequences
-proposition: "Pragmatism, the American philosophical tradition developed by Peirce, James, and Dewey, holds that the truth, meaning, or value of an idea is defined by its practical consequences — theories are instruments rather than answers to abstract enigmas, and knowledge that produces no change in action or experience is largely meaningless."
-tags: [action, pragmatism, TheHuman/Philosophy, truth]
+proposition: Pragmatism, the American philosophical tradition developed by Peirce, James, and Dewey, holds that the truth, meaning, or value of an idea is defined by its practical consequences — theories are instruments rather than answers to abstract enigmas, and knowledge that produces no change in action or experience is largely meaningless.
+status: stable
+tags:
+- action
+- pragmatism
+- TheHuman/Philosophy
+- truth
 title: Pragmatism Defines Truth by Practical Consequences
 type: claim
 ---

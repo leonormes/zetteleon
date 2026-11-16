@@ -1,9 +1,13 @@
 ---
-conformant: false
+conformant: true
+contradicts: []
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: high
+evidence_links: []
+modified: 2026-11-14T16:51:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/pkm-generates-unique-insights-via-personal-context-that-ai-cannot-replicate
+proposition: Personal Knowledge Management generates unique insights by manually linking ideas within an individual's lived personal context, which statistical AI models cannot access or replicate.
+status: stable
 tags: [ai, insight, knowledge-graphs, pkm, topic/knowledge-architecture]
 title: PKM Generates Unique Insights via Personal Context That AI Cannot Replicate
 type: claim
@@ -15,7 +19,7 @@ Personal Knowledge Management generates unique insights by linking ideas within 
 
 ### Scope & Conditions
 
-Requires active, manual linking rather than passive accumulation. The distinction only holds where the value lies in _personal_ rather than _general_ insight. For factual retrieval or synthesis of widely-held knowledge, AI may be equivalent or superior. The unique value asserted here is specific to connection-making rooted in individual experience.
+Requires active, manual linking rather than passive accumulation. The distinction only holds where the value lies in _personal_ rather than _general_ insight. For factual retrieval, syntax linting, or structural graph traversal ([[SoT - Knowledge Compiler (Argument Graph Spec)]]), computer tooling is complementary or superior. The unique value asserted here is specific to connection-making and epistemic grounding rooted in individual experience.
 
 ### Evidence
 
@@ -23,19 +27,21 @@ Requires active, manual linking rather than passive accumulation. The distinctio
 
 ### Implications
 
-- The value of a PKM system lies primarily in its capacity to reflect the user's unique thought history, not merely in storage or retrieval.
-- Connection-building is a personal act that differentiates human insight from machine-generated content; AI and human PKM are therefore complementary rather than substitutable.
+- The value of a PKM system lies primarily in its capacity to reflect and compound the user's unique thought history, not merely in storage or retrieval.
+- Connection-building is a personal act that differentiates human insight from machine-generated content; the ProdOS Knowledge Compiler (`edge_lint.py` + K-Plex) and human PKM are therefore complementary rather than substitutable.
 
 ### Related
 
-- [[Individual Interpretation Creates Different Knowledge from the Same Information]]—direct concept match: the same source information yields different knowledge depending on personal context; this atom gives the PKM-specific form of that claim.
-- [[Personal Context and Relevance are Key to Knowledge Formation]]—direct concept match: personal context is precisely the variable that determines whether information becomes actionable knowledge.
-- [[SoT - Human vs AI Cognition]]—shared mechanism: this atom's claim that AI cannot replicate personal-context insight directly mirrors the HvAI distinction between Grounded Cognition (human) and Distributional Semantics (AI); the AI operates on a closed loop of language without access to the user's experiential ground.
+- [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_Defines the ProdOS division of labour: the compiler audits graph shape (C1–C5) and surfaces ungrounded assumptions, while human personal context supplies the propositions, link reasons, and `axiom: true` commitments._
+- [[SoT - Processing IS the Work]]—_Grounds why the cognitive engagement of linking and synthesising cannot be delegated to an agent._ [extends:: [[SoT - Processing IS the Work]], strength=4, confidence=high]
+- [[Individual Interpretation Creates Different Knowledge from the Same Information]]—_Direct concept match: the same source information yields different knowledge depending on personal context._ [extends:: [[Individual Interpretation Creates Different Knowledge from the Same Information]], strength=4, confidence=high]
+- [[Personal Context and Relevance are Key to Knowledge Formation]]—_Direct concept match: personal context determines whether information becomes actionable knowledge._ [extends:: [[Personal Context and Relevance are Key to Knowledge Formation]], strength=4, confidence=high]
+- [[SoT - Human vs AI Cognition]]—_Shared mechanism: mirrors the distinction between human Grounded Cognition and AI Distributional Semantics._
 
 ## Tensions
 
-### Automated Consolidation Vs Personal-context Curation
+### Automated Consolidation Vs Personal-Context Curation
 
-This note asserts that the vault's primary value is the human's lived experience and subjective connection-making. [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]] and [[Local-First Obsidian with MCP and RAG Is the Best-Fit Substrate for Data-Sovereign PKM]] assume the vault's value is as an LLM context substrate.
+This note asserts that the vault's primary value is the human's lived experience and subjective connection-making. [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]] and [[Local-First Obsidian with MCP and RAG Is the Best-Fit Substrate for Data-Sovereign PKM]] assume the vault's value is also as an LLM context substrate.
 
-Both are true of this vault—it serves both masters—but neither note states which primary reader it assumes. The tension becomes operational when a design decision optimises for one at the expense of the other (e.g. atomic claim chunks for RAG vs. narrative prose for human sense-making).
+ProdOS resolves this scope tension via `AGENTS.md` §6 (`own_words: true` protection) and [[SoT - Knowledge Compiler (Argument Graph Spec)]] §1.1: atomic proposition cards and typed edges make the graph machine-checkable without surrendering human authorship or epistemic judgement.
