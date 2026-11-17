@@ -5,21 +5,16 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: 2026-09-21T08:54:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-11-16T10:12:00+00:00
+modified: 2026-11-16T19:24:35+00:00
 permalink: llmeon/00-inbox/note-links-connect-representations-of-ideas-not-the-ideas-themselves
 proposition: A link between two notes joins representations of ideas, so linking on shared keywords or superficial similarity does not connect the ideas themselves.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
 status: stable
-tags:
-  - linking
-  - notes
-  - pkm
-  - representation
-  - zettelkasten
+tags: [linking, notes, pkm, representation, zettelkasten]
 title: Note Links Connect Representations of Ideas, Not the Ideas Themselves
 type: claim
-upstream: "[[Beyond Words]]"
+upstream:
 ---
 
 ## Note Links Connect Representations of Ideas, Not the Ideas Themselves
@@ -33,8 +28,6 @@ The source frames this as an "illusion of linked ideas" in a personal knowledge 
 ### Evidence
 
 > "When we link two notes based on shared keywords or superficial similarities, we're often creating links between representations of ideas, not the ideas themselves."
-
-Source: [[Beyond Words]] (line 42).
 
 ### Implications
 

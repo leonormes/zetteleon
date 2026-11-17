@@ -4,6 +4,8 @@ fields:
 - name: title
   id: title
   type: Input
+  options:
+    required: true
   path: ''
 - name: type
   id: type
@@ -25,13 +27,29 @@ fields:
   - prompt
   - tombstone
   path: ''
-- name: project_name
-  id: project_name
+- name: tags
+  id: tags
+  type: MultiInput
+  options:
+    required: true
+  path: ''
+- name: conformant
+  id: conformant
+  type: Boolean
+  options:
+    required: true
+  path: ''
+- name: non_conformance_reason
+  id: non_conformance_reason
   type: Input
   path: ''
-- name: project_category
-  id: project_category
-  type: Input
+- name: created
+  id: created
+  type: DateTime
+  path: ''
+- name: modified
+  id: modified
+  type: DateTime
   path: ''
 - name: status
   id: status
@@ -44,18 +62,6 @@ fields:
   - stale
   - superseded
   path: ''
-- name: tags
-  id: tags
-  type: MultiInput
-  path: ''
-- name: conformant
-  id: conformant
-  type: Boolean
-  path: ''
-- name: non_conformance_reason
-  id: non_conformance_reason
-  type: Input
-  path: ''
 - name: supersedes
   id: supersedes
   type: MultiFile
@@ -64,67 +70,34 @@ fields:
   id: superseded_by
   type: MultiFile
   path: ''
-- name: prodos
-  id: prodos
-  type: Object
+- name: aliases
+  id: aliases
+  type: MultiInput
   path: ''
-- name: kind
-  id: prodos_kind
-  type: Select
-  options:
-  - head
-  - sot
-  - protocol
-  - moc
-  - atomic
-  - project
-  - ops
-  - prompt
-  - journal
-  path: prodos
-- name: lifecycle
-  id: prodos_lifecycle
-  type: Select
-  options:
-  - seedling
-  - active
-  - stable
-  - evergreen
-  - archived
-  path: prodos
-- name: trust
-  id: prodos_trust
-  type: Select
-  options:
-  - low
-  - working
-  - stable
-  - authoritative
-  path: prodos
-- name: id
-  id: prodos_id
+- name: see_also
+  id: see_also
+  type: MultiFile
+  path: ''
+- name: project_name
+  id: project_name
   type: Input
-  path: prodos
-- name: review
-  id: prodos_review
-  type: Object
-  path: prodos
-- name: interval
-  id: prodos_review_interval
+  path: ''
+- name: project_category
+  id: project_category
   type: Input
-  path: prodos____prodos_review
-- name: last_reviewed
-  id: prodos_review_last_reviewed
-  type: Date
-  path: prodos____prodos_review
+  path: ''
+- name: own_words
+  id: own_words
+  type: Boolean
+  path: ''
 icon: file-text
-modified: 2026-10-22T15:11:08+00:00
+modified: 2026-11-16T22:51:00+00:00
 permalink: llmeon/10-system/file-classes/note
 version: '1.0'
 ---
 
 ## Note
 
-Base fileClass for the vault's [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 `FrontmatterContract`—the shared envelope every note inherits, plus the §4 `prodos` routing object.
+Base fileClass for the vault's [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 `FrontmatterContract`—the shared universal envelope every note inherits.
 
-Not meant to be bound directly to notes; the five canonical knowledge-node fileClasses (`Claim`, `Concept`, `Evidence`, `Question`, `Procedure`) each `extends: Note`.
+Not meant to be bound directly to notes; all 15 ProdOS `type` fileClasses (`claim`, `concept`, `evidence`, `question`, `procedure`, and the 10 routing classes) `extends: Note`. The optional §4 `prodos` routing object is declared only on routing classes (never on atomic classes).

@@ -39,7 +39,7 @@ This isn't just a personal failing, but a clash of operating models that has par
 
 ### Where It Applies in ProdOS
 
-- [[SoT - Execution Protocol (GTD & PARA)]]—_The classic linear system this note critiques: granular next actions inside outcome-named projects._
-- [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]—_The experiment that tests this thesis directly by hiding the next-actions list for a week. Still unrun._
-- [[The Clarification Ritual (Stuff to Action)]]—_The opposite bet: more clarifying into granular actions, which this note predicts may cost motivation._
+- [contrasts_with:: [[SoT - Execution Protocol (GTD & PARA)]]]—_The classic linear system this note critiques: granular next actions inside outcome-named projects._
+- [prerequisite_of:: [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]]—_The experiment that tests this thesis directly by hiding the next-actions list for a week. Still unrun._
+- [contrasts_with:: [[The Clarification Ritual (Stuff to Action)]]]—_The opposite bet: more clarifying into granular actions, which this note predicts may cost motivation._
 - [[Protocol - Weekly Command Centre]]—_One design answer to the conflict: a floor so small that a bad week can still run it._

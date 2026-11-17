@@ -1,7 +1,8 @@
 ---
+conformant: true
 created: 2026-07-16T00:00:00+00:00
 description: "The canonical routing index for 10_System/prompts. Read this note first to decide which prompt to inject for a given task — defines the taxonomy, the routing table, and which prompts are historical task-logs rather than reusable prompts."
-modified: 2026-10-22T15:11:08+00:00
+modified: 2026-11-17T10:12:44+00:00
 permalink: llmeon/10-system/prompts/00-prompt-library-router
 tags: [domain/pkm, moc, type/index]
 title: 00 - Prompt Library Router
@@ -63,6 +64,13 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | I have a new family-chores capture to fold into the chores SoTs and plan | [[Family Chores - Knowledge Consolidation]] | Domain-specific Consolidation Agent; proposes full-note updates for you to apply |
 | I pasted content about how we know things (knowledge, truth, evidence, science, belief) and want it folded into the epistemology graph | [[Epistemology Graph - Knowledge Consolidation]] | Domain-specific Consolidation Agent; reads the hub MoC and six SoTs, enhances existing notes or adds atomic notes with claim and counter-claim edges, reports gaps |
 | I want the family and relationships notes triaged into their four buckets | [[Family Notes - Triage and Normalization]] | Domain-specific composition of Triage Architect, Consolidation Agent and Link Auditor |
+
+### Daily Execution (Todoist)
+
+| Task | Prompt | Why |
+|---|---|---|
+| I want today planned: runway tasks timeboxed as dated, timed Todoist tasks (`/daily-plan`) | [[Protocol - Daily Plan (Todoist Timeboxing)]] | Reads Todoist, sets date, time and duration with Big Rocks first and a 25% buffer. Proposes the week's Big Rocks on Monday ([[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]]). Draft and untested; shutdown clears the dates the CoS set |
+| I have a planned block or task and need to start executing without overwhelm (`/engage-action`) | [[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]] | Prosthetic timebox and somatic switch loop following `/daily-plan` macro blocking: picks one micro-starter, runs a bounded focus sprint, and handles friction/re-entry |
 
 ### Personal Context to Inject alongside other Prompts
 

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:09:01+00:00
 last_reviewed: ''
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-16T19:30:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/creative-expression-across-mediums
 tags: [art, creative-expression, multimedia, music, non-linguistic-expression]
 title: Creative Expression Across Mediums
@@ -39,6 +39,4 @@ The gap between thought and language highlights the limitations of any single me
 
 - [[MOC - The Gap Between Thought and Language]]
 - [[Qualia and Linguistic Limitations]]
-- [[Human Connection Beyond Language]]
 - [[Pantomime as Proto-Language]]
-- [[Epistemology and Knowledge Beyond Language]]

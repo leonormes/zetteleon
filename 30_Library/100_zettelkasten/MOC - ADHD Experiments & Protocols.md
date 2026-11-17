@@ -3,6 +3,7 @@ aliases:
   - ADHD Lab
   - ADHD Strategy Experiments
   - Protocol Testing
+conformant: true
 created: 2025-12-16T12:00:00+00:00
 modified: 2026-11-13T16:27:30+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-experiments-protocols
@@ -82,3 +83,11 @@ TABLE without id file.link as "Failed Experiment"
 FROM #hypothesis
 WHERE status = "rejected"
 ```
+
+---
+
+## 7. Tracked Experiments (Graph Entry Points)
+
+- [entry_points:: [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]]—_Active/unrun 1-week experiment replacing granular Next Actions with 75m project Deep Dive blocks._
+- [entry_points:: [[The Clarification Ritual (Stuff to Action)]]]—_Draft 1-week experiment separating daily 15m Inbox clarification from execution._
+- [entry_points:: [[Chaining Starter Tasks Creates a Momentum Ramp]]]—_Draft hypothesis on chaining micro starter tasks to build initiation momentum._

@@ -4,7 +4,7 @@ conformant: true
 contrasts_with: ["[[SoT - Processing IS the Work]]"]
 created: 2026-02-11T11:40:00+00:00
 merged_from: ["[[SoT - Cognitive Engineering Protocols]]"]
-modified: 2026-11-14T13:59:00+00:00
+modified: 2026-11-17T10:12:44+00:00
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 project_category: prodos
 see_also: ["[[SoT - Execution Protocol (GTD & PARA)]]", "[[Protocol - Vague-to-Action]]"]
@@ -92,6 +92,16 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 - Chief of Staff review: surface open loops across Jira (FTFL project, assigned to me), Microsoft Teams and Todoist, write the outstanding work back to an Obsidian SoT, and sync actions to Todoist (project Work, label `@work`).
 - Open questions from that session: whether the Hermes `/goal` prompt has been run or only generated; whether a working Teams MCP connector exists; whether the Todoist token is configured in 1Password.
 
+### B6. Daily Plan (Todoist Timeboxing)
+
+- Trigger: `/daily-plan`. The procedure lives in [[Protocol - Daily Plan (Todoist Timeboxing)]].
+- The agent reads the runway and the week's Big Rocks ([[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]]) from Todoist, then gives the chosen tasks a date, time and duration in Todoist. Uncompleted soft timeboxes lose their date at shutdown rather than rolling to tomorrow.
+
+### B7. Engage Action (Prosthetic Timebox Loop)
+
+- Trigger: `/engage-action` (hand-off from `/daily-plan` macro blocking into single-block execution). The procedure lives in [[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]].
+- Once `/daily-plan` has set the day's macro blocks, `/engage-action` selects the active block, narrows to a single somatic starter, and runs a bounded prosthetic timebox loop with explicit friction/re-entry handling.
+
 ### B Unit Test
 
 1. Run "Process my dump" with a test entry in `00_Inbox/dump.md`.
@@ -118,4 +128,6 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 - [[The Time Management Matrix (Eisenhower Matrix)]] [depends_on:: [[The Time Management Matrix (Eisenhower Matrix)]], confidence=medium]—_the triage logic behind this protocol's `!!Priority` step; that note's own Related section explains the mapping quadrant-by-quadrant._
 - [[SoT - Execution Protocol (GTD & PARA)]]—_Defines the Project, Container and Task vocabulary this protocol sorts input into, and the Definition of Done its unit test checks._ [implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]
 - [[Writing Acts as an External Working Memory]]—_Why offloading open loops onto paper/text frees cognitive capacity._ [depends_on:: [[Writing Acts as an External Working Memory]], confidence=high]
+- [[Protocol - Daily Plan (Todoist Timeboxing)]]—_Schedules the clarified runway as timed Todoist blocks (B6)._ [extends:: [[Protocol - Daily Plan (Todoist Timeboxing)]], confidence=medium]
+- [[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]]—_Micro-execution prosthetic timebox and somatic switch loop handed off from `/daily-plan` macro blocking (B7)._ [extends:: [[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]], confidence=high]
 - [[gtd-action-system]]—_The live four-tier operational architecture and flat Todoist runway targeted by this protocol._ [implements:: [[gtd-action-system]], confidence=high]

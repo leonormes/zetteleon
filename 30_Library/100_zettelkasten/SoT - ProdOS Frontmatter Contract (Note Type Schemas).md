@@ -1,26 +1,25 @@
 ---
 aliases:
-- Frontmatter Contract
-- FrontmatterContract
-- Note Type Schemas
-- TAC Frontmatter Schema
+  - Frontmatter Contract
+  - FrontmatterContract
+  - Note Type Schemas
+  - TAC Frontmatter Schema
 conformant: true
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-10-26T14:36:21+00:00
+modified: 2026-11-16T21:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
 project_category: prodos
 see_also:
-- '[[SoT - Atomic Note Standard (The Proposition Card)]]'
-- '[[Goal - Frontmatter Bulk Migration (Phase 3)]]'
-- '[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]'
-- '[[SoT - PRODOS Core Specification]]'
-- '[[SoT - Typed Answer Contract (TAC) for LLM Output]]'
+  - "[[SoT - Atomic Note Standard (The Proposition Card)]]"
+  - "[[Goal - Frontmatter Bulk Migration (Phase 3)]]"
+  - "[[SoT - PRODOS Core Specification]]"
+  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
 status: stable
 tags:
-- domain/pkm
-- prodos/sot
-- topic/frontmatter
-- topic/knowledge-architecture
+  - domain/pkm
+  - prodos/sot
+  - topic/frontmatter
+  - topic/knowledge-architecture
 title: SoT - ProdOS Frontmatter Contract (Note Type Schemas)
 type: sot
 ---

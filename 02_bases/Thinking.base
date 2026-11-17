@@ -3,22 +3,22 @@ filters:
     - file.inFolder("20_Thinking")
     - file.ext == "md"
 formulas:
-  days_stale: '(now() - file.mtime).days.round(0)'
-  stale_flag: 'if((now() - file.mtime).days > 90 && status == "open", "⚠️ >90d Stale", "✅ Active")'
+  days_stale: (now() - file.mtime).days.round(0)
+  stale_flag: if((now() - file.mtime).days > 90 && status == "open", "⚠️ >90d Stale", "✅ Active")
 properties:
   note.AoL:
-    displayName: "Area"
+    displayName: Area
   note.closing_condition:
-    displayName: "Has Exit?"
+    displayName: Has Exit?
   formula.days_stale:
-    displayName: "Days Since Touch"
+    displayName: Days Since Touch
   formula.stale_flag:
-    displayName: "Health"
+    displayName: Health
 views:
   - type: kanban
     name: Workbench Board
     groupBy:
-      property: note.status
+      property: status
       direction: ASC
     groupOrder:
       - open

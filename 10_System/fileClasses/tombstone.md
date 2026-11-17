@@ -1,0 +1,66 @@
+---
+created: 2026-11-16 22:51:00+00:00
+extends: Note
+fields:
+- name: prodos
+  id: prodos
+  type: Object
+  path: ''
+- name: kind
+  id: prodos_kind
+  type: Select
+  options:
+  - head
+  - sot
+  - protocol
+  - moc
+  - atomic
+  - project
+  - ops
+  - prompt
+  - journal
+  path: prodos
+- name: lifecycle
+  id: prodos_lifecycle
+  type: Select
+  options:
+  - seedling
+  - active
+  - stable
+  - evergreen
+  - archived
+  path: prodos
+- name: trust
+  id: prodos_trust
+  type: Select
+  options:
+  - low
+  - working
+  - stable
+  - authoritative
+  path: prodos
+- name: id
+  id: prodos_id
+  type: Input
+  path: prodos
+- name: review
+  id: prodos_review
+  type: Object
+  path: prodos
+- name: interval
+  id: prodos_review_interval
+  type: Input
+  path: prodos____prodos_review
+- name: last_reviewed
+  id: prodos_review_last_reviewed
+  type: Date
+  path: prodos____prodos_review
+icon: archive
+modified: 2026-11-16 22:51:00+00:00
+version: '1.0'
+permalink: llmeon/10-system/file-classes/tombstone
+---
+
+## Tombstone
+
+Per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 & [[SoT - HEAD Note Contract (The Workbench)]] §3.1. Routing class for retired/tombstoned notes.
