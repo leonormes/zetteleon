@@ -1,19 +1,20 @@
 ---
-conformant: false
+conformant: true
+contradicts: []
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: missing schema field proposition for type claim (required
-  when conformant - true); missing schema field contradicts for type claim (required
-  when conformant - true); missing schema field evidence_links for type claim (required
-  when conformant - true); missing schema field epistemic_status for type claim (required
-  when conformant - true)
+epistemic_status: high
+evidence_links: []
+modified: 2026-11-17T10:30:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong-1-1
+proposition: Only propositions, not topical labels, can be tested against reality, contradicted, refined, and linked to justifying evidence.
+status: stable
 tags: [domain/pkm, topic/zettelkasten]
-title: Propositions Are the only Thing that Can Be Wrong
+title: Propositions Are the Only Thing That Can Be Wrong
 type: claim
 ---
 
-## They Are the Only Thing That Can Be Wrong
+## Propositions Are the Only Thing That Can Be Wrong
 
 This is the critical one for PKM. A topic note titled _"Kubernetes networking"_ cannot be falsified, challenged, or contradicted—it's just a bucket. A proposition note titled _"Pod-to-pod traffic bypasses kube-proxy when using Cilium's eBPF dataplane"_ can be:
 

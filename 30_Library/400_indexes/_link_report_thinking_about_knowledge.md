@@ -23,7 +23,7 @@ type: link_report
 | Atom | Links | Strongest Connection |
 |------|-------|---------------------|
 | [[Information vs Knowledge]] | 2 | [[SoT - Human vs AI Cognition]]—upstream |
-| [[PKM as Sense-Making Engine]] | 2 | [[SoT - Processing IS the Work]]—upstream |
+| [[PKM as Process vs Product]] | 2 | [[SoT - Processing IS the Work]]—upstream |
 | [[The Mind Movie Fallacy]] | 2 | [[SoT - The Childish Mind (Behavioral Resistance)]]—upstream |
 | [[Sitting with Groundlessness]] | 2 | [[SoT - Mindfulness and Emotional Regulation]]—upstream |
 | [[The Quit on the Third Urge Rule]] | 2 | [[SoT - ADHD Management Protocols]]—upstream |

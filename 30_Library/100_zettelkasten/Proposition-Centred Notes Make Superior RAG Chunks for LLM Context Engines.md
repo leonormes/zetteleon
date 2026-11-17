@@ -1,15 +1,20 @@
 ---
+conformant: true
+contradicts: []
 created: 2026-07-13T08:31:03+00:00
 created_utc: '2026-07-13T08:17:00Z'
+epistemic_status: medium
+evidence_links: []
 kind: claim
-modified: 2026-10-22T15:11:15+00:00
+modified: 2026-11-17T10:30:00+00:00
 permalink: llmeon/00-inbox/proposition-centred-notes-make-superior-rag-chunks-for-llm-context-engines
+proposition: Proposition-centred notes make more semantically dense and contextually retrievable RAG chunks for LLM context engines than topical fact summaries.
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
 tags: [llm-context, mcp, pcm, proposition, rag, topic/knowledge-architecture]
 title: Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines
-type: atom
+type: claim
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
 ---
 

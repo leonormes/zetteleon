@@ -39,7 +39,7 @@ The live Obsidian MCP semantic-search tool (`mcp-tools-istefox`, port 27200) was
 | [[Arranging as Thinking Is an Epistemic Action, Not Diagramming as Output]] | 2 | [[Epistemic Actions - Thinking via Doing]]—direct concept match |
 | [[Infinite Canvas Lowers the Task-Initiation Threshold]] | 3 | [[The 5-Minute Action Overcomes Initiation Barriers]]—shared mechanism |
 | [[Visual Containment Enables Pre-Taxonomic Grouping Before Formal Categorisation]] | 2 | [[Bottom-Up Organization Allows Emergent Structure]]—direct concept match |
-| [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] | 3 | [[PKM as Sense-Making Engine]]—direct concept match |
+| [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] | 3 | [[PKM as Process vs Product]]—direct concept match |
 | [[Network Topology of a PKM Vault Determines Its Cognitive Properties]] | 3 | [[SoT - Knowledge Architecture (Associative Ontology)]]—direct concept match |
 | [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]] | 5 | [[Retrieval-Augmented Generation (RAG)]]—direct concept match |
 | [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]] | 2 | [[Cerebellum Function and Exercise for ADHD Regulation]]—direct concept match |
@@ -62,7 +62,6 @@ These report concepts already exist as dedicated permanent notes and were delibe
 - [[Retrieval-Augmented Generation (RAG)]]
 - [[Epistemic Actions - Thinking via Doing]]
 - [[Cognitive Load]]
-- [[PKM as Sense-Making Engine]]
 - [[PKM as Process vs Product]]
 - [[Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup]]
 

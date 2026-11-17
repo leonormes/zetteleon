@@ -188,3 +188,6 @@
 {"kind":"completion","at":"2026-11-17T10:16:54.743645Z","note":"Adapted Protocol - Big Rocks Visibility Metric to Todoist Big Rock parents/subtasks per #14"}
 {"kind":"completion","at":"2026-11-17T10:17:20.278883Z","note":"Adapted Protocol - Engage Action (Prosthetic Timebox \u0026 Somatic Switch).md from Sunsama to Todoist; validated frontmatter (0 errors, 0 warnings)."}
 {"kind":"completion","at":"2026-11-17T10:17:23.391466Z","note":"Updated Protocol - Daily Plan (Todoist Timeboxing).md with Todoist-adapted macro/micro handoff, Step 0 reset, protection order \u0026 15m/30m/60m sizing, parallel agent blocks, MVA stubs/deep links, and typed edges."}
+{"kind":"intent","at":"2026-11-17T10:30:25.247487Z","title":"Consolidate proposition-centred PKM notes into a coherent typed-edge thread, fix schema/shape conflicts, and delete redundant PKM as Sense-Making Engine note"}
+{"kind":"completion","at":"2026-11-17T10:33:14.994898Z","note":"Consolidated proposition-centred PKM thread in 30_Library/100_zettelkasten/, resolved schema/shape/edge conflicts, deleted redundant PKM as Sense-Making Engine.md, verified with 0 errors"}
+{"kind":"completion","at":"2026-11-17T10:33:19.786766Z","note":"Consolidated proposition-centred PKM thread in 30_Library/100_zettelkasten/ via swarm; deleted redundant PKM as Sense-Making Engine.md; flagged protected HEAD note conflicts."}

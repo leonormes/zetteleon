@@ -32,5 +32,5 @@ type: link_report
 ## Related
 
 - [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]
-- [[PKM as Sense-Making Engine]]
+- [[PKM as Process vs Product]]
 - [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]

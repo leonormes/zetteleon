@@ -1,15 +1,20 @@
 ---
+conformant: true
+contradicts: []
 created: 2026-07-13T08:31:03+00:00
 created_utc: '2026-07-13T08:17:00Z'
+epistemic_status: high
+evidence_links: []
 kind: distinction
-modified: 2026-10-22T15:11:15+00:00
+modified: 2026-11-17T10:30:00+00:00
 permalink: llmeon/00-inbox/proposition-centred-notes-create-cognitive-leverage-that-topical-notes-lack
+proposition: Topical wiki notes are epistemically inert, whereas proposition-centred notes make arguable claims that connect to reasoning chains and create cognitive leverage for decisions.
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
 tags: [epistemics, pkm-architecture, proposition, topic/knowledge-architecture, zettelkasten]
 title: Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack
-type: atom
+type: claim
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
 ---
 
@@ -32,6 +37,7 @@ The distinction is architectural: a topical note optimises for storage and retri
 
 ### Related
 
-- [[PKM as Sense-Making Engine]]—direct concept match: proposition-centred notes are the atomic mechanism by which a vault functions as a sense-making engine rather than a reference archive.
+- [[Propositions Are the Only Thing That Can Be Wrong]]—depends_on: propositions are the sole epistemic units capable of truth, falsity, and revision.
+[depends_on:: [[Propositions Are the Only Thing That Can Be Wrong]], strength=5, confidence=high]
 - [[Claim - Flat associative structure beats rigid hierarchy]]—shared mechanism: proposition-centred atomic notes are what make flat associative linking productive in the first place.
 - [[PKM as Process vs Product]]—supports: propositions are inherently process artefacts (arguable, revisable) rather than finished products.

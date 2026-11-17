@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-11-16 22:59:14+00:00
-modified: 2026-11-16 22:59:14+00:00
+modified: 2026-11-17T10:30:00+00:00
 prodos:
   kind: sot
   lifecycle: active
@@ -82,13 +82,14 @@ Tracked via an external Decision Log (1 line per real work/architecture decision
 
 ## Working Knowledge & Upstream Grounding
 
+- [[A Thinking PKM Must Be Proposition-Centred Rather Than Topic-Centred]]—_Core thesis claim compiling the rationale, empirical evidence, and 90-day falsifier for this architecture._ [synthesizes:: [[A Thinking PKM Must Be Proposition-Centred Rather Than Topic-Centred]], confidence=high]
 - [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—_Supplies the underlying cognitive mechanism for why declarative propositions outperform topical nouns._ [synthesizes:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], confidence=high]
 - [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]]—_Shows how atomic propositional units improve retrieval precision and context assembly._ [synthesizes:: [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]], confidence=high]
 - [[Propositions Are the Only Thing That Can Be Wrong]]—_Grounds the epistemic primacy of propositions as the sole units capable of truth, falsity, and revision._ [synthesizes:: [[Propositions Are the Only Thing That Can Be Wrong]], confidence=high]
 - [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—_Scopes ProdOS Kernel Axiom 1 so model-fidelity investments in 30_Library are recognised as valid work._ [depends_on:: [[Claim - Thinking Earns Its Place by Improving Model Fidelity]], confidence=high]
 - [[The Atomicity Principle - One Idea Per Note]]—_Provides the atomicity constraint underpinning Tier 1 and Tier 2 claim cards._ [depends_on:: [[The Atomicity Principle - One Idea Per Note]], confidence=high]
 - [[SoT - PRODOS Core Specification]]—_Defines the overarching ProdOS Thinking Stream within which this proposition-centred architecture operates._ [extends:: [[SoT - PRODOS Core Specification]], confidence=high]
-- [[SoT - Atomic Note Standard (The Proposition Card)]]—_Specifies the concrete structural contract and linter rules for atomic proposition cards._ [depends_on:: [[SoT - Atomic Note Standard (The Proposition Card)]], confidence=high]
+- [[SoT - Atomic Note Standard (The Proposition Card)]]—_Specifies the concrete structural contract and linter rules for atomic proposition cards (open design tension: §2's lightweight Tier 1 default conflicts with `validate_note_shape.py` requiring `Scope & Conditions`, `Evidence`, and `Implications` on all new `100_zettelkasten/` notes)._ [depends_on:: [[SoT - Atomic Note Standard (The Proposition Card)]], confidence=high]
 - [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—_Defines the frontmatter envelope and the five knowledge-node schemas._ [depends_on:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], confidence=high]
 - [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_Relies on proposition-centred claims and typed edges to audit support, contradictions, and load-bearing premises._ [depends_on:: [[SoT - Knowledge Compiler (Argument Graph Spec)]], confidence=high]
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_Separates low-friction capture from propositional clarification to prevent premature formalisation._ [depends_on:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]], confidence=high]

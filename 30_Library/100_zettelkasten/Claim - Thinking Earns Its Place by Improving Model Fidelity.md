@@ -1,18 +1,18 @@
 ---
 aliases:
 - Model Fidelity
-conformant: true
+conformant: false
 contradicts: []
 created: 2026-08-28T23:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: ''
+modified: 2026-11-17T10:30:00+00:00
+non_conformance_reason: Stub awaiting human-authored proposition in section 1
 permalink: llmeon/30-library/100-zettelkasten/claim-thinking-earns-its-place-by-improving-model-fidelity
 position-date: 2026-08-29
 project_category: prodos
 proposition: ''
-status: stable
+status: draft
 supersedes:
 - '[[Claim - A Note That Does Not Help You Act Is Noise]]'
 tags:
