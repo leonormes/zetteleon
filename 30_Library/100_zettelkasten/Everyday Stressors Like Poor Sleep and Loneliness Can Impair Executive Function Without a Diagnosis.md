@@ -23,6 +23,6 @@ Details: Executive dysfunction is usually discussed as a symptom of conditions s
 
 ## Related
 
-- [[Cerebellum Function and Exercise for ADHD Regulation]]—shared mechanism: exercise's effect on executive/regulatory capacity, here generalised beyond ADHD to the general population.
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]—shared mechanism: exercise's effect on executive/regulatory capacity, here generalised beyond ADHD to the general population.
 - [[Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan]]—_the lifespan baseline against which stressor effects sit._
 - [[Executive Function Training Gains Fade Once the Activity Stops]]—_gains and losses in executive function both track current conditions._

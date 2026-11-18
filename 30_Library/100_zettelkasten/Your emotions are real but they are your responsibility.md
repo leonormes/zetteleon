@@ -17,7 +17,7 @@ This principle strikes a crucial balance between emotional validation and person
 Emotions are real neurological and physiological experiences. Dismissing them as "just feelings" or trying to logic them away often backfires. For individuals with ADHD, this validation is especially important because:
 
 - [[MOC - Emotional Dysregulation]] means emotions are often more intense than neurotypical experiences
-- [[ADHD Emotional Reasoning]] can make emotions feel like absolute truth
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]] can make emotions feel like absolute truth
 - Society often invalidates ADHD emotional experiences as "overreactions"
 
 ## The Responsibility Component

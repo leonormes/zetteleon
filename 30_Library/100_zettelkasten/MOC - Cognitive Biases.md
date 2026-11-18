@@ -57,7 +57,7 @@ Biases that impact how we choose actions or value outcomes.
 
 Biases where negative information or outcomes are weighted more heavily than positive ones of equal intensity.
 
-- [[Negativity Bias]]: The tendency to weight negative information and experiences more heavily than positive ones of equal intensity—an evolutionary threat-detection leftover. See [[SoT - The Negativity Bias]] for the full applied framework (ADHD amplification, countermeasures).
+- [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]: The tendency to weight negative information and experiences more heavily than positive ones of equal intensity—an evolutionary threat-detection leftover. See [[SoT - The Negativity Bias]] for the full applied framework (ADHD amplification, countermeasures).
 
 ---
 

@@ -19,7 +19,7 @@ upstream: '[[Political Contrast Effect Research]]'
 
 ## Polarization Suppresses Negativity Bias Toward In-Group Lies
 
-Under ordinary conditions a single immoral act (e.g. lying) severely and disproportionately damages a person's reputation—this is [[Negativity Bias]]. Under high affective polarization this bias is suppressed for in-group politicians, whose lies are reclassified from moral failings into instrumental competence needed to win an existential contest.
+Under ordinary conditions a single immoral act (e.g. lying) severely and disproportionately damages a person's reputation—this is [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]. Under high affective polarization this bias is suppressed for in-group politicians, whose lies are reclassified from moral failings into instrumental competence needed to win an existential contest.
 
 ### Scope & Conditions
 
@@ -35,7 +35,7 @@ A boundary condition on general negativity bias: this atom describes when and wh
 
 ### Related
 
-- [[Negativity Bias]]—extends: this atom is a boundary condition on the general concept, describing the specific circumstance (partisan threat) under which the normally robust bias to punish bad behaviour is overridden.
+- [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]—extends: this atom is a boundary condition on the general concept, describing the specific circumstance (partisan threat) under which the normally robust bias to punish bad behaviour is overridden.
 
 ### Library Sources
 

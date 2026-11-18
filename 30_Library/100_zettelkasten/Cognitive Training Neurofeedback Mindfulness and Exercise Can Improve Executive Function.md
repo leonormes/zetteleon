@@ -24,5 +24,5 @@ Details: Computerised cognitive training shows benefit for some children with le
 ## Related
 
 - [[SoT - Mindfulness and Emotional Regulation]]—shared mechanism: mindfulness as a lever on self-regulatory/executive capacity.
-- [[Cerebellum Function and Exercise for ADHD Regulation]]—shared mechanism: exercise improving executive/regulatory function.
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]—shared mechanism: exercise improving executive/regulatory function.
 - [[Executive Function Training Gains Fade Once the Activity Stops]]—_the caveat that these gains depend on continued practice._

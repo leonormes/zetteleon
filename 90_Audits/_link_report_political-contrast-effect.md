@@ -32,7 +32,7 @@ type: link_report
 | [[Polarization Suppresses Negativity Bias Toward In-Group Lies]] | 1 (extends) | 1 | _Enlightenment Now_, Ch. 4—negativity bias |
 | [[Voters Trade Democratic Norms for Partisan Victory]] | 0 | 1 | _Enlightenment Now_, Ch. 14—democratic backsliding |
 | [[Scandal Spillover Contagion Versus Contrast]] | 1 (shared mechanism) | 0 (gap) | [[Inclusion-Exclusion Model of Political Benchmarking]] |
-| [[Collective Moral Licensing in Partisan Politics]] | 1 (shared mechanism) | 0 (gap) | [[SoT - Bonhoeffer's Theory of Functional Stupidity]] |
+| [[Collective Moral Licensing Leads Voters to Tolerate In-Group Corruption]] | 1 (shared mechanism) | 0 (gap) | [[SoT - Bonhoeffer's Theory of Functional Stupidity]] |
 | [[Elite Negative Representation Strategy]] | 0 | 2 | _Data and Goliath_ (Schneier)—targeted political ads |
 | [[Contrast-Driven Forgiveness Erodes Policy Accountability]] | 2 (extends) | 0 (gap) | [[Voters Trade Democratic Norms for Partisan Victory]] |
 
@@ -48,7 +48,7 @@ Flagged explicitly rather than forced, per the TAC "flag insufficient context" r
 
 - [[Inclusion-Exclusion Model of Political Benchmarking]]—Schwarz & Bless's specific model not found in the indexed library.
 - [[Scandal Spillover Contagion Versus Contrast]]—no book found treating scandal contagion vs. contrast.
-- [[Collective Moral Licensing in Partisan Politics]]—semantic search returned only general moral-philosophy hits (_The Blank Slate_, _Mastering the Core Teachings of the Buddha_, _The Big Picture_), none specifically about moral licensing; excluded as too weak to cite.
+- [[Collective Moral Licensing Leads Voters to Tolerate In-Group Corruption]]—semantic search returned only general moral-philosophy hits (_The Blank Slate_, _Mastering the Core Teachings of the Buddha_, _The Big Picture_), none specifically about moral licensing; excluded as too weak to cite.
 - [[Contrast-Driven Forgiveness Erodes Policy Accountability]]—synthesised systemic claim, no single-book match attempted to be forced.
 
 ### POC Notes on the Archilles Semantic Search Itself

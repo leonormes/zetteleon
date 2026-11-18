@@ -1,9 +1,17 @@
 ---
-baseFile: 02_bases/Question.base
-baseView: Question
+baseFile: 02_bases/Thinking.base
+baseView: Think about this
 created: 2026-08-24T15:26:16+00:00
 extends: Note
 fields:
+  - name: status
+    id: status
+    type: Select
+    options:
+      - open
+      - thinking
+      - resolved
+    path: ""
   - name: tension
     id: tension
     type: Input

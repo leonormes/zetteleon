@@ -1,36 +1,54 @@
 ---
-created: 2026-07-13T08:31:02+00:00
-created_utc: '2026-07-13T08:17:00Z'
-kind: procedure
-modified: 2026-10-22T15:11:15+00:00
-permalink: llmeon/00-inbox/physical-movement-before-cognitive-tasks-primes-dlpfc-activation-in-adhd
-source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
-source_url: ''
-status: seed
-tags: [dlpfc, executive-function, exercise, somatic-trigger, TheHuman/Health/ADHD]
 title: Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD
-type: atom
-upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
+type: claim
+status: seed
+tags:
+- dlpfc
+- executive-function
+- exercise
+- somatic-trigger
+- TheHuman/Health/ADHD
+conformant: true
+created: 2026-07-13 08:31:02+00:00
+modified: 2026-11-17 18:00:00+00:00
+proposition: Brief physical movement before a demanding cognitive task primes DLPFC
+  activation in ADHD by raising prefrontal norepinephrine and dopamine, which counteracts
+  the suppression of the task-positive network.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
+created_utc: 2026-07-13 08:17:00+00:00
+source_title: Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture
+  - An Investigative Report
+permalink: llmeon/00-inbox/physical-movement-before-cognitive-tasks-primes-dlpfc-activation-in-adhd
 ---
 
 ## Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD
 
-Exercise interventions produce moderate-to-large positive effects on ADHD executive functions (inhibitory control SMD=0.761, cognitive flexibility SMD=0.780), and 2025 fNIRS neuroimaging shows physical movement during executive tasks increases DLPFC activation specifically in hyperactive and combined-type ADHD subtypes compared to stationary conditions, via a catecholaminergic mechanism in which exertion elevates prefrontal norepinephrine and dopamine.
+Brief physical movement before a demanding cognitive task primes dorsolateral prefrontal cortex (DLPFC) activation in ADHD. Exertion raises prefrontal norepinephrine and dopamine, which counteracts the suppression of the task-positive network and makes the task easier to start without waiting to feel like it. ^claim
 
 ### Scope & Conditions
 
-Brief movement (5-10 minutes of moderate aerobic activity) prior to a demanding cognitive task, or desk cycling/standing during the task itself, functions as a biological state-change independent of motivational engagement—it does not require "feeling like" starting.
+The direct imaging evidence the source cites covers movement during executive tasks, and it found the DLPFC effect in hyperactive and combined-type ADHD only. That a pre-task burst carries over into the task is an inference from the catecholamine mechanism, so the claim is weakest for inattentive-type ADHD. The source suggests 5-10 minutes of moderate aerobic activity beforehand, or desk cycling or standing during the task. The claim is falsified if brief pre-task movement leaves task-start latency and DLPFC engagement no better than rest.
 
 ### Evidence
 
 > "Physical exertion elevates norepinephrine and dopamine in the prefrontal cortex, directly counteracting the TPN-suppression dynamic… Brief physical movement prior to initiating a demanding cognitive task… primes DLPFC for TPN-dominant engagement."
+> (Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture - An Investigative Report, section not recorded)
+
+The same report cites exercise effects on ADHD executive function (inhibitory control SMD 0.761, cognitive flexibility SMD 0.780) and a 2025 fNIRS study of movement during executive tasks. These figures were not traced to primary papers here, so the claim rests on a secondary report.
 
 ### Implications
 
 - A pre-task movement routine can be used deliberately as a state-change trigger before starting demanding cognitive or technical work.
-- Standing or light movement during a task may sustain DLPFC engagement, particularly for hyperactive/combined ADHD presentations.
+- Standing or light movement during a task may sustain DLPFC engagement, particularly for hyperactive and combined presentations.
 
 ### Related
 
-- [[Cerebellum Function and Exercise for ADHD Regulation]]—direct concept match: this note adds the specific 2025 fNIRS DLPFC-activation evidence and the catecholaminergic mechanism to the existing exercise/regulation claim.
-- [[The Five-Step Initiation Chain for Neuro-Variable Execution]]—supports: this movement trigger is stage one of that broader initiation procedure.
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]—_extension: adds the DLPFC and catecholamine route to the existing exercise and regulation claim._
+- [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]—_premise: the deficit this movement is meant to offset._
+- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]—_context: names the TPN and DMN switching problem that the movement counteracts._
+- [[The Five-Step Initiation Chain for Neuro-Variable Execution]]—_use: this movement trigger is stage one of that procedure._
+
+[depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], confidence=medium]
+[extends:: [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]], confidence=medium]

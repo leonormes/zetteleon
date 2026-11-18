@@ -2,18 +2,31 @@
 assignee: Leon Ormes
 created: 2026-05-28T00:00:00+00:00
 issuetype: Task
-jira_id: '31913'
+jira_id: "31913"
 jira_key: FTFL-680
 jira_url: https://fitfile.atlassian.net/browse/FTFL-680
-labels: [azure, mana, networking]
+labels:
+  - azure
+  - mana
+  - networking
 modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/jira/ftfl-680-azure-mana-compatibility-verification
 priority: High
 reporter: Leon Ormes
-status: To Do
-tags: [accelerated-networking, azure, fitfile, jira, mana, networking, task]
+status: done
+tags:
+  - accelerated-networking
+  - azure
+  - fitfile
+  - jira
+  - mana
+  - networking
+  - task
 title: FTFL-680 - AZURE MANA Compatibility Verification
 updated: 2026-05-28
+completedDate: 2026-11-18
+dateModified: 2026-11-18T11:57:49.862+00:00
+dateCreated: 2026-06-22T14:55:54.072Z
 ---
 
 ## FTFL-680—[AZURE] Verify MANA Compatibility for Intel V5 and Cobalt 100 V6 VMs

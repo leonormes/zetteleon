@@ -17,7 +17,7 @@ permalink: llmeon/10-system/templates/template-atomic-zettel
 
 ## <% tp.file.title %>
 
-%% Opening statement: one to three sentences, in your own words. The whole idea, readable cold. %%
+%% Opening statement: one to three sentences, in your own words. The whole idea, readable cold. If an SoT will embed this card, end the statement with a space and ^claim on the same line (Atomic Note Standard rule 8). Delete these comments when done. %%
 
 ### Scope & Conditions
 
@@ -26,7 +26,9 @@ permalink: llmeon/10-system/templates/template-atomic-zettel
 ### Evidence
 
 > "Verbatim quote from the source"
-> (Author, work, location)
+> (Author Year, ch. N, PDF p. M) · [open in Calibre](calibre://view-book/GCcalibreBooks/ID/EPUB?open_at=toc:Chapter%20title)
+
+%% Quote from a Calibre book: run verify_quote.py first and paste its paste: line here (Atomic Note Standard section 9). %%
 
 ### Implications
 

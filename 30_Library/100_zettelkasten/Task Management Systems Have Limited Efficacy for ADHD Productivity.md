@@ -4,13 +4,16 @@ conformant: true
 contradicts: []
 created: 2025-10-30T12:00:00+00:00
 epistemic_status: medium
-evidence_links: ["[[Evidence - ADHD Task Initiation Deficit from Striatal Dopamine Hyposensitivity]]"]
-modified: 2026-10-22T15:11:14+00:00
+evidence_links:
+modified: 2026-11-17T21:54:01+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/task-management-systems-have-limited-efficacy-for-adhd-productivity
 proposition: Task management systems do not by themselves make people with ADHD productive, because the main challenge is the executive function of initiating tasks, not organising them.
-source: '[[MOC - Action Management]]'
-tags: [task-management, TheHuman/Health/ADHD, topic/productivity]
+source: "[[MOC - Action Management]]"
+tags:
+  - task-management
+  - TheHuman/Health/ADHD
+  - topic/productivity
 title: Task Management Systems Have Limited Efficacy for ADHD Productivity
 type: claim
 ---
@@ -23,7 +26,6 @@ Task management systems are only as effective as their capacity to reliably capt
 
 - [[ADHD Brain Wiring vs. Classic Productivity Systems]]—_The wider argument: a linear list also strips out the context and momentum that drive an ADHD brain._
 - [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]—_The premise: the bottleneck is starting, which is neurological, so a better list cannot fix it._
-- [[Evidence - ADHD Task Initiation Deficit from Striatal Dopamine Hyposensitivity]]—_Evidence for the initiation deficit itself. It does not test how well task systems work, only that initiation is the harder problem._
 - [[Externalize Memory Aggressively (cognitive offloading)]]—_What task systems do well: capture and offload, which is the part of the job this claim grants them._
 - [[All the Enthusiasm and Energy for a Plan Disappears]]—_A related limit: even a good system fails if it depends on enthusiasm that fades._
 - [[Productivity Systems Are Scaffolding Not the Engine of Progress]]—_The resolution the vault uses: keep the system, but treat it as scaffolding._

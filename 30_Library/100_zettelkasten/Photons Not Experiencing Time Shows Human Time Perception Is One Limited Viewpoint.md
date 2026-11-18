@@ -2,21 +2,23 @@
 conformant: true
 contradicts: []
 created: 2026-10-20T00:00:00+00:00
-created_utc: '2026-10-20T00:00:00Z'
+created_utc: 2026-10-20T00:00:00Z
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-22T15:11:20+00:00
+modified: 2026-11-18T15:01:28+00:00
 permalink: llmeon/00-inbox/photons-not-experiencing-time-shows-human-time-perception-is-one-limited-viewpoint
-proposition: That photons do not experience time shows the human perspective is one
-  specific limited viewpoint, and the underlying reality that mathematics describes
-  may be timeless.
+proposition: That photons do not experience time shows the human perspective is one specific limited viewpoint, and the underlying reality that mathematics describes may be timeless.
 source_title: Time, Patterns, and Mathematics
 source_url: https://gemini.google.com/share/9b6f6fdd7c5e
 status: seed
-tags: [perspective, photons, physics, relativity, time]
+tags:
+  - perspective
+  - photons
+  - physics
+  - relativity
+  - time
 title: Photons Not Experiencing Time Shows Human Time Perception Is One Limited Viewpoint
 type: claim
-upstream: '[[Time, Patterns, and Mathematics]]'
 ---
 
 ## Photons Not Experiencing Time Shows Human Time Perception Is One Limited Viewpoint

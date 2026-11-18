@@ -34,7 +34,7 @@ Progress is achieved through systematic refinement rather than revolutionary lea
 
 - Focus: "Better, Faster, Cheaper."
 - Outcome: High predictability and low risk.
-- Link: [[Process Over Outcome Mindset]]
+- Link: [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]
 
 ### C. Pattern Recognition
 

@@ -2,7 +2,7 @@
 aliases: [Cross-Tool Interest Tags, Interest Vocabulary]
 conformant: true
 created: 2026-09-13T00:00:00+00:00
-modified: 2026-11-13T12:41:00+00:00
+modified: 2026-11-18T07:08:00+00:00
 permalink: llmeon/30-library/so-t/so-t-canonical-interest-tags
 see_also:
   - "[[Reference - Vault Interest Map]]"
@@ -38,23 +38,23 @@ Only ADHD is piloted so far. The other 11 rows are stubs until the ADHD pilot pr
 
 ---
 
-## 2. Stubs: the Remaining 11 Core Interests
+## 2. Canonical Obsidian Tags & Stubs: the Remaining 11 Core Interests
 
-Not yet audited or piloted. Listed here so the table's shape is visible alongside the current Obsidian hubs; populating any of these ahead of the ADHD pilot proving out would undercut the point of piloting. Where a Calibre-side candidate is visible from [[Main Topics of Interest]], it is noted as an unconfirmed hint, not a decision.
+Canonical Obsidian tags below are aligned to the vault's established hierarchical tags in `30_Library/` (verified 2026-11-18; three clusters with no existing hierarchical tag—Family, Physical Health, Culture—are marked as proposed). External-tool columns (`Calibre`, `Hookmark`, `Archilles`, `NotebookLM`) remain `TBD` / unconfirmed until each row is piloted. Where a Calibre-side candidate is visible from [[Main Topics of Interest]], it is noted as an unconfirmed hint, not a decision.
 
-| Interest Node (per [[Reference - Vault Interest Map]]) | Obsidian Hub Hint | Unconfirmed Calibre-side Hint |
-|:---|:---|:---|
-| Knowledge management (PKM) & ProdOS | [[MOC - ProdOS]] | `PKM` shelf exists; tag overlap not yet checked |
-| Productivity systems & behavioural design | [[MOC - Action Management]] | `Productivity` shelf exists; heavy overlap with the ADHD row |
-| Cloud infrastructure, Kubernetes & clinical data | [[MOC - Data-Centric Infrastructure & Networking (Triage)]] | Likely spans `Platform` shelf + `Kubernetes`/`Cloud Native`/`GitOps`/`Networking & Security` tags |
-| AI & agentic engineering | [[SoT - Agentic AI Design Patterns]] | No dedicated shelf seen in the current 21—may be another ADHD-shaped edge case |
-| Philosophy, epistemology & thought/language | [[MOC - How Can I Know Something]] | `Philosophy` shelf exists |
-| Mathematics foundations & physics | [[MOC - What is Maths]] | `Maths` shelf exists |
-| Software design philosophy | [[MOC - Data-Centric Software Engineering]] | Likely overlaps `Development`/`SDLC` shelves—same "too broad alone" problem flagged in [[Main Topics of Interest]] |
-| Family, relationships & parenting | [[MOC - Relational Dynamics & Family (Triage)]] | `Family` shelf exists |
-| Physical health, movement & embodied craft | [[MOC - Health and Vitality]] | `Health & Endurance` shelf exists |
-| Psychology & social dynamics | [[MOC - Cognitive Biases]] | No dedicated shelf seen; likely tag-only like ADHD |
-| Culture, aesthetics & storytelling | [[MOC - Storytelling Techniques]] | Too heterogeneous for one shelf or tag—may not fit this vocabulary's hub-level model at all |
+| Interest Node (per [[Reference - Vault Interest Map]]) | Canonical Obsidian Tag | Obsidian Hub Hint | Unconfirmed Calibre-side Hint | External Tools (Hookmark / Archilles / NotebookLM) |
+|:---|:---|:---|:---|:---|
+| Knowledge management (PKM) & ProdOS | `domain/pkm` (54 in `30_Library`; sub-tags `topic/knowledge-architecture`, `topic/pkm/zettelkasten`) | [[MOC - ProdOS]] | `PKM` shelf exists; tag overlap not yet checked | `TBD` (unconfirmed) |
+| Productivity systems & behavioural design | `topic/productivity` (123 in `30_Library`; related `TheHuman/Habits`) | [[MOC - Action Management]] | `Productivity` shelf exists; heavy overlap with the ADHD row | `TBD` (unconfirmed) |
+| Cloud infrastructure, Kubernetes & clinical data | `domain/infrastructure` (2 in `30_Library`; established sub-tags `SoftwareEngineering/Networking` 40, `SoftwareEngineering/Containers` 7, `infrastructure/azure` 6) | [[MOC - Data-Centric Infrastructure & Networking (Triage)]] | Likely spans `Platform` shelf + `Kubernetes`/`Cloud Native`/`GitOps`/`Networking & Security` tags | `TBD` (unconfirmed) |
+| AI & agentic engineering | `domain/llm` (12 in `30_Library`; sub-tags `domain/ai`, `topic/agent-architecture`) | [[SoT - Agentic AI Design Patterns]] | No dedicated shelf seen in the current 21—may be another ADHD-shaped edge case | `TBD` (unconfirmed) |
+| Philosophy, epistemology & thought/language | `TheHuman/Philosophy` (90 in `30_Library`; alongside `TheHuman/Cognition` 114, `topic/epistemology` 33) | [[MOC - How Can I Know Something]] | `Philosophy` shelf exists | `TBD` (unconfirmed) |
+| Mathematics foundations & physics | `topic/maths` (33 in `30_Library`; also `domain/mathematics`) | [[MOC - What is Maths]] | `Maths` shelf exists | `TBD` (unconfirmed) |
+| Software design philosophy | `SoftwareEngineering/Architecture` (54 in `30_Library`; also `topic/software-architecture`) | [[MOC - Data-Centric Software Engineering]] | Likely overlaps `Development`/`SDLC` shelves—same "too broad alone" problem flagged in [[Main Topics of Interest]] | `TBD` (unconfirmed) |
+| Family, relationships & parenting | `TheHuman/Family` _(proposed; 0 in `30_Library`—notes currently use flat `family` 26 / `bessie` 43, which `02_bases/Family.base` filters on)_ | [[MOC - Relational Dynamics & Family (Triage)]] | `Family` shelf exists | `TBD` (unconfirmed) |
+| Physical health, movement & embodied craft | `TheHuman/Health` _(proposed; 0 in `30_Library`—notes currently use flat `archery` 27 / `health`)_ | [[MOC - Health and Vitality]] | `Health & Endurance` shelf exists | `TBD` (unconfirmed) |
+| Psychology & social dynamics | `TheHuman/Psychology` (98 in `30_Library`; alongside `TheHuman/Cognition/bias` 21, `topic/social-cognition` 12) | [[MOC - Cognitive Biases]] | No dedicated shelf seen; likely tag-only like ADHD | `TBD` (unconfirmed) |
+| Culture, aesthetics & storytelling | `topic/culture` _(proposed; 0 in `30_Library`—notes currently use flat tags)_ | [[MOC - Storytelling Techniques]] | Too heterogeneous for one shelf or tag—may not fit this vocabulary's hub-level model at all | `TBD` (unconfirmed) |
 
 ---
 

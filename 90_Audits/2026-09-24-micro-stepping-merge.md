@@ -14,7 +14,7 @@ Leon approved the merge proposed in [[2026-09-24-micro-stepping]]. Method: [[sys
 
 | Role | Note |
 |---|---|
-| Survivor (parent claim) | [[Micro-Stepping Reduces Cognitive Load for Task Initiation]], chosen because it had the most inbound links (13 files) and the typed edges from the task-initiation MoC and [[SoT - ADHD Management Protocols]] |
+| Survivor (parent claim) | [[Micro-Stepping Reduces Cognitive Load for Task Initiation]], chosen because it had the most inbound links (13 files) and the typed edges from the task-initiation MoC and [[ADHD Management Protocols]] |
 | Absorbed | `Master Micro-Actions & Starter Tasks` (an axiom claim that was really an untested experiment) |
 | Absorbed | `Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm` |
 
@@ -54,7 +54,7 @@ Retargeted to the parent, with the old title kept as the display text: [[Dopamin
 
 The parent is now grounded by evidence (a general chunking study) instead of resting on an unevidenced axiom.
 
-Watch-out: the parent `supports` [[SoT - ADHD Management Protocols]], which has a large downstream tree, so that tree now rests on one general study of children's maths chunking plus three books. The old arrangement rested it on an axiom. Better evidence for the ADHD-specific mechanism would make this sturdier.
+Watch-out: the parent `supports` [[ADHD Management Protocols]], which has a large downstream tree, so that tree now rests on one general study of children's maths chunking plus three books. The old arrangement rested it on an axiom. Better evidence for the ADHD-specific mechanism would make this sturdier.
 
 ### Not Changed
 

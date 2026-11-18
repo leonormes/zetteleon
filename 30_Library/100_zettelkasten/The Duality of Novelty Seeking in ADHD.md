@@ -15,7 +15,7 @@ updated: null
 ## Positive Aspects (Strengths)
 
 - Drives Curiosity and Exploration: The constant search for novelty fuels a powerful sense of curiosity and a love of learning.
-- Enables Hyperfocus: When novelty aligns with genuine interest, it can trigger states of [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], leading to exceptional productivity.
+- Enables Hyperfocus: When novelty aligns with genuine interest, it can trigger states of [[Hyperfocus]], leading to exceptional productivity.
 - Fuels Creativity and Innovation: The drive to explore new ideas and connect disparate concepts is a foundation for creative, out-of-the-box thinking.
 
 ## Problematic Patterns (Pitfalls)

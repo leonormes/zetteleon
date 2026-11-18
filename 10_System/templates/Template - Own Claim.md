@@ -7,7 +7,7 @@ tags: []
 conformant: true
 created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
-proposition: <% tp.file.title %>
+proposition:
 epistemic_status: medium
 evidence_links: []
 contradicts: []
@@ -31,7 +31,9 @@ permalink: llmeon/10-system/templates/template-own-claim
 ### Evidence
 
 > "Verbatim quote from the source"
-> (Author, work, location)
+> (Author Year, ch. N, PDF p. M) · [open in Calibre](calibre://view-book/GCcalibreBooks/ID/EPUB?open_at=toc:Chapter%20title)
+
+%% Quote from a Calibre book: run verify_quote.py first and paste its paste: line here (Atomic Note Standard section 9). %%
 
 ### Implications
 

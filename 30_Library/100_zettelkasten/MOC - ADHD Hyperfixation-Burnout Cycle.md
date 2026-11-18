@@ -30,7 +30,7 @@ When you stumble upon a new topic, hobby, or idea that piques your curiosity, it
 
 #### Phase 2: The Crest of the Wave (Hyperfixation)
 
-This is the peak of the cycle. Your growing interest has now blossomed into [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—not just regular interest, but an intense, all-consuming state of concentration.
+This is the peak of the cycle. Your growing interest has now blossomed into [[Hyperfocus]]—not just regular interest, but an intense, all-consuming state of concentration.
 
 Key Characteristics:
 

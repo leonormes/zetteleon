@@ -37,7 +37,7 @@ Details: This approach focuses on creating a steady stream of dopamine to mainta
 - [[Flow State is a State of Optimal Dopamine Stimulation]]—_The state of optimal stimulation this kind of planning tries to approximate, which the note describes as hard to trigger on demand._
 - [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—_Why the strategy matters for ADHD: a hyposensitive dopamine system does not generate enough motivation from importance alone._
 - [[SoT - The Interest-Based Nervous System in ADHD]]—_The wider account of interest-driven motivation that this planning approach is designed around._
-- [[SoT - ADHD Management Protocols]]—_Applies this strategy as a menu of dopamine sources, and already links here with an `implements` edge._
+- [[ADHD Management Protocols]]—_Applies this strategy as a menu of dopamine sources, and already links here with an `implements` edge._
 
 ## Tensions
 

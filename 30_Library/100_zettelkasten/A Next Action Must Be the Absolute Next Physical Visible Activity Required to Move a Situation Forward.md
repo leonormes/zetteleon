@@ -62,4 +62,4 @@ Source: [[GTD and the Cognitive Load of Execution]], which holds the quoted word
 
 - [[Weekly Review Verifies Project Actionability and Context]]—_Applies the definition as the check that a project label is not a next action._
 - [[The Five-Step Initiation Chain for Neuro-Variable Execution]]—_Uses this definition as stage three of the chain._
-- [[SoT - ADHD Management Protocols]]—_Already carries an `implements` edge to this note._
+- [[ADHD Management Protocols]]—_Already carries an `implements` edge to this note._

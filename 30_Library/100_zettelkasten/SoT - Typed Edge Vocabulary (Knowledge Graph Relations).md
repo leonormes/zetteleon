@@ -6,7 +6,7 @@ aliases:
 - Typed Edges
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-11-14T16:49:00+00:00
+modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
 project_category: prodos
 see_also:
@@ -64,7 +64,7 @@ Direction is always source → target, read "_source `relationship` target_". K-
 | `depends_on`  | Source requires the target to make sense or function.     | **North (`parents`)** `depends_on` / **South (`children`)** `prerequisite_of` |—|
 | `revises`     | Points to an older revision of an idea                    | **Sequence (`previous`)** `revises` / **Sequence (`next`)** `revised_by` |—|
 
-Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. For K-Plex visibility, write inline `[<relationship>:: [[<target>]]]` edges alongside or immediately below the annotated prose bullet in `### Related` or `### Tensions`, and never duplicate the same target in frontmatter `see_also` (K-Plex's `frontmatter-overrides-body-ontology` precedence rule suppresses inline body edges when a frontmatter ontology role exists between the same pair in a different compass direction). An SoT or MoC pointing down at its component notes uses `synthesizes` (South); an atomic note pointing up at an SoT, MoC, or broader concept uses `extends`, `implements`, or `depends_on` (North).
+Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. For K-Plex visibility, write inline `[<relationship>:: [[<target>]]]` edges alongside or immediately below the annotated prose bullet in `### Related` or `### Tensions`, and never duplicate the same target in frontmatter `see_also` (K-Plex's `frontmatter-overrides-body-ontology` precedence rule suppresses inline body edges when a frontmatter ontology role exists between the same pair in a different compass direction). An SoT or MoC pointing down at its transcluded/compiled component notes uses `synthesizes` (South); when an SoT's argument logically presupposes a claim as a load-bearing premise, it emits `depends_on` (North) so C1/C4 argument auditing tracks its grounding. An atomic note pointing up at an SoT, MoC, or broader concept uses `extends`, `implements`, or `depends_on` (North).
 
 ## 3. Edge Attributes (Optional)
 

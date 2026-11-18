@@ -1,16 +1,14 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-11-16T19:31:38+00:00
-non_conformance_reason: "Note is an experiment protocol (type: hypothesis), which is not one of the 5 canonical types."
+modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-dive-sessions-for-adhd-adapted-gtd-next-actions
-prodos.kind: atomic
-prodos.lifecycle: active
+status: draft
 tags: [experiment, hypothesis, TheHuman/Health/ADHD, topic/productivity]
 title: Deep Dive Sessions for ADHD (Adapted GTD Next Actions)
-type: hypothesis
+type: protocol
 ---
 
 ## 1. The Hypothesis

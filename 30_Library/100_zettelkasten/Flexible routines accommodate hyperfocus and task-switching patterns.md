@@ -19,6 +19,6 @@ Similarly, when dopamine-seeking drives task-switching, the next activity in the
 
 ## Related
 
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]
+- [[Hyperfocus]]
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]
 - [[Event-based pacing matches boom and bust energy cycles]]

@@ -1,17 +1,18 @@
 ---
-aliases: []
-conformant: true
-contradicts: []
-created: 2026-08-06T23:00:00+00:00
-epistemic_status: medium
-evidence_links: []
-modified: 2026-11-08T13:27:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-action-precedes-motivation-is-a-directional-heuristic-not-an-absolute-law
-proposition: '''Action precedes motivation'' is a reliable operating heuristic for overcoming ADHD initiation deficits, but stated as an absolute law it overstates a bidirectional relationship — initiation still needs some triggering condition, so the defensible claim is that motivation cannot reliably be waited for, not that thought never usefully precedes action.'
-tags: [epistemics, motivation, TheHuman/Health/ADHD, topic/productivity]
 title: Claim - Action Precedes Motivation Is a Directional Heuristic, Not an Absolute Law
 type: claim
-upstream: '[[HEAD - The Trap of the Architect]]'
+tags:
+  - epistemics
+  - motivation
+  - TheHuman/Health/ADHD
+  - topic/productivity
+conformant: true
+created: 2026-08-06T23:00:00+00:00
+modified: 2026-11-08T13:27:39+00:00
+aliases: []
+proposition: "'Action precedes motivation' is a reliable operating heuristic for overcoming ADHD initiation deficits, but stated as an absolute law it overstates a bidirectional relationship — initiation still needs some triggering condition, so the defensible claim is that motivation cannot reliably be waited for, not that thought never usefully precedes action."
+epistemic_status: medium
 ---
 
 As a _heuristic for someone stuck in analysis_, "action precedes motivation" is well-grounded: [[Motion Creates Emotion to Overcome Inertia]] hypothesises that ADHD reward deficiency releases dopamine kinetically (during engagement) rather than in anticipation, so waiting to feel ready is structurally a trap, and [[SoT - The Cognitive Physiology of Task Execution]] independently states that motivation is a result of action, not its cause.

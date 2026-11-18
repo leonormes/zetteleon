@@ -5,43 +5,44 @@ contradicts: []
 created: 2026-09-22T08:11:10+00:00
 epistemic_status: medium
 evidence_links: []
-last_reviewed: ''
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: ''
+modified: 2026-11-17T17:12:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/human-cognition-evolved-for-social-survival-not-for-tracking-objective-truth
-proposition: 'Human cognition evolved primarily to serve group belonging and survival, not to construct an accurate, objective picture of reality, so a felt sense of "being right" is not on its own evidence of accuracy.'
+proposition: Human cognition evolved primarily to serve group belonging and survival rather than to construct an accurate picture of reality, so a felt sense of being right is not evidence of accuracy.
+status: stable
 tags: [cognitive-bias, epistemology, evolutionary-psychology, philosophy-of-science, TheHuman/Cognition]
 title: Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth
 type: claim
-updated: null
 ---
 
 ## Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth
 
-The brain's reasoning and belief-forming machinery was shaped by what kept ancestors alive and accepted within a group, not by what would produce an accurate model of objective reality. Truth-tracking, where it happens, is a side effect of usefulness and social fitness, not the design goal. This is why two people can use identically-shaped cognitive machinery—the same heuristics, the same confidence-generating processes—and arrive at opposite conclusions, one of which is well-supported and one of which is not: the machinery was never selected to sort that difference out.
+The reasoning and belief-forming machinery of the brain was shaped by what kept ancestors alive and accepted within a group, not by what would produce an accurate model of objective reality; truth-tracking, where it happens, is a side effect of usefulness and social fitness rather than the design goal. Consequently, two people can use identically shaped cognitive machinery and arrive at opposite conclusions—one well-supported and one false—because the machinery was never selected to sort that difference out. ^claim
 
 ### Scope & Conditions
 
-A working premise, held with medium confidence: it is a widely-discussed position in cognitive science and evolutionary psychology, not a settled fact, and it is stated here as the foundation for a personal answer to "why trust science", not as an independently established claim in its own right.
+A working premise held with medium confidence, grounded in cognitive science and evolutionary psychology. Stated here as a foundational premise for why epistemic reliability requires external, structural error correction rather than individual intuition; falsified if subjective certainty reliably tracks empirical accuracy across domains without external feedback.
+
+### Evidence
+
+Drawn from evolutionary psychology and dual-process / interpreter-module accounts (such as Robin Hanson and Kevin Simler's "Press Secretary" model in *The Elephant in the Brain*), where conscious reasoning evolved to justify beliefs to an outward-facing social audience rather than to audit their true causal origins.
 
 ### Implications
 
-- The subjective feeling of being right, or of a belief "making sense", cannot be used to distinguish a well-supported belief from a false one—see [[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]].
-- Any epistemic method that is trustworthy has to get that way structurally—through mechanisms external to any one person's confidence—rather than by relying on individuals to somehow reason more accurately than this machinery allows. See [[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]].
-- Cognitive biases such as the Illusion of Explanatory Depth are not malfunctions; they are this same machinery doing what it was shaped to do—operating on usefulness and confidence rather than on causal accuracy.
+- The subjective feeling of being right cannot distinguish a well-supported belief from a false one—see [[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]].
+- Trustworthy epistemic methods must be structural—correcting bias through mechanisms external to individual confidence—see [[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]].
+- Cognitive biases such as the Illusion of Explanatory Depth are not malfunctions, but this machinery optimising for metabolic efficiency and social confidence over causal accuracy.
 
-## Related
+### Related
 
-- [[SoT - Illusion of Explanatory Depth (IoED)]]—_Names the mechanism (heuristic substitution for metabolic efficiency: recognising a thing is treated as understanding it) that this claim gives the wider evolutionary reason for: the brain optimises for a cheap sense of "knowing", not for verified causal accuracy._ [extends:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—_A specific, already-captured instance of this general claim: adopting a belief to signal group membership is exactly what cognition optimised for survival and belonging, rather than truth, would produce._ [supports:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]]
-- [[Cognitive Biases Reinforce Mental Models]]—_A related mechanism: once a model is adopted, biases work to protect it rather than to test it, consistent with cognition serving stability and belonging over accuracy._
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—_mechanism: names the heuristic substitution (treating recognition as understanding) that this evolutionary framing explains._ [extends:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—_instance: adopting a belief to signal group membership is what survival-and-belonging cognition predicts._ [supports:: [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]]
+- [[Cognitive Biases Reinforce Mental Models]]—_related mechanism: once a model is adopted, biases protect it rather than test it._
 
-### Further Reading (Personal Library)
+### See Also
 
-Semantic-similarity match; the passage was read in full.
+- [[MOC - Cognitive Biases]]
 
-- [The Elephant in the Brain — Robin Hanson & Kevin Simler, "Introducing the Press Secretary", pp. 99-100](calibre://view-book/GCcalibreBooks/1594/EPUB)—_Argues the brain's "interpreter module" evolved to construct explanations for an outward-facing audience (the "Press Secretary"), not to accurately report the true causes of belief and behaviour—the same claim this note makes about cognition generally._
+### Further Reading
 
-### Maps
-
-- [[MOC - Cognitive Biases]]—_The map this claim's evolutionary framing belongs under, alongside the specific biases (IoED, Dunning-Kruger) it explains the deeper "why" for._
+- [The Elephant in the Brain — Robin Hanson & Kevin Simler, "Introducing the Press Secretary", pp. 99-100](calibre://view-book/GCcalibreBooks/1594/EPUB)—_argues the interpreter module evolved as an outward-facing "Press Secretary", not an accurate reporter of belief causes._

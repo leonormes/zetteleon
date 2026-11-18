@@ -24,5 +24,8 @@ views:
       - supersedes
       - superseded_by
       - prodos
+    sort:
+      - property: status
+        direction: ASC
     columnSize:
       file.name: 627

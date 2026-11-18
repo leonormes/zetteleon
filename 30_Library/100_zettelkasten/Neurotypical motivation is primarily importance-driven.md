@@ -16,7 +16,7 @@ title: Neurotypical motivation is primarily importance-driven
 type: claim
 ---
 
-In contrast to the ADHD brain, the neurotypical brain operates on an "importance-based" model. While still responsive to interest, it can also initiate tasks based on abstract factors like responsibility, social expectations, or long-term benefits, even if the task itself is not engaging.
+In contrast to the ADHD brain, the neurotypical brain operates on an "importance-based" model. While still responsive to interest, it can also initiate tasks based on abstract factors like responsibility, social expectations, or long-term benefits, even if the task itself is not engaging. ^claim
 
 Links: [[SoT - The Interest-Based Nervous System in ADHD|The ADHD nervous system is primarily interest-driven]]
 

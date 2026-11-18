@@ -91,7 +91,7 @@ For bodyweight training, structural integrity supersedes repetition count.
 
 For the neurodivergent brain, consistency is the enemy. We must design for Dopamine and Novelty.
 
-- Short Sessions: 20–30 minutes of high intensity beats 90 minutes of "slogging" (supporting BDNF and executive regulation; see [[Cerebellum Function and Exercise for ADHD Regulation]] and [[Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function]]).
+- Short Sessions: 20–30 minutes of high intensity beats 90 minutes of "slogging" (supporting BDNF and executive regulation; see [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]] and [[Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function]]).
 - Gamification: Track "Streaks" or use apps that visualise progress (Visual Feedback).
 - Variety: Rotate modalities (Kettlebells → Calisthenics → Rucking → Archery) to prevent boredom, provided the _Movement Patterns_ (Squat, Hinge, Push, Pull) remain consistent.
 - Hardware Optimisation: Exercise is the most effective way to regulate ADHD symptoms (Dopamine/Norepinephrine release). It is not "optional"; it is medication (see [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains]]).
@@ -118,7 +118,7 @@ For the neurodivergent brain, consistency is the enemy. We must design for Dopam
 - [[SoT - Metabolic Health & Satiety Management]]—_protein leverage, fibre, and satiety framework._
 - [[Archery Biomechanics and Shoulder Health Protocol]]—_shoulder alignment and draw-force conditioning._
 
-[implements:: [[Cerebellum Function and Exercise for ADHD Regulation]], strength=4, confidence=high]
+[implements:: [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]], strength=4, confidence=high]
 
 [implements:: [[Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function]], strength=4, confidence=high]
 

@@ -1,30 +1,51 @@
 ---
-aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
-axiom: true
+aliases:
+  - Aristotelian Knowledge
+  - Episteme-Techne-Phronesis
+  - "Episteme, Techne, and Phronesis"
 conformant: true
-contradicts: []
 created: 2025-11-12T14:10:02+00:00
-epistemic_status: high
-evidence_links: []
-modified: 2026-10-22T15:11:18+00:00
+definition: The Aristotelian tripartite taxonomy of knowledge—episteme (scientific theory), techne (craft production), and phronesis (practical wisdom)—paired with three modes of human activity (theoria, poiesis, praxis).
+distinguishes_from:
+  - "[[The Traditional Definition of Knowledge is Justified True Belief]]"
+  - "[[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]]"
+modified: 2026-11-18T14:03:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
-prodos.kind: atomic
-prodos.lifecycle: stable
-proposition: Aristotle created a tripartite distinction between episteme (theoretical knowledge), techne (craft), and phronesis (practical wisdom), establishing that action and practice are prerequisites for complete understanding.
-tags: [aristotle, knowledge, TheHuman/Philosophy]
+status: stable
+tags:
+  - aristotle
+  - knowledge
+  - TheHuman/Philosophy
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
-type: claim
+type: concept
+used_in_claims:
+  - "[[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]]"
+  - "[[SoT - The Extended Mind]]"
 ---
 
 ## Aristotle Distinguished Between Episteme, Techne, and Phronesis
 
-Summary: Aristotle created a tripartite distinction between three forms of knowledge: _episteme_ (scientific/theoretical knowledge), _techne_ (craft/technical skill), and _phronesis_ (practical wisdom).
+The Aristotelian tripartite taxonomy divides knowledge into three irreducible kinds—_episteme_ (scientific and theoretical knowledge), _techne_ (craft and technical skill), and _phronesis_ (practical wisdom)—each corresponding to a distinct mode of human activity: _theoria_ (contemplation), _poiesis_ (making or production), and _praxis_ (action). ^def
 
-Details: These three forms of knowledge correspond to different modes of human activity: _theoria_ (contemplation), _poiesis_ (making/production), and _praxis_ (action). Aristotle emphasized that practical wisdom (_phronesis_) and virtue could not be purely theoretical; they required practice and experience to be fully realized. This places action as a prerequisite for a complete understanding of practical matters.
+### Scope & Conditions
 
-## Related
+- **_Episteme_ (_theoria_):** Universal, necessary truths grasped through contemplation and demonstration; applies to invariant domains rather than contingent action.
+- **_Techne_ (_poiesis_):** Productive know-how aimed at an external artefact or outcome; stops once the product is finished.
+- **_Phronesis_ (_praxis_):** Context-sensitive practical wisdom concerning how to act well in particular situations; cannot be reduced to rules or held purely as theory because it requires habituation and lived experience.
 
-- [[WTF is Knowledge Anyway]]
+### Evidence
+
+- Aristotle, _Nicomachean Ethics_, Book VI (distinguishes _episteme_, _techne_, and _phronesis_ among the intellectual virtues; no Calibre verbatim quote attached yet).
+
+### Implications
+
+- Separates propositional "knowing that" from embodied "knowing how" and value-laden "knowing what to do", establishing action and practice as prerequisites for complete understanding in practical domains.
+
+### Related
+
+- [[WTF is Knowledge Anyway]]—hub: broader inquiry into non-propositional forms of knowledge.
+- [[The Traditional Definition of Knowledge is Justified True Belief]]—contrasts with: propositional JTB knowledge omits _techne_ and _phronesis_.
+- [[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]]—parallel: maps the same Aristotelian machinery onto telic vs atelic activity.
 
 [supports:: [[SoT - The Extended Mind]]]
 

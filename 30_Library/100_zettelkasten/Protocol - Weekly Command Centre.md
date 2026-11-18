@@ -81,11 +81,11 @@ Done when: three fixed, or none needed.
 
 > This is the cross-reference [[gtd-action-system]] names as the weekly review's actual job. One Todoist line per active ticket—never the ticket itself. A commitment with no next action is the specific thing that makes a list untrustworthy ([[Weekly Review Verifies Project Actionability and Context]]).
 
-### Move 4—One Friction Fix (60s)
+### Move 4—One Friction Fix & Experiment Check (60s)
 
-Ask: _What one thing made this week harder than it needed to be?_
+Ask: _What one thing made this week harder than it needed to be?_ And check the active experiment in `[[MOC - ADHD Experiments & Protocols]]` / `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`): log this week's evidence, evaluate via `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]` (hypothesis → controlled test → evidence → keep/reject, never ad-hoc "whatever feels best"), or promote the next candidate from `[[MOC - ADHD Experiments & Protocols]]`.
 
-Write: one line in today's daily note—the friction, and the single 1% change to the environment.
+Write: one line in today's daily note—the friction (or experiment evidence) and the single 1% change to the environment.
 
 > [!important] Audit the system, never the self
 > If your answer is a sentence about your character ("I was lazy about X", "I keep avoiding Y"), you have answered the wrong question. Rewrite it as a sentence about the environment: what was missing, misplaced, unclear, or too many clicks away. Behaviour is a function of environment, and environment is the only half of that equation you can actually edit ([[SoT - Behavioral Architecture]]). A weekly ritual that ends in a verdict on yourself is a ritual you will learn to avoid.

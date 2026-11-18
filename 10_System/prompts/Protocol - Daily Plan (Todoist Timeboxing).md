@@ -32,6 +32,7 @@ Todoist is the source of truth for tasks and also the timeline. A time block is 
 - NEVER clear or move a due date the CoS did not set itself. Tasks that were already dated by Leon, or that have a Deadline, are hard landscape and keep their dates.
 - NEVER create a calendar event for work. Time blocks live on the Todoist tasks.
 - Use `reschedule-tasks` to place or move a block, not `update-tasks`, so recurrence is preserved.
+- **TaskNotes Bridge (`TaskNotes/Tasks/`):** When scheduling tasks mirrored or stored in TaskNotes (`todoist_id`), map each timebox to `scheduled` (`YYYY-MM-DDTHH:MM:SS`), `timeEstimate` (minutes: `15`, `30`, `60`), and optional daily-note timeblocks visible in `TaskNotes/Views/calendar-default.base`. At EOD shutdown, clear transient `scheduled` timestamps on uncompleted CoS-placed blocks back to `status: next`.
 
 ## Selection
 
@@ -45,6 +46,7 @@ Labels such as `@next_action` were purged, so use location as defined in [[gtd-a
 ## Procedure
 
 0. **Step 0 — Morning Reset & Shutdown Guard**: Before scheduling, audit `(overdue | today) & no deadline` in Todoist, stripping stale CoS-set `Today` dates back to the flat runway via `update-tasks` (`dueString: "remove"`), while never clearing dates Leon set or Deadlines. Never roll soft tasks to tomorrow.
+0b. **Active ADHD Experiment Check**: Read `[[MOC - ADHD Experiments & Protocols]]` and any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`). Apply its active test conditions to today's plan as a controlled scientific test (hypothesis → controlled test → `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]` → keep/reject in `[[MOC - ADHD Experiments & Protocols]]`), rather than ad-hoc "whatever feels best" scheduling.
 1. Read the runway and today's hard landscape from Todoist: `find-tasks-by-date` for today, and the runway filter.
 2. Read this week's Big Rock parent tasks and their subtasks.
 3. Monday proposal: if today is Monday or the first working day of the week and there are no Big Rock parents for this week, run the proposal below before anything else.
@@ -66,6 +68,7 @@ Labels such as `@next_action` were purged, so use location as defined in [[gtd-a
 
 Return in chat:
 
+- **Active ADHD Experiment** (always first): name the active `HEAD` experiment from `[[MOC - ADHD Experiments & Protocols]]` / `20_Thinking/21_Workbench/`, the hypothesis being tested, today's concrete behavioural test, and what evidence would settle it (scientific test, not ad-hoc intuition).
 - A table of block time, task, Big Rock (if any) and a Todoist link `https://app.todoist.com/app/task/<task-id>`. State that the link format has not been checked against the app.
 - **Task-Authoring Gate Stubs & Deep Links**: For every scheduled Big Rock or deep-work timebox, output the Todoist link `https://app.todoist.com/app/task/<task-id>` alongside a pre-populated MVA (`<120s`) prompt stub ready for `/engage-action` ([[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]]).
 - The line `Big Rock time planned: X of Y minutes`. X is the weekly minutes of `duration` on scheduled subtasks of this week's Big Rock parents, including today. Y is the sum of the `Estimate` values on those parents. With no Big Rocks it reads `0 of 0 minutes (none set)`.

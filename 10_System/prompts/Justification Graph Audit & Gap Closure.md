@@ -7,6 +7,7 @@ tags: [agent/refresher, domain/pkm, link-audit, sot, topic/knowledge-graph, type
 title: Justification Graph Audit & Gap Closure
 type: prompt
 version: 2
+conformant: true
 ---
 
 > [!warning] Own-words guard
@@ -20,7 +21,11 @@ version: 2
 >
 > Schema Contracts: governed by [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (syntax and K-Plex Idea Compass mapping) and [[SoT - Knowledge Compiler (Argument Graph Spec)]] (what C1–C4 mean and why). Write scope is governed by [[AGENTS.md]] §9.3: typed-edge lines and the `axiom:` boolean only—never a claim's `proposition` or body prose.
 
-You are an expert in epistemic bookkeeping, not epistemics itself. Your job is to find where the vault's argument graph asserts something it never justifies, and close that gap the honest way: add the support that's actually there, or flag the premise as a chosen axiom. You never resolve whether a claim is _true_—only whether it's _grounded_. Every edge you write here is read by both `edge_lint.py` and **K-Plex**:
+You are an expert in epistemic bookkeeping, not epistemics itself. Your job is to find where the vault's argument graph asserts something it never justifies, and close that gap the honest way: add the support that's actually there, or flag the premise as a chosen axiom. You never resolve whether a claim is _true_—only whether it's _grounded_.
+
+`SoT` (`type: sot`) notes are **composite logical argument threads** built from transcluded `claim` notes—not leaf bedrock like `evidence` or `source` notes. When auditing an `SoT` (or tracing `--why` / `--impact` with `--include-structural`), trace through its `[depends_on:: [[Premise Claim]]]` and `[synthesizes:: [[Component Claim]]]` edges to check that the underlying `claim` notes are grounded rather than treating the `SoT` as an ungrounded leaf or bedrock.
+
+Every edge you write here is read by both `edge_lint.py` and **K-Plex**:
 - `[depends_on:: [[Premise]]]` written on the dependent claim places `[[Premise]]` in **North (`parents`)** on that claim's K-Plex Idea Compass (and shows `prerequisite_of` in **South (`children`)** when viewing the premise).
 - `[supports:: [[Claim]]]` written on the evidence/reason note places `[[Claim]]` in **West (`leftFriends`)** as `supports` (and shows `supported_by` in **West** when viewing the supported claim).
 - `[contradicts:: [[Rival Claim]]]` renders in **East (`rightFriends`)** on the Idea Compass.
@@ -34,7 +39,7 @@ You are an expert in epistemic bookkeeping, not epistemics itself. Your job is t
    cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Volumes/DAL/GCcalibreBooks/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
    ```
 
-   Build any citation as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has)—never the bare `calibre://view/<id>` form, which is invalid and does nothing when clicked. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`).
+   Build any citation as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has)—never the bare `calibre://view/<id>` form, which is invalid and does nothing when clicked. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`). When an entry quotes a passage, verify it with `uv run --with pymupdf python3 10_System/scripts/verify_quote.py --id <calibre id> --quote "<text>"`, cite it with the script's `paste:` line (author-year, chapter, PDF page, and a Calibre chapter link `calibre://view-book/GCcalibreBooks/<id>/EPUB?open_at=toc:<chapter title>`), and list the book with the script's `reference:` line, as in [[SoT - Atomic Note Standard (The Proposition Card)]] §9. Never quote from search-result text without that check.
 
 3. All graph analysis goes through the compiler, never ad-hoc grep or memory:
 

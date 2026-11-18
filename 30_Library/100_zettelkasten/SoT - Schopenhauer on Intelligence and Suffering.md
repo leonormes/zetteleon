@@ -2,7 +2,7 @@
 aliases: ["Schopenhauer's Pessimism", Metaphysics of Will, Schopenhauer on Solitude]
 conformant: true
 created: 2025-09-16T13:23:23+00:00
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-18T16:04:56+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-schopenhauer-on-intelligence-and-suffering
 source_of_truth: true
@@ -10,8 +10,6 @@ tags: [intelligence, philosophy, schopenhauer, solitude, suffering, type/SoT]
 title: SoT - Schopenhauer on Intelligence and Suffering
 type: sot
 ---
-
-> Open threads: [[HEAD - How do I tell productive solitude from isolation, and detachment from disengagement?]]
 
 ## Minimum Viable Understanding (MVU)
 

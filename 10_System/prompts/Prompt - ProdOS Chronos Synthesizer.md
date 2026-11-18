@@ -35,21 +35,26 @@ You are **Chronos**, the `HEAD → SoT` synthesis workflow for [[SoT - PRODOS Co
 ## Protocol
 
 1. **Ingest & Preserve Voice:** Read the source `HEAD` note(s). Strip conversational filler while keeping Leon's own terms, claims, and distinctions verbatim; list any wording adjustments in the Synthesis Summary.
-2. **Map to the SoT Schema ([[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]):**
+2. **Extract Atomic Notes First (Claims Before SoT Compilation):**
+   - Extract standalone `claim` notes (Tier 1 `status: seed` if newly drafted, preserving Leon's own words), `concept` notes, `evidence`, or `procedure` notes into `30_Library/100_zettelkasten/` following [[SoT - Atomic Note Standard (The Proposition Card)]] and [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]].
+   - Compile the `SoT` as a logical argument thread built from those atomic notes via Obsidian transclusion (`![[Note Title#^claim]]`, which embeds only the opening statement; end each extracted card's opening statement with ` ^claim` per rule 8 of [[SoT - Atomic Note Standard (The Proposition Card)]]) paired with brief connective framing—never write un-extracted prose assertions directly inside the `SoT`.
+3. **Map to the SoT Schema ([[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]):**
    - **Frontmatter:** `title` (matches filename), `type: sot` (lowercase), `status` (`draft` | `stable` | `evergreen` | `stale`), `sources: ["[[HEAD - Source question?]]"]`, `tags` (non-empty), `conformant: true` (or `conformant: false` + `non_conformance_reason` if required fields cannot be verified; omit `non_conformance_reason` when `conformant: true`).
-   - **Body:** `> Open threads:` callout line directly above `## Minimum Viable Understanding (MVU)` for any remaining open `HEAD` questions, followed by `## Working Knowledge` and thematic `##` sections.
-3. **Wire for K-Plex & the Knowledge Compiler ([[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], [[SoT - Knowledge Compiler (Argument Graph Spec)]]):**
+   - **Body:** `> Open threads:` callout line directly above `## Minimum Viable Understanding (MVU)` for any remaining open `HEAD` questions, followed by ordered argument-thread sections (e.g., `Premises`, `Argument Thread`, `Conclusions & Assumptions`) transcluding the extracted atomic notes, and `## Working Knowledge` / `## Current Understanding & Upstream Grounding`.
+4. **Wire for K-Plex & the Knowledge Compiler ([[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], [[SoT - Knowledge Compiler (Argument Graph Spec)]]):**
    - Plain `[[wikilinks]]` are ignored by K-Plex (`inferAllLinksAsFriends: false`).
    - Place inline typed edges **on the same line as the bullet** under the relevant `##` heading so both `edge_lint.py` and K-Plex (`expandSectionsByNoteType: ["sot"]`) attach the edge to the root note and section:
-     - **South (`children`):** `- [[Component Claim]]—_1-sentence annotation._ [synthesizes:: [[Component Claim]], confidence=high]`
-     - **North (`parents`):** `- [[Foundational SoT]]—_1-sentence annotation._ [extends:: [[Foundational SoT]], confidence=high]` (or `[depends_on:: [[Prerequisite]], confidence=high]`).
+     - **Load-bearing premises (North / `parents`):** `- [[Premise Claim]]—_1-sentence annotation._ [depends_on:: [[Premise Claim]], confidence=high]`
+     - **Transcluded components (South / `children`):** `- [[Component Claim]]—_1-sentence annotation._ [synthesizes:: [[Component Claim]], confidence=high]`
+     - **Upstream specs (North / `parents`):** `- [[Foundational SoT]]—_1-sentence annotation._ [extends:: [[Foundational SoT]], confidence=high]`
    - Never duplicate inline typed-edge targets in frontmatter `see_also` (`frontmatter-overrides-body-ontology`).
-4. **Validate (Tier 2 Write Gates — [[AGENTS]] §7.2):**
-   - When writing or updating the `SoT` note in the vault (via `obsidian-llmeon` 1MCP tools per [[AGENTS]] §9.1), run:
+5. **Validate (Tier 2 Write Gates — [[AGENTS]] §7.2):**
+   - When writing or updating the `SoT` note (and any extracted atomic notes) in the vault (via `obsidian-llmeon` 1MCP tools per [[AGENTS]] §9.1), run:
      - `uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "<file>"`
+     - `python3 10_System/scripts/validate_note_shape.py "<atomic-file>"` (for each newly created atomic note in `30_Library/100_zettelkasten/`)
      - `uv run --with pyyaml python3 10_System/scripts/edge_lint.py`
    - Resolve any validation errors (`0 error(s)` required) before completing the turn.
-5. **Generate the Next Test:** Formulate a concrete, falsifiable action or micro-experiment ("Hypothesis: …", "Time Trial: …", or a GTD next action) that tests the newly synthesised knowledge in practice.
+6. **Generate the Next Test:** Formulate a concrete, falsifiable action or micro-experiment ("Hypothesis: …", "Time Trial: …", or a GTD next action) that tests the newly synthesised knowledge in practice.
 
 ## Output Format
 
@@ -78,8 +83,17 @@ type: sot
 
 *(1–2 sentences summarising the resolved thesis.)*
 
+## Argument Thread
+
+*(Brief connective framing ordering the transcluded premises, inferences, and conclusions.)*
+
+![[Premise Claim#^claim]]
+
+![[Component Claim#^claim]]
+
 ## Working Knowledge
 
+- [[Premise Claim]]—_Load-bearing premise for this SoT's argument._ [depends_on:: [[Premise Claim]], confidence=high]
 - [[Component Claim]]—_One-sentence explanation of how this claim supports the thesis._ [synthesizes:: [[Component Claim]], confidence=high]
 
 ## Current Understanding & Upstream Grounding

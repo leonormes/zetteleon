@@ -1,15 +1,13 @@
 ---
 conformant: true
-created: 2026-11-16 22:59:14+00:00
-modified: 2026-11-17T10:30:00+00:00
+created: 2026-11-16T22:59:14+00:00
+modified: 2026-11-17T14:05:00+00:00
 prodos:
   kind: sot
   lifecycle: active
   trust: working
 project_category: prodos
 project_name: ProdOS
-sources:
-  - "[[HEAD - proposition-centred not topic-centred]]"
 status: draft
 tags:
   - domain/pkm
@@ -46,8 +44,8 @@ Index notes (`type: map` / MOCs) and Single Sources of Truth (`type: sot`) sit a
 
 Pushing full schema ceremony onto every note at capture creates extraneous cognitive load and triggers maintenance avoidance. Rigour is therefore **pulled** only when load-bearing:
 
-- **Tier 1 (Default Claim):** Declarative sentence title + 2 lines of rationale. Zero required falsifiers or typed edges. Every claim promoted into `30_Library/` enters at Tier 1.
-- **Tier 2 (Load-Bearing Claim):** Escalate to the full schema (Counter-positions, Crux, Falsifier, Dated Position, Typed Edges) **only** when a claim:
+- **Tier 1 (Default Claim):** `status: seed` or `draft` — declarative sentence title + 1–3 sentence opening rationale + `epistemic_status`. Zero required falsifiers, `Scope & Conditions`/`Evidence`/`Implications` sections, or typed edges. Every claim promoted into `30_Library/` enters at Tier 1.
+- **Tier 2 (Load-Bearing Claim):** Escalate to `status: stable` / `evergreen` and the full schema (`proposition`, `evidence_links`, `contradicts`, `Scope & Conditions`, `Evidence`, `Implications`, optional `Falsifier`, Typed Edges) **only** when a claim:
   1. is consulted for a real decision, or
   2. directly contradicts another note.
 
@@ -63,7 +61,20 @@ Index notes (`type: map` / MOCs) may exist sparingly as navigation hubs, but mus
 
 ---
 
-## 4. Operating Rules
+## 4. SoT Boundary Rule & Transcluded Compilation Pattern
+
+A Single Source of Truth (`type: sot`) is a **compiled argument and synthesis page** built from the five core atomic note types (`claim`, `concept`, `evidence`, `question`, `procedure`), **not** a container for un-extracted prose assertions. Writing standalone claims, definitions, or procedures solely inside an SoT recreates a Topic Bucket under a different name: those assertions cannot be reused, tested, or tracked independently in the justification graph.
+
+To ensure an SoT still reads as a single coherent page without forcing the reader to link-hop across dozens of tabs, SoTs use **Obsidian transclusion**:
+
+1. **Extract First, Compile Second:** Every core proposition, concept distinction, empirical evidence item, or operational procedure belongs in its own atomic note in `30_Library/100_zettelkasten/`.
+2. **Transclude in Narrative Order:** Inline those atomic notes into the SoT's sections using `![[Note Title]]` (or `![[Note Title#Heading]]` when only a specific section such as the opening statement or checklist is needed) so the rendered page reads continuously from start to finish.
+3. **Connective Framing Only:** Prose authored directly inside the SoT is limited to the MVU summary, section headings, and brief connective transitions that order the argument between transclusions—never un-extracted standalone claims.
+4. **Typed Argument & Synthesis Edges:** Record `[depends_on:: [[Claim]]]` for load-bearing premises the SoT's conclusion presupposes, and `[synthesizes:: [[Note Title]]]` for transcluded component notes so `edge_lint.py` and the argument graph can trace which claims the SoT rests on and synthesises.
+
+---
+
+## 5. Operating Rules
 
 1. **No Topic Buckets:** Never create a topical container (e.g., `Networking.md`) to store facts. Create a Tier 1 claim *about* the topic, a concept distinction, or a debugging procedure.
 2. **Capture the Delta:** Do not summarise sources. Record only what surprised you, explained a failure, or shifted your prior confidence.
@@ -71,7 +82,7 @@ Index notes (`type: map` / MOCs) may exist sparingly as navigation hubs, but mus
 
 ---
 
-## 5. Falsifier (90-Day Empirical Test: 2026-11-17 to 2027-02-15)
+## 6. Falsifier (90-Day Empirical Test: 2026-11-17 to 2027-02-15)
 
 Tracked via an external Decision Log (1 line per real work/architecture decision):
 

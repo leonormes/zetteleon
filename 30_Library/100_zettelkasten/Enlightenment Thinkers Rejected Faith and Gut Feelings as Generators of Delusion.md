@@ -42,7 +42,7 @@ Pinker's account of what the Enlightenment thinkers had in common; the full list
 
 - [[Reason as Commitment to Objective Standards]]—extends: the standard these are set against
 - [[Falsifiability Distinguishes Science from Dogma]]—shared mechanism: dogma is the pattern that note contrasts with science
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—shared mechanism: beliefs adopted for belonging or authority rather than justified by evidence
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—shared mechanism: beliefs adopted for belonging or authority rather than justified by evidence
 - [[Enlightenment Thinkers Built Humanism as a Secular Moral Foundation After Religious Carnage]]—shared mechanism: the same thinkers built humanism as a secular alternative to religious authority
 
 ### Tensions

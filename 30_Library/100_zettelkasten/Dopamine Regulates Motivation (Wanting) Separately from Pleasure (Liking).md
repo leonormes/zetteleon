@@ -13,7 +13,7 @@ type: claim
 
 ## Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)
 
-Summary: Neuroscience reveals that dopamine's primary role in action is to regulate motivation and the pursuit of rewards ("wanting"), a system distinct from the one that processes the actual pleasure of receiving the reward ("liking").
+Summary: Neuroscience reveals that dopamine's primary role in action is to regulate motivation and the pursuit of rewards ("wanting"), a system distinct from the one that processes the actual pleasure of receiving the reward ("liking"). ^claim
 
 Details: The "wanting" system, mediated by mesolimbic dopamine pathways, drives approach behaviors and goal pursuit. The "liking" system, mediated by opioid systems, is responsible for the feeling of enjoyment. This dissociation explains behaviors like addiction (strong wanting without liking) and anhedonia (liking without wanting). Action depends primarily on the "wanting" system.
 

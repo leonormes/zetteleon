@@ -23,4 +23,4 @@ Links:
 - [[MOC - Emotional Dysregulation]]
 - [[Reframing Negative Thought Patterns in ADHD]]
 - [[MOC - Shame]]
-- [[ADHD Emotional Reasoning]]
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]

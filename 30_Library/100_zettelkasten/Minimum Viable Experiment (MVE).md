@@ -1,16 +1,20 @@
 ---
 created: 2026-04-14T13:22:01+00:00
-created_utc: '2026-04-14T11:35:00Z'
+created_utc: 2026-04-14T11:35:00Z
 kind: heuristic
 modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/minimum-viable-experiment-mve
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags: [behavioral-science, habits, mve, productivity]
+tags:
+  - behavioral-science
+  - habits
+  - mve
+  - productivity
 title: Minimum Viable Experiment (MVE)
 type: atom
-upstream: '[[SoT - ADHD Management Protocols]]'
+upstream: "[[ADHD Management Protocols]]"
 ---
 
 ## Minimum Viable Experiment (MVE)
@@ -33,7 +37,7 @@ Used to initiate new habits or overcome significant task inertia by making the f
 ### Related
 
 - [[Effective Systems are Built From Tiny Initial Actions]]—shared mechanism: both advocate for starting at a near-invisible scale.
-- [[SoT - ADHD Management Protocols]]—direct concept match: defined as the "Starter Task" or "120-Second Commitment."
+- [[ADHD Management Protocols]]—direct concept match: defined as the "Starter Task" or "120-Second Commitment."
 
 ### See Also
 

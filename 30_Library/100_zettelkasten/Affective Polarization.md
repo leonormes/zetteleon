@@ -33,7 +33,7 @@ Distinct from ideological polarization, which measures policy-position distance.
 
 ### Related
 
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—extends: affective polarization is the emotional register of the same tribal-signalling dynamic that note describes for individual belief adoption.
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—extends: affective polarization is the emotional register of the same tribal-signalling dynamic that note describes for individual belief adoption.
 
 ### Library Sources
 

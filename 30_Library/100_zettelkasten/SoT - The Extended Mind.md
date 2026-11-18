@@ -77,7 +77,7 @@ The Result: You start having conversations with your past self. The system ensur
 
 ## 6. Application: PRODOS as an External Brain
 
-PRODOS is the operational implementation of the Extended Mind. Under the strong constitutive reading, [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It|the external scaffold IS the executive function for the operation]]—removing it removes the faculty rather than merely making tasks harder, which makes availability, reliability, and backup primary cognitive design concerns.
+PRODOS is the operational implementation of the Extended Mind. Under the strong constitutive reading, [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one|the external scaffold IS the executive function for the operation]]—removing it removes the faculty rather than merely making tasks harder, which makes availability, reliability, and backup primary cognitive design concerns.
 
 | Biological Deficit (ADHD) | Extended Mind Solution (PRODOS) |
 |:--- |:--- |

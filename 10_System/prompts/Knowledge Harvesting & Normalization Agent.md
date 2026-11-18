@@ -1,20 +1,15 @@
 ---
-created: 2026-04-02 11:30:00+01:00
-modified: 2026-04-02 11:30:00+01:00
+conformant: true
+created: 2026-04-02T11:30:00+01:00
+description: "Take an existing SoT/MoC and scour the vault for fragments/duplicates to integrate and normalise back into it."
+modified: 2026-11-17T14:04:00+00:00
+permalink: llmeon/10-system/prompts/knowledge-harvesting-normalization-agent
 tags:
 - agent/refinery
 - domain/pkm
-- sot
 - moc
+- sot
 - type/system
-title: Knowledge Harvesting & Normalization Agent
-type: prompt
-version: 1
-permalink: llmeon/10-system/prompts/knowledge-harvesting-normalization-agentT10:30:00+00:00
-description: "Take an existing SoT/MoC and scour the vault for fragments/duplicates to integrate and normalise back into it."
-modified: 2026-10-22T15:11:08+00:00
-permalink: llmeon/10-system/prompts/knowledge-harvesting-normalization-agent
-tags: [agent/refinery, domain/pkm, moc, sot, type/system]
 title: Knowledge Harvesting & Normalization Agent
 type: prompt
 version: 1
@@ -77,13 +72,13 @@ Execute a wide semantic and literal search across the vault, explicitly excludin
 
 Propose a surgical plan and stop for Leon's approval before Phase 4:
 
-1. Integration: What unique data/insights from each fragment would move into the SoT? Quote Leon's own wording; do not paraphrase it away.
+1. Integration: Which unique claims, concepts, evidence, or procedures from each fragment should be extracted into standalone atomic notes in `30_Library/100_zettelkasten/` first, then transcluded (`![[Note Title#^claim]]`, opening statement only, per rule 8 of [[SoT - Atomic Note Standard (The Proposition Card)]]) and wired into the SoT's argument thread? Quote Leon's own wording; do not paraphrase it away, and do not paste un-extracted prose assertions directly into an SoT.
 2. Vocabulary: Where fragments use different words for the same idea, list both phrasings side by side and let Leon choose. Do not standardise his terms yourself.
 3. Refactoring: Which external notes would be superseded. Run the Conservation Check from [[Knowledge Consolidation Agent]] (every unique claim listed and located) before any is proposed for deprecation.
 
 ### Phase 4: Execution (Only the Steps Leon Approved)
 
-1. Update Target & Wire K-Plex Edges: surgical update to the SoT/MOC with the approved integrations. For standalone atomic notes or cross-domain references that remain distinct (not deprecated), wire them into the K-Plex Idea Compass using the 7-word vocabulary from [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (`extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`, `revises`): emit `[synthesizes:: [[Component Note]]]` in the SoT/MOC (renders South / `children` on the hub and North / `synthesized_in` on the component) or `[extends:: [[Target SoT]]]` / `[implements:: [[Target SoT]]]` on the component note (renders North / `parents`). Plain `[[wikilinks]]` without a typed edge or relational frontmatter property (`entry_points`, `merged_from`, `supersedes`, `see_also`) do not appear in K-Plex.
+1. Extract, Transclude & Wire K-Plex Edges: For an `SoT` (`type: sot`), extract any new standalone claims, concepts, evidence, or procedures into `30_Library/100_zettelkasten/` first (following [[SoT - Atomic Note Standard (The Proposition Card)]] and validated with `validate_note_shape.py`), then compile them into the `SoT` argument thread via `![[Note Title#^claim]]` transclusion with brief connective framing. Wire both extracted and surviving external atomic notes into the K-Plex Idea Compass using the 7-word vocabulary from [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]: emit `[depends_on:: [[Premise Claim]]]` on the SoT for load-bearing premises, `[synthesizes:: [[Component Note]]]` in the SoT/MOC for transcluded/synthesised components (renders South / `children` on the hub and North / `synthesized_in` on the component), or `[extends:: [[Target SoT]]]` / `[implements:: [[Target SoT]]]` on the component note (renders North / `parents`). Plain `[[wikilinks]]` without a typed edge or relational frontmatter property (`entry_points`, `merged_from`, `supersedes`, `see_also`) do not appear in K-Plex.
 2. Deprecate: on each approved duplicate set `status: superseded` and `superseded_by: ["[[Canonical Note]]"]` (which renders on K-Plex's Sequence `next` axis, paired with `supersedes` / `merged_from` on the canonical note's `previous` axis), add `archive` to `tags`, and replace the body with a redirect notice. Never delete.
 3. Validate: if any typed edge was added, run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` (whole vault) and confirm `0 error(s)`.
 

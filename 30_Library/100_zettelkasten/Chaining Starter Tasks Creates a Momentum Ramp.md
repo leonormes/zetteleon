@@ -1,14 +1,18 @@
 ---
 aliases: [Momentum Ramp, Task Chaining]
+conformant: true
+contradicts: []
 created: 2025-12-16T14:45:00+00:00
+epistemic_status: low
+evidence_links: []
 last_reviewed: '2025-12-16'
-modified: 2026-10-22T15:11:18+00:00
+modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/chaining-starter-tasks-creates-a-momentum-ramp
+proposition: Chaining three micro starter tasks (< 2 min each) immediately before a hard task builds initiation momentum that carries straight into the hard task.
 status: draft
 tags: [experiment, hypothesis, momentum, task-initiation, TheHuman/Health/ADHD, topic/productivity]
 title: Chaining Starter Tasks Creates a Momentum Ramp
-type: hypothesis
-updated: null
+type: claim
 ---
 
 ## 1. The Hypothesis

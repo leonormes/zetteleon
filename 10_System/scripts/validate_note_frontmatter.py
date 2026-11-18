@@ -44,7 +44,8 @@ VALID_PRODOS_LIFECYCLES = {
 # every canonical note type, including claim. Empty-string/literal-"null" legacy values are
 # common migration artifacts and are just as invalid to the Bases plugin as any other
 # out-of-enum string.
-VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded"}
+VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded", "archived"}
+QUESTION_STATUS = VALID_STATUS | {"open", "thinking", "resolved"}
 
 # Fields whose fileClass type is MultiFile at the base `Note` level (not type-specific) —
 # same "must be a list, not a bare scalar" rule as TYPE_SCHEMA_LIST_FIELDS below, just
@@ -85,6 +86,64 @@ TYPE_SCHEMA_LIST_FIELDS = {
     "claim": {"evidence_links", "contradicts"},
 }
 
+# Soft synonym warnings for flat/drift tags that have a canonical counterpart in
+# [[SoT - Canonical Interest Tags]]. Matched case-insensitively (stripped of leading '#').
+# These emit warnings only — never errors — so existing notes are not blocked.
+ADHD_TAG_QUALIFIERS = {
+    "adhd-tools",
+    "adhd-friendly",
+    "adhd-optimization",
+    "adhd-self-compassion",
+}
+
+CANONICAL_TAG_SYNONYMS = {
+    "adhd": "TheHuman/Health/ADHD",
+    "topic/adhd": "TheHuman/Health/ADHD",
+    "pkm": "domain/pkm",
+    "topic/pkm": "domain/pkm",
+    "productivity": "topic/productivity",
+    "epistemology": "topic/epistemology",
+    "philosophy": "TheHuman/Philosophy",
+    "cognition": "TheHuman/Cognition",
+    "psychology": "TheHuman/Psychology",
+    "maths": "topic/maths",
+    "math": "topic/maths",
+    "mathematics": "topic/maths",
+    "architecture": "SoftwareEngineering/Architecture",
+    "software-architecture": "SoftwareEngineering/Architecture",
+    "llm": "domain/llm",
+    "ai": "domain/llm",
+    "infrastructure": "domain/infrastructure",
+    "kubernetes": "domain/infrastructure",
+    "devops": "domain/infrastructure",
+    "family": "TheHuman/Family",
+    "health": "TheHuman/Health",
+    "culture": "topic/culture",
+    "storytelling": "topic/culture",
+}
+
+
+def collect_tag_warnings(fm):
+    """Return soft warnings for flat/drift tags with canonical interest-tag counterparts."""
+    tags = fm.get("tags")
+    if not isinstance(tags, (list, tuple)):
+        return []
+    tag_set = {str(t).lstrip("#").strip() for t in tags if t is not None}
+    warnings = []
+    for raw_tag in tags:
+        if raw_tag is None:
+            continue
+        tag = str(raw_tag).lstrip("#").strip()
+        lower = tag.lower()
+        if lower in ADHD_TAG_QUALIFIERS:
+            continue
+        canonical = CANONICAL_TAG_SYNONYMS.get(lower)
+        if canonical and tag != canonical and canonical not in tag_set:
+            warnings.append(
+                f"tag '{tag}' has canonical interest tag '{canonical}' (see SoT - Canonical Interest Tags)"
+            )
+    return warnings
+
 
 def parse_frontmatter(content):
     """Extract YAML frontmatter as a dict. Returns (fm_dict, error)."""
@@ -101,7 +160,7 @@ def parse_frontmatter(content):
         return None, f"YAML parse error: {e}"
 
 
-def validate_note(path, relative_path):
+def validate_note(path, relative_path, warnings_out=None):
     """Validate a single note's frontmatter. Returns list of error strings."""
     errors = []
     
@@ -115,6 +174,9 @@ def validate_note(path, relative_path):
         return [parse_err]
     if fm is None:
         return ["no parsable frontmatter"]
+
+    if warnings_out is not None:
+        warnings_out.extend(collect_tag_warnings(fm))
 
     # Check required fields
     for field in REQUIRED_FIELDS:
@@ -139,8 +201,9 @@ def validate_note(path, relative_path):
     # Validate status enum (base Note fileClass field — optional, but must be a real
     # enum value if present at all; a stray '' or literal-string 'null' is still invalid).
     status = fm.get("status")
-    if status is not None and status != "" and status not in VALID_STATUS:
-        errors.append(f"invalid 'status' value '{status}' — must be one of {sorted(VALID_STATUS)}")
+    allowed_status = QUESTION_STATUS if note_type == "question" else VALID_STATUS
+    if status is not None and status != "" and status not in allowed_status:
+        errors.append(f"invalid 'status' value '{status}' — must be one of {sorted(allowed_status)}")
     elif status == "":
         errors.append("'status' is an empty string — remove the field entirely or set a valid value")
 
@@ -234,33 +297,46 @@ def main():
     files_to_check.sort()
 
     total_errors = 0
+    total_warnings = 0
     files_with_errors = 0
     error_details = defaultdict(list)
+    warning_details = defaultdict(list)
 
     for fpath in files_to_check:
         try:
             rel = fpath.relative_to(VAULT_ROOT)
         except ValueError:
             rel = fpath
-        errs = validate_note(fpath, rel)
+        file_warnings = []
+        errs = validate_note(fpath, rel, warnings_out=file_warnings)
         if errs:
             files_with_errors += 1
             total_errors += len(errs)
             for e in errs:
                 error_details[str(rel)].append(e)
+        if file_warnings:
+            total_warnings += len(file_warnings)
+            warning_details[str(rel)].extend(file_warnings)
 
     # Report
+    if warning_details:
+        print(f"\n=== TAG SYNONYM WARNINGS ({total_warnings}) ===\n")
+        for fname in sorted(warning_details):
+            print(f"  ! {fname}")
+            for w in warning_details[fname]:
+                print(f"      {w}")
+
     if error_details:
         print(f"\n=== PRODOS FRONTMATTER VALIDATION ===\n")
         for fname in sorted(error_details):
             print(f"  ✗ {fname}")
             for e in error_details[fname]:
                 print(f"      {e}")
-        print(f"\n{files_with_errors} file(s) with errors, {total_errors} total error(s)")
+        print(f"\n{files_with_errors} file(s) with errors, {total_errors} total error(s), {total_warnings} warning(s)")
         sys.exit(1)
     else:
         print(f"No frontmatter violations found.\n")
-        print(f"scanned {len(files_to_check)} notes · 0 error(s), 0 warning(s)")
+        print(f"scanned {len(files_to_check)} notes · 0 error(s), {total_warnings} warning(s)")
         sys.exit(0)
 
 

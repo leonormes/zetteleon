@@ -1,0 +1,19 @@
+spec_version: 0.3.0
+name: TaskNotes
+description: Task collection managed by TaskNotes for Obsidian
+settings:
+  types_folder: _mdbase/types
+  contracts_folder: _mdbase/contracts
+  record_extensions:
+    - md
+    - base
+  validation: warn
+  explicit_type_keys:
+    - mdbase_type
+  id_field: id
+  exclude:
+    - _mdbase/types
+x-obsidian:
+  bases:
+    include:
+      - TaskNotes/Views/**/*.base

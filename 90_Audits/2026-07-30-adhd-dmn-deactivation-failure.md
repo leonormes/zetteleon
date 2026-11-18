@@ -6,7 +6,7 @@ title: 2026-07-30-adhd-dmn-deactivation-failure
 type: note
 ---
 
-## Positioning—[[ADHD DMN Deactivation Failure]]—2026-07-30
+## Positioning—[[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]]—2026-07-30
 
 ### Baseline
 

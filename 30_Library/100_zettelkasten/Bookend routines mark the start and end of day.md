@@ -20,7 +20,7 @@ These bookends serve multiple functions: they create predictable starts and ends
 ## Related
 
 - [[SoT - Intentional Living]]: _Provides the Habit Stacking and Consistency framework that underpins bookend routines._
-- [[SoT - ADHD Management Protocols]]: _Offers external scaffolding and initiation tactics (Starter Tasks) for low-energy bookend periods._
+- [[ADHD Management Protocols]]: _Offers external scaffolding and initiation tactics (Starter Tasks) for low-energy bookend periods._
 - [[MOC - Why Autistics and ADHDers NEED Routines]]: _Canonical Map of Content for the necessity and design of routines in neurodivergent contexts._
 - [[Mini routines are effective for ADHD autism and chronic illness]]: _Practical application of event-based routines as flexible containers for daily structure._
 - [[Event-based pacing matches boom and bust energy cycles]]: _Explains the logic of event-triggered transitions over rigid clock-based schedules._

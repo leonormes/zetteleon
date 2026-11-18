@@ -10,7 +10,7 @@ type: note
 
 ### Prompt Routing
 
-Per [[00 - Prompt Library Router]]: unlike the previous note, this one is not an orphan. It has 13 inbound files and three typed edges pointing at it ([[MOC - Why Task Initiation is Difficult in ADHD]] `synthesizes`, [[SoT - ADHD Management Protocols]] `implements` with strength 5, [[Master Micro-Actions & Starter Tasks]] `supports`). The router row for "ONE note's links checked and expanded" is [[Note Refresh & Link Auditor]], so I used that instead of the orphan-positioning prompt. Lexical search only (1MCP tools were unavailable).
+Per [[00 - Prompt Library Router]]: unlike the previous note, this one is not an orphan. It has 13 inbound files and three typed edges pointing at it ([[MOC - Why Task Initiation is Difficult in ADHD]] `synthesizes`, [[ADHD Management Protocols]] `implements` with strength 5, [[Master Micro-Actions & Starter Tasks]] `supports`). The router row for "ONE note's links checked and expanded" is [[Note Refresh & Link Auditor]], so I used that instead of the orphan-positioning prompt. Lexical search only (1MCP tools were unavailable).
 
 ### Link Audit
 

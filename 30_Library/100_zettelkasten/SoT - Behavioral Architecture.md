@@ -93,7 +93,7 @@ Superior performance comes from manipulating the "physics" of behavior.
 
 - [[SoT - Habit Formation Framework]] (Tactical execution / 4 Laws)
 - [[SoT - The Childish Mind (Behavioral Resistance)]] (The psychological "Elephant")
-- [[SoT - ADHD Management Protocols]] (Specific prosthetic applications)
+- [[ADHD Management Protocols]] (Specific prosthetic applications)
 - [[SoT - Prosthetic Executive Function]] (Mechanical support for cognitive failure)
 
 ## Integration Queue

@@ -137,7 +137,7 @@ The atom's mechanism is independently corroborated or illustrated in a book from
 
 - Run 1 semantic query per atom against ARCHILLES (see Tooling Protocol), phrased around the atom's mechanism in your own words rather than its exact sentence.
 - Keep only semantic-mode hits with relevance ≳0.30 (ARCHILLES labels anything at or below 0.6 'medium'; on-topic hits in this corpus typically score 0.30–0.50 and irrelevant ones can score as high, so the score only cuts the floor and the passage itself must be read; hybrid mode returns fused rank scores of about 0.03 that this bar does not apply to, so use `--mode semantic`) whose snippet, read in full, actually bears on the atom, not just a shared keyword.
-- Link type: Listed under `#### Further Reading`, one bullet per book, via its `calibre://view-book/…` URI, with a one-line italicised annotation naming what it corroborates.
+- Link type: Listed under `#### Further Reading`, one bullet per book, as the full reference printed by `verify_quote.py` (its `reference:` line: Author. Year. *Title*. Publisher. [Open in Calibre](calibre://view-book/GCcalibreBooks/<id>/EPUB)), with a one-line italicised annotation naming what it corroborates or challenges. If you quote a passage, verify it with `verify_quote.py` first and cite it with the script's `paste:` line ([[SoT - Atomic Note Standard (The Proposition Card)]] §9).
 - Zero matches is the common case—omit the section entirely rather than forcing a citation.
 
 #### Hard Rules for Linking
@@ -169,7 +169,7 @@ For each atom, create ONE markdown file. The shape is the proposition card from 
 title: <claim as a full sentence, or the term for a concept>
 type: <claim | concept | procedure>
 status: seed
-tags: [<3 to 7 lowercase tags from the atom>]
+tags: [<canonical interest tag(s) from [[SoT - Canonical Interest Tags]] when applicable, plus hierarchical domain/topic tags>]
 conformant: true
 created: <ISO 8601 timestamp>
 modified: <ISO 8601 timestamp>

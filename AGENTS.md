@@ -23,7 +23,7 @@ Human-territory map. Agents may read and write freely across all folders—the h
 | Type | Location | Naming convention | Purpose |
 |------|----------|-------------------|---------|
 | HEAD | `20_Thinking/21_Workbench/` | `HEAD - <question>?` | In-progress thinking, open questions |
-| SoT | `30_Library/100_zettelkasten/` | `SoT - Title.md` | Canonical knowledge, protocols |
+| SoT | `30_Library/100_zettelkasten/` | `SoT - Title.md` | Compiled argument thread: extract claims, concepts and procedures into atomic notes first, then transclude them (`![[Claim Title#^claim]]`, or `#^def` for a concept) with brief connective framing and a `synthesizes`/`depends_on` index. Never write un-extracted prose assertions in an SoT. Model: [[SoT - ADHD Neurology & Core Concepts]]. See [[SoT - Atomic Note Standard (The Proposition Card)]] §2 for the embed unit |
 | Protocol | `30_Library/100_zettelkasten/` | `Protocol - Title.md` | Binary imperative procedures |
 | Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Atomic claims and questions |
 | Source | `30_Library/100_zettelkasten/` | `Source - Title.md` | One note per book or article, cited once, linked from Evidence and point notes |
@@ -128,6 +128,11 @@ Before declaring any task that creates or edits vault notes complete (and before
    ```
    uv run --with pyyaml python3 10_System/scripts/edge_lint.py
    ```
+4. **Quote Verification Gate (whenever a quotation from a Calibre book is written or changed):**
+   ```
+   uv run --with pymupdf python3 10_System/scripts/verify_quote.py --id <calibre id> --quote "<text>"
+   ```
+   A quotation must come back `verbatim`, `normalised` or `elided` (`not_found` is an error). Cite it with the script's `paste:` line, author-year plus chapter and PDF page, and list the book in Further Reading with its `reference:` line, exactly as in [[SoT - Atomic Note Standard (The Proposition Card)]] §9. Never take a quotation from search-result text, an AI chat or memory without this check.
 
 ---
 

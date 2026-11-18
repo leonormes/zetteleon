@@ -346,5 +346,5 @@ Cross-link notes:
 - [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]]—the core claim, split out of [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]].
 - [[How to Test Whether a Structure Is Constitutive or Merely Representational]]—the three tests.
 - [[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]]—the cross-domain claim and its two open challenges.
-- [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]—the cognitive-scaffolding row, the bridge to ADHD.
+- [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]—the cognitive-scaffolding row, the bridge to ADHD.
 - [[The Dichotomy of Control Is a Type System That Removes Uncontrollable Events From the Domain of Distress]]—the Stoic bridge to emotional regulation.

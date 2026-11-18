@@ -10,7 +10,7 @@ type: note
 
 ### Verdict
 
-The seed is load-bearing, but on exactly one leg: [[SoT - Bonhoeffer's Theory of Functional Stupidity]] genuinely `supports` it (a real, tested, high-confidence typed edge—the vault already got this one right). The other two links hanging off this note are decorative, not structural—the [[Fundamental Attribution Error]] tie is UNDERSPECIFIED (carried over unchanged from the last audit) and the [[Values Serve as Navigational Compass in Absence of Absolute Truth]] tie fails outright. The weakest point in the one real thread isn't the edge into the seed—it's two hops back: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] is the true root, and it's an unreviewed, single-source, self-evidencing claim carrying a strength-5 dependency it hasn't earned. That note, not the seed you nominated, is what's actually most exposed here.
+The seed is load-bearing, but on exactly one leg: [[SoT - Bonhoeffer's Theory of Functional Stupidity]] genuinely `supports` it (a real, tested, high-confidence typed edge—the vault already got this one right). The other two links hanging off this note are decorative, not structural—the [[Fundamental Attribution Error]] tie is UNDERSPECIFIED (carried over unchanged from the last audit) and the [[Values Serve as Navigational Compass in Absence of Absolute Truth]] tie fails outright. The weakest point in the one real thread isn't the edge into the seed—it's two hops back: [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] is the true root, and it's an unreviewed, single-source, self-evidencing claim carrying a strength-5 dependency it hasn't earned. That note, not the seed you nominated, is what's actually most exposed here.
 
 Vocabulary note, unchanged from last time: this note supplies a clean positive example of the vault's _real_ typed-edge vocabulary working as intended—`supports` and `depends_on`, both in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]'s closed list—as opposed to the `prerequisite_of`/`instance_of`/`contrasts_with`/`related_to` table this audit brief specifies, which still doesn't match. No new patch needed on this point; just noting the contrast since it's visible directly in this note's own upstream edge.
 
@@ -18,7 +18,7 @@ Vocabulary note, unchanged from last time: this note supplies a clean positive e
 
 | Note | Dependents | Falsifier? | Confidence dated | Exposure |
 |---|---|---|---|---|
-| [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | 1 direct (Bonhoeffer, `depends_on`, strength=5, confidence=high) + rhetorical citations from ≥3 other notes (per the prior FAE audit) | No | `status: seed`, single Gemini-conversation source, self-referential evidence quote | Highest—real downstream weight, zero scrutiny apparatus |
+| [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | 1 direct (Bonhoeffer, `depends_on`, strength=5, confidence=high) + rhetorical citations from ≥3 other notes (per the prior FAE audit) | No | `status: seed`, single Gemini-conversation source, self-referential evidence quote | Highest—real downstream weight, zero scrutiny apparatus |
 | [[SoT - Bonhoeffer's Theory of Functional Stupidity]] | 4 (supports 3 notes, `contradicts` 1) | Partial—has a documented `## Tension` incl. one `contradicts` edge and an explicit `UNSURE` flag on historical scope | `modified` 3 days ago, not stale | Moderate—genuine hub, but the best-scrutinised note in this whole neighbourhood |
 | [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]] (seed) | 0 confirmed (nothing in the vault currently treats this note as its own premise) | No | No dated confidence field; `non_conformance_reason` flags it as unreviewed | Lower than nominated—well-supported from above, generates no implications of its own yet |
 
@@ -26,9 +26,9 @@ If the seed I nominated isn't the top of this list, it's because you asked me to
 
 ### Threads
 
-#### Thread 1 (The only KEEP Thread): [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] → [[SoT - Bonhoeffer's Theory of Functional Stupidity]] → [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]
+#### Thread 1 (The only KEEP Thread): [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] → [[SoT - Bonhoeffer's Theory of Functional Stupidity]] → [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]
 
-- Root: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]. Unargued, not axiomatic—`status: seed`, sourced from a single Gemini conversation (`source_title: ecological-mind-model`), and its own `### Evidence` block ("Adopting the prevailing narrative… is a way of signaling 'I am one of you'") restates the claim rather than independently evidencing it. No falsifier, no crux, no counter-position anywhere in the vault.
+- Root: [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]. Unargued, not axiomatic—`status: seed`, sourced from a single Gemini conversation (`source_title: ecological-mind-model`), and its own `### Evidence` block ("Adopting the prevailing narrative… is a way of signaling 'I am one of you'") restates the claim rather than independently evidencing it. No falsifier, no crux, no counter-position anywhere in the vault.
 - Step 1—root → Bonhoeffer. Edge: `[depends_on:: [[Claim - Beliefs often function as belonging cues...]], strength=5, confidence=high]`, glossed in Bonhoeffer's own prose: _"'Surrendering inner independence' is belief adopted as a belonging cue—a tribal signal purchasing psychological safety, not a conclusion reached."_
   - Denial: passes—Bonhoeffer's surrender-mechanism could in principle arise from something other than belonging-motivated belief (e.g. pure fear of sanction), so the tie is deniable.
   - Substitution: passes—the specific fit (identity-securing belief adoption ⇒ surrendering independent judgement) isn't served by just any tribal-belief note; it's the mechanism Bonhoeffer's own MVU leaves unexplained.
@@ -65,13 +65,13 @@ Same finding as the [[Fundamental Attribution Error]] audit, carried forward: _"
 | [[Values Serve as Navigational Compass in Absence of Absolute Truth]] | claim | 1 | outbound | tip—SEVER |
 | [[Understanding a Belief's Origins Is Not Endorsement]] | claim | 1 | inbound | tip—SEVER, low confidence (bare, `## Related`, no prose) |
 | [[_link_report_analytical_exploration_of_evil]] | link_report | 1 | inbound | attribution—machine-generated ingest artifact, `status: tmp` |
-| [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | atom | 2 (via Bonhoeffer) | downward/justification | root—unargued, KEEP edge into Bonhoeffer |
+| [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | atom | 2 (via Bonhoeffer) | downward/justification | root—unargued, KEEP edge into Bonhoeffer |
 | [[SoT - Authority-Competence Asymmetry]] | sot | 2 (via Bonhoeffer) | downward/justification | root/tip—no further typed edges out; `non_conformance_reason` flagged |
 | [[Implicit Social Hierarchies Authority]] | _(untyped stub—empty `type`, `tags`, `status`)_ | 2 (via Bonhoeffer) | downward/justification | root/tip—bare unfinished note; pathology: Bonhoeffer `depends_on` an unfinished stub at confidence=medium |
 | [[Truth-Status Belongs to Propositions, Not Persons]] | claim | 2 (via Bonhoeffer, `Remedy` sub-branch) | downward/justification | root/tip—sibling branch, not on the Evil-Arises trunk |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | claim | 2 (via Bonhoeffer, `contradicts`) | sibling counter-position | boundary—Bonhoeffer's own tension, not directly touching the seed; noted for context only |
 
-No depth-cap truncation on the live trunk—every branch terminates by depth 2 at a root/tip with no further typed edges. Two further frontiers exist if you want to extend: [[Implicit Social Hierarchies Authority]]'s own onward bare link to [[Why Others' Opinions Can Feel Undeservedly Powerful]], and the full untyped `Related` list on [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] itself (four bare/analogical links, unaudited here since they sit past the seed's own two-hop justification chain).
+No depth-cap truncation on the live trunk—every branch terminates by depth 2 at a root/tip with no further typed edges. Two further frontiers exist if you want to extend: [[Implicit Social Hierarchies Authority]]'s own onward bare link to [[Why Others' Opinions Can Feel Undeservedly Powerful]], and the full untyped `Related` list on [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] itself (four bare/analogical links, unaudited here since they sit past the seed's own two-hop justification chain).
 
 ### Patch A—proposed Typings (High Confidence Only)
 
@@ -90,7 +90,7 @@ None this run—every candidate had at least heading-level or prose-level eviden
 
 ### Pathologies Found
 
-- Bare assertion, load-bearing. [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] carries a strength-5, confidence-high dependent (Bonhoeffer) while itself having no falsifier, no crux, no counter-position, and a self-referential evidence quote. This is the highest-value finding of the run.
+- Bare assertion, load-bearing. [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] carries a strength-5, confidence-high dependent (Bonhoeffer) while itself having no falsifier, no crux, no counter-position, and a self-referential evidence quote. This is the highest-value finding of the run.
 - Dependency on an unfinished note. Bonhoeffer's `depends_on` (confidence=medium) targets [[Implicit Social Hierarchies Authority]], a note with empty `type`, `tags`, and `status` frontmatter—essentially an unprocessed stub. A "working"-trust SoT is resting part of its mechanism on a note that hasn't been through basic triage.
 - Direction mismatch. The seed's own outbound link to [[Fundamental Attribution Error]] is written as seed → FAE, but the claimed inferential direction (FAE explaining why malice-only attribution is an error) runs the other way. Flagged, not resolved—same suppressed premise as the prior audit.
 - One-sided load. The seed's `extends` claim onto [[Values Serve as Navigational Compass in Absence of Absolute Truth]] is asserted entirely from the seed's side; the target note shows no trace of awareness of ethics, evil, or this note at all.
@@ -98,8 +98,8 @@ None this run—every candidate had at least heading-level or prose-level eviden
 
 ### Frontier
 
-[[Implicit Social Hierarchies Authority]] → [[Why Others' Opinions Can Feel Undeservedly Powerful]] (untraversed, one hop past the depth-2 root); the untyped `Related` list on [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] (four further bare/analogical links, unaudited).
+[[Implicit Social Hierarchies Authority]] → [[Why Others' Opinions Can Feel Undeservedly Powerful]] (untraversed, one hop past the depth-2 root); the untyped `Related` list on [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] (four further bare/analogical links, unaudited).
 
 ### Next Action
 
-Seed the next audit run on [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—it's the actual exposure-list topper, not the note you started with.
+Seed the next audit run on [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—it's the actual exposure-list topper, not the note you started with.

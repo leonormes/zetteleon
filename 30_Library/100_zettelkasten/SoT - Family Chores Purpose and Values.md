@@ -82,5 +82,5 @@ Three layers (schedules and checklists live in the Tier 1 plan and Tier 2 guide,
 - Household Governance SOT: [[SoT - Family Household Governance]]—_Core rules for our distributed household system, earned access, and storage hierarchy._
 - Team Charter SOT: [[SoT - Family Communication & Team Charter]]—_Handling differences in system values (Efficiency vs. Immediacy) and implementing tag-team handovers._
 - Growth Mindset Protocol: [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Deconstructing perfectionism, process-based parenting, and running failure autopsies._
-- ADHD Scaffolding SOT: [[SoT - ADHD Management Protocols]]—_Initiation tactics (starter tasks, 120-second commitments, body doubling) and dopamine menus._
+- ADHD Scaffolding SOT: [[ADHD Management Protocols]]—_Initiation tactics (starter tasks, 120-second commitments, body doubling) and dopamine menus._
 - Master Inventory: [[SoT - Master Household Chores Inventory]]—_Canonical SoPs/DoDs including pet medical care._

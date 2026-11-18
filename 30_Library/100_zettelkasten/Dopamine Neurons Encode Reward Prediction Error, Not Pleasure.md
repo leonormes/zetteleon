@@ -6,21 +6,24 @@ created_utc: 2026-07-13 08:17:00+00:00
 epistemic_status: high
 evidence_links: []
 kind: claim
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-18T15:52:18+00:00
 permalink: llmeon/00-inbox/dopamine-neurons-encode-reward-prediction-error-not-pleasure
 proposition: Midbrain dopamine neurons in the VTA and substantia nigra encode reward prediction error—the gap between received and predicted reward—not the hedonic experience of receiving a reward itself; a fully predicted reward produces no dopaminergic response.
-source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
-source_url: ''
+source_title: "Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report"
+source_url: ""
 status: seed
-tags: [dopamine, motivation, neuroscience, reward-prediction-error]
+tags:
+  - dopamine
+  - motivation
+  - neuroscience
+  - reward-prediction-error
 title: Dopamine Neurons Encode Reward Prediction Error, Not Pleasure
 type: claim
-upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
 ---
 
 ## Dopamine Neurons Encode Reward Prediction Error, Not Pleasure
 
-Midbrain dopamine neurons in the VTA and substantia nigra encode reward prediction error (RPE)—the gap between received and predicted reward—not the hedonic experience of receiving a reward itself. A fully predicted reward produces no dopaminergic response.
+Midbrain dopamine neurons in the VTA and substantia nigra encode reward prediction error (RPE)—the gap between received and predicted reward—not the hedonic experience of receiving a reward itself. A fully predicted reward produces no dopaminergic response. ^claim
 
 ### Scope & Conditions
 

@@ -35,7 +35,7 @@ ADHD brains process emotions differently, leading to "intense or unpredictable e
 - [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] - _The network-level account of why emotions and rumination run on._
 - [[The DMN as a Demon - Negative Rumination in ADHD]] - _How the default mode network feeds negative loops._
 - [[SoT - The Emotional Bottleneck Hypothesis]] - _Proposes emotion as the limiting step in ADHD function._
-- [[Cerebellum Function and Exercise for ADHD Regulation]] - _A physical route to emotional stability._
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]] - _A physical route to emotional stability._
 
 ### Patterns
 
@@ -43,7 +43,7 @@ ADHD brains process emotions differently, leading to "intense or unpredictable e
 - [[Defensive Hypervigilance]] - _The self-protective scanning for criticism that rejection sensitivity produces._
 - [[Productive vs Destructive Shame]] - _Separates shame that corrects behaviour from shame that damages self-worth._
 - [[What's the Difference Between Shame Humiliation and Embarrassment]] - _Distinguishes the three emotions often lumped together._
-- [[ADHD Emotional Reasoning]] - _Treating a feeling as evidence of fact._
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]] - _Treating a feeling as evidence of fact._
 - [[Misinterpretation as Character Flaws]] - _How dysregulated responses get read as flaws of character._
 
 ### Responses

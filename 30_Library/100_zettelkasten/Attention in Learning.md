@@ -59,7 +59,7 @@ In the context of programming, where developers are often inundated with informa
 - [[ADHD Involves an Inability to Regulate Attention]]—attention regulation as the core difference.
 - [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]—why sustaining it costs more.
 - [[Evidence - ADHD Sustained Attention Requires Greater Cortical Activation]]—the supporting evidence.
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—the opposite pole, focus that follows interest.
+- [[Hyperfocus]]—the opposite pole, focus that follows interest.
 
 ## Attention and AI
 

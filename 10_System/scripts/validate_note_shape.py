@@ -61,7 +61,7 @@ TYPE_REQUIRED = {
 LIST_FIELDS = {"evidence_links", "contradicts", "distinguishes_from", "used_in_claims",
                "supports_claims", "steps", "tags", "aliases"}
 
-CARD_SECTIONS = ["scope & conditions", "evidence", "implications", "steelman",
+CARD_SECTIONS = ["scope & conditions", "evidence", "implications", "falsifier", "steelman",
                  "related", "tensions", "see also", "further reading"]
 CARD_REQUIRED = ["scope & conditions", "evidence", "implications"]
 EVIDENCE_SECTIONS = ["what it supports", "what it does not show"]
@@ -196,7 +196,9 @@ def check_note(path, text, check_links=True):
             err("FM5", f"legacy key '{k}' must not be written")
     if "confidence" in fm and ntype != "evidence":
         err("FM6", "'confidence' belongs to evidence notes only")
-    for k in TYPE_REQUIRED.get(ntype, []):
+    is_tier1_claim = ntype == "claim" and fm.get("status") in ("seed", "draft")
+    type_req = ["epistemic_status"] if is_tier1_claim else TYPE_REQUIRED.get(ntype, [])
+    for k in type_req:
         if k not in fm:
             err("FM7", f"{ntype} note is missing '{k}'")
             continue
@@ -266,7 +268,11 @@ def check_note(path, text, check_links=True):
         warn("B3", "section headings are H4: use H3 (the Linter renumbers them)")
     names = [n.lower() for _, n in h3]
     expected = EVIDENCE_SECTIONS if ntype == "evidence" else CARD_SECTIONS
-    required = EVIDENCE_SECTIONS if ntype == "evidence" else CARD_REQUIRED
+    required = (
+        EVIDENCE_SECTIONS if ntype == "evidence"
+        else [] if is_tier1_claim
+        else CARD_REQUIRED
+    )
     for r in required:
         if r not in names:
             err("B3", f"missing required section '### {r.title()}'")
@@ -480,6 +486,21 @@ def self_test():
         ("rel:: edge", GOOD + "\n[rel:: [[Other Note]]]\n", "Pro-Social Punishment Restores Cooperation", "L1"),
         ("empty section", GOOD.replace("Laboratory games only.", ""), "Pro-Social Punishment Restores Cooperation", "B6"),
         ("confidence on a claim", GOOD.replace("contradicts: []", "contradicts: []\nconfidence: high"), "Pro-Social Punishment Restores Cooperation", "FM6"),
+        ("tier 1 seed claim", """---
+title: Pro-Social Punishment Restores Cooperation
+type: claim
+status: seed
+tags: [cooperation]
+conformant: true
+created: 2026-09-26T00:00:00+00:00
+modified: 2026-09-26T00:00:00+00:00
+epistemic_status: medium
+---
+
+## Pro-Social Punishment Restores Cooperation
+
+Paying to punish free riders raises contributions even when the punisher gains nothing.
+""", "Pro-Social Punishment Restores Cooperation", None),
     ]
     failed = 0
     for name, text, stem, want in cases:

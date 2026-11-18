@@ -3,7 +3,7 @@ aliases: [Unified Writing Process, Writing to Learn, Writing to Think, SoT - The
 conformant: true
 contrasts_with: ["[[Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas]]"]
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-11-14T14:00:00+00:00
+modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/sot/the-unified-writing-to-think-process
 project_category: prodos
 see_also: ["[[MOC - PKM as Process vs Product]]", "[[SoT - PRODOS Core Specification]]", "[[PKM as Process vs Product]]", "[[MOC - Why Thoughts Feel More Important When Thinking Them]]"]
@@ -161,8 +161,8 @@ _Full atomic note: [[Stage 4 Connect (The Zettelkasten Layer)]]._
 
 _Full atomic note: [[Stage 5 Synthesise (The Outcome Layer)]]._
 
-- Goal: Zoom out from connected atomic notes to build Structure Notes, MoCs, and overarching explanatory arguments.
-- Action: Spot emerging clusters of connected notes and compose Structure Notes that articulate the unified argument.
+- Goal: Zoom out from connected atomic notes to build Structure Notes, MoCs, and `SoT` logical argument threads.
+- Action: Mature Type B `HEAD` drafts (`own_words: true`) into lightweight `status: seed` Tier 1 `claim` notes in your own words (without premature Type A card ceremony), then compile connected `claim` notes into `SoT` argument threads using `![[...]]` transclusions, connective framing, and `[depends_on::]` / `[synthesizes::]` edges. Challenging an SoT assumption later opens a `HEAD` tension against the specific underlying `claim`.
 
 [synthesizes:: [[Stage 5 Synthesise (The Outcome Layer)]]]
 
@@ -173,6 +173,7 @@ _Full atomic note: [[Stage 5 Synthesise (The Outcome Layer)]]._
 - Type A (Explanatory): Writing for an audience. Polished, linear, authoritative. (The final Product).
 - Type B (Exploratory): Writing for yourself. Messy, recursive, questioning. (The Process).
 - The Rule: Do not judge Type B writing by Type A standards. Judging exploratory drafts as final products turns initial dullness or lost tacit scaffolding into avoidance rather than diagnostic clarity. Sustain daily practice through process-first posture and authentic personal voice.
+- Human-Agent Division of Labour: Keep `HEAD` and initial `claim` phrasing in your own words (`own_words: true` on `HEAD`); use agents as sparring partners on Type B drafts (to split tangled ideas, surface rival hypotheses, or propose falsifiers) without overwriting your prose.
 
 [synthesizes:: [[Daily Writing is a Cognitive Practice for Structuring Thought]]]
 [synthesizes:: [[Focus on the Process Not the Product in Daily Writing]]]

@@ -2,13 +2,19 @@
 aliases: []
 conformant: false
 created: 2026-08-03T00:00:00+01:00
-definition: "A telic activity aims at a terminal state outside itself and is exhausted the moment that state is reached; an atelic activity has no terminal point and is fully realised at every moment it is being performed."
-distinguishes_from: ["[[Instrumentalism vs Realism in Understanding]]", "[[Process Over Outcome Mindset]]"]
+definition: A telic activity aims at a terminal state outside itself and is exhausted the moment that state is reached; an atelic activity has no terminal point and is fully realised at every moment it is being performed.
+distinguishes_from:
+  - "[[Instrumentalism vs Realism in Understanding]]"
+  - "[[Valuing the Learning Process Over External Outcomes Sustains Motivation]]"
 epistemic_status: high
 modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: "missing schema field used_in_claims for type concept (required when conformant - true)"
+non_conformance_reason: missing schema field used_in_claims for type concept (required when conformant - true)
 permalink: llmeon/30-library/100-zettelkasten/telic-and-atelic-activities-differ-in-whether-their-value-lies-outside-the-act
-tags: [aristotle, teleology, TheHuman/Philosophy, topic/meaning]
+tags:
+  - aristotle
+  - teleology
+  - TheHuman/Philosophy
+  - topic/meaning
 title: Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act
 type: concept
 ---

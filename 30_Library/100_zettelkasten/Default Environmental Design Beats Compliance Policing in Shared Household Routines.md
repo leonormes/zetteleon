@@ -47,8 +47,8 @@ Applies to recurring household transitions, especially where executive function 
 [implements:: [[SoT - Behavioral Architecture]]]
 - [[Discipline Is a Property of External Structure More Than of Will]]—extends: solves for the shared home environment rather than re-solving for the person.
 [extends:: [[Discipline Is a Property of External Structure More Than of Will]]]
-- [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]—shared mechanism: external scaffolds carry executive function in an ADHD household.
-[depends_on:: [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]]
+- [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]—shared mechanism: external scaffolds carry executive function in an ADHD household.
+[depends_on:: [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]]
 - [[Fundamental Attribution Error]]—shared mechanism: counters trait-based blame by asking the situational design question.
 [depends_on:: [[Fundamental Attribution Error]]]
 

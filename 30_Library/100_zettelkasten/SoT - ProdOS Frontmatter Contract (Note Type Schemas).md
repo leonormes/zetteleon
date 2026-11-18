@@ -6,7 +6,7 @@ aliases:
   - TAC Frontmatter Schema
 conformant: true
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-11-16T21:52:46+00:00
+modified: 2026-11-17T11:22:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
 project_category: prodos
 see_also:
@@ -51,7 +51,7 @@ Any agent touching frontmatter MUST produce a valid `FrontmatterContract`, the s
 |:------|:---------|:-----|:-----|
 | `title` | Yes | string | Matches the filename without `.md`. |
 | `type` | Yes | string | One of the 15 values below. Lowercase. |
-| `tags` | Yes | list | Non-empty. Prefer hierarchical tags. |
+| `tags` | Yes | list | Non-empty. Prefer hierarchical tags; use canonical interest/domain tags from [[SoT - Canonical Interest Tags]] when applicable. |
 | `conformant` | Yes | boolean | `false` if the note cannot be cleanly typed. Never `true` unless fully valid. |
 | `non_conformance_reason` | Conditional | string | Required if `conformant: false`. Omit or leave empty when `true`. |
 | `created`, `modified` | Yes on atomic notes | ISO 8601 | Never write `updated` or `creation_date`. |
@@ -67,6 +67,7 @@ Any agent touching frontmatter MUST produce a valid `FrontmatterContract`, the s
 
 Routing types:
 
+- `sot` is a compiled synthesis page (`SoT - Title` in `100_zettelkasten/`) that compiles atomic notes via Obsidian transclusion (`![[...]]`) rather than holding un-extracted prose assertions, per [[SoT - Proposition-Centred PKM Architecture]].
 - `prompt` lives in `10_System/prompts/` (added 2026-10-16).
 - `source` is the per-book or per-article hub named `Source - Title` in `100_zettelkasten/`. It carries `source_reference`, `authors`, `year`, `calibre_id` and `calibre_link`.
 - `tombstone` is a retired HEAD note kept at its original title. Its shape is in [[SoT - HEAD Note Contract (The Workbench)]] §3.1.

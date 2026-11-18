@@ -1,17 +1,20 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-10-26T11:14:00+00:00
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: 'type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` or `concept` would misrepresent its pending-verification status. Same non-conformance already accepted on [[Body Doubling for ADHD Focus]] and [[Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD]].'
+modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/junebugging-a-gentle-focus-strategy-for-adhd
-prodos.kind: concept
-prodos.lifecycle: stub
 source: '[[MOC - ADHD Experiments & Protocols]]'
 status: draft
+steps:
+  - Pick one physical anchor point ("The Spot", e.g., the coffee table).
+  - Allow wandering to adjacent rooms or tasks as items lead you there.
+  - Whenever you feel lost or finish a side-task, physically return to The Spot without self-criticism.
 tags: [experiment, focus, hypothesis, self-compassion, TheHuman/Health/ADHD, topic/productivity]
 title: Junebugging - A Gentle Focus Strategy for ADHD
-type: hypothesis
+trigger: Starting a whole-house clean or room organisation session where rigid timeboxing feels overwhelming.
+type: procedure
+verification: Longer total time spent cleaning before burnout and reduced frustration compared to rigid focus.
 ---
 
 ## 1. The Hypothesis

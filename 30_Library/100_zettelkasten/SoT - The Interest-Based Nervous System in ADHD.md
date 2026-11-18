@@ -1,12 +1,19 @@
 ---
-aliases: ["IBNS", "The ADHD brain operates on an Interest-Based Nervous System", "The Interest-Based Nervous System in ADHD"]
+aliases:
+  - IBNS
+  - The ADHD brain operates on an Interest-Based Nervous System
+  - The Interest-Based Nervous System in ADHD
 conformant: true
 created: 2026-02-11T17:15:00+00:00
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-17T15:41:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-interest-based-nervous-system-in-adhd
-prodos.kind: sot
-prodos.lifecycle: stable
-tags: [dopamine, gtd, motivation, neurology, productivity, TheHuman/Health/ADHD]
+tags:
+  - dopamine
+  - gtd
+  - motivation
+  - neurology
+  - productivity
+  - TheHuman/Health/ADHD
 title: SoT - The Interest-Based Nervous System in ADHD
 type: sot
 ---
@@ -71,7 +78,7 @@ The IBNS mechanism explains and predicts (each line carries an `IBNS supports �
 - [[Claim - Novelty-craving drives self-defeating system-hopping]]—the Novelty key, over-run. [supports:: [[Claim - Novelty-craving drives self-defeating system-hopping]]]
 - [[Shiny Object Syndrome in ADHD]]—the Novelty key pulling attention off-task. [supports:: [[Shiny Object Syndrome in ADHD]]]
 - [[ADHD Systems Fail When They Become Monotonous]]—an ignition key (novelty/interest) decaying. [supports:: [[ADHD Systems Fail When They Become Monotonous]]]
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—the Interest key, fully engaged. [supports:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]]
+- [[Hyperfocus]]—the Interest key, fully engaged. [supports:: [[Hyperfocus]]]
 - [[Rapid Feedback Loops are Essential for ADHD Motivation]]—feedback supplies the ongoing ignition. [supports:: [[Rapid Feedback Loops are Essential for ADHD Motivation]]]
 
 ## Related Knowledge

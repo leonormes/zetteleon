@@ -22,7 +22,7 @@ These notes provide the foundational understanding of how the ADHD brain operate
 - [[SoT - ADHD Neurology & Core Concepts]] - The canonical source for ADHD brain architecture.
 - [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] - Understanding the failure of anticorrelation between networks.
 - [[The DMN as a Demon - Negative Rumination in ADHD]] - When the Default Mode Network becomes a source of distress.
-- [[ADHD DMN Deactivation Failure]] - The physiological inability to "turn off" mind-wandering.
+- [[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]] - The physiological inability to "turn off" mind-wandering.
 - [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]] - Definitions and basic mechanics.
 - [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]] - The link between reward pathways and the "starting" problem.
 - [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]] - The role of norepinephrine and dopamine in top-down regulation.
@@ -31,7 +31,7 @@ These notes provide the foundational understanding of how the ADHD brain operate
 
 - [[Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia]]
 - [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]
-- [[Cerebellum Function and Exercise for ADHD Regulation]]
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]
 - [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]
 - [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]
 - [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains|Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency]]
@@ -49,11 +49,11 @@ These notes provide the foundational understanding of how the ADHD brain operate
 - [[Flow State is a State of Optimal Dopamine Stimulation]]
 - [[Metacognitive Deficits in ADHD Create Practical Impairments]]
 - [[The ADHD Brain as a High-Performance Engine with a Faulty Transmission]]
-- [[SoT - ADHD Management Protocols]]
+- [[ADHD Management Protocols]]
 - [[SoT - Indistractable Model (Focus Management)]]
 
 ### 4. Recommended Actions
 
 - [ ] Synthesise: Review the "Neuroenergetic deficit theory" and its implications for the "Metabolic Firewall" protocol.
-- [ ] Harvest: Extract practical cues from [[Cerebellum Function and Exercise for ADHD Regulation]] into a "Pre-flight Ritual" protocol.
-- [x] Consolidate: Merge duplicate insights between [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] and [[ADHD DMN Deactivation Failure]]. (Resolved via structural supports edge)
+- [ ] Harvest: Extract practical cues from [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]] into a "Pre-flight Ritual" protocol.
+- [x] Consolidate: Merge duplicate insights between [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] and [[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]]. (Resolved via structural supports edge)

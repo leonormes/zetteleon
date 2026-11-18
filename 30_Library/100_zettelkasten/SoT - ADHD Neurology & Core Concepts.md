@@ -1,187 +1,158 @@
 ---
-aliases: [ADHD Hardware Model, ADHD Neurology, The ADHD Operating System]
+aliases:
+  - ADHD Hardware Model
+  - ADHD Neurology
+  - The ADHD Operating System
 conformant: true
 created: 2026-01-03T10:10:15+00:00
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-17T15:33:10+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 source_of_truth: true
-tags: [dopamine, emotional-regulation, neurology, system/sot, TheHuman/Health/ADHD]
+status: stable
+tags:
+  - dopamine
+  - emotional-regulation
+  - neurology
+  - system/sot
+  - TheHuman/Health/ADHD
 title: SoT - ADHD Neurology & Core Concepts
 type: sot
 ---
 
-> Position in the graph. This is the _mechanism_ layer of the ADHD cluster—the note that [[SoT - ADHD Management Protocols]] rests on, and that 45 other notes reference. It is where the vault's declared ADHD axioms get assembled into a single operating-system model. Edges below point _downward_ to those axioms and atoms; nothing here points back up at the protocol layer, which would close a cycle.
-
-## 1. Definitive Statement (The Hardware)
-
-> [!definition] The ADHD Operating System
-> ADHD is not a deficit of attention, but a Resource Management Failure. It is a biological inability to self-regulate focus, arousal, and effort based on abstract "Importance."
+> Position in the graph. This is the _mechanism_ layer of the ADHD cluster—the note that [[ADHD Management Protocols]] rests on, and that 45 other notes reference. It is where the vault's declared ADHD axioms get assembled into a single operating-system model. Edges below point _downward_ to those axioms and atoms; nothing here points back up at the protocol layer, which would close a cycle.
 >
-> The Core Shift: From an "Importance-Based" to an "Interest-Based" Nervous System.
-
-[synthesizes:: [[The ADHD brain operates on an Interest-Based Nervous System]], strength=5, confidence=high] [depends_on:: [[Neurotypical motivation is primarily importance-driven]], strength=5, confidence=high] [depends_on:: [[Clinical Models Recognize Activation as a Core Impairment in ADHD]], confidence=high] [synthesizes:: [[ADHD Involves an Inability to Regulate Attention]], confidence=high]
-
-_The "Core Shift" is only meaningful against a contrast case: the importance-driven baseline is a declared axiom, not an assumption this note is free to make silently._
-
-### 1.1 Hardware Constraints (The Deficits)
-
-The ADHD brain operates on "Non-Standard Hardware" with specific performance bottlenecks:
-
-| Constraint | Neurotypical Architecture | ADHD Architecture |
-|:--- |:--- |:--- |
-| Priority Queue | Importance-Based. "I should do this" triggers fuel (dopamine). | Interest-Based (INCUP). Only Interest, Novelty, Challenge, Urgency, or Passion triggers fuel. |
-| RAM (Working Memory) | Stable. Can hold a plan while executing sub-steps. | Volatile. New stimuli (or hyperfocus) evicts the "Save State." |
-| Signal Gating | High-Fidelity. Suppresses background noise automatically. | Loose Gating. Everything arrives with "Admin" privileges; focus requires manual effort. |
-| Time Horizon | Linear. The future is a visible continuum. | Binary. Only Now and Not Now. The future is invisible until it becomes a crisis. |
-
-[depends_on:: [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]], strength=5, confidence=high] [depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], strength=5, confidence=high] [depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]], confidence=high] [synthesizes:: [[Hyperfixation Creates Time Blindness in ADHD]], confidence=high]
-
-_Row by row: the volatile-RAM row is the re-planning-loop axiom; the whole table's executive-control column rests on catecholamine insufficiency in the PFC._
-
-### 1.2 The Interest-Based Drivers (INCUP)
-
-Motivation is not a choice; it is a chemical reaction. The ADHD brain only "boots up" for:
-
-- Interest: Fascination and curiosity.
-- Novelty: New tools, environments, or methods.
-- Challenge: Gamification, competition, or perceived impossibility.
-- Urgency: Imminent deadlines or crisis-mode.
-- Passion: Deep personal resonance or play.
-
-[depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=5, confidence=high] [depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]], confidence=high]
-
-### 1.3 The Gut-Brain Energy Axis (The Fuel Supply)
-
-The ADHD "Resource Management Failure" is claimed to extend to the biological energy supply via the gut microbiome. See [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]] for the full claim—it remains ungrounded (no supporting atom, claim, or evidence note anywhere in the vault), so it stays quarantined in its own note rather than asserted inline here.
-
-### 1.4 The Tenacity Muscle (AMCC & Reward Prediction)
-
-Tenacity is not a character trait; it is a physical structure in the Anterior Mid-Cingulate Cortex (AMCC).
-
-- The Reward Prediction Error (Dopamine Loop):
-	- The Novice High: Rapid learning = high prediction error = dopamine flood.
-	- The Plateau: Once the core logic is understood (the "20%"), the rate of novelty drops. Prediction error hits zero, and the dopamine supply is cut off.
-	- The Quit Trigger: The ADHD brain interprets this chemical drop as "boredom" or "lost interest," triggering a shift to a new "Shiny Object."
-- The Willpower Muscle: see [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]] for the full mechanism—frequent quitting under resistance atrophies it, pushing through hypertrophies it.
-
-[depends_on:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]], strength=5, confidence=high] [depends_on:: [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]], confidence=high] [depends_on:: [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]], confidence=medium]
-
-_The Novice High → Plateau → Quit Trigger sequence is a direct application of the prediction-error axiom: when the error goes to zero, so does the signal._
-
-### 1.5 Functional Brain Networks (The Switching Mechanics)
-
-The ADHD brain exhibits dysregulation in the anticorrelation between two primary functional networks, often described as a "Glitchy Switch."
-
-- Task-Positive Network (TPN): Activated during externally-focused, attention-demanding tasks.
-- Default Mode Network (DMN): Activated during internally-focused thought (mind-wandering, rumination, precuneus activity).
-
-The Dysregulation (Deactivation Failure):
-
-In neurotypical brains, as task load increases, the DMN (specifically the precuneus) progressively deactivates. In the ADHD brain, this deactivation fails. The DMN "intrudes" upon the TPN, leading to:
-
-- Mind-Wandering: The inability to "turn off" internal mentation during external tasks.
-- Negative Rumination: Getting "stuck" in the DMN, leading to self-critical brooding when not externally engaged.
-- Fluctuating Intensity: Rapid, unpredictable shifts between deep focus (TPN) and total distraction (DMN).
-
-[synthesizes:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], strength=5, confidence=high] [synthesizes:: [[ADHD DMN Deactivation Failure]], confidence=high] [depends_on:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]], confidence=medium]
-
-### 1.6 The Cerebellum & Regulation
-
-Beyond motor control, the cerebellum is a critical hub for cognitive and emotional stability. An under-stimulated cerebellum contributes to attentional "jitter."
-
-- The Fix: Exercises challenging balance and coordination (isometrics, yoga, proprioception) "charge" the cerebellum, increasing dopamine/norepinephrine levels and stabilizing the switching mechanics between the TPN and DMN.
-
-[synthesizes:: [[Cerebellum Function and Exercise for ADHD Regulation]], strength=5, confidence=high] [supports:: [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]], confidence=high]
-
----
-
-## 2. Emotional Regulation (The Software Glitches)
-
-ADHD is also an Emotional Regulation disorder. The brain's inability to dampen emotional signals leads to "Emotional Flooding."
-
-[synthesizes:: [[MOC - Emotional Dysregulation]], confidence=high]
-
-### 2.1 The Shame-Procrastination Cycle
-
-A self-reinforcing feedback loop where failure leads to shame, which leads to avoidance.
-
-1. EF Failure: You miss a deadline or forget a task.
-2. Shame Development: You feel "broken" or "lazy" (Character-based judgment).
-3. Anticipatory Anxiety: Your brain predicts the "Pain" of the next task (The Wall of Awful).
-4. Avoidance (Mood Repair): To escape the pain, you flee to low-effort dopamine (scrolling).
-5. Identity Reinforcement: The loop "proves" you are incompetent.
-
-[supports:: [[Misinterpretation as Character Flaws]], strength=5, confidence=high] [synthesizes:: [[Productive vs Destructive Shame]], confidence=medium]
-
-_Step 2 is the mechanism that makes the character-flaw misreading feel accurate from the inside. This section is the target of an existing inbound `supports` edge from the journal note [[I have a lot of shame about my life]]—deliberately not reciprocated, since a return edge would close a two-node cycle._
-
-### 2.2 Rejection Sensitive Dysphoria (RSD)
-
-RSD is a neurological hypersensitivity where perceived or actual rejection is processed by the brain as a Physical Threat.
-
-- The Switch: The brain fails to filter signals of social disapproval.
-- The Defense: People-pleasing, perfectionism, or avoidance of sharing work.
-
-[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=5, confidence=high]
-
-### 2.3 The Antidote: Self-Compassion
-
-Shame ("I am bad") is neutralized by Self-Compassion ("I am out of resources").
-
-- Reframing: Failures are Hardware Limitations (Empty RAM), not moral failings.
-- The "Yet" Mentality: "I haven't mastered this _yet_."
-
-[supports:: [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]], strength=5, confidence=high] [supports:: [[SoT - ADHD Self-Compassion & Strengths]], confidence=high]
-
-_The "Empty RAM" reframe is exactly the capacity-not-character claim, and it only works because §1.1 established the hardware constraint first—the compassion is licensed by the mechanism, not asserted over it._
-
----
-
-## 3. The Strengths Engine (Features)
-
-While often obscured by executive dysfunction, the ADHD brain possesses distinct advantages:
-
-- Creativity & Ingenuity: Rapid divergent thinking and novel problem-solving.
-- Hyperfocus: The ability to enter deep flow states when genuinely engaged.
-- Resilience: Living life on "Hard Mode" builds profound grit.
-- Generosity & Optimism: Often highly empathetic and willing to help.
-
-[supports:: [[ADHD as Neurodiversity Not Deficit]], strength=5, confidence=high] [synthesizes:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], confidence=high]
-
----
-
-## 4. The Philosophy of Resilience
-
-Japanese concepts that align with the ADHD experience:
-
-- [[SoT - Wabi-Sabi]]: acceptance of imperfection. Counteracts perfectionism.
-- [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]]: endurance with dignity. Develops resilience against inertia.
-- Kintsugi: the art of repairing with gold, honouring "broken" parts as sources of strength—covered in full at [[SoT - Wabi-Sabi]] §3.1, not a separate note.
-
-[synthesizes:: [[SoT - Wabi-Sabi]], confidence=medium] [synthesizes:: [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]], confidence=medium]
-
----
-
 > Open threads: [[HEAD - Does ADHD reflect network dysregulation or DMN-FPN maturational lag?]] · [[HEAD - How does individual symptom heterogeneity bound unified ADHD hardware models?]]
 
-### Neurological Boundaries & Historical Gaps
+## Minimum Viable Understanding (MVU)
 
-- **Architectural Scope:** The "Non-Standard Hardware" table (§1.1) serves as a functional default; individual heterogeneity is preserved in [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]].
-- **Network Dynamics:** TPN/DMN switching models coexist with maturational lag models ([[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]).
-- **Hyperfocus Cost Accounting:** Hyperfocus is distinguished from run-on hyperfixation burnout ([[MOC - ADHD Hyperfixation-Burnout Cycle]]).
-- **Historical Gaps Grounded:** Gut-Brain Axis extracted to [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]]; AMCC willpower mechanics extracted to [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]].
+ADHD is not a deficit of attention or knowledge, but a neurobiological **resource-management failure**: an inability to self-regulate focus, arousal, and effort based on abstract "Importance." The core shift is from an importance-based baseline to an **Interest-Based Nervous System (INCUP)**, accompanied by volatile working memory, loose signal gating, binary time horizons, dysregulated TPN/DMN network switching, and heightened emotional flooding.
 
-## See Also
+---
+
+## 1. Premises — Hardware Constraints & Interest-Based Motivation
+
+The ADHD "operating system" is only meaningful against the neurotypical baseline and clinical recognition of activation impairment:
+
+![[Neurotypical motivation is primarily importance-driven#^claim]]
+
+![[Clinical Models Recognize Activation as a Core Impairment in ADHD#^claim]]
+
+On top of that baseline, the ADHD brain operates with four structural hardware constraints across attention regulation, prefrontal executive control, working memory, signal gating, and time perception:
+
+![[ADHD Involves an Inability to Regulate Attention#^claim]]
+
+![[The Prefrontal Cortex Provides Executive Control Over Action#^claim]]
+
+![[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD#^claim]]
+
+![[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop#^claim]]
+
+![[ADHD Involves Loose Signal Gating That Lets Background Stimuli Compete for Attention#^claim]]
+
+![[Hyperfixation Creates Time Blindness in ADHD#^claim]]
+
+![[Time Agnosia Impairs Planning for Developers with ADHD#^claim]]
+
+---
+
+## 2. Argument Thread — Dopamine, Tenacity (AMCC) & Network Switching
+
+Because catecholamine signalling in the prefrontal cortex is insufficient, motivation is not a moral choice—it is a chemical reaction driven by Interest, Novelty, Challenge, Urgency, and Passion (INCUP, detailed in [[SoT - The Interest-Based Nervous System in ADHD]]):
+
+![[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity#^claim]]
+
+![[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty#^claim]]
+
+This also explains the classic **Novice High → Plateau → Quit Trigger** cycle: rapid learning produces high reward-prediction error and dopamine, whereas once novelty drops, prediction error hits zero and the brain experiences a chemical drop as boredom. Building tenacity requires training the Anterior Mid-Cingulate Cortex (AMCC) through effortful, unwanted tasks:
+
+![[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure#^claim]]
+
+![[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)#^claim]]
+
+![[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)#^claim]]
+
+At the macro-network level, the ADHD brain exhibits a "Glitchy Switch" between the externally focused Task-Positive Network (TPN) and the internally focused Default Mode Network (DMN), compounded by cerebellar regulation deficits:
+
+![[The Glitchy Switch - TPN and DMN Dysregulation in ADHD#^def]]
+
+![[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks#^claim]]
+
+![[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation#^claim]]
+
+![[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD#^claim]]
+
+*(Note on quarantined claim: [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]] remains ungrounded—no supporting evidence note exists yet, so it stays quarantined in its own note rather than asserted inline here.)*
+
+---
+
+## 3. Emotional Regulation, Strengths & Resilience
+
+Executive dysfunction is inseparable from emotional regulation. Repeated hardware failures trigger character-based shame, anticipatory anxiety, and mood-repair avoidance, amplified by Rejection Sensitive Dysphoria (RSD):
+
+![[Executive Function Failures Trigger Shame-Driven Avoidance Loops in ADHD#^claim]]
+
+![[Rejection Sensitive Dysphoria (RSD)#^def]]
+
+![[Productive vs Destructive Shame]]
+
+At the same time, the same interest-based wiring powers deep hyperfocus states and aligns with resilience philosophies such as [[SoT - Wabi-Sabi]] (accepting imperfection) and Gaman (enduring hardship with dignity):
+
+![[Hyperfocus#^def]]
+
+![[Gaman - Enduring Hardship With Dignity (Japanese Concept)#^def]]
+
+---
+
+## 4. Conclusions, Boundaries & Assumptions to Challenge
+
+**Conclusion:** ADHD challenges are hardware and resource-allocation constraints—not character flaws. Effective intervention (handled at the protocol layer in [[ADHD Management Protocols]]) must work *with* interest-based dopamine dynamics, externalise working memory, and replace shame with capacity-based reframing.
+
+**Assumptions to challenge** (if any proves false in practice, open a `HEAD - <question>?` tension against the underlying claim):
+
+- *Unified hardware model vs. heterogeneity:* Assumes the INCUP / volatile-RAM / loose-gating profile generalises across ADHD presentations (`[[HEAD - How does individual symptom heterogeneity bound unified ADHD hardware models?]]`).
+- *Network dysregulation vs. maturational lag:* Assumes TPN/DMN switching failure is the primary mechanism rather than DMN–FPN maturational lag (`[[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]`, `[[HEAD - Does ADHD reflect network dysregulation or DMN-FPN maturational lag?]]`).
+- *Hyperfocus cost accounting:* Assumes hyperfocus is a net strength when interest-aligned rather than a precursor to hyperfixation burnout (`[[MOC - ADHD Hyperfixation-Burnout Cycle]]`).
+
+---
+
+## Working Knowledge & Synthesis
+
+### Load-Bearing Premises & Axioms
+
+- [[Neurotypical motivation is primarily importance-driven]]—_Declared baseline axiom against which the interest-based shift is defined._ [depends_on:: [[Neurotypical motivation is primarily importance-driven]], strength=5, confidence=high]
+- [[Clinical Models Recognize Activation as a Core Impairment in ADHD]]—_Grounds activation impairment as a core clinical deficit._ [depends_on:: [[Clinical Models Recognize Activation as a Core Impairment in ADHD]], confidence=high]
+- [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]—_Grounds the PFC executive-control bottleneck._ [depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], strength=5, confidence=high]
+- [[The Prefrontal Cortex Provides Executive Control Over Action]]—_Establishes PFC role in top-down action regulation._ [depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]], confidence=high]
+- [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]—_Grounds volatile working memory and lost save-state._ [depends_on:: [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]], strength=5, confidence=high]
+- [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—_Grounds initiation failure in dopamine hyposensitivity._ [depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=5, confidence=high]
+- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]—_Links reward-pathway dysfunction to initiation difficulty._ [depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]], confidence=high]
+- [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]—_Grounds the Novice High → Plateau → Quit Trigger loop._ [depends_on:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]], strength=5, confidence=high]
+- [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—_Separates wanting (dopamine drive) from liking._ [depends_on:: [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]], confidence=high]
+- [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]]—_Grounds tenacity hypertrophy/atrophy mechanics._ [depends_on:: [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]], confidence=medium]
+- [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]—_Grounds sustained-attention cortical activation demand._ [depends_on:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]], confidence=medium]
+- [[Rejection Sensitive Dysphoria (RSD)]]—_Grounds social-rejection hypersensitivity._ [depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=5, confidence=high]
+
+### Synthesised Claims & Concepts
+
+- [[ADHD Involves an Inability to Regulate Attention]]—_Frames ADHD as attention-regulation failure rather than total lack of attention._ [synthesizes:: [[ADHD Involves an Inability to Regulate Attention]], confidence=high]
+- [[ADHD Involves Loose Signal Gating That Lets Background Stimuli Compete for Attention]]—_Synthesises loose stimulus gating in §1._ [synthesizes:: [[ADHD Involves Loose Signal Gating That Lets Background Stimuli Compete for Attention]], confidence=high]
+- [[Hyperfixation Creates Time Blindness in ADHD]]—_Synthesises binary Now/Not-Now time horizon._ [synthesizes:: [[Hyperfixation Creates Time Blindness in ADHD]], confidence=high]
+- [[Time Agnosia Impairs Planning for Developers with ADHD]]—_Connects time blindness to planning failure._ [synthesizes:: [[Time Agnosia Impairs Planning for Developers with ADHD]], confidence=high]
+- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]—_Synthesises TPN/DMN switching instability._ [synthesizes:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], strength=5, confidence=high]
+- [[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]]—_Synthesises precuneus/DMN intrusion during task load._ [synthesizes:: [[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]], confidence=high]
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]—_Synthesises cerebellar stabilisation via balance/coordination exercise._ [synthesizes:: [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]], strength=5, confidence=high]
+- [[Executive Function Failures Trigger Shame-Driven Avoidance Loops in ADHD]]—_Synthesises the 5-step shame-procrastination cycle._ [synthesizes:: [[Executive Function Failures Trigger Shame-Driven Avoidance Loops in ADHD]], confidence=high]
+- [[Productive vs Destructive Shame]]—_Distinguishes adaptive repair from identity-shame paralysis._ [synthesizes:: [[Productive vs Destructive Shame]], confidence=medium]
+- [[Hyperfocus]]—_Synthesises deep flow states under high interest._ [synthesizes:: [[Hyperfocus]], confidence=high]
+- [[SoT - Wabi-Sabi]]—_Acceptance of imperfection counteracting perfectionism._ [synthesizes:: [[SoT - Wabi-Sabi]], confidence=medium]
+- [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]]—_Endurance with dignity against inertia._ [synthesizes:: [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]], confidence=medium]
+- [[SoT - The Interest-Based Nervous System in ADHD]]—_Dedicated SoT on the five INCUP drivers._ [synthesizes:: [[SoT - The Interest-Based Nervous System in ADHD]], confidence=high]
+
+### See Also
 
 - [[MOC - ADHD (The Master Map)]]—_The parent map for this cluster._
 - [[MOC - ADHD Functional Neurology & Scaffolding]]—_The bridge between this note's mechanisms and the protocol layer._
-- [[MOC - Shame]]—_Expands §2.1 beyond the ADHD-specific loop._
-- [[SoT - ADHD Management Protocols]]—_The practice layer built on this note. Referenced only; the `depends_on` edge lives on that note, pointing here._
-
-## Refresh Log
-
-- 2026-09-08—Atomisation pass (this note was flagged too large/inaccessible). Extracted three orphaned raw-prose sections into their own atomic notes rather than trimming content: [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]] (§1.3, still ungrounded—extraction doesn't manufacture evidence), [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]] (§1.4), and [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]] (§4, new note; also fixed the stale claim that Kintsugi had no note—it does, at [[SoT - Wabi-Sabi]] §3.1). Wired the AMCC and Gaman atoms back in with `depends_on`/`synthesizes`. This note's own body shrank; the graph gained three nodes and did not gain any new dangling edges (`edge_lint.py --path` clean on all touched files).
-- 2026-07-25—Outbound connectivity pass. The note had 45 inbound references and zero outgoing links. Added 24 typed edges, section by section.
-- Axioms wired up. This SoT now declares dependence on nine of the vault's eleven axioms—the importance-based baseline, activation impairment, working-memory re-planning loop, PFC catecholamine insufficiency, PFC executive control, dopamine hyposensitivity, reward-pathway dysfunction, reward prediction error, wanting/liking separation, and RSD. It `synthesizes` the Glitchy Switch axiom rather than depending on it, since §1.5 restates that claim rather than assuming it.
-- Cycle avoided deliberately. Three notes already point _at_ this one ([[SoT - ADHD Management Protocols]], [[SoT - Values and Eudaimonia]], [[I have a lot of shame about my life]]). No edge was emitted back toward any of them.
-- Frontmatter: `tags` was an empty list on a note with 45 inbound references—populated. `conformant: false → true`; removed `non_conformance_reason: "Bulk inferred type. Needs review."` (type `sot` is correct); removed dead `status: ''` and `last_reviewed: ''`; added `prodos` block, aliases, and `source_of_truth: true` to match its sibling SoT. Removed the H2 duplicating the title.
+- [[MOC - Emotional Dysregulation]]—_Expands §3 emotional-regulation mechanisms._
+- [[MOC - Shame]]—_Expands §3 beyond the ADHD-specific loop._
+- [[MOC - ADHD Hyperfixation-Burnout Cycle]]—_Tracks hyperfocus-to-burnout dynamics._
+- [[ADHD Management Protocols]]—_The practice layer built on this note. Referenced only; the `depends_on` edge lives on that note, pointing here._

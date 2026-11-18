@@ -28,4 +28,4 @@ A high-rigour alternative to standard problem-solving assignments. Highly resour
 
 ### Related
 
-- [[Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged]]—shared mechanism: designing a problem that AI cannot solve requires holding the generative mode (what would be a hard problem?) and the evaluative mode (can AI solve this?) simultaneously, which mirrors the cognitive separation between gathering and judging that this note describes.
+- [[Evaluating While Collecting Ideas Reduces What Gets Collected]]—shared mechanism: designing a problem that AI cannot solve requires holding the generative mode (what would be a hard problem?) and the evaluative mode (can AI solve this?) simultaneously, which mirrors the cognitive separation between gathering and judging that this note describes.

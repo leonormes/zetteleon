@@ -46,7 +46,7 @@ This claim is my own reasoning from practice, not a quoted source. The supportin
 
 - [[2025-04-21]]
 
-[implements:: [[SoT - ADHD Management Protocols]]]
+[implements:: [[ADHD Management Protocols]]]
 
 [depends_on:: [[SoT - Perfectionism and Analysis Paralysis]]]
 

@@ -1,16 +1,28 @@
 ---
-aliases: [Cognitive Distortions]
+aliases:
+  - Cognitive Distortions
 conformant: true
 created: 2025-02-07T12:57:55+00:00
 definition: Systematic errors in interpreting evidence about oneself, others, or a situation, such as mind reading (treating an inferred guess about what another person is thinking as established fact) or selective abstraction (fixating on one negative detail while discounting everything else), that convert ambiguous input into a confidently negative conclusion.
-distinguishes_from: ["[[Metacognitive Awareness]]", "[[Negativity Bias]]"]
+distinguishes_from:
+  - "[[Metacognitive Awareness]]"
+  - "[[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]"
 modified: 2026-11-14T22:11:59+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/common-cognitive-distortions
-tags: [belief, reframing, TheHuman/Cognition, TheHuman/Cognition/bias]
+tags:
+  - belief
+  - reframing
+  - TheHuman/Cognition
+  - TheHuman/Cognition/bias
 title: Common Cognitive Distortions
 type: concept
-used_in_claims: ["[[Beliefs as Defining Spaces]]", "[[Metacognitive Awareness]]", "[[MOC - Why Thoughts Feel More Important When Thinking Them]]", "[[SoT - Belief Architecture & Cognitive Spaces]]", "[[SoT - The Negativity Bias]]"]
+used_in_claims:
+  - "[[Beliefs as Defining Spaces]]"
+  - "[[Metacognitive Awareness]]"
+  - "[[MOC - Why Thoughts Feel More Important When Thinking Them]]"
+  - "[[SoT - Belief Architecture & Cognitive Spaces]]"
+  - "[[SoT - The Negativity Bias]]"
 ---
 
 Negative thinking patterns often encompass various cognitive distortions, such as mind reading and selective abstraction.
@@ -23,7 +35,7 @@ Both are shortcuts, not evidence-gathering: mind reading treats an inferred gues
 - [[Metacognitive Awareness]]—_the capacity that catches a distortion in the act rather than letting it pass as fact; that note already reciprocates this link._
 - [[SoT - Illusion of Explanatory Depth (IoED)|Illusion of Explanatory Depth (IoED)]]—_a sibling failure of metacognition: mistaking familiarity for understanding, the way a distortion mistakes inference for fact._
 - [[Beliefs as Defining Spaces]]—_names these exact patterns, mind-reading and selective abstraction, as what keeps a Limiting belief's room windowless._
-- [[Negativity Bias]]—_the broader attentional tilt toward weighting bad information more heavily; distortions are the thought-content-level symptom of that tilt, not the same mechanism._
+- [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]—_the broader attentional tilt toward weighting bad information more heavily; distortions are the thought-content-level symptom of that tilt, not the same mechanism._
 - [[SoT - The Negativity Bias]]—_the applied framework (ADHD amplification, RSD, the DMN); its own Domain 7 section already names auditing perceptions against a loud-but-untrue feeling as the direct countermeasure to these distortions._
 - [[SoT - Perfectionism and Analysis Paralysis]]—_the All-or-Nothing Distortion is a specific, named instance: a project graded Perfect or Worthless with nothing graduated in between._
 - [[Reframing Negative Thought Patterns in ADHD]]—_the procedural antidote domain: naming a distortion is only useful paired with a strategy for jumping tracks out of it._

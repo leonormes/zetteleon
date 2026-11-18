@@ -26,8 +26,8 @@ Recognising this machinery as normal evolutionary behavior removes the shame fro
 
 ## Related
 
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—_The specific tribal mechanism at play._
-[depends_on:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]], confidence=high]
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—_The specific tribal mechanism at play._
+[depends_on:: [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]], confidence=high]
 - [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]—_The root cause of the ego-fusion mechanism described here._
 [extends:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]
 - [[Truth-Status Belongs to Propositions, Not Persons]]—_The cognitive override required to bypass this biological default._

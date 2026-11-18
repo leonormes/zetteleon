@@ -10,7 +10,7 @@ contrasts_with:
 created: 2026-08-03T00:00:00+01:00
 merged_from:
 - '[[SoT - Evolutionary Note System]]'
-modified: 2026-11-15T10:20:00+00:00
+modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
 project_category: prodos
 status: stable
@@ -72,14 +72,17 @@ A capture that genuinely provoked a question does not get to stay by association
 | Checklist, runbook, per-site procedure | `30_Library/100_zettelkasten/` as a `Protocol -` note |
 | Vault audit output, migration report | `90_Audits/` |
 | Meeting notes, raw transcript | `00_Inbox/` |
-| Settled knowledge | `30_Library/100_zettelkasten/` as an `SoT -` note via [[Prompt - ProdOS Chronos Synthesizer]] |
+| Settled or testable claim | `30_Library/100_zettelkasten/` as an atomic `claim` note (`status: seed` Tier 1 or `stable`), then compiled into an `SoT -` argument thread via [[Prompt - ProdOS Chronos Synthesizer]] |
 | A task | Todoist. The vault does not hold actions. |
 
 ---
 
-## 2. Schema
+## 2. Schema (Progressive Elaboration)
 
-A HEAD note is a `QuestionNote` that lives in the workbench. It inherits the `QuestionNote` schema from [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.4 rather than inventing a parallel one.
+A HEAD note is a `QuestionNote` that lives in the workbench. It inherits the `QuestionNote` schema from [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.4 rather than inventing a parallel one, using **progressive elaboration** so capture stays zero-friction:
+
+1. **At Capture (`10_System/templates/HEAD_note template.md`):** Only the minimal fields required for K-Plex (`type: question`, `tags`), `Thinking.base` (`status: open`), `AGENTS.md` §6.1 (`own_words: true`), and `validate_note_frontmatter.py` (`conformant: false`, `non_conformance_reason: quick capture — awaiting clarification`, `created`, `modified`) are written. No empty `[]` fields, no `AoL` modal, and no forced H2 sections.
+2. **During Triage / Work:** Add `AoL`, `tension`, `candidate_answers`, `related_claims`, `sources`, `closing_condition`, and flip `conformant: true` as the thought matures:
 
 ```yaml
 ---
@@ -92,9 +95,6 @@ related_claims: []             # [[wikilinks]] to claims/SoTs this bears on
 sources: []                    # [[wikilinks]] to notes or captures this tension was harvested from
 tags: [state/thinking, prodos/head]
 conformant: true
-prodos:
-  kind: head
-  lifecycle: active            # active | stable (=resolved, ready for Chronos)
 status: open                   # open | thinking | resolved
 AoL: Personal                  # Personal | Work | System — area of life, drives Thinking.base views
 closing_condition: true        # false = Test 4 not yet satisfied; surfaces in the "No exit condition" view
@@ -113,24 +113,11 @@ Legacy notes are not auto-renamed. Renaming rewrites every backlink and is a hum
 
 ### 2.2 Body Structure
 
-```markdown
-## The Question
-<one paragraph — the open thing, stated plainly>
+At capture, the body is **free-form**—write whatever sparked the thought without filling out a form. When a thread becomes load-bearing during triage or elaboration, structure it around:
 
-## Why It Matters
-<what decision, belief, or piece of work is downstream of this>
-
-## What I Currently Think
-<the current lean, including "no idea" if that is true; Leon's own words>
-
-## What Would Settle It
-<the evidence, experiment, decision, or conversation that closes the thread>
-
-## Sources
-<wikilinks to the SoT/claim notes this was harvested from>
-```
-
-`## What Would Settle It` is the section that makes the difference between a thread and a rumination. A HEAD note that cannot name its own closing condition is one that will still be open in a year.
+- **The Question** (the open thing, stated plainly)
+- **What Would Settle It** (the evidence, experiment, decision, or conversation that closes the thread)
+- **What I Currently Think** (your own words; if any wording came from an LLM, remove `own_words: true`)
 
 ### 2.3 Why `AoL`, `closing_condition`, and K-Plex Relational Fields Exist
 
@@ -152,17 +139,18 @@ These properties drive `02_bases/Thinking.base` and K-Plex's Idea Compass withou
 capture ──→ 00_Inbox ──→ [Vault Ingest Router] ──→ 30_Library/100_zettelkasten
                                 │
                                 ↓ (provokes a question)
-   tension in an SoT ──→ 20_Thinking/21_Workbench (HEAD) ──→ [Chronos] ──→ SoT + Next Test
-                                │                                              │
-                                └────────────── still open ←───────────────────┘
+   tension on claim in SoT ──→ 20_Thinking/21_Workbench (HEAD) ──→ [Chronos] ──→ atomic claim (seed/Tier 1) ──→ SoT argument thread + Next Test
+                                │                                                                                    │
+                                └────────────────────────────── still open ←─────────────────────────────────────────┘
 ```
 
-A HEAD note leaves the workbench in exactly two ways:
+A HEAD note leaves the active queue in three ways:
 
-1. **Resolved:** Once Leon fills in `## What I Currently Think`, [[Prompt - ProdOS Chronos Synthesizer]] folds the resolved thesis into a target `SoT -` note in `30_Library/100_zettelkasten/`, proposes dropping the `> Open threads:` pointer (§4), and the HEAD note is archived to `99_Archive/`.
-2. **Abandoned:** The question stopped mattering. State that explicitly in the note, set `status: resolved`, and archive to `99_Archive/`. An abandoned question is a legitimate outcome; a silently rotting one is not.
+1. **Resolved:** Once Leon fills in `## What I Currently Think`, [[Prompt - ProdOS Chronos Synthesizer]] extracts the human-authored proposition into an atomic `claim` note (`status: seed` Tier 1 while still maturing, or `stable` once evidenced/falsifiable), compiles/transcludes it (`![[...]]` with `[depends_on::]` / `[synthesizes::]`) into the target `SoT -` argument thread in `30_Library/100_zettelkasten/`, proposes dropping the `> Open threads:` pointer (§4), and sets the HEAD note to `status: resolved` (or moves it to `99_Archive/`).
+2. **Archived / Retired via `status: resolved` (In-Place or `99_Archive/`):** Older thinking notes that are no longer active can be set to `status: resolved` (in place or moved to `99_Archive/`) rather than deleted. `status: resolved` notes are excluded from active `Thinking.base` views while remaining accessible in **Ready for Chronos** (and **Workbench Board**'s `resolved` column) for history.
+3. **Abandoned:** The question stopped mattering. State that explicitly in the note, set `status: resolved`, and optionally move to `99_Archive/`. An abandoned question is a legitimate outcome; a silently rotting one is not.
 
-There is no third exit. A note that has been `status: open` for more than 90 days is flagged as stale in `02_bases/Thinking.base` and surfaced by [[Protocol - Workbench Compliance Sweep]] (§5).
+There is no fourth exit. A note that has been `status: open` for more than 90 days is flagged as stale in `02_bases/Thinking.base` and surfaced by [[Protocol - Workbench Compliance Sweep]] (§5).
 
 ### 3.1 Tombstones
 
@@ -194,7 +182,7 @@ Instead, the canonical note carries a single pointer line directly beneath its `
 > Open threads: [[HEAD - <First open question>?]] · [[HEAD - <Second open question>?]]
 ```
 
-This preserves the one thing the inline section was genuinely good at—warning a reader at the point of reading that the note is not settled—while moving the thinking itself into `20_Thinking/21_Workbench/` where it will be worked.
+This preserves the one thing the inline section was genuinely good at—warning a reader at the point of reading that the note is not settled—while moving the thinking itself into `20_Thinking/21_Workbench/` where it will be worked. When challenging a specific assumption or premise inside an `SoT` argument thread, open the `HEAD` tension against the underlying `claim` (via `tension:` / `related_claims:`) so the rest of the SoT argument remains intact.
 
 **Scope limit (Closability Test):** This applies to _unresolved, closable_ tensions. A note may still record a _documented trade-off_ or _scope boundary_ in prose (e.g. "the compiler deliberately does not parse visible inline fields")—that is settled knowledge about a limitation, not an open question. If evidence, an experiment, or a decision can close it, it belongs in a HEAD note; if it is a permanent property of the design, it stays in the SoT as prose.
 
@@ -206,7 +194,7 @@ This preserves the one thing the inline section was genuinely good at—warning 
 - [[Prompt - Tension Harvester]]—_Harvests closable `## Tensions` sections from canonical notes into clustered HEAD notes and proposes §4 `> Open threads:` pointers (emits `implements` → this contract)._
 - [[Prompt - ProdOS Chronos Synthesizer]]—_Converts answered HEAD notes (`## What I Currently Think` populated by Leon) into canonical `SoT -` notes and a verifiable Next Test (emits `implements` → this contract)._
 
-Agent write scope in `20_Thinking/` is strictly bounded by [[AGENTS]] §6.1: an agent MAY create a new HEAD note when asked and MAY move a non-compliant or resolved note via `git mv` after Leon approves the routing table, but MUST NOT edit the body prose or `own_words` field of any existing HEAD note.
+Agent write scope in `20_Thinking/` is strictly bounded by [[AGENTS]] §6.1: an agent MAY create a new HEAD note when asked and MAY move a non-compliant or resolved note via `git mv` after Leon approves the routing table, but MUST NOT edit the body prose or `own_words` field of any existing HEAD note. On existing `HEAD` / Type B drafts (`own_words: true`), agents act as **sparring partners**—proposing claim splits, rival hypotheses, falsifiers, or `candidate_answers` in chat or frontmatter—without overwriting Leon's own-words prose.
 
 ---
 

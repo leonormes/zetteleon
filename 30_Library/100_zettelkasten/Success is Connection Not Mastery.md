@@ -18,7 +18,7 @@ This reframing is particularly important for [[MOC - Novelty Seeking]] minds tha
 
 By maintaining partial knowledge across diverse fields, explorers serve as bridges between domains, facilitating [[Collective Intelligence Through Communication|knowledge transfer]] and [[Creative Expression Across Mediums|cross-pollination of ideas]]. The academic model's emphasis on specialization can create [[MOC - Shame]] in explorer-minded individuals who interpret their broad interests as a lack of focus or commitment; recognising exploration as a legitimate intellectual identity helps counter that negative self-assessment.
 
-The traditional academic model of deep specialization may not align with how some brains naturally operate. [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD|Hyperfocus]] [depends_on:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], confidence=medium] can be channeled toward understanding connections between fields rather than exhaustive knowledge within one domain.
+The traditional academic model of deep specialization may not align with how some brains naturally operate. [[Hyperfocus|Hyperfocus]] [depends_on:: [[Hyperfocus]], confidence=medium] can be channeled toward understanding connections between fields rather than exhaustive knowledge within one domain.
 
 This connects to [[SoT - Generative Intelligence|Generative Intelligence]] [implements:: [[SoT - Generative Intelligence]], confidence=high] - the ability to create entirely new frameworks by combining insights from different areas. Success becomes about building a rich network of partial understandings that can be recombined in novel ways.
 

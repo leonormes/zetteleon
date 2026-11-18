@@ -30,8 +30,8 @@ The process combines a physical component (tapping) with a cognitive component (
 
 - This is a practical tool for implementing the principles of [[SoT - Mindfulness and Emotional Regulation]] [implements:: [[SoT - Mindfulness and Emotional Regulation]]] - _EFT tapping serves as an active, somatic protocol to break emotional fusion._
 - It provides an immediate somatic intervention for [[MOC - Emotional Dysregulation]] [implements:: [[MOC - Emotional Dysregulation]]] - _EFT directly targets the dysregulated nervous system during an acute emotional spike._
-- It helps dismantle [[ADHD Emotional Reasoning]] [supports:: [[ADHD Emotional Reasoning]]] - _By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact._
-- [[Cerebellum Function and Exercise for ADHD Regulation]] [supports:: [[Cerebellum Function and Exercise for ADHD Regulation]]] - _Like coordination exercises, EFT leverages somatic action to restore cognitive control._
+- It helps dismantle [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]] [supports:: [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]] - _By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact._
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]] [supports:: [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]] - _Like coordination exercises, EFT leverages somatic action to restore cognitive control._
 - It operationalises the "pre-clearance" fix that [[SoT - The Emotional Bottleneck Hypothesis]] [implements:: [[SoT - The Emotional Bottleneck Hypothesis]]] argues ADHD execution actually needs—resolving the emotional blockage before attempting the task, not after. - _EFT is a concrete protocol for the pre-clearance step the Hypothesis calls for; the Hypothesis supplies the theory of why pre-clearance matters at all._
 
 ## Criticism Framework

@@ -19,7 +19,7 @@ This behavior is highly engaging for the ADHD brain because it activates several
 - Interest: It is often a creative, hands-on task.
 - Immediate Feedback: Every successful tweak provides an instant, small reward (a dopamine hit).
 
-The brain can get locked into this rewarding loop of "perfecting the system" because it is more stimulating than the often mundane work the system was designed to manage. This is a state of [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] misapplied.
+The brain can get locked into this rewarding loop of "perfecting the system" because it is more stimulating than the often mundane work the system was designed to manage. This is a state of [[Hyperfocus]] misapplied.
 
 This is a key problematic pattern described in [[The Duality of Novelty Seeking in ADHD]].
 

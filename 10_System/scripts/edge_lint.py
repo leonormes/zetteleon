@@ -89,6 +89,12 @@ EXCLUDE_DIRS = {
 EDGE_RE = re.compile(r"\[\s*([A-Za-z][\w-]*)\s*::\s*(\[\[.*?\]\][^\]]*|[^\]]*)\s*\]")
 # A wikilink target: [[Note]], [[Note|Alias]], [[Note#Heading]], [[Note#^block]]
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
+# A transclusion: ![[Note]] or ![[Note#Heading]]
+TRANSCLUSION_RE = re.compile(r"!\[\[([^\]]+)\]\]")
+ASSET_EXTS = {
+    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".pdf",
+    ".mp3", ".mp4", ".wav", ".canvas", ".excalidraw",
+}
 # <!--content-block-start type="concept" id="user-namespace"-->
 BLOCK_ID_RE = re.compile(r"<!--\s*content-block-start[^>]*\bid=\"([^\"]+)\"")
 # Inline code span, for masking documentation examples.
@@ -357,6 +363,54 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
                 f"ambiguous edge: target '{target}' ({kind}) matches "
                 f"{len(distinct)} locations: {', '.join(os.path.basename(x) for x in distinct)}"))
 
+    for m in TRANSCLUSION_RE.finditer(text):
+        inner = m.group(1)
+        target = inner.split("|", 1)[0]
+        if "#" in target:
+            target = target.split("#", 1)[0].strip()
+        else:
+            target = target.strip()
+        if not target:
+            continue
+        ext = os.path.splitext(target)[1].lower()
+        if ext and ext in ASSET_EXTS:
+            continue
+        if target.endswith(".md"):
+            target = target[:-3]
+        matches, _kind = idx.resolve(target, is_link=True)
+        if not list(dict.fromkeys(matches)):
+            line = text[: m.start()].count("\n") + 1
+            findings.append(Finding("WARN", line,
+                f"unresolved transclusion: ![[{inner}]] resolves to nothing"))
+        elif "#^" in inner.split("|", 1)[0]:
+            # Block embed: the block id must exist in the target note.
+            block_id = inner.split("|", 1)[0].split("#^", 1)[1].strip()
+            try:
+                body = open(matches[0], encoding="utf-8").read()
+            except (UnicodeDecodeError, OSError):
+                body = ""
+            if not re.search(r"\s\^" + re.escape(block_id) + r"\s*$", body, re.M):
+                line = text[: m.start()].count("\n") + 1
+                findings.append(Finding("WARN", line,
+                    f"transclusion ![[{inner}]]: block id ^{block_id} not found at a line end in the target note"))
+
+    # SoT rule: every note an SoT embeds is indexed by a synthesizes or
+    # depends_on edge (SoT - Atomic Note Standard rule 8; Template - SoT).
+    if re.match(r"^---\n.*?^type:\s*sot\s*$.*?^---", text, re.S | re.M):
+        indexed = {e.target for _m, e in iter_edges(text)
+                   if e.rel in ("synthesizes", "depends_on")}
+        seen = set()
+        for m in TRANSCLUSION_RE.finditer(text):
+            target = m.group(1).split("|", 1)[0].split("#", 1)[0].strip()
+            if (not target or target in seen
+                    or os.path.splitext(target)[1].lower() in ASSET_EXTS):
+                continue
+            seen.add(target)
+            if target not in indexed:
+                line = text[: m.start()].count("\n") + 1
+                findings.append(Finding("WARN", line,
+                    f"SoT embeds '{target}' but has no synthesizes/depends_on edge to it"))
+
     return findings, edge_count
 
 
@@ -367,6 +421,7 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
 # (SoT - Knowledge Compiler §4). GRAPH_RELS = everything the audit ingests.
 JUSTIFICATION = {"supports", "depends_on"}
 CONFLICT = {"contradicts"}
+STRUCTURAL_RELS = {"synthesizes", "extends", "implements"}
 GRAPH_RELS = JUSTIFICATION | CONFLICT
 
 BLOCK_START_FULL_RE = re.compile(r"<!--\s*content-block-start([^>]*?)-->")
@@ -434,10 +489,11 @@ def resolve_to_node(target: str, idx: Index, is_link: bool = False):
     return ("note", distinct[0])
 
 
-def build_graph(files, idx: Index, yaml_mod):
+def build_graph(files, idx: Index, yaml_mod, include_structural: bool = False):
     """Build the argument graph. Returns (nodes, edges) where an edge is
-    (src_key, rel, tgt_key) for supports/depends_on/contradicts. src/tgt keys
-    are ('note', filepath) or ('block', id)."""
+    (src_key, rel, tgt_key) for supports/depends_on/contradicts (plus synthesizes
+    from sot nodes, and extends/implements when include_structural is True).
+    src/tgt keys are ('note', filepath) or ('block', id)."""
     nodes: dict = {}
     edges = []
     for fp in files:
@@ -456,7 +512,8 @@ def build_graph(files, idx: Index, yaml_mod):
             nodes[("block", b["id"])] = Node(b["type"], b["axiom"], b["id"], fp)
 
         for m, e in iter_edges(masked):
-            if e.rel not in GRAPH_RELS:
+            is_sot_synth = (e.rel == "synthesizes" and ntype == "sot")
+            if e.rel not in GRAPH_RELS and not is_sot_synth and not (include_structural and e.rel in STRUCTURAL_RELS):
                 continue
             pos = m.start()
             src = note_key
@@ -502,13 +559,14 @@ def find_cycles(just_edges):
     return cycles
 
 
-def run_audit(files, idx: Index, yaml_mod, root: str):
+def run_audit(files, idx: Index, yaml_mod, root: str, include_structural: bool = False):
     from collections import Counter
-    nodes, edges = build_graph(files, idx, yaml_mod)
+    nodes, edges = build_graph(files, idx, yaml_mod, include_structural=include_structural)
 
     # Split edges by kind and count degrees per relation.
     sup_out, sup_in = Counter(), Counter()   # supports
     dep_out, dep_in = Counter(), Counter()    # depends_on
+    synth_in = Counter()                      # synthesizes (and structural if requested)
     contra = Counter()                        # contradiction-degree (symmetric)
     just_edges, contra_edges = [], []
     for src, rel, tgt in edges:
@@ -518,6 +576,8 @@ def run_audit(files, idx: Index, yaml_mod, root: str):
         elif rel == "depends_on":
             dep_out[src] += 1; dep_in[tgt] += 1
             just_edges.append((src, tgt))
+        elif rel == "synthesizes" or (include_structural and rel in STRUCTURAL_RELS):
+            synth_in[tgt] += 1
         elif rel == "contradicts":
             contra[src] += 1; contra[tgt] += 1
             contra_edges.append((src, tgt))
@@ -525,12 +585,13 @@ def run_audit(files, idx: Index, yaml_mod, root: str):
     participating = {k for e in edges for k in (e[0], e[2])}
     label = lambda k: nodes[k].label if k in nodes else k[1]
     is_claim = lambda k: bool(nodes.get(k)) and nodes[k].type == "claim"
+    is_sot = lambda k: bool(nodes.get(k)) and nodes[k].type == "sot"
     is_axiom = lambda k: bool(nodes.get(k)) and nodes[k].axiom
 
     # A node is GROUNDED if something supports it, or it's a declared axiom.
     grounded = lambda k: sup_in[k] >= 1 or is_axiom(k)
-    # A node is LOAD-BEARING if it supports something OR something depends on it.
-    load_bearing = lambda k: sup_out[k] >= 1 or dep_in[k] >= 1
+    # A node is LOAD-BEARING if it supports something, something depends on it, or an SoT synthesises it.
+    load_bearing = lambda k: sup_out[k] >= 1 or dep_in[k] >= 1 or synth_in[k] >= 1
 
     print("\n" + "=" * 60)
     print("ARGUMENT AUDIT  (v2: gaps · foundations · conflicts)")
@@ -558,7 +619,8 @@ def run_audit(files, idx: Index, yaml_mod, root: str):
     # C2 — foundations.
     declared = [k for k in participating if is_axiom(k)]
     bedrock = [k for k in participating
-               if not is_claim(k) and not is_axiom(k) and sup_out[k] >= 1]
+               if not is_claim(k) and not is_axiom(k) and not is_sot(k) and sup_out[k] >= 1]
+    sot_threads = [k for k in participating if is_sot(k)]
 
     print("\n[C2] Foundations (what everything rests on)")
     print(f"  declared axioms ({len(declared)}):")
@@ -568,10 +630,15 @@ def run_audit(files, idx: Index, yaml_mod, root: str):
         print("    none")
     print(f"  undeclared load-bearing claims ({len(gaps)}): "
           + ("see C1 gaps above" if gaps else "none"))
-    print(f"  non-claim bedrock ({len(bedrock)}) — legitimate leaves (evidence, journals, SoTs):")
+    print(f"  non-claim bedrock ({len(bedrock)}) — legitimate leaves (evidence, journals, sources):")
     for k in sorted(bedrock, key=label):
         print(f"    • {label(k)}  [{nodes[k].type or '?'}] supports {sup_out[k]}")
     if not bedrock:
+        print("    none")
+    print(f"  composite argument threads ({len(sot_threads)}) — SoT notes:")
+    for k in sorted(sot_threads, key=label):
+        print(f"    • {label(k)}  [sot]")
+    if not sot_threads:
         print("    none")
 
     # C3 — conflicts.
@@ -630,11 +697,12 @@ def resolve_query(nodes, participating, query: str):
     return None
 
 
-def run_thread(files, idx: Index, yaml_mod, query: str, mode: str):
+def run_thread(files, idx: Index, yaml_mod, query: str, mode: str, include_structural: bool = False):
     """C4 provenance. mode='why' walks what the node rests on (incoming supports
-    + outgoing depends_on); mode='impact' walks what rests on it (the duals)."""
-    nodes, edges = build_graph(files, idx, yaml_mod)
+    + outgoing depends_on + SoT synthesizes); mode='impact' walks what rests on it (the duals)."""
+    nodes, edges = build_graph(files, idx, yaml_mod, include_structural=include_structural)
     sup_pred, sup_succ, dep_pred, dep_succ = {}, {}, {}, {}
+    struct_pred, struct_succ = {}, {}
     for src, rel, tgt in edges:
         if rel == "supports":
             sup_succ.setdefault(src, []).append(tgt)
@@ -642,6 +710,9 @@ def run_thread(files, idx: Index, yaml_mod, query: str, mode: str):
         elif rel == "depends_on":
             dep_succ.setdefault(src, []).append(tgt)
             dep_pred.setdefault(tgt, []).append(src)
+        elif rel in STRUCTURAL_RELS:
+            struct_succ.setdefault(src, []).append((tgt, rel))
+            struct_pred.setdefault(tgt, []).append((src, rel))
 
     participating = {k for e in edges for k in (e[0], e[2])}
     label = lambda k: nodes[k].label if k in nodes else k[1]
@@ -650,13 +721,17 @@ def run_thread(files, idx: Index, yaml_mod, query: str, mode: str):
             return "[axiom]"
         return f"[{nodes[k].type or '?'}]" if nodes.get(k) else "[?]"
 
+    _inv = {"synthesizes": "synthesized in", "extends": "extended by", "implements": "implemented by"}
+
     def neighbours(k):
         if mode == "why":
             res = [(a, "supported by") for a in sup_pred.get(k, [])]
             res += [(y, "rests on premise") for y in dep_succ.get(k, [])]
+            res += [(y, rel) for y, rel in struct_succ.get(k, [])]
         else:
             res = [(b, "supports") for b in sup_succ.get(k, [])]
             res += [(a, "depended on by") for a in dep_pred.get(k, [])]
+            res += [(a, _inv.get(rel, rel)) for a, rel in struct_pred.get(k, [])]
         seen, out = set(), []
         for c, rl in sorted(res, key=lambda x: label(x[0])):
             if c not in seen:
@@ -674,6 +749,7 @@ def run_thread(files, idx: Index, yaml_mod, query: str, mode: str):
     print("=" * 60)
 
     leaves = []
+    expanded = set()
     def walk(k, prefix, on_path, depth):
         kids = neighbours(k)
         if not kids:
@@ -688,6 +764,10 @@ def run_thread(files, idx: Index, yaml_mod, query: str, mode: str):
             if depth >= 25:
                 print(f"{prefix}{branch}… (max depth)")
                 continue
+            if c in expanded:
+                print(f"{prefix}{branch}{label(c)}  ({rl}) {tag(c)} (see above)")
+                continue
+            expanded.add(c)
             print(f"{prefix}{branch}{label(c)}  ({rl}) {tag(c)}")
             walk(c, prefix + cont, on_path | {c}, depth + 1)
 
@@ -902,6 +982,8 @@ def main() -> int:
                     help="print the justification tree for a claim (what it rests on)")
     ap.add_argument("--impact", metavar="TITLE",
                     help="print the impact tree for a claim (what rests on it)")
+    ap.add_argument("--include-structural", action="store_true",
+                    help="include synthesizes/extends/implements edges in --why, --impact, and --audit")
     ap.add_argument("--export-json", metavar="FILE",
                     help="export the graph as JSON to a file (nodes + edges with labels)")
     ap.add_argument("--regress", action="store_true",
@@ -957,9 +1039,9 @@ def main() -> int:
     if args.route:
         return run_route(files, idx, yaml_mod, args.route, args.max_route_hits)
     if args.why:
-        return run_thread(files, idx, yaml_mod, args.why, "why")
+        return run_thread(files, idx, yaml_mod, args.why, "why", include_structural=args.include_structural)
     if args.impact:
-        return run_thread(files, idx, yaml_mod, args.impact, "impact")
+        return run_thread(files, idx, yaml_mod, args.impact, "impact", include_structural=args.include_structural)
 
     total_edges = 0
     n_err = n_warn = n_files_with_edges = 0
@@ -989,7 +1071,7 @@ def main() -> int:
     print(f"{n_err} error(s), {n_warn} warning(s)")
 
     if args.audit:
-        run_audit(files, idx, yaml_mod, root)
+        run_audit(files, idx, yaml_mod, root, include_structural=args.include_structural)
 
     return 1 if n_err else 0
 

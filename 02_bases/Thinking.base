@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("20_Thinking")
+    - type == "question"
     - file.ext == "md"
 formulas:
   days_stale: (now() - file.mtime).days.round(0)
@@ -10,6 +10,16 @@ properties:
     displayName: Area
   note.closing_condition:
     displayName: Has Exit?
+  note.status:
+    displayName: Status
+  note.tension:
+    displayName: Tension
+  note.candidate_answers:
+    displayName: Candidate Answers
+  note.related_claims:
+    displayName: Related Claims
+  note.sources:
+    displayName: Sources
   formula.days_stale:
     displayName: Days Since Touch
   formula.stale_flag:
@@ -17,6 +27,9 @@ properties:
 views:
   - type: kanban
     name: Workbench Board
+    filters:
+      and:
+        - '!file.inFolder("99_Archive")'
     groupBy:
       property: status
       direction: ASC
@@ -30,14 +43,20 @@ views:
       - tension
       - closing_condition
       - formula.days_stale
+    sort:
+      - property: file.ctime
+        direction: DESC
   - type: table
     name: Think about this
     filters:
       and:
         - status == "open"
+        - '!file.inFolder("99_Archive")'
     order:
       - file.name
       - tension
+      - candidate_answers
+      - related_claims
       - AoL
       - formula.days_stale
       - formula.stale_flag
@@ -56,9 +75,12 @@ views:
       and:
         - AoL == "Personal"
         - status != "resolved"
+        - '!file.inFolder("99_Archive")'
     order:
       - file.name
       - tension
+      - candidate_answers
+      - related_claims
       - status
       - file.mtime
     sort:
@@ -73,9 +95,12 @@ views:
       and:
         - AoL == "Work"
         - status != "resolved"
+        - '!file.inFolder("99_Archive")'
     order:
       - file.name
       - tension
+      - candidate_answers
+      - related_claims
       - status
       - file.mtime
     sort:
@@ -90,9 +115,12 @@ views:
       and:
         - AoL == "System"
         - status != "resolved"
+        - '!file.inFolder("99_Archive")'
     order:
       - file.name
       - tension
+      - candidate_answers
+      - related_claims
       - status
       - file.mtime
     sort:
@@ -107,8 +135,10 @@ views:
       and:
         - closing_condition == false
         - status != "resolved"
+        - '!file.inFolder("99_Archive")'
     order:
       - file.name
+      - tension
       - AoL
       - file.mtime
     sort:
@@ -121,10 +151,12 @@ views:
     filters:
       and:
         - status == "thinking"
+        - '!file.inFolder("99_Archive")'
     order:
       - file.name
       - tension
       - candidate_answers
+      - related_claims
       - AoL
     sort:
       - property: file.mtime
@@ -134,10 +166,13 @@ views:
   - type: table
     name: Ready for Chronos
     filters:
-      and:
+      or:
         - status == "resolved"
+        - file.inFolder("99_Archive")
     order:
       - file.name
+      - tension
+      - related_claims
       - sources
       - AoL
       - file.mtime
@@ -149,10 +184,14 @@ views:
   - type: table
     name: Non-compliant
     filters:
-      or:
-        - conformant == false
-        - type != "question"
-        - '!file.name.endsWith("?")'
+      and:
+        - status != "resolved"
+        - '!file.inFolder("99_Archive")'
+        - non_conformance_reason != "quick capture — awaiting clarification"
+        - or:
+            - conformant == false
+            - type != "question"
+            - '!file.name.endsWith("?")'
     order:
       - file.name
       - type
@@ -172,8 +211,11 @@ views:
       - AoL
       - closing_condition
       - tension
-      - sources
+      - candidate_answers
       - related_claims
+      - sources
+      - supersedes
+      - superseded_by
       - file.ctime
       - file.mtime
     sort:

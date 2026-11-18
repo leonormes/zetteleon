@@ -1,34 +1,23 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+modified: 2026-11-18T16:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/gathering-and-judging-ideas-are-distinct-psychological-states-that-must-not-be-merged
-tags: [cognition, gtd, psychology, workflow]
+status: superseded
+superseded_by:
+  - "[[Evaluating While Collecting Ideas Reduces What Gets Collected]]"
+tags:
+  - gtd
+  - tombstone
 title: Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged
-type: claim
+type: tombstone
 ---
 
-## Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged
+## Superseded
 
-The psychological states of gathering ideas (Visionary/Capture mode) and judging ideas (Executive/Clarify mode) operate on incompatible cognitive stances and must be kept strictly separate. Attempting to organise or judge while in Capture mode—or to generate while in Clarify mode—causes interference between the two functions. This merging is identified as the primary reason traditional to-do lists fail: the act of capturing is contaminated by premature judgement, which suppresses capture; and the act of judging is contaminated by ongoing capture, which prevents finality.
+This note bundled five distinct claims backed by an uncited, circular quote. It was split on 2026-11-18 into a narrowed causal core and three explicit hypothesis cards:
 
-### Scope & Conditions
-
-Fundamental requirement for any workflow system that separates capture from processing. The distinction applies across domains—writing (generate vs edit), GTD (capture vs clarify), and creative practice (brainstorm vs evaluate)—wherever premature judgement kills generativity or unfinished capture prevents decision-making.
-
-### Evidence
-
-> "Attempting to merge these two distinct psychological states—gathering ideas while simultaneously trying to organize them—is why traditional to-do lists fail."
-
-### Implications
-
-- Do not attempt to organise or clarify while in Capture mode; capture everything without evaluation.
-- Executive scrutiny (Clarify) must be a dedicated, subsequent act—not interleaved with collection.
-
-### Related
-
-- [[Writer Thinking vs Archivist Thinking]]—shared mechanism: the Capture/Vision vs Clarify/Executive split directly mirrors the Writer mode (generative, associative, non-judgemental) vs Archivist mode (critical, organising, judgemental) distinction—different domain (PKM vs GTD), identical structural separation.
-- [[The Clarification Ritual (Stuff to Action)]]—direct concept match: the ritual operationalises this separation as a timed daily protocol with an explicit rule ("Do NOT do the work. Just clarify") enforcing mode boundaries.
-- [[Diffuse vs Focused Thinking Modes]]—shared mechanism: Diffuse mode (subconscious, broad, right-hemisphere) maps to the Capture/Visionary state; Focused mode (directed, analytical, left-hemisphere) maps to the Clarify/Executive state; the atom's psychological distinction is grounded in documented neuroscience.
-- [[SoT - Prosthetic Executive Function]]—extends: the Clarify stage's effectiveness as a prosthetic executive function requires strict mode separation—merging Capture and Clarify collapses the prosthetic by asking both functions to run simultaneously, which is the failure mode this atom names.
+- **Core causal claim:** [[Evaluating While Collecting Ideas Reduces What Gets Collected]]
+- **Reverse interference (hypothesis):** [[Unfinished collection prevents decision closure during clarification]]
+- **To-do list failure (hypothesis, demoted):** [[Merging capture and judgement is a contributing reason to-do lists fail]]
+- **Distinct psychological states (hypothesis):** [[Capture and clarify are distinct psychological states beyond task-switching cost]]

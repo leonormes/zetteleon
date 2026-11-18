@@ -41,7 +41,7 @@ In essence:
 
 [[I have a lot of shame about my life]]
 
-[[ADHD Emotional Reasoning]]
+[[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]
 
 [[Your emotions are real but they are your responsibility]]
 

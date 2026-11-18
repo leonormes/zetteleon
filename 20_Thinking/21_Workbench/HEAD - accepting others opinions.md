@@ -1,11 +1,12 @@
 ---
 aliases: []
-AoL:
+AoL: Personal
 candidate_answers: []
 closing_condition: false
-conformant: true
-created: Invalid date
-modified: 2026-11-16T23:36:28+00:00
+conformant: false
+created: 2026-11-16T23:25:38+00:00
+modified: 2026-11-17T11:29:46+00:00
+non_conformance_reason: title does not end with '?'; tension is empty
 own_words: false
 permalink: llmeon/10-system/templates/head-note-template-1
 related_claims: []
@@ -15,13 +16,13 @@ tags:
   - prodos/head
   - state/thinking
 tension: ""
-title: <% tp.file.title %>
+title: HEAD - accepting others opinions
 type: question
 ---
 
-11:06 I read about someone not accepting others opinions. I realised I do by default all the time! For some reason I will feel deflated when someone else doesn't have the same opions as me. Why is that?
+11:06 I read about someone not accepting others opinions. I realised I do by default all the time! For some reason I will feel deflated when someone else doesn't have the same opionions as me. Why is that?
 
-- this is wrong. It is only on big thinks it emotional things. For instance, talking to Tom about Tommy Robinson and me saying he is racist and Tom saying no he isn't. So the point of the conversation was to change his mind. But I couldn't say clear why he is racist. 
+- this is wrong. It is only on big thinks it emotional things. For instance, talking to Tom about Tommy Robinson and me saying he is racist and Tom saying no he isn't. So the point of the conversation was to change his mind. But I couldn't say clear why he is racist.
 
 ## Verdict
 

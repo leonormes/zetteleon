@@ -42,7 +42,7 @@ The IoED SoT lists this protocol as one of its named forcing functions (section 
 ## Related
 
 - [[SoT - Active Learning Techniques]]—_The vault's canonical collection of learning antidotes (retrieval practice, Feynman, the Peter Method). This protocol was missing from it._
-- [[2026-07-25-build-it-standard-tests-understanding-via-creation]]—_Sibling forcing function from the same SoT: test understanding by building, where this one tests it by questioning._
+- [[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]]—_Sibling forcing function from the same SoT: test understanding by building, where this one tests it by questioning._
 - [[2026-07-25-five-whys-chain-drills-to-first-principles]]—_Sibling forcing function: a causal question chain, where this one asks at Bloom's higher levels._
 - [[Time-Boxing Research Prevents Productive Procrastination]]—_The other named forcing function in the SoT (section 4F): it bounds the reading, this one deepens it._
 - [[Information Retrieval Is Not Learning]]—_Why fluent access to information can pass for understanding, which is the gap this protocol targets._

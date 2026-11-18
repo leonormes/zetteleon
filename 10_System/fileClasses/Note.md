@@ -61,6 +61,7 @@ fields:
   - evergreen
   - stale
   - superseded
+  - archived
   path: ''
 - name: supersedes
   id: supersedes

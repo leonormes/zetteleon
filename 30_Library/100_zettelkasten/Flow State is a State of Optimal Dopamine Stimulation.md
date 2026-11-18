@@ -18,4 +18,4 @@ Details: This state is particularly powerful for individuals with ADHD, as their
 
 ### Related
 
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—_the ADHD variant of deep engagement._
+- [[Hyperfocus]]—_the ADHD variant of deep engagement._

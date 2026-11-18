@@ -1,14 +1,18 @@
 ---
 aliases: []
+conformant: true
+contradicts: []
 created: 2025-10-20T08:00:03+00:00
+epistemic_status: low
+evidence_links: []
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-10-22T15:11:15+00:00
+modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/motion-creates-emotion-to-overcome-inertia
+proposition: Initiating a tiny physical movement before feeling motivated triggers kinetic dopamine release during engagement and dissolves anticipatory dread.
 status: draft
 tags: [experiment, hypothesis, TheHuman/Health/ADHD, TheHuman/Motivation, TheHuman/Psychology, topic/productivity]
 title: Motion Creates Emotion to Overcome Inertia
-type: hypothesis
-updated: null
+type: claim
 ---
 
 ## 1. The Hypothesis

@@ -11,7 +11,7 @@ title: ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity
 type: claim
 ---
 
-Individuals with ADHD often struggle with [[MOC - Why Task Initiation is Difficult in ADHD|task initiation]] because their brains require significantly more energy to begin a task. This difficulty is linked to a hyposensitivity of dopamine neurons in the striatum, meaning that the perceived importance of a task does not trigger sufficient neurotransmitter activity to generate internal motivation, especially for tasks that are boring or repetitive.
+Individuals with ADHD often struggle with [[MOC - Why Task Initiation is Difficult in ADHD|task initiation]] because their brains require significantly more energy to begin a task. This difficulty is linked to a hyposensitivity of dopamine neurons in the striatum, meaning that the perceived importance of a task does not trigger sufficient neurotransmitter activity to generate internal motivation, especially for tasks that are boring or repetitive. ^claim
 
 Behavioral Manifestations:
 

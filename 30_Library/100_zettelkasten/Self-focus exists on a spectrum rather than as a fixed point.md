@@ -15,6 +15,6 @@ The concept of "normal" self-focus does not exist as a single fixed point or mea
 
 ## Related
 
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]
+- [[Hyperfocus]]
 - [[Balanced relationships involve active listening remembering events offering help and sharing conversation time]]—_behaviours that indicate appropriate other-focus._
 - [[Dereflection Counters Rumination by Redirecting Attention from Self to External Values]]—_a technique for moving along the spectrum when self-focus becomes rumination._

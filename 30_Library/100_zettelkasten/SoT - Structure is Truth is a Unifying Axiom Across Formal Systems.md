@@ -148,7 +148,7 @@ This note is the overview. Its main claims are also held as separate notes so th
 - [[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]]—the cross-domain claim.
 - [[A Declarative State File Is the Infrastructure and Configuration Drift Is Its Gap From Reality]]—the infrastructure row.
 - [[A Clinical Observation Outside the Common Data Model Is Undefined in That Domain Rather Than Poorly Captured]]—the clinical data row.
-- [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]—the cognitive row.
+- [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]—the cognitive row.
 - [[A Class of Failure That Can Be Made Structurally Impossible Should Not Be Left to the Runtime]]—the design corollary.
 - [[Frontmatter Is the Type of a Note and Not a Label Attached to It]]—the recursive case.
 - [[The Dichotomy of Control Is a Type System That Removes Uncontrollable Events From the Domain of Distress]]—the Stoic bridge.

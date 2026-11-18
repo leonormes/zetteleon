@@ -37,7 +37,7 @@ Tooling was `obsidian-llmeon` (semantic, BM25 text and wikilink graph) plus dire
 
 Existence checks
 
-- Confirmed present by file read: [[MOC - How to Build Discipline]], [[MOC - The Science of Making and Breaking Habits]], [[Process Over Outcome Mindset]], [[SoT - The Evolutionary Biology of Status]], [[SoT - Personal Agency and Transformation]].
+- Confirmed present by file read: [[MOC - How to Build Discipline]], [[MOC - The Science of Making and Breaking Habits]], [[Valuing the Learning Process Over External Outcomes Sustains Motivation]], [[SoT - The Evolutionary Biology of Status]], [[SoT - Personal Agency and Transformation]].
 - No atomic note on social comparison exists. Only [[SoT - Social Cognition & Self-Perception]] §F (three lines) covers it, and the MoC above also lists it as a gap.
 
 ### Candidate Connections
@@ -138,7 +138,7 @@ None. `raw/proposed-claims/` and the §2.4 stub route referenced in the prompt d
 |---|---|
 | Atomic note on social comparison as a mechanism (Festinger-style) | Absent from `100_zettelkasten`. Only the SoT §F stub exists. It would be the natural `supports` target for this claim. Do you want a new note drafted, or should the SoT section suffice? |
 | [[SoT - ADHD Self-Compassion & Strengths]] §2.1 as an edge | The relationship is real but sits inside an SoT section, not a note. Typing it means a `supports` line in the SoT pointing at this Target. Decide whether that hub should carry the edge. |
-| Whether [[Process Over Outcome Mindset]] belongs | Existence confirmed, but I did not read it. Unrated. |
+| Whether [[Valuing the Learning Process Over External Outcomes Sustains Motivation]] belongs | Existence confirmed, but I did not read it. Unrated. |
 
 ### Divergences Found (For Your Attention)
 
@@ -228,7 +228,7 @@ All five Related links are mention or weak use. Each failed denial, substitution
 
 ### Frontier
 
-Nearest unexplored neighbours are [[Process Over Outcome Mindset]] (unread) and any future social-comparison note.
+Nearest unexplored neighbours are [[Valuing the Learning Process Over External Outcomes Sustains Motivation]] (unread) and any future social-comparison note.
 
 ### Next Action
 

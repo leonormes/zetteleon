@@ -35,9 +35,9 @@ In many practical domains, reliable prediction is functionally sufficient—an o
 
 [supports:: [[IoED Definition Gap Felt vs Actual Understanding]]]
 
-[[2026-07-25-build-it-standard-tests-understanding-via-creation|The Build-It Standard Tests Understanding Through Creation]]—the antidote's rationale rests directly on this distinction
+[[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]]—the antidote's rationale rests directly on this distinction
 
-[supports:: [[2026-07-25-build-it-standard-tests-understanding-via-creation]]]
+[supports:: [[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]]]
 
 [[2026-07-25-five-whys-chain-drills-to-first-principles|The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]—the antidote targets exactly this familiarity/comprehension gap
 

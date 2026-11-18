@@ -1,34 +1,18 @@
 ---
-aliases:
-  - Argument Compiler
-  - Argument Graph
-  - Belief Tracing
-  - Knowledge Compiler
+aliases: [Argument Compiler, Argument Graph, Belief Tracing, Knowledge Compiler]
 conformant: true
-contrasts_with:
-  - "[[The Danger of Perpetual System-Building]]"
-  - "[[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]"
+contrasts_with: ["[[The Danger of Perpetual System-Building]]", "[[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]"]
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-11-14T19:58:49+00:00
+modified: 2026-11-17T21:48:44+00:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-compiler-argument-graph-spec
 project_category: prodos
-see_also:
-  - "[[SoT - Human vs AI Cognition]]"
-  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
-  - "[[SoT - Unified Writing to Think Process]]"
+see_also: ["[[SoT - Human vs AI Cognition]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]", "[[SoT - Unified Writing to Think Process]]"]
 status: stable
-tags:
-  - domain/pkm
-  - topic/knowledge-architecture
-  - topic/knowledge-graph
-tension:
-  - "[[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]"
+tags: [domain/pkm, topic/knowledge-architecture, topic/knowledge-graph]
+tension: ["[[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]"]
 title: SoT - Knowledge Compiler (Argument Graph Spec)
 type: sot
-upstream:
-  - "[[SoT - Processing IS the Work]]"
-  - "[[SoT - PRODOS Core Specification]]"
-  - "[[SoT - The Extended Mind]]"
+upstream: ["[[SoT - Processing IS the Work]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - The Extended Mind]]"]
 ---
 
 > Canonical status: this note specifies the semantics, cognitive boundary, and compiler capabilities of the knowledge graph—what the tool _computes_ and _answers_. Its sibling [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] fixes the syntax (how edges are written and resolved). The validator/compiler is `10_System/scripts/edge_lint.py`; alongside Dataview and K-Plex (`.obsidian/plugins/k-plex/`), it forms the vault's three-reader architecture.
@@ -53,7 +37,7 @@ In scope. Claim notes (and `content-block` blocks) participating in reasoning vi
 
 Explicitly out of scope.
 
-- Not all content is argumentation. Procedures, SoTs, MoCs, journals, and reference notes never get flagged for "missing support" unless they emit or receive justification edges (`not is_claim` nodes with outgoing `supports` count as non-claim bedrock).
+- Not all content is argumentation. Procedures, MoCs, journals, and reference notes never get flagged for "missing support" unless they emit or receive justification edges (`not is_claim` leaf nodes with outgoing `supports` count as non-claim bedrock). `SoT` notes (`type: sot`) are composite argument threads built _on_ claims (`[depends_on:: [[Claim]]]` for load-bearing premises and `[synthesizes:: [[Note]]]` for transcluded components), not leaf bedrock.
 - Not a logic engine. No formal soundness or truth oracle: `[supports:: [[Target]]]` records a human bookkeeping assertion. The compiler verifies graph _shape_, not logical validity.
 - No belief enforcement. The tool exposes structural gaps, cycles, and conflicts; resolving them is always a human decision.
 
@@ -95,7 +79,7 @@ Direction convention in `10_System/scripts/edge_lint.py`: `A [supports:: [[B]]]`
 
 ### C1—Gap Detection (`--audit`)
 
-- Definition: A `type: claim` node that is load-bearing (`sup_out >= 1` or `dep_in >= 1`—either it supports something else or something depends on it) while ungrounded (`sup_in == 0` and not `axiom: true`).
+- Definition: A `type: claim` node that is load-bearing (`sup_out >= 1`, `dep_in >= 1`, or synthesized by an `sot` node) while ungrounded (`sup_in == 0` and not `axiom: true`).
 - Answers: _"Where does my argument assert something load-bearing without grounding it?"_
 - Why: Isolated claims with no edges stay silent. A claim doing load-bearing work forces an explicit human choice: supply incoming support, or consciously mark `axiom: true`.
 
@@ -105,7 +89,7 @@ Reports three foundation sets:
 
 1. Declared axioms: participating nodes with `axiom: true`.
 2. Undeclared foundations: the C1 gap set (load-bearing claims not yet grounded or marked `axiom: true`).
-3. Non-claim bedrock: non-claim, non-axiom nodes (`evidence`, `sot`, `source`, `journal`, etc.) with `sup_out >= 1`—legitimate external leaves that ground claims without needing support themselves.
+3. Non-claim bedrock: non-claim, non-axiom, non-SoT leaf nodes (`evidence`, `source`, `journal`, etc.) with `sup_out >= 1`—legitimate external leaves that ground claims without needing support themselves. `SoT` nodes are reported separately as composite argument threads.
 
 ### C3—Conflict & Tension Detection (`--audit`)
 
@@ -120,7 +104,7 @@ Checks three conflict shapes in the graph:
 
 ### C4—Provenance & Impact Thread-Pulling (`--why <TITLE>`, `--impact <TITLE>`)
 
-- `--why <TITLE>`: Traverses incoming `supports` and outgoing `depends_on` down to axioms and bedrock leaves (_"Why do I believe X, down to bedrock?"_).
+- `--why <TITLE>`: Traverses incoming `supports`, outgoing `depends_on`, and `sot` `synthesizes` edges down to axioms and bedrock leaves (_"Why do I believe X, down to bedrock?"_). Pass `--include-structural` to also traverse `extends`/`implements` and non-SoT `synthesizes`.
 - `--impact <TITLE>`: Traverses outgoing `supports` and incoming `depends_on` (_"If X falls, what else collapses?"_).
 
 ### C5—Ingest Routing, Graph Export & Regression (`--route`, `--export-json`, `--regress`)
@@ -176,10 +160,8 @@ The full controlled vocabulary is defined in [[SoT - Typed Edge Vocabulary (Know
 
 ## 7. Open Questions (Deferred Decisions)
 
-- Derived contradictions without explosion: When to implement v4 transitive conflict detection ([[HEAD - How should derived contradictions be surfaced without full transitive explosion?]]).
-- Gap precision: Whether current C1 gap criteria measure genuine inferential debt cleanly at scale ([[HEAD - Is the argument compiler's gap definition measuring anything real?]]).
 - Block-level vs. note-level claims: Keep preferring atomic note-level claims (`validate_note_shape.py`) until block-level arguments prove essential.
-- Structural provenance flag: Whether an optional `--why --include-structural` mode should trace `extends`/`implements` alongside `supports`/`depends_on`.
+- Structural provenance flag: `--why --include-structural` and `--impact --include-structural` are live in `edge_lint.py` (alongside automatic traversal of `sot` `synthesizes` edges).
 
 ---
 

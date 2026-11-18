@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-08-03T00:00:00+01:00
 description: Run the four HEAD-note compliance tests over every note in 20_Thinking/21_Workbench, route failures out to their correct home, and report stale or unactionable threads. Use on a recurring basis, or after any bulk capture.
-modified: 2026-11-15T10:17:00+00:00
+modified: 2026-11-17T10:40:00+00:00
 permalink: llmeon/10-system/prompts/protocol-workbench-compliance-sweep
 status: stable
 tags:
@@ -46,7 +46,7 @@ You are deliberately unsentimental. A note being good is not an argument for it 
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.4 (`QuestionNote`), as narrowed by [[SoT - HEAD Note Contract (The Workbench)]] §2.
 
-Every note you leave in the workbench must carry `title`, `type: question`, `tags`, `conformant`, `non_conformance_reason` (if `conformant: false`), plus `tension`, `candidate_answers`, `related_claims`, `sources`, `status`, and the `prodos.kind: head` / `prodos.lifecycle` pair. Backfill what is missing, including `AoL` and `closing_condition` (set `closing_condition` honestly: `false` if Test 4 is not met). If you cannot determine `tension` from the note's own content, set `conformant: false` with the reason—do not invent one.
+Every note you leave in the workbench must carry `title`, `type: question`, `tags`, `conformant`, `non_conformance_reason` (if `conformant: false`), and `status` (`open` | `thinking` | `resolved`). Fresh captures created from `10_System/templates/HEAD_note template.md` (`conformant: false`, `non_conformance_reason: quick capture — awaiting clarification`) are valid capture-stage notes awaiting progressive elaboration—do not flag them as broken. When triaging older notes, backfill `tension`, `candidate_answers`, `related_claims`, `sources`, `AoL`, and `closing_condition` (set `closing_condition` honestly: `false` if Test 4 is not met). Notes marked `status: resolved` are retained for history and excluded from active `Thinking.base` views. If you cannot determine `tension` from the note's own content, set `conformant: false` with the reason—do not invent one.
 
 ---
 

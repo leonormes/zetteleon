@@ -2,21 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-09-25T15:59:57+00:00
-created_utc: '2026-09-25T16:00:00Z'
+created_utc: 2026-09-25T16:00:00Z
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-17T20:41:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-same-moral-thinking-enables-and-undermines-cooperation
-proposition: The same moral thinking that enables cooperation within groups undermines
-  cooperation between groups.
-source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked
-  against the book)
+proposition: The same moral thinking that enables cooperation within groups undermines cooperation between groups.
+source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked against the book)
 source_url: calibre://view-book/GCcalibreBooks/412/EPUB
 status: seed
-tags: [cooperation, moral-tribes, paradox, tragedy-of-commonsense-morality, tribalism, us-vs-them]
+tags:
+  - cooperation
+  - moral-tribes
+  - paradox
+  - tragedy-of-commonsense-morality
+  - tribalism
+  - us-vs-them
 title: The Same Moral Thinking Enables and Undermines Cooperation
 type: claim
-upstream: '[[Politics, Law and Money - Study Plan]]'
 ---
 
 ## The Same Moral Thinking Enables and Undermines Cooperation
@@ -41,6 +44,6 @@ The core of the modern tragedy. Greene also lists tribalism, which he calls grou
 
 - [[The Tragedy of Commonsense Morality]]—direct concept match: the tragedy this claim explains
 - [[Morality Evolved Through Competition Between Groups]]—extends: the evolutionary origin of the in-group bias
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—shared mechanism: beliefs used as in-group belonging signals
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—shared mechanism: beliefs used as in-group belonging signals
 - [[Polarization Suppresses Negativity Bias Toward In-Group Lies]]—shared mechanism: moral standards relaxed for one's own side
-- [[Collective Moral Licensing in Partisan Politics]]—shared mechanism: moral credentials from group identity excusing own-side wrongdoing
+- [[Collective Moral Licensing Leads Voters to Tolerate In-Group Corruption]]—shared mechanism: moral credentials from group identity excusing own-side wrongdoing

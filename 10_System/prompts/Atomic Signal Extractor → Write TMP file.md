@@ -85,7 +85,7 @@ For each atom, use this template. Each must pass the Single-Idea and Conjunction
 - Kind: <definition | claim | mechanism | procedure | heuristic | distinction | constraint | failure_mode>
 - Statement: <One minimal, mechanically precise sentence. No "but" or "however".>
 - Scope & Conditions: <When it applies; boundaries; assumptions.>
-- Evidence: "<Verbatim quote or near-verbatim phrase>" (Timestamp if available).
+- Evidence: "<Verbatim quote or near-verbatim phrase>" (Timestamp if available; for a book in the Calibre library, its calibre id, so the quote can be checked later with `verify_quote.py`).
 - Implications: <1–3 bullets; practical consequences grounded in source.>
 - Validation: 
     - [x] Single-Idea (Only one unit of information)

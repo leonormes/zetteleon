@@ -11,7 +11,7 @@ title: Hyperfixation Creates Time Blindness in ADHD
 type: claim
 ---
 
-Summary: During hyperfixation, people with ADHD become so absorbed in the activity that they lose track of time, may forget to eat, and neglect other responsibilities. The rest of the world and its demands seem to disappear into a fuzzy background.
+Summary: During hyperfixation, people with ADHD become so absorbed in the activity that they lose track of time, may forget to eat, and neglect other responsibilities. The rest of the world and its demands seem to disappear into a fuzzy background. ^claim
 
 Characteristics:
 

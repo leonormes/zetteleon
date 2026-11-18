@@ -68,7 +68,7 @@ The sequence culminates in rebuilding stable confidence without certainty:
 
 - [[Embodied Confidence Comes From Direct Feedback in Physical Skills]] rel:: grounds → Competence built through physical practice provides pre-verbal calibration that stabilizes self-trust.
 - [[Confidence as Trust in Process Not Certainty in Outcomes]] rel:: synthesizes → This final shift decouples self-worth from being right, attaching it instead to learning capability.
-- [[Process Over Outcome Mindset]] rel:: connects-to → The sequence links to the broader pattern of valuing the journey over the destination.
+- [[Valuing the Learning Process Over External Outcomes Sustains Motivation]] rel:: connects-to → The sequence links to the broader pattern of valuing the journey over the destination.
 
 ---
 
@@ -101,4 +101,4 @@ Grounding:
 
 - [[Anti-Fragility Means Systems That Benefit From Volatility]] rel:: supports [[Confidence as Trust in Process Not Certainty in Outcomes]]
 - [[Embodied Confidence Comes From Direct Feedback in Physical Skills]] rel:: supports [[Confidence as Trust in Process Not Certainty in Outcomes]]
-- [[Confidence as Trust in Process Not Certainty in Outcomes]] rel:: supports [[Process Over Outcome Mindset]]
+- [[Confidence as Trust in Process Not Certainty in Outcomes]] rel:: supports [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]

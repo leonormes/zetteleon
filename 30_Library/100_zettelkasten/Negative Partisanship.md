@@ -32,7 +32,7 @@ A downstream consequence of [[Affective Polarization]]; becomes the dominant dri
 
 ### Related
 
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—extends: negative partisanship is that belonging-cue dynamic expressed specifically as opposition to an out-group rather than affiliation with an in-group.
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—extends: negative partisanship is that belonging-cue dynamic expressed specifically as opposition to an out-group rather than affiliation with an in-group.
 - [[Affective Polarization]]—shared mechanism: negative partisanship is the behavioural/identity consequence of affective polarization's emotional asymmetry.
 
 ### Library Sources

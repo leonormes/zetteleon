@@ -24,7 +24,7 @@ By proactively engaging the mind, individuals can "jump tracks" from negative ru
 
 Links:
 
-- [[ADHD Emotional Reasoning]]
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]
 - [[Cognitive Biases Reinforce Mental Models]]
 - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle|The Overthinking Loop Creates Mental Noise Not Clarity]]
 - [[ADHD Mindset and Emotional Regulation Strategies]]

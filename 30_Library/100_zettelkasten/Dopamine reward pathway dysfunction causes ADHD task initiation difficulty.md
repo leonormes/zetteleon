@@ -12,7 +12,7 @@ type: claim
 
 ## Dopamine Reward Pathway Dysfunction Causes ADHD Task Initiation Difficulty
 
-Summary: ADHD involves significantly reduced dopamine D2/D3 receptors in the nucleus accumbens and midbrain, causing hypofunction in reward pathways that prevents tasks from triggering sufficient neurotransmitter activity to generate motivational drive.
+Summary: ADHD involves significantly reduced dopamine D2/D3 receptors in the nucleus accumbens and midbrain, causing hypofunction in reward pathways that prevents tasks from triggering sufficient neurotransmitter activity to generate motivational drive. ^claim
 
 Details: PET imaging studies of never-medicated adults with ADHD showed significantly reduced dopamine receptors in key reward and motivation regions. Achievement motivation scores were substantially lower in ADHD participants (11±5 versus 15±3 in controls, p<0.001), correlating directly with more severe inattention symptoms. This hypofunction means tasks fail to trigger the neurochemical activity needed for motivation, requiring supernormal stimulation (novelty, urgency, interest, challenge) to overcome baseline deficits. Only when tasks become acute emergencies do ADHD brains generate enough dopamine to begin, leading to chronic reliance on urgency-driven work patterns.
 

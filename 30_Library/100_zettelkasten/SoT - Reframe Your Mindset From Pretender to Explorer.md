@@ -55,7 +55,7 @@ In a world of infinite information, the "Expert" is often drowning in detail. Th
 
 Imposter Syndrome focuses on the "Credential" (Outcome). The Explorer focuses on the "Journey" (Process).
 
-- The Practice: [[Process Over Outcome Mindset]]. Valuing the _act_ of learning more than the _status_ of being learned.
+- The Practice: [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]. Valuing the _act_ of learning more than the _status_ of being learned.
 
 ---
 
@@ -74,6 +74,6 @@ This mindset is not just "feel-good" therapy; it is a structural component of th
 ## 5. Related Zettels
 
 - [[MOC - Novelty Seeking]] - The biological drive.
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] - The engine of exploration.
+- [[Hyperfocus]] - The engine of exploration.
 - [[MOC - Shame]] - The barrier to be overcome.
 - [[Generative Intelligence]] - The output of the Explorer.

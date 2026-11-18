@@ -16,7 +16,7 @@ created: 2026-01-03T09:45:08+00:00
 merged_from:
   - "[[SoT - ProdOS Thinking Stream]]"
   - "[[SoT - Cognitive Engineering Protocols]]"
-modified: 2026-11-14T13:59:00+00:00
+modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-core-specification
 project_category: prodos
 see_also:
@@ -119,7 +119,7 @@ The Thinking Stream is the "RAM" of ProdOS—a low-friction, high-throughput loo
    - **MVA:** What is the next physical step that takes < 120 seconds?
 4. **EXIT:**
    - Action? $\rightarrow$ Move to Todoist (see [[gtd-action-system]]).
-   - Fact? $\rightarrow$ Merge into a canonical `SoT -` note in `30_Library/100_zettelkasten/` via [[Prompt - ProdOS Chronos Synthesizer]], then archive the HEAD note (leave a tombstone if other notes cite it; see HEAD Note Contract §3.1).
+   - Fact / Insight? $\rightarrow$ Extract into atomic `claim` (or `concept`/`evidence`/`procedure`) notes in `30_Library/100_zettelkasten/` first, then compile/transclude into an `SoT -` argument thread (`![[...]]` + `[depends_on:: [[Claim]]]` / `[synthesizes:: [[Note]]]`) via [[Prompt - ProdOS Chronos Synthesizer]], and archive the HEAD note (leave a tombstone if other notes cite it; see HEAD Note Contract §3.1).
    - Skill / Project? $\rightarrow$ Move to the Hangar (`30_Library/200_projects/`).
    - Noise? $\rightarrow$ DELETE (raw captures only; never delete a HEAD note cited as `upstream`).
 
@@ -164,7 +164,7 @@ The Minimal Viable Action (MVA) is the atomic unit of execution:
 - [[SoT - Protocol - The Launch Sequence]]—_Situated, embodied, and distributed scaffolding to bypass task initiation paralysis._ [synthesizes:: [[SoT - Protocol - The Launch Sequence]], confidence=high]
 - [[SoT - PRODOS Black Box Protocol]]—_Open-loop post-mortems, pre-mortems, marginal gains, and checklist simplification._ [synthesizes:: [[SoT - PRODOS Black Box Protocol]], confidence=high]
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Time-blocking vs. time-boxing constraints._ [synthesizes:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
-- [[SoT - ADHD Management Protocols]]—_Dopamine menu and neurodivergent operating toolkit._ [synthesizes:: [[SoT - ADHD Management Protocols]], confidence=medium]
+- [[ADHD Management Protocols]]—_Dopamine menu and neurodivergent operating toolkit._ [synthesizes:: [[ADHD Management Protocols]], confidence=medium]
 
 ---
 
@@ -175,7 +175,7 @@ _Converting messy drafts and research into verified atomic propositions, structu
 ### 5.1 Data Schema & Context Architecture
 
 - **HEAD Notes:** Active thinking and open-question queue in `20_Thinking/21_Workbench/`. Admission and lifecycle: [[SoT - HEAD Note Contract (The Workbench)]].
-- **SoT & Atomic Notes:** Canonical Truth, Instruction SoTs (Checklists), and proposition cards in `30_Library/100_zettelkasten/`.
+- **SoT & Atomic Notes:** Proposition cards (`claim`, `concept`, `evidence`, `procedure`) hold evidenced, falsifiable assertions and know-how in `30_Library/100_zettelkasten/`. `SoT` notes are compiled logical argument threads built from those atomic notes via transclusion (`![[...]]`), alongside Instruction SoTs (Checklists).
 - **The Context Cache (`.ai/`):** Not built. Agent context today comes from `AGENTS.md`, the Prompt Library Router, and 1MCP; see [[SoT - AI Agent Skill Architecture]].
 
 ### 5.2 Refinement, Graph & Agent Governance Standards

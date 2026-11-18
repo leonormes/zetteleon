@@ -23,7 +23,7 @@ Instead of context-switching between different types of tasks throughout the day
 ## Why It Works for ADHD
 
 - Reduces Decision Fatigue: By pre-deciding the focus for the day, it eliminates the constant need to decide what to work on next, which can be a significant drain on executive function.
-- Improves Focus: It allows the brain to settle into a specific mode of thinking for a prolonged period, which can help induce a state of flow or [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]].
+- Improves Focus: It allows the brain to settle into a specific mode of thinking for a prolonged period, which can help induce a state of flow or [[Hyperfocus]].
 - Manages Working Memory: It reduces the cognitive load of holding multiple, disparate tasks in working memory at the same time.
 
 ## Connections
@@ -36,5 +36,5 @@ _Source: Synthesized from notes on ADHD productivity hacks._
 ## Related
 
 - [[Day Theming is a Macro Time Blocking Strategy]] - Explains the fundamental mechanics of the technique.
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] - Shows how this strategy can induce flow states.
+- [[Hyperfocus]] - Shows how this strategy can induce flow states.
 - [[Practice - Micro-tasking and time-boxing]]—_the daily practice inside each themed day._

@@ -1,18 +1,27 @@
 ---
 aliases: []
-candidate_answers: ["[[Preferring Science Is Itself a Falsifiable, Evidence-Based Belief, Not a Dogmatic One]]", "[[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]"]
+candidate_answers:
+  - "[[Preferring Science Is Itself a Falsifiable, Evidence-Based Belief, Not a Dogmatic One]]"
+  - "[[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]"
 conformant: true
 created: 2026-09-22T08:11:10+00:00
 modified: 2026-10-22T15:11:15+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/q-why-trust-science-when-my-brain-runs-on-the-same-bias-prone-machinery-as-everyone-who-believes-something-false
-related_claims: ["[[Falsifiability Distinguishes Science from Dogma]]", "[[Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth]]", "[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"]
-status: draft
-tags: [epistemology, falsifiability, philosophy-of-science, TheHuman/Cognition]
+related_claims:
+  - "[[Falsifiability Distinguishes Science from Dogma]]"
+  - "[[Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth]]"
+  - "[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"
+status: open
+tags:
+  - epistemology
+  - falsifiability
+  - philosophy-of-science
+  - TheHuman/Cognition
 tension: I never run my own experiments or personally verify most of what I believe about reality, and I use the same cognitive heuristics as people who confidently believe things that are false—including people who live successful lives while rejecting science outright. So what actually justifies my confidence that I am right, rather than just as confidently mistaken as they are?
 title: Q — Why Trust Science When My Brain Runs on the Same Bias-Prone Machinery as Everyone Who Believes Something False
 type: question
-updated: null
+AoL: Personal
 ---
 
 > [!question] Central question

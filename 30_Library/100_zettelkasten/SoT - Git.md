@@ -1,57 +1,64 @@
 ---
-aliases: [Distributed Version Control, Git, Version Control System]
+aliases:
+  - Distributed Version Control
+  - Git
+  - Version Control System
 conformant: true
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-18T15:56:00+00:00
 permalink: llmeon/30-library/so-t/so-t-git
-see_also: ["[[SoT - Software Configuration Management Patterns]]"]
-source_of_truth: []
-tags: [devops, git, scm, version_control]
+see_also:
+  - "[[SoT - Software Configuration Management Patterns]]"
+status: stable
+tags:
+  - domain/infrastructure
+  - git
+  - scm
+  - version_control
 title: SoT - Git
 type: sot
 ---
 
-## 2. Working Knowledge (Core Concepts)
+## 1. Minimum Viable Understanding (MVU)
 
-### Git's Data Model: Commits as Snapshots
-
-- A core concept in Git is that each commit is a complete snapshot of the project's entire working directory at a specific point in time, not a series of diffs. Diffs are merely a _presentation_ of the changes calculated by comparing two snapshots.
-- The `.git` folder is the repository itself, containing the entire object database, references (branches, tags), and configuration.
-- The commit history forms a Directed Acyclic Graph (DAG). Nodes are commits, and directed edges represent parent-child relationships. Acyclicity ensures a consistent order without loops.
-
-### Fundamental Objects
-
-Git uses a content-addressable object database, where objects are identified by their SHA-1 (or SHA-256) hash:
-
-1. Blobs: Represent the exact content of a file. If content changes, a new blob is created.
-2. Trees: Represent a directory, containing pointers to blobs (files) and other trees (subdirectories).
-3. Commits: The top-level object, linking to a root tree (the project snapshot), metadata (author, committer, message, timestamp), and parent commit(s).
-
-### Key Git Areas
-
-1. Working Directory: The actual files you are editing. Git detects changes here.
-2. Index (Staging Area): A binary file where changes are prepared for the next commit. `git add` reads files from the working directory, creates new blob objects, and updates the index to point to these blobs. It represents the _next snapshot_ to be committed.
-3. Repository (Object Database): Stores all commits, trees, and blobs. This is the permanent record.
+1. **Git stores snapshots, not diffs:** Every commit is a complete snapshot of the project tree; diffs are computed between snapshots.
+2. **History is a DAG:** Branching and merging form a Directed Acyclic Graph of immutable, hash-addressed commits.
+3. **The index is the staging area:** `.git/index` is where you compose the next snapshot before committing.
+4. **Version everything in Git:** Code, configuration, infrastructure-as-code, and documentation.
+5. **Clean, atomic commits:** Use structured messages and local rebasing for readable history, while protecting shared mainline branches.
 
 ---
 
-## 3. Current Understanding (Workflows & Practices)
+## 2. Core Definitions & Data Model
+
+### Git's Data Model: Commits as Snapshots
+
+- Each commit is a complete snapshot of the project's working directory at a point in time, not a series of diffs.
+- Fundamental content-addressed objects (SHA-1 / SHA-256):
+  1. **Blobs:** Exact file contents.
+  2. **Trees:** Directory listings pointing to blobs and sub-trees.
+  3. **Commits:** Root tree pointer, author/committer metadata, message, and parent commit hash(es).
+
+![[Git Repository Object Store (.git Folder)#^def]]
+
+![[Directed Acyclic Graph (DAG)#^def]]
+
+![[Git Index (Staging Area)#^def]]
+
+---
+
+## 3. Workflows & Practices
 
 ### Basic Operations
 
-- Cloning (`git clone`): Retrieves a complete copy of the repository, including the `.git` folder and populates the working directory with files from the default branch.
-  - `--bare`: Creates a repository without a working tree, ideal for server-side repositories.
-  - `--no-checkout --sparse`: Clones history but does not unpack working directory files.
-- Pushing (`git push`): Transmits only the necessary objects and updates references to synchronize the remote repository with local changes. It does not copy the entire `.git` folder.
-- Undoing Changes:
-  - `git revert <commit-hash>`: Creates a new commit that reverses the effects of the specified snapshot, preserving history. Safe for shared repositories.
-  - `git reset --hard <commit-hash>`: Moves the current branch pointer to the specified commit, discarding all subsequent snapshots from history. Destructive; use with caution on shared branches.
-  - `git commit --amend`: Creates a new snapshot that replaces the last commit, allowing modification of its content or message.
+- **Cloning (`git clone`):** Retrieves the `.git` object store and checks out the default branch (`--bare` omits the working tree for remotes; `--no-checkout --sparse` fetches history without unpacking all files).
+- **Pushing (`git push`):** Sends only missing objects and updates remote refs.
+- **Undoing changes:**
+  - `git revert <commit-hash>`: Appends an inverse commit, preserving history (safe on shared branches).
+  - `git reset --hard <commit-hash>`: Moves the branch pointer and discards subsequent snapshots (destructive on shared branches).
+  - `git commit --amend`: Replaces the tip commit with a new snapshot.
 
 ### Commit Best Practices
-
-- Structured Messages: Adhere to a conventional commit format:
 
 ```sh
 <type>(<scope>): <short summary>
@@ -61,48 +68,32 @@ Breaking Changes:
 <ticket reference>
 ```
 
-- Types: `feat` (new feature), `fix` (bug fix), `docs` (documentation), `style` (formatting), `refactor` (code restructuring), `test` (test changes), `chore` (maintenance).
-- Ticket References: Include ticket IDs (e.g., `FFAPP-####`, `FFDATA-####`) for traceability.
-- Clean History: Use `git rebase -i` to combine, reorder, or edit commits before merging. Squash merges for feature branches consolidate changes into a single, well-described commit on the main branch.
+- **Types:** `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
+- **Clean history:** Use `git rebase -i` to tidy local feature commits before merging, or squash-merge into mainline.
 
-### Branching & Merging
+### Branching, Rebasing & Merging
 
-- Branching Strategy: Employ short-lived feature branches that merge frequently into the mainline.
-- Rebasing (`git rebase`): Reapplies a series of changes from one branch onto a different base, creating _new snapshots_ for each replayed commit. This results in a clean, linear history but rewrites commit history, requiring careful use in shared branches.
-- Merge Commits: Represents the integration of changes from multiple parent branches. Viewing its diff shows the _net result_ of all combined changes since the common ancestor.
+- Employ short-lived feature branches that integrate frequently into mainline.
+
+![[Git Rebase#^def]]
+
+![[Git Merge Commits and Diffs#^def]]
 
 ### Security & Auditability
 
-- Tamper-Evident History: Git's cryptographic hashing ensures that any change to commit history is immediately detectable, as it would alter all subsequent commit hashes in the chain.
-- GitOps: Leverages Git as the single source of truth for declarative configurations (infrastructure, applications) and automates deployment processes. This enables version-controlled, auditable, and repeatable deployments.
-- GitLab's Protected Branches: Crucial for GitOps security. These prevent `git push --force`, enforce merge request reviews and approvals, and require CI/CD status checks, making tampering difficult to go undetected.
-- Signed Commits: GPG or SSH signing of commits provides cryptographic proof of authorship and integrity.
+- **Tamper-evident history:** Cryptographic parent hashing detects any retroactive alteration of commit history.
+- **GitOps:** Uses Git as the single source of truth for declarative infrastructure and application delivery ([[SoT - GitOps for Privileged Identity Management]], [[SoT - GitOps for IAM and Permissions]]).
+- **Protected branches & signed commits:** Block `git push --force`, enforce MR approvals and CI/CD checks, and sign commits with GPG or SSH keys.
 
 ---
 
-## 4. Minimum Viable Understanding (MVU)
+## 4. Sources and Links
 
-1. Git stores Snapshots, not Diffs: Every commit is a complete copy of the project.
-2. History is a DAG: Branching and merging create a graph of interconnected commits.
-3. Index is the Staging Area: It's where you build your next snapshot.
-4. Version Everything in Git: Code, config, infrastructure, docs.
-5. Clean, Atomic Commits: Use structured messages and rebase for readable history.
-6. Protected Branches are Key for GitOps: Prevent history rewriting and enforce reviews.
-
----
-
-## 5. Sources and Links
-
-- [[#Git's Data Model: Commits as Snapshots|Commits as snapshots vs. commits as diffs (this note)]]
-- [[directed acyclic graph]]
-- [[dot_git folder]]
-- [[git index]]
-- [[#Basic Operations|Cloning, bare repos, and sparse / no-checkout options]]
-- [[#Security & Auditability|GitOps (in this note)]]
-- [[Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured|Properties of a Directed Acyclic Graph (DAG)]]
-- [[rebase]]
-- [[Understanding Merge Commits and Diffs]]
-- [[#Basic Operations|Undoing changes: revert, reset --hard, commit --amend]]
-- [[git commit prompt|ff git process for better logs]]
-- [[SOT - CI-CD Pipelines|CI/CD fundamentals (FITFILE pipelines SoT)]]
-- [[SOT - CI-CD Pipelines|Efficient continuous delivery (pipeline architecture)]]
+- [[Directed Acyclic Graph (DAG)]]—_Defines the cycle-free commit graph underpinning Git history._ [synthesizes:: [[Directed Acyclic Graph (DAG)]]]
+- [[Git Repository Object Store (.git Folder)]]—_Defines the `.git` directory, object store, and bare/worktree layouts._ [synthesizes:: [[Git Repository Object Store (.git Folder)]]]
+- [[Git Index (Staging Area)]]—_Defines the `.git/index` staging boundary between working tree and repository._ [synthesizes:: [[Git Index (Staging Area)]]]
+- [[Git Rebase]]—_Defines linear history replay and its shared-branch trade-offs._ [synthesizes:: [[Git Rebase]]]
+- [[Git Merge Commits and Diffs]]—_Defines multi-parent merge nodes and first-parent vs ancestor diffs._ [synthesizes:: [[Git Merge Commits and Diffs]]]
+- [[Git's Content-Addressed Object Store Absorbs Distributed-Trust Complexity Into Structure]]—_Claim explaining how Git's object model absorbs distributed-trust complexity._
+- [[Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured]]—_Parallel application of DAG properties to action sequences._
+- [[SOT - CI-CD Pipelines]]—_CI/CD and continuous delivery pipeline architecture._

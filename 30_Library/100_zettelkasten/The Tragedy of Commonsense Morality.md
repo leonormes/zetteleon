@@ -1,22 +1,27 @@
 ---
 conformant: true
 created: 2026-09-25T15:59:57+00:00
-created_utc: '2026-09-25T16:00:00Z'
-definition: The Tragedy of Commonsense Morality is conflict between groups that are
-  each moral internally, caused by incompatible visions of a moral society and not
-  by selfishness.
-distinguishes_from: ["[[Me Versus Us]]"]
-modified: 2026-10-22T15:11:13+00:00
+created_utc: 2026-09-25T16:00:00Z
+definition: The Tragedy of Commonsense Morality is conflict between groups that are each moral internally, caused by incompatible visions of a moral society and not by selfishness.
+distinguishes_from:
+  - "[[Me Versus Us]]"
+modified: 2026-11-17T20:43:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-tragedy-of-commonsense-morality
-source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked
-  against the book)
+source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked against the book)
 source_url: calibre://view-book/GCcalibreBooks/412/EPUB
 status: seed
-tags: [commonsense-morality, moral-conflict, moral-tribes, parable, tribes, us-vs-them]
+tags:
+  - commonsense-morality
+  - moral-conflict
+  - moral-tribes
+  - parable
+  - tribes
+  - us-vs-them
 title: The Tragedy of Commonsense Morality
 type: concept
-upstream: '[[Politics, Law and Money - Study Plan]]'
-used_in_claims: ["[[Each of Four Tribes in the New Pastures Parable Runs Its Land by a Different Rule]]", "[[The Same Moral Thinking Enables and Undermines Cooperation]]"]
+used_in_claims:
+  - "[[Each of Four Tribes in the New Pastures Parable Runs Its Land by a Different Rule]]"
+  - "[[The Same Moral Thinking Enables and Undermines Cooperation]]"
 ---
 
 ## The Tragedy of Commonsense Morality

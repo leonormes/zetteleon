@@ -18,7 +18,7 @@ permalink: llmeon/10-system/templates/template-source
 
 %% One note per book or article. The citation lives here once, so every Evidence or point note
 can link back to this note instead of retyping it. Paraphrase in your own words and quote
-rarely. Created by the Source choice in QuickAdd, which fills the citation from Calibre. %%
+rarely. Created by the Source choice in QuickAdd, which fills the citation from Calibre. The full reference form is the reference: line printed by verify_quote.py (Atomic Note Standard section 9). %%
 
 ## What this source is about
 

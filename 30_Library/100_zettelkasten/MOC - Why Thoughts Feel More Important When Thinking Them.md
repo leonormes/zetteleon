@@ -102,7 +102,7 @@ This is the essence of what [[Writing Creates Cognitive Distance for Objective E
 - [[Common Cognitive Distortions]]
 - [[Mind-Reading Fallacy and Projection]]
 - [[30_Library/100_zettelkasten/Emotional Reasoning]]
-- [[Negativity Bias]]
+- [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]
 
 > `Confirmation Bias Distorts Social Perception` and `The Focusing Illusion` are not yet standalone atomic notes.
 

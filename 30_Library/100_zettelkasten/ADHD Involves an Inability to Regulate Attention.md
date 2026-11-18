@@ -12,7 +12,7 @@ type: claim
 
 ## ADHD Involves an Inability to Regulate Attention
 
-Summary: ADHD is not a deficit of attention but an inability to regulate it, leading to a paradoxical combination of extreme distractibility and intense, uncontrollable hyperfocus.
+Summary: ADHD is not a deficit of attention but an inability to regulate it, leading to a paradoxical combination of extreme distractibility and intense, uncontrollable hyperfocus. ^claim
 
 Details: An ADHD brain struggles to filter irrelevant internal and external stimuli, causing susceptibility to distractions. Conversely, it can enter a state of hyperfocus on highly engaging activities, leading to a loss of time awareness and neglect of other responsibilities. This makes it difficult to shift attention from an interesting coding problem to a more urgent but less stimulating task, disrupting workflow and balanced productivity.
 

@@ -1,16 +1,20 @@
 ---
 created: 2026-04-14T13:22:01+00:00
-created_utc: '2026-04-14T11:35:00Z'
+created_utc: 2026-04-14T11:35:00Z
 kind: procedure
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-quit-on-the-third-urge-rule
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags: [discipline, habit-formation, resistance, willpower]
+tags:
+  - discipline
+  - habit-formation
+  - resistance
+  - willpower
 title: The Quit on the Third Urge Rule
 type: atom
-upstream: '[[SoT - ADHD Management Protocols]]'
+upstream: "[[ADHD Management Protocols]]"
 ---
 
 ## The Quit on the Third Urge Rule
@@ -33,7 +37,7 @@ A muscle-building technique for increasing task persistence despite internal res
 ### Related
 
 - [[The Third Urge Rule - Resilient Persistence]]—direct concept match: provides the canonical protocol for yielding to impulses.
-- [[SoT - ADHD Management Protocols]]—shared mechanism: identifies this as a "Tenacity Rep."
+- [[ADHD Management Protocols]]—shared mechanism: identifies this as a "Tenacity Rep."
 
 ### See Also
 

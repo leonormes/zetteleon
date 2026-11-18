@@ -46,7 +46,7 @@ The SoT claims that one pattern operates in four domains: a constitutive schema 
 - [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]]—depends on: the cross-domain claim presupposes the constitutive reading.
 - [[A Declarative State File Is the Infrastructure and Configuration Drift Is Its Gap From Reality]]—elaborates: the infrastructure row worked out.
 - [[A Clinical Observation Outside the Common Data Model Is Undefined in That Domain Rather Than Poorly Captured]]—elaborates: the clinical data row worked out.
-- [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]—elaborates: the cognitive row worked out.
+- [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]—elaborates: the cognitive row worked out.
 - [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]—elaborates: the type theory row, where a type is a proposition.
 
 ### Tensions

@@ -30,7 +30,9 @@ permalink: llmeon/10-system/templates/template-own-concept
 ### Evidence
 
 > "Verbatim quote from the source"
-> (Author, work, location)
+> (Author Year, ch. N, PDF p. M) · [open in Calibre](calibre://view-book/GCcalibreBooks/ID/EPUB?open_at=toc:Chapter%20title)
+
+%% Quote from a Calibre book: run verify_quote.py first and paste its paste: line here (Atomic Note Standard section 9). %%
 
 ### Implications
 

@@ -41,7 +41,7 @@ At 308 words it is one thesis (classic linear systems clash with ADHD interest-d
 
 ### Left Alone
 
-- A structural edge rests on a low-confidence claim: [[SoT - ADHD Management Protocols]] carries `[extends:: [[ADHD Brain Wiring vs. Classic Productivity Systems]], confidence=high]`. That is structural, so it does not change exposure, but the SoT's stated confidence is higher than the note it extends.
+- A structural edge rests on a low-confidence claim: [[ADHD Management Protocols]] carries `[extends:: [[ADHD Brain Wiring vs. Classic Productivity Systems]], confidence=high]`. That is structural, so it does not change exposure, but the SoT's stated confidence is higher than the note it extends.
 - [[Emergence]] is a template stub ("Suggested Links" and "see note 2" placeholders). The link resolves but the note is thin.
 - `last_reviewed: 'null'` left as it was.
 

@@ -28,8 +28,8 @@ The live Obsidian MCP semantic-search tool (`mcp-tools-istefox`, port 27200) was
 |------|-------|---------------------|
 | [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]] | 3 | [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—shared mechanism |
 | [[The Dopaminergic Mirage — Anticipation Migrates to the Earliest Predictive Cue]] | 3 | [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]—shared mechanism |
-| [[Hedonic Adaptation to Achieved Goals Is a Biological Certainty, Not a Character Failing]] | 3 | [[Process Over Outcome Mindset]]—supports |
-| [[Outcome-Goal Systems Cause Motivational Decay - Process Milestones Sustain Engagement]] | 3 | [[Process Over Outcome Mindset]]—direct concept match |
+| [[Hedonic Adaptation to Achieved Goals Is a Biological Certainty, Not a Character Failing]] | 3 | [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]—supports |
+| [[Outcome-Goal Systems Cause Motivational Decay - Process Milestones Sustain Engagement]] | 3 | [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]—direct concept match |
 | [[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]] | 5 | [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]—direct concept match |
 | [[Productivity Obsession Functions as an Existential Defence Against Finitude Anxiety]] | 3 | [[Logotherapy Posits the Search for Meaning as the Primary Human Motivation]]—shared mechanism |
 | [[The Efficiency Trap - Efficiency Gains Expand Obligation Surface Area]] | 3 | [[Pseudo-productivity Heuristic]]—direct concept match |
@@ -42,7 +42,7 @@ The live Obsidian MCP semantic-search tool (`mcp-tools-istefox`, port 27200) was
 | [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] | 3 | [[PKM as Process vs Product]]—direct concept match |
 | [[Network Topology of a PKM Vault Determines Its Cognitive Properties]] | 3 | [[SoT - Knowledge Architecture (Associative Ontology)]]—direct concept match |
 | [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]] | 5 | [[Retrieval-Augmented Generation (RAG)]]—direct concept match |
-| [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]] | 2 | [[Cerebellum Function and Exercise for ADHD Regulation]]—direct concept match |
+| [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]] | 2 | [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]—direct concept match |
 | [[Implementation Intentions Elevate ADHD Response Inhibition Toward Neurotypical Levels]] | 3 | [[Implementation Intentions Automate Action Initiation with If-Then Plans]]—direct concept match |
 | [[The Five-Step Initiation Chain for Neuro-Variable Execution]] | 5 | [[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]—extends |
 | [[Local-First Obsidian with MCP and RAG Is the Best-Fit Substrate for Data-Sovereign PKM]] | 3 | [[Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup]]—direct concept match |
@@ -53,7 +53,7 @@ These report concepts already exist as dedicated permanent notes and were delibe
 
 - [[Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory]]
 - [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]]
-- [[ADHD DMN Deactivation Failure]]
+- [[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]]
 - [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]
 - [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]
 - [[Implementation Intentions Automate Action Initiation with If-Then Plans]]

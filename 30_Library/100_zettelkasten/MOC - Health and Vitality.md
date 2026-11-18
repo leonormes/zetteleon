@@ -57,7 +57,7 @@ _Focus: Force production, full range of motion, and bodyweight mastery._
 
 _Focus: How physical movement and bioenergetics regulate the ADHD brain._
 
-- [[Cerebellum Function and Exercise for ADHD Regulation]]—_How cerebellar activation through movement sharpens attention and motor-cognitive control._
+- [[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]—_How cerebellar activation through movement sharpens attention and motor-cognitive control._
 - [[Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function]]—_Evidence-backed non-pharmacological levers for executive function._
 - [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains]]—_Bioenergetic framing of ADHD cognitive fatigue and fuel demand._
 

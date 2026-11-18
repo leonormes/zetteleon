@@ -23,9 +23,9 @@ Bonhoeffer's theory posits that functional stupidity is not an intellectual fail
 - Mechanism: The individual allows themselves to be "possessed" by slogans and catchwords, becoming a "mindless tool." They surrender their "inner independence."
 - Willful Ignorance (Amathia): An active resistance to learning, characterised by an anti-intellectual celebration of not knowing and a hostility towards expertise.
 
-[depends_on:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]], strength=5, confidence=high] [depends_on:: [[SoT - Authority-Competence Asymmetry]], confidence=high] [depends_on:: [[Implicit Social Hierarchies Authority]], confidence=medium]
+[depends_on:: [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]], strength=5, confidence=high] [depends_on:: [[SoT - Authority-Competence Asymmetry]], confidence=high] [depends_on:: [[Implicit Social Hierarchies Authority]], confidence=medium]
 
-_The vault supplies the mechanism Bonhoeffer describes but does not explain. "Surrendering inner independence" is [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses|belief adopted as a belonging cue]]—a tribal signal purchasing psychological safety, not a conclusion reached. And "the power of the one needs the stupidity of the other" is [[SoT - Authority-Competence Asymmetry|positional authority overriding expert authority]], stated in moral rather than organisational vocabulary._
+_The vault supplies the mechanism Bonhoeffer describes but does not explain. "Surrendering inner independence" is [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses|belief adopted as a belonging cue]]—a tribal signal purchasing psychological safety, not a conclusion reached. And "the power of the one needs the stupidity of the other" is [[SoT - Authority-Competence Asymmetry|positional authority overriding expert authority]], stated in moral rather than organisational vocabulary._
 
 ### The Danger
 

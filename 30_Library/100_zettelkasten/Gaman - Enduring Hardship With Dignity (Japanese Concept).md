@@ -13,7 +13,7 @@ title: Gaman - Enduring Hardship With Dignity (Japanese Concept)
 type: concept
 ---
 
-Gaman describes bearing what feels unbearable—difficulty, tedium, or discomfort—with quiet patience and self-restraint, rather than through complaint, avoidance, or resistance. Applied to ADHD, it offers a resilience frame for the inertia and aversiveness of low-stimulation tasks: enduring the discomfort of a boring or difficult task with dignity, rather than needing to eliminate the discomfort before acting.
+Gaman describes bearing what feels unbearable—difficulty, tedium, or discomfort—with quiet patience and self-restraint, rather than through complaint, avoidance, or resistance. Applied to ADHD, it offers a resilience frame for the inertia and aversiveness of low-stimulation tasks: enduring the discomfort of a boring or difficult task with dignity, rather than needing to eliminate the discomfort before acting. ^def
 
 ## Related
 

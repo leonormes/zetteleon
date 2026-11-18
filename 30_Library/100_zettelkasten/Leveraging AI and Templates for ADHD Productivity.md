@@ -1,14 +1,18 @@
 ---
 aliases: []
+conformant: true
+contradicts: []
 created: 2025-10-26T11:07:00+00:00
+epistemic_status: low
+evidence_links: []
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-10-22T15:11:16+00:00
+modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/leveraging-ai-and-templates-for-adhd-productivity
+proposition: Using voice-to-text AI to dump unstructured thoughts and structure them into a first draft bypasses perfectionism paralysis by offloading executive-function structuring load.
 status: draft
 tags: [ai, executive-function, experiment, hypothesis, templates, TheHuman/Health/ADHD, topic/productivity]
 title: Leveraging AI and Templates for ADHD Productivity
-type: hypothesis
-updated: null
+type: claim
 ---
 
 ## 1. The Hypothesis

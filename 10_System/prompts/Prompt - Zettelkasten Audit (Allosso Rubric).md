@@ -55,7 +55,7 @@ Exclude ch. 8-11 and the Revision Checklist, which govern drafts. If you cannot 
 1. Compute whole-folder metrics with a script: counts, link graph, orphans, components, typed edges, frontmatter population, tags per note, source-field population, review dates. Treat `modified` as unreliable (mass rewrites touch every note) and use `created`.
 2. Read a stratified sample of 30 notes: 10 claim, 5 evidence, 5 concept, 5 legacy or untyped, 5 isolated. Label every qualitative judgement "sampled, n=30".
 3. Separate scaffolding from substance. An empty key or heading is not practice.
-4. Flag notes of AI-chat origin (`source_title`, `source_url`). Judge rule 2, and whether an "Evidence" quote comes from the cited source or from an AI chat about it.
+4. Flag notes of AI-chat origin (`source_title`, `source_url`). Judge rule 2, and whether an "Evidence" quote comes from the cited source or from an AI chat about it. Check any quotation taken from a Calibre book with `verify_quote.py` and report a `not_found` result as an error.
 5. Before crediting link reasons, check whether annotations are templated (repeated label phrases).
 6. Say where the source layer might live outside the folder (Calibre, ARCHILLES) before reporting a funnel shortfall.
 

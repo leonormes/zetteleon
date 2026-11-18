@@ -44,7 +44,7 @@ Structurally identical pattern across four notes: an explicit connective phrase 
 |---|---|---|---|---|---|
 | [[The Mereological Fallacy in Neuroscience]] | "shared mechanism: mis-locating agency by projecting whole-person traits onto the wrong level." | passes | fails—any misattribution-of-agency note would serve | fails—FAE false ≠ Mereological Fallacy weakened | SEVER, high confidence |
 | [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] | "shared mechanism: confident causal attribution made without access to the real cause." | passes | fails—any confident-misattribution note would serve | fails | SEVER, high confidence |
-| [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | "shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors" | passes | fails—generic disposition-bias framing, swappable | fails—belonging-cues claim rests on tribal-signalling evidence, not FAE | SEVER, medium-high confidence |
+| [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | "shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors" | passes | fails—generic disposition-bias framing, swappable | fails—belonging-cues claim rests on tribal-signalling evidence, not FAE | SEVER, medium-high confidence |
 | [[Pattern Recognition in Social Cognition]] (mutual, both directions) | bare, no prose, under `### Related` (both sides) | n/a | n/a | n/a | SEVER, low confidence (position heuristic only) |
 
 #### Candidates 9–11: Bare, no annotation—SEVER, Low Confidence
@@ -67,7 +67,7 @@ Structurally identical pattern across four notes: an explicit connective phrase 
 | [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] | claim | 1 | inbound | tip—SEVER |
 | [[Minds Are Like Plants - Unique Products of Genes and Environment]] | claim | 1 | inbound | tip—SEVER |
 | [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]] | claim | 1 | inbound | tip—UNDERSPECIFIED (frontier, worth extending) |
-| [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | atom | 1 | inbound | tip—SEVER |
+| [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | atom | 1 | inbound | tip—SEVER |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | claim | 1 | inbound | tip—SEVER |
 | [[A False Belief Does Not Diminish a Person's Worth]] | claim | 1 | inbound | tip—SEVER |
 | [[MOC - Social Perception and Self-Awareness]] | map | 1 | inbound | boundary (Domain Hub)—see Pathologies for the `rel:: distorts` annotation it carries |
@@ -91,7 +91,7 @@ placed in [[Evil Arises from Malice or Thoughtless Banality — Motivation Is No
 |---|---|---|---|
 | [[The Mereological Fallacy in Neuroscience]] | [[Fundamental Attribution Error]] | Fails Substitution and Load—analogy, not dependency | "shared mechanism: mis-locating agency by projecting whole-person traits onto the wrong level." |
 | [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] | [[Fundamental Attribution Error]] | Fails Substitution and Load—analogy, not dependency | "shared mechanism: confident causal attribution made without access to the real cause." |
-| [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | [[Fundamental Attribution Error]] | Fails Substitution and Load—generic disposition-bias framing | "shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors" |
+| [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | [[Fundamental Attribution Error]] | Fails Substitution and Load—generic disposition-bias framing | "shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors" |
 | [[Fundamental Attribution Error]] | [[Pattern Recognition in Social Cognition]] | Bare, `### Related`, no prose either direction | (no prose—bare wikilink) |
 | [[Pattern Recognition in Social Cognition]] | [[Fundamental Attribution Error]] | Bare, `### Related`, no prose either direction | (no prose—bare wikilink) |
 | [[Minds Are Like Plants - Unique Products of Genes and Environment]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |

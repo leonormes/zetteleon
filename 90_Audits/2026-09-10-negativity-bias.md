@@ -6,7 +6,7 @@ title: 2026-09-10-negativity-bias
 type: note
 ---
 
-## Positioning—[[Negativity Bias]]—2026-09-10
+## Positioning—[[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]—2026-09-10
 
 ### Baseline
 
@@ -52,10 +52,10 @@ Concepts extracted: (1) negativity bias itself / "bad is stronger than good," (2
 
 | File | Proposed line | Where it goes |
 |---|---|---|
-| [[Negativity Bias]] | `- [[SoT - The Negativity Bias]]—*the full applied framework this atom underpins (ADHD amplification via RSD, DMN rumination, and the countermeasures)—already cites this note as its core concept; this is the reciprocal link.*` | New `## Related` section |
-| [[Negativity Bias]] | `- [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]]—*the decision-economics manifestation of the same "bad outweighs good" asymmetry—independently evidenced (Kahneman/Tversky), not a dependency.*` | Same section |
-| [[Negativity Bias]] | `- [[Cognitive Reframing of Criticism]]—*a practical countermeasure for the exact behaviour this bias predicts: disproportionate emotional weight given to negative feedback.*` | Same section |
-| [[Negativity Bias]] | `- [[Distorted Negative Self-Image]]—*a different context entirely: the same asymmetric-weighting mechanism applied to a child's self-assessment under ambiguous feedback, not adult ADHD or economics.*` | Same section |
+| [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]] | `- [[SoT - The Negativity Bias]]—*the full applied framework this atom underpins (ADHD amplification via RSD, DMN rumination, and the countermeasures)—already cites this note as its core concept; this is the reciprocal link.*` | New `## Related` section |
+| [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]] | `- [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]]—*the decision-economics manifestation of the same "bad outweighs good" asymmetry—independently evidenced (Kahneman/Tversky), not a dependency.*` | Same section |
+| [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]] | `- [[Cognitive Reframing of Criticism]]—*a practical countermeasure for the exact behaviour this bias predicts: disproportionate emotional weight given to negative feedback.*` | Same section |
+| [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]] | `- [[Distorted Negative Self-Image]]—*a different context entirely: the same asymmetric-weighting mechanism applied to a child's self-assessment under ambiguous feedback, not adult ADHD or economics.*` | Same section |
 | [[MOC - Cognitive Biases]] | `- [[Negativity Bias]]: The tendency to weight negative information and experiences more heavily than positive ones of equal intensity—an evolutionary threat-detection leftover.` | New subsection, e.g. "Threat & Emotional-Weighting Biases" (the MOC currently has no category for this; its three sections are Knowledge/Learning, Social/Self-Perception, Decision-Making) |
 
 ### Patch C—Frontmatter Conformance (Leon Applies)

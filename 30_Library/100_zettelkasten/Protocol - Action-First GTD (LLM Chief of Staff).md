@@ -78,11 +78,13 @@ Consolidated 2026-11-09 from the former `Protocol - Autonomous Action System`, w
 
 ### B3. Context Restoration (Agent)
 
-- Trigger: start of a new session. Query Todoist for tasks due today, then say which action is the priority and list the next three.
+- Trigger: start of a new session.
+- **Lead with Active ADHD Experiment**: Read `[[MOC - ADHD Experiments & Protocols]]` and any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`). Open every CoS brief with an **Active ADHD Experiment** reminder: (1) the hypothesis being tested, (2) today's concrete behavioural test, and (3) what evidence would settle it. Frame all scaffolding choices as a scientific loop (hypothesis → controlled test → evidence / `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]` → keep/reject in `[[MOC - ADHD Experiments & Protocols]]`), not ad-hoc "whatever feels best".
+- Then query Todoist for tasks due today, say which action is the priority, and list the next three.
 
 ### B4. Health Check (Agent)
 
-- Trigger: weekly review or on request. Check project health in Todoist and flag stalled projects or overdue items with a proposed next test.
+- Trigger: weekly review or on request. Check project health in Todoist and flag stalled projects or overdue items with a proposed next test. Also check whether the active ADHD experiment has logged evidence or is ready for ABAB withdrawal / promotion in `[[MOC - ADHD Experiments & Protocols]]`.
 
 ### B5. Surrounding Loops (Hermes Gateway)
 

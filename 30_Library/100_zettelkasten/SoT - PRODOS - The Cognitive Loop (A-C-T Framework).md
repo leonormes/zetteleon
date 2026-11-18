@@ -8,7 +8,7 @@ conformant: true
 contrasts_with:
 - '[[SoT - Illusion of Explanatory Depth (IoED)]]'
 created: 2026-04-04T12:30:00+00:00
-modified: 2026-11-14T20:03:12+00:00
+modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 project_category: prodos
 see_also:
@@ -68,7 +68,7 @@ For ADHD brains, the "Research Rabbit Hole" and "Information Hoarding" provide i
 - The LLM (The Thoughtful Action Partner): Acts as the "Convergent Tool" during Phase A (Decomposition) and Phase T (Synthesis). Its goal is NOT to give comprehensive answers, but to help the human find the _smallest next step_.
 - The Human (The Problem Definer): Provides the "Amorphous Input" and performs the physical execution during Phase C.
 - Tools:
-    - Obsidian: For Phase C (One-Note-Container) and Phase T (Synthesis into SoTs).
+    - Obsidian: For Phase C (One-Note-Container) and Phase T (Extracting atomic `claim` notes and compiling them into `SoT` argument threads via `![[...]]` transclusion, `[depends_on:: [[Claim]]]`, and `[synthesizes:: [[Note]]]`).
     - Todoist: For Phase C (Execution/Time-boxing).
     - LLM: For Phase A (Framing the MVA) using the [[Thoughtful Action Partner]] system prompt.
 

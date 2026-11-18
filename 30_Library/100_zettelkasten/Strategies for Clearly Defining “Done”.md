@@ -83,7 +83,7 @@ Perfectionism is the main reason a done state keeps moving, so the strategies ab
 
 ## Related
 
-- [[Process Over Outcome Mindset]]—_Counters perfectionism by valuing the process, so an incomplete project counts as a learning experience rather than a failure; it balances the concrete done state rather than replacing it._
+- [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]—_Counters perfectionism by valuing the process, so an incomplete project counts as a learning experience rather than a failure; it balances the concrete done state rather than replacing it._
 - [[Rejection-Sensitive Dysphoria]]—_Often the emotional driver behind the fear layer in Managing Perfectionism._
 
 ### Further Reading (Personal Library)

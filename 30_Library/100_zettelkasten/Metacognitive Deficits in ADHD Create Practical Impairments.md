@@ -20,6 +20,6 @@ When a person with ADHD struggles with metacognition, it leads to tangible, real
 
 [[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]
 
-- [[ADHD Emotional Reasoning]]
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]
 - [[The DMN as a Demon - Negative Rumination in ADHD]]
 - [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]

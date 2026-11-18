@@ -2,20 +2,19 @@
 aliases: [Emotional Hypersensitivity in ADHD, Rejection Sensitivity, RSD]
 axiom: true
 conformant: true
-contradicts: []
 created: 2026-02-11T17:05:00+00:00
-epistemic_status: high
-evidence_links: []
-modified: 2026-11-14T12:47:57+00:00
+modified: 2026-11-17T17:30:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria-rsd
-proposition: "Rejection Sensitive Dysphoria (RSD) is a neurological event in which the ADHD brain's emotional processing centres perceive social disapproval, criticism, or failure as a direct physical threat, triggering an instantaneous fight-or-flight response disproportionate to the actual stimulus."
+definition: Rejection Sensitive Dysphoria (RSD) is an intense emotional response common in ADHD in which perceived or actual rejection, criticism or failure is experienced as a direct physical threat.
+distinguishes_from: ["[[Rejection Sensitivity Is an Established Research Construct; RSD Is a Popular Term Without Formal Diagnostic Status]]"]
+used_in_claims: ["[[Unexplained Underachievement]]", "[[Part 1 The Psychology of ADHD-Driven Overthinking]]", "[[Executive Function Failures Trigger Shame-Driven Avoidance Loops in ADHD]]", "[[Bidirectional Authority Discomfort in ADHD]]", "[[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]"]
 status: seed
 tags: [emotion, neurology, RSD, social-cognition, TheHuman/Health/ADHD]
 title: Rejection Sensitive Dysphoria (RSD)
-type: claim
+type: concept
 ---
 
-Rejection Sensitive Dysphoria (RSD) is a specialized, intense emotional response common in ADHD, characterized by extreme sensitivity to perceived or actual rejection, criticism, or failure. It is a neurological event, not a character flaw; the brain's emotional processing centers perceive social disapproval as a direct physical threat, triggering a "fight or flight" response to social stimuli.
+Rejection Sensitive Dysphoria (RSD) is a specialized, intense emotional response common in ADHD, characterized by extreme sensitivity to perceived or actual rejection, criticism, or failure. It is a neurological event, not a character flaw; the brain's emotional processing centers perceive social disapproval as a direct physical threat, triggering a "fight or flight" response to social stimuli. ^def
 
 ---
 
@@ -38,7 +37,7 @@ To protect against the intense pain of RSD, individuals often adopt one of three
 
 ## 3. Impact on Mastery and Growth
 
-RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _feeling_ of being disliked or failing is interpreted as an objective _fact_. This creates a "Capability Ceiling" by:
+RSD acts as a powerful amplifier for [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]], where the _feeling_ of being disliked or failing is interpreted as an objective _fact_. This creates a "Capability Ceiling" by:
 
 - Preventing the "stress-testing" of models (fear of being wrong).
 - Derailing the "Point of Performance" through anticipatory anxiety.
@@ -49,16 +48,16 @@ RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _fe
 ## Related Knowledge
 
 - [[SoT - ADHD Neurology & Core Concepts]] (The emotional switch)
-- [[ADHD Emotional Reasoning]] (Emotion as Fact)
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]] (Emotion as Fact)
 - [[MOC - Emotional Dysregulation]] (The broader framework)
 - [[Why Others' Opinions Can Feel Undeservedly Powerful]] (Cognitive aspect)
 - [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]] (Economic aspect)
 
 ## Consequences
 
-[[ADHD Emotional Reasoning]]—RSD's own text: "RSD Amplification … turning a minor worry … into a perceived factual certainty"
+[[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]—RSD's own text: "RSD Amplification … turning a minor worry … into a perceived factual certainty"
 
-[supports:: [[ADHD Emotional Reasoning]]]
+[supports:: [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]]
 
 [[Defensive Hypervigilance]]—the fourth shield above; that note already carries a `depends_on` edge back to this one, naming RSD as the mechanism driving the coping strategy
 

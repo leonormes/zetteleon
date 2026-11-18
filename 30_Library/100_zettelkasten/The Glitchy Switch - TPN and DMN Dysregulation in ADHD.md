@@ -2,22 +2,21 @@
 aliases: []
 axiom: true
 conformant: true
-contradicts: []
 created: 2025-10-24T15:16:00+00:00
-epistemic_status: high
-evidence_links: []
 last_reviewed: 'null'
-modified: 2026-10-22T15:11:14+00:00
+modified: 2026-11-17T17:30:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-glitchy-switch-tpn-and-dmn-dysregulation-in-adhd
-proposition: 'In the ADHD brain, the normal anticorrelation between the Task-Positive Network and the Default Mode Network can be dysregulated into a "glitchy switch," where the DMN intrudes on TPN activity during tasks (causing distraction) or the person gets stuck in the DMN (causing rumination), instead of the two networks cleanly and smoothly alternating.'
+definition: The glitchy switch is the ADHD pattern in which the Default Mode Network intrudes on task-positive activity, or the person gets stuck in the default mode, instead of the two networks switching cleanly.
+distinguishes_from: ["[[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]"]
+used_in_claims: ["[[GTD and the Cognitive Load of Execution]]", "[[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]", "[[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]]", "[[The Neurological Divide Between Procrastination and Task Initiation]]"]
 status: stable
 tags: [brain-networks, distraction, DMN, dysregulation, rumination, TheHuman/Health/ADHD, TheHuman/Neuroscience, TPN]
 title: The Glitchy Switch - TPN and DMN Dysregulation in ADHD
-type: claim
+type: concept
 updated: null
 ---
 
-In the ADHD brain, the normal anticorrelation between the [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined|Task-Positive Network (TPN)]] and the [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined|Default Mode Network (DMN)]] can be dysregulated, often described as a "glitchy switch." This means that instead of one network cleanly activating while the other deactivates, there can be interference or an inability to smoothly transition between them.
+In the ADHD brain, the normal anticorrelation between the [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined|Task-Positive Network (TPN)]] and the [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined|Default Mode Network (DMN)]] can be dysregulated, often described as a "glitchy switch." This means that instead of one network cleanly activating while the other deactivates, there can be interference or an inability to smoothly transition between them. ^def
 
 This dysregulation manifests in two primary ways:
 
@@ -30,7 +29,7 @@ Links:
 
 - [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]]
 - [[Reframing ADHD - From Deficit to Difference]]
-- [[ADHD Emotional Reasoning]]
+- [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]
 - [[Reframing Negative Thought Patterns in ADHD]]
 - [[MOC - Emotional Dysregulation]]
 

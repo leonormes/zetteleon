@@ -21,7 +21,7 @@ The claim that a cognitive scaffold is the faculty it supports has a different e
 
 ### Scope & Conditions
 
-- This is a qualification of [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]. It does not reject it.
+- This is a qualification of [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]. It does not reject it.
 - "Formal closure" here means a mechanism that can decide whether the structure and the state agree. The other three domains have one and the scaffold does not.
 - The note title was proposed by the SoT itself, in its own Tensions section.
 
@@ -37,8 +37,8 @@ The claim that a cognitive scaffold is the faculty it supports has a different e
 
 ### Related
 
-[depends_on:: [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]], strength=4, confidence=high]
+[depends_on:: [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]], strength=4, confidence=high]
 
-- [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]—qualifies: the claim whose epistemic status this note limits.
+- [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]—qualifies: the claim whose epistemic status this note limits.
 - [[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]]—qualifies: the cognitive row of the cross-domain claim.
 - [[SoT - The Extended Mind]]—shared mechanism: the theory that makes the constitutive reading defensible.

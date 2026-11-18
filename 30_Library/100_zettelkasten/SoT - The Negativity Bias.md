@@ -16,7 +16,7 @@ type: sot
 >
 > In evolutionary terms: "Bad is stronger than Good." The brain prioritizes threat detection over opportunity recognition because missing a threat is fatal, while missing a reward is merely unfortunate.
 
-[depends_on:: [[Negativity Bias]], strength=5, confidence=high]
+[depends_on:: [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]], strength=5, confidence=high]
 
 ---
 
@@ -53,7 +53,7 @@ When the ADHD brain is under-stimulated, it defaults to the Default Mode Network
 
 The intensity of the feeling convinces the brain that the danger is real.
 
-- _Link:_ [[ADHD Emotional Reasoning]] - "I feel bad, therefore the situation is bad."
+- _Link:_ [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]] - "I feel bad, therefore the situation is bad."
 
 ---
 
@@ -78,7 +78,7 @@ Since the brain does not automatically "save" positive moments, we must manually
 
 ## 6. Related Zettels
 
-- [[Negativity Bias]] - The core concept.
+- [[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]] - The core concept.
 - [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - The economic parallel.
 - [[Misinterpretation as Character Flaws]] - The result of unchecked negativity bias.
 - [[Why Others' Opinions Can Feel Undeservedly Powerful]] - The social consequence.

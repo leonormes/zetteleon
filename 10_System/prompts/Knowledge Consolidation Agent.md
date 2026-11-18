@@ -1,19 +1,14 @@
 ---
-created: 2026-02-01 14:02:03+00:00
-modified: 2026-02-02 21:12:11+00:00
+conformant: true
+created: 2026-02-01T14:02:03+00:00
+description: "Consolidate an input note into the vault by finding duplicates and overlapping notes, merging and deprecating where the evidence supports it, and linking the rest with typed edges in the compiler-visible vocabulary. The front door for new content that may already exist in the vault."
+modified: 2026-11-17T11:22:00+00:00
+permalink: llmeon/10-system/prompts/knowledge-consolidation-agent
 tags:
 - agent/consolidation
 - domain/pkm
 - sot
 - type/system
-title: Knowledge Consolidation Agent
-type: prompt
-version: 2
-permalink: llmeon/10-system/prompts/knowledge-consolidation-agentT14:02:03+00:00
-description: "Consolidate an input note into the vault by finding duplicates and overlapping notes, merging and deprecating where the evidence supports it, and linking the rest with typed edges in the compiler-visible vocabulary. The front door for new content that may already exist in the vault."
-modified: 2026-10-22T15:11:08+00:00
-permalink: llmeon/10-system/prompts/knowledge-consolidation-agent
-tags: [agent/consolidation, domain/pkm, sot, type/system]
 title: Knowledge Consolidation Agent
 type: prompt
 version: 4
@@ -53,6 +48,7 @@ Shadow duplicates (the same idea in different vocabulary) are the main risk. Tha
    - Resolve every target before writing it. A dangling edge is a compiler error.
 5. Declare your tooling tier and downgrade honestly (next section).
 6. Write the changes, then prove them. Apply the plan directly. The run is not done until the lint gate below passes.
+7. SoT Boundary Rule: extract first, transclude into SoTs. An SoT (`type: sot`) is a compiled synthesis page, not a container for un-extracted prose assertions. When consolidating into an SoT, extract standalone claims, concepts, evidence, and procedures into `30_Library/100_zettelkasten/` first (following [[SoT - Atomic Note Standard (The Proposition Card)]]), then compile them into the SoT via Obsidian transclusion (`![[Note Title#^claim]]`) with brief connective framing and `[synthesizes:: [[Component]]]` edges. End each extracted card's opening statement with ` ^claim` so the embed shows the proposition only (rule 8 of the Atomic Note Standard).
 
 ## TOOLING
 
@@ -129,10 +125,15 @@ Duplicates merge into the canonical note. Related but not duplicate: if they sha
 
 ### 4. Execute
 
-1. Merge. Integrate unique content into the canonical note's body. If it is (or becomes) an SoT, it uses `prodos.kind`, `prodos.lifecycle` and `prodos.trust` (`low`, `working`, `stable`, `authoritative`), with body sections `## Minimum Viable Understanding (MVU)`, `## Working Knowledge`, `## Current Understanding` (and an `Integration Queue` for content not yet reconciled).
+1. Merge. Integrate unique content into the canonical note's body.
+   - If the canonical note is (or becomes) an SoT (`type: sot`), **do not** write un-extracted prose claims directly inside the SoT. First extract each standalone claim, concept, evidence note, or procedure into `30_Library/100_zettelkasten/` following [[SoT - Atomic Note Standard (The Proposition Card)]] (validated with `validate_note_shape.py`). Then compile the SoT body using:
+     - `## Minimum Viable Understanding (MVU)` (2–4 sentence synthesis of the core thesis)
+     - Ordered thematic sections that transclude the extracted atomic notes in narrative order (`![[Note Title#^claim]]`) paired with brief connective framing
+     - `## Working Knowledge & Synthesis` (or `## Working Knowledge`) with `[synthesizes:: [[Component]]]` edges pointing to each transcluded component
+     - Optional `prodos.kind`, `prodos.lifecycle`, and `prodos.trust` (`low`, `working`, `stable`, `authoritative`), plus an `Integration Queue` for content not yet reconciled.
 2. Deprecate, only after rule 2 is satisfied. On the duplicate, edit frontmatter only: add `status: superseded` and `superseded_by: ["[[Canonical Note]]"]` (a list of quoted wikilinks, since an unquoted `[[X]]` parses as a nested list), and add `archive` to its existing `tags`. On the surviving canonical note, you may also record `merged_from: ["[[Deprecated Note]]"]` (or `supersedes: ["[[Deprecated Note]]"]`) so K-Plex's Sequence (`previous` ↔ `next`) lineage is traversable from both sides. Keep the duplicate's `type`, `conformant` and `non_conformance_reason`. Replace the body with: *"This note's thinking has been integrated into [[Canonical Note]] on YYYY-MM-DD."* The old body stays in git history.
 3. Link. Add typed edges (paired with their annotated prose bullets) from the input and its neighbours to the canonical note, following Hard Rule 4 (and `[synthesizes:: [[Component]]]` from an SoT/MoC down to any surviving atomic claims it integrates). Insert lines surgically; do not rewrite existing prose.
-4. Validate. Run `edge_lint.py` on the whole vault. It must report `0 error(s)` before you write the report; if errors appear only on files you did not touch, report them and continue.
+4. Validate. Run `uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "<file>"` on every edited/created note, `python3 10_System/scripts/validate_note_shape.py "<file>"` on every newly created atomic note in `30_Library/100_zettelkasten/`, and `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` on the whole vault. All checks must report `0 error(s)` on your touched/created files before you write the report; if pre-existing errors appear only on files you did not touch, report them and continue.
 
 ## OUTPUT
 

@@ -41,7 +41,7 @@ Pinker's argument that reason is nonnegotiable in any discussion; it applies to 
 - [[Enlightenment Thinkers Rejected Faith and Gut Feelings as Generators of Delusion]]—extends: what this commitment rules out
 - [[Science as Refined Reason]]—extends: science is described as the refining of this commitment
 - [[The Traditional Definition of Knowledge is Justified True Belief]]—shared mechanism: both tie holding a belief to having a justification
-- [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]]—shared mechanism: describes beliefs held as group signals, the opposite of beliefs held accountable to objective standards
+- [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—shared mechanism: describes beliefs held as group signals, the opposite of beliefs held accountable to objective standards
 - [[The Four Themes of the Enlightenment]]—shared mechanism: reason is the first of the four themes
 
 ### Tensions

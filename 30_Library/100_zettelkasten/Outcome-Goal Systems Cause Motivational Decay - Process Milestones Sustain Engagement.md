@@ -32,6 +32,6 @@ Applies to project and system design for long-horizon work, especially where the
 
 ### Related
 
-- [[Process Over Outcome Mindset]]—direct concept match: this note supplies the neurological mechanism underlying that existing claim.
+- [[Valuing the Learning Process Over External Outcomes Sustains Motivation]]—direct concept match: this note supplies the neurological mechanism underlying that existing claim.
 - [[The Dopaminergic Mirage — Anticipation Migrates to the Earliest Predictive Cue]]—shared mechanism: both describe why outcome-only reward structures fail over time.
 - [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]—supports: visible next actions are one of the process-milestone interventions named here.

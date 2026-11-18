@@ -38,7 +38,8 @@ At most 3 Big Rocks per week. Trigger the reduced cap of 1–2 Big Rocks determi
 Leon is not asked to think up Big Rocks. [[SoT - Prosthetic Executive Function]] explains why: choosing from nothing is the step where executive function is weakest.
 
 - Trigger: `/daily-plan` runs on Monday or the first working day of the week, and there are no Big Rock parent tasks in Todoist for the week.
-- Inputs the CoS reads: active vault projects (`project_status: active` in `30_Library/200_Projects/`), Horizons of Focus as recorded in [[gtd-action-system]], Jira tickets assigned to Leon, and the Todoist runway.
+- Inputs the CoS reads: active vault projects (`project_status: active` in `30_Library/200_Projects/`), Horizons of Focus as recorded in [[gtd-action-system]], Jira tickets assigned to Leon, the Todoist runway, and `[[MOC - ADHD Experiments & Protocols]]` plus any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`).
+- Experiment alignment (scientific loop): Review/update the active experiment's evidence from last week (or promote the next candidate from `[[MOC - ADHD Experiments & Protocols]]` if settled via `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]`), and frame this week's Big Rock execution as a controlled test of that hypothesis rather than ad-hoc "whatever feels best".
 - Output: up to 3 candidates, each with an outcome in finishable wording, the source it came from, and a time estimate in minutes.
 - Decision: a binary choice per candidate, which is accept, swap (name a replacement) or reject. Nothing is created until Leon answers.
 - This sits in `/daily-plan`, not in [[Protocol - Weekly Command Centre]]. That protocol is deliberately a 10-minute floor and must not grow until it has been run four Fridays in a row.

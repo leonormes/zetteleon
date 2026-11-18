@@ -1,15 +1,19 @@
 ---
 aliases: []
+conformant: true
+contradicts: []
 created: 2025-10-30T12:00:02+00:00
+epistemic_status: low
+evidence_links: []
 last_reviewed: '2025-12-16'
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/designed-task-switching-leverages-dopamine-boosts-for-adhd-motivation
+proposition: Intentionally toggling between two active projects every 20–30 minutes provides novelty-driven dopamine spikes that sustain higher cognitive energy and focus duration than forcing single-task completion.
 source: '[[MOC - Action Management]]'
 status: draft
 tags: [experiment, hypothesis, task-switching, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation
-type: hypothesis
-updated: null
+type: claim
 ---
 
 ## 1. The Hypothesis
