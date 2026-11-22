@@ -1,16 +1,35 @@
 ---
-alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network Troubleshooting Checklist]
+alias:
+  - Connectivity Debugging
+  - Kubernetes Network Debugging Protocol
+  - Network Troubleshooting Checklist
 aliases:
-- Protocol - HIE->NNUH Network Debugging
+  - Protocol - HIE->NNUH Network Debugging
 conformant: true
 created: 2026-02-04T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/protocol-hie-nnuh-network-debugging
-tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
+tags:
+  - aws
+  - azure
+  - customer/nnuh
+  - debugging
+  - kubernetes
+  - networking
+  - protocol
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
+status: draft
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - kubernetes
+      - customer-nnuh
 ---
+
+> Trigger: connectivity fails between clusters (for example EKS to AKS) or from the public internet to ingress.
 
 ## Logic Map
 

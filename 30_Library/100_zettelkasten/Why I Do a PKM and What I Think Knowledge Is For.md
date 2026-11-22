@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-14T00:00:00+00:00
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-19T12:15:32+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/why-i-do-a-pkm-and-what-i-think-knowledge-is-for
 tags: [domain/pkm, topic/knowledge-architecture, topic/metacognition, topic/pkm-purpose]
@@ -9,7 +9,7 @@ title: Why I Do a PKM and What I Think Knowledge Is For
 type: concept
 ---
 
-Knowledge, for me, isn't a possession to accumulate—it's a byproduct of the effort of thinking, made durable and cumulative through externalisation because an ADHD working memory can't hold it all at once. The vault's job is to be the extended, prosthetic part of my mind, not a library about my mind.
+Knowledge isn't a possession to accumulate—it's a byproduct of the effort of thinking, made durable and cumulative through externalisation because an ADHD working memory can't hold it all at once. The vault's job is to be the extended, prosthetic part of my mind, not a library about my mind.
 
 ## Why I Do This
 
@@ -20,8 +20,6 @@ Knowledge, for me, isn't a possession to accumulate—it's a byproduct of the ef
 [[Knowledge Emerges Through Application and Experience|Knowledge isn't information stored — it's formed by applying information to solve problems, decide, or generate insight]]. [[Deep Processing is the Core of Zettelkasten|Collecting is a trap]]: [[The Processing Is the Hard Part|the actual work is forcing a fuzzy understanding into precise words]], because that's where real cognitive work happens. [[Zettelkasten System Essence|The system exists in my mental processes, not in the notes]]—graph size and sophistication were never the point. [[PKM as Process vs Product|I deliberately reject the polished-wiki model]] in favour of a process that captures the messy journey; the value sits in the network a summary rests on, not the summary itself.
 
 ## The Through-line
-
-[[I am iterating on creating a thinking system|This vault is an iterating thinking system]], not a finished product. Knowledge is a byproduct of thinking-in-public-with-myself, not something I own.
 
 [synthesizes:: [[Purpose of my PKM system]], strength=5, confidence=high]
 
@@ -40,8 +38,6 @@ Knowledge, for me, isn't a possession to accumulate—it's a byproduct of the ef
 [synthesizes:: [[SoT - The Extended Mind]], strength=5, confidence=high]
 
 [synthesizes:: [[Nihilism vs Constructed Meaning]], strength=3, confidence=medium]
-
-[depends_on:: [[I am iterating on creating a thinking system]], confidence=medium]
 
 ## Related
 

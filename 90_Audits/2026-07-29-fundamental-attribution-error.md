@@ -53,7 +53,7 @@ Structurally identical pattern across four notes: an explicit connective phrase 
 |---|---|
 | [[Minds Are Like Plants - Unique Products of Genes and Environment]] | Bare bullet, `## Related`, no surrounding prose |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | Bare bullet, `## Related`, no surrounding prose |
-| [[A False Belief Does Not Diminish a Person's Worth]] | Bare bullet, `## Related`, no surrounding prose |
+| [[A False Belief Does Not Diminish the Worth of a Person]] | Bare bullet, `## Related`, no surrounding prose |
 
 ### Traversal Manifest
 
@@ -69,7 +69,7 @@ Structurally identical pattern across four notes: an explicit connective phrase 
 | [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]] | claim | 1 | inbound | tip—UNDERSPECIFIED (frontier, worth extending) |
 | [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | atom | 1 | inbound | tip—SEVER |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | claim | 1 | inbound | tip—SEVER |
-| [[A False Belief Does Not Diminish a Person's Worth]] | claim | 1 | inbound | tip—SEVER |
+| [[A False Belief Does Not Diminish the Worth of a Person]] | claim | 1 | inbound | tip—SEVER |
 | [[MOC - Social Perception and Self-Awareness]] | map | 1 | inbound | boundary (Domain Hub)—see Pathologies for the `rel:: distorts` annotation it carries |
 | [[_link_report_analytical_exploration_of_evil]] | link_report | 2 (via Evil Arises) |—| attribution—machine-generated ingest artifact (`status: tmp`), corroborates the "shared mechanism" tie was auto-proposed during a batch link pass, not hand-reasoned |
 
@@ -96,7 +96,7 @@ placed in [[Evil Arises from Malice or Thoughtless Banality — Motivation Is No
 | [[Pattern Recognition in Social Cognition]] | [[Fundamental Attribution Error]] | Bare, `### Related`, no prose either direction | (no prose—bare wikilink) |
 | [[Minds Are Like Plants - Unique Products of Genes and Environment]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
-| [[A False Belief Does Not Diminish a Person's Worth]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
+| [[A False Belief Does Not Diminish the Worth of a Person]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
 
 ### No evidence—needs Your Call
 

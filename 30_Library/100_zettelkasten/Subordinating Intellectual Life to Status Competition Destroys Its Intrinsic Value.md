@@ -28,3 +28,5 @@ Plenty of people appear to hold both frames without evident damage—the academi
 [extends:: [[SoT - The Evolutionary Biology of Status]], strength=3, confidence=medium]
 
 [supports:: [[SoT - The Internal World and the Need for Validation]], strength=3, confidence=medium]
+
+[supports:: [[Habitual Comparison Keeps Desire Active]], strength=4, confidence=high]

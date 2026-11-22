@@ -32,12 +32,12 @@ Useful when dealing with ego-fused individuals whose beliefs are hardcoded into 
 
 #### Related
 
-- [[A False Belief Does Not Diminish a Person's Worth]]—shared mechanism: focuses on human worth decoupled from ideas
+- [[A False Belief Does Not Diminish the Worth of a Person]]—shared mechanism: focuses on human worth decoupled from ideas
 - [[Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling]]—extends: outlines the practical linguistic mechanism to achieve this
 - [[SoT - Framework for Healthy Communication]]—extends: axioms of respectful disagreement
 [extends:: [[SoT - Framework for Healthy Communication]]]
 
 ## Related
 
-- [[A False Belief Does Not Diminish a Person's Worth]] - Details the separation between mistaken ideas and human value.
+- [[A False Belief Does Not Diminish the Worth of a Person]] - Details the separation between mistaken ideas and human value.
 - [[Claim - Persons are outcomes of nature and nurture, not right or wrong axioms]] - The psychological model that makes this decoupling possible.

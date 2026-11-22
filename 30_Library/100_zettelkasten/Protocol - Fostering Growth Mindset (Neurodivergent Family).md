@@ -1,5 +1,8 @@
 ---
-aliases: [Deconstructing Perfectionism, Growth Mindset Protocol, Parenting for Neurodiversity]
+aliases:
+  - Deconstructing Perfectionism
+  - Growth Mindset Protocol
+  - Parenting for Neurodiversity
 conformant: true
 created: 2026-02-03T12:00:00+00:00
 last_synthesis: 2026-02-03
@@ -8,10 +11,20 @@ permalink: llmeon/30-library/so-t/protocol-fostering-growth-mindset-neurodiverge
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [bessie, growth-mindset, neurodiversity, parenting, protocol]
+tags:
+  - bessie
+  - growth-mindset
+  - neurodiversity
+  - parenting
+  - protocol
 title: Protocol - Fostering Growth Mindset (Neurodivergent Family)
 trust-level: stable
 type: protocol
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - family-parenting
 ---
 
 ## Logic Map

@@ -49,7 +49,7 @@ These notes provide the foundational understanding of how the ADHD brain operate
 - [[Flow State is a State of Optimal Dopamine Stimulation]]
 - [[Metacognitive Deficits in ADHD Create Practical Impairments]]
 - [[The ADHD Brain as a High-Performance Engine with a Faulty Transmission]]
-- [[ADHD Management Protocols]]
+- [[SoT - ADHD Management Protocols]]
 - [[SoT - Indistractable Model (Focus Management)]]
 
 ### 4. Recommended Actions

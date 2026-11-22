@@ -1,15 +1,31 @@
 ---
-alias: [AWS SSM SSH Protocol, HIE Jumpbox Access]
+alias:
+  - AWS SSM SSH Protocol
+  - HIE Jumpbox Access
 conformant: true
 created: 2026-02-05T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/protocol-aws-hie-jumpbox-access
 status: stable
-tags: [aws, customer/hie, jumpbox, protocol, ssh, ssm]
+tags:
+  - aws
+  - customer/hie
+  - jumpbox
+  - protocol
+  - ssh
+  - ssm
 title: Protocol - AWS HIE Jumpbox Access
 type: protocol
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - aws
+      - customer-hie
 ---
+
+> Trigger: you need shell access to the HIE jumpbox instance.
 
 ## Logic Map
 

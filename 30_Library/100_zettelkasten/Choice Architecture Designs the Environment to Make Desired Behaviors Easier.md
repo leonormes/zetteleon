@@ -2,24 +2,23 @@
 aliases:
   - Choice Architecture
   - Nudge Theory
-axiom: true
 conformant: true
 contradicts: []
 created: 2025-11-10T17:13:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-15T08:52:00+00:00
-non_conformance_reason: ""
+modified: 2026-11-19T12:01:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/choice-architecture-designs-the-environment-to-make-desired-behaviors-easier
 proposition: Designing the physical, financial, or social environment to make desired choices the path of least resistance shifts behaviour more reliably than persuasion or willpower.
 see_also:
   - "[[MOC - Relational Dynamics & Family (Triage)]]"
+status: stable
 tags:
   - behavior-change
   - design
   - environment
-  - family
   - nudge
+  - TheHuman/Family
   - TheHuman/Psychology
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 type: claim
@@ -27,7 +26,7 @@ type: claim
 
 ## Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 
-Choice architecture is the practice of designing the environment in which people make decisions to nudge them toward desired behaviours without restricting their freedom of choice. By setting beneficial defaults, increasing the visibility of helpful options, and adding friction to unhelpful ones, it bridges the intention-action gap more reliably than repeated explanation.
+Choice architecture is the practice of designing the environment in which people make decisions to nudge them toward desired behaviours without restricting their freedom of choice. By setting beneficial defaults, increasing the visibility of helpful options, and adding friction to unhelpful ones, it bridges the intention-action gap more reliably than repeated explanation. ^claim
 
 ### Scope & Conditions
 
@@ -50,6 +49,7 @@ This claim is derived from behavioural-design synthesis across the executive-fun
 - [[SoT - Family Financial Wellness]]—_money application: the One-Pot Model and automatic equal personal spending transfers remove the need for daily financial policing._
 - [[SoT - Prosthetic Executive Function]]—_ADHD application: uses external choice architecture to offload executive-function demands._
 - [[Discipline Is a Property of External Structure More Than of Will]]—_structural parallel: consistent action follows environmental scaffolding more than willpower._
+- [[SoT - Indistractable Model (Focus Management)]]—_focus application: uses environmental friction and defaults to prevent distraction at the point of performance._
 
 [supports:: [[SoT - Prosthetic Executive Function]], strength=5, confidence=high]
 

@@ -19,7 +19,7 @@ type: claim
 
 ## Originality is Synthesis Not Creation From Nothing
 
-Summary: Human originality arises from distinctive synthesis rather than ex nihilo invention; uniqueness comes from recombining shared elements.
+Summary: Human originality arises from distinctive synthesis rather than ex nihilo invention; uniqueness comes from recombining shared elements. ^claim
 
 Details: Human originality arises from distinctive synthesis rather than ex nihilo invention. Like DNA built from just four bases yet yielding unique organisms through specific sequences, creative work recombines shared cultural elements into unprecedented arrangements. Your particular way of connecting idea A with experience B under value C produces a perspective that has never existed before. The task of originality is therefore curation, recombination, and expression, not escape from influence.
 

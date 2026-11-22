@@ -39,7 +39,7 @@ The vault already contains a dense, pre-existing SoT cluster on this exact topic
 | [[Primitive Obsession Forces Validation Into Control Flow, Value Objects Absorb It Into Structure]] | 2 | [[SoT - Stringly Typed vs Strongly Typed]] — direct concept match (shares its aliases) |
 | [[Poor Data Structure Exhausts an AI Coding Agent's Context Window Before It Can Trace Execution Logic]] | 1 | [[SoT - LLM Reasoning Obeys the Complexity Conservation Law]] — direct concept match |
 | [[Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation]] | 4 | [[Software Complexity is Conserved Between Control Flow and Representation]] — **Tension** |
-| [[A Conservation Claim Becomes Unfalsifiable If Essential Complexity Is Defined Post-Hoc]] | 3 | [[SoT - Conservation of Complexity]] — **Tension** |
+| [[Conservation of Complexity Is Testable Only If Essential Complexity Is Measured Before the Design Is Chosen]] | 3 | [[SoT - Conservation of Complexity]] — **Tension** |
 | [[Moving a Constraint Into a Type Is Cost Amortisation, Not a Zero-Sum Transfer]] | 3 | [[SoT - Conservation of Complexity]] — **Tension** |
 | [[The Right Data Structure, Not a Smart One, Is Pike's Actual Rule]] | 2 | [[SoT - Data-Oriented Design]] — qualifies |
 | [[Empirical Support for Types Prevent Bugs Is Thin and Indirect]] | 2 | [[Software Complexity is Conserved Between Control Flow and Representation]] — qualifies |

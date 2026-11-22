@@ -1,6 +1,6 @@
 ---
 baseFile: 02_bases/claim.base
-baseView: claim
+baseView: All Claims
 created: 2026-08-24T15:26:16+00:00
 extends: Note
 fields:

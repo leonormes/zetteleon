@@ -1,9 +1,3 @@
----
-permalink: llmeon/book-fusion/bookshelves/sdlc
-title: SDLC
-type: note
----
-
 # SDLC
 
 [[BookFusion/Books/User Story Mapping Discover the Whole Story, Build the Right Product-3531505|User Story Mapping: Discover the Whole Story, Build the Right Product]]

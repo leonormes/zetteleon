@@ -1,18 +1,39 @@
 ---
-aliases: [Action-First GTD, Agent GTD, Autonomous Action, Dump Don't Organize, LLM Chief of Staff, Todoist MCP Integration]
+aliases:
+  - Action-First GTD
+  - Agent GTD
+  - Autonomous Action
+  - Dump Don't Organize
+  - LLM Chief of Staff
+  - Todoist MCP Integration
 conformant: true
-contrasts_with: ["[[SoT - Processing IS the Work]]"]
+contrasts_with:
+  - "[[SoT - Processing IS the Work]]"
 created: 2026-02-11T11:40:00+00:00
-merged_from: ["[[SoT - Cognitive Engineering Protocols]]"]
+merged_from:
+  - "[[SoT - Cognitive Engineering Protocols]]"
 modified: 2026-11-17T10:12:44+00:00
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 project_category: prodos
-see_also: ["[[SoT - Execution Protocol (GTD & PARA)]]", "[[Protocol - Vague-to-Action]]"]
+see_also:
+  - "[[SoT - Execution Protocol (GTD & PARA)]]"
+  - "[[Protocol - Vague-to-Action]]"
 status: stable
-tags: [gtd, llm, system/protocol, TheHuman/Health/ADHD]
+tags:
+  - gtd
+  - llm
+  - system/protocol
+  - TheHuman/Health/ADHD
 title: Protocol - Action-First GTD (LLM Chief of Staff)
 type: protocol
-upstream: ["[[SoT - PRODOS Core Specification]]"]
+upstream:
+  - "[[SoT - PRODOS Core Specification]]"
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - inbox-triage
+      - task-management
 ---
 
 ## Logic Map
@@ -61,7 +82,7 @@ upstream: ["[[SoT - PRODOS Core Specification]]"]
 Consolidated 2026-11-09 from the former `Protocol - Autonomous Action System`, which ran the same dump-to-Todoist workflow with an agent instead of copy-and-paste. Sections above are Mode A (manual hand-off). Mode B removes the copy step.
 
 - Dependencies: Obsidian MCP (ground truth for thinking and knowledge), Todoist MCP (ground truth for physical actions and deadlines), and an orchestrating agent acting as Chief of Staff (Hermes or Gemini CLI).
-- Todoist target: Clarified actions go to the runway and unclarified items stay in the Inbox, as defined in [[gtd-action-system]]. Actionability is location, not a tag.
+- Todoist target: Clarified actions go to the runway and unclarified items stay in the Inbox, as defined in [[SoT - GTD Action System]]. Actionability is location, not a tag.
 
 ### B1. Capture (Human)
 
@@ -84,7 +105,10 @@ Consolidated 2026-11-09 from the former `Protocol - Autonomous Action System`, w
 
 ### B4. Health Check (Agent)
 
-- Trigger: weekly review or on request. Check project health in Todoist and flag stalled projects or overdue items with a proposed next test. Also check whether the active ADHD experiment has logged evidence or is ready for ABAB withdrawal / promotion in `[[MOC - ADHD Experiments & Protocols]]`.
+- Trigger: weekly review or on request.
+- Check `02_bases/GTD Stalled Projects Audit.base` for active projects in `30_Library/200_Projects/` with `0` open TaskNotes; propose **1 starter TaskNote** (in `TaskNotes/Tasks/` linked via `+[[Project - Outcome]]`) plus **1 date-free physical-verb Todoist runway item** (`todoist_1mcp_add-tasks`) for each stalled project.
+- Check `02_bases/GTD Waiting For.base` for delegated/externally blocked items needing a follow-up chase, and check project health in Todoist (`todoist_1mcp_find-tasks`, `todoist_1mcp_find-projects`) for overdue/soft-timeboxed drift.
+- Check whether the active ADHD experiment has logged evidence or is ready for ABAB withdrawal / promotion in `[[MOC - ADHD Experiments & Protocols]]`.
 
 ### B5. Surrounding Loops (Hermes Gateway)
 
@@ -110,6 +134,29 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 2. Confirm the task appears in Todoist.
 3. Confirm the content moved to the archive.
 
+## Inbox Triage & TaskNotes Routing Protocol
+
+- Trigger: `"triage inbox"` or `"process 00_Inbox"` (after CoS drains Todoist Inbox into individual notes inside `00_Inbox/`).
+- Mode: **One item at a time** (interactive loop—never dump a giant wall of text). Read one `00_Inbox/` note, propose its classification below (asking **at most 1 clarifying question** if intent or Definition of Done is ambiguous), wait for confirmation, execute the Obsidian/Todoist mutations, and **delete** the processed `00_Inbox/` note before moving to the next.
+- Active MCP tools: `obsidian-llmeon_1mcp_*` (Vault I/O; fallback `obsidian vault="LLMeon" ...`), `todoist_1mcp_add-tasks`, `todoist_1mcp_find-tasks`, `todoist_1mcp_find-projects`, `todoist_1mcp_update-tasks`, `todoist_1mcp_complete-tasks`.
+
+### Control-Plane Separation (Non-Negotiable)
+
+- **Obsidian** (`30_Library/200_Projects/`, `TaskNotes/Tasks/`, `20_Thinking/21_Workbench/`, `30_Library/100_zettelkasten/`) is the sole home for thinking, project outcomes, multi-step checklists, `blockedBy` dependencies, `waiting` states, and problem analysis.
+- **Todoist** (`#Work` or `#Personal`) is a **flat, date-free execution runway** holding **at most one unblocked physical starter verb** (`<120s` MVA / `<5m` starter) per active outcome. Never create Todoist subtasks, nested projects, or fake wish-list due dates.
+
+### The 7-Type `00_Inbox/` Triage Decision Matrix
+
+| Type | Criteria | Obsidian Action | Todoist Runway (`todoist_1mcp_add-tasks`) | Cleanup |
+|---|---|---|---|---|
+| **1. `< 2-Minute Action`** | Resolvable in under 2 minutes | None | None — prompt human to do it immediately | Delete `00_Inbox/` note |
+| **2. Simple Next Action** | 1 standalone physical step; no project container needed | Do **not** create a Project note. Optionally create a standalone TaskNote in `TaskNotes/Tasks/` via `[[Template - TaskNotes Starter Task]]` only if reference notes/links are needed | Push **1 date-free physical-verb task** to `#Work` or `#Personal` | Delete `00_Inbox/` note |
+| **3. Small Project** | 2–5 steps; finishes within days/weeks; minimal research | Offer two paths:<br>• *Lightweight:* 1 TaskNote in `TaskNotes/Tasks/` with the 2–5 steps as inline `- [ ]` checkboxes.<br>• *Standard:* `30_Library/200_Projects/Project - [Outcome].md` (`type: project`, `prodos.lifecycle: active`) from `[[Template - Project]]` (embeds `![[Project-Tasks.base]]`) + 1 linked TaskNote (`+[[Project - Outcome]]`) | Push **only the single immediate Next Action** | Delete `00_Inbox/` note |
+| **4. Large / Complex Project** | Multi-stage, architecture work, Jira-backed, or deep thinking | If unsettled, open `HEAD - [Question]?.md` in `20_Thinking/21_Workbench/` per `[[SoT - HEAD Note Contract (The Workbench)]]`. Once settled, create `30_Library/200_Projects/Project - [Outcome].md` (`type: project`, `prodos.lifecycle: active`) from `[[Template - Project]]` + sequential TaskNotes in `TaskNotes/Tasks/` linked via `+[[Project - Outcome]]` and `blockedBy` dependencies (so only unblocked tasks surface in `02_bases/GTD Next Actions.base`) | Push **only the unblocked Next Action** | Delete `00_Inbox/` note |
+| **5. Waiting For / Blocked** | Externally blocked (e.g. NHS/MKUH email thread, Jira dependency) | Create/update TaskNote in `TaskNotes/Tasks/` with `status: waiting` and `@waiting` context (linked to parent `Project - ...` if applicable) so it surfaces in `02_bases/GTD Waiting For.base` | **None** — keep off active Todoist runway | Delete `00_Inbox/` note |
+| **6. Unresolved Problem** | Recurring bug, broken workflow, or constraint | Route to Clarity Framework (`/capture-problem` → `/clarify-problem`): create `Problem - [Undesirable Effect].md` (`type: problem`, `role: symptom`, `status: captured`) rather than prematurely creating a project; promote to `30_Library/200_Projects/` only once a solvable root cause is identified | **None** until solvable root cause yields a Next Action | Delete `00_Inbox/` note |
+| **7. Reference / Someday** | Knowledge, reference, or parked project | • *Knowledge/Concept:* Stub or route to `30_Library/100_zettelkasten/` (respect `own_words: true` — never write substantive claims for the human).<br>• *Parked Project:* Create `30_Library/200_Projects/Project - [Outcome].md` with `prodos.lifecycle: someday` (ignored by `02_bases/GTD Stalled Projects Audit.base`) | **None** | Delete `00_Inbox/` note |
+
 ## Error Handling
 
 - If dump is too large: The LLM may hallucinate or skip items. _Fix:_ Break the dump into smaller sections or ask for the "top 10 loudest items."
@@ -132,4 +179,4 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 - [[Writing Acts as an External Working Memory]]—_Why offloading open loops onto paper/text frees cognitive capacity._ [depends_on:: [[Writing Acts as an External Working Memory]], confidence=high]
 - [[Protocol - Daily Plan (Todoist Timeboxing)]]—_Schedules the clarified runway as timed Todoist blocks (B6)._ [extends:: [[Protocol - Daily Plan (Todoist Timeboxing)]], confidence=medium]
 - [[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]]—_Micro-execution prosthetic timebox and somatic switch loop handed off from `/daily-plan` macro blocking (B7)._ [extends:: [[Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)]], confidence=high]
-- [[gtd-action-system]]—_The live four-tier operational architecture and flat Todoist runway targeted by this protocol._ [implements:: [[gtd-action-system]], confidence=high]
+- [[SoT - GTD Action System]]—_The live four-tier operational architecture and flat Todoist runway targeted by this protocol._ [implements:: [[SoT - GTD Action System]], confidence=high]

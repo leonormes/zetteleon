@@ -15,7 +15,7 @@ title: Bayesian Updating Adjusts Beliefs as New Evidence Arrives
 type: claim
 ---
 
-Summary: Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism.
+Summary: Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism. ^claim
 
 Details: Bayesian updating formalizes learning as the iterative adjustment of beliefs in light of new evidence. You begin with a prior, assess how likely the evidence would be if the hypothesis were true or false, and revise to a posterior that becomes the next prior. Even without equations, you can practice qualitative Bayes by explicitly stating priors and reasons for change. This method operationalizes open-mindedness without drifting into relativism.
 

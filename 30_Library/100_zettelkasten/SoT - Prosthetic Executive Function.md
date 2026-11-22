@@ -3,7 +3,7 @@ aliases: [Automation as Behavior, Cognitive Prosthetics, Digital Tools Help Exte
 conformant: true
 created: 2026-01-12T12:25:00+00:00
 domain: "[[MOC - ADHD (The Master Map)]]"
-modified: 2026-11-17T21:55:11+00:00
+modified: 2026-11-19T12:01:30+00:00
 permalink: llmeon/30-library/so-t/so-t-prosthetic-executive-function
 project_category: prodos
 review_cycle: quarterly
@@ -48,7 +48,7 @@ To escape circularity, interventions must be separated by who or what supplies t
 
 When pull tools are not recognised as EF-dependent, they trigger the Trap of the Architect: mistaking elaborate system-building for execution while the actual floor remains unbuilt. Survivable scaffolding instead relies on choice architecture and pre-committed triggers decided in advance:
 
-![[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]]
+![[Choice Architecture Designs the Environment to Make Desired Behaviors Easier#^claim]]
 
 ![[ADHD Executive Dysfunction Needs Triggers Decided in Advance, Not Willpower in the Moment]]
 

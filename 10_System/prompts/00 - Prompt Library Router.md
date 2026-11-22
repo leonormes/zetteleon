@@ -65,6 +65,12 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | I pasted content about how we know things (knowledge, truth, evidence, science, belief) and want it folded into the epistemology graph | [[Epistemology Graph - Knowledge Consolidation]] | Domain-specific Consolidation Agent; reads the hub MoC and six SoTs, enhances existing notes or adds atomic notes with claim and counter-claim edges, reports gaps |
 | I want the family and relationships notes triaged into their four buckets | [[Family Notes - Triage and Normalization]] | Domain-specific composition of Triage Architect, Consolidation Agent and Link Auditor |
 
+### Capture / Triage
+
+| Task | Prompt | Why |
+|---|---|---|
+| `"triage inbox"` / `"process 00_Inbox"` — process `00_Inbox/` items one-by-one into TaskNotes, Projects, Problems, or the flat Todoist runway | [[Protocol - Action-First GTD (LLM Chief of Staff)]] | Interactive 7-type triage decision matrix enforcing Obsidian/Todoist control-plane separation, TaskNotes routing (`30_Library/200_Projects/`, `TaskNotes/Tasks/`), and single-starter-verb Todoist pushes |
+
 ### Daily Execution (Todoist)
 
 | Task | Prompt | Why |

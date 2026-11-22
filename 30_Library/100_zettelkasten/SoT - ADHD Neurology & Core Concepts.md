@@ -19,7 +19,7 @@ title: SoT - ADHD Neurology & Core Concepts
 type: sot
 ---
 
-> Position in the graph. This is the _mechanism_ layer of the ADHD cluster—the note that [[ADHD Management Protocols]] rests on, and that 45 other notes reference. It is where the vault's declared ADHD axioms get assembled into a single operating-system model. Edges below point _downward_ to those axioms and atoms; nothing here points back up at the protocol layer, which would close a cycle.
+> Position in the graph. This is the _mechanism_ layer of the ADHD cluster—the note that [[SoT - ADHD Management Protocols]] rests on, and that 45 other notes reference. It is where the vault's declared ADHD axioms get assembled into a single operating-system model. Edges below point _downward_ to those axioms and atoms; nothing here points back up at the protocol layer, which would close a cycle.
 >
 > Open threads: [[HEAD - Does ADHD reflect network dysregulation or DMN-FPN maturational lag?]] · [[HEAD - How does individual symptom heterogeneity bound unified ADHD hardware models?]]
 
@@ -105,7 +105,7 @@ At the same time, the same interest-based wiring powers deep hyperfocus states a
 
 ## 4. Conclusions, Boundaries & Assumptions to Challenge
 
-**Conclusion:** ADHD challenges are hardware and resource-allocation constraints—not character flaws. Effective intervention (handled at the protocol layer in [[ADHD Management Protocols]]) must work *with* interest-based dopamine dynamics, externalise working memory, and replace shame with capacity-based reframing.
+**Conclusion:** ADHD challenges are hardware and resource-allocation constraints—not character flaws. Effective intervention (handled at the protocol layer in [[SoT - ADHD Management Protocols]]) must work *with* interest-based dopamine dynamics, externalise working memory, and replace shame with capacity-based reframing.
 
 **Assumptions to challenge** (if any proves false in practice, open a `HEAD - <question>?` tension against the underlying claim):
 
@@ -155,4 +155,4 @@ At the same time, the same interest-based wiring powers deep hyperfocus states a
 - [[MOC - Emotional Dysregulation]]—_Expands §3 emotional-regulation mechanisms._
 - [[MOC - Shame]]—_Expands §3 beyond the ADHD-specific loop._
 - [[MOC - ADHD Hyperfixation-Burnout Cycle]]—_Tracks hyperfocus-to-burnout dynamics._
-- [[ADHD Management Protocols]]—_The practice layer built on this note. Referenced only; the `depends_on` edge lives on that note, pointing here._
+- [[SoT - ADHD Management Protocols]]—_The practice layer built on this note. Referenced only; the `depends_on` edge lives on that note, pointing here._

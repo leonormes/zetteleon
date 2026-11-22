@@ -4,15 +4,22 @@ created: 2026-11-13 12:11:00+00:00
 modified: 2026-11-13 12:11:00+00:00
 status: stable
 tags:
-- bessie
-- education
-- neurodiversity
-- parenting
-- protocol
+  - bessie
+  - education
+  - neurodiversity
+  - parenting
+  - protocol
 title: Protocol - Bessie Study Cadence & Neurodiverse Scaffolding
 type: protocol
 permalink: llmeon/30-library/100-zettelkasten/protocol-bessie-study-cadence-neurodiverse-scaffolding
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - family-education
 ---
+
+> Trigger: each day's Study Sprint, ahead of the 18:00 Audit Gate.
 
 ## Minimum Viable Understanding (MVU)
 

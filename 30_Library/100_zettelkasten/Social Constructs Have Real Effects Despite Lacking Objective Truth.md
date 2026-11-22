@@ -19,7 +19,7 @@ type: claim
 
 ## Social Constructs Have Real Effects Despite Lacking Objective Truth
 
-Summary: Social constructs like money, language, and ethics are not objective features of physical reality, yet they exert genuine causal power through collective coordination.
+Summary: Social constructs like money, language, and ethics are not objective features of physical reality, yet they exert genuine causal power through collective coordination. ^claim
 
 Details: Money, language, and ethical norms are social constructs rather than objective features of the physical world, yet they exert real causal power in human lives. A string of digits in a bank account can change where someone lives or whether a project is funded, not because the digits are natural objects but because societies coordinate around their meaning. The medium of language is invented, but it enables the transmission of knowledge, coordination at scale, and the shaping of identities and institutions. Calling something constructed therefore does not make it irrelevant; it highlights that collective belief and participation give it force in the world.
 

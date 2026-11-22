@@ -26,8 +26,8 @@ type: link_report
 | [[PKM as Process vs Product]] | 2 | [[SoT - Processing IS the Work]]—upstream |
 | [[The Mind Movie Fallacy]] | 2 | [[SoT - The Childish Mind (Behavioral Resistance)]]—upstream |
 | [[Sitting with Groundlessness]] | 2 | [[SoT - Mindfulness and Emotional Regulation]]—upstream |
-| [[The Quit on the Third Urge Rule]] | 2 | [[ADHD Management Protocols]]—upstream |
-| [[Minimum Viable Experiment (MVE)]] | 2 | [[ADHD Management Protocols]]—upstream |
+| [[The Quit on the Third Urge Rule]] | 2 | [[SoT - ADHD Management Protocols]]—upstream |
+| [[Minimum Viable Experiment (MVE)]] | 2 | [[SoT - ADHD Management Protocols]]—upstream |
 | [[Cognitive Defusion from Narrative]] | 2 | [[SoT - Mindfulness and Emotional Regulation]]—upstream |
 
 ### Orphan Atoms (No Links fOund)

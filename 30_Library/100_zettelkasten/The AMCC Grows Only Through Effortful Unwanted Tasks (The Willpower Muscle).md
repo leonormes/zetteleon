@@ -21,5 +21,5 @@ This is distinct from the reward-prediction-error mechanism (see [[Dopamine Neur
 ## Related
 
 - [[SoT - ADHD Neurology & Core Concepts]]—the parent SoT this claim was extracted from (§1.4, "The Tenacity Muscle").
-- [[ADHD Management Protocols]]—§7.1 "AMCC Training (The 15% Push)" is a practical protocol that depends on this mechanism holding.
+- [[SoT - ADHD Management Protocols]]—§7.1 "AMCC Training (The 15% Push)" is a practical protocol that depends on this mechanism holding.
 - [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]—the companion mechanism explaining the "Quit Trigger" this claim's atrophy path follows from.

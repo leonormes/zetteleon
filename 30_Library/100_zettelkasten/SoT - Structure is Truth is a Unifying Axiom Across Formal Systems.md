@@ -1,13 +1,33 @@
 ---
-aliases: [Constitutive Structure, Structure as Truth, The Unifying Axiom]
+aliases:
+  - Constitutive Structure
+  - Structure as Truth
+  - The Unifying Axiom
 conformant: true
 created: 2026-04-19T10:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-19T10:48:57+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-structure-is-truth-is-a-unifying-axiom-across-formal-systems
-see_also: ["[[MOC - ADHD Functional Neurology & Scaffolding]]", "[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - The Data-Centric Philosophy]]"]
-supersedes: ["[[SoT - Knowledge Architecture (Associative Ontology)]]"]
-tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, fca/m2-framed, prodos/sot, TheHuman/Health/ADHD, topic/formal-methods, topic/knowledge-architecture, topic/philosophy, topic/pkm, topic/software-architecture, topic/type-theory]
+see_also:
+  - "[[MOC - ADHD Functional Neurology & Scaffolding]]"
+  - "[[MOC - Applied Formal Methods]]"
+  - "[[SoT - Conservation of Complexity]]"
+  - "[[SoT - Order Theory & Lattices]]"
+  - "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"
+supersedes:
+tags:
+  - fca/attr/m10
+  - fca/attr/m4
+  - fca/level/c4
+  - fca/m2-framed
+  - prodos/sot
+  - TheHuman/Health/ADHD
+  - topic/formal-methods
+  - topic/knowledge-architecture
+  - topic/philosophy
+  - topic/pkm
+  - topic/software-architecture
+  - topic/type-theory
 title: SoT - Structure is Truth is a Unifying Axiom Across Formal Systems
 type: sot
 ---

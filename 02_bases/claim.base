@@ -1,31 +1,183 @@
 filters:
   and:
+    - file.ext == "md"
     - type == "claim"
+properties:
+  file.name:
+    displayName: Claim
+  note.status:
+    displayName: Status
+  note.epistemic_status:
+    displayName: Epistemic Status
+  note.proposition:
+    displayName: Proposition
+  note.conformant:
+    displayName: Conformant
+  note.non_conformance_reason:
+    displayName: Non-Conformance Reason
+  note.tags:
+    displayName: Tags
+  note.evidence_links:
+    displayName: Evidence Links
+  note.contradicts:
+    displayName: Contradicts
+  note.axiom:
+    displayName: Axiom
+  note.supersedes:
+    displayName: Supersedes
+  note.superseded_by:
+    displayName: Superseded By
+  note.source_title:
+    displayName: Source Title
+  note.source_url:
+    displayName: Source URL
+  note.upstream:
+    displayName: Upstream
+  note.see_also:
+    displayName: See Also
+  note.aliases:
+    displayName: Aliases
+  note.project_name:
+    displayName: Project
+  note.project_category:
+    displayName: Project Category
+  note.title:
+    displayName: Title
+  note.type:
+    displayName: Type
+  note.created:
+    displayName: Created
+  note.modified:
+    displayName: Modified
 views:
   - type: table
-    name: claim
-    groupBy:
-      property: conformant
-      direction: DESC
+    name: All Claims
     order:
       - file.name
+      - status
+      - epistemic_status
+      - proposition
+      - conformant
+      - non_conformance_reason
+      - tags
+      - evidence_links
+      - contradicts
+      - axiom
+      - supersedes
+      - superseded_by
+      - source_title
+      - source_url
+      - upstream
+      - see_also
+      - aliases
+      - project_name
+      - project_category
+      - title
+      - type
+      - created
+      - modified
+    sort:
+      - property: status
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 380
+      note.proposition: 360
+      note.non_conformance_reason: 260
+  - type: table
+    name: Needs Triage / Missing Properties
+    filters:
+      or:
+        - conformant == null
+        - conformant == false
+        - tags.isEmpty()
+        - proposition.isEmpty()
+        - epistemic_status.isEmpty()
+        - evidence_links == null
+        - contradicts == null
+    order:
+      - file.name
+      - conformant
+      - non_conformance_reason
       - proposition
       - epistemic_status
       - evidence_links
       - contradicts
-      - title
-      - type
-      - project_name
-      - project_category
-      - status
       - tags
+      - status
+      - title
+    sort:
+      - property: conformant
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 360
+      note.non_conformance_reason: 280
+      note.proposition: 340
+  - type: table
+    name: By Status
+    groupBy:
+      property: status
+      direction: ASC
+    groupOrder:
+      - draft
+      - seed
+      - stable
+      - evergreen
+      - stale
+      - superseded
+      - archived
+      - 
+    order:
+      - file.name
+      - status
+      - epistemic_status
       - conformant
-      - non_conformance_reason
-      - supersedes
+      - proposition
+      - tags
+      - evidence_links
+      - contradicts
       - superseded_by
-      - prodos
+      - modified
+    sort:
+      - property: epistemic_status
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 380
+      note.proposition: 340
+  - type: table
+    name: By Epistemic Status
+    groupBy:
+      property: epistemic_status
+      direction: ASC
+    groupOrder:
+      - high
+      - medium
+      - low
+      - unknown
+      - 
+    order:
+      - file.name
+      - epistemic_status
+      - status
+      - conformant
+      - proposition
+      - evidence_links
+      - contradicts
+      - axiom
+      - tags
+      - modified
     sort:
       - property: status
         direction: ASC
+      - property: file.mtime
+        direction: DESC
     columnSize:
-      file.name: 627
+      file.name: 380
+      note.proposition: 340

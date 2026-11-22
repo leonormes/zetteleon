@@ -30,3 +30,5 @@ Specifically applies to algorithmically-driven, infinite-scroll platforms. Does 
 
 - [[Unpredictable Rewards Accelerate Habit Formation]]—extends: social media exploits variable-ratio schedules (unpredictable rewards) to make the checking habit maximally resistant to extinction—the neurological basis for why sobriety is required rather than moderation.
 - [[Dopamine-Seeking Behavior The Research Rabbit Hole]]—shared mechanism: both describe dopamine-seeking behaviours driven by algorithmically-shaped uncertainty loops; the research rabbit hole and the social media feed operate through the same reward circuit.
+
+[supports:: [[External Systems Keep Desire Active]], strength=4, confidence=high]

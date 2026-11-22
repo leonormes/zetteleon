@@ -177,3 +177,23 @@ type: note
 - Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
 ## 12/11/2026, 08:53:34
 - Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
+## 11/21/2026, 6:49:03 PM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+- Essential Zen Habits Mastering the Art of Change Briefly-5789318 [Open](obsidian://open?file=BookFusion%2FBooks%2FEssential%20Zen%20Habits%20Mastering%20the%20Art%20of%20Change%20Briefly-5789318.md) 0
+- Infrastructure as Code, Patterns and Practices With Examples in Python and Terraform-3531539 [Open](obsidian://open?file=BookFusion%2FBooks%2FInfrastructure%20as%20Code%2C%20Patterns%20and%20Practices%20With%20Examples%20in%20Python%20and%20Terraform-3531539.md) 0
+- Unit Testing Principles, Practices, and Patterns Effective Testing Styles, Patterns, and Reliable Automation for Unit Testing, Mocking, and Integration Testing With Examples in C-3531529 [Open](obsidian://open?file=BookFusion%2FBooks%2FUnit%20Testing%20Principles%2C%20Practices%2C%20and%20Patterns%20Effective%20Testing%20Styles%2C%20Patterns%2C%20and%20Reliable%20Automation%20for%20Unit%20Testing%2C%20Mocking%2C%20and%20Integration%20Testing%20With%20Examples%20in%20C-3531529.md) 0
+- Test-Driven Development By Example-3531377 [Open](obsidian://open?file=BookFusion%2FBooks%2FTest-Driven%20Development%20By%20Example-3531377.md) 0
+- From Mathematics to Generic Programming-3531250 [Open](obsidian://open?file=BookFusion%2FBooks%2FFrom%20Mathematics%20to%20Generic%20Programming-3531250.md) 0
+- Domain-Driven Design Tackling Complexity in the Heart of Software-3531225 [Open](obsidian://open?file=BookFusion%2FBooks%2FDomain-Driven%20Design%20Tackling%20Complexity%20in%20the%20Heart%20of%20Software-3531225.md) 0
+- Continuous Delivery Pipelines How to Build Better Software Faster-3531204 [Open](obsidian://open?file=BookFusion%2FBooks%2FContinuous%20Delivery%20Pipelines%20How%20to%20Build%20Better%20Software%20Faster-3531204.md) 0
+- Software Configuration Management Patterns Effective Teamwork, Practical Integration-3531166 [Open](obsidian://open?file=BookFusion%2FBooks%2FSoftware%20Configuration%20Management%20Patterns%20Effective%20Teamwork%2C%20Practical%20Integration-3531166.md) 0
+## 21/11/2026, 19:05:16
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+- Essential Zen Habits Mastering the Art of Change Briefly-5789318 [Open](obsidian://open?file=BookFusion%2FBooks%2FEssential%20Zen%20Habits%20Mastering%20the%20Art%20of%20Change%20Briefly-5789318.md) 0
+- Infrastructure as Code, Patterns and Practices With Examples in Python and Terraform-3531539 [Open](obsidian://open?file=BookFusion%2FBooks%2FInfrastructure%20as%20Code%2C%20Patterns%20and%20Practices%20With%20Examples%20in%20Python%20and%20Terraform-3531539.md) 0
+- Unit Testing Principles, Practices, and Patterns Effective Testing Styles, Patterns, and Reliable Automation for Unit Testing, Mocking, and Integration Testing With Examples in C-3531529 [Open](obsidian://open?file=BookFusion%2FBooks%2FUnit%20Testing%20Principles%2C%20Practices%2C%20and%20Patterns%20Effective%20Testing%20Styles%2C%20Patterns%2C%20and%20Reliable%20Automation%20for%20Unit%20Testing%2C%20Mocking%2C%20and%20Integration%20Testing%20With%20Examples%20in%20C-3531529.md) 0
+- Test-Driven Development By Example-3531377 [Open](obsidian://open?file=BookFusion%2FBooks%2FTest-Driven%20Development%20By%20Example-3531377.md) 0
+- From Mathematics to Generic Programming-3531250 [Open](obsidian://open?file=BookFusion%2FBooks%2FFrom%20Mathematics%20to%20Generic%20Programming-3531250.md) 0
+- Domain-Driven Design Tackling Complexity in the Heart of Software-3531225 [Open](obsidian://open?file=BookFusion%2FBooks%2FDomain-Driven%20Design%20Tackling%20Complexity%20in%20the%20Heart%20of%20Software-3531225.md) 0
+- Continuous Delivery Pipelines How to Build Better Software Faster-3531204 [Open](obsidian://open?file=BookFusion%2FBooks%2FContinuous%20Delivery%20Pipelines%20How%20to%20Build%20Better%20Software%20Faster-3531204.md) 0
+- Software Configuration Management Patterns Effective Teamwork, Practical Integration-3531166 [Open](obsidian://open?file=BookFusion%2FBooks%2FSoftware%20Configuration%20Management%20Patterns%20Effective%20Teamwork%2C%20Practical%20Integration-3531166.md) 0

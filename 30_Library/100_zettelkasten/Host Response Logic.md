@@ -32,7 +32,7 @@ Standard behaviour for any host receiving a network packet; becomes critical in 
 
 ### Related
 
-- [[INSIGHT - Networking is data labeling not wires]]—shared mechanism: explains why "the wrong IP" shows up at the destination.
+- [[Networking Is a Stack of Data Labelling Layers, Not a Web of Wires]]—shared mechanism: explains why "the wrong IP" shows up at the destination.
 - [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]—shared mechanism: describes the construction of reply packets using incoming headers.
 
 ### See Also

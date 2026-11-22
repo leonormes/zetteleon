@@ -1,9 +1,9 @@
 ---
 aliases:
-- The Floor
-- Weekly Command Centre
-- Weekly Reset
-- Weekly Review
+  - The Floor
+  - Weekly Command Centre
+  - Weekly Reset
+  - Weekly Review
 conformant: true
 created: 2025-12-20T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
@@ -11,18 +11,23 @@ permalink: llmeon/30-library/so-t/protocol-weekly-command-centre
 project_category: prodos
 status: stable
 tags:
-- gtd
-- productivity
-- protocol
-- system/reset
-- TheHuman/Health/ADHD
+  - gtd
+  - productivity
+  - protocol
+  - system/reset
+  - TheHuman/Health/ADHD
 title: Protocol - Weekly Command Centre
 trigger: Friday 16:30 — recurring Todoist reminder fires
 type: protocol
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - weekly-review
 ---
 
 > [!warning] Read this before changing anything
-> This protocol was cut down on 2026-08-31 from an 18-step, four-phase ritual to a 10-minute floor. It is deliberately smaller than you think it should be. Do not add anything to it until you have run it four Fridays in a row. Extending a protocol you have not yet run is system-building displacing doing—the exact pattern named in [[gtd-action-system]] §Verdict. The escalation ladder below tells you when you have earned the right to add a step.
+> This protocol was cut down on 2026-08-31 from an 18-step, four-phase ritual to a 10-minute floor. It is deliberately smaller than you think it should be. Do not add anything to it until you have run it four Fridays in a row. Extending a protocol you have not yet run is system-building displacing doing—the exact pattern named in [[SoT - GTD Action System]] §Verdict. The escalation ladder below tells you when you have earned the right to add a step.
 
 ## Minimum Viable Understanding (MVU)
 
@@ -79,7 +84,7 @@ Cap: three. Stop at three even if there are more.
 
 Done when: three fixed, or none needed.
 
-> This is the cross-reference [[gtd-action-system]] names as the weekly review's actual job. One Todoist line per active ticket—never the ticket itself. A commitment with no next action is the specific thing that makes a list untrustworthy ([[Weekly Review Verifies Project Actionability and Context]]).
+> This is the cross-reference [[SoT - GTD Action System]] names as the weekly review's actual job. One Todoist line per active ticket—never the ticket itself. A commitment with no next action is the specific thing that makes a list untrustworthy ([[Weekly Review Verifies Project Actionability and Context]]).
 
 ### Move 4—One Friction Fix & Experiment Check (60s)
 
@@ -160,8 +165,8 @@ The honest weak point: a 10-minute box may not empty a large Inbox, and an Inbox
 
 - [[SoT - Execution Protocol (GTD & PARA)]]—_the Weekly Command Centre executes the Reflect stage of this hybrid workflow._
 [implements:: [[SoT - Execution Protocol (GTD & PARA)]]]
-- [[gtd-action-system]]—_the four-tier tool architecture (Obsidian / Jira / Todoist / calendar) this protocol reviews._
-[depends_on:: [[gtd-action-system]]]
+- [[SoT - GTD Action System]]—_the four-tier tool architecture (Obsidian / Jira / Todoist / calendar) this protocol reviews._
+[depends_on:: [[SoT - GTD Action System]]]
 - [[The Clarification Ritual (Stuff to Action)]]—_this protocol scales the daily clarification ritual into a weekly reset._
 [extends:: [[The Clarification Ritual (Stuff to Action)]]]
 - [[SoT - Prosthetic Executive Function]]—_the design principle: offload the trigger and the boundary to the environment._

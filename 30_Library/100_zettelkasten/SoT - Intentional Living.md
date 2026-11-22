@@ -87,7 +87,7 @@ To interrupt autopilot before defaulting to passive tools, and to build calibrat
 
 ![[How to Use the Intentional Pause to Break Autopilot]]
 
-![[The Third Urge Rule - Resilient Persistence]]
+![[Protocol - Third Urge Rule (Resilient Persistence)]]
 
 To keep daily execution minimalist and single-tasked:
 
@@ -127,5 +127,5 @@ To keep daily execution minimalist and single-tasked:
 - [[How to Run Lifestyle-Centric Planning]]—_Operationalises the Bigger Better Offer via declarative life properties._ [synthesizes:: [[How to Run Lifestyle-Centric Planning]], confidence=high]
 - [[How to Use Habit Stacking and Minimum Viable Habits]]—_Operationalises habit initiation and cue anchoring._ [synthesizes:: [[How to Use Habit Stacking and Minimum Viable Habits]], confidence=high]
 - [[How to Use the Intentional Pause to Break Autopilot]]—_Operationalises the 3-second pause before tool use._ [synthesizes:: [[How to Use the Intentional Pause to Break Autopilot]], confidence=high]
-- [[The Third Urge Rule - Resilient Persistence]]—_Operationalises calibrated persistence through urge surfing._ [synthesizes:: [[The Third Urge Rule - Resilient Persistence]], confidence=high]
+- [[Protocol - Third Urge Rule (Resilient Persistence)]]—_Operationalises calibrated persistence through urge surfing._ [synthesizes:: [[Protocol - Third Urge Rule (Resilient Persistence)]], confidence=high]
 - [[How to Run Zen to Done Minimalist Execution]]—_Operationalises minimalist daily capture, processing, and single-tasking._ [synthesizes:: [[How to Run Zen to Done Minimalist Execution]], confidence=high]

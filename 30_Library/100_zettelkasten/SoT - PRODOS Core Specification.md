@@ -118,7 +118,7 @@ The Thinking Stream is the "RAM" of ProdOS—a low-friction, high-throughput loo
    - **Block:** What is the exact friction preventing progress?
    - **MVA:** What is the next physical step that takes < 120 seconds?
 4. **EXIT:**
-   - Action? $\rightarrow$ Move to Todoist (see [[gtd-action-system]]).
+   - Action? $\rightarrow$ Move to Todoist (see [[SoT - GTD Action System]]).
    - Fact / Insight? $\rightarrow$ Extract into atomic `claim` (or `concept`/`evidence`/`procedure`) notes in `30_Library/100_zettelkasten/` first, then compile/transclude into an `SoT -` argument thread (`![[...]]` + `[depends_on:: [[Claim]]]` / `[synthesizes:: [[Note]]]`) via [[Prompt - ProdOS Chronos Synthesizer]], and archive the HEAD note (leave a tombstone if other notes cite it; see HEAD Note Contract §3.1).
    - Skill / Project? $\rightarrow$ Move to the Hangar (`30_Library/200_projects/`).
    - Noise? $\rightarrow$ DELETE (raw captures only; never delete a HEAD note cited as `upstream`).
@@ -159,12 +159,12 @@ The Minimal Viable Action (MVA) is the atomic unit of execution:
 
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Decoupling raw capture (Human) from task sorting (LLM/MCP, including Mode B agent orchestration)._ [synthesizes:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=high]
 - [[SoT - Execution Protocol (GTD & PARA)]]—_Harmonized PARA containers, GTD outcome projects, 5-stage workflow, and Definition of Done._ [synthesizes:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=high]
-- [[gtd-action-system]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._ [synthesizes:: [[gtd-action-system]], confidence=high]
+- [[SoT - GTD Action System]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._ [synthesizes:: [[SoT - GTD Action System]], confidence=high]
 - [[Protocol - Vague-to-Action]]—_Three-phase algorithm decomposing vague/heavy avoidance items into <120s binary MVAs._ [synthesizes:: [[Protocol - Vague-to-Action]], confidence=high]
 - [[SoT - Protocol - The Launch Sequence]]—_Situated, embodied, and distributed scaffolding to bypass task initiation paralysis._ [synthesizes:: [[SoT - Protocol - The Launch Sequence]], confidence=high]
 - [[SoT - PRODOS Black Box Protocol]]—_Open-loop post-mortems, pre-mortems, marginal gains, and checklist simplification._ [synthesizes:: [[SoT - PRODOS Black Box Protocol]], confidence=high]
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Time-blocking vs. time-boxing constraints._ [synthesizes:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
-- [[ADHD Management Protocols]]—_Dopamine menu and neurodivergent operating toolkit._ [synthesizes:: [[ADHD Management Protocols]], confidence=medium]
+- [[SoT - ADHD Management Protocols]]—_Dopamine menu and neurodivergent operating toolkit._ [synthesizes:: [[SoT - ADHD Management Protocols]], confidence=medium]
 
 ---
 

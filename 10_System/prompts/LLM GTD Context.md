@@ -35,4 +35,4 @@ Operate strictly within Leon's ADHD-adapted GTD implementation. Do not lecture o
 - **Alignment:** Use problem-first **Telos** lineage (`Problems → Mission → Goals → Challenges → Strategies → Projects`) rather than abstract GTD Horizons.
 
 ### Canonical References
-- [[SoT - PRODOS Core Specification]] · [[SoT - Execution Protocol (GTD & PARA)]] · [[gtd-action-system]] · [[Protocol - Action-First GTD (LLM Chief of Staff)]] · [[Protocol - Weekly Command Centre]]
+- [[SoT - PRODOS Core Specification]] · [[SoT - Execution Protocol (GTD & PARA)]] · [[SoT - GTD Action System]] · [[Protocol - Action-First GTD (LLM Chief of Staff)]] · [[Protocol - Weekly Command Centre]]

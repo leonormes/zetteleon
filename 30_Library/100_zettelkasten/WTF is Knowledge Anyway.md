@@ -1,14 +1,19 @@
 ---
-aliases: [21-wtf_is_knowledge_anyway]
+aliases:
+  - 21-wtf_is_knowledge_anyway
 conformant: true
 created: 2026-05-04T08:01:26+00:00
 modified: 2026-11-14T10:20:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/21-wtf-is-knowledge-anyway
 status: stable
-tags: [epistemology, knowledge, pkm, source]
+tags:
+  - epistemology
+  - knowledge
+  - pkm
+  - source
 title: WTF is Knowledge Anyway
-type: journal
+type: daily
 ---
 
 ## WTF is Knowledge Anyway

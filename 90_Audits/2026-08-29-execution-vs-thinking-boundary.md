@@ -59,7 +59,7 @@ Same correction applies to my §7 table. I scored "Daily dump / Thinking Stream"
 | What the LLM should do | Decide for you. Remove decisions from the point of performance | Refuse to decide. Provoke your thinking; if it does the linking, nothing is learned |
 | Failure mode | Task paralysis | Collector's fallacy, meta-work |
 | Closure | Close the loop. Open loops are cost | Keep loops open productively. Premature closure is the loss |
-| Governing note | [[gtd-action-system]], [[ProdOS CoS & ADHD Task-Authoring Protocol]] | [[SoT - Processing IS the Work]], [[MOC - PKM as Process vs Product]] |
+| Governing note | [[SoT - GTD Action System]], [[ProdOS CoS & ADHD Task-Authoring Protocol]] | [[SoT - Processing IS the Work]], [[MOC - PKM as Process vs Product]] |
 
 Note the friction row. These are not different emphases. They are opposite prescriptions about the same variable, both canonical, both correct in their own domain.
 

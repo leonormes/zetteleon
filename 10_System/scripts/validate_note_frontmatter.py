@@ -27,6 +27,7 @@ VALID_TYPES = {
     "claim", "concept", "evidence", "question",
     "procedure", "protocol", "map", "journal",
     "project", "sot", "link_report", "equipment", "source", "prompt", "tombstone",
+    "problem",
 }
 
 # Prodos.kind enum per §4.1
@@ -46,6 +47,7 @@ VALID_PRODOS_LIFECYCLES = {
 # out-of-enum string.
 VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded", "archived"}
 QUESTION_STATUS = VALID_STATUS | {"open", "thinking", "resolved"}
+PROBLEM_STATUS = VALID_STATUS | {"captured", "clarifying", "active-project", "mitigated", "accepted-constraint"}
 
 # Fields whose fileClass type is MultiFile at the base `Note` level (not type-specific) —
 # same "must be a list, not a bare scalar" rule as TYPE_SCHEMA_LIST_FIELDS below, just
@@ -71,6 +73,7 @@ TYPE_SCHEMAS = {
     "evidence": {"source_quote", "source_reference", "supports_claims", "confidence"},
     "question": {"tension", "candidate_answers", "related_claims"},
     "procedure": {"trigger", "steps", "verification"},
+    "problem": {"role", "status"},
 }
 
 # Schema-specific enum fields per the fileClass Select definitions (10_System/fileClasses/*.md).
@@ -78,6 +81,7 @@ TYPE_SCHEMAS = {
 # values live in Obsidian, so the script must too or it silently passes what the UI flags.
 TYPE_SCHEMA_ENUMS = {
     "claim": {"epistemic_status": {"high", "medium", "low", "unknown"}},
+    "problem": {"role": {"symptom", "root-cause", "constraint"}},
 }
 
 # Fields whose fileClass type is MultiFile — must be a list (of wikilinks), never a bare
@@ -160,6 +164,27 @@ def parse_frontmatter(content):
         return None, f"YAML parse error: {e}"
 
 
+def validate_fileclass_schema(fm, path):
+    """Validate a fileClass schema definition in 10_System/fileClasses/."""
+    errors = []
+    if "type" in fm:
+        errors.append("fileClass schema must not set top-level 'type' (would self-bind via fileClassAlias)")
+    if path.name != "Note.md" and fm.get("extends") != "Note":
+        errors.append("fileClass schema must declare 'extends: Note'")
+    fields = fm.get("fields")
+    if not isinstance(fields, list) or not fields:
+        errors.append("fileClass schema must declare a non-empty 'fields' list")
+    else:
+        for idx, f in enumerate(fields):
+            if not isinstance(f, dict):
+                errors.append(f"fields[{idx}] must be a mapping")
+                continue
+            for key in ("name", "id", "type"):
+                if not f.get(key):
+                    errors.append(f"fields[{idx}] missing required key '{key}'")
+    return errors
+
+
 def validate_note(path, relative_path, warnings_out=None):
     """Validate a single note's frontmatter. Returns list of error strings."""
     errors = []
@@ -174,6 +199,9 @@ def validate_note(path, relative_path, warnings_out=None):
         return [parse_err]
     if fm is None:
         return ["no parsable frontmatter"]
+
+    if path.parent.name == "fileClasses":
+        return validate_fileclass_schema(fm, path)
 
     if warnings_out is not None:
         warnings_out.extend(collect_tag_warnings(fm))
@@ -201,7 +229,12 @@ def validate_note(path, relative_path, warnings_out=None):
     # Validate status enum (base Note fileClass field — optional, but must be a real
     # enum value if present at all; a stray '' or literal-string 'null' is still invalid).
     status = fm.get("status")
-    allowed_status = QUESTION_STATUS if note_type == "question" else VALID_STATUS
+    if note_type == "question":
+        allowed_status = QUESTION_STATUS
+    elif note_type == "problem":
+        allowed_status = PROBLEM_STATUS
+    else:
+        allowed_status = VALID_STATUS
     if status is not None and status != "" and status not in allowed_status:
         errors.append(f"invalid 'status' value '{status}' — must be one of {sorted(allowed_status)}")
     elif status == "":
@@ -251,6 +284,13 @@ def validate_note(path, relative_path, warnings_out=None):
             if value is not None and not isinstance(value, (list, tuple)):
                 errors.append(
                     f"'{field}' must be a list for type '{note_type}', got {type(value).__name__}"
+                )
+
+        if note_type == "problem" and "impact" in fm and fm["impact"] is not None:
+            impact = fm["impact"]
+            if isinstance(impact, bool) or not isinstance(impact, (int, float)) or not (1 <= impact <= 5):
+                errors.append(
+                    f"invalid 'impact' value '{impact}' for type 'problem' — must be a number between 1 and 5"
                 )
 
     return errors

@@ -83,7 +83,7 @@ The IBNS mechanism explains and predicts (each line carries an `IBNS supports �
 
 ## Related Knowledge
 
-> `[[SoT - ADHD and Motivation]]` ("the central hub" this note used to name) was never created and has no alias anywhere. Resolved 2026-09-10: this note was reclassified from `claim` to `sot` and moved here, since two other notes ([[Executive Function Challenges are Central to ADHD]], [[The Third Urge Rule - Resilient Persistence]]) were already substituting it for that never-created title—both now point at this note's real current title directly. 26 further notes across `100_zettelkasten`, `SoT`, and `MoC` link to this note under its old title, which is preserved as an alias so those links keep resolving.
+> `[[SoT - ADHD and Motivation]]` ("the central hub" this note used to name) was never created and has no alias anywhere. Resolved 2026-09-10: this note was reclassified from `claim` to `sot` and moved here, since two other notes ([[Executive Function Challenges are Central to ADHD]], [[Protocol - Third Urge Rule (Resilient Persistence)]]) were already substituting it for that never-created title—both now point at this note's real current title directly. 26 further notes across `100_zettelkasten`, `SoT`, and `MoC` link to this note under its old title, which is preserved as an alias so those links keep resolving.
 
 - [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty|Dopamine Dysregulation is a Key Factor in ADHD Motivation]] (The fuel source)
 - [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]] (The disconnect)

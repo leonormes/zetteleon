@@ -65,7 +65,7 @@ _The mechanics of how work (and failure) happens._
 
 _Actionable scaffolding and "Algorithms" for execution._
 
-- The Master Protocols: [[ADHD Management Protocols]]—_Spatial Zoning, The Dopamine Menu, and the 15% Push protocol for the AMCC._
+- The Master Protocols: [[SoT - ADHD Management Protocols]]—_Spatial Zoning, The Dopamine Menu, and the 15% Push protocol for the AMCC._
 - The Laboratory: [[MOC - ADHD Experiments & Protocols]]—_Live testing and validation of proposed ADHD scaffolding._
 - The Initiation Loop: [[SoT - Breaking the Creation Cycle]]—_A developer-centric protocol for reloading mental models._
 - The Action System: [[SoT - Execution Protocol (GTD & PARA)]]—_Offloading the "Manager" to an external system._

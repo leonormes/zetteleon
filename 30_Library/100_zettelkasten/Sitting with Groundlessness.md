@@ -37,4 +37,4 @@ A mindfulness practice used to interrupt the automatic urge to procrastinate.
 
 ### See Also
 
-- [[ADHD Management Protocols]]
+- [[SoT - ADHD Management Protocols]]

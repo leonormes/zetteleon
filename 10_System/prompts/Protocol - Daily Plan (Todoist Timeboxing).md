@@ -26,7 +26,7 @@ version: 3
 
 ## Control plane
 
-Todoist is the source of truth for tasks and also the timeline. A time block is a Todoist task with a date, a time and a duration. The architecture is in [[gtd-action-system]].
+Todoist is the source of truth for tasks and also the timeline. A time block is a Todoist task with a date, a time and a duration. The architecture is in [[SoT - GTD Action System]].
 
 - Provisional rule: a block is transient. The CoS sets date, time and duration for today's plan and clears them at shutdown, so no due date survives overnight. This is option 1 in the time-blocking note. The existing rule that `Today` holds only hard-landscape commitments is relaxed during the day only.
 - NEVER clear or move a due date the CoS did not set itself. Tasks that were already dated by Leon, or that have a Deadline, are hard landscape and keep their dates.
@@ -36,7 +36,7 @@ Todoist is the source of truth for tasks and also the timeline. A time block is 
 
 ## Selection
 
-Labels such as `@next_action` were purged, so use location as defined in [[gtd-action-system]]:
+Labels such as `@next_action` were purged, so use location as defined in [[SoT - GTD Action System]]:
 
 - Next actions: the runway filter `!#Inbox & !#Someday & !#Waiting`.
 - Big Rocks: this week's Big Rock parent tasks, defined in [[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]]. A Todoist priority never marks a Big Rock, because p1 carries urgency and is not a signal of importance.
@@ -92,7 +92,7 @@ Soft timeboxes are not rolled forward.
 
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_Canonical distinction between macro time blocking, micro time boxing, and two-window batched shallows._ [implements:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=high]
 - [[SoT - Execution Protocol (GTD & PARA)]]—_Canonical GTD and PARA execution model that this daily planning protocol implements._ [implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=high]
-- [[gtd-action-system]]—_The four-tier architecture and flat runway this protocol schedules from._ [implements:: [[gtd-action-system]], confidence=high]
+- [[SoT - GTD Action System]]—_The four-tier architecture and flat runway this protocol schedules from._ [implements:: [[SoT - GTD Action System]], confidence=high]
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Mode B agent loop that clarifies the tasks this protocol timeboxes._ [depends_on:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=high]
 - [[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]]—_Defines Big Rocks, the weekly cap and the Monday proposal that this protocol runs._ [depends_on:: [[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]], confidence=high]
 - [[Protocol - Time Blocking in Todoist (Calendar Layout and Durations)]]—_How Todoist blocks, durations and calendar sync work, and the options this protocol chooses between._ [depends_on:: [[Protocol - Time Blocking in Todoist (Calendar Layout and Durations)]], confidence=high]

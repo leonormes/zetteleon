@@ -1,0 +1,76 @@
+# Project-Tasks
+# Self-filtering task view for embedding in Project Notes via ![[Project-Tasks.base]]
+
+filters:
+  and:
+    - file.hasTag("task")
+    - file.hasTag("archived") != true
+    - file.hasLink(this.file) && list(note.projects).map(file(value.replace(/^\[[^\]]+\]\((.*)\)$/, "$1").replace(/%20/g, " ")).asLink()).contains(this.file.asLink())
+
+formulas:
+  priorityWeight: 'if(priority=="none",0,if(priority=="low",1,if(priority=="normal",2,if(priority=="high",3,-1))))'
+  daysUntilDue: 'if((due.isEmpty() == false), ((number(date(due)) - number(today())) / 86400000).floor(), null)'
+  daysUntilScheduled: 'if((scheduled.isEmpty() == false), ((number(date(scheduled)) - number(today())) / 86400000).floor(), null)'
+  nextDate: 'if((due.isEmpty() == false) && (scheduled.isEmpty() == false), if(date(due) < date(scheduled), due, scheduled), if((due.isEmpty() == false), due, scheduled))'
+  daysUntilNext: 'if((due.isEmpty() == false) && (scheduled.isEmpty() == false), min(formula.daysUntilDue, formula.daysUntilScheduled), if((due.isEmpty() == false), formula.daysUntilDue, formula.daysUntilScheduled))'
+  urgencyScore: 'if(due.isEmpty() && scheduled.isEmpty(), formula.priorityWeight, formula.priorityWeight + max(0, 10 - if(formula.daysUntilNext, formula.daysUntilNext, 0)) + (1 - ((number(date(formula.nextDate)) - number(date(date(formula.nextDate).format("YYYY-MM-DD")))) / 86400000)))'
+  isBlocked: 'blockedBy.isEmpty() == false && list(blockedBy).filter(file(if(value.isType("object"), value.uid, value)).properties.status != "done").isEmpty() == false'
+  actionability: 'if(status == "done", "Done", if(formula.isBlocked, "Blocked", if(status == "waiting", "Waiting", if(status == "someday", "Someday", "Actionable"))))'
+
+properties:
+  note.status:
+    displayName: "Status"
+  note.priority:
+    displayName: "Priority"
+  note.due:
+    displayName: "Due"
+  note.scheduled:
+    displayName: "Scheduled"
+  note.contexts:
+    displayName: "Contexts"
+  note.blockedBy:
+    displayName: "Blocked By"
+  formula.actionability:
+    displayName: "State"
+  formula.urgencyScore:
+    displayName: "Urgency"
+
+views:
+  - type: tasknotesTaskList
+    name: "Project Tasks"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - status
+      - priority
+      - due
+      - scheduled
+      - contexts
+      - blockedBy
+      - formula.actionability
+      - file.tags
+      - recurrence
+      - complete_instances
+      - file.tasks
+    sort:
+      - property: formula.urgencyScore
+        direction: DESC
+  - type: tasknotesKanban
+    name: "Kanban"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - status
+      - priority
+      - due
+      - scheduled
+      - contexts
+      - blockedBy
+      - file.tags
+      - file.tasks
+    sort:
+      - property: tasknotes_manual_order
+        direction: DESC
+    hideEmptyColumns: true

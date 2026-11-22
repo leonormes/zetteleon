@@ -24,4 +24,4 @@ Understanding the drive for [[MOC - Novelty Seeking]] is the first step toward m
 
 - [extends:: [[Claim - Novelty-craving drives self-defeating system-hopping]]]—_Offers practical strategies to counter the system-hopping driven by novelty craving._
 - [[SoT - The Interest-Based Nervous System in ADHD]]—_Provides the foundational neurobiological context for why novelty seeking is so powerful in ADHD._
-- [[ADHD Management Protocols]]—_Offers broader protocols for structuring tasks and environments to accommodate ADHD traits._
+- [[SoT - ADHD Management Protocols]]—_Offers broader protocols for structuring tasks and environments to accommodate ADHD traits._

@@ -26,6 +26,7 @@ fields:
   - source
   - prompt
   - tombstone
+  - problem
   path: ''
 - name: tags
   id: tags
@@ -101,4 +102,4 @@ version: '1.0'
 
 Base fileClass for the vault's [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 `FrontmatterContract`—the shared universal envelope every note inherits.
 
-Not meant to be bound directly to notes; all 15 ProdOS `type` fileClasses (`claim`, `concept`, `evidence`, `question`, `procedure`, and the 10 routing classes) `extends: Note`. The optional §4 `prodos` routing object is declared only on routing classes (never on atomic classes).
+Not meant to be bound directly to notes; all 16 ProdOS `type` fileClasses (`claim`, `concept`, `evidence`, `question`, `procedure`, `problem`, and the 10 routing classes) `extends: Note`. The optional §4 `prodos` routing object is declared only on routing classes (never on atomic classes).

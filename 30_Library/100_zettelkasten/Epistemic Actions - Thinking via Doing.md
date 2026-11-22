@@ -1,23 +1,22 @@
 ---
 aliases: [Thinking by Doing]
-axiom: true
 conformant: true
 contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-14T10:01:00+00:00
+modified: 2026-11-19T12:50:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemic-actions-thinking-via-doing
 proposition: "Epistemic actions are physical actions performed to simplify cognitive computation rather than change the world, offloading internal simulation onto the fast feedback loop of the physical environment."
 status: stable
-tags: [action, cognition, psychology]
+tags: [action, TheHuman/Cognition, TheHuman/Psychology]
 title: Epistemic Actions - Thinking via Doing
 type: claim
 ---
 
 ## Epistemic Actions - Thinking via Doing
 
-Epistemic actions are physical actions performed not to alter the world (pragmatic actions), but to simplify a cognitive task. By manipulating the environment directly, the brain offloads complex internal simulations onto the fast, reliable feedback loop of the physical world—thinking by doing.
+Epistemic actions are physical actions performed not to alter the world (pragmatic actions), but to simplify a cognitive task. By manipulating the environment directly, the brain offloads complex internal simulations onto the fast, reliable feedback loop of the physical world—thinking by doing. ^claim
 
 ### Scope & Conditions
 

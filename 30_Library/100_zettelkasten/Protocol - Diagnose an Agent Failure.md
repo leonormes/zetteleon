@@ -3,10 +3,24 @@ conformant: true
 created: 2026-09-14T00:00:00+00:00
 modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/so-t/protocol-diagnose-an-agent-failure
-related: ["[[00 - Prompt Library Router]]", "[[prodos-agent-architecture-upgrade]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - Agentic AI Design Patterns]]"]
-tags: [domain/pkm, prodos/protocol, topic/agent-architecture, topic/evaluation]
+related:
+  - "[[00 - Prompt Library Router]]"
+  - "[[prodos-agent-architecture-upgrade]]"
+  - "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]"
+  - "[[SoT - Agentic AI Design Patterns]]"
+tags:
+  - domain/pkm
+  - prodos/protocol
+  - topic/agent-architecture
+  - topic/evaluation
 title: Protocol - Diagnose an Agent Failure
 type: protocol
+status: draft
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - agent-operations
 ---
 
 > Promoted 2026-09-14 from a draft persona prompt captured in `00_Inbox/how does this fit with my prodOS@LLMeon protocol?.md` (see [[prodos-agent-architecture-upgrade]]) into a real, linkable Protocol note. Use this whenever an agent's output was wrong, unsafe, incomplete, non-conformant, or otherwise unsatisfactory—before editing a prompt, a note, or a script in response to it.

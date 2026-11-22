@@ -1,17 +1,14 @@
 ---
 title: Protocol - Engage Action (Prosthetic Timebox & Somatic Switch)
-description: 'Run the CoS prosthetic executive function loop for a single 15m/30m/60m
-  timebox: Pre-Flight Task-Authoring Gate (Done means, <120s MVA, 1-15m Starter Task,
-  PINCH/Effort Pact), Environmental Containment, and Guillotine Hard Stop (#SAVESTATE
-  + Somatic Switch).'
-type: protocol
+description: "Run the CoS prosthetic executive function loop for a single 15m/30m/60m timebox: Pre-Flight Task-Authoring Gate (Done means, <120s MVA, 1-15m Starter Task, PINCH/Effort Pact), Environmental Containment, and Guillotine Hard Stop (#SAVESTATE + Somatic Switch)."
+type: prompt
 status: draft
 created: 2026-11-17 10:12:30+00:00
 modified: 2026-11-17T10:16:48+00:00
 tags:
-- agent/chief-of-staff
-- domain/prodos
-- type/protocol
+  - agent/chief-of-staff
+  - domain/prodos
+  - type/protocol
 conformant: true
 permalink: llmeon/10-system/prompts/protocol-engage-action-prosthetic-timebox-somatic-switch
 ---

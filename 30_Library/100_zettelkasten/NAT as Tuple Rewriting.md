@@ -32,7 +32,7 @@ Applies to SNAT, DNAT, and Port Address Translation (PAT) in cloud and on-premis
 
 ### Related
 
-- [[INSIGHT - Networking is data labeling not wires]]—direct concept match: framing NAT as relabelling.
+- [[Networking Is a Stack of Data Labelling Layers, Not a Web of Wires]]—direct concept match: framing NAT as relabelling.
 - [[SoT - Cloud Networking Core Components]]—shared mechanism: covers the implementation of NAT in VPC/VNet environments.
 
 ### See Also

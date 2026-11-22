@@ -1,8 +1,8 @@
 ---
 aliases:
-- Todoist Time Blocking
-- Todoist Timeboxing
-- Todoist Calendar Layout
+  - Todoist Time Blocking
+  - Todoist Timeboxing
+  - Todoist Calendar Layout
 conformant: true
 created: 2026-11-17T08:50:00+00:00
 modified: 2026-11-17T09:20:00+00:00
@@ -10,16 +10,21 @@ permalink: llmeon/30-library/100-zettelkasten/protocol-time-blocking-in-todoist-
 project_category: prodos
 status: draft
 tags:
-- gtd
-- productivity
-- protocol
-- TheHuman/Health/ADHD
+  - gtd
+  - productivity
+  - protocol
+  - TheHuman/Health/ADHD
 title: Protocol - Time Blocking in Todoist (Calendar Layout and Durations)
 type: protocol
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - task-scheduling
 ---
 
 > [!abstract] The rule in one paragraph
-> A Todoist task becomes a time block when it has a date, a time and a duration. Todoist shows those blocks in its Calendar layout next to events from a synced calendar, so Todoist can be both the task list and the timeline. This note records how that works, how the Chief of Staff (CoS) can do it through the Todoist MCP, and the one rule in [[gtd-action-system]] that it collides with.
+> A Todoist task becomes a time block when it has a date, a time and a duration. Todoist shows those blocks in its Calendar layout next to events from a synced calendar, so Todoist can be both the task list and the timeline. This note records how that works, how the Chief of Staff (CoS) can do it through the Todoist MCP, and the one rule in [[SoT - GTD Action System]] that it collides with.
 
 ## Why this note exists
 
@@ -153,7 +158,7 @@ Tool names below are as exposed through 1MCP (`mcp__1mcp__todoist_1mcp_*`).
 
 ## Where this clashes with the existing system
 
-[[gtd-action-system]] keeps the Todoist `Today` list for hard-landscape commitments only, with a morning reset and no rollover. A time block needs a due date and time, so every block puts a task on `Today`. These are the options, and Leon has not chosen one:
+[[SoT - GTD Action System]] keeps the Todoist `Today` list for hard-landscape commitments only, with a morning reset and no rollover. A time block needs a due date and time, so every block puts a task on `Today`. These are the options, and Leon has not chosen one:
 
 1. Transient blocks. The CoS sets date, time and duration for the day's plan and clears them at shutdown with `dueString: remove`, so no due date survives overnight. The `Today` list is then noisy during the day but clean each morning.
 2. Blocks on a calendar, not on Todoist. The CoS writes blocks to Fantastical and leaves Todoist due dates alone. This keeps the Todoist rule intact but needs the Fantastical MCP to work, and needs a way to link a block back to its task.
@@ -187,7 +192,7 @@ This is the draft behind [[Protocol - Daily Plan (Todoist Timeboxing)]], which a
 ## Related
 
 - [[SoT - Temporal Management (Blocking and Boxing)]]—_The timeblocking and timeboxing technique this note applies in Todoist._ [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=high]
-- [[gtd-action-system]]—_Owns the Todoist runway and the Today-list rule this note collides with._ [depends_on:: [[gtd-action-system]], confidence=high]
+- [[SoT - GTD Action System]]—_Owns the Todoist runway and the Today-list rule this note collides with._ [depends_on:: [[SoT - GTD Action System]], confidence=high]
 - [[Protocol - Daily Plan (Todoist Timeboxing)]]—_The protocol built on this evidence._ [supports:: [[Protocol - Daily Plan (Todoist Timeboxing)]], confidence=medium]
 - [[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]]—_Defines the rocks that would be scheduled first in a Todoist plan._ [supports:: [[Protocol - Big Rocks (Weekly Quadrant II Outcomes)]], confidence=medium]
 - [[Day Theming is a Macro Time Blocking Strategy]]—_The vault's existing note on theming days, which the guide treats as the strictest form of batching._ [supports:: [[Day Theming is a Macro Time Blocking Strategy]], confidence=medium]

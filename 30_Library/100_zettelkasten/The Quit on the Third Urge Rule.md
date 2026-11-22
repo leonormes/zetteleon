@@ -14,7 +14,7 @@ tags:
   - willpower
 title: The Quit on the Third Urge Rule
 type: atom
-upstream: "[[ADHD Management Protocols]]"
+upstream: "[[SoT - ADHD Management Protocols]]"
 ---
 
 ## The Quit on the Third Urge Rule
@@ -36,8 +36,8 @@ A muscle-building technique for increasing task persistence despite internal res
 
 ### Related
 
-- [[The Third Urge Rule - Resilient Persistence]]—direct concept match: provides the canonical protocol for yielding to impulses.
-- [[ADHD Management Protocols]]—shared mechanism: identifies this as a "Tenacity Rep."
+- [[Protocol - Third Urge Rule (Resilient Persistence)]]—direct concept match: provides the canonical protocol for yielding to impulses.
+- [[SoT - ADHD Management Protocols]]—shared mechanism: identifies this as a "Tenacity Rep."
 
 ### See Also
 

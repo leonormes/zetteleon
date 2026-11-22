@@ -2,15 +2,24 @@
 conformant: true
 created: 2025-02-07T12:57:56+00:00
 modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/protocol-azure-customer-preparation
 Reviewed: false
 status: evergreen
-tags: [ff_deploy]
+tags:
+  - ff_deploy
 title: Protocol - Azure Customer Preparation
 type: protocol
 updated: 2026-02-01
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - azure
+      - customer-onboarding
 ---
+
+> Trigger: preparing a customer's Azure tenant and subscription ahead of a FITFILE deployment.
 
 ## Azure Customer Preparation Checklist
 

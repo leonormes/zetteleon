@@ -108,7 +108,7 @@ This SoT defines the vocabulary, project/container boundaries, and Definition of
 
 - [[SoT - PRODOS Core Specification]]—_Kernel rules and axioms implemented by this execution protocol._ [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
 - [[SoT - Prosthetic Executive Function]]—_Design principle of externalising project and task structure._ [depends_on:: [[SoT - Prosthetic Executive Function]], confidence=high]
-- [[gtd-action-system]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._
+- [[SoT - GTD Action System]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Automated and manual dump clarification and triage engine._
 - [[Protocol - Weekly Command Centre]]—_The 10-minute Friday 16:30 reset protocol executing the Reflect stage._ [supports:: [[Protocol - Weekly Command Centre]], confidence=high]
 - [[Protocol - Vague-to-Action]]—_Decomposition protocol for heavy tasks avoiding the Clarify stage._ [supports:: [[Protocol - Vague-to-Action]], confidence=high]

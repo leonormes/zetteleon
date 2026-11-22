@@ -1,8 +1,8 @@
 ---
 aliases:
-- Big Rocks
-- Weekly Big Rocks
-- Big Rock Proposal
+  - Big Rocks
+  - Weekly Big Rocks
+  - Big Rock Proposal
 conformant: true
 created: 2026-11-16T13:00:00+00:00
 modified: 2026-11-17T10:16:40+00:00
@@ -10,13 +10,20 @@ permalink: llmeon/30-library/100-zettelkasten/protocol-big-rocks-weekly-quadrant
 project_category: prodos
 status: draft
 tags:
-- gtd
-- productivity
-- protocol
-- TheHuman/Health/ADHD
+  - gtd
+  - productivity
+  - protocol
+  - TheHuman/Health/ADHD
 title: Protocol - Big Rocks (Weekly Quadrant II Outcomes)
 type: protocol
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - weekly-planning
 ---
+
+> Trigger: the first working day of the week, when the Chief of Staff proposes the week's Big Rocks.
 
 > [!abstract] The rule in one paragraph
 > A Big Rock is one finishable outcome for the week that matters but is not yet urgent. Leon never has to hold the list in his head or invent it: the Chief of Staff (CoS) proposes up to three on the first working day of the week, Leon answers accept, swap or reject, and the rock then lives in Todoist as a parent task whose subtasks `/daily-plan` schedules first.
@@ -27,7 +34,7 @@ A Big Rock is a weekly Quadrant II (Important, Not Urgent) outcome aligned to a 
 
 - A Big Rock is an outcome, not a task. It is phrased as a finishable state ("Draft of the FTFL-xxx design reviewed"), and one or more Todoist next actions move it forward.
 - Todoist priority does not mark a Big Rock. Priority carries urgency, so p1 mostly picks out Quadrant I and III work.
-- Anything urgent and important is not a Big Rock. Handle it as a hard-landscape commitment ([[gtd-action-system]]).
+- Anything urgent and important is not a Big Rock. Handle it as a hard-landscape commitment ([[SoT - GTD Action System]]).
 
 ## Cap
 
@@ -38,7 +45,7 @@ At most 3 Big Rocks per week. Trigger the reduced cap of 1–2 Big Rocks determi
 Leon is not asked to think up Big Rocks. [[SoT - Prosthetic Executive Function]] explains why: choosing from nothing is the step where executive function is weakest.
 
 - Trigger: `/daily-plan` runs on Monday or the first working day of the week, and there are no Big Rock parent tasks in Todoist for the week.
-- Inputs the CoS reads: active vault projects (`project_status: active` in `30_Library/200_Projects/`), Horizons of Focus as recorded in [[gtd-action-system]], Jira tickets assigned to Leon, the Todoist runway, and `[[MOC - ADHD Experiments & Protocols]]` plus any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`).
+- Inputs the CoS reads: active vault projects (`project_status: active` in `30_Library/200_Projects/`), Horizons of Focus as recorded in [[SoT - GTD Action System]], Jira tickets assigned to Leon, the Todoist runway, and `[[MOC - ADHD Experiments & Protocols]]` plus any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`).
 - Experiment alignment (scientific loop): Review/update the active experiment's evidence from last week (or promote the next candidate from `[[MOC - ADHD Experiments & Protocols]]` if settled via `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]`), and frame this week's Big Rock execution as a controlled test of that hypothesis rather than ad-hoc "whatever feels best".
 - Output: up to 3 candidates, each with an outcome in finishable wording, the source it came from, and a time estimate in minutes.
 - Decision: a binary choice per candidate, which is accept, swap (name a replacement) or reject. Nothing is created until Leon answers.

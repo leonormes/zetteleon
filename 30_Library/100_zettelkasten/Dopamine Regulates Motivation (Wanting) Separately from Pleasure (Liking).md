@@ -25,6 +25,8 @@ Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—why c
 
 [supports:: [[The Interest-Based Nervous System in ADHD]]]
 
+[supports:: [[External Systems Keep Desire Active]], strength=4, confidence=high]
+
 ### Related
 
 - [[Flow State is a State of Optimal Dopamine Stimulation]]—_dopamine in sustained engagement._

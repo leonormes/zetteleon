@@ -78,7 +78,7 @@ You also hold the honest hedge yourself: [[ADHD Task Initiation is Not Universal
 
 | Document | Created | Role |
 |---|---|---|
-| [[gtd-action-system]] | 2026-06-02 | The GTD architecture—four tiers, flat runway, metadata minimalism |
+| [[SoT - GTD Action System]] | 2026-06-02 | The GTD architecture—four tiers, flat runway, metadata minimalism |
 | [[SoT - Execution Protocol (GTD & PARA)]] | 2026-01-08 | PARA/GTD harmonisation, Definition of Done |
 | [[Protocol - Action-First GTD (LLM Chief of Staff)]] | 2026-02-11 | "Dump, Don't Organize"—human generates, LLM organises |
 | [[Protocol - Weekly Command Centre]] | 2025-12-20 | The system reset ritual. Status: `stable` |
@@ -129,7 +129,7 @@ Timing matters: the protocol was consolidated 2026-08-26 at 07:16. These tasks w
 
 ### 3.4 Duplicate Generation
 
-FTFL-938 appeared three times (completed 25th, 26th, 27th). FTFL-903 three times (24th ×2, 25th). This violates [[gtd-action-system]] Part 1: _"At most one open Todoist task per active ticket."_
+FTFL-938 appeared three times (completed 25th, 26th, 27th). FTFL-903 three times (24th ×2, 25th). This violates [[SoT - GTD Action System]] Part 1: _"At most one open Todoist task per active ticket."_
 
 ### 3.5 The Contrast case—what Working Looks like
 
@@ -182,10 +182,10 @@ You diagnosed it yourself, in the one place you still write, on one of the two d
 | # | Divergence | Evidence | Severity |
 |---|---|---|---|
 | 1 | The atomic unit of action is defined four incompatible ways—<120s MVA ([[SoT - ProdOS Thinking Stream]], [[SoT - PRODOS Core Specification]] §3.2); 5–15 min ([[The Three Rules of Starter Tasks]]); ≤15m CoS starter task; 75-minute Deep Dive block ([[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]])—plus GTD's 2-minute rule | Four SoT-tier notes | High—the system cannot state what "a task" is |
-| 2 | "At most one open Todoist task per active ticket" vs CoS duplicate generation | [[gtd-action-system]] Pt 1 vs §3.4 above | High, live |
-| 3 | "Never let an item live on the runway unless it starts with a physical, high-momentum verb… _Plan / Sort out / Have a look at_ = an unclarified project wearing a task's clothes" vs _"Check status of X—re-assess next steps"_ | [[gtd-action-system]] Golden Rule vs §3.3 | High |
-| 4 | Todoist Inbox is capture-only—"You are not permitted to work from it"—vs CoS pushing `⚠ unclarified Source: The New Stack` into the Work runway | [[gtd-action-system]] Pt 2 §3 | Medium |
-| 5 | Metadata minimalism / flatten the runway vs six-field descriptions + `cos-sweep` label + priorities + timeboxes | [[gtd-action-system]] Pt 2 §4–5 | Low-medium—probably reconcilable (description ≠ label), but unreconciled in writing |
+| 2 | "At most one open Todoist task per active ticket" vs CoS duplicate generation | [[SoT - GTD Action System]] Pt 1 vs §3.4 above | High, live |
+| 3 | "Never let an item live on the runway unless it starts with a physical, high-momentum verb… _Plan / Sort out / Have a look at_ = an unclarified project wearing a task's clothes" vs _"Check status of X—re-assess next steps"_ | [[SoT - GTD Action System]] Golden Rule vs §3.3 | High |
+| 4 | Todoist Inbox is capture-only—"You are not permitted to work from it"—vs CoS pushing `⚠ unclarified Source: The New Stack` into the Work runway | [[SoT - GTD Action System]] Pt 2 §3 | Medium |
+| 5 | Metadata minimalism / flatten the runway vs six-field descriptions + `cos-sweep` label + priorities + timeboxes | [[SoT - GTD Action System]] Pt 2 §4–5 | Low-medium—probably reconcilable (description ≠ label), but unreconciled in writing |
 | 6 | The weekly review is named the keystone habit in three documents, has a complete protocol at `status: stable` since 2025-12-20, and has never run | 0 mentions across all journals; no recurring review task exists in Todoist (only bins, Monoro, Fluox) | Critical |
 | 7 | The role split has silently inverted. [[SoT - PRODOS Core Specification]] §1.1: _"the human as the Problem Definer and the system as the Executor."_ The CoS now defines the problems—it generates the tasks—and you execute or dismiss. Nothing in the corpus records this inversion. | Core Spec vs CoS §5 pipeline | High—this is §8's offloading risk, already realised |
 
@@ -229,7 +229,7 @@ Judged against your own criterion in [[SoT - Prosthetic Executive Function]]: _"
 | Component | Type | Verdict |
 |---|---|---|
 | `cos-sweep` pipeline + cron | One-time choice (scripted) | ✅ True prosthetic |
-| Todoist architecture—7 projects, 9 labels | One-time choice | ✅ True prosthetic—verified live and exactly as specified in [[gtd-action-system]] Pt 4 |
+| Todoist architecture—7 projects, 9 labels | One-time choice | ✅ True prosthetic—verified live and exactly as specified in [[SoT - GTD Action System]] Pt 4 |
 | Six-field task _authoring_ | One-time choice (scripted) | ✅ Prosthetic for the artefact |
 | Drydock git-hygiene detection | One-time choice | ✅ Working—the 28 Aug tasks carried full descriptions and were completed ~2h after creation |
 | "On Stop" capture | Recurring human effort | ❌ 0 / 6 tasks that had the field |

@@ -22,14 +22,14 @@ type: link_report
 
 | Atom | Links | Strongest Connection |
 |------|-------|---------------------|
-| [[Networking as Label Transformation]] | 3 | [[INSIGHT - Networking is data labeling not wires]]—upstream |
+| [[Networking as Label Transformation]] | 3 | [[Networking Is a Stack of Data Labelling Layers, Not a Web of Wires]]—upstream |
 | [[Host Response Logic]] | 3 | [[SoT - Linux Networking Primitives]]—upstream |
-| [[NAT as Tuple Rewriting]] | 3 | [[INSIGHT - Networking is data labeling not wires]]—shared mechanism |
+| [[NAT as Tuple Rewriting]] | 3 | [[Networking Is a Stack of Data Labelling Layers, Not a Web of Wires]]—shared mechanism |
 | [[DNS as Path Steering]] | 3 | [[SoT - DNS Core Components and Environments]]—upstream |
 | [[Custom Port End-to-End Consistency]] | 2 | [[SoT - External Ingress & SSL Architecture]]—upstream |
 | [[Connectivity Specificity]] | 2 | [[SoT - Network Security Architecture]]—upstream |
 | [[Stateful Firewall Flow Observation]] | 2 | [[SoT - Network Security Architecture]]—upstream |
-| [[Hop-by-Hop Label Inspection]] | 2 | [[INSIGHT - Networking is data labeling not wires]]—upstream |
+| [[Hop-by-Hop Label Inspection]] | 2 | [[Networking Is a Stack of Data Labelling Layers, Not a Web of Wires]]—upstream |
 
 ### Orphan Atoms (No Links fOund)
 

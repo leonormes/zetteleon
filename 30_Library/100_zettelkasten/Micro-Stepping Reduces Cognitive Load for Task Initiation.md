@@ -48,7 +48,7 @@ Expected outcome: about 80% of micro-actions convert into continued work (the mo
 
 [implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]
 
-[supports:: [[ADHD Management Protocols]]]
+[supports:: [[SoT - ADHD Management Protocols]]]
 
 ## Tensions
 
@@ -57,7 +57,7 @@ Expected outcome: about 80% of micro-actions convert into continued work (the mo
 
 ## Related
 
-- [[ADHD Management Protocols]]—_Section 3.4, The Breadcrumb Method, realises this claim; that SoT carries the typed `implements` edge._
+- [[SoT - ADHD Management Protocols]]—_Section 3.4, The Breadcrumb Method, realises this claim; that SoT carries the typed `implements` edge._
 - [[The Three Rules of Starter Tasks]]—_Sizes the smallest step: 5 to 15 minutes, simple, physical, only there to build momentum._
 - [[The 5-Minute Action Overcomes Initiation Barriers]]—_A time-boxed form of the same move: commit to five minutes, not to finishing._
 - [[Limbic Friction is the Activation Energy for Habits]]—_The vault's term for the "activation cost" that micro-stepping lowers, with its anxiety and tiredness sources._

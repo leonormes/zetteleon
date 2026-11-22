@@ -14,7 +14,7 @@ tags:
   - productivity
 title: Minimum Viable Experiment (MVE)
 type: atom
-upstream: "[[ADHD Management Protocols]]"
+upstream: "[[SoT - ADHD Management Protocols]]"
 ---
 
 ## Minimum Viable Experiment (MVE)
@@ -37,7 +37,7 @@ Used to initiate new habits or overcome significant task inertia by making the f
 ### Related
 
 - [[Effective Systems are Built From Tiny Initial Actions]]—shared mechanism: both advocate for starting at a near-invisible scale.
-- [[ADHD Management Protocols]]—direct concept match: defined as the "Starter Task" or "120-Second Commitment."
+- [[SoT - ADHD Management Protocols]]—direct concept match: defined as the "Starter Task" or "120-Second Commitment."
 
 ### See Also
 

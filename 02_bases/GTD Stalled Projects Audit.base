@@ -1,0 +1,71 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("30_Library/200_Projects")
+    - or:
+        - prodos.lifecycle == "active"
+        - project_status == "active"
+        - status == "active"
+    - status != "archived"
+    - project_status != "archived"
+formulas:
+  openTaskCount: file.backlinks.map(if(value.isType("file"), value, value.asFile())).filter(value.hasTag("task") && value.hasTag("archived") != true && value.properties.status != "done").length
+  nextActionCount: file.backlinks.map(if(value.isType("file"), value, value.asFile())).filter(value.hasTag("task") && value.hasTag("archived") != true && (value.properties.status == "open" || value.properties.status == "next")).length
+  waitingCount: file.backlinks.map(if(value.isType("file"), value, value.asFile())).filter(value.hasTag("task") && value.hasTag("archived") != true && value.properties.status == "waiting").length
+  daysSinceTouch: (now() - file.mtime).days.round(0)
+  healthStatus: if(formula.openTaskCount == 0, "🚨 STALLED (0 open tasks)", if(formula.nextActionCount == 0 && formula.waitingCount > 0, "⏳ Waiting Only", "✅ Active"))
+properties:
+  note.type:
+    displayName: Type
+  note.status:
+    displayName: Doc Status
+  note.project_status:
+    displayName: Project Status
+  note.prodos.lifecycle:
+    displayName: Lifecycle
+  formula.openTaskCount:
+    displayName: Open Tasks
+  formula.nextActionCount:
+    displayName: Next Actions
+  formula.waitingCount:
+    displayName: Waiting
+  formula.daysSinceTouch:
+    displayName: Days Since Touch
+  formula.healthStatus:
+    displayName: GTD Health
+views:
+  - type: table
+    name: Stalled Projects
+    filters:
+      and:
+        - formula.openTaskCount == 0
+    order:
+      - file.name
+      - formula.healthStatus
+      - formula.openTaskCount
+      - formula.daysSinceTouch
+      - type
+      - project_status
+      - prodos.lifecycle
+      - status
+    sort:
+      - property: formula.daysSinceTouch
+        direction: DESC
+  - type: table
+    name: All Active Projects
+    order:
+      - file.name
+      - formula.healthStatus
+      - formula.openTaskCount
+      - formula.nextActionCount
+      - formula.waitingCount
+      - formula.daysSinceTouch
+      - type
+      - project_status
+      - prodos.lifecycle
+      - status
+    sort:
+      - property: formula.openTaskCount
+        direction: ASC
+      - property: formula.daysSinceTouch
+        direction: DESC

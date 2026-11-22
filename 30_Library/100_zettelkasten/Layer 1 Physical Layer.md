@@ -25,7 +25,7 @@ The Physical Layer transmits raw bit streams over a physical medium. It deals wi
 - [[Layer 7 Application Layer]]—_the layer furthest from this one in the stack; same OSI-layer concept-stub family._
 - [[Layer 7 Protocol Elements in Node.js]]—_a worked Layer 7 example from the same stub batch; also ends on the same unresolved `[[OSI model]]` reference as this note._
 - [[An Example of a Tcp Packet With All Layers]]—_walks a real packet through all seven layers, naming this one explicitly as "Bits/signals on wire."_
-- [[INSIGHT - Networking is data labeling not wires]]—_names this exact layer as the one point where the message actually becomes signals (photons, electrons, radio waves) rather than a label._
+- [[Networking Is a Stack of Data Labelling Layers, Not a Web of Wires]]—_names this exact layer as the one point where the message actually becomes signals (photons, electrons, radio waves) rather than a label._
 - [[MOC - Networking]]—_the vault's networking hub; this stub wasn't linked from it before this refresh._
 
 ## See Also

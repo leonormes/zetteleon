@@ -36,4 +36,4 @@ updated: null
 ### Practical Applications
 
 - [[Reframing Language from Obligation to Purpose Boosts ADHD Task Initiation]]—_Hypothesis: rewriting "have to" tasks as user stories lowers initiation resistance._
-- [[ADHD Management Protocols]]—_Practice layer of the ADHD cluster; replaces the broken "Core Principles" link (inferred)._
+- [[SoT - ADHD Management Protocols]]—_Practice layer of the ADHD cluster; replaces the broken "Core Principles" link (inferred)._

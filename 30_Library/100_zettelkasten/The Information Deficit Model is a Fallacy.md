@@ -5,19 +5,19 @@ contradicts: []
 created: 2025-11-10T17:03:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-13T12:00:00+00:00
-non_conformance_reason: ""
+modified: 2026-11-19T12:01:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 proposition: "Providing people with more facts or explanations does not reliably change their behaviour because information alone does not bridge the intention-action gap."
 see_also: ["[[MOC - Relational Dynamics & Family (Triage)]]", "[[MOC - Family & Finance]]", "[[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]"]
-tags: [behavior-change, communication, fallacy, family, TheHuman/Psychology]
+status: stable
+tags: [behavior-change, communication, fallacy, TheHuman/Family, TheHuman/Psychology]
 title: The Information Deficit Model is a Fallacy
 type: claim
 ---
 
 ## The Information Deficit Model is a Fallacy
 
-The "information deficit model"—the assumption that providing people with more facts or clearer explanations will cause them to change their behaviour—is a consistently debunked fallacy. While information is necessary, it does not bridge the intention-action gap; interventions that redesign context, environmental cues, friction, and shared systems outperform repeated explanation.
+The "information deficit model"—the assumption that providing people with more facts or clearer explanations will cause them to change their behaviour—is a consistently debunked fallacy. While information is necessary, it does not bridge the intention-action gap; interventions that redesign context, environmental cues, friction, and shared systems outperform repeated explanation. ^claim
 
 ### Scope & Conditions
 

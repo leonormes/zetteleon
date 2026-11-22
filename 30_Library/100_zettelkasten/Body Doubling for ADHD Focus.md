@@ -64,7 +64,7 @@ Body doubling provides external accountability and anchors the ADHD brain.
 
 ## Related
 
-- [[ADHD Management Protocols]] _Identifies body doubling as the 'Hive Switch' tactic that leverages the Observer Effect to override internal resistance; §3.3 notes the live co-presence form and this self-recording form as two variants of the same mechanism, not the same protocol._
+- [[SoT - ADHD Management Protocols]] _Identifies body doubling as the 'Hive Switch' tactic that leverages the Observer Effect to override internal resistance; §3.3 notes the live co-presence form and this self-recording form as two variants of the same mechanism, not the same protocol._
 - [[MOC - ADHD (The Master Map)]] _The primary navigation hub for ADHD strategies, placing body doubling within the broader tactical scaffolding._
 - [[External Accountability Sustains ADHD Project Commitment]] _Explores how social stakes and commitment loops maintain long-term project engagement for neurodivergent minds._
 - [[SoT - Prosthetic Executive Function]] _The general mechanism this note specialises: externalising the boundary that internal executive function fails to hold—here the boundary is the recording/"on air" rule rather than a timer._

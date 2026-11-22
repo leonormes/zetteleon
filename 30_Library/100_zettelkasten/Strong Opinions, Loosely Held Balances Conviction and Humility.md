@@ -18,7 +18,7 @@ type: claim
 
 ## 'Strong Opinions, Loosely Held' Balances Conviction and Humility
 
-Summary: A decision posture that enables decisive action without dogmatism—commit fully to the best option available now, while keeping identity separate from the opinion so new evidence can prompt rapid revision.
+Summary: A decision posture that enables decisive action without dogmatism—commit fully to the best option available now, while keeping identity separate from the opinion so new evidence can prompt rapid revision. ^claim
 
 Details: To be effective, one must make decisive choices based on the best available information ("strong opinions"). This allows for confident action. Simultaneously, one must acknowledge one's own biases and limitations, remaining ready to update when new evidence emerges ("loosely held"). This decouples identity from being right, reframing a change of mind as a success of the learning process rather than a personal failure. The stance produces both momentum and adaptability in complex environments—the two properties that usually trade off against each other.
 

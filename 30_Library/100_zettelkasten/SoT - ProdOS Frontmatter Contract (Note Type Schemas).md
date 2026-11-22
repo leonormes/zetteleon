@@ -50,12 +50,12 @@ Any agent touching frontmatter MUST produce a valid `FrontmatterContract`, the s
 | Field | Required | Type | Rule |
 |:------|:---------|:-----|:-----|
 | `title` | Yes | string | Matches the filename without `.md`. |
-| `type` | Yes | string | One of the 15 values below. Lowercase. |
+| `type` | Yes | string | One of the 16 values below. Lowercase. |
 | `tags` | Yes | list | Non-empty. Prefer hierarchical tags; use canonical interest/domain tags from [[SoT - Canonical Interest Tags]] when applicable. |
 | `conformant` | Yes | boolean | `false` if the note cannot be cleanly typed. Never `true` unless fully valid. |
 | `non_conformance_reason` | Conditional | string | Required if `conformant: false`. Omit or leave empty when `true`. |
 | `created`, `modified` | Yes on atomic notes | ISO 8601 | Never write `updated` or `creation_date`. |
-| `status` | No | string | `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`. Meanings and promotion criteria: [[Note Status Lifecycle]]. |
+| `status` | No | string | `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`, `archived`. Questions also allow `open`, `thinking`, `resolved`; problems also allow the §3.6 values. Meanings and promotion criteria: [[Note Status Lifecycle]]. |
 | `supersedes` | No | list of wikilinks | Older note(s) this one replaces. Set on the surviving note. |
 | `superseded_by` | Conditional | list of wikilinks | Required if `status: superseded`. |
 | `aliases` | No | list | Alternative names. |
@@ -63,7 +63,7 @@ Any agent touching frontmatter MUST produce a valid `FrontmatterContract`, the s
 | `project_name`, `project_category` | No | string | Parent project context, for example `prodos`, `devops`, `personal`. |
 | `own_words` | No | boolean | Marks a protected note. See below. |
 
-`type` values: `claim`, `concept`, `evidence`, `question`, `procedure` (the five knowledge nodes, §3) and `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone` (routing types, envelope only).
+`type` values: `claim`, `concept`, `evidence`, `question`, `procedure` (the five knowledge nodes, §3) and `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone` (routing types, envelope only), plus `problem` (§3.6).
 
 Routing types:
 
@@ -129,6 +129,15 @@ Each knowledge-node type has its own schema and fileClass. The body, title, link
 - `trigger`: When the procedure is invoked.
 - `steps`: Ordered, physical, verb-first steps.
 - `verification`: How you know it worked.
+
+### 3.6 ProblemNote
+
+Added 2026-11-22. A Clarity Framework problem node, tracked before it is promoted to a project. Not a knowledge node, so it sits outside the five above. Its fileClass is `10_System/fileClasses/problem.md`.
+
+- `type`: `problem`
+- `role`: `symptom`, `root-cause` or `constraint`.
+- `status`: the shared §2 values, or `captured`, `clarifying`, `active-project`, `mitigated`, `accepted-constraint`.
+- `impact`: Number from 1 to 5. Validated as numeric, not a string.
 
 ---
 
@@ -245,6 +254,7 @@ Known defects:
 
 ## Change Log
 
+- 2026-11-22: `problem` added to the `type` enum (now 16) with §3.6 schema, and `archived` documented in `status`, to match `validate_note_frontmatter.py` and the new fileClass.
 - 2026-10-26: review against the live scripts. Removed the false `supersedes` link to the TAC SoT, the unbuilt allowlist and the `pydantic` and `dry_run` claims. Documented `own_words` and the 15-value `type` enum. Rewrote §6 and §7 so atomic notes carry no `prodos`. Updated §8 for the Hermes split. Added `source`, `prompt` and `tombstone` to `validate_note_shape.py` so it matches the enum.
 - 2026-10-16: `prompt` added to the `type` enum.
 - 2026-09-26: `source` added to the enum. `prodos` dropped for atomic notes.

@@ -50,7 +50,7 @@ Software has an inherent amount of complexity dictated by its problem domain tha
 
 ### Tensions
 
-- [[A Conservation Claim Becomes Unfalsifiable If Essential Complexity Is Defined Post-Hoc]]—tension, not contradiction: if "essential" means whatever survived simplification, the law is true by definition. The scope above only holds as a testable claim if essential complexity is estimated independently of the representation.
+- [[Conservation of Complexity Is Testable Only If Essential Complexity Is Measured Before the Design Is Chosen]]—tension, not contradiction: if "essential" means whatever survived simplification, the law is true by definition. The scope above only holds as a testable claim if essential complexity is estimated independently of the representation.
 - [[Radical Simplicity - The Don't Make Me Think Rule]]—tension, not contradiction: that note targets the user-facing friction surface, this one targets where the total complexity ends up. Hiding complexity from the user is compatible with it persisting elsewhere.
 
 ### See Also

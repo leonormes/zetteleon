@@ -102,7 +102,7 @@ The goal is not to detect surface disagreement but to decide whether it is a gen
 | Rules or examples | [[Prompt Architecture Levels]] against [[SoT - Context Engineering]] | Open question, no empirical evidence |
 | Who counts as the shared moral community | [[Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It]] against [[The Tragedy of Commonsense Morality]] | Tension: community scoped to the tribe or to humanity |
 | A definition with a counterexample | [[Gettier Problems Challenge the Traditional Definition of Knowledge]] against [[The Traditional Definition of Knowledge is Justified True Belief]] | Genuine contradiction: shared assumption violated |
-| An ADHD system design pattern | [[ADHD Management Protocols]] against [[ADHD Systems Fail When They Become Monotonous]] | Genuine contradiction: incompatible design philosophies |
+| An ADHD system design pattern | [[SoT - ADHD Management Protocols]] against [[ADHD Systems Fail When They Become Monotonous]] | Genuine contradiction: incompatible design philosophies |
 
 1. Escalate if unsure (Hard Rule 4).
 

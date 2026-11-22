@@ -1,16 +1,32 @@
 ---
-aliases: [Azure Jumpbox Preflight Check, Customer One-Pager, run_me_first.sh Guide]
+aliases:
+  - Azure Jumpbox Preflight Check
+  - Customer One-Pager
+  - run_me_first.sh Guide
 conformant: true
 created: 2025-12-09T11:21:13+00:00
 modified: 2026-10-22T15:11:12+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/protocol-azure-jumpbox-preflight
 Reviewed: true
 status: evergreen
-tags: [azure, bastion, ff_deploy, protocol, ssh]
+tags:
+  - azure
+  - bastion
+  - ff_deploy
+  - protocol
+  - ssh
 title: Protocol - Azure Jumpbox Preflight
 type: protocol
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - azure
+      - customer-onboarding
 ---
+
+> Trigger: before FITFILE deploys into a customer's Azure subscription.
 
 Goal:
 

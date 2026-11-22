@@ -18,7 +18,7 @@ type: claim
 
 ## Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels
 
-Summary: Probabilistic thinking replaces binary judgments with graded confidence levels, enabling flexibility while preventing paralysis.
+Summary: Probabilistic thinking replaces binary judgments with graded confidence levels, enabling flexibility while preventing paralysis. ^claim
 
 Details: Probabilistic thinking replaces binary judgments with graded confidence levels. Instead of asking whether something is true, you estimate how likely it is and act proportionally to your confidence and the stakes. Attaching numbers, even rough ones, exposes hidden assumptions, clarifies disagreements, and makes updates visible over time. This habit preserves flexibility while preventing paralysis in uncertainty.
 

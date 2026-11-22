@@ -4,15 +4,22 @@ created: 2026-11-13 12:11:00+00:00
 modified: 2026-11-13 12:11:00+00:00
 status: stable
 tags:
-- communication
-- family
-- governance
-- onboarding
-- protocol
+  - communication
+  - family
+  - governance
+  - onboarding
+  - protocol
 title: Protocol - Co-Admin Onboarding (Zofja)
 type: protocol
 permalink: llmeon/30-library/100-zettelkasten/protocol-co-admin-onboarding-zofja
+prodos:
+  kind: protocol
+  protocol:
+    applies_to:
+      - family-governance
 ---
+
+> Trigger: onboarding Zofja as co-administrator of the household system.
 
 ## Minimum Viable Understanding (MVU)
 

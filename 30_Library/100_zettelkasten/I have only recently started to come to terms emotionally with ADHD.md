@@ -2,13 +2,14 @@
 aliases: []
 conformant: true
 created: 2025-05-18T09:46:26+00:00
-last_reviewed: ''
+last_reviewed: ""
 modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-only-recently-started-to-come-to-terms-emotionally-with-adhd
 status: seed
-tags: [TheHuman/Health/ADHD]
+tags:
+  - TheHuman/Health/ADHD
 title: I have only recently started to come to terms emotionally with ADHD
-type: journal
+type: daily
 ---
 
 [[I have a lot of shame about my life]]
