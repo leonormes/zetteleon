@@ -129,8 +129,6 @@ Moving beyond passwords to cryptographic proof of possession.
 
 - [[OAuth 2.0]] - _Atomic note for the authorisation framework summarised in section 2A._ [synthesizes:: [[OAuth 2.0]]]
 - [[OpenID Connect (OIDC)]] - _Atomic note for the identity layer summarised in section 2B._ [synthesizes:: [[OpenID Connect (OIDC)]]]
-- [[JSON Web Tokens (JWT)]] - _Atomic note for the token format behind ID tokens and JWT assertions._ [synthesizes:: [[JSON Web Tokens (JWT)]]]
-- [[Phishing-Resistant MFA]] - _Atomic note for the FIDO2 and passkey guidance in sections 5 and 6._ [synthesizes:: [[Phishing-Resistant MFA]]]
 - [[SoT - Zero Trust Architecture]] - _The wider architecture that the mTLS section applies._
 - [[Workload Identity Governance]] - _Governance for the workload identities covered in the M2M and cloud-native sections._
 - [[SoT - Microsoft Entra Identity]] - _A concrete authorisation server and managed identity provider._

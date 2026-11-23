@@ -49,8 +49,6 @@ Applies to systems where components may exhibit arbitrary behaviour rather than 
 
 [supports:: [[SoT - Abstracting Concurrent Systems]], confidence=medium]
 
-[depends_on:: [[Encryption vs Digital Signatures - Confidentiality vs Authenticity]], confidence=high]
-
 - [[SoT - Abstracting Concurrent Systems]]—_home SoT: its section 3.1 (Byzantine-Resistant Authorization) applies the same quorum arithmetic (n > 3f) to authorisation, and this note is the evidence behind that threshold._
 - [[Encryption vs Digital Signatures - Confidentiality vs Authenticity]]—_the 2n + 1 reduction only holds if signatures really provide unforgeable authenticity; without that the count reverts to 3n + 1._
 

@@ -36,7 +36,7 @@ The Framework is structured around six concurrent and continuous functions that 
 While all functions are necessary, the Protect function is often considered the most critical for proactive security.
 
 - The Heuristic: "If you think you know something but don't write it down, you only think you know it." Similarly, if you aren't protecting your network at the data layer, your detection and response are merely damage control.
-- Core Strategy: Focus heavily on data and system protections (Least Privilege, MFA, Isolation) to minimize the probability of a breach ever succeeding. [synthesizes:: [[Phishing-Resistant MFA]]]
+- Core Strategy: Focus heavily on data and system protections (Least Privilege, MFA, Isolation) to minimize the probability of a breach ever succeeding.
 
 ---
 
@@ -54,8 +54,6 @@ The framework defines four Tiers to describe the degree of maturity in an organi
 ## 4. Implementation Strategies
 
 The NIST CSF is designed to be mapped to specific technical controls. Modern approaches like Microsegmentation and Zero Trust are uniquely positioned to operationalize all six functions.
-
-- See: [[Protocol - NIST CSF Implementation via Microsegmentation]] [depends_on:: [[Protocol - NIST CSF Implementation via Microsegmentation]]]
 
 ---
 

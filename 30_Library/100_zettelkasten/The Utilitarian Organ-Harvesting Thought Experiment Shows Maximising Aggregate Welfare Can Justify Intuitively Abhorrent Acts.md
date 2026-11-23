@@ -35,5 +35,4 @@ A well-known objection within moral philosophy, not a knockdown refutation—mod
 
 ### Related
 
-- [[Ethical Intuitionism Reasons From Uncontroversial Concrete Cases to Controversial Ones, Not From Abstract Theory Downward]] [supports:: [[Ethical Intuitionism Reasons From Uncontroversial Concrete Cases to Controversial Ones, Not From Abstract Theory Downward]]]—supports: this thought experiment is a concrete case of the absurd consequences the intuitionist method says abstract theory can force, and its central weapon against utilitarianism.
 - [[SoT - Peter Singer's Famine, Affluence, and Morality]]—_A utilitarian-based argument of the kind this objection targets; read it to see the aggregate-welfare reasoning being criticised._

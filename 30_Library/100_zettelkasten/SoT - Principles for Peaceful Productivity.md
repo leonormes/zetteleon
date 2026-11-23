@@ -37,8 +37,6 @@ The principles are numbered but not ordered: none depends on another. They are i
 
 Establish a "sacred" first hour upon waking. Avoid all external inputs (notifications, emails, news) to prevent premature cortisol and dopamine spikes that derail proactive focus.
 
-[depends_on:: [[Physical Device Separation Reduces the Neurological Urge to Check Notifications]], strength=4, confidence=high]
-
 [implements:: [[Cognitive Firewalls]], strength=4, confidence=high]
 
 <!--content-block-end-->

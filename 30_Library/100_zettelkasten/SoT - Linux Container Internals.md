@@ -139,8 +139,6 @@ IPC isolation—a private set of System V IPC objects and POSIX message queues (
 
 [synthesizes:: namespace-isolation]
 
-[synthesizes:: namespace-integration]
-
 System isolation—the emergent, container-grade isolation produced by coordinating every namespace type together with cgroups and union filesystems (§1, "a process with a restricted view of the system"). This is the abstract goal that [[linux-namespaces]]'s `containerization-implementation` block `implements`.
 
 <!--content-block-end-->

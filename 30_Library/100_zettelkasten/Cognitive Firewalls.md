@@ -39,8 +39,6 @@ Personal or organisational workflow structuring aimed at protecting cognitive re
 
 - [[Low Activation Cost Effect]]—this procedure exists specifically to block the mechanism that note describes (falling activation cost generating rising task-arrival volume) from reaching deep-work time.
 
-[implements:: [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]], confidence=medium]
-
 - [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]]—direct concept match: a team-level implementation of this same firewall principle.
 - [[SoT - Principles for Peaceful Productivity]]—shared mechanism: aligns with the "Protect Your First Hour" principle.
 - [[Digital Productivity Paradox]]—the productivity-loss claim this procedure is designed to prevent.

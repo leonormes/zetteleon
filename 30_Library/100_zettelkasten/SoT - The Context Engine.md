@@ -46,6 +46,4 @@ The modern "GUT" is not a single script, but a pipeline:
 
 ---
 
-[implements:: [[SoT - Context Engineering]]]
-
 See Also: [[SoT - Context Engineering]], [[SoT - Structural Intelligence]], [[SoT - Context Rot]], [[SoT - Parochial Code]]

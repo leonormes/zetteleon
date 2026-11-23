@@ -180,5 +180,3 @@ This note is the overview. Its main claims are also held as separate notes so th
 [synthesizes:: [[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]], strength=4, confidence=medium]
 
 [synthesizes:: [[A Class of Failure That Can Be Made Structurally Impossible Should Not Be Left to the Runtime]], strength=4, confidence=medium]
-
-[synthesizes:: [[The Dichotomy of Control Is a Type System That Removes Uncontrollable Events From the Domain of Distress]], strength=3, confidence=low]

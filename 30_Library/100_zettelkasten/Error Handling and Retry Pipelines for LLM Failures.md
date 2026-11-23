@@ -1,9 +1,12 @@
 ---
+conformant: false
 created: 2026-07-28T07:58:14+00:00
 modified: 2026-10-22T15:11:17+00:00
+non_conformance_reason: Legacy note missing concept schema fields
 permalink: llmeon/30-library/100-zettelkasten/error-handling-and-retry-pipelines-for-llm-failures
 tags: [domain/llm, topic/architecture-pattern, topic/error-handling, topic/reliability, topic/resilience]
 title: Error Handling and Retry Pipelines for LLM Failures
+type: concept
 ---
 
 ## Error Handling and Retry Pipelines for LLM Failures
@@ -59,5 +62,3 @@ Recovery mechanisms [01:14:02]: "Implementing strategic retry loops. If an initi
 
 - [[SoT - Resilience Patterns for LLM Systems]]
 - [[Exponential Backoff Strategies]]
-
-[implements:: [[Structured Output Enforcement (JSON Schema and Function Calling)]], strength=4, confidence=high]

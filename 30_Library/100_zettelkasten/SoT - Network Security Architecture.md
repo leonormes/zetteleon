@@ -82,5 +82,5 @@ Network Security Architecture is a framework of policies, technologies, and cont
 - Identity: [[SoT - Data-Centric IAM in Zero Trust]] [depends_on:: [[SoT - Data-Centric IAM in Zero Trust]]]
 - Voice Security: [[SoT - Session Border Controllers (SBC)]] [synthesizes:: [[SoT - Session Border Controllers (SBC)]]]
 - Networking: [[SoT - The Data-Centric Theory of Networking]] [extends:: [[SoT - The Data-Centric Theory of Networking]]]
-- _Continuous Access Validation:_ [[Continuous Access Evaluation (CAE)]] [synthesizes:: [[Continuous Access Evaluation (CAE)]]]
+- _Continuous Access Validation:_ [[Continuous Access Evaluation (CAE)]]
 - _Application-Aware Filtering:_ [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]] [synthesizes:: [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]]]

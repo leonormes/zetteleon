@@ -241,14 +241,12 @@ collection:
     occurrence_next_trigger: completion
   links:
     projects[]:
-      target_type: any
       validate_exists: false
     assignees[]:
       validate_exists: false
     attachments[]:
       validate_exists: false
     occurrence_template:
-      target_type: any
       validate_exists: false
     recurrence_parent:
       target_type: task

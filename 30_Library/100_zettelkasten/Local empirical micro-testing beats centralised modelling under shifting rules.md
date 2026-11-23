@@ -76,5 +76,4 @@ Abandon the claim if a centralised, top-down model navigates a highly volatile, 
 - [supports:: [[Anti-Fragility Means Systems That Benefit From Volatility]]]—small, reversible bets turn volatility into information.
 - [supports:: [[Epistemic Actions - Thinking via Doing]]]—probing the world directly replaces simulating it internally.
 - [depends_on:: [[Prediction Error Breaks Feedback Loops]]]—feedback-loop integrity: reality testing corrects a model that would otherwise run unchecked.
-- [supports:: [[Institutions That Contain Anomalies Adapt to Falsifying Data More Slowly Than Autonomous Actors]]]—organisational lag: the same delay, seen from the side of the institution.
 - [supports:: [[Focus on Short-Term Learning Over Rigid Long-Term Planning]]]—short learning cycles beat fixed plans when the ground moves.

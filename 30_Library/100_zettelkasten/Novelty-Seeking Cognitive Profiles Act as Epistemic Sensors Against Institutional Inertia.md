@@ -51,7 +51,6 @@ The source's falsification criterion: the claim fails if organisations made up o
 
 ### Related
 
-- [extends:: [[Institutions That Contain Anomalies Adapt to Falsifying Data More Slowly Than Autonomous Actors]], confidence=low]—this claim names the compensating mechanism for the inertia that note describes.
 - [supports:: [[Local empirical micro-testing beats centralised modelling under shifting rules]], confidence=low]—shared mechanism: direct probing of edge cases by autonomous agents.
 - [supports:: [[Kuhn's Four-Stage Model of Paradigm Collapse]], confidence=low]—shared mechanism: anomalies that the reigning paradigm patches over are what explorers surface early.
 - [supports:: [[Modern Work Environments are Typically Wicked]], confidence=low]—shared mechanism: dynamic, unpredictable settings reward adaptation over fixed procedure.

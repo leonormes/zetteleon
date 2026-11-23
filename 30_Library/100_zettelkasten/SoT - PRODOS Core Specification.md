@@ -187,7 +187,7 @@ _Converting messy drafts and research into verified atomic propositions, structu
 - [[SoT - Unified Writing to Think Process]]—_Six-stage writing-to-think pipeline (Stages 0–5), culminating in [[Stage 5 Synthesise (The Outcome Layer)]]._ [synthesizes:: [[SoT - Unified Writing to Think Process]], confidence=high]
 - [[SoT - Atomic Note Standard (The Proposition Card)]]—_Proposition-card structure and atomicity validation._ [synthesizes:: [[SoT - Atomic Note Standard (The Proposition Card)]], confidence=high]
 - [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] & [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_The 7 canonical predicates and argument-graph compiler._ [synthesizes:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], confidence=high] [synthesizes:: [[SoT - Knowledge Compiler (Argument Graph Spec)]], confidence=high]
-- [[SoT - Context Engineering]]—_Signal density over accumulation for LLM workflows._ [synthesizes:: [[SoT - Context Engineering]], confidence=high]
+- Context Engineering—_Signal density over accumulation for LLM workflows._
 - [[SoT - Research-to-Action Protocol]]—_Time-boxed 20-minute technical research with hard start and `#SAVESTATE` exit._ [synthesizes:: [[SoT - Research-to-Action Protocol]], confidence=high]
 - [[SoT - Perfectionism and Analysis Paralysis]]—_Breaking the all-or-nothing fear loop with MVA, messy HEAD drafts, and iterative synthesis._ [synthesizes:: [[SoT - Perfectionism and Analysis Paralysis]], confidence=high]
 - [[SoT - Typed Answer Contract (TAC) for LLM Output]]—_Unified 4-rule output contract, RAG schema ceiling, and two-tier structural validation gates for vault agents._ [synthesizes:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], confidence=high]
@@ -214,7 +214,7 @@ _Recalibrating the system without letting system maintenance turn into avoidance
 
 _Purpose lineage, cognitive limits, and anti-bloat boundary conditions._
 
-- [[SoT - The Telos Method]]—_Seven-layer Chain of Explainability (`Problem -> Mission -> Narratives -> Goals -> Challenges -> Strategies -> Projects`)._ [synthesizes:: [[SoT - The Telos Method]], confidence=high]
+- The Telos Method—_Seven-layer Chain of Explainability (`Problem -> Mission -> Narratives -> Goals -> Challenges -> Strategies -> Projects`)._
 - [[SoT - The User Interface of the Self]]—_Consciousness as retrospective integration UI rather than central executive command._ [synthesizes:: [[SoT - The User Interface of the Self]], confidence=high]
 - [[SoT - Material Symbols]]—_Language, notation, and templates as cognitive scaffolding enabling second-order inspection._ [synthesizes:: [[SoT - Material Symbols]], confidence=high]
 - [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]—_Scope guardrail against mistaking architectural planning for execution._ [depends_on:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], confidence=high]

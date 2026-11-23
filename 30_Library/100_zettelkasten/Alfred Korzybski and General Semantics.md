@@ -44,5 +44,3 @@ His emphasis on the provisional nature of all knowledge connects to modern under
 Links: [[The Map is Not the Territory]], [[Mistaking the Map for the Territory]], [[Maps as Simplified Abstractions]]
 
 [supports:: [[SoT - Reality, Models, and the Limits of Accuracy]]]
-
-[supports:: [[The Map is Not the Territory]], strength=5, confidence=high]

@@ -25,7 +25,7 @@ used_in_claims:
 
 ## Beliefs as Defining Spaces
 
-A belief is a room you build, not a fact you hold. [[The Map is Not the Territory|Beliefs, like all mental models, are maps]] [depends_on:: [[The Map is Not the Territory]], confidence=high]—so the question worth asking is not "is this belief objectively true?" but "does this belief expand or contract my space of possible action?"
+A belief is a room you build, not a fact you hold. [[SoT - Reality, Models, and the Limits of Accuracy|Beliefs, like all mental models, are maps]] [depends_on:: [[SoT - Reality, Models, and the Limits of Accuracy]], confidence=high]—so the question worth asking is not "is this belief objectively true?" but "does this belief expand or contract my space of possible action?"
 
 ### Scope & Conditions
 

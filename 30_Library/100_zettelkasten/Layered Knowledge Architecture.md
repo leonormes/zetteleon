@@ -37,7 +37,7 @@ Essential for maintaining data integrity and structural flexibility in persisten
 
 ### Related
 
-- [[SoT - LLM Wiki Pattern]]—direct concept match: defines the three-layer architecture. [extends:: [[SoT - LLM Wiki Pattern]]]
+- LLM Wiki Pattern—direct concept match: defines the three-layer architecture.
 - [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—shared mechanism: metadata (frontmatter) is a component of the schema layer.
 - [[LLM Wiki Concept]]—shared mechanism: defines the persistent, agent-maintained wiki whose layer structure this note describes.
 - [[Immutability Principle - Preserve Original Notes]]—shared mechanism: the same rule at note level, where originals stay as written and changes go into new linked notes, just as raw sources stay unaltered beneath the wiki.

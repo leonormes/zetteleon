@@ -106,8 +106,6 @@ Loose claims extracted from the self-coaching resources, not yet reviewed agains
 
 [synthesizes:: [[Archery Shot Process - Faults and Diagnostics]]]
 
-[synthesizes:: [[ArtemisLite Grouping Diagnostics]]]
-
 [synthesizes:: [[Archery Learning Sequence - Build the Whole Process First]]]
 
 [synthesizes:: [[Archery Shot Process - Open Questions]]]

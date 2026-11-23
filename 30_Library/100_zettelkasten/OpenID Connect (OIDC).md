@@ -9,7 +9,9 @@ source_url: https://youtube.com/watch?v=_lTECv25N2U
 status: seed
 tags: [authentication, identity, oauth2, oidc]
 title: OpenID Connect (OIDC)
-type: atom
+type: concept
+conformant: false
+non_conformance_reason: Legacy note missing concept schema fields
 upstream: '[[HEAD Authentication Methods and Concepts]]'
 ---
 
@@ -35,7 +37,7 @@ Enables interoperable identity management across various providers (e.g., Google
 - [[SoT - Modern Authentication Standards]]—direct concept match: defines OIDC as the standardized identity layer.
 - [[OAuth 2.0]]—extends: adds authentication capabilities to the underlying authorisation framework. [extends:: [[OAuth 2.0]]]
 - [[SoT - VSO Authentication (JWT vs AppRole)]]—shared mechanism: uses OIDC discovery for secure, ephemeral token verification.
-- [[JSON Web Tokens (JWT)]]—depends on: the ID token is a signed JWT. [depends_on:: [[JSON Web Tokens (JWT)]]]
+- JSON Web Tokens (JWT)—depends on: the ID token is a signed JWT.
 - [[Single Sign-On (SSO)]]—enables: the "Sign in with…" experience is OIDC applied to SSO.
 - [[Access Tokens]]—contrast: OIDC returns an ID token for identity alongside the access token for API access.
 - [[OIDC-Authentication-Wiki]]—practical walkthrough of the flows and endpoints this note defines.

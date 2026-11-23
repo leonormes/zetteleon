@@ -38,7 +38,7 @@ Applies to AI-assisted development seeking to move beyond the non-deterministic 
 ### Related
 
 - [[Graph-Based Orchestration]]—supports: providing the structural framework for complex agentic harnesses.
-- [[SoT - Context Engineering]]—extends: the stage this note says harness engineering moves on from; context engineering optimises the information reaching the model. [extends:: [[SoT - Context Engineering]]]
+- Context Engineering—extends: the stage this note says harness engineering moves on from; context engineering optimises the information reaching the model.
 - [[Red-Teaming System Design Before Implementation Surfaces Guardrail Gaps]]—_applies adversarial review at design time, a harness-level safeguard._
 
 ### See Also

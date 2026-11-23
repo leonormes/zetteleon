@@ -34,7 +34,7 @@ Trigger—a recurring anxious belief (e.g. "if I act without complete understand
 
 ### Related
 
-- [[How to Test Whether Information-Seeking Has Become a Safety Behaviour]] [extends:: [[How to Test Whether Information-Seeking Has Become a Safety Behaviour]]]—extends: that procedure decides whether to keep researching right now; this one designs a deliberate test of the belief driving the research.
+- [[How to Test Whether Information-Seeking Has Become a Safety Behaviour]]—extends: that procedure decides whether to keep researching right now; this one designs a deliberate test of the belief driving the research.
 - [[Graded Exposure Reduces a Safety Behaviour by Ranking Situations From Mildly to Strongly Uncomfortable and Working Upward]]—shared mechanism: both are structured, safe tests of an anxious prediction rather than argument.
 - [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]] [extends:: [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]]]—_That note names a corrective experience, acting under bounded uncertainty and observing the outcome, as the fix; this note is a worked procedure for it._
 - [[Falsifiability Distinguishes Science from Dogma]]—_The same stance applied to a personal belief: say in advance what outcome would show the belief is wrong._

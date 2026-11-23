@@ -19,7 +19,7 @@ The field of neuroscience is beginning to shed light on the brain activity patte
 
 - [[Foundations of Learning and Cognition for Developers]] [extends:: [[Foundations of Learning and Cognition for Developers]]] - _Provides the broader psychological framework that neuroimaging seeks to ground in biology._
 - [[Brain Activity During Programming Tasks]] [extends:: [[Brain Activity During Programming Tasks]]] - _Specific fMRI and fNIRS studies mapping code comprehension to the brain's language and logic centers._
-- [[Neural Correlates of Specific Programming Activities]] [extends:: [[Neural Correlates of Specific Programming Activities]]] - _Differentiating the neural signatures of writing new code versus debugging existing systems._
+- Neural Correlates of Specific Programming Activities—_Differentiating the neural signatures of writing new code versus debugging existing systems._
 
 ## Thinking Modes and Executive Function
 

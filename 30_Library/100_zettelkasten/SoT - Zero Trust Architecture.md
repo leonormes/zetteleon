@@ -83,7 +83,7 @@ Zero Trust facilitates the isolation of workloads into granular segments. Access
 
 HashiCorp provides a suite of tools that operationalize these principles:
 
-- Vault: Manages secrets and identity-based access for systems and applications. [synthesizes:: [[SoT - HashiCorp Vault Architecture]]]
+- Vault: Manages secrets and identity-based access for systems and applications.
 - Consul: Enables service-to-service identity (mTLS) and microsegmentation (Intentions).
 - Boundary: Secures remote access based on user identity and authorized targets, replacing traditional VPNs.
 
@@ -93,10 +93,10 @@ HashiCorp provides a suite of tools that operationalize these principles:
 
 How the principles in section 2 show up as concrete, checkable controls in the vault.
 
-- Explicit Verification: [[Phishing-Resistant MFA]] makes the verification step resistant to credential theft. [synthesizes:: [[Phishing-Resistant MFA]], confidence=high]
+- Explicit Verification: Phishing-Resistant MFA makes the verification step resistant to credential theft.
 - Explicit Verification: [[Legacy Authentication Blocking]] closes the protocols that cannot be challenged for MFA, so no request skips verification.
 - Least Privilege and Short-Lived Access: [[Just-In-Time (JIT) Admin Access]] grants privileged roles only when needed and only for a time-bound window. [synthesizes:: [[Just-In-Time (JIT) Admin Access]], confidence=high]
-- Identity-Driven Security for Workloads: [[Workload Identity Governance]] applies the same rigour to service principals and AI agents as to people. [synthesizes:: [[Workload Identity Governance]], confidence=high]
+- Identity-Driven Security for Workloads: Workload Identity Governance applies the same rigour to service principals and AI agents as to people.
 - Assume Breach: [[Shared Account Interactive Access Restriction]] and [[Directory Creation Restrictions]] limit what a compromised identity can use to move laterally.
 - Secure Introduction for Devices: [[Trusted Launch for Critical Infrastructure]] supplies the hardware trust anchor (Secure Boot, vTPM) described under Bootstrapping Trust. [synthesizes:: [[Trusted Launch for Critical Infrastructure]], confidence=medium]
 
@@ -110,7 +110,6 @@ How the principles in section 2 show up as concrete, checkable controls in the v
 - Industry Compliance: [[SoT - NHS Identity Compliance]] [depends_on:: [[SoT - NHS Identity Compliance]]]
 - Network Security: [[SoT - Network Security Architecture]] [depends_on:: [[SoT - Network Security Architecture]]]
 - Governance: [[SoT - NIST Cybersecurity Framework]] [depends_on:: [[SoT - NIST Cybersecurity Framework]]]
-- Operationalization: [[Protocol - NIST CSF Implementation via Microsegmentation]] [depends_on:: [[Protocol - NIST CSF Implementation via Microsegmentation]]]
 - Protocols and Tokens: [[SoT - Modern Authentication Standards]] covers the OIDC, OAuth 2.0 and mTLS mechanisms that carry identity in this model.
 - Segmentation Detail: [[SoT - Network Segmentation]] expands the microsegmentation approach in section 3.
 - Transport Security: [[SoT - The Data Architecture of TLS 1.3]] describes the handshake data that mTLS builds on.

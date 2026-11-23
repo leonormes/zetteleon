@@ -32,7 +32,7 @@ Since a clear mental model is present during active work, it's valuable to use [
 
 ### 3. Momentum-Based Re-Entry Points
 
-Instead of trying to dive back in at the deep end, it's effective to create multiple "shallow" entry points. This is the core idea behind [[Momentum-Based Re-Entry Points Ease Project Resumption]]. [synthesizes:: [[Momentum-Based Re-Entry Points Ease Project Resumption]]] A key tactic here is [[Leaving a Task Intentionally Unfinished Creates a Clear Starting Point]], which gives your future self an obvious place to begin. [synthesizes:: [[Leaving a Task Intentionally Unfinished Creates a Clear Starting Point]]] You can also create a [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum|project playlist]] to help rebuild momentum. [synthesizes:: [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum]]]
+Instead of trying to dive back in at the deep end, it's effective to create multiple "shallow" entry points. This is the core idea behind [[Momentum-Based Re-Entry Points Ease Project Resumption]]. [synthesizes:: [[Momentum-Based Re-Entry Points Ease Project Resumption]]] A key tactic here is [[Leaving a Task Intentionally Unfinished Creates a Clear Starting Point]], which gives your future self an obvious place to begin. [synthesizes:: [[Leaving a Task Intentionally Unfinished Creates a Clear Starting Point]]] You can also create a project playlist to help rebuild momentum.
 
 ### 4. Context Preservation
 

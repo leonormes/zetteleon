@@ -47,7 +47,6 @@ Themes should only be promoted from candidate terms to formal theme nodes once t
 - [[Meta MOC - The Core Domains]]—supports: the vault's own list of core domains; the facet that this claim says should stay separate from themes.
 [supports:: [[Main Topics of Interest]], strength=2, confidence=low]
 - [[Main Topics of Interest]]—supports: a flat interest list that mixes domains and themes, and so shows the ambiguity this schema removes.
-[extends:: [[Betweenness Centrality Identifies Interdisciplinary Bridge Concepts]], strength=2, confidence=low]
 - [[Betweenness Centrality Identifies Interdisciplinary Bridge Concepts]]—extends: betweenness is a graph-computable proxy for "links three or more domains", so it could test theme candidates mechanically.
 [supports:: [[Identity Adoption in One Domain Lowers Friction for Adjacent Interests]], strength=2, confidence=low]
 - [[Identity Adoption in One Domain Lowers Friction for Adjacent Interests]]—supports: shows why domains cluster; a theme is the mechanism spanning such clusters rather than any one cluster.

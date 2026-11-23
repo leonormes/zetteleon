@@ -96,5 +96,3 @@ The first pair is the same disagreement as truth against utility in [[SoT - What
 
 [depends_on:: [[SoT - What Makes Science Knowledge]]]
 [synthesizes:: [[Absence of Evidence Counts as Evidence of Absence in Proportion to the Evidence Expected]]]
-
-[synthesizes:: [[James Argued That Live Forced Choices Permit Belief Beyond the Evidence]]]

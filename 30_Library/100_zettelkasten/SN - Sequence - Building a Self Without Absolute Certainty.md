@@ -77,6 +77,6 @@ With these foundational shifts in place, practical mental models become availabl
 
 [synthesizes:: [[The Self is Constructed Through a Commitment to Chosen Values]], strength=5, confidence=high]
 
-[depends_on:: [[The Map is Not the Territory]], strength=4, confidence=high]
+[depends_on:: [[SoT - Reality, Models, and the Limits of Accuracy]], strength=4, confidence=high]
 
 [extends:: [[MOC - Character and Virtue]], strength=3, confidence=medium]

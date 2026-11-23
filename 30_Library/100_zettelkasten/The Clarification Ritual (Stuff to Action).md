@@ -57,8 +57,8 @@ Original Context:
 
 ## Tensions
 
-- [tension:: [[If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It]]]—_The ritual says do not do the work while clarifying; the two-minute rule says do short items at once. Both can hold, since the rule is an exception in standard GTD and this experiment tests a stricter separation for ADHD. That note records the same tension from its side._
-- [tension:: [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]]—_This experiment produces granular next actions; that one hides them for a week and works in project blocks instead. Running both at once would confound the results._
+- [[If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It]]—_The ritual says do not do the work while clarifying; the two-minute rule says do short items at once. Both can hold, since the rule is an exception in standard GTD and this experiment tests a stricter separation for ADHD. That note records the same tension from its side._
+- [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]—_This experiment produces granular next actions; that one hides them for a week and works in project blocks instead. Running both at once would confound the results._
 
 ## Related
 
@@ -68,6 +68,6 @@ Original Context:
 - [depends_on:: [[Evaluating While Collecting Ideas Reduces What Gets Collected]]]—_The premise behind the "Manager versus Worker" split in the hypothesis._
 - [[Process the Top Item First and One at a Time to Prevent Emergency Scanning]]—_The operating rule for how to work through the inbox during the ritual._
 - [[Protocol - Weekly Command Centre]]—_Move 2 (Empty the Inbox) applies the same do-not-do-the-work rule, weekly and for five minutes instead of daily and for fifteen._
-- [hub:: [[MOC - ADHD Experiments & Protocols]]]—_Hub for ADHD hypotheses and their test lifecycle._
+- [[MOC - ADHD Experiments & Protocols]]—_Hub for ADHD hypotheses and their test lifecycle._
 
 > Provenance note: the "Derived from" link above points to a note that does not exist in the vault. The content it names is closest to the notes linked under Related.

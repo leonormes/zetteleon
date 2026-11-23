@@ -13,7 +13,7 @@ A fundamental insight across multiple domains: symbols, representations, and mod
 
 ## Foundational Principle
 
-[[The Map is Not the Territory]] - The core principle that any representation is necessarily incomplete and simplified compared to what it represents. [synthesizes:: [[The Map is Not the Territory]]]
+[[SoT - Reality, Models, and the Limits of Accuracy|The Map is Not the Territory]] - The core principle that any representation is necessarily incomplete and simplified compared to what it represents. [synthesizes:: [[SoT - Reality, Models, and the Limits of Accuracy]]]
 
 ## Parallel Examples
 
