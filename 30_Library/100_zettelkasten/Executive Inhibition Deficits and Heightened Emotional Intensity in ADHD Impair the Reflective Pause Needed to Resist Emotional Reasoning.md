@@ -38,7 +38,7 @@ Executive inhibition deficits and heightened emotional intensity in ADHD impair 
 ### Related
 
 - [depends_on:: [[Emotional Reasoning]]] — _Defines the general distortion of treating feelings as evidence of external reality._
-- [depends_on:: [[Emotions Are Not Reliable Indicators of Reality]]] — _Establishes that feelings are real experiences but weak evidence of external facts._
+- [depends_on:: [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]] — _Establishes that feelings are real experiences but weak evidence of external facts._
 - [supports:: [[How to Use the Pause to Separate the Signal From the Emotional Noise]]] — _Explains why the reflective pause requires somatic regulation first under high arousal._
 - [supports:: [[MOC - Emotional Dysregulation]]] — _Situates this pause bottleneck within the broader ADHD emotional dysregulation map._
 - [[Your emotions are real but they are your responsibility]] — _Separates validating emotional experience from endorsing its factual conclusion._

@@ -37,6 +37,6 @@ Applies to neurotypical emotional responses; does not fully account for anger dr
 
 ### Related
 
-- [[Emotions Are Not Reliable Indicators of Reality]]—shared mechanism: both separate the felt emotion from the accuracy of the appraisal generating it.
+- [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]—shared mechanism: both separate the felt emotion from the accuracy of the appraisal generating it.
 - [[Cognitive Reframing of Criticism]]—extends: the same reframing mechanism applied to a specific trigger (criticism) rather than injustice generally.
 - [[Catharsis Theory Is False — Venting Anger Rehearses and Reinforces Aggressive Pathways Rather Than Resolving Them]]—_if anger is interpretive, venting it rehearses the interpretation rather than discharging it._

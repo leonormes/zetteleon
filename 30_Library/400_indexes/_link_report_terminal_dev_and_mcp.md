@@ -22,7 +22,6 @@ type: link_report
 
 | Atom | Links | Strongest Connection |
 |------|-------|---------------------|
-| [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]] | 2 | [[SoT - AI Sycophancy]]—extends (structural antidote) |
 | [[LLMs Exhibit Divergent Strengths Across Development Lifecycle Phases]] | 2 | [[SoT - Agentic Roles]]—extends |
 | [[Model Context Protocol Standardises the LLM-to-Tool Interface]] | 2 | [[SoT - Extending Gemini CLI with MCP]]—direct concept match |
 | [[MCP Architecture Separates Host, Server, and LLM into Distinct Roles]] | 2 | [[SoT - Extending Gemini CLI with MCP]]—extends |

@@ -43,11 +43,11 @@ In the Book of Void, the last scroll of _The Book of Five Rings_, Musashi descri
 
 ### Related
 
-[extends:: [[Emotions Are Not Reliable Indicators of Reality]], strength=3, confidence=medium]
+[extends:: [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]], strength=3, confidence=medium]
 
 [supports:: [[The External World is Neutral]], strength=4, confidence=medium]
 
-- [[Emotions Are Not Reliable Indicators of Reality]]—extends: that note states the problem of the feeling being no reading of the facts, and the Void is Musashi's answer to it.
+- [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]—extends: that note states the problem of the feeling being no reading of the facts, and the Void is Musashi's answer to it.
 - [[The External World is Neutral]]—supports: if the world is neutral, the charge seen in it comes from the observer.
 - [[Mushin No Shin Mind Without Mind]]—shared mechanism: both describe a state with the self-commentary quieted.
 - [[Uncontrolled Emotion Is a Vulnerability, Harnessed Emotion Is a Weapon and Transcended Emotion Is the Void]]—part of: the Void is the third state of that framing.

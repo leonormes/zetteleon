@@ -1,27 +1,21 @@
 ---
 aliases:
-- Structure as Secondary
+  - Structure as Secondary
 conformant: true
-created: 2026-10-21 14:00:00+00:00
-definition: The representational fallacy is the view that structure is secondary to
-  facts, so that a type, schema or state file merely documents a truth that exists
-  before it.
-distinguishes_from:
-- '[[The Map is Not the Territory]]'
-modified: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
+definition: The representational fallacy is the view that structure is secondary to facts, so that a type, schema or state file merely documents a truth that exists before it.
+modified: 2026-11-22T19:31:27+00:00
 status: seed
 tags:
-- formal-methods
-- topic/knowledge-architecture
-- topic/philosophy
-- epistemology
+  - formal-methods
+  - topic/knowledge-architecture
+  - topic/philosophy
+  - epistemology
 title: The Representational Fallacy
 type: concept
 used_in_claims:
-- '[[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing
-  Truth]]'
-- '[[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory,
-  Clinical Data, Infrastructure and Cognitive Scaffolding]]'
+  - "[[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]]"
+  - "[[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]]"
 permalink: llmeon/30-library/100-zettelkasten/the-representational-fallacy
 ---
 

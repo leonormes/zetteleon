@@ -47,7 +47,7 @@ This extends the pattern already established for reviewing generated code to the
 
 ### Related
 
-- [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]]—extends: same adversarial mechanism, applied one phase earlier (design vs. code).
+- [[SoT - AI Sycophancy]]—depends_on: the explicit adversarial framing exists because a model asked whether a design looks right tends to agree with it.
 - [[Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents]]—context: red-teaming is how gaps in the tombstone/canary design would be found before implementation.
 - [[Harness Engineering]]—_the wider discipline of system-level harnesses this practice belongs to._
 - [[SoT - Test-Driven Development]]—_TDD likewise moves verification ahead of implementation._
@@ -56,4 +56,4 @@ This extends the pattern already established for reviewing generated code to the
 
 - [[SoT - LLM Wiki Pattern]]
 
-[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=3, confidence=medium]
+[depends_on:: [[SoT - AI Sycophancy]], strength=3, confidence=medium]

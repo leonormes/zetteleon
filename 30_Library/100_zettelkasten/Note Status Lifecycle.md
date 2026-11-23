@@ -1,21 +1,29 @@
 ---
-aliases: [Note Maturity, Status Progression]
+aliases:
+  - Note Maturity
+  - Status Progression
 conformant: true
 created: 2025-10-31T08:20:00+00:00
-definition: The lifecycle a note moves through, recorded in the status field as draft, seed, stable, evergreen, stale or superseded, which says how mature and how trustworthy the note is, separately from how confident its claim is.
-distinguishes_from: ["[[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]"]
-modified: 2026-10-22T15:11:15+00:00
+definition: The lifecycle a note moves through, recorded in the status field as draft, seed, stable, evergreen, stale, superseded or archived, which says how mature and how trustworthy the note is, separately from how confident its claim is.
+distinguishes_from:
+  - "[[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]"
+modified: 2026-11-23T09:16:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/note-status-lifecycle
 status: seed
-tags: [quality, topic/knowledge-architecture, workflow, zettelkasten]
+tags:
+  - quality
+  - topic/knowledge-architecture
+  - workflow
+  - zettelkasten
 title: Note Status Lifecycle
 type: concept
-used_in_claims: ["[[Propositions Are the Only Thing That Can Be Wrong]]", "[[Reviewing Notes and Their Links Forces Re-engagement With the Ideas]]"]
+used_in_claims:
+  - "[[Propositions Are the Only Thing That Can Be Wrong]]"
 ---
 
 ## Note Status Lifecycle
 
-A note's `status` field records how mature and trustworthy the note is, not whether its claim is true, which belongs to `epistemic_status`. The allowed values are `draft`, `seed`, `stable`, `evergreen`, `stale` and `superseded`, and they are fixed by [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] and checked by `validate_note_frontmatter.py` and `validate_note_shape.py`.
+A note's `status` field records how mature and trustworthy the note is, not whether its claim is true, which belongs to `epistemic_status`. The allowed values are `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded` and `archived`, and they are fixed by [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] and checked by `validate_note_frontmatter.py`. `validate_note_shape.py` still lists only the first six, so it rejects `archived` on a new atomic note.
 
 [implements:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], strength=3, confidence=medium]
 
@@ -26,16 +34,17 @@ A note's `status` field records how mature and trustworthy the note is, not whet
 - Notes with `own_words: true`, and everything in `01_journals/` and `20_Thinking/`, are protected. An agent never edits their body, so it cannot promote them through the criteria below. It can only suggest a status in chat.
 - Notes created before 2026-09-26 are frozen under the Atomic Note Standard. A status change is a frontmatter edit and does not oblige anyone to restructure the body.
 
-### The Six States
+### The Seven States
 
 | Status | Meaning | Enters when |
 |:-------|:--------|:------------|
 | `draft` | Incomplete or in flux. | Work has started but the note does not yet state its point. |
-| `seed` | Complete enough to read, not yet integrated or reviewed. | Default for new notes. LLM-generated notes always start here. By far the most common value, 399 notes against 43 `draft` when counted on 2026-09-22. |
+| `seed` | Complete enough to read, not yet integrated or reviewed. | Default for new notes. LLM-generated notes always start here. By far the most common value: on 2026-11-23, 464 notes in `100_zettelkasten/` against 204 `stable`, 47 `draft`, 12 `superseded`, 6 `evergreen` and 1 `stale`. |
 | `stable` | Complete, reviewed and linked in. | The criteria below are met. |
 | `evergreen` | Reliable backbone knowledge, used in several contexts. | The stricter criteria below are met. |
 | `stale` | Possibly out of date. Needs reconsolidation or deprecation. | A note surfaces in search where it does not belong, or its sources or surrounding notes have moved on. |
 | `superseded` | Replaced by another note. | Another note has absorbed it. `superseded_by` is then required. |
+| `archived` | Kept for the record, no longer maintained, and not replaced by anything. | The note is finished or abandoned and has no successor. No note uses it yet (0 on 2026-11-23), and it is separate from `prodos.lifecycle: archived`. |
 
 The older three-stage model called these seedling, growing and evergreen. Read seedling as `seed` and growing as `stable`. That mapping is an interpretation, since the contract migrated the old `owned` value to `stable` on the same reasoning that the note was complete. Treat it as a working convention, not a rule.
 
@@ -64,7 +73,7 @@ The old criteria of a `purpose` field, a `confidence` score and a `review_interv
 
 ### Evidence
 
-- The enum is stated in the Frontmatter Contract §2 and mirrored in `VALID_STATUS` in `validate_note_shape.py` and in the `Note` fileClass. The three sources agree, and the contract records that `seed` was added to the document on 2026-09-22 because the other two already carried it.
+- The enum is stated in the Frontmatter Contract §2 and mirrored in `VALID_STATUS` in `validate_note_frontmatter.py` and in the `Note` fileClass. Those three agree on seven values. `VALID_STATUS` in `validate_note_shape.py` has six and omits `archived`, a gap that is not yet fixed. The contract records that `seed` was added on 2026-09-22 and `archived` on 2026-11-22.
 - The retirement of `purpose` and `last_reviewed` for atomic notes is recorded in the Atomic Note Standard.
 - The promotion thresholds (one and two inbound structural links, author review) come from this note's earlier version and have not been tested against the vault. No script currently computes inbound structural link counts or promotes anything.
 
@@ -81,4 +90,3 @@ The old criteria of a `purpose` field, a `confidence` score and a `review_interv
 - [[SoT - Evolutionary Note System]]—_Source of stale-note detection and tombstoning._
 - [[Knowledge Consolidation Agent]]—_The procedure for marking a note superseded._
 - [[Propositions Are the Only Thing That Can Be Wrong]]—_Claim notes are the ones that carry an `epistemic_status` alongside `status`._
-- [[Reviewing Notes and Their Links Forces Re-engagement With the Ideas]]—_Checking a note against these criteria is itself a form of review._

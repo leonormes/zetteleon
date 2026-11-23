@@ -1,17 +1,19 @@
 ---
 conformant: false
 created: 2026-09-17T11:33:34+00:00
-created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-10-22T15:11:18+00:00
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
+created_utc: 2026-09-17T00:00:00Z
+modified: 2026-11-22T17:20:10+00:00
+non_conformance_reason: missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)
 permalink: llmeon/00-inbox/affective-polarization
 source_title: Political Contrast Effect Research
-source_url: '[[Political Contrast Effect Research]]'
 status: seed
-tags: [affective-polarization, iyengar-westwood, partisanship, political-psychology]
+tags:
+  - affective-polarization
+  - iyengar-westwood
+  - partisanship
+  - political-psychology
 title: Affective Polarization
 type: concept
-upstream: '[[Political Contrast Effect Research]]'
 ---
 
 ## Affective Polarization

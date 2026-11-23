@@ -4,14 +4,20 @@ conformant: true
 created: 2025-10-31T12:47:00+00:00
 definition: Constructive debate is a communication environment where individuals feel safe to challenge ideas without attacking the people holding them, relying on psychological safety to resolve disagreements rather than suppress them.
 distinguishes_from: []
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-22T17:41:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/constructive-debate-in-psychological-safety
 prodos.kind: atomic
 prodos.lifecycle: active
-tags: [communication, conflict-resolution, teamwork, TheHuman/Psychology]
+tags:
+  - communication
+  - conflict-resolution
+  - teamwork
 title: Constructive Debate in Psychological Safety
 type: concept
-used_in_claims: ["[[A True Discussion Requires That Both Partners Can Say No Without Fear]]", "[[Decoupling the person from the proposition allows for rigorous idea evaluation without attacking human worth]]", "[[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]"]
+used_in_claims:
+  - "[[A True Discussion Requires That Both Partners Can Say No Without Fear]]"
+  - "[[Decoupling the person from the proposition allows for rigorous idea evaluation without attacking human worth]]"
+  - "[[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]"
 ---
 
 Constructive debate requires true psychological safety, which enables:

@@ -21,6 +21,6 @@ Judgment (often called Critical Thinking) is the strength of thinking things thr
 - [[VIA Virtue of Wisdom]]—_The virtue this strength belongs to._
 - [[Cognitive Biases Reinforce Mental Models]]—_The main obstacle to examining all sides: bias hardens existing models._
 - [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]]—_A formal account of changing ones mind in light of evidence._
-- [[Emotions Are Not Reliable Indicators of Reality]]—_Why feelings should not stand in for examining a question from all sides._
+- [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]—_Why feelings should not stand in for examining a question from all sides._
 - [[Curiosity is Taking an Interest in Experience for its Own Sake]]—_Sibling strength under the same virtue: curiosity opens the question and judgment tests it._
 - [[Perspective is Providing Wise Counsel to Others]]—_Sibling strength under the same virtue_

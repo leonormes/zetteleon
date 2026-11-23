@@ -45,7 +45,7 @@ VALID_TYPES = {
     "map", "journal", "project", "sot", "link_report", "equipment",
     "source", "prompt", "tombstone",
 }
-VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded"}
+VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded", "archived"}
 VALID_EPISTEMIC = {"high", "medium", "low", "unknown"}
 
 # Keys the Obsidian Linter deletes on save, or that the standard drops.

@@ -48,7 +48,7 @@ The steps are the note's own elaboration of the SoT line. The Lieberman finding 
 ### Implications
 
 - The pause only works if a gap exists to put it in. [[Responding vs. Reacting]] states that premise, and the claim in [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] depends on it.
-- Separating signal from noise is the practical form of the check in [[Emotions Are Not Reliable Indicators of Reality]], where the feeling is not a reading of the facts.
+- Separating signal from noise is the practical form of the check in [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]], where the feeling is not a reading of the facts.
 
 ### Related
 

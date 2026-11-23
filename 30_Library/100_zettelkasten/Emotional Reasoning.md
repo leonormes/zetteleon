@@ -20,7 +20,7 @@ tags:
 title: Emotional Reasoning
 type: concept
 used_in_claims:
-  - "[[Emotions Are Not Reliable Indicators of Reality]]"
+  - "[[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]"
   - "[[Felt Significance of Thoughts Can Mislead About Their Substance]]"
   - "[[One Wrong Instinct Read as Proof That Instincts Cannot Be Trusted Feeds a Worry Loop]]"
   - "[[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]]"
@@ -51,7 +51,7 @@ Emotional reasoning is the cognitive distortion in which internal feeling states
 
 ### Related
 
-- [[Emotions Are Not Reliable Indicators of Reality]]—the primary claim specifying why feeling states must be audited against objective facts. [supports:: [[Emotions Are Not Reliable Indicators of Reality]], strength=5, confidence=high]
+- [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]—the primary claim specifying why feeling states must be audited against objective facts. [supports:: [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]], strength=5, confidence=high]
 - [[Common Cognitive Distortions]]—the parent taxonomy of automatic thinking errors that includes emotional reasoning alongside mind reading and all-or-nothing framing. [extends:: [[Common Cognitive Distortions]], strength=4, confidence=high]
 - [[Your emotions are real but they are your responsibility]]—the complementary principle that emotional experiences are valid biological signals without being external facts.
 - [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]]—the neurodivergent instantiation where executive delay and emotional intensity amplify the pause bottleneck. [supports:: [[Executive Inhibition Deficits and Heightened Emotional Intensity in ADHD Impair the Reflective Pause Needed to Resist Emotional Reasoning]], strength=4, confidence=medium]

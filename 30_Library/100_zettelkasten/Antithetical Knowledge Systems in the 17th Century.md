@@ -1,15 +1,21 @@
 ---
-aliases: [17th Century Epistemic Diversity, Alchemy and Mathematics Coexisted]
+aliases:
+  - 17th Century Epistemic Diversity
+  - Alchemy and Mathematics Coexisted
 conformant: true
 created: 2025-07-20T13:32:06+00:00
-definition: "The 17th-century coexistence of alchemy and mathematics as simultaneously legitimate paths to knowledge, one pursuing truth through secrecy and ancient authority, the other through openness and demonstrable logic."
+definition: The 17th-century coexistence of alchemy and mathematics as simultaneously legitimate paths to knowledge, one pursuing truth through secrecy and ancient authority, the other through openness and demonstrable logic.
 distinguishes_from: []
 modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/antithetical-knowledge-systems-in-the-17th-century
-tags: [17th-century, history-of-science, intellectual-history, paradigm-shift]
+tags:
+  - history-of-science
+  - intellectual-history
+  - paradigm-shift
 title: Antithetical Knowledge Systems in the 17th Century
 type: concept
-used_in_claims: ["[[Open Knowledge Systems Prevail Over Closed Systems]]"]
+used_in_claims:
+  - "[[Open Knowledge Systems Prevail Over Closed Systems]]"
 ---
 
 The intellectual landscape of the 17th century provides a powerful illustration of diversity through the flourishing and coexistence of two antithetical approaches to knowledge: alchemy and mathematics.

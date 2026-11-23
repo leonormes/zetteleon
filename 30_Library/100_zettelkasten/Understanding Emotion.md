@@ -21,7 +21,7 @@ type: concept
 used_in_claims:
   - "[[Uncontrolled Emotion Is a Vulnerability, Harnessed Emotion Is a Weapon and Transcended Emotion Is the Void]]"
   - "[[Achieving Mental Stability]]"
-  - "[[Emotions Are Not Reliable Indicators of Reality]]"
+  - "[[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]"
 ---
 
 ## Understanding Emotion
@@ -58,4 +58,4 @@ This converges with Morita *arugamama* ([[Morita Therapy - Arugamama is Acceptin
 ### Tensions
 
 - [[Emotional Reasoning]]—_tension, not contradiction: validating feeling without treating it as objective proof._
-- [[Emotions Are Not Reliable Indicators of Reality]]—_tension, not contradiction: real internal signal, unreliable external verdict._
+- [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]—_tension, not contradiction: real internal signal, unreliable external verdict._

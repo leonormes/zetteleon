@@ -23,7 +23,7 @@ Developing self-regulation allows one to navigate life's challenges with greater
 ## Related
 
 - [[VIA Virtue of Temperance]]—_The virtue this strength belongs to._
-- [[Emotions Are Not Reliable Indicators of Reality]]—_Why thinking before acting matters: the feeling is not a reading of the facts._
+- [[Emotions Are Weak Evidence About External Reality Even When They Are Real Experiences]]—_Why thinking before acting matters: the feeling is not a reading of the facts._
 - [[Emotional Regulation Techniques for ADHD Productivity]]—_Practical techniques for managing feelings and actions._
 - [[Self-Regulation is Disciplining One's Feelings and Appetites]]—_Overlapping note on the same strength, in the formal VIA wording._
 - [[Prudence is Making Careful Choices for the Future]]—_Sibling strength under the same virtue_
