@@ -2,20 +2,24 @@
 conformant: true
 contradicts: []
 created: 2026-07-13T08:31:03+00:00
-created_utc: '2026-07-13T08:17:00Z'
+created_utc: 2026-07-13T08:17:00Z
 epistemic_status: high
 evidence_links: []
 kind: distinction
-modified: 2026-11-17T10:30:00+00:00
+modified: 2026-11-23T18:14:40+00:00
 permalink: llmeon/00-inbox/proposition-centred-notes-create-cognitive-leverage-that-topical-notes-lack
 proposition: Topical wiki notes are epistemically inert, whereas proposition-centred notes make arguable claims that connect to reasoning chains and create cognitive leverage for decisions.
-source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
-source_url: ''
+source_title: "Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report"
+source_url: ""
 status: seed
-tags: [epistemics, pkm-architecture, proposition, topic/knowledge-architecture, zettelkasten]
+tags:
+  - epistemics
+  - pkm-architecture
+  - proposition
+  - topic/knowledge-architecture
+  - zettelkasten
 title: Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack
 type: claim
-upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
 ---
 
 ## Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack
@@ -25,6 +29,8 @@ Topical wiki notes (answering "What is X?") are epistemically inert—they conta
 ### Scope & Conditions
 
 The distinction is architectural: a topical note optimises for storage and retrieval of established facts, while a proposition-centred note optimises for thinking and argumentation.
+
+- **Dated position:** 2026-11-23 — a narrower, separately testable claim was split out as [[Claim-Titled Notes Invite Inferential Links That Topical Notes Lack]]. It proposes the mechanism (a committed proposition lowers the cost of typed inferential links) and names a rival explanation (selection effect). This note's wording and `epistemic_status` are unchanged.
 
 ### Evidence
 

@@ -18,4 +18,4 @@ Details: In essence, "neurons that fire together, wire together." Effortful cogn
 
 ### Related
 
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—_the broader phenomenon._
+- [[Neuroplasticity]]—_the broader phenomenon._

@@ -1,12 +1,22 @@
 ---
-aliases: [24 Character Strengths, Character and Virtue MOC, Map of Content on Character, VIA Character Strengths]
+aliases:
+  - 24 Character Strengths
+  - Character and Virtue MOC
+  - Map of Content on Character
+  - VIA Character Strengths
 conformant: true
 created: 2025-07-16T17:30:02+00:00
-modified: 2026-11-10T19:08:00+00:00
+modified: 2026-11-23T13:52:27+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
 scope: Virtue ethics foundations, the VIA 24 character strengths taxonomy, values-aligned self-construction, habituation, child character development, and the counterweight against reading capacity limits as moral failings
-see_also: ["[[SoT - Values and Eudaimonia]]", "[[The Concept of a Character Ideal]]"]
-tags: [character, ethics, TheHuman/Psychology, type/moc, virtue]
+see_also:
+  - "[[SoT - Values and Eudaimonia]]"
+  - "[[The Concept of a Character Ideal]]"
+tags:
+  - character
+  - ethics
+  - type/moc
+  - virtue
 title: MOC - Character and Virtue
 type: map
 ---

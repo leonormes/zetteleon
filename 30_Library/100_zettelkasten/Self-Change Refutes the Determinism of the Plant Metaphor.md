@@ -18,7 +18,7 @@ Details: The plant model explains how beliefs grow from genes and environment, w
 
 ## Related
 
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]
+- [[The Brain Changes Its Structure and Function in Response to Experience Throughout Life]]
 - [[Ship of Theseus as Model for Constructed Self]]
 - [[Breaking Free from Flawed Models]]
 - [[Conceptual Change is the Deep Process of Restructuring Misconceptions]]

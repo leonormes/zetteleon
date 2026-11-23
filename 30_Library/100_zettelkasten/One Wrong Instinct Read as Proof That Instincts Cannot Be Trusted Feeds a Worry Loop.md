@@ -4,16 +4,18 @@ contradicts: []
 created: 2026-09-25T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-11-15T13:44:51+00:00
+modified: 2026-11-23T16:36:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-wrong-instinct-read-as-proof-that-instincts-cannot-be-trusted-feeds-a-worry-loop
-proposition: Worry that instincts are wrong holds a person back, and reading each
-  actual miss as proof that instincts cannot be trusted keeps that worry going.
+proposition: Worry that instincts are wrong holds a person back, and reading each actual miss as proof that instincts cannot be trusted keeps that worry going.
 source_title: Emergent Mind
 status: seed
-tags: [instincts, intuition, self-trust, worry]
+tags:
+  - instincts
+  - intuition
+  - self-trust
 title: One Wrong Instinct Read as Proof That Instincts Cannot Be Trusted Feeds a Worry Loop
 type: claim
-upstream: '[[Emergent Mind]]'
+upstream: "[[Emergent Mind]]"
 ---
 
 ## One Wrong Instinct Read as Proof That Instincts Cannot Be Trusted Feeds a Worry Loop

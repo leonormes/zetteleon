@@ -21,4 +21,4 @@ This concept is derived from the broader conversation in [[Contextual Relationsh
 
 ## Related
 
-- [[Knowledge Formation is a Cognitive Process of Neural Connection]]—_a self-producing system as a model of how knowledge builds on itself._
+- [[Mental Activity Strengthens Connections Between Neurons That Fire Together, So Learning Physically Changes the Brain]]—_a self-producing system as a model of how knowledge builds on itself._

@@ -1,58 +1,71 @@
 ---
 aliases: [Post-Crash Executive Function Problems, Trough Phase Executive Dysfunction]
 conformant: true
-contradicts: []
 created: 2025-11-01T11:37:53+00:00
-epistemic_status: medium
-evidence_links: []
-last_reviewed: ''
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-23T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-impairment-during-adhd-trough-phase
-proposition: During the post-hyperfixation ADHD trough phase, dopamine depletion, mental exhaustion, and reduced prefrontal cortex activation combine to impair executive functions such as task initiation, planning, and emotional regulation, and the resulting undone tasks compound the impairment through a stress-feedback cycle.
 status: draft
-tags: [brain-fog, executive-function, TheHuman/Cognition, TheHuman/Health/ADHD]
+tags: [brain-fog, executive-function, prodos/sot, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: Executive Function Impairment During ADHD Trough Phase
-type: claim
+type: sot
 ---
 
-Summary: During the trough phase following hyperfixation, executive functions—which are already challenging for people with ADHD—become particularly impaired, making it extremely difficult to initiate tasks, plan, organize, or regulate emotions.
+## Minimum Viable Understanding (MVU)
 
-What Are Executive Functions:
+After hyperfixation, the ADHD trough phase impairs executive function more than the ADHD baseline. Three causes combine, and they show up as six manifestations. The resulting undone tasks feed back into the cause through stress. Each proposition below is its own note, and this note only arranges them.
 
-Executive functions are cognitive processes that include:
+---
 
-- Task initiation and completion
-- Planning and organization
-- Working memory
-- Emotional regulation
-- Impulse control
-- Time management
-- Attention shifting
+## 1. Causes
 
-Why They're More Impaired During the Trough:
+Executive function is already weak in ADHD ([[Executive Function]]). Three trough-specific causes deepen that weakness.
 
-1. Dopamine Depletion: Executive functions heavily rely on dopamine signaling in the prefrontal cortex. During the dopamine deficit of the trough, these functions are even more compromised than usual.
-2. Mental Exhaustion: The cognitive resources needed for executive control have been depleted during hyperfixation.
-3. Reduced Activation: The prefrontal cortex, already underactivated in ADHD, becomes even less responsive during the trough.
+![[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD#^claim]]
 
-Practical Manifestations:
+![[Dopamine Depletion in the ADHD Trough Phase Weakens Prefrontal Executive Function Below Its Usual Baseline#^claim]]
 
-- Task Initiation: Cannot start even simple, necessary tasks (showering, eating, responding to messages)
-- Planning: Unable to organize thoughts or plan next steps
-- Decision-Making: Even minor decisions feel overwhelming
-- Time Management: Time awareness is poor; tasks seem impossible to schedule
-- Emotional Regulation: More reactive, irritable, or emotionally flat
-- Working Memory: Difficulty holding information in mind or following multi-step instructions
+![[Hyperfixation Depletes the Cognitive Resources That Executive Control Depends On#^claim]]
 
-Compounding Effect:
+![[Prefrontal Cortex Activation Falls Further During the ADHD Trough Phase#^claim]]
 
-This creates a vicious cycle:
+---
 
-- Executive dysfunction makes it hard to do tasks
-- Undone tasks accumulate
-- Accumulated responsibilities increase stress
-- Stress further impairs executive function
-- The person feels increasingly overwhelmed and frozen
+## 2. Manifestations
+
+The causes above show up in six executive functions.
+
+![[The ADHD Trough Phase Makes Starting Even Basic Necessary Tasks Impossible#^claim]]
+
+![[The ADHD Trough Phase Breaks Down Planning and Makes Minor Decisions Overwhelming#^claim]]
+
+![[Time Awareness Is Poor During the ADHD Trough Phase#^claim]]
+
+![[Emotional Regulation Worsens During the ADHD Trough Phase#^claim]]
+
+![[Working Memory Fails During the ADHD Trough Phase#^claim]]
+
+---
+
+## 3. Compounding Effect
+
+The manifestations leave tasks undone, and that closes a loop back to the causes.
+
+![[Undone Tasks From the ADHD Trough Phase Raise Stress That Further Impairs Executive Function#^claim]]
+
+---
+
+## Working Knowledge & Synthesis
+
+- [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]—_Baseline mechanism that the trough deepens._ [depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]]
+- [[Dopamine Depletion in the ADHD Trough Phase Weakens Prefrontal Executive Function Below Its Usual Baseline]]—_Neurochemical cause specific to the trough._ [depends_on:: [[Dopamine Depletion in the ADHD Trough Phase Weakens Prefrontal Executive Function Below Its Usual Baseline]]]
+- [[Hyperfixation Depletes the Cognitive Resources That Executive Control Depends On]]—_Resource cause inherited from the hyperfixation phase._ [depends_on:: [[Hyperfixation Depletes the Cognitive Resources That Executive Control Depends On]]]
+- [[Prefrontal Cortex Activation Falls Further During the ADHD Trough Phase]]—_Neural cause: activation drops below the ADHD baseline._ [depends_on:: [[Prefrontal Cortex Activation Falls Further During the ADHD Trough Phase]]]
+- [[The ADHD Trough Phase Makes Starting Even Basic Necessary Tasks Impossible]]—_Manifestation: task initiation._ [synthesizes:: [[The ADHD Trough Phase Makes Starting Even Basic Necessary Tasks Impossible]]]
+- [[The ADHD Trough Phase Breaks Down Planning and Makes Minor Decisions Overwhelming]]—_Manifestation: planning and decisions._ [synthesizes:: [[The ADHD Trough Phase Breaks Down Planning and Makes Minor Decisions Overwhelming]]]
+- [[Time Awareness Is Poor During the ADHD Trough Phase]]—_Manifestation: time management._ [synthesizes:: [[Time Awareness Is Poor During the ADHD Trough Phase]]]
+- [[Emotional Regulation Worsens During the ADHD Trough Phase]]—_Manifestation: emotional regulation._ [synthesizes:: [[Emotional Regulation Worsens During the ADHD Trough Phase]]]
+- [[Working Memory Fails During the ADHD Trough Phase]]—_Manifestation: working memory._ [synthesizes:: [[Working Memory Fails During the ADHD Trough Phase]]]
+- [[Undone Tasks From the ADHD Trough Phase Raise Stress That Further Impairs Executive Function]]—_Feedback loop that sustains the trough._ [synthesizes:: [[Undone Tasks From the ADHD Trough Phase Raise Stress That Further Impairs Executive Function]]]
 
 ## Related
 

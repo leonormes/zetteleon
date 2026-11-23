@@ -50,7 +50,7 @@ Furthermore, programming acts as a stress test for working memory and task initi
 - [[Understanding Compresses Information into Cognitive Chunks]]—chunking as the way expertise gets around the ceiling.
 - [[Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning]]—the cellular mechanism behind encoding what is practised.
 - [[Systems Consolidation is the Gradual Reorganization of Memory in the Brain]]—how learned patterns settle over time.
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—why programming skill can be trained.
+- [[The Brain Changes Its Structure and Function in Response to Experience Throughout Life]]—why programming skill can be trained.
 - [[The Brain as a Distributed Prediction Machine]]—mental models as distributed, which bears on how code models are held.
 
 ## Applications for Developers

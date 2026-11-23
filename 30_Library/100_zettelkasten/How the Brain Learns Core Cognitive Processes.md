@@ -63,8 +63,8 @@ This framework is my own synthesis of the notes linked below, not a quotation fr
 - [[Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning]]—the cellular basis of encoding.
 - [[Systems Consolidation is the Gradual Reorganization of Memory in the Brain]]—how traces are reorganised over time.
 - [[Procedural Memory is Central to Habit Formation]]—the implicit memory route, slower to build and bypassing working memory.
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—the general capacity that makes all of the above possible.
-- [[Knowledge Formation is a Cognitive Process of Neural Connection]]—the neural view of turning information into knowledge.
+- [[Neuroplasticity]]—the general capacity that makes all of the above possible.
+- [[Mental Activity Strengthens Connections Between Neurons That Fire Together, So Learning Physically Changes the Brain]]—the neural view of turning information into knowledge.
 
 ### Load and Capacity
 

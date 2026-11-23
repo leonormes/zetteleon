@@ -26,4 +26,4 @@ This purely biochemical sense-evaluate-actuate loop is the ancient, foundational
 
 ## Related
 
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—_emotion's later biological elaboration._
+- [[Neuroplasticity]]—_emotion's later biological elaboration._

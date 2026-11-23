@@ -52,6 +52,6 @@ Reading is a "cognitive superniche" that we overlay on the world. By consistentl
 
 ## Related
 
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—_Neuroplasticity is the fundamental capacity to change physical structure and function._
+- [[Neuroplasticity]]—_Neuroplasticity is the fundamental capacity to change physical structure and function._
 - [[Neuroplasticity is the Foundation for Habit Change]]—_Rewiring neural circuits in response to repeated experiences._
 - [[SoT - Learning Mechanisms]]—_Learning involves creating and strengthening connections between neurons._

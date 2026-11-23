@@ -45,9 +45,11 @@ Index notes (`type: map` / MOCs) and Single Sources of Truth (`type: sot`) sit a
 Pushing full schema ceremony onto every note at capture creates extraneous cognitive load and triggers maintenance avoidance. Rigour is therefore **pulled** only when load-bearing:
 
 - **Tier 1 (Default Claim):** `status: seed` or `draft` — declarative sentence title + 1–3 sentence opening rationale + `epistemic_status`. Zero required falsifiers, `Scope & Conditions`/`Evidence`/`Implications` sections, or typed edges. Every claim promoted into `30_Library/` enters at Tier 1.
-- **Tier 2 (Load-Bearing Claim):** Escalate to `status: stable` / `evergreen` and the full schema (`proposition`, `evidence_links`, `contradicts`, `Scope & Conditions`, `Evidence`, `Implications`, optional `Falsifier`, Typed Edges) **only** when a claim:
+- **Tier 2 (Load-Bearing Claim):** Escalate to `status: stable` / `evergreen` and the full schema (`proposition`, `evidence_links`, `contradicts`, `Scope & Conditions`, `Evidence`, `Implications`, `Falsifier` expected, Typed Edges) **only** when a claim:
   1. is consulted for a real decision, or
   2. directly contradicts another note.
+
+  "Falsifier expected" is a convention, not a validator rule: `validate_note_shape.py` still treats the section as optional.
 
 *(Note: "Promoted on second reuse" is intentionally excluded from Tier 2 triggers so that Rule 3's second-touch promotion into `30_Library/` does not collapse Tier 1 into Tier 2.)*
 
@@ -79,6 +81,12 @@ To ensure an SoT still reads as a single coherent page without forcing the reade
 1. **No Topic Buckets:** Never create a topical container (e.g., `Networking.md`) to store facts. Create a Tier 1 claim *about* the topic, a concept distinction, or a debugging procedure.
 2. **Capture the Delta:** Do not summarise sources. Record only what surprised you, explained a failure, or shifted your prior confidence.
 3. **Promote on Second Touch:** Notes stay as low-friction scratchpads in `00_Inbox/` or `20_Thinking/` until reached for a second time or used in a decision, entering `30_Library/` at Tier 1.
+4. **Generated, Not Retrieved:** Mechanism content ("X works by Y") enters as a claim I write myself, not as passive topical or reference hoarding. Supporting concepts, questions and sources stay scoped as scaffolding, and exploratory thinking is not procrastination.
+5. **Explain Before Checking (load-bearing claims only):** Write the mechanism unaided first, then check sources or LLMs. Record the gap as a dated position entry in `### Scope & Conditions`.
+6. **Stuck Points Become Assumptions:** Where the unaided explanation leaned on something it could not justify, add a `[depends_on:: [[Target]]]` edge. If no note exists for the target, stub a Tier 1 claim or question first; never leave a dangling edge (`edge_lint.py` fails on it).
+7. **External Adversary:** Each load-bearing claim gets at least one objection I did not write (a person, an LLM prompted to argue against it, or a real-world outcome). Log it under `### Steelman` with its source. Self-critique alone does not surface blind spots. Several LLMs agreeing counts as one data point, because they share priors.
+8. **Dated Revisions, Never Overwrite:** When a claim changes or dies, append a dated position entry (what changed, why) under `### Scope & Conditions` and keep prior positions visible. If a new note replaces the claim, use `[revises:: [[Old Note]]]` plus `supersedes` in frontmatter.
+9. **Stop Rule:** Stop decomposing once I can state the conclusion and name its weakest link. Legitimate clarification and exploration are not penalised.
 
 ---
 
@@ -88,6 +96,7 @@ Tracked via an external Decision Log (1 line per real work/architecture decision
 
 1. **The Baseline A/B Test:** For the next 5 real architectural or life decisions, query an LLM over raw notes/transcripts first, then consult/write the relevant Claim cards. If the Claim cards do not **alter** the decision over the raw-note LLM answer in at least **2 of the 5 cases**, this architecture is falsified.
 2. **The Revision & Usage Threshold:** If, between **2026-11-17 and 2027-02-15**, fewer than **5 real decisions** in the Decision Log cite a vault Claim card, OR if **more time/commits are spent editing PKM schema/linter rules than logging claim updates**, the proposition-centred architecture is falsified as net-negative ceremony.
+3. **Method Tripwire:** This practice is working if, by [Leon to fill: date], I can name [Leon to fill: N] claims I've revised or dropped. Count with `rg -c "Dated position" 30_Library/100_zettelkasten` plus `rg "revises::"`.
 
 ---
 

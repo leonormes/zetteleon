@@ -197,3 +197,12 @@ type: note
 - Domain-Driven Design Tackling Complexity in the Heart of Software-3531225 [Open](obsidian://open?file=BookFusion%2FBooks%2FDomain-Driven%20Design%20Tackling%20Complexity%20in%20the%20Heart%20of%20Software-3531225.md) 0
 - Continuous Delivery Pipelines How to Build Better Software Faster-3531204 [Open](obsidian://open?file=BookFusion%2FBooks%2FContinuous%20Delivery%20Pipelines%20How%20to%20Build%20Better%20Software%20Faster-3531204.md) 0
 - Software Configuration Management Patterns Effective Teamwork, Practical Integration-3531166 [Open](obsidian://open?file=BookFusion%2FBooks%2FSoftware%20Configuration%20Management%20Patterns%20Effective%20Teamwork%2C%20Practical%20Integration-3531166.md) 0
+## 23/11/2026, 15:36:30
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
+- The Beginning Infinity Explanations That Transform the World-3531382 [Open](obsidian://open?file=BookFusion%2FBooks%2FThe%20Beginning%20Infinity%20Explanations%20That%20Transform%20the%20World-3531382.md) 0
+## 11/23/2026, 3:37:22 PM
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
+- The Beginning Infinity Explanations That Transform the World-3531382 [Open](obsidian://open?file=BookFusion%2FBooks%2FThe%20Beginning%20Infinity%20Explanations%20That%20Transform%20the%20World-3531382.md) 0
+## 23/11/2026, 15:37:33
+- Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
+- The Beginning Infinity Explanations That Transform the World-3531382 [Open](obsidian://open?file=BookFusion%2FBooks%2FThe%20Beginning%20Infinity%20Explanations%20That%20Transform%20the%20World-3531382.md) 0
