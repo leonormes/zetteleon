@@ -5,32 +5,36 @@ aliases:
   - Parenting for Neurodiversity
 conformant: true
 created: 2026-02-03T12:00:00+00:00
-last_synthesis: 2026-02-03
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-24T16:33:00+00:00
 permalink: llmeon/30-library/so-t/protocol-fostering-growth-mindset-neurodivergent-family
+prodos:
+  chronos:
+    last_synthesis: 2026-02-03
+    synthesis_count: 1
+  kind: protocol
+  lifecycle: evergreen
+  protocol:
+    applies_to:
+      - family-parenting
+  trust: stable
 source_of_truth: true
 status: evergreen
-synthesis-count: 1
 tags:
+  - TheHuman/Family
+  - TheHuman/Health/ADHD
   - bessie
   - growth-mindset
   - neurodiversity
   - parenting
   - protocol
 title: Protocol - Fostering Growth Mindset (Neurodivergent Family)
-trust-level: stable
 type: protocol
-prodos:
-  kind: protocol
-  protocol:
-    applies_to:
-      - family-parenting
 ---
 
 ## Logic Map
 
-- Objective: Create a "Counter-Cultural Bubble" within the family where process is valued over outcome, neutralizing the shame of neurodivergent struggles.
-- Diagnosis: Perfectionism in neurodiversity is not ego; it is Armor. "If I am perfect, they cannot criticise my difference."
+- Objective: Create a "Counter-Cultural Bubble" within the family where process is valued over outcome, neutralising the shame of neurodivergent struggles.
+- Diagnosis: Perfectionism in neurodiversity is not ego; it is Armour. "If I am perfect, they cannot criticise my difference."
 - Strategy: Deconstruct the parent's mindset first (Model), then scaffold the child's mindset (Mirror).
 
 ---
@@ -55,7 +59,7 @@ Replace "But" (invalidation) with "And" (co-existence).
 
 - Old Metric: Rank vs. Others.
 - New Metric: Rank vs. Yesterday.
-- Refame: When seeing success, ask: _"What is one small step I can take to move towards that?"_
+- Reframe: When seeing success, ask: _"What is one small step I can take to move towards that?"_
 
 ---
 
@@ -114,7 +118,7 @@ Shift the post-school interrogation from _Outcome_ to _Process_, and establish e
 - Concept: Avoid letting the under-engaged brain slip into the rumination and task-paralysis of the Default Mode Network ("The Demon").
 - The Reset: Before starting a low-stimulation task, execute 60 seconds of physical stimulation (balancing, jumping jacks, quick stretch) or pair it with a high-dopamine starter task.
 
-### 4. The Unschedule (Proactive Downtime dEfense)
+### 4. The Unschedule (Proactive Downtime Defence)
 
 - Concept: Avoid viewing schedules as lists of obligations that trigger task rebellion.
 - Process: Block out play, leisure, and self-care breaks (like coffee/tea breaks) _first_ in your planner. Defending your free time shifts the mindset from deprivation to abundance and reduces resistance to chores.
@@ -124,3 +128,14 @@ Shift the post-school interrogation from _Outcome_ to _Process_, and establish e
 - Activity: Pick a skill you are both objectively bad at (e.g., Drawing, Juggling).
 - Commitment: 10 mins/day.
 - Goal: Laugh at the clumsiness. Prove that "Talent" is just "Practice in disguise."
+
+---
+
+## Related Knowledge & Synthesis
+
+- [[Emotional Co-Regulation Must Precede Household Chore Audits and Failure Autopsies]]—_Grounds the rule that all choring and auditing pause immediately during Red Brain overload._ [supports:: [[Emotional Co-Regulation Must Precede Household Chore Audits and Failure Autopsies]], strength=5, confidence=high]
+- [[Executive Function Challenges are Central to ADHD]]—_Supplies the point-of-performance executive and emotional modulation deficits this protocol scaffolds._ [depends_on:: [[Executive Function Challenges are Central to ADHD]], strength=4, confidence=high]
+- [[SoT - ADHD Neurology & Core Concepts]]—_Supplies TPN/DMN switching, cerebellar regulation, and shame-avoidance mechanisms._ [implements:: [[SoT - ADHD Neurology & Core Concepts]], strength=4, confidence=high]
+- [[SoT - ADHD Self-Compassion & Strengths]]—_Complements parent and child deconstruction of perfectionism and shame._ [implements:: [[SoT - ADHD Self-Compassion & Strengths]], strength=4, confidence=high]
+- [[SoT - Family Household Chores]]—_Downstream household chores system applying Green/Red Brain boundaries, Power of Yet, and Failure Autopsies._
+- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—_Extends Failure Autopsy and Power of Yet scripts to Bessie's daily Study Sprints._

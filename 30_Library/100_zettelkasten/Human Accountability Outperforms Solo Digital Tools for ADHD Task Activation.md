@@ -46,3 +46,5 @@ This claim synthesises §1.3 and §3 of [[SoT - Prosthetic Executive Function]],
 - [[SoT - Prosthetic Executive Function]]—_synthesis: grounds §3 and §4 principle 5._
 
 [supports:: [[EF-Independent Push Floor]], strength=4, confidence=high]
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: scheduled human accountability is evidence for the social family of supports.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

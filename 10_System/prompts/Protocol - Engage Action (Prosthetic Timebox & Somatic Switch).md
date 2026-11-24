@@ -30,7 +30,7 @@ Refuse to start the timer until the user defines all three of the following:
    - **(b) Starter Task (1–15m):** The immediate momentum ramp following the MVA.
 3. **`If stuck (PINCH + Effort Pact):`**
    - Select one PINCH catalyst (*Play, Interest, Novelty, Competition, Hurry*).
-   - Confirm external triggers are blocked (notifications silenced, distracting tabs/apps closed) and the active Todoist timebox (`https://app.todoist.com/app/task/<task-id>`) or TaskNotes task (`TaskNotes/Tasks/<title>.md`, `status: in-progress`) is open with the timer running (use TaskNotes Pomodoro or `obsidian vault="LLMeon" tasknotes:start-time` to log `timeEntries`).
+   - Confirm external triggers are blocked (notifications silenced, distracting tabs/apps closed) and the active Todoist timebox (`https://app.todoist.com/app/task/<task-id>`) or the note holding its `#todoist` checkbox is open with the timer running (use TaskNotes Pomodoro or `obsidian vault="LLMeon" tasknotes:start-time` to log `timeEntries`).
 
 ## Phase 2: In-Box Containment (Urge Surfing)
 
@@ -43,9 +43,9 @@ Once the timer is running, hold the boundary:
 
 When the timer rings, mandate an immediate hard stop—no silent overrun—and force one of three choices:
 
-1. **Ship It:** Mark the task complete in Todoist and/or TaskNotes (`status: done`, stopping any active timer via `tasknotes:stop-time`).
+1. **Ship It:** Mark the task complete in Todoist, or tick the `#todoist` checkbox in Obsidian (Todoist Bridge syncs the completion).
 2. **Extend Once (Conscious Trade-off):** Add one bounded `15m` or `30m` box *only* after explicitly naming which block comes off today's schedule.
-3. **Park It (`#SAVESTATE`):** Write a 1-sentence state capture plus the next `<120s` MVA into the task comment/note (`On Stop:` in TaskNotes) so working memory can release the loop.
+3. **Park It (`#SAVESTATE`):** Write a 1-sentence state capture plus the next `<120s` MVA into the Todoist task comment or the note holding the checkbox so working memory can release the loop.
 
 ### Mandatory Somatic Switch
 

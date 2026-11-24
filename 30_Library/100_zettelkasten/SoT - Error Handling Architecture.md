@@ -63,7 +63,7 @@ Humans need the narrative. We need to know the _logical path_ the request took.
 ### 5. Related Components
 
 - [[SoT - Rust Type Mechanics]] (Using Enums for Error Kinds).
-- [[SoT - Systems Thinking]] (Errors as Feedback Loops).
+- [[SoT - Systems Thinking]] (Errors as Feedback Loops). [depends_on:: [[SoT - Systems Thinking]]]
 - [[SoT - Parse, Don't Validate]] (Validation errors are Domain Errors).
 - [[SoT - Effects as Data (Tag Unions)]]—_Accumulating Anonymous Unions for precision and ergonomics._
 - [[SoT - Padded Cell vs Nanny Languages]]—_The architecture of managed runtimes vs. system-level error handling._

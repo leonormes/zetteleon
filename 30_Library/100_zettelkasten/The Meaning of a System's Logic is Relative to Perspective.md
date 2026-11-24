@@ -6,7 +6,9 @@ modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-meaning-of-a-systems-logic-is-relative-to-perspective
 tags: [objectivity, perspective, relativism, subjectivity]
 title: "The Meaning of a System's Logic is Relative to Perspective"
-type: ''
+type: claim
+conformant: false
+non_conformance_reason: Legacy note missing claim schema fields
 updated: null
 ---
 
@@ -15,6 +17,11 @@ The logic and values that [[Systems Generate Internal Logic in Isolation|a syste
 - Internal View: For an observer _inside_ the system, its rules and goals are all-consuming. They constitute reality itself and hold ultimate importance.
 - External View: For an observer _outside_ the system, who can see the broader context, that same logic and importance can appear arbitrary, trivial, or even nonsensical.
 
-The meaning is not inherent in the system, but is a product of the observer's position relative to it. This highlights the difference between Subjectivity vs Objectivity and is the foundation for Paradigm Shif|paradigm shifts, where an observer moves from an internal to an external viewpoint, suddenly seeing the system in a new light.
+The meaning is not inherent in the system, but is a product of the observer's position relative to it. This highlights the difference between Subjectivity vs Objectivity and is the foundation for paradigm shifts, where an observer moves from an internal to an external viewpoint, suddenly seeing the system in a new light.
 
 This concept is the final piece of the puzzle that begins with [[Systems are Blind to Their Broader Context]].
+
+## Connections
+
+- [depends_on:: [[Systems Generate Internal Logic in Isolation]]]
+- [depends_on:: [[Systems are Blind to Their Broader Context]]]

@@ -2,10 +2,19 @@
 aliases: [Family Triage, Relational Triage]
 conformant: true
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-11-13T12:16:08+00:00
+entry_points:
+  - "[[SoT - Family Household Chores]]"
+  - "[[Family Chores - Everyone's Guide]]"
+  - "[[SoT - Family Communication & Team Charter]]"
+  - "[[SoT - Family Financial Wellness]]"
+  - "[[MOC - Bessie]]"
+modified: 2026-11-24T16:27:00+00:00
 permalink: llmeon/30-library/mo-c/moc-relational-dynamics-family-triage
+prodos:
+  kind: moc
+  lifecycle: stable
 status: stable
-tags: [family, moc, parenting, relationships, triage]
+tags: [TheHuman/Family, moc, parenting, relationships, triage]
 title: MOC - Relational Dynamics & Family (Triage)
 type: map
 ---
@@ -16,30 +25,31 @@ This hub triages the "Domain VI" (The Human: Life & Vitality) cluster, focusing 
 
 ---
 
-### 1. Domestic Operations & Chores
+## 1. Domestic Operations & Chores
 
 These notes manage physical household systems, rotas, and child-led choring habits.
 
-- [[Family Chores - Everyone's Guide]]—_Child-facing Tier 2 manual with daily checklists, pet care summaries, and family values._
-- [[SoT - Family Chores Purpose and Values]]—_GTD Natural Planning Model articulating the why behind shared home maintenance._
-- [[Protocol - Co-Admin Onboarding (Zofja)]]—_Framing and 6-step onboarding sequence for co-administering the household system without conflict._
-- [[SoT - Family Household Governance]]—_Canonical Tier 1 Parent SoT: Earned Access, storage zoning, operational cadence, rotation tables, and whole-family ownership._
-- [[SoT - Master Household Chores Inventory]]—_Canonical checklists, Definitions of Done, and pet-care SoPs for all household tasks._
+- [[SoT - Family Household Chores]]—_Compiled Tier 1 Parent SoT synthesising choice architecture, objective checklists, `Work = Access`, parental alignment, and co-regulation rules._ [synthesizes:: [[SoT - Family Household Chores]], strength=5, confidence=high]
+- [[Family Chores - Everyone's Guide]]—_Family-facing Tier 2 agreement with daily rhythm, Week A/B/C chores and pet rotas, and kickoff action plan._ [synthesizes:: [[Family Chores - Everyone's Guide]], strength=5, confidence=high]
+- [[Protocol - Household Zone Standards & Pet Care SOPs]]—_Parent-grade L1–L3 storage zoning, 10-category Whole-Family Ownership Ledger, technical Zone DoDs, and Addison's dog medical safety SOP._ [synthesizes:: [[Protocol - Household Zone Standards & Pet Care SOPs]], strength=4, confidence=high]
+- [[Protocol - Co-Admin Onboarding (Zofja)]]—_Framing and 6-step onboarding sequence for co-administering the household system without conflict._ [synthesizes:: [[Protocol - Co-Admin Onboarding (Zofja)]], strength=4, confidence=high]
+- [[Protocol - Household Routine Reset Conversation]]—_Binary reset protocol for resolving a household routine stalemate via one two-week joint experiment._ [synthesizes:: [[Protocol - Household Routine Reset Conversation]], strength=4, confidence=high]
+- [[Shared Parental Agreement Must Precede Unilateral Routine Enforcement]]—_Core governance claim requiring joint parental consent in the back-end before enforcing household routine rules in front of children._ [synthesizes:: [[Shared Parental Agreement Must Precede Unilateral Routine Enforcement]], strength=4, confidence=high]
 
 ---
 
-### 2. Communication & Relational Health
+## 2. Communication & Relational Health
 
 These notes explore interpersonal communication, mutual respect, and cooperative partnership boundaries.
 
-#### Sources of Truth & Frameworks
+### Sources of Truth & Frameworks
 
-- [[SoT - Family Communication & Team Charter]]—_Process mismatch resolution, Tag-Team Handover, and parental SLA agreements._
-- [[SoT - Framework for Healthy Communication]]—_Separating experience from causality; axioms for respectful disagreement._
-- [[SoT - Relationship Maintenance and Emotional Labour]]—_Repair labour, asymmetric maintenance patterns, and the follow-up diagnostic._
-- [[MOC - Healthy Relationship Expectations and Needs]]—_Sub-MOC covering mutual respect, intimacy, autonomy, financial fairness, and repair._
+- [[SoT - Family Communication & Team Charter]]—_Process mismatch resolution, Tag-Team Handover, and parental SLA agreements._ [synthesizes:: [[SoT - Family Communication & Team Charter]], strength=5, confidence=high]
+- [[SoT - Framework for Healthy Communication]]—_Separating experience from causality; axioms for respectful disagreement._ [synthesizes:: [[SoT - Framework for Healthy Communication]], strength=4, confidence=high]
+- [[SoT - Relationship Maintenance and Emotional Labour]]—_Repair labour, asymmetric maintenance patterns, and the follow-up diagnostic._ [synthesizes:: [[SoT - Relationship Maintenance and Emotional Labour]], strength=4, confidence=high]
+- [[MOC - Healthy Relationship Expectations and Needs]]—_Sub-MOC covering mutual respect, intimacy, autonomy, financial fairness, and repair._ [synthesizes:: [[MOC - Healthy Relationship Expectations and Needs]], strength=4, confidence=high]
 
-#### Atomic Claims—Foundations
+### Atomic Claims—Foundations
 
 - [[Reciprocity is the Central Pillar of a Healthy Partnership]]—_Core claim that healthy partnership expectations must remain mutual._
 - [[Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries]]—_Core claim on respect boundaries._
@@ -48,57 +58,57 @@ These notes explore interpersonal communication, mutual respect, and cooperative
 - [[Emotional Labor is the Invisible Work of Managing a Household and Family]]—_Core claim defining the mental load of household administration._
 - [[Regular Family Meetings are Vital for Collaborative Planning]]—_Core claim on scheduling recurrent team alignment sessions._
 
-#### Atomic Claims—Maintenance & Repair
+### Atomic Claims—Maintenance & Repair
 
 - [[The Silent Void - Absence of Engagement as a Response]]—_Patterns of non-engagement as a relational maintenance failure mode._
 - [[The No Solution Deflection in Difficult Conversations]]—_Deflection tactic that blocks repair by refusing to propose changes._
 
-#### Parenting & Family Balance
+### Parenting & Family Balance
 
-- [[SoT - The Multifaceted Role of a Parent]]—_Canonical pillars: provider, nurturer, guide, and educator._
+- [[SoT - The Multifaceted Role of a Parent]]—_Canonical pillars: provider, nurturer, guide, and educator._ [synthesizes:: [[SoT - The Multifaceted Role of a Parent]], strength=4, confidence=high]
 - [[A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship]]—_Core claim on protecting the spousal bond within family life._
 
-#### Active Workbench Thread
+### Active Workbench Thread
 
 - [[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]—_Active inquiry applying [[The Information Deficit Model is a Fallacy]] and [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]] to household chores, organisation, and money._
 
 ---
 
-### 3. Neurodiverse Support & Education
+## 3. Neurodiverse Support & Education
 
 These notes detail neurodivergent-friendly parenting strategies, visual scaffolding, and academic plans for the children (specifically Bessie).
 
-#### Protocols & Dashboards
+### Protocols & Dashboards
 
-- [[MOC - Bessie]]—_Dedicated hub for Bessie's GCSE subjects, SEN advocacy, and family strategies._
-- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—_3-step Study Sprints, Grace Period & Failure Autopsy, visual checklists, and parent education ledger._
-- [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Regulation zones, connection capital, failure autopsies, and Fiore's Unschedule._
-- [[SoT - Bessie GCSE Dashboard]]—_Live exam matrix, milestone tracker, and neuro-inclusive ways of working for Bessie's GCSE pathway._
+- [[MOC - Bessie]]—_Dedicated hub for Bessie's GCSE subjects, SEN advocacy, and family strategies._ [synthesizes:: [[MOC - Bessie]], strength=5, confidence=high]
+- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—_3-step Study Sprints, Grace Period & Failure Autopsy, visual checklists, and parent education ledger._ [synthesizes:: [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]], strength=4, confidence=high]
+- [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Regulation zones, connection capital, failure autopsies, and Fiore's Unschedule._ [synthesizes:: [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]], strength=4, confidence=high]
+- [[SoT - Bessie GCSE Dashboard]]—_Live exam matrix, milestone tracker, and neuro-inclusive ways of working for Bessie's GCSE pathway._ [synthesizes:: [[SoT - Bessie GCSE Dashboard]], strength=4, confidence=high]
 
-#### Educational Pathway & Subject Guides
+### Educational Pathway & Subject Guides
 
 - [[A Personalised Educational Pathway for Bessie Ormes! A Comprehensive GCSE Support Plan]]—_Core GCSE educational pathway, transition schedules, and accommodation framework._
 - [[Bessie's Master Guide to AQA GCSE Combined Science!]]—_Subject-specific study guide for Combined Science._
 - [[Bessie Sees it Different]]—_Perspective note on Bessie's visual and cognitive processing differences._
 - [[Summary of Discussion with Bessie ('Lessons' Transcript)]]—_Captured dialogue informing home-education approach and emotional needs._
 
-#### Scaffolding Claims & Routines
+### Scaffolding Claims & Routines
 
 - [[Visual Schedules Help Children Understand Routines and Manage Transitions]]—_Core claim on using visual cues to prevent executive overload._
 - [[Bessie's Working Memory is Overwhelmed by Large Information Volumes]]—_Diagnostic claim driving chunking, blue-paper, and external-memory scaffolding._
-- [[How to Build Neurodivergent-Friendly Routines]]—_Sequence note linking routine-building steps to supporting claims._
-- [[MOC - Why Autistics and ADHDers NEED Routines]]—_Cross-domain MOC on predictability, anxiety reduction, and executive function support._
+- [[How to Build Neurodivergent-Friendly Routines]]—_Sequence map linking routine-building steps to supporting claims._ [synthesizes:: [[How to Build Neurodivergent-Friendly Routines]], strength=4, confidence=high]
+- [[MOC - Why Autistics and ADHDers NEED Routines]]—_Cross-domain MOC on predictability, anxiety reduction, and executive function support._ [synthesizes:: [[MOC - Why Autistics and ADHDers NEED Routines]], strength=4, confidence=high]
 
 ---
 
-### 4. Family & Finance
+## 4. Family & Finance
 
 These notes organise shared budgeting, joint agency, and cooperative financial respect.
 
-- [[MOC - Family & Finance]]—_Overarching map for family budgeting methods, YNAB mechanics, and wealth philosophy._
-- [[SoT - Family Financial Wellness]]—_UK allocation plan (76/24 split), payday protocol, one-pot model, and ADHD budget scaffolding._
+- [[MOC - Family & Finance]]—_Overarching map for family budgeting methods, YNAB mechanics, and wealth philosophy._ [synthesizes:: [[MOC - Family & Finance]], strength=5, confidence=high]
+- [[SoT - Family Financial Wellness]]—_UK allocation plan (76/24 split), payday protocol, one-pot model, and ADHD budget scaffolding._ [synthesizes:: [[SoT - Family Financial Wellness]], strength=5, confidence=high]
 
-#### Atomic Claims—Financial Agency & Fairness
+### Atomic Claims—Financial Agency & Fairness
 
 - [[A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money]]—_Core claim that joint income and equal discretionary accounts preserve dignity._
 - [[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]]—_Core claim on decoupling earnings from authority._
@@ -107,5 +117,3 @@ These notes organise shared budgeting, joint agency, and cooperative financial r
 - [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—_Core claim defining collaborative versus policing budget dynamics._
 - [[Disrespectful Spending Violates Shared Agreements and Erodes Trust]]—_Core claim on spending that breaches agreed budget boundaries._
 - [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic]]—_Core claim on major purchases made without discussion._
-
----

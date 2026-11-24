@@ -192,7 +192,7 @@ _The biological, relational, and physical foundations that sustain everything el
 ### Family, Relationships & Domestic Governance
 
 - [[MOC - Relational Dynamics & Family (Triage)]]—_Master hub for household operations, communication, neurodiverse parenting, and family finance._
-- [[SoT - Family Household Governance]]—_Tier 1 Parent SoT: Earned Access, binary Definitions of Done, storage zoning, and whole-family ownership._
+- [[SoT - Family Household Chores]]—_Consolidated Tier 1 Parent SoT: Earned Access, binary Definitions of Done, storage zoning, checklists, and whole-family ownership._
 - [[SoT - Family Communication & Team Charter]]—_Bridging Efficiency vs. Immediacy values, Tag-Team Handovers, and Weekly Family Meetings._
 - [[MOC - Healthy Relationship Expectations and Needs]]—_Reciprocity, mutual respect, emotional labour, and repair._
 - [[MOC - Family & Finance]]—_Shared-pot budgeting, YNAB mechanics, and equal financial agency._

@@ -24,7 +24,7 @@ permalink: llmeon/30-library/100-zettelkasten/broad-behavioural-pattern-claims-r
 
 ## Broad Behavioural Pattern Claims Require Concrete Dated Incidents to Be Falsifiable
 
-Asserting that a partner's behaviour is a pervasive pattern is unfalsifiable and invites attribution error unless grounded in at least three concrete, dated incidents.
+Asserting that a partner's behaviour is a pervasive pattern is unfalsifiable and invites attribution error unless grounded in at least three concrete, dated incidents. ^claim
 
 ### Scope & Conditions
 

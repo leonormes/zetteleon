@@ -25,3 +25,5 @@ Details: External accountability leverages social motivation and urgency—two p
 ### Related
 
 - [[Proto-systems Function Through Social Accountability and Implicit Learning]]—_a historical form of the same accountability._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: external accountability is an instance of social structure carrying discipline.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

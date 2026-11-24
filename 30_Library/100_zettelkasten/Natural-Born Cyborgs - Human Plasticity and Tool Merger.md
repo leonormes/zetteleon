@@ -11,7 +11,7 @@ title: Natural-Born Cyborgs - Human Plasticity and Tool Merger
 type: claim
 ---
 
-Humans are "Natural-Born Cyborgs" not because of silicon implants, but because our biological brains possess extreme plasticity designed to co-opt and annex external props.
+Humans are "Natural-Born Cyborgs" not because of silicon implants, but because our biological brains possess extreme plasticity designed to co-opt and annex external props. ^claim
 
 ## 🧠 The Biological Hook
 

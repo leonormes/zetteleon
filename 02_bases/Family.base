@@ -1,16 +1,86 @@
 filters:
   and:
     - file.ext == "md"
+    - status != "superseded"
     - or:
+        - file.tags.contains("TheHuman/Family")
         - file.tags.contains("family")
         - file.tags.contains("chores")
+        - file.tags.contains("household")
         - file.tags.contains("parenting")
         - file.tags.contains("relationship")
         - file.tags.contains("bessie")
         - file.tags.contains("growth-mindset")
+
+formulas:
+  days_since_touch: '(now() - file.mtime).days.round(0)'
+  role_layer: 'if(type == "sot", "1 · SoT (Why)", if(type == "protocol" || type == "procedure", "2 · Protocol / How-To", if(type == "project", "3 · Family Guide / Project", if(type == "map", "0 · Map / Hub", "4 · Claim / Concept"))))'
+
+properties:
+  note.type:
+    displayName: "Type"
+  note.status:
+    displayName: "Status"
+  note.conformant:
+    displayName: "TAC Valid"
+  note.project_name:
+    displayName: "Project"
+  formula.role_layer:
+    displayName: "ProdOS Layer"
+  formula.days_since_touch:
+    displayName: "Days Since Touch"
+
 views:
   - type: table
-    name: All Active Family Notes
+    name: "Household Teamwork & Chores"
+    filters:
+      and:
+        - status != "archived"
+        - or:
+            - file.tags.contains("chores")
+            - file.tags.contains("household")
+            - file.tags.contains("family-agreement")
+            - file.tags.contains("routines")
+    groupBy:
+      property: formula.role_layer
+      direction: ASC
+    order:
+      - file.name
+      - formula.role_layer
+      - type
+      - status
+      - formula.days_since_touch
+      - conformant
+    sort:
+      - property: formula.role_layer
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 540
+  - type: kanban
+    name: "Chores System Lifecycle"
+    filters:
+      and:
+        - status != "archived"
+        - or:
+            - file.tags.contains("chores")
+            - file.tags.contains("household")
+            - file.tags.contains("routines")
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - seed
+      - draft
+      - stable
+      - evergreen
+    order:
+      - file.name
+      - type
+      - formula.days_since_touch
+  - type: table
+    name: "All Active Family Notes"
     filters:
       and:
         - status != "archived"
@@ -21,8 +91,6 @@ views:
       - tags
       - conformant
     sort:
-      - property: conformant
-        direction: ASC
       - property: type
         direction: ASC
       - property: file.name
@@ -30,7 +98,26 @@ views:
     columnSize:
       file.name: 645
   - type: table
-    name: Projects & Guides
+    name: "Sources of Truth & Protocols"
+    filters:
+      and:
+        - or:
+            - type == "sot"
+            - type == "protocol"
+        - status != "archived"
+    order:
+      - file.name
+      - type
+      - status
+      - formula.days_since_touch
+      - conformant
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Projects & Guides"
     filters:
       and:
         - type == "project"
@@ -44,23 +131,7 @@ views:
       - property: file.name
         direction: ASC
   - type: table
-    name: Sources of Truth & Protocols
-    filters:
-      and:
-        - or:
-            - type == "sot"
-            - type == "protocol"
-        - status != "archived"
-    order:
-      - file.name
-      - type
-      - status
-      - conformant
-    sort:
-      - property: file.name
-        direction: ASC
-  - type: table
-    name: Non-Conformant Review
+    name: "Non-Conformant Review"
     filters:
       and:
         - conformant == false

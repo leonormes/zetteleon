@@ -5,28 +5,25 @@ created: 2026-11-14 12:14:40+00:00
 created_utc: 2026-11-14 12:14:40+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-11-14 12:14:40+00:00
-proposition: Withdrawing cooperation on shared household tasks as leverage turns a
-  disagreement about systems into a personal penalty and teaches children that cooperation
-  is conditional rather than interdependent.
+modified: 2026-11-24T16:30:00+00:00
+permalink: llmeon/30-library/100-zettelkasten/withdrawing-household-cooperation-as-leverage-turns-system-disagreements-into-conditional-penalties
+proposition: Withdrawing cooperation on shared household tasks as leverage turns a disagreement about systems into a personal penalty and teaches children that cooperation is conditional rather than interdependent.
 source_title: Household routines - position and proposal (DRAFT)
-source_url: '[[Household Routines Proposal]]'
+source_url: "[[Household Routines Proposal]]"
 status: seed
 tags:
-- family
-- routines
-- communication
-- accountability
-title: Withdrawing Household Cooperation as Leverage Turns System Disagreements Into
-  Conditional Penalties
+  - TheHuman/Family
+  - routines
+  - communication
+  - accountability
+title: Withdrawing Household Cooperation as Leverage Turns System Disagreements Into Conditional Penalties
 type: claim
-upstream: '[[Household Routines Proposal]]'
-permalink: llmeon/30-library/100-zettelkasten/withdrawing-household-cooperation-as-leverage-turns-system-disagreements-into-conditional-penalties
+upstream: "[[Household Routines Proposal]]"
 ---
 
 ## Withdrawing Household Cooperation as Leverage Turns System Disagreements Into Conditional Penalties
 
-Withdrawing cooperation on shared household tasks as leverage turns a disagreement about systems into a personal penalty and teaches children that cooperation is conditional rather than interdependent.
+Withdrawing cooperation on shared household tasks as leverage turns a disagreement about systems into a personal penalty and teaches children that cooperation is conditional rather than interdependent. ^claim
 
 ### Scope & Conditions
 
@@ -44,11 +41,11 @@ Applies to shared household and parenting partnerships where one partner withhol
 
 ### Related
 
-- [[Responding vs. Reacting]]—shared mechanism: separates a chosen response from a reactive withdrawal used as leverage.
+- [[Responding vs. Reacting]]—depends on: separates a chosen response from a reactive withdrawal used as leverage.
 [depends_on:: [[Responding vs. Reacting]]]
 - [[SoT - Family Communication & Team Charter]]—extends: applies §1.1 resentment loop and §5 rule against conditional withdrawal to household tidy-up labour.
 [extends:: [[SoT - Family Communication & Team Charter]]]
-- [[Habit 1 - Be Proactive]]—shared mechanism: keeps energy inside the circle of influence rather than blaming or penalising a partner.
-[depends_on:: [[Habit 1 - Be Proactive]]]
-- [[MOC - The 7 Habits - The Maturity Continuum]]—shared mechanism: contrasts dependence and blame with true interdependence.
-[depends_on:: [[MOC - The 7 Habits - The Maturity Continuum]]]
+- [[Habit 1 - Be Proactive]]—implements: keeps energy inside the circle of influence rather than penalising a partner.
+[implements:: [[Habit 1 - Be Proactive]]]
+- [[MOC - The 7 Habits - The Maturity Continuum]]—extends: contrasts conditional withdrawal with true interdependence.
+[extends:: [[MOC - The 7 Habits - The Maturity Continuum]]]

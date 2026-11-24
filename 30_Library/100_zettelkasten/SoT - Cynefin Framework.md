@@ -49,5 +49,5 @@ Complexity arises from the interaction of components, not the components themsel
 
 ## Related Knowledge
 
-- Parent: [[SoT - Systems Thinking]]
+- Parent: [[SoT - Systems Thinking]] [extends:: [[SoT - Systems Thinking]]]
 - Core Concept: [[SoT - Emergence]] (The defining trait of the Complex domain)

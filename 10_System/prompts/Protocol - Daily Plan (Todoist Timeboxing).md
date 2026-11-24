@@ -32,7 +32,7 @@ Todoist is the source of truth for tasks and also the timeline. A time block is 
 - NEVER clear or move a due date the CoS did not set itself. Tasks that were already dated by Leon, or that have a Deadline, are hard landscape and keep their dates.
 - NEVER create a calendar event for work. Time blocks live on the Todoist tasks.
 - Use `reschedule-tasks` to place or move a block, not `update-tasks`, so recurrence is preserved.
-- **TaskNotes Bridge (`TaskNotes/Tasks/`):** When scheduling tasks mirrored or stored in TaskNotes (`todoist_id`), map each timebox to `scheduled` (`YYYY-MM-DDTHH:MM:SS`), `timeEstimate` (minutes: `15`, `30`, `60`), and optional daily-note timeblocks visible in `TaskNotes/Views/calendar-default.base`. At EOD shutdown, clear transient `scheduled` timestamps on uncompleted CoS-placed blocks back to `status: next`.
+- **Todoist Bridge (`#todoist` checkboxes):** Todoist Bridge does not sync due dates or durations, so time blocks are set only on the Todoist task with `reschedule-tasks`. Never write a date or time into the matching Obsidian checkbox.
 
 ## Selection
 

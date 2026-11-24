@@ -75,5 +75,5 @@ We gain control over complexity not by isolating atoms, but by standardizing how
 
 - [[SoT - Parochial Code]]—_The architectural failure mode resulting from a lack of modularity and boundary awareness._
 - [[SoT - Macro-Micro Unification]]—_The framework for balancing atomic detail with system-wide coherence._
-- [[SoT - Systems Thinking]]—_The broader context for understanding interconnectedness and feedback loops._
+- [[SoT - Systems Thinking]]—_The broader context for understanding interconnectedness and feedback loops._ [depends_on:: [[SoT - Systems Thinking]]]
 - [[SoT - Dimensions of Code Understanding]]—_Defines 'Structural' understanding as adherence to separation of concerns._

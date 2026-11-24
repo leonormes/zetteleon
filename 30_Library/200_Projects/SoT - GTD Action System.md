@@ -37,7 +37,7 @@ type: sot
 
 | Tier | Tool | Holds | GTD term |
 |---|---|---|---|
-| Knowledge & Personal Projects | Obsidian | What you know, think, claim; personal project outcomes (`30_Library/200_Projects/`), TaskNotes (`TaskNotes/Tasks/`), and Bases views (`02_bases/GTD Next Actions.base`, `02_bases/GTD Waiting For.base`, `02_bases/GTD Stalled Projects Audit.base`) | The "extended mind" / 10,000-ft project & waiting-for layer |
+| Knowledge & Personal Projects | Obsidian | What you know, think, claim; personal project outcomes (`30_Library/200_Projects/`) with plain `- [ ]` checkbox tasks; one chosen next action is tagged `#todoist` and mirrored to Todoist by the Todoist Bridge plugin | The "extended mind" / 10,000-ft project & waiting-for layer |
 | Outcomes (work) | Jira | Work results, status, acceptance criteria, "is it done" | Projects list (work), 10,000-ft view |
 | Actions | Todoist | The single next physical action, across _all_ of life | The runway |
 | Hard landscape | Native calendar | Only date/time-specific, must-happen commitments | The calendar |
@@ -152,7 +152,7 @@ Comms pass (2×/day): actionable >2 min → runway task, no date. Blocked on som
 
 ### Review → the Weekly Review
 
-The keystone habit. Cross-reference every open Jira ticket against Todoist, and inspect `02_bases/GTD Stalled Projects Audit.base` (active projects in `30_Library/200_Projects/` with `0` open TaskNotes in `TaskNotes/Tasks/`) plus `02_bases/GTD Waiting For.base`, ensuring each active project or ticket has a corresponding next action or Waiting item. Empty your head. _(See open question 5—not yet scheduled.)_
+The keystone habit. Cross-reference every open Jira ticket against Todoist, and inspect active projects in `30_Library/200_Projects/` with no unchecked `- [ ]` checkbox, plus the Todoist `Waiting` project and `#waiting` checkboxes, ensuring each active project or ticket has a corresponding next action or Waiting item. Empty your head. _(See open question 5—not yet scheduled.)_
 
 ### Engage
 

@@ -6,12 +6,13 @@ distinguishes_from: ["[[Autopoiesis The Self-Referential System]]", "[[Cyberneti
 modified: 2026-11-11T11:34:50+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/5c-emergence-1
+tags: [complexity, emergence, topic/systems]
 title: Emergence
 type: concept
 used_in_claims: ["[[Bottom-Up Organization Allows Emergent Structure]]", "[[Dividing a Process Does Not Make the Intact Process Illusory]]", "[[Extrapolating Pathology to Normal Function Is a Hasty Generalisation]]", "[[Global Stability in Kubernetes Emerges From Many Narrow Negative Feedback Loops]]"]
 ---
 
-Definition: Emergence refers to the phenomenon where complex patterns, behaviors, or properties arise from the interactions of simpler components, which cannot be predicted by analyzing the components alone.
+Definition: Emergence refers to the phenomenon where complex patterns, behaviors, or properties arise from the interactions of simpler components, which cannot be predicted by analyzing the components alone. ^def
 
 - Context: Emergence is a key concept in fields like systems theory, complexity science, biology, and network theory.
 - Example: John Conway's Game of Life is a classic illustration of emergence from simple rules in a system of cellular automata.
@@ -39,7 +40,7 @@ Which sense a note means matters: the strong sense supports claims about irreduc
 ## Related
 
 - [[SoT - Emergence]]—_The canonical framework: primary and secondary effects, examples, downward causation. This note is the compact definition it builds on._
-- [[SoT - Systems Thinking]]—_The parent framework; emergence is one of its core ideas._
+- [[SoT - Systems Thinking]]—_The parent framework; emergence is one of its core ideas._ [extends:: [[SoT - Systems Thinking]]]
 - [[SoT - Cynefin Framework]]—_Complex domains are the ones where emergent behaviour makes cause and effect knowable only in hindsight._
 - [[Cybernetics]]—_Self-regulation through feedback, the loop structure that many emergent stabilities rest on._
 - [[Autopoiesis The Self-Referential System]]—_A system that produces and maintains itself; emergent order that maintains its own boundary._

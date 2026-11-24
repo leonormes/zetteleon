@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-22T15:11:14+00:00
+modified: 2026-11-24T16:24:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -19,7 +19,7 @@ type: claim
 The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind|EMT]]. It states:
 
 > [!quote] The Principle
-> If a process occurring in the world functions in a way that we would unhesitatingly accept as cognitive were it occurring inside the head, then we should treat that external process as part of the cognitive system.
+> If a process occurring in the world functions in a way that we would unhesitatingly accept as cognitive were it occurring inside the head, then we should treat that external process as part of the cognitive system. ^claim
 
 ## 📓 The Case of Inga and Otto
 
@@ -36,6 +36,9 @@ In a digital context, this justifies the use of Personal Knowledge Management (P
 
 [supports:: [[SoT - The Extended Mind]]]
 
+[supports:: [[An external structure counts as part of a cognitive process only if it is constantly available, easily accessible, and automatically trusted]], strength=5, confidence=high]
+
 ## Related
 
 - [[Natural-Born Cyborgs - Human Plasticity and Tool Merger]]
+- [[An external structure counts as part of a cognitive process only if it is constantly available, easily accessible, and automatically trusted]]—_extracts the three Otto notebook coupling conditions (availability, accessibility, trust)._

@@ -1,46 +1,57 @@
 ---
 aliases: [A Guide to Building Routines for Neurodivergent Minds]
+conformant: true
 created: 2025-10-29T16:10:00+00:00
-last_reviewed: 'null'
-modified: 2026-10-22T15:11:16+00:00
+entry_points:
+  - "[[Routines Provide Stability for Neurodivergent Individuals]]"
+  - "[[Mini routines are event-triggered sequences rather than time-based schedules]]"
+  - "[[Visual Schedules Make Routines Tangible]]"
+modified: 2026-11-24T16:25:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-to-build-neurodivergent-friendly-routines
-tags: [autism, map, routine, TheHuman/Health/ADHD, topic/productivity/productivity-system]
+prodos:
+  kind: moc
+  lifecycle: stable
+status: stable
+tags: [autism, map, routine, TheHuman/Family, TheHuman/Health/ADHD, topic/productivity/productivity-system]
 title: How to Build Neurodivergent-Friendly Routines
-type: sequence
-updated: null
+type: map
 ---
 
-This note outlines a sequence for building a supportive, flexible, and sustainable routine tailored for a neurodivergent brain.
+## How to Build Neurodivergent-Friendly Routines
 
-## 1. Understand the Purpose
+This map outlines a staged sequence for building a supportive, flexible, and sustainable routine tailored for neurodivergent individuals and households.
 
-First, it is crucial to understand _why_ routines are so beneficial. They are not about rigid control, but about creating a predictable foundation to reduce cognitive load.
+### 1. Understand the Purpose
 
-- `supports::` [[Routines Provide Stability for Neurodivergent Individuals]]
+Routines are not about rigid control, but about creating a predictable foundation that reduces cognitive load and decision fatigue.
 
-## 2. Lay the Foundation with Self-Awareness
+- [[Routines Provide Stability for Neurodivergent Individuals]]—_establishes predictability as an anxiety and sensory-overwhelm buffer._ [synthesizes:: [[Routines Provide Stability for Neurodivergent Individuals]], confidence=high]
 
-Before you can build a routine that works for you, you must understand your own patterns, needs, and sensitivities. This is the most critical step.
+### 2. Lay the Foundation with Self-Awareness
 
-- `enables::` [[Self-Observation is the Foundation of Routine Building]]
+Before designing a routine, observe actual energy patterns, executive-function bottlenecks, and sensory needs.
 
-## 3. Construct the Core Components
+- [[Self-Observation is the Foundation of Routine Building]]—_grounds routine design in lived observation rather than idealised schedules._ [synthesizes:: [[Self-Observation is the Foundation of Routine Building]], confidence=medium]
 
-With self-knowledge as your guide, you can now construct the routine itself. A successful routine balances two key elements: consistency and adaptability.
+### 3. Construct the Core Components
 
-- `supports::` [[Use Anchor Times to Build Consistent Routines]]
-- `supports::` [[Flexible Routines Require Contingency Planning]]
+Balance consistency with adaptability by anchoring sequences to natural life events rather than rigid clock deadlines.
 
-## 4. Use Tools and Maintenance Strategies
+- [[Mini routines are event-triggered sequences rather than time-based schedules]]—_uses completed activities as cues to avoid clock-watching anxiety._ [synthesizes:: [[Mini routines are event-triggered sequences rather than time-based schedules]], confidence=high]
+- [[Flexible Routines Require Contingency Planning]]—_pairs baseline routines with low-energy fallback options._ [synthesizes:: [[Flexible Routines Require Contingency Planning]], confidence=medium]
 
-Once the basic structure is in place, you can use tools to make it easier to follow and establish a process for keeping it relevant over time.
+### 4. Use Visual Tools and Regular Reviews
 
-- `illustrates::` [[Visual Schedules Make Routines Tangible]]
-- `supports::` [[Routines Must Be Reviewed and Adjusted Regularly]]
+Externalise steps at the point of performance and review one variable at a time.
 
-## 5. Cultivate a Sustainable Mindset
+- [[Visual Schedules Make Routines Tangible]]—_moves sequence recall from working memory onto visible checklists._ [synthesizes:: [[Visual Schedules Make Routines Tangible]], confidence=high]
+- [[Visual Schedules Help Children Understand Routines and Manage Transitions]]—_applies visual schedules to children and family transitions._ [synthesizes:: [[Visual Schedules Help Children Understand Routines and Manage Transitions]], confidence=high]
+- [[Routines Must Be Reviewed and Adjusted Regularly]]—_keeps routines aligned with changing life seasons._ [synthesizes:: [[Routines Must Be Reviewed and Adjusted Regularly]], confidence=medium]
 
-A routine is more likely to succeed if it is approached with a positive and forgiving mindset. It is a tool for support, not a measure of your worth.
+### 5. Cultivate a Sustainable Mindset
 
-- `supports::` [[Schedule Downtime to Prevent Burnout]]
-- `supports::` [[Celebrate Small Successes to Build Routine Momentum]]
+Approach routines as supportive scaffolding rather than a test of worth.
+
+- [[Schedule Downtime to Prevent Burnout]]—_protects rest first so schedules do not feel like endless obligation._ [synthesizes:: [[Schedule Downtime to Prevent Burnout]], confidence=high]
+- [[Celebrate Small Successes to Build Routine Momentum]]—_reinforces effort and habit formation over perfection._ [synthesizes:: [[Celebrate Small Successes to Build Routine Momentum]], confidence=medium]
+- [[SoT - Family Household Chores]]—_applies neurodivergent-friendly visual checklists, blue-paper accommodations, and Sunday reviews across the whole household._

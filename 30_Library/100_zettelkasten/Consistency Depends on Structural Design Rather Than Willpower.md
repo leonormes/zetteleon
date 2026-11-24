@@ -50,3 +50,5 @@ This claim synthesises the 9-Point Consistency Framework in [[SoT - Intentional 
 [depends_on:: [[Strong Habits Override Weak Intentions]], strength=5, confidence=high]
 
 [depends_on:: [[Reducing friction is a key strategy for building ADHD-friendly habits]], strength=4, confidence=high]
+- [[Discipline Is a Property of External Structure More Than of Will]]—extends: it specialises the general claim to intentional living.
+[extends:: [[Discipline Is a Property of External Structure More Than of Will]], strength=4, confidence=medium]

@@ -5,16 +5,11 @@ contradicts: []
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-19T11:55:00+00:00
+modified: 2026-11-24T13:55:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/confidence-as-trust-in-process-not-certainty-in-outcomes
 proposition: Durable confidence under uncertainty comes from trusting ones capacity to sense, decide, and adjust through iterative feedback rather than from guaranteeing specific outcomes in advance.
 status: stable
-tags:
-  - adaptation
-  - confidence
-  - mental-model
-  - process
-  - TheHuman/Mindset
+tags: [adaptation, confidence, mental-model, process, TheHuman/Mindset]
 title: Confidence as Trust in Process Not Certainty in Outcomes
 type: claim
 ---

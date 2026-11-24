@@ -69,7 +69,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 | Task | Prompt | Why |
 |---|---|---|
-| `"triage inbox"` / `"process 00_Inbox"` — process `00_Inbox/` items one-by-one into TaskNotes, Projects, Problems, or the flat Todoist runway | [[Protocol - Action-First GTD (LLM Chief of Staff)]] | Interactive 7-type triage decision matrix enforcing Obsidian/Todoist control-plane separation, TaskNotes routing (`30_Library/200_Projects/`, `TaskNotes/Tasks/`), and single-starter-verb Todoist pushes |
+| `"triage inbox"` / `"process 00_Inbox"` — process `00_Inbox/` items one-by-one into Projects (checkbox tasks), Problems, or the flat Todoist runway | [[Protocol - Action-First GTD (LLM Chief of Staff)]] | Interactive 7-type triage decision matrix enforcing Obsidian/Todoist control-plane separation, Todoist Bridge routing (`#todoist` checkboxes in `30_Library/200_Projects/`), and single-starter-verb Todoist pushes |
 
 ### Daily Execution (Todoist)
 

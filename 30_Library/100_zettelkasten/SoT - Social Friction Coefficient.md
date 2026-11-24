@@ -40,5 +40,5 @@ This "machine" is burdened with features dedicated to handling problems it cause
 
 - [[SoT - Accidental Social Complexity]]—_The broader category of non-essential complexity introduced by social dynamics._
 - [[SoT - Authority-Competence Asymmetry]]—_A primary driver of social friction where decision-making power is decoupled from expertise._
-- [[SoT - Systems Thinking]]—_Provides the 'mechanical' framework for understanding friction and energy loss in social systems._
+- [[SoT - Systems Thinking]]—_Provides the 'mechanical' framework for understanding friction and energy loss in social systems._ [depends_on:: [[SoT - Systems Thinking]]]
 - [[SoT - Dunning-Kruger Effect]]—_Explains the cognitive bias that often necessitates excessive 'ego-soothing' in dysfunctional teams._

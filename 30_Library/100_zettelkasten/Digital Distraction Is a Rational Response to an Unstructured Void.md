@@ -46,3 +46,5 @@ This claim synthesises Cal Newport's "Bigger Better Offer" argument as recorded 
 - [[SoT - Intentional Living]]—_synthesis: forms the Deep Life premise in §3._
 
 [supports:: [[SoT - Intentional Living]], strength=4, confidence=medium]
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: willpower alone fails against an adversarial environment.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

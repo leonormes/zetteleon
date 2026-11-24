@@ -16,3 +16,5 @@ A core strategy for building successful ADHD-friendly habits is to identify and 
 ## Related
 
 - [[Predisposition to Low-Risk Activities]]—_ADHD brains favour easy tasks yet tolerate risk, which shapes friction design._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: removing friction is the lever external structure pulls.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

@@ -19,7 +19,7 @@ upstream: ["[[SoT - The Extended Mind]]"]
 
 ## Writing puts us in the powerful position of being able to observe our thinking
 
-Writing affords us the ability to observe our thinking. Converting amorphous, unexpressed thoughts into coherent written language forces them to engage with logical structure, exposing our actual beliefs versus the beliefs we assumed we held. Thoughts remain internally consistent only while unexamined; language demands precision, and precision surfaces contradiction.
+Writing affords us the ability to observe our thinking. Converting amorphous, unexpressed thoughts into coherent written language forces them to engage with logical structure, exposing our actual beliefs versus the beliefs we assumed we held. Thoughts remain internally consistent only while unexamined; language demands precision, and precision surfaces contradiction. ^claim
 
 ### Scope & Conditions
 

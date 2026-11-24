@@ -1,7 +1,8 @@
 ---
+conformant: true
 created: 2026-07-21T14:30:00+01:00
 description: Reusable system prompt to triage, categorise, and normalise all family, chores, relational, and neurodiversity notes.
-modified: 2026-10-22T15:11:08+00:00
+modified: 2026-11-24T10:25:00+00:00
 permalink: llmeon/10-system/prompts/family-notes---triage-and-normalisation
 tags: [agent/triage, domain/family, type/system]
 title: Family Notes - Triage and Normalization
@@ -11,7 +12,7 @@ version: 1
 
 > Trigger: the whole family and relationships domain needs triaging in one pass. For one new family-chores capture use [[Family Chores - Knowledge Consolidation]]; for a non-family backlog use [[Principal Vault Triage Architect]].
 >
-> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+> Output Contract: follow [[SoT - Typed Answer Contract (TAC) for LLM Output]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
 > [!warning] Own-words guard
 > Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
@@ -28,7 +29,7 @@ You will follow the structural rules of the ProdOS vault, routing notes to their
 
 You will sort the target notes into the following four primary buckets:
 
-1. Domestic Operations & Chores: Focuses on physical household systems, checklists, pet care, rotas, and child-led chore guides (e.g., [[Family Chores Operational Plan]], [[Family Chores - Everyone's Guide]], [[SoT - Master Household Chores Inventory]], [[SoT - Family Household Governance]]).
+1. Domestic Operations & Chores: Focuses on physical household systems, checklists, pet care, rotas, and child-led chore guides (e.g., [[SoT - Family Household Chores]], [[Family Chores - Everyone's Guide]], [[Protocol - Co-Admin Onboarding (Zofja)]]).
 2. Communication & Relational Health: Focuses on interpersonal dynamics, conflict resolution, spousal reciprocity, and team agreements (e.g., [[SoT - Family Communication & Team Charter]], [[SoT - Relationship Maintenance and Emotional Labour]], [[MOC - Healthy Relationship Expectations and Needs]]).
 3. Neurodiverse Support & Education: Focuses on neurodivergent-friendly parenting, visual schedules, anxiety mitigation, and child-led academic pathway planning (e.g., [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]], Bessie's GCSE path).
 4. Family & Finance: Focuses on collaborative money management, spending protocols, and financial agency (e.g., [[MOC - Family & Finance]], [[SoT - Family Financial Wellness]]).

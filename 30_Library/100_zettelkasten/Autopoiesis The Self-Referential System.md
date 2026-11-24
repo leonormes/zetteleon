@@ -7,7 +7,9 @@ modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/autopoiesis-the-self-referential-system
 tags: [biology, systems-theory, topic/philosophy]
 title: Autopoiesis The Self-Referential System
-type: 'null'
+type: concept
+conformant: false
+non_conformance_reason: Legacy note missing concept schema fields
 updated: null
 ---
 
@@ -15,10 +17,11 @@ Autopoiesis (from Greek _auto-_ 'self' and _poiesis_ 'creation, production') is 
 
 A living cell is a key example. It constantly uses energy to rebuild its own structures and maintain its boundaries, separating itself from its environment. In this view, the "drive for survival" is not an abstract goal but the defining operational principle of the system. The system's purpose _is_ its own existence.
 
-Life is the ultimate self-referential loop, generating its own reason to be. This idea is a core component of the [[The Fractal Model of Self-Referential Meaning]].
+Life is the ultimate self-referential loop, generating its own reason to be. This idea is a core component of The Fractal Model of Self-Referential Meaning.
 
-This concept is derived from the broader conversation in [[Contextual Relationships]].
+This concept is derived from the broader conversation in Contextual Relationships.
 
 ## Related
 
+- [extends:: [[SoT - Systems Thinking]]]
 - [[Mental Activity Strengthens Connections Between Neurons That Fire Together, So Learning Physically Changes the Brain]]—_a self-producing system as a model of how knowledge builds on itself._

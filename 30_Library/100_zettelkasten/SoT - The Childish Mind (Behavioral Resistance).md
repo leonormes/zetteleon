@@ -64,3 +64,5 @@ Architectural Implication: You cannot negotiate with the Childish Mind. You must
 
 - [Indistractable — Nir Eyal, ch. 8 "Reimagine Your Temperament", p. 46](calibre://view-book/GCcalibreBooks/687/EPUB)—_reports Dweck's conclusion that signs of ego depletion appeared only in people who believed willpower is a limited resource, a challenge to the depletion claim in section 2._
 - [Beyond Belief — ch. 11 "Good Beliefs, Bad Beliefs", p. 171](calibre://view-book/GCcalibreBooks/1686/EPUB)—_cites Oettingen's research that positive fantasies can reduce motivation when they imagine rewards without the effort, which corroborates the Mind Movie conflict in section 3._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: it supplies a mechanism for why discipline has to live in structure.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

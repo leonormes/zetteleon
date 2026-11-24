@@ -49,3 +49,5 @@ This claim synthesises §1.1 of [[SoT - Prosthetic Executive Function]] alongsid
 [depends_on:: [[Executive Function Challenges are Central to ADHD]], strength=5, confidence=high]
 
 [depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=4, confidence=high]
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: a performance-point failure is what structure at the point of performance addresses.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

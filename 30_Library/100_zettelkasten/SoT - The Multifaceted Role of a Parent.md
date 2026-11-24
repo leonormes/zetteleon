@@ -45,7 +45,7 @@ This role extends far beyond formal schooling.
 
 - Encouraging Curiosity: Fostering a love of learning by answering questions, exploring the world together, and encouraging their interests.
 - Supporting Formal Education: Creating an environment that values education, helping with schoolwork, and engaging with teachers and the school community.
-- Teaching Life Skills: Imparting practical skills necessary for independent life, such as cooking, cleaning, financial literacy, and problem-solving. (See [[SoT - Family Household Governance]] for the operational framework).
+- Teaching Life Skills: Imparting practical skills necessary for independent life, such as cooking, cleaning, financial literacy, and problem-solving. (See [[SoT - Family Household Chores]] for the operational framework).
 
 ## The Evolving Nature of the Role
 

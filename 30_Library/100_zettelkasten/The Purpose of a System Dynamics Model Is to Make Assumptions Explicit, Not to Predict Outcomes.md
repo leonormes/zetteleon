@@ -21,7 +21,7 @@ upstream: '[[tmp_atoms_overshoot-and-collapse]]'
 
 ## The Purpose of a System Dynamics Model Is to Make Assumptions Explicit, Not to Predict Outcomes
 
-Computer models of complex systems are not predictive black boxes meant to output future dates or numbers; their real purpose is to force the modeller to make assumptions about causal relationships and feedback loops explicit, which improves the mental models humans use to understand the system.
+Computer models of complex systems are not predictive black boxes meant to output future dates or numbers; their real purpose is to force the modeller to make assumptions about causal relationships and feedback loops explicit, which improves the mental models humans use to understand the system. ^claim
 
 ### Scope & Conditions
 

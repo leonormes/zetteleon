@@ -21,7 +21,7 @@ upstream: '[[LLM - The Nature of Beliefs Between Fact and Faith]]'
 
 ## Beliefs Set Expectations That Shape Felt Experience Through the Experience Loop
 
-Beliefs set up expectations that produce physiological and emotional responses. The source names the cycle the Experience Loop: believe, anticipate, feel, confirm.
+Beliefs set up expectations that produce physiological and emotional responses. The source names the cycle the Experience Loop: believe, anticipate, feel, confirm. ^claim
 
 ### Scope & Conditions
 

@@ -24,7 +24,7 @@ permalink: llmeon/30-library/100-zettelkasten/consistent-calm-bedtime-routines-r
 
 ## Consistent Calm Bedtime Routines Reduce Childhood Bedtime Conflict
 
-Holding a consistent, calm evening bedtime routine across both parents reduces bedtime conflict with children.
+Holding a consistent, calm evening bedtime routine across both parents reduces bedtime conflict with children. ^claim
 
 ### Scope & Conditions
 

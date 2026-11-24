@@ -6,7 +6,7 @@ candidate_answers: []
 closing_condition: false
 conformant: true
 created: 2026-11-13 12:00:00+00:00
-modified: 2026-11-13 12:00:00+00:00
+modified: 2026-11-24T16:38:00+00:00
 prodos:
   kind: head
   lifecycle: active
@@ -18,7 +18,7 @@ sources:
 - '[[The Information Deficit Model is a Fallacy]]'
 - '[[SoT - Family Communication & Team Charter]]'
 - '[[SoT - Family Financial Wellness]]'
-- '[[SoT - Family Household Governance]]'
+- '[[SoT - Family Household Chores]]'
 status: open
 tags:
 - state/thinking
@@ -48,7 +48,7 @@ The solution is to shift from **persuasion (explaining)** to **architecture and 
 1. **Match the conversation frequency first ([[SoT - Family Communication & Team Charter]] §4.1):** Never offer a system fix or logical explanation when the other person is in an emotional or overwhelmed state ("I'm drowning and he's lecturing"). Validate the stress first; negotiate systems only when both are calm.
 2. **Design the environment instead of repeating rules ([[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]]):** Make the desired action the path of least resistance (visible checklists, one-motion storage, automatic transfers) so behaviour does not depend on remembering an explanation.
 3. **Money—use structural autonomy ([[SoT - Family Financial Wellness]] §4.II):** The One-Pot Model + equal, "no-questions-asked" personal spending money removes the need to police or explain discretionary spending, paired with calm monthly Budget Date Nights for shared goals.
-4. **Chores & organisation—use visual governance and weekly cadence ([[SoT - Family Household Governance]], [[SoT - Master Household Chores Inventory]]):** Move reminders out of verbal nagging into shared rotations, clear Definitions of Done, Tag-Team Handovers when overwhelmed, and a calm Weekly Family Meeting for system tweaks.
+4. **Chores & organisation—use visual governance and weekly cadence ([[SoT - Family Household Chores]], [[Protocol - Household Zone Standards & Pet Care SOPs]]):** Move reminders out of verbal nagging into shared rotations, clear Definitions of Done, Tag-Team Handovers when overwhelmed, and a calm Weekly Family Meeting for system tweaks.
 5. **Calibrate without blame ([[SoT - Framework for Healthy Communication]]):** Use Intent vs. Impact and Data-Impact-Proposal-Check to request one specific behavioural change rather than re-arguing why the system makes sense.
 
 ## What Would Settle It
@@ -67,7 +67,7 @@ Running one concrete household experiment (e.g., applying the Tag-Team Handover 
 - [[SoT - Family Communication & Team Charter]]
 - [[SoT - Framework for Healthy Communication]]
 - [[SoT - Family Financial Wellness]]
-- [[SoT - Family Household Governance]]
-- [[SoT - Master Household Chores Inventory]]
+- [[SoT - Family Household Chores]]
+- [[Protocol - Household Zone Standards & Pet Care SOPs]]
 - [[MOC - Relational Dynamics & Family (Triage)]]
 - [[MOC - Family & Finance]]

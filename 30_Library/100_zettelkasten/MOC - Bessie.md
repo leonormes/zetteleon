@@ -2,7 +2,7 @@
 aliases: [Bessie Map, Bessie MOC, MOC Bessie]
 conformant: true
 created: 2026-07-22T09:00:00+00:00
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-24T10:25:00+00:00
 permalink: llmeon/30-library/mo-c/moc-bessie
 tags: [bessie, education, family, index]
 title: MOC - Bessie
@@ -70,6 +70,8 @@ Evidence, transcripts, and analysis of how school provision matched (or failed) 
 ### 🏡 Family Context & Strategies
 
 - [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]
-- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—Study Sprints, Failure Autopsy, visual checklists, and accommodations (extracted from [[SoT - Family Household Governance]])
-- [[Family Chores - Everyone's Guide]]
+- [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]]—Study Sprints, Failure Autopsy, visual checklists, and accommodations (linked with [[SoT - Family Household Chores]])
+- [[SoT - Family Household Chores]]—consolidated household chores system, daily check-in, and whole-family ownership
+- [[Family Chores - Everyone's Guide]]—family-facing daily and weekly checklists
+- [[Protocol - Co-Admin Onboarding (Zofja)]]—parent co-admin onboarding sequence
 - [[MOC - Relational Dynamics & Family (Triage)]]

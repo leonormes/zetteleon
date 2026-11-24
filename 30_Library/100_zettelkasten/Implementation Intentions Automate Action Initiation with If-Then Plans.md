@@ -21,3 +21,5 @@ Mechanism: Implementation intentions work through two processes. First, they mak
 ### Related
 
 - [[Habits are Automatic Behaviors Triggered by Environmental Cues]]—_cues the plans hook onto._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: if-then plans are a designed cue that cuts the will an action costs.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

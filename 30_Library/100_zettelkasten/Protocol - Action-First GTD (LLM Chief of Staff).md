@@ -106,8 +106,8 @@ Consolidated 2026-11-09 from the former `Protocol - Autonomous Action System`, w
 ### B4. Health Check (Agent)
 
 - Trigger: weekly review or on request.
-- Check `02_bases/GTD Stalled Projects Audit.base` for active projects in `30_Library/200_Projects/` with `0` open TaskNotes; propose **1 starter TaskNote** (in `TaskNotes/Tasks/` linked via `+[[Project - Outcome]]`) plus **1 date-free physical-verb Todoist runway item** (`todoist_1mcp_add-tasks`) for each stalled project.
-- Check `02_bases/GTD Waiting For.base` for delegated/externally blocked items needing a follow-up chase, and check project health in Todoist (`todoist_1mcp_find-tasks`, `todoist_1mcp_find-projects`) for overdue/soft-timeboxed drift.
+- Search active projects in `30_Library/200_Projects/` (`prodos.lifecycle: active`) for notes with no unchecked `- [ ]` line (`obsidian-llmeon_1mcp_search_regex`); for each stalled project propose **1 starter checkbox** in the project note plus **1 date-free physical-verb Todoist runway item**, which gets `#todoist` so Todoist Bridge creates it (or `todoist_1mcp_add-tasks` when the agent writes to Todoist directly).
+- Check the Todoist `Waiting` project and any unchecked `#waiting` checkboxes in the vault for delegated/externally blocked items needing a follow-up chase, and check project health in Todoist (`todoist_1mcp_find-tasks`, `todoist_1mcp_find-projects`) for overdue/soft-timeboxed drift.
 - Check whether the active ADHD experiment has logged evidence or is ready for ABAB withdrawal / promotion in `[[MOC - ADHD Experiments & Protocols]]`.
 
 ### B5. Surrounding Loops (Hermes Gateway)
@@ -134,7 +134,7 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 2. Confirm the task appears in Todoist.
 3. Confirm the content moved to the archive.
 
-## Inbox Triage & TaskNotes Routing Protocol
+## Inbox Triage & Todoist Bridge Routing Protocol
 
 - Trigger: `"triage inbox"` or `"process 00_Inbox"` (after CoS drains Todoist Inbox into individual notes inside `00_Inbox/`).
 - Mode: **One item at a time** (interactive loop—never dump a giant wall of text). Read one `00_Inbox/` note, propose its classification below (asking **at most 1 clarifying question** if intent or Definition of Done is ambiguous), wait for confirmation, execute the Obsidian/Todoist mutations, and **delete** the processed `00_Inbox/` note before moving to the next.
@@ -142,7 +142,7 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 
 ### Control-Plane Separation (Non-Negotiable)
 
-- **Obsidian** (`30_Library/200_Projects/`, `TaskNotes/Tasks/`, `20_Thinking/21_Workbench/`, `30_Library/100_zettelkasten/`) is the sole home for thinking, project outcomes, multi-step checklists, `blockedBy` dependencies, `waiting` states, and problem analysis.
+- **Obsidian** (`30_Library/200_Projects/`, `20_Thinking/21_Workbench/`, `30_Library/100_zettelkasten/`) is the sole home for thinking, project outcomes, multi-step checklists, sequencing, `#waiting` states, and problem analysis. Tasks are plain `- [ ]` checkboxes. Only the one next action you choose to send gets `#todoist`, and the Todoist Bridge plugin then mirrors it to Todoist (default project `Personal`; completion and rename sync both ways, due dates do not). Everything untagged stays Obsidian-only.
 - **Todoist** (`#Work` or `#Personal`) is a **flat, date-free execution runway** holding **at most one unblocked physical starter verb** (`<120s` MVA / `<5m` starter) per active outcome. Never create Todoist subtasks, nested projects, or fake wish-list due dates.
 
 ### The 7-Type `00_Inbox/` Triage Decision Matrix
@@ -150,12 +150,12 @@ Where the agent runs under the Hermes Gateway, these run alongside Mode B (recor
 | Type | Criteria | Obsidian Action | Todoist Runway (`todoist_1mcp_add-tasks`) | Cleanup |
 |---|---|---|---|---|
 | **1. `< 2-Minute Action`** | Resolvable in under 2 minutes | None | None — prompt human to do it immediately | Delete `00_Inbox/` note |
-| **2. Simple Next Action** | 1 standalone physical step; no project container needed | Do **not** create a Project note. Optionally create a standalone TaskNote in `TaskNotes/Tasks/` via `[[Template - TaskNotes Starter Task]]` only if reference notes/links are needed | Push **1 date-free physical-verb task** to `#Work` or `#Personal` | Delete `00_Inbox/` note |
-| **3. Small Project** | 2–5 steps; finishes within days/weeks; minimal research | Offer two paths:<br>• *Lightweight:* 1 TaskNote in `TaskNotes/Tasks/` with the 2–5 steps as inline `- [ ]` checkboxes.<br>• *Standard:* `30_Library/200_Projects/Project - [Outcome].md` (`type: project`, `prodos.lifecycle: active`) from `[[Template - Project]]` (embeds `![[Project-Tasks.base]]`) + 1 linked TaskNote (`+[[Project - Outcome]]`) | Push **only the single immediate Next Action** | Delete `00_Inbox/` note |
-| **4. Large / Complex Project** | Multi-stage, architecture work, Jira-backed, or deep thinking | If unsettled, open `HEAD - [Question]?.md` in `20_Thinking/21_Workbench/` per `[[SoT - HEAD Note Contract (The Workbench)]]`. Once settled, create `30_Library/200_Projects/Project - [Outcome].md` (`type: project`, `prodos.lifecycle: active`) from `[[Template - Project]]` + sequential TaskNotes in `TaskNotes/Tasks/` linked via `+[[Project - Outcome]]` and `blockedBy` dependencies (so only unblocked tasks surface in `02_bases/GTD Next Actions.base`) | Push **only the unblocked Next Action** | Delete `00_Inbox/` note |
-| **5. Waiting For / Blocked** | Externally blocked (e.g. NHS/MKUH email thread, Jira dependency) | Create/update TaskNote in `TaskNotes/Tasks/` with `status: waiting` and `@waiting` context (linked to parent `Project - ...` if applicable) so it surfaces in `02_bases/GTD Waiting For.base` | **None** — keep off active Todoist runway | Delete `00_Inbox/` note |
+| **2. Simple Next Action** | 1 standalone physical step; no project container needed | Do **not** create a Project note. No note needed | Push **1 date-free physical-verb task** to `#Work` or `#Personal` (via the Todoist MCP, or as a `- [ ] … #todoist` checkbox when it belongs in a vault note) | Delete `00_Inbox/` note |
+| **3. Small Project** | 2–5 steps; finishes within days/weeks; minimal research | Offer two paths:<br>• *Lightweight:* the 2–5 steps as `- [ ]` checkboxes in a single note.<br>• *Standard:* `30_Library/200_Projects/Project - [Outcome].md` (`type: project`, `prodos.lifecycle: active`) from `[[Template - Project]]` with the steps as `- [ ]` checkboxes under `## Tasks` | Push **only the single immediate Next Action** | Delete `00_Inbox/` note |
+| **4. Large / Complex Project** | Multi-stage, architecture work, Jira-backed, or deep thinking | If unsettled, open `HEAD - [Question]?.md` in `20_Thinking/21_Workbench/` per `[[SoT - HEAD Note Contract (The Workbench)]]`. Once settled, create `30_Library/200_Projects/Project - [Outcome].md` (`type: project`, `prodos.lifecycle: active`) from `[[Template - Project]]` with the steps as ordered `- [ ]` checkboxes under `## Tasks`; only the first unblocked one is tagged `#todoist` | Push **only the unblocked Next Action** | Delete `00_Inbox/` note |
+| **5. Waiting For / Blocked** | Externally blocked (e.g. NHS/MKUH email thread, Jira dependency) | Add an untagged `- [ ] … #waiting` checkbox to the parent `Project - ...` note (or a standalone note), noting who or what it waits on | **None** — keep off active Todoist runway | Delete `00_Inbox/` note |
 | **6. Unresolved Problem** | Recurring bug, broken workflow, or constraint | Route to Clarity Framework (`/capture-problem` → `/clarify-problem`): create `Problem - [Undesirable Effect].md` (`type: problem`, `role: symptom`, `status: captured`) rather than prematurely creating a project; promote to `30_Library/200_Projects/` only once a solvable root cause is identified | **None** until solvable root cause yields a Next Action | Delete `00_Inbox/` note |
-| **7. Reference / Someday** | Knowledge, reference, or parked project | • *Knowledge/Concept:* Stub or route to `30_Library/100_zettelkasten/` (respect `own_words: true` — never write substantive claims for the human).<br>• *Parked Project:* Create `30_Library/200_Projects/Project - [Outcome].md` with `prodos.lifecycle: someday` (ignored by `02_bases/GTD Stalled Projects Audit.base`) | **None** | Delete `00_Inbox/` note |
+| **7. Reference / Someday** | Knowledge, reference, or parked project | • *Knowledge/Concept:* Stub or route to `30_Library/100_zettelkasten/` (respect `own_words: true` — never write substantive claims for the human).<br>• *Parked Project:* Create `30_Library/200_Projects/Project - [Outcome].md` with `prodos.lifecycle: someday` (ignored by the B4 stalled-project check) | **None** | Delete `00_Inbox/` note |
 
 ## Error Handling
 

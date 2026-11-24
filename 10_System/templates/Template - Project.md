@@ -35,7 +35,9 @@ permalink: llmeon/10-system/templates/template-project
 
 ## Tasks
 
-![[Project-Tasks.base]]
+<!-- Plain checkbox tasks. Add #todoist to an unchecked task to sync it to Todoist via Todoist Bridge. -->
+
+- [ ] 
 
 ## Reference Links
 

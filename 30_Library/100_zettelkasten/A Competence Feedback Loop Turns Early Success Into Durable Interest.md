@@ -19,7 +19,7 @@ upstream: '[[tmp_atoms_what-drives-a-persons-interests]]'
 
 ## A Competence Feedback Loop Turns Early Success Into Durable Interest
 
-A small early success in a domain creates a self-reinforcing loop—perceived capability increases willingness to engage, which increases practice and pattern recognition, which produces more success and strengthens identity and interest—so two people of similar underlying ability can end up with radically different relationships to the same subject depending on when and how that loop started.
+A small early success in a domain creates a self-reinforcing loop—perceived capability increases willingness to engage, which increases practice and pattern recognition, which produces more success and strengthens identity and interest—so two people of similar underlying ability can end up with radically different relationships to the same subject depending on when and how that loop started. ^claim
 
 ### Scope & Conditions
 

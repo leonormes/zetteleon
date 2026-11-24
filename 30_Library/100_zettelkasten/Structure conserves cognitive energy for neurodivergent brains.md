@@ -22,3 +22,5 @@ While structure is essential, building in controlled novelty (e.g., rotating wor
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Working Memory Limitations in ADHD]]
 - [depends_on:: [[SoT - Prosthetic Executive Function]]]—_Conserving energy depends on having an external structure to offload the executive function._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: structure conserving energy is the neurodivergent case of the same claim.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

@@ -64,7 +64,7 @@ These are the mesmerising, unpredictable behaviors that manifest when thousands 
 
 ## Related Knowledge
 
-- Parent: [[SoT - Systems Thinking]]
+- Parent: [[SoT - Systems Thinking]] [extends:: [[SoT - Systems Thinking]]]
 - Social Logic: [[Proto-systems Are Informal Collective Routines That Organize Work]]
 - Organizational Friction: [[SoT - Accidental Social Complexity]]
 - Physics of Complexity: [[SoT - The Law of Increasing Functional Information]] (Assembly Theory)

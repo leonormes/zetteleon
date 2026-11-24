@@ -68,3 +68,5 @@ Body doubling provides external accountability and anchors the ADHD brain.
 - [[MOC - ADHD (The Master Map)]] _The primary navigation hub for ADHD strategies, placing body doubling within the broader tactical scaffolding._
 - [[External Accountability Sustains ADHD Project Commitment]] _Explores how social stakes and commitment loops maintain long-term project engagement for neurodivergent minds._
 - [[SoT - Prosthetic Executive Function]] _The general mechanism this note specialises: externalising the boundary that internal executive function fails to hold—here the boundary is the recording/"on air" rule rather than a timer._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: body doubling is a social support that carries initiation and focus.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

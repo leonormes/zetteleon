@@ -41,7 +41,7 @@ Conceptual synthesis of Nassim Nicholas Taleb's antifragility framework, grounde
 
 - [[Local empirical micro-testing beats centralised modelling under shifting rules]]—operational mechanism: explains how bounded local bets harvest information under volatility.
 - [[Confidence as Trust in Process Not Certainty in Outcomes]]—psychological payoff: antifragile exposure to errors builds durable trust in one's adaptive process.
-- [[SoT - Systems Thinking]]—structural context: situates antifragility against the trade-off between narrow efficiency and systemic resilience.
+- [[SoT - Systems Thinking]]—structural context: situates antifragility against the trade-off between narrow efficiency and systemic resilience. [extends:: [[SoT - Systems Thinking]]]
 - [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]—formal parallel: examines how explicit constraints enable resilient human and technical systems.
 
 [supports:: [[Confidence as Trust in Process Not Certainty in Outcomes]], strength=4, confidence=high]

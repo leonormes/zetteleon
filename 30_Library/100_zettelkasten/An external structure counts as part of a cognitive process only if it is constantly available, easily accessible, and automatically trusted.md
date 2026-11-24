@@ -8,7 +8,7 @@ epistemic_status: medium
 evidence_links:
   - "[[SoT - The Extended Mind]]"
   - "[[The Parity Principle - Functional Equivalence in Cognition]]"
-modified: 2026-11-18T15:48:00+00:00
+modified: 2026-11-24T16:25:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/external-structure-constitutive-cognitive-conditions
 proposition: An external structure counts as part of a cognitive process only if it is constantly available, easily accessible, and automatically trusted.
 status: stable
@@ -38,10 +38,14 @@ An external structure counts as part of a cognitive process only when it is cons
 
 ### Implications
 
-- **Design checklist:** Any vault, TaskNotes view, or capture inbox that fails availability, speed of access, or user trust ceases to function as part of the cognitive loop.
+- **Design checklist:** Any vault, task view, or capture inbox that fails availability, speed of access, or user trust ceases to function as part of the cognitive loop.
 
 ### Related
 
-- [[SoT - The Extended Mind]]—_depends on: synthesis of Clark and Chalmers's parity criteria._ [depends_on:: [[SoT - The Extended Mind]], strength=5, confidence=high]
-- [[The Parity Principle - Functional Equivalence in Cognition]]—_depends on: underlying equivalence principle._ [depends_on:: [[The Parity Principle - Functional Equivalence in Cognition]], strength=5, confidence=high]
+- [[SoT - The Extended Mind]]—_extends: specifies Clark and Chalmers's three coupling criteria._
+[extends:: [[SoT - The Extended Mind]], strength=5, confidence=high]
+- [[The Parity Principle - Functional Equivalence in Cognition]]—_grounded in: underlying functional equivalence axiom (emits `supports` into this note)._
 - [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]]—_supports: supplies its three coupling conditions._
+[supports:: [[A trusted, always-available external task scaffold performs the working-memory function for an ADHD person for the operations it holds, rather than assisting an internal one]], strength=5, confidence=high]
+- [[Household Scaffolds Should Match Each Users Access and Trust and Be Bridged Through One Master Record]]—_supports: explains why different household members require the surface they will actually reach and trust._
+[supports:: [[Household Scaffolds Should Match Each Users Access and Trust and Be Bridged Through One Master Record]], strength=4, confidence=high]

@@ -13,7 +13,7 @@ title: Resilience is the Ability to Bounce Back from Setbacks
 type: claim
 ---
 
-Resilience is the psychological capacity to adapt to and recover from stress, adversity, trauma, or disappointment.
+Resilience is the psychological capacity to adapt to and recover from stress, adversity, trauma, or disappointment. ^claim
 
 It is often described as the ability to "bounce back" after a difficult experience. Resilience is not about avoiding hardship, but about navigating through it and emerging without lasting negative effects.
 

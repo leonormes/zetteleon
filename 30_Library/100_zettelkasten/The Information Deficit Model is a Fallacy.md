@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T17:03:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-19T12:01:30+00:00
+modified: 2026-11-24T16:24:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 proposition: "Providing people with more facts or explanations does not reliably change their behaviour because information alone does not bridge the intention-action gap."
 see_also: ["[[MOC - Relational Dynamics & Family (Triage)]]", "[[MOC - Family & Finance]]", "[[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]"]
@@ -41,7 +41,7 @@ This claim is derived from behavioural-science synthesis across the habit-design
 - [[SoT - Family Communication & Team Charter]]—_relational alternative: replaces in-the-moment explaining with pre-agreed protocols (Team Charter, Tag-Team Handover, Weekly Family Meetings) and frequency matching._
 - [[SoT - Framework for Healthy Communication]]—_calibration protocol: separates feelings/data from blame so feedback leads to agreed behavioural adjustments rather than defensiveness._
 - [[SoT - Family Financial Wellness]]—_money application: the One-Pot Model with equal autonomous personal spending money eliminates the need to police or explain discretionary spending._
-- [[SoT - Family Household Governance]]—_chores application: shared visual rotations, clear Definitions of Done, and weekly family reviews replace daily verbal reminders._
+- [[SoT - Family Household Chores]]—_chores synthesis: shared visual rotations, clear Definitions of Done, and weekly family reviews replace daily verbal reminders._
 
 [extends:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]], strength=4, confidence=high]
 
@@ -51,4 +51,4 @@ This claim is derived from behavioural-science synthesis across the habit-design
 
 [supports:: [[SoT - Family Financial Wellness]], strength=4, confidence=high]
 
-[supports:: [[SoT - Family Household Governance]], strength=4, confidence=high]
+[supports:: [[A Weekly Family Meeting Separates System Adjustment From Daily Chore Execution]], strength=4, confidence=high]

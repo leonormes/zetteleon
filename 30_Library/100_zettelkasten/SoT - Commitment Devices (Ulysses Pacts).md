@@ -50,3 +50,5 @@ Core Axiom: If you trust your future self to "do the right thing," you have alre
 - [[Never Return an Item to the In-Tray Once Picked Up for Clarification]] - _A no-return rule applied as a Ulysses Pact to task handling._
 - [[SoT - The Childish Mind (Behavioral Resistance)]] - _Names the Childish Mind that these pacts guard against._
 - [[SoT - Behavioral Architecture]] - _Places commitment devices among forcing functions in section 3.2._
+- [[Discipline Is a Property of External Structure More Than of Will]]—supports: pre-commitment is a designed structure that removes reliance on in-the-moment will.
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=3, confidence=medium]

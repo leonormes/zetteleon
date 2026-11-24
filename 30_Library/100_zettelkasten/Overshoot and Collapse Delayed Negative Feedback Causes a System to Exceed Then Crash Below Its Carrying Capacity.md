@@ -21,7 +21,7 @@ upstream: '[[tmp_atoms_overshoot-and-collapse]]'
 
 ## Overshoot and Collapse: Delayed Negative Feedback Causes a System to Exceed Then Crash Below Its Carrying Capacity
 
-A system undergoing exponential growth within a finite environment, where the negative feedback signalling resource scarcity is delayed, tends to overshoot its carrying capacity; the overshoot degrades the underlying resource base itself, so the system does not stabilise gently but collapses to an equilibrium permanently lower than the original carrying capacity.
+A system undergoing exponential growth within a finite environment, where the negative feedback signalling resource scarcity is delayed, tends to overshoot its carrying capacity; the overshoot degrades the underlying resource base itself, so the system does not stabilise gently but collapses to an equilibrium permanently lower than the original carrying capacity. ^claim
 
 ### Scope & Conditions
 

@@ -26,7 +26,7 @@ permalink: llmeon/30-library/100-zettelkasten/de-escalating-partner-conversation
 
 ## De-escalating Partner Conversations Requires Redirecting Drift Without Naming Fallacies Aloud
 
-During a difficult partner conversation, redirecting topic drift with neutral agenda-parking scripts preserves psychological safety far better than naming logical fallacies or cornering questions aloud.
+During a difficult partner conversation, redirecting topic drift with neutral agenda-parking scripts preserves psychological safety far better than naming logical fallacies or cornering questions aloud. ^claim
 
 ### Scope & Conditions
 
