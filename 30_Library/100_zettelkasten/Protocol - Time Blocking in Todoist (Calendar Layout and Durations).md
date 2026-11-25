@@ -153,7 +153,7 @@ Tool names below are as exposed through 1MCP (`mcp__1mcp__todoist_1mcp_*`).
 ### Limits
 
 - Todoist apps only display durations under 24 hours. A longer duration is stored but shows as no duration.
-- The Todoist MCP has no tool that reads calendar events. The CoS cannot see meetings from Todoist alone, so capacity has to come from another source, such as the Fantastical MCP in 1MCP. That server is configured but I have not tested it.
+- The Todoist MCP has no tool that reads calendar events. The CoS cannot see meetings from Todoist alone, so capacity has to come from another source, such as the Fantastical MCP in 1MCP. That server is configured and the daily plan reads it read-only, but it has not yet been run end to end.
 - Today's view of the whole day needs a call to `find-tasks-by-date`. The Calendar layout itself is a UI and has no MCP equivalent.
 
 ## Where this clashes with the existing system
@@ -173,7 +173,7 @@ This is the draft behind [[Protocol - Daily Plan (Todoist Timeboxing)]], which a
 1. Read the runway and today's hard landscape from Todoist.
 2. Read capacity from the calendar source. Treat the Family calendar as non-blocking.
 3. Reserve 25% of the free minutes as buffer.
-4. Fill free time in this order: Renewal, then Big Rock tasks, then other actions, then buffer.
+4. Fill free time in this order: Renewal (defined in [[Protocol - Daily Plan (Todoist Timeboxing)]]), then Big Rock tasks, then other actions, then buffer.
 5. Use 30-minute blocks. Group `<120s` MVA tasks and `<5m` starter tasks from one project into one block. Set each with `reschedule-tasks`.
 6. Mark Parallel work by a `parallel` label, which has no scheduling effect and is only a reading cue for the CoS.
 7. Report the plan as a table of block, task and a Todoist link `https://app.todoist.com/app/task/<id>`.

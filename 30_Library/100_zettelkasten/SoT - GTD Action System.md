@@ -110,7 +110,7 @@ Anything outside those three buckets _is_ a clarified next action, by definition
 - Arbitrary "wish-list" dates destroy trust: you start dragging tasks forward day after day and the list stops being believed.
 - Morning reset: any overdue task that is not a true deadline drops its date back onto the no-date runway. Never roll it to "tomorrow". True deadlines live in Todoist's Deadline field, not the due date. Review with the `Reset` filter: `(overdue | today) & no deadline`.
 - The daily plan timeboxes tasks inside Todoist by giving them a date, time and duration ([[Protocol - Daily Plan (Todoist Timeboxing)]]). Those dates are transient: uncompleted soft timeboxes lose their date at shutdown and are never rolled to tomorrow, so Todoist's `Today` view holds only hard-landscape commitments overnight. This is a provisional rule that has not yet been tested.
-- Consequences already applied: the Todoist → Google Calendar sync was severed; Fantastical was rejected (no Android support, and its task-on-calendar feature reintroduces exactly this trap).
+- Consequences already applied: the Todoist → Google Calendar sync was severed; Fantastical was rejected as a task planner (no Android support, and its task-on-calendar feature reintroduces exactly this trap). Since 2026-11-25 it is used read-only, through its MCP, as the capacity source for [[Protocol - Daily Plan (Todoist Timeboxing)]]. Nothing is written to it.
 
 ### 7. GTD is an Executive-function offload—not anti-ADHD
 
