@@ -1,12 +1,13 @@
 # Single source of truth for the top-level `status` field.
 # Read by validate_note_frontmatter.py, validate_note_shape.py and check_status_drift.py
-# through 10_System/scripts/status_schema.py. Meanings and promotion criteria live in the
+# through 10_System/scripts/schema.py. Meanings and promotion criteria live in the
 # note [[Note Status Lifecycle]]; do not restate them elsewhere.
 #
 # To change the lifecycle: edit this file, edit Note Status Lifecycle, then run
 #   uv run --with pyyaml python3 10_System/scripts/check_status_drift.py
-# Still hand-synced (generation not built yet): 10_System/fileClasses/Note.md and the
-# status dropdown in 10_System/templates/Template - Claim.md.
+# Still hand-synced (generation not built yet), but compared with this file by check_status_drift.py:
+# 10_System/fileClasses/Note.md and the status dropdown in 10_System/templates/Template - Claim.md.
+# Other vocabularies (type, epistemic_status, edge relations) live in enums.yaml.
 values:
   - seed
   - evergreen

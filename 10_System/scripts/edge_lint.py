@@ -46,22 +46,19 @@ import os
 import re
 import sys
 from dataclasses import dataclass, field
+from pathlib import Path
+
+# Vocabulary comes from 10_System/schema/enums.yaml via schema.py (needs PyYAML).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import schema  # noqa: E402
 
 # ---------------------------------------------------------------------------
-# Spec constants — keep in lockstep with the SoT §2 / §3. Editing this list IS
-# the sanctioned route to add a relationship type (per the SoT).
+# Spec constants — keep in lockstep with the SoT §2 / §3. Editing
+# 10_System/schema/enums.yaml IS the sanctioned route to add a relationship type (per the SoT).
 # ---------------------------------------------------------------------------
-VOCABULARY = {
-    "extends",
-    "synthesizes",
-    "implements",
-    "contradicts",
-    "supports",
-    "depends_on",
-    "revises",
-}
-CONFIDENCE_VALUES = {"high", "medium", "low"}
-STRENGTH_MIN, STRENGTH_MAX = 1, 5
+VOCABULARY = set(schema.EDGE_RELATIONS)  # single source: 10_System/schema/enums.yaml
+CONFIDENCE_VALUES = set(schema.EDGE_CONFIDENCE)
+STRENGTH_MIN, STRENGTH_MAX = schema.EDGE_STRENGTH_MIN, schema.EDGE_STRENGTH_MAX
 
 # Obsidian Tasks-plugin dataview-format fields share the same `[key:: value]`
 # bracket syntax as a typed edge but belong to an unrelated plugin (per-task

@@ -39,18 +39,14 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[2]
 FOLDER = "30_Library/100_zettelkasten"
 EFFECTIVE = "2026-09-26"  # the standard applies to notes created on or after this date
-SHAPE_TYPES = {"claim", "concept", "evidence", "procedure"}
-VALID_TYPES = {
-    "claim", "concept", "evidence", "question", "procedure", "protocol",
-    "map", "journal", "project", "sot", "link_report", "equipment",
-    "source", "prompt", "tombstone",
-}
-# Values and tiers come from 10_System/schema/status.yaml (single source of truth).
+# Values and tiers come from 10_System/schema/*.yaml via schema.py (single source).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import status_schema  # noqa: E402
+import schema  # noqa: E402
 
-VALID_STATUS = set(status_schema.VALUES)
-VALID_EPISTEMIC = {"high", "medium", "low", "unknown"}
+SHAPE_TYPES = {"claim", "concept", "evidence", "procedure"}
+VALID_TYPES = set(schema.TYPE)  # includes "problem"; single source: enums.yaml
+VALID_STATUS = set(schema.VALUES)
+VALID_EPISTEMIC = set(schema.EPISTEMIC_STATUS)
 
 # Keys the Obsidian Linter deletes on save, or that the standard drops.
 FORBIDDEN_KEYS = {"uid", "purpose", "epistemic", "updated", "creation_date", "last_reviewed"}
@@ -200,7 +196,7 @@ def check_note(path, text, check_links=True):
             err("FM5", f"legacy key '{k}' must not be written")
     if "confidence" in fm and ntype != "evidence":
         err("FM6", "'confidence' belongs to evidence notes only")
-    is_tier1_claim = ntype == "claim" and fm.get("status") in status_schema.TIER1
+    is_tier1_claim = ntype == "claim" and fm.get("status") in schema.TIER1
     type_req = ["epistemic_status"] if is_tier1_claim else TYPE_REQUIRED.get(ntype, [])
     for k in type_req:
         if k not in fm:

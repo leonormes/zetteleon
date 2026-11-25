@@ -1,0 +1,27 @@
+# Single source of truth for the closed vocabularies other than `status` (see status.yaml).
+# Read through 10_System/scripts/schema.py by validate_note_frontmatter.py,
+# validate_note_shape.py, edge_lint.py and check_status_drift.py.
+# Still hand-synced and checked by check_status_drift.py: the `type`, `status` and
+# `epistemic_status` options in 10_System/fileClasses/Note.md and claim.md, and the status and
+# epistemic_status dropdown in 10_System/templates/Template - Claim.md.
+type:
+  - claim
+  - concept
+  - evidence
+  - question
+  - procedure
+  - protocol
+  - map
+  - journal
+  - project
+  - sot
+  - link_report
+  - equipment
+  - source
+  - prompt
+  - tombstone
+  - problem
+epistemic_status: [high, medium, low, unknown]
+edge_relations: [extends, synthesizes, implements, contradicts, supports, depends_on, revises]
+edge_confidence: [high, medium, low]
+edge_strength: {min: 1, max: 5}

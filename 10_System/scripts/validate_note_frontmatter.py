@@ -22,13 +22,12 @@ from pathlib import Path
 # Vault root — resolve from env or assume cwd
 VAULT_ROOT = Path(os.environ.get("OBSIDIAN_VAULT_PATH", os.getcwd()))
 
-# Canonical type enum per §2
-VALID_TYPES = {
-    "claim", "concept", "evidence", "question",
-    "procedure", "protocol", "map", "journal",
-    "project", "sot", "link_report", "equipment", "source", "prompt", "tombstone",
-    "problem",
-}
+# Vocabularies come from 10_System/schema/*.yaml via schema.py.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import schema  # noqa: E402
+
+# Canonical type enum per §2 (single source: 10_System/schema/enums.yaml)
+VALID_TYPES = set(schema.TYPE)
 
 # Prodos.kind enum per §4.1
 VALID_PRODOS_KINDS = {
@@ -46,12 +45,9 @@ VALID_PRODOS_LIFECYCLES = {
 # common migration artifacts and are just as invalid to the Bases plugin as any other
 # out-of-enum string.
 # Values come from 10_System/schema/status.yaml (single source of truth).
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import status_schema  # noqa: E402
-
-VALID_STATUS = set(status_schema.VALUES)
-QUESTION_STATUS = VALID_STATUS | status_schema.TYPE_EXTRAS["question"]
-PROBLEM_STATUS = VALID_STATUS | status_schema.TYPE_EXTRAS["problem"]
+VALID_STATUS = set(schema.VALUES)
+QUESTION_STATUS = VALID_STATUS | schema.TYPE_EXTRAS["question"]
+PROBLEM_STATUS = VALID_STATUS | schema.TYPE_EXTRAS["problem"]
 
 # Fields whose fileClass type is MultiFile at the base `Note` level (not type-specific) —
 # same "must be a list, not a bare scalar" rule as TYPE_SCHEMA_LIST_FIELDS below, just
@@ -84,7 +80,7 @@ TYPE_SCHEMAS = {
 # A field merely being *present* is not enough — the Fileclass/Bases plugin enforces these
 # values live in Obsidian, so the script must too or it silently passes what the UI flags.
 TYPE_SCHEMA_ENUMS = {
-    "claim": {"epistemic_status": {"high", "medium", "low", "unknown"}},
+    "claim": {"epistemic_status": set(schema.EPISTEMIC_STATUS)},
     "problem": {"role": {"symptom", "root-cause", "constraint"}},
 }
 
