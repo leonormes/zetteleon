@@ -7,6 +7,12 @@ Runs, over the notes you changed:
   2. atomic note shape      (validate_note_shape.py)         - in-scope notes only (the script decides)
   3. typed edges            (edge_lint.py)                   - fails only on ERRORs in changed notes
   4. status drift           (check_status_drift.py)          - vault-wide, fails on any hit
+  5. protected notes        (AGENTS.md 6.1)                  - no body edit, delete, move or own_words
+     change to an own_words: true note or an existing note in 01_journals/ or 20_Thinking/.
+     Enforced on --staged only when CLAUDECODE is set (agent sessions) or PROTECTED_GUARD=1, so your
+     own commits stay frictionless; elsewhere it is a warning. Override: ALLOW_PROTECTED_EDIT=1.
+     Moving a note out of 20_Thinking/21_Workbench/ passes when the change also adds a
+     type: tombstone note with the same filename (the Workbench sweep).
 
 Legacy debt elsewhere in the vault never blocks a change. The quote gate (verify_quote.py) is
 not run here: it needs a Calibre id, so run it by hand when a quotation changes.
@@ -46,6 +52,94 @@ def changed_notes(staged_only: bool) -> tuple[list[str], set[str]]:
         changed = sorted(set(tracked) | set(untracked))
         new = set(untracked) | set(git("diff", "HEAD", "--name-only", "--diff-filter=AR", "-z", "--", "*.md"))
     return changed, new
+
+
+PROTECTED_DIRS = ("01_journals/", "20_Thinking/")
+WORKBENCH = "20_Thinking/21_Workbench/"
+OWN_WORDS_RE = re.compile(r"^own_words:\s*true\s*$", re.M)
+
+
+def show(spec: str) -> str | None:
+    p = subprocess.run(["git", "-C", str(ROOT), "show", spec], capture_output=True)
+    return p.stdout.decode("utf-8", "replace") if p.returncode == 0 else None
+
+
+def split_note(text: str) -> tuple[str, str]:
+    """Return (frontmatter, body). A note without frontmatter has an empty frontmatter."""
+    m = re.match(r"---\n(.*?)\n---\n?(.*)\Z", text, re.S)
+    return (m.group(1), m.group(2)) if m else ("", text)
+
+
+def norm_body(body: str) -> str:
+    return "\n".join(l.rstrip() for l in body.replace("\r\n", "\n").split("\n")).strip()
+
+
+def name_status(staged_only: bool) -> list[tuple[str, str, str]]:
+    """(status letter, old path, new path) for every changed or untracked-added file."""
+    args = ["diff", "--cached"] if staged_only else ["diff", "HEAD"]
+    toks = git(*args, "--name-status", "-M", "-z")
+    out, i = [], 0
+    while i < len(toks):
+        s = toks[i][0]
+        if s in "RC":
+            out.append((s, toks[i + 1], toks[i + 2])); i += 3
+        else:
+            out.append((s, toks[i + 1], toks[i + 1])); i += 2
+    if not staged_only:
+        out += [("A", u, u) for u in git("ls-files", "--others", "--exclude-standard", "-z")]
+    return out
+
+
+def protected_violations(staged_only: bool) -> list[str]:
+    """Messages describing edits to protected notes (AGENTS.md 6.1). Empty if none."""
+    entries = name_status(staged_only)
+
+    def new_text(path: str) -> str | None:
+        if staged_only:
+            return show(f":{path}")
+        f = ROOT / path
+        return f.read_text(encoding="utf-8", errors="replace") if f.exists() else None
+
+    tombstones = set()
+    added = []  # (frontmatter, normalised body) of every added note, to recognise a moved copy
+    for s, _, new in entries:
+        if s == "A" and new.endswith(".md"):
+            fm_a, body_a = split_note(new_text(new) or "")
+            added.append((bool(OWN_WORDS_RE.search(fm_a)), norm_body(body_a)))
+            if re.search(r"^type:\s*tombstone\s*$", fm_a, re.M):
+                tombstones.add(Path(new).stem)
+
+    out = []
+    for s, old, new in entries:
+        if s == "A" or not old.endswith(".md"):
+            continue
+        old_txt = show(f"HEAD:{old}")
+        if old_txt is None:
+            continue
+        old_fm, old_body = split_note(old_txt)
+        was_own = bool(OWN_WORDS_RE.search(old_fm))
+        protected = old.startswith(PROTECTED_DIRS) or was_own
+        new_txt = None if s == "D" else new_text(new)
+        # Workbench sweep: the note was moved elsewhere (added copy, same body and own_words flag)
+        # and a type: tombstone note now sits at the old path. Git stages that as a modification.
+        if (
+            s == "M" and old.startswith(WORKBENCH) and new_txt is not None
+            and re.search(r"^type:\s*tombstone\s*$", split_note(new_txt)[0], re.M)
+            and (was_own, norm_body(old_body)) in added
+        ):
+            continue
+        if new_txt is not None and bool(OWN_WORDS_RE.search(split_note(new_txt)[0])) != was_own:
+            out.append(f"{new}: own_words was added, removed or changed")
+        if not protected:
+            continue
+        if s == "D" or new_txt is None:
+            out.append(f"{old}: protected note deleted")
+            continue
+        if old != new and not (old.startswith(WORKBENCH) and Path(old).stem in tombstones):
+            out.append(f"{old}: protected note moved or renamed to {new}")
+        if norm_body(old_body) != norm_body(split_note(new_txt)[1]):
+            out.append(f"{new}: protected note body changed")
+    return out
 
 
 def run(script: str, *args: str) -> tuple[int, str]:
@@ -108,6 +202,22 @@ def main() -> int:
     for e in errs:
         print(f"  FAIL edges {e}")
     failures += [f"edges: {e}" for e in errs]
+
+    if not a.path:
+        import os
+
+        prot = protected_violations(a.staged)
+        enforce = a.staged and (os.environ.get("CLAUDECODE") or os.environ.get("PROTECTED_GUARD") == "1")
+        for v in prot:
+            if os.environ.get("ALLOW_PROTECTED_EDIT") == "1":
+                print(f"  note protected edit allowed by ALLOW_PROTECTED_EDIT=1: {v}")
+            elif enforce:
+                print(f"  FAIL protected {v}")
+                failures.append(f"protected: {v}")
+            else:
+                print(f"  WARN protected {v}")
+        if prot and enforce and os.environ.get("ALLOW_PROTECTED_EDIT") != "1":
+            print("  (set ALLOW_PROTECTED_EDIT=1 to override; see AGENTS.md 6.1)")
 
     rc, out = run("check_status_drift.py")
     if rc != 0:
