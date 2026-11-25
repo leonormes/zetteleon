@@ -37,7 +37,7 @@ This claim is derived from phenomenological observation and synthesis across the
 - [[Thoughts are bundled with phenomenological qualities]]—_upstream premise: names the emotional resonance and felt significance that consciousness packages with thoughts before writing._
 - [[Language Discretises Continuous Experience]]—_linguistic mechanism: mapping continuous felt experience onto finite words inevitably drops affective nuance._
 - [[Writing Creates Cognitive Distance for Objective Evaluation]]—_downstream effect: isolating bare propositions is what creates psychological distance for objective scrutiny._
-- [[Felt Significance of Thoughts Can Mislead About Their Substance]]—_diagnostic consequence: explains why thoughts that feel profound internally can look ordinary once written._
+- [[Felt significance of thoughts can mislead about their substance]]—_diagnostic consequence: explains why thoughts that feel profound internally can look ordinary once written._
 - [[The Disappointment of Written Thoughts]]—_affective cost: names the characteristic letdown when felt profundity vanishes on the page (also via lost tacit scaffolding)._
 - [[Writing puts us in the powerful position of being able to observe our thinking]]—_logical audit: once stripped of felt conviction, the remaining propositions expose contradictions between assumed and actual beliefs._
 
@@ -47,6 +47,6 @@ This claim is derived from phenomenological observation and synthesis across the
 
 [supports:: [[Writing Creates Cognitive Distance for Objective Evaluation]], strength=5, confidence=high]
 
-[supports:: [[Felt Significance of Thoughts Can Mislead About Their Substance]], strength=5, confidence=high]
+[supports:: [[Felt significance of thoughts can mislead about their substance]], strength=5, confidence=high]
 
 [supports:: [[The Disappointment of Written Thoughts]], strength=4, confidence=high]

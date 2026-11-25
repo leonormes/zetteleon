@@ -35,7 +35,7 @@ This claim is derived from cognitive synthesis across the writing-to-think and m
 ### Related
 
 - [[Writing isolates propositional content from phenomenological experience]]—_how distance arises: writing strips away emotional resonance and felt significance, leaving only the bare claim._
-- [[Felt Significance of Thoughts Can Mislead About Their Substance]]—_why distance is needed: internal thoughts carry felt importance that dissociates from actual validity._
+- [[Felt significance of thoughts can mislead about their substance]]—_why distance is needed: internal thoughts carry felt importance that dissociates from actual validity._
 - [[Writing puts us in the powerful position of being able to observe our thinking]]—_sibling mechanism: focuses on auditing argument structure and logical leaps alongside bias reduction._
 - [[Daily Writing is a Cognitive Practice for Structuring Thought]]—_habitual practice: regular writing turns cognitive distance into a repeatable discipline._
 - [[SoT - Unified Writing to Think Process]]—_umbrella framework: synthesises this restructuring mechanism as cognitive mechanic §3.4._
@@ -44,7 +44,7 @@ This claim is derived from cognitive synthesis across the writing-to-think and m
 
 [depends_on:: [[Writing isolates propositional content from phenomenological experience]], strength=5, confidence=high]
 
-[supports:: [[Felt Significance of Thoughts Can Mislead About Their Substance]], strength=4, confidence=high]
+[supports:: [[Felt significance of thoughts can mislead about their substance]], strength=4, confidence=high]
 
 [extends:: [[SoT - Unified Writing to Think Process]], strength=4, confidence=high]
 

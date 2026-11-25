@@ -8,7 +8,7 @@ permalink: llmeon/30-library/100-zettelkasten/evidence-sloman-and-fernbach-find-
 source_quote: People overestimate their understanding of political issues like tax policy and foreign relations, of hot-button scientific topics like GMOs and climate change, and even of their own finances.
 source_reference: Steven Sloman and Philip Fernbach, The Knowledge Illusion - The Myth of Individual Thought and the Power of Collective Wisdom, on the illusion of explanatory depth of Rozenblit and Keil (Calibre id 707, EPUB or PDF; page not captured by the index)
 supports_claims:
-  - "[[Felt Significance of Thoughts Can Mislead About Their Substance]]"
+  - "[[Felt significance of thoughts can mislead about their substance]]"
 tags:
   - evidence
   - illusion-of-understanding
@@ -23,13 +23,13 @@ type: evidence
 
 ### What it Supports
 
-A close relative of [[Felt Significance of Thoughts Can Mislead About Their Substance]]: the feeling of understanding also outruns actual understanding, across topics from politics to one's own finances, and the authors call the effect one of the most robust in psychology.
+A close relative of [[Felt significance of thoughts can mislead about their substance]]: the feeling of understanding also outruns actual understanding, across topics from politics to one's own finances, and the authors call the effect one of the most robust in psychology.
 
 ### What it Does not Show
 
 It measures felt understanding, not felt significance, and it is about knowing how things work. The link to profundity is by analogy, which is why the vault types the relationship to the IoED note as `supports`, not as identity.
 
-[supports:: [[Felt Significance of Thoughts Can Mislead About Their Substance]], confidence=medium]
+[supports:: [[Felt significance of thoughts can mislead about their substance]], confidence=medium]
 
 [supports:: [[IoED Definition Gap Felt vs Actual Understanding]], confidence=medium]
 
