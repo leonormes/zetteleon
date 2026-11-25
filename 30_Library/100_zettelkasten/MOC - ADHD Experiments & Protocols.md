@@ -43,7 +43,7 @@ Instead of a standalone 1-week manual logging ritual, experiments plug directly 
 
 1. **Frame (`HEAD` Question):** Promote a candidate idea to a `HEAD - <question>?` (`type: question`, `status: open`, `tags: [experiment, TheHuman/Health/ADHD]`) in `20_Thinking/21_Workbench/` with a `## What Would Settle It` section. CoS (`work-review-launchpad`) and `02_bases/Thinking.base` surface it automatically.
 2. **Execute (Todoist Runway):** Schedule a single `<=15m` physical-verb starter or `/daily-plan` timebox in Todoist. Do not maintain a daily results table in Zettelkasten.
-3. **Close (Weekly Command Centre / Daily Note):** Capture any raw observation in `01_journals/Dailies/` or as the single *One Friction Fix* line in Friday's `[[Protocol - Weekly Command Centre]]` (Move 4). When settled, promote the finding to a `claim`/`evidence` or `protocol` (`status: seed` → `stable`), mark the `HEAD` note `status: resolved`, and archive via `[[Protocol - Workbench Compliance Sweep]]`.
+3. **Close (Weekly Command Centre / Daily Note):** Capture any raw observation in `01_journals/Dailies/` or as the single *One Friction Fix* line in Friday's `[[Protocol - Weekly Command Centre]]` (Move 4). When settled, promote the finding to a `claim`/`evidence` or `protocol` (`status: seed` → `evergreen`), mark the `HEAD` note `status: resolved`, and archive via `[[Protocol - Workbench Compliance Sweep]]`.
 
 ---
 

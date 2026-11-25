@@ -14,7 +14,7 @@ description: >-
 - All standalone `.base` files live in `02_bases/` (e.g., `Thinking.base`, `Zettelkasten.base`, `SoT.base`, `claim.base`, `concept.base`, `evidence.base`, `procedure.base`, `Question.base`, `MOCx.base`, `Inbox.base`, `LLM Prompts.base`).
 - Every note is governed by `[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]`:
   - Canonical `type` values: `claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`.
-  - Base envelope fields: `title`, `type`, `tags`, `conformant` (boolean), `non_conformance_reason`, `status` (`draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`, or for HEAD notes `open`, `thinking`, `resolved`).
+  - Base envelope fields: `title`, `type`, `tags`, `conformant` (boolean), `non_conformance_reason`, `status` (`seed`, `evergreen`, `stale`, `superseded`, or for HEAD notes `open`, `thinking`, `resolved`).
 - Call `shale intent "<description>"` before editing any `.base` or `.md` file, and `shale done` when finished.
 
 ## Schema Overview

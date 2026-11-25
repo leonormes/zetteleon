@@ -29,7 +29,7 @@ States the baseline functional role of the prefrontal cortex across executive do
 
 ### Evidence
 
-No verbatim source quotation or dedicated evidence note supports this card yet. It synthesises the baseline prefrontal executive-control premise already stated across [[Executive Function]], [[Task Initiation Activates Medial Prefrontal Regions for Energization]], [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], and [[Executive Dysfunction Has Causes Beyond ADHD Including Autism and Degenerative Disease]]; a primary neuroscience source should be verified to promote it from `seed` to `stable`.
+No verbatim source quotation or dedicated evidence note supports this card yet. It synthesises the baseline prefrontal executive-control premise already stated across [[Executive Function]], [[Task Initiation Activates Medial Prefrontal Regions for Energization]], [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], and [[Executive Dysfunction Has Causes Beyond ADHD Including Autism and Degenerative Disease]]; a primary neuroscience source should be verified to promote it from `seed` to `evergreen`.
 
 ### Implications
 

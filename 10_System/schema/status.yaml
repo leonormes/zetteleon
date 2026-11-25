@@ -1,0 +1,26 @@
+# Single source of truth for the top-level `status` field.
+# Read by validate_note_frontmatter.py, validate_note_shape.py and check_status_drift.py
+# through 10_System/scripts/status_schema.py. Meanings and promotion criteria live in the
+# note [[Note Status Lifecycle]]; do not restate them elsewhere.
+#
+# To change the lifecycle: edit this file, edit Note Status Lifecycle, then run
+#   uv run --with pyyaml python3 10_System/scripts/check_status_drift.py
+# Still hand-synced (generation not built yet): 10_System/fileClasses/Note.md and the
+# status dropdown in 10_System/templates/Template - Claim.md.
+values:
+  - seed
+  - evergreen
+  - stale
+  - superseded
+  - archived
+# Atomic notes with these values are Tier 1 (lightweight card). Every other value is Tier 2.
+tier1:
+  - seed
+# Extra values allowed only on a given note type.
+type_extras:
+  question: [open, thinking, resolved]
+  problem: [captured, clarifying, active-project, mitigated, accepted-constraint]
+# Values that were removed. Prose that names them as a status is flagged by the drift check.
+retired:
+  - draft
+  - stable

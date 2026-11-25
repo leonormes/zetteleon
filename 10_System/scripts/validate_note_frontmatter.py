@@ -45,9 +45,13 @@ VALID_PRODOS_LIFECYCLES = {
 # every canonical note type, including claim. Empty-string/literal-"null" legacy values are
 # common migration artifacts and are just as invalid to the Bases plugin as any other
 # out-of-enum string.
-VALID_STATUS = {"seed", "evergreen", "stale", "superseded", "archived"}
-QUESTION_STATUS = VALID_STATUS | {"open", "thinking", "resolved"}
-PROBLEM_STATUS = VALID_STATUS | {"captured", "clarifying", "active-project", "mitigated", "accepted-constraint"}
+# Values come from 10_System/schema/status.yaml (single source of truth).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import status_schema  # noqa: E402
+
+VALID_STATUS = set(status_schema.VALUES)
+QUESTION_STATUS = VALID_STATUS | status_schema.TYPE_EXTRAS["question"]
+PROBLEM_STATUS = VALID_STATUS | status_schema.TYPE_EXTRAS["problem"]
 
 # Fields whose fileClass type is MultiFile at the base `Note` level (not type-specific) —
 # same "must be a list, not a bare scalar" rule as TYPE_SCHEMA_LIST_FIELDS below, just

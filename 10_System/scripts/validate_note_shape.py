@@ -45,7 +45,11 @@ VALID_TYPES = {
     "map", "journal", "project", "sot", "link_report", "equipment",
     "source", "prompt", "tombstone",
 }
-VALID_STATUS = {"seed", "evergreen", "stale", "superseded", "archived"}
+# Values and tiers come from 10_System/schema/status.yaml (single source of truth).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import status_schema  # noqa: E402
+
+VALID_STATUS = set(status_schema.VALUES)
 VALID_EPISTEMIC = {"high", "medium", "low", "unknown"}
 
 # Keys the Obsidian Linter deletes on save, or that the standard drops.
@@ -196,7 +200,7 @@ def check_note(path, text, check_links=True):
             err("FM5", f"legacy key '{k}' must not be written")
     if "confidence" in fm and ntype != "evidence":
         err("FM6", "'confidence' belongs to evidence notes only")
-    is_tier1_claim = ntype == "claim" and fm.get("status") == "seed"
+    is_tier1_claim = ntype == "claim" and fm.get("status") in status_schema.TIER1
     type_req = ["epistemic_status"] if is_tier1_claim else TYPE_REQUIRED.get(ntype, [])
     for k in type_req:
         if k not in fm:

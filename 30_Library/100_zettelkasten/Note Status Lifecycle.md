@@ -30,7 +30,7 @@ A note's `status` field records how mature and trustworthy the note is, not whet
 ### Scope & Conditions
 
 - Applies to any note with a `type`. The field is optional, so a note with no `status` is simply unclassified, not invalid.
-- Unlike `epistemic_status`, which says how sure the claim is, `status` says how finished and how current the note is. A well-evidenced claim can sit in a `seed` note, and a speculative one can be `stable` once it is complete and linked.
+- Unlike `epistemic_status`, which says how sure the claim is, `status` says how finished and how current the note is. A well-evidenced claim can sit in a `seed` note, and a speculative one can be `evergreen` once it is complete and linked.
 - Notes with `own_words: true`, and everything in `01_journals/` and `20_Thinking/`, are protected. An agent never edits their body, so it cannot promote them through the criteria below. It can only suggest a status in chat.
 - Notes created before 2026-09-26 are frozen under the Atomic Note Standard. A status change is a frontmatter edit and does not oblige anyone to restructure the body.
 
@@ -70,7 +70,7 @@ The old criteria of a `purpose` field, a `confidence` score and a `review_interv
 
 ### Evidence
 
-- The enum is stated in the Frontmatter Contract §2 and mirrored in `VALID_STATUS` in `validate_note_frontmatter.py` and in the `Note` fileClass. Those agree on five values, and `VALID_STATUS` in `validate_note_shape.py` now matches. The contract records that `seed` was added on 2026-09-22 and `archived` on 2026-11-22.
+- The enum is held in one file, `10_System/schema/status.yaml`, which both validators read. The `Note` fileClass and the Claim template's dropdown are still synced by hand, and `check_status_drift.py` flags prose or frontmatter that names a retired value. To change the lifecycle, edit the YAML and this note, then run the drift check. The contract records that `seed` was added on 2026-09-22 and `archived` on 2026-11-22.
 - The retirement of `purpose` and `last_reviewed` for atomic notes is recorded in the Atomic Note Standard.
 - The promotion thresholds (one and two inbound structural links, author review) come from this note's earlier version and have not been tested against the vault. No script currently computes inbound structural link counts or promotes anything.
 
