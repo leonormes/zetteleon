@@ -18,6 +18,9 @@ Usage (from anywhere):
 Exit code 1 if any gate fails. SKIP_NOTE_SHAPE=1 skips the shape gate (same switch as the script).
 """
 import argparse
+import sys as _sys
+
+_sys.dont_write_bytecode = True  # importing validate_note_shape must not litter __pycache__
 import re
 import subprocess
 import sys
