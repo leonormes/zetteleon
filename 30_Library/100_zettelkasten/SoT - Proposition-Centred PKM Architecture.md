@@ -44,8 +44,8 @@ Index notes (`type: map` / MOCs) and Single Sources of Truth (`type: sot`) sit a
 
 Pushing full schema ceremony onto every note at capture creates extraneous cognitive load and triggers maintenance avoidance. Rigour is therefore **pulled** only when load-bearing:
 
-- **Tier 1 (Default Claim):** `status: seed` or `draft` — declarative sentence title + 1–3 sentence opening rationale + `epistemic_status`. Zero required falsifiers, `Scope & Conditions`/`Evidence`/`Implications` sections, or typed edges. Every claim promoted into `30_Library/` enters at Tier 1.
-- **Tier 2 (Load-Bearing Claim):** Escalate to `status: stable` / `evergreen` and the full schema (`proposition`, `evidence_links`, `contradicts`, `Scope & Conditions`, `Evidence`, `Implications`, `Falsifier` expected, Typed Edges) **only** when a claim:
+- **Tier 1 (Default Claim):** `status: seed` — declarative sentence title + 1–3 sentence opening rationale + `epistemic_status`. Zero required falsifiers, `Scope & Conditions`/`Evidence`/`Implications` sections, or typed edges. Every claim promoted into `30_Library/` enters at Tier 1.
+- **Tier 2 (Load-Bearing Claim):** Escalate to `status: evergreen` and the full schema (`proposition`, `evidence_links`, `contradicts`, `Scope & Conditions`, `Evidence`, `Implications`, `Falsifier` expected, Typed Edges) **only** when a claim:
   1. is consulted for a real decision, or
   2. directly contradicts another note.
 

@@ -51,7 +51,7 @@ Agents may read and write freely across all folders, except for protected notes 
 Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—read it in full; this is a pointer, not a substitute. Reconciled 2026-09-22: the contract's §1 explicitly un-deprecates `type` ("superseding previous deprecation"), so the guidance below replaces this file's earlier "avoid `type`/`status`" wording.
 
 - `type` is required on every note (§2), set to one of the contract's enum values. Fileclass's own class-detection (`fileClassAlias: type`) keys off this field—a note without it gets no schema, no validation, no editable Bases row, whatever its `prodos` object says.
-- `status` is optional top-level (§2): `draft`, `stable`, `evergreen`, `stale`.
+- `status` is optional top-level (§2): `seed`, `evergreen`, `stale` (plus `superseded`, `archived`).
 - `prodos.kind`/`prodos.lifecycle` (§4) are a separate, optional routing/lifecycle layer, not a `type`/`status` replacement—add them alongside `type`, not instead of it, when the note's folder or role calls for routing (§7).
 - Still legacy and still to avoid on new content: `updated`, `creation_date` (§6—fold their value into `created`/`modified` instead).
 - Atomic notes in `30_Library/100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]]: the proposition-card body, full-sentence claim titles, annotated links, and no `prodos` key (dropped 2026-09-26). It is checked by `10_System/scripts/validate_note_shape.py` on notes created from 2026-09-26 (older notes are frozen). Run it on every atomic note you create. The repo pre-commit hook also runs it, but that hook is currently not chained from git's global hook, see the standard §6.

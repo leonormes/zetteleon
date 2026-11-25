@@ -72,7 +72,7 @@ A capture that genuinely provoked a question does not get to stay by association
 | Checklist, runbook, per-site procedure | `30_Library/100_zettelkasten/` as a `Protocol -` note |
 | Vault audit output, migration report | `90_Audits/` |
 | Meeting notes, raw transcript | `00_Inbox/` |
-| Settled or testable claim | `30_Library/100_zettelkasten/` as an atomic `claim` note (`status: seed` Tier 1 or `stable`), then compiled into an `SoT -` argument thread via [[Prompt - ProdOS Chronos Synthesizer]] |
+| Settled or testable claim | `30_Library/100_zettelkasten/` as an atomic `claim` note (`status: seed` Tier 1 or `evergreen`), then compiled into an `SoT -` argument thread via [[Prompt - ProdOS Chronos Synthesizer]] |
 | A task | Todoist. The vault does not hold actions. |
 
 ---

@@ -46,7 +46,7 @@ The complete, formatted Markdown content for the new Target Note.
     - `title`: matches the filename exactly.
     - `type`: `sot` or `protocol`—lowercase, never `SoT`/`Protocol`. Never invent a new value.
     - `tags`: [prodos, sot, …related]—non-empty.
-    - `status`: `draft` (Leon promotes it to `stable` after reading the merge)
+    - `status`: `seed` (Leon promotes it to `evergreen` after reading the merge)
     - `non_conformance_reason`: required only when `conformant: false`
     - `conformant`: `true` if every required field is populated with confidence; otherwise `false` with `non_conformance_reason` explaining why.
 2. Deduplication: Remove repetitive info.

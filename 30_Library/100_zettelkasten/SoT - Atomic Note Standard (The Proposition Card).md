@@ -90,7 +90,7 @@ Applies to notes of `type` `claim`, `concept`, `evidence` and `procedure`. Maps 
 Rules:
 
 1. No H1. The title is the H2, and the section headings are H3. The Linter enforces this on save.
-2. Section order is fixed: Scope & Conditions, Evidence, Implications, then any of Falsifier, Steelman, Related, Tensions, See Also, Further Reading in that order. The first three are required on `status: stable` or `evergreen` (Tier 2) notes, and optional on `status: seed` or `draft` (Tier 1) claims. Omit an optional section rather than leave it empty.
+2. Section order is fixed: Scope & Conditions, Evidence, Implications, then any of Falsifier, Steelman, Related, Tensions, See Also, Further Reading in that order. The first three are required on `status: evergreen` (Tier 2) notes, and optional on `status: seed` (Tier 1) claims. Omit an optional section rather than leave it empty.
 3. The opening statement is at most three sentences. If you need a fourth, or a "but", it is probably two notes. The validator warns at four sentences and fails at six.
 4. Evidence is verbatim. A quotation is copied exactly and its source named. If the claim is your own reasoning, say so in Evidence in a plain sentence instead of inventing a quote. A quotation from a book in the Calibre library is checked with `verify_quote.py` before it is written and cited as in §9.
 5. Links are annotated. Every bullet under Related and Tensions has a dash and a reason. A bare link is allowed only under See Also.
@@ -106,7 +106,7 @@ Evidence notes use a different card: the title, the verbatim quote as a blockquo
 The fields per type are in the Contract §3. This note adds the rules that the Contract left implicit.
 
 - Required on every atomic note: `title` (matches the filename), `type`, `tags` (not empty), `conformant`, `created`, `modified`.
-- Required by type: `stable` or `evergreen` (Tier 2) claims need `proposition`, `epistemic_status`, `evidence_links`, `contradicts`; `seed` or `draft` (Tier 1) claims need only `epistemic_status`. Concept needs `definition`, `distinguishes_from`, `used_in_claims`. Evidence needs `source_quote`, `source_reference`, `supports_claims`, `confidence`. Procedure needs `trigger`, `steps`, `verification`.
+- Required by type: `evergreen` (Tier 2) claims need `proposition`, `epistemic_status`, `evidence_links`, `contradicts`; `seed` (Tier 1) claims need only `epistemic_status`. Concept needs `definition`, `distinguishes_from`, `used_in_claims`. Evidence needs `source_quote`, `source_reference`, `supports_claims`, `confidence`. Procedure needs `trigger`, `steps`, `verification`.
 - Provenance is optional: `source_title`, `source_url`, `upstream`, `created_utc`.
 - `prodos.*` is dropped (decided 2026-09-26). The Obsidian Linter deletes the `prodos` key on save and 87% of notes never carried it, so `type` and `status` carry that information. Do not write it.
 - `confidence` belongs to evidence notes only, as a number from 0 to 1. On any other type it is an error.
@@ -134,7 +134,7 @@ Decided 2026-09-26: the standard is enforced on new notes only, and legacy notes
 
 | Layer | What it does |
 |---|---|
-| `10_System/scripts/validate_note_shape.py` | Checks the frontmatter and body rules above (gating Tier 2 card sections on `stable`/`evergreen`). Default run scans in-scope notes; `--path` checks named files; `--staged` is what the hook uses; `--report` counts legacy shapes without failing. |
+| `10_System/scripts/validate_note_shape.py` | Checks the frontmatter and body rules above (gating Tier 2 card sections on `evergreen`). Default run scans in-scope notes; `--path` checks named files; `--staged` is what the hook uses; `--report` counts legacy shapes without failing. |
 | `10_System/scripts/edge_lint.py` | Checks typed edges, unresolved `![[...]]` transclusions, missing `^claim`/`^def` block IDs, and SoTs embedding notes without `synthesizes`/`depends_on` edges. |
 | `10_System/scripts/verify_quote.py` | Checks that a quotation appears verbatim in a Calibre book and prints the chapter, PDF page, a paste-ready citation line and a full reference. Run it on every quotation taken from a book (see §9). Exit code 1 means a quote was not found. |
 | `.git/hooks/pre-commit` | Validates each newly added note's frontmatter, lints edges, then runs the shape check on staged in-scope notes. Legacy notes are not blocked. `SKIP_NOTE_SHAPE=1` skips the shape check for one commit. Dormant today: see the note below the table. |
@@ -153,6 +153,7 @@ The validator cannot judge whether a note holds one idea or whether a title read
 - 2026-09-26: claim titles are full sentences, as the Contract already required.
 - 2026-09-26: enforcement applies to new notes only.
 - 2026-11-17: Tier 1 (`status: seed` or `draft`) claims stay lightweight; full Proposition Card fields and sections are gated on Tier 2 (`status: stable` or `evergreen`), and `Falsifier` is an optional section (§2, §3).
+- 2026-11-25: `draft` and `stable` retired from `status`. Tier 1 is now `seed` only and Tier 2 is `evergreen` only. Tiers are unchanged: `draft` was already Tier 1 and `stable` already Tier 2, so the migration moves no note between tiers. Note that old `stable` notes became `evergreen` without a fresh review.
 - 2026-11-17: SoTs are compiled threads that transclude cards. The embed unit is the opening statement, marked `^claim` on claims and `^def` on concepts (rule 8).
 - 2026-11-17: legacy SoTs convert on next substantive edit, and rule-bearing specification SoTs stay prose (§8). Proposed by the agent, pending Leon's confirmation.
 - 2026-11-17: a quotation from a Calibre book is verified with `verify_quote.py` and cited author-year with chapter and PDF page, plus a Calibre chapter link (§9). Confirmed on the desktop viewer by Leon.
