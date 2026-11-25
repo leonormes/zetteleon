@@ -11,7 +11,7 @@ permalink: llmeon/30-library/so-t/protocol-vague-to-action
 project_category: prodos
 see_also:
   - "[[Protocol - Action-First GTD (LLM Chief of Staff)]]"
-status: evergreen
+status: draft
 tags:
   - execution
   - prodos

@@ -1,15 +1,21 @@
 ---
-aliases: [Fable Evolution Sequence]
+aliases:
+  - Fable Evolution Sequence
 created: 2025-10-31T12:29:00+00:00
 goal: Understand fable adaptation across cultures
-last_reviewed: '2025-11-01'
-modified: 2026-10-22T15:11:14+00:00
+last_reviewed: 2025-11-01
+modified: 2026-11-24T22:21:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/sequence-evolution-of-fable-storytelling
-status: evergreen
-tags: [fable, history, sequence, storytelling, type/moc]
+status: draft
+tags:
+  - fable
+  - history
+  - sequence
+  - storytelling
+  - type/moc
 title: Sequence - Evolution of Fable Storytelling
 type: sequence
-updated: null
+updated:
 ---
 
 ## Sequence - Evolution of Fable Storytelling

@@ -5,7 +5,7 @@ aliases:
   - Household Teamwork SoT
 conformant: true
 created: 2026-11-24T10:25:00+00:00
-modified: 2026-11-24T16:27:00+00:00
+modified: 2026-11-24T19:06:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/so-t-family-household-chores
 prodos:
   kind: sot
@@ -32,7 +32,6 @@ type: sot
 > - **Everyday family guide, Week A/B/C rotas & plain-English checklists:** [[Family Chores - Everyone's Guide]]
 > - **Parent-grade technical SOPs, L1–L3 storage zoning, Zone DoDs & Addison's dog medical safety:** [[Protocol - Household Zone Standards & Pet Care SOPs]]
 > - **Companion protocols:** [[Protocol - Co-Admin Onboarding (Zofja)]] · [[Protocol - Bessie Study Cadence & Neurodiverse Scaffolding]] · [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]] · [[Protocol - Household Routine Reset Conversation]]
-> - **Open inquiry:** [[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]
 
 ## Minimum Viable Understanding (MVU)
 
@@ -178,6 +177,45 @@ views:
 - [[How to Tap Out and Tap In During Household Overload]]—_Procedure for parental Tag-Team Handovers during saturation._ [synthesizes:: [[How to Tap Out and Tap In During Household Overload]], strength=4, confidence=high]
 - [[How to Run the Weekly Family Meeting]]—_Procedure for the Sunday celebration, rotation handover, and single-variable tweak._ [synthesizes:: [[How to Run the Weekly Family Meeting]], strength=4, confidence=high]
 
+
+### Put-Away Friction, Decision Load & Room Resets (Seed Cards, 2026-11-24)
+
+*These cards come from three unchecked AI chat summaries and are `epistemic_status: low`. Each emits `[implements:: [[SoT - Family Household Chores]]]`, so the links below are plain and carry no typed edge back, which avoids two-way cycles.*
+
+**Concepts**
+
+- [[Put-Away Dependency Cascade]]—_a small put-away that chains into an overhaul._
+- [[Clutterbug Storage Taxonomy]]—_two axes, visual or hidden and macro or micro, giving four storage profiles._
+- [[5 Things Tidying Method]]—_five category passes for resetting any room._
+
+**Claims**
+
+- [[When Putting Away One Item Means Moving Others, Depleted Executive Capacity Turns a Small Task Into Shutdown]]—_why cascades end in abandonment._
+- [[Each Decision About Where an Item Goes, Which Category It Belongs To and How to Reach Its Container Drains Executive Bandwidth]]—_placement decisions as the hidden load._
+- [[Tidying and Reorganising Are Separate Tasks That Should Not Share a Session]]—_keep resets and restructuring apart._
+- [[Daily Reset Duties Should Exclude Storage Interiors and Leave Deep Reorganisation to High-Capacity Bursts]]—_daily minimum versus deep maintenance._
+- [[A Cupboard That Needs Two Items Moved to Reach a Third Has Exceeded Its Capacity]]—_a two-item test for overfull storage._
+- [[Storing Items at Their Point of Use Reduces Put-Away Friction More Than Conventional Placement]]—_follow where items actually land._
+- [[Broad Open-Top Containers Make Put-Away a Single Motion Where Fine Categories Do Not]]—_remove lids and doors from busy bins._
+- [[Broad Categories Replace Sorting Decisions With a One-Second Binary Check]]—_fewer categories, fewer decisions._
+- [[Out-of-Sight Storage Forces Working Memory to Hold a Fragile Inventory of Where Things Are]]—_closed storage taxes memory for visual users._
+- [[Visible Clutter Costs People Who Need Visual Calm a Continuous Filtering Effort]]—_open storage taxes calm-seeking users._
+- [[Storage in a Shared Household Should Fit the Visibility and Detail Preferences of Each User]]—_match storage to each person._
+- [[Storage Should Be Designed for the Worst Day and Not for Peak Motivation]]—_design for the lowest-energy user._
+- [[Any Messy Room Contains Only Five Kinds of Things, So Tidying Reduces to Five Low-Decision Passes]]—_five passes replace item-level decisions._
+- [[Working One Category at a Time Across the Whole Room Reduces Tidying to One Yes or No Question at a Time]]—_one low-bandwidth question per pass._
+- [[Staying in the Room Until the Sweep Is Complete Prevents Derailment by Secondary Chores]]—_no trips mid-reset._
+- [[Clearing Rubbish and Dishes First Visibly Changes a Room and Builds Momentum]]—_hazards first for visible progress._
+- [[Collecting Dishes and Laundry Without Washing or Sorting Keeps a Tidy From Turning Into a Deep Task]]—_gather during the tidy, process later._
+- [[A Tidy Ordered by Hazard Leaves the Room Livable Even if Energy Runs Out Early]]—_every stopping point is acceptable._
+
+**Procedures**
+
+- [[How to Run the 5 Things Tidy in One Room]]—_the six-step room reset._
+- [[How to Build a Room-Reset Kit for the 5 Things Tidy]]—_pre-place the bag, hamper and basket._
+- [[How to Use a Holding Basket When an Item Has No Easy Home]]—_park unhomed items instead of reorganising._
+- [[How to Clear a Work Surface With a Sweep Basket]]—_sweep displaced items out of the way._
+- [[How to Match a Storage Style to a Person and a Space]]—_choose a profile and trial it for two weeks._
 ### See Also (Derived Guides, Protocols & Domain Hubs)
 
 *(Companion protocols and project guides emit `[implements:: [[SoT - Family Household Chores]]]`, projecting into South on the K-Plex Idea Compass without structural cycles.)*

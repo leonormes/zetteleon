@@ -14,9 +14,7 @@ project_status: active
 source: Distilled from the processing note "HEAD — Gaining Control The 5 Stages of Work Flow" (Claude + Gemini sessions, 2026-06-02)
 status: stable
 tags:
-  - 5
   - gtd
-  - jira
   - obsidian
   - productivity
   - system

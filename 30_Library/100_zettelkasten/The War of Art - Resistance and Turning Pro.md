@@ -1,20 +1,20 @@
 ---
 aliases:
-- Amateur vs Professional Mindset
-- Resistance (Pressfield)
-- Turning Pro
-created: 2025-12-11 00:00:00+00:00
-last_reviewed: '2025-12-11'
-modified: 2026-02-01 15:08:24+00:00
-status: sapling
+  - Amateur vs Professional Mindset
+  - Resistance (Pressfield)
+  - Turning Pro
+created: 2025-12-11T00:00:00+00:00
+last_reviewed: 2025-12-11
+modified: 2026-11-24T22:23:02+00:00
+status: draft
 tags:
-- mental_model
-- pressfield
-- TheHuman/Psychology
-- topic/productivity
+  - mental_model
+  - pressfield
+  - TheHuman/Psychology
+  - topic/productivity
 title: The War of Art - Resistance and Turning Pro
 type: principle
-updated: null
+updated:
 permalink: llmeon/30-library/100-zettelkasten/the-war-of-art-resistance-and-turning-pro
 ---
 
