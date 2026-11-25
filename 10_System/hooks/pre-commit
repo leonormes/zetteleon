@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Vault pre-commit: only chains the global secret-scan hook. The vault gates run in the
+# commit-msg hook (same directory), because that hook can see the commit message and so can
+# exempt the automatic "vault backup:" commits.
+#
+# Versioned here; git is pointed at this directory per-repo with
+#   git config core.hooksPath 10_System/hooks
+# (the global core.hooksPath, ~/.config/git/hooks, does not chain to repo hooks).
+set -euo pipefail
+GLOBAL_HOOK="$HOME/.config/git/hooks/pre-commit"
+if [ -x "$GLOBAL_HOOK" ]; then
+    "$GLOBAL_HOOK"
+fi

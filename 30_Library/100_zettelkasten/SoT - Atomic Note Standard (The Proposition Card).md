@@ -137,14 +137,14 @@ Decided 2026-09-26: the standard is enforced on new notes only, and legacy notes
 | `10_System/scripts/validate_note_shape.py` | Checks the frontmatter and body rules above (gating Tier 2 card sections on `evergreen`). Default run scans in-scope notes; `--path` checks named files; `--staged` is what the hook uses; `--report` counts legacy shapes without failing. |
 | `10_System/scripts/edge_lint.py` | Checks typed edges, unresolved `![[...]]` transclusions, missing `^claim`/`^def` block IDs, and SoTs embedding notes without `synthesizes`/`depends_on` edges. |
 | `10_System/scripts/verify_quote.py` | Checks that a quotation appears verbatim in a Calibre book and prints the chapter, PDF page, a paste-ready citation line and a full reference. Run it on every quotation taken from a book (see §9). Exit code 1 means a quote was not found. |
-| `.git/hooks/pre-commit` | Validates each newly added note's frontmatter, lints edges, then runs the shape check on staged in-scope notes. Legacy notes are not blocked. `SKIP_NOTE_SHAPE=1` skips the shape check for one commit. Dormant today: see the note below the table. |
+| `10_System/hooks/commit-msg` (with `pre-commit`) | Runs `10_System/scripts/check_all.py --staged`: frontmatter of each newly added note, this shape check on staged in-scope notes, typed edges and status drift. Legacy notes are not blocked. Automatic `vault backup:` commits are exempt. `SKIP_NOTE_SHAPE=1` skips the shape check for one commit. Active since 2026-11-25 through `git config core.hooksPath 10_System/hooks`, which is local to the clone. |
 | `10_System/templates/Template - Atomic Zettel` (the claim card), `Template - Concept`, `Template - Evidence`, `Template - Procedure`, `Template - SoT` | Start every new note from the right card or compiled SoT skeleton. |
 | The prompts | The Atomic Signal Extractor names claims as sentences. The Atomic Linker emits the card and runs the validator. The Consolidation Agent and Orphan Note Positioning prompts point here. |
 | Obsidian Linter | Formats on save. Its config must agree with this note; it no longer deletes `confidence`, which evidence notes need. |
 
 The validator cannot judge whether a note holds one idea or whether a title reads as a sentence beyond a word count. Those stay review items.
 
-> Status of the hook, 2026-09-26: git's `core.hooksPath` is `~/.config/git/hooks`, a chezmoi-managed hook that only runs a secret scan and never calls `.git/hooks/pre-commit`. The vault's hook has therefore not run since that path was set on 2026-08-03, and vault-backup commits are not gated. Until it is chained (either add a call to the repo hook in the chezmoi-managed global hook, or give this repo its own `core.hooksPath` that runs the secret scan and then this hook), enforcement rests on the prompts, the templates, and running `validate_note_shape.py` by hand or from an agent.
+> Status of the hook, 2026-11-25: from 2026-08-03 until now git's `core.hooksPath` was `~/.config/git/hooks`, a chezmoi-managed hook that only runs a secret scan and never called the vault's hook, so vault commits were not gated. The hook now lives in `10_System/hooks/`, runs the global secret scan first, and this repo's local `core.hooksPath` points at it. A fresh clone must run `git config core.hooksPath 10_System/hooks`.
 
 ## 7. Decisions
 

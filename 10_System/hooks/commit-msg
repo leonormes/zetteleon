@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Vault commit-msg hook: runs the mandatory write gates (check_all.py --staged) on the staged
+# notes. Frontmatter is enforced for new notes only, shape for in-scope atomic notes, typed
+# edges and status drift for anything staged. Legacy debt elsewhere never blocks a commit.
+#
+# Exempt: automatic backups, whose message starts with "vault backup:" (they stage whatever
+# work-in-progress exists). Bypass once by hand with: git commit --no-verify
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+case "$(head -n1 "$1")" in
+    "vault backup:"*) exit 0 ;;
+esac
+
+echo "🔍 Vault gates (check_all.py --staged)..."
+if ! uv run --with pyyaml python3 10_System/scripts/check_all.py --staged; then
+    echo "❌ Vault gates failed. Fix the notes listed above, or bypass once with: git commit --no-verify"
+    exit 1
+fi
