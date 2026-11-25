@@ -4,7 +4,7 @@ created: 2026-03-30T14:56:04+00:00
 description: Convert resolved HEAD notes into stable SoT artefacts and a concrete Next Test action without bypassing human synthesis.
 modified: 2026-11-15T10:08:00+00:00
 permalink: llmeon/10-system/prompts/prompt-prod-os-chronos-synthesizer
-status: stable
+status: evergreen
 tags:
 - chronos
 - prodos
@@ -70,7 +70,7 @@ created: <ISO8601>
 modified: <ISO8601>
 sources:
 - "[[HEAD - Source question?]]"
-status: draft
+status: seed
 tags:
 - domain/X
 title: SoT - [Topic]

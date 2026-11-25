@@ -4,7 +4,7 @@ conformant: true
 created: 2025-11-01T11:37:53+00:00
 modified: 2026-11-23T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-impairment-during-adhd-trough-phase
-status: draft
+status: seed
 tags: [brain-fog, executive-function, prodos/sot, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: Executive Function Impairment During ADHD Trough Phase
 type: sot

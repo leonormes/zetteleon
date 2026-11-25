@@ -6,7 +6,7 @@ definition: "The second writing stage of the Unified Writing to Think process, f
 distinguishes_from: ["[[Stage 1 Generate (The Goldberg Layer)]]", "[[Stage 3 Understand (The Writing to Learn Layer)]]"]
 modified: 2026-11-14T13:07:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-2
-status: stable
+status: evergreen
 tags: [cognition, pkm, writing]
 title: Stage 2 Clarify (The On Writing Well Layer)
 type: concept

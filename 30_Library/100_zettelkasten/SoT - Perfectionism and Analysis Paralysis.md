@@ -12,7 +12,7 @@ permalink: llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis
 project_category: prodos
 see_also:
 - '[[SoT - PRODOS Black Box Protocol]]'
-status: stable
+status: evergreen
 tags:
 - prodos
 - TheHuman/Cognition/bias

@@ -13,7 +13,7 @@ merged_from:
 modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
 project_category: prodos
-status: stable
+status: evergreen
 tags:
 - domain/pkm
 - prodos/sot

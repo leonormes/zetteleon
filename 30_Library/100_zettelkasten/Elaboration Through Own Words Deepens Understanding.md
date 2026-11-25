@@ -10,7 +10,7 @@ merged_from: ["[[Paraphrasing is a Complex Cognitive Skill]]"]
 modified: 2026-11-14T13:06:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/elaboration-through-own-words-deepens-understanding
 proposition: "Translating an idea into your own words is a complex cognitive skill that forces mental translation of underlying meaning, connecting new material to existing schemas and exposing comprehension gaps."
-status: stable
+status: evergreen
 tags: [elaboration, learning, paraphrasing, topic/pkm, topic/pkm/zettelkasten]
 title: Elaboration Through Own Words Deepens Understanding
 type: claim

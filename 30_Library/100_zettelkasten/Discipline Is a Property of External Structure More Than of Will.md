@@ -9,7 +9,7 @@ modified: 2026-11-24T18:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-is-a-property-of-external-structure-more-than-of-will
 proposition: Willpower and motivation are volatile, fatiguing internal resources and therefore poor load-bearing foundations for sustained action. Discipline is better understood as a property of the structure a person is standing in, including designed systems, environmental cues, culture, incentives and interpersonal accountability, which make the desired behaviour the path of least resistance and so reduce the willpower each instance costs.
 renamed_from: Discipline Relies on External Supports Not Just Willpower
-status: stable
+status: evergreen
 tags: [accountability, discipline, environment, TheHuman/Motivation, topic/productivity, topic/systems, willpower]
 title: Discipline Is a Property of External Structure More Than of Will
 type: claim

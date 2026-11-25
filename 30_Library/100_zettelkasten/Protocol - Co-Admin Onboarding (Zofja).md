@@ -9,7 +9,7 @@ prodos:
   protocol:
     applies_to:
       - family-governance
-status: stable
+status: evergreen
 tags:
   - TheHuman/Family
   - chores

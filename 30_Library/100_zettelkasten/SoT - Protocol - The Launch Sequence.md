@@ -11,7 +11,7 @@ permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 project_category: prodos
 see_also:
 - '[[SoT - PRODOS Black Box Protocol]]'
-status: stable
+status: evergreen
 tags:
 - action
 - initiation

@@ -6,7 +6,7 @@ definition: "The initial stage of the Unified Writing to Think process, focusing
 distinguishes_from: ["[[Stage 1 Generate (The Goldberg Layer)]]"]
 modified: 2026-11-14T13:07:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-0
-status: stable
+status: evergreen
 tags: [cognition, pkm, writing]
 title: Stage 0 Prepare (The Extended Mind Layer)
 type: concept

@@ -14,7 +14,7 @@ see_also:
   - "[[Goal - Frontmatter Bulk Migration (Phase 3)]]"
   - "[[SoT - PRODOS Core Specification]]"
   - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
-status: stable
+status: evergreen
 tags:
   - domain/pkm
   - prodos/sot
@@ -55,7 +55,7 @@ Any agent touching frontmatter MUST produce a valid `FrontmatterContract`, the s
 | `conformant` | Yes | boolean | `false` if the note cannot be cleanly typed. Never `true` unless fully valid. |
 | `non_conformance_reason` | Conditional | string | Required if `conformant: false`. Omit or leave empty when `true`. |
 | `created`, `modified` | Yes on atomic notes | ISO 8601 | Never write `updated` or `creation_date`. |
-| `status` | No | string | `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`, `archived`. Questions also allow `open`, `thinking`, `resolved`; problems also allow the §3.6 values. Meanings and promotion criteria: [[Note Status Lifecycle]]. |
+| `status` | No | string | `seed`, `evergreen`, `stale`, `superseded`, `archived`. `draft` and `stable` were retired on 2026-11-25 (migrated to `seed` and `evergreen`). Questions also allow `open`, `thinking`, `resolved`; problems also allow the §3.6 values. Meanings and promotion criteria: [[Note Status Lifecycle]]. |
 | `supersedes` | No | list of wikilinks | Older note(s) this one replaces. Set on the surviving note. |
 | `superseded_by` | Conditional | list of wikilinks | Required if `status: superseded`. |
 | `aliases` | No | list | Alternative names. |
@@ -191,7 +191,7 @@ Legacy key renames, applied after the type mapping:
 
 | Legacy key | Target |
 |:---|:---|
-| `status` with `seedling`, `active`, `stable`, `evergreen` or `archived` | Non-atomic notes: `prodos.lifecycle`. Atomic notes: map to the §2 `status` (`seedling` becomes `seed`) and write no `prodos`. Anything else goes to the exceptions report. |
+| `status` with `seedling`, `active`, `stable`, `evergreen` or `archived` | Non-atomic notes: `prodos.lifecycle`. Atomic notes: map to the §2 `status` (`seedling` becomes `seed`, `stable` becomes `evergreen`) and write no `prodos`. Anything else goes to the exceptions report. |
 | `trust-level` | `prodos.trust` (non-atomic only) |
 | `last_reviewed`, `review_interval` | `prodos.review.*` (non-atomic only). Forbidden on atomic notes. |
 | `last_synthesis`, `synthesis-count` | `prodos.chronos.*` (non-atomic only) |
@@ -267,3 +267,4 @@ Known defects:
 - A number of notes carry `supersedes` or `superseded_by` without a matching `status: superseded`, or the reverse. No pass has reconciled them. `--audit` surfaces them.
 - Notes that were already `conformant: false` keep the `non_conformance_reason` text they had, which may not match current validator wording.
 - Two schemas are still live: flat legacy frontmatter and the optional `prodos` object. §6 handles the migration, but do not assume one schema is universal.
+- 2026-11-25: `draft` and `stable` retired from `status`. About 380 notes migrated (`draft` to `seed`, `stable` to `evergreen`); `prodos.lifecycle` is unchanged.

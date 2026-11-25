@@ -10,7 +10,7 @@ evidence_links: []
 modified: 2026-11-19T11:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/ship-of-theseus-as-model-for-constructed-self
 proposition: The Ship of Theseus illustrates that personal identity persists through continuous replacement of beliefs, habits, and roles as long as pattern and functional continuity remain.
-status: stable
+status: evergreen
 tags:
   - metaphor
   - self

@@ -2,7 +2,7 @@
 created: 2026-02-05T17:20:00+00:00
 modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/30-library/ops/sot-az-aks-networking
-status: stable
+status: evergreen
 tags: [aks, az-cli, azure, cheatsheet, kubectl, networking, troubleshooting]
 title: sot-az-aks-networking
 ---

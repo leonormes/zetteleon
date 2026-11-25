@@ -4,7 +4,7 @@ created: 2026-08-03T00:00:00+01:00
 description: Harvest unresolved tensions out of canonical SoT/Claim/MoC notes into clustered HEAD notes in the workbench, replacing each source section with a one-line Open threads pointer. Use when open problems are buried inside canonical notes where nobody works them.
 modified: 2026-11-15T10:17:00+00:00
 permalink: llmeon/10-system/prompts/prompt-tension-harvester
-status: stable
+status: evergreen
 tags: [agent/harvester, domain/pkm, topic/knowledge-graph, topic/workbench, type/system]
 title: Prompt - Tension Harvester
 type: prompt

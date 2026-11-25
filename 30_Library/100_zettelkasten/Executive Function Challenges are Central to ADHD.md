@@ -15,7 +15,7 @@ evidence_links:
 modified: 2026-11-18T14:59:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 proposition: ADHD is primarily a disorder of executive self-regulation rather than attention capacity, creating a performance gap where an individual knows what to do but cannot reliably execute at the point of performance.
-status: stable
+status: evergreen
 tags:
   - TheHuman/Cognition
   - executive-function

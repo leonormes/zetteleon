@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/language-discretises-continuous-experience
 proposition: Language maps a continuous range of experience onto a finite set of words, so nuance is lost in the mapping.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - discretisation
   - emotion

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:40:00+00:00
 modified: 2026-11-14T13:07:30+00:00
 permalink: llmeon/30-library/mo-c/moc-pkm-as-process-vs-product
-status: stable
+status: evergreen
 tags: [topic/knowledge-architecture, writing, pkm]
 title: MOC - PKM as Process vs Product
 type: map

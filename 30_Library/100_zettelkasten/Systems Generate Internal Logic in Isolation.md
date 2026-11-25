@@ -8,7 +8,7 @@ created: 2025-10-20T10:11:00+00:00
 proposition: A bounded system that cannot import rules or values from outside its boundary must generate a self-referential framework of logic and meaning from its own components and history.
 modified: 2026-11-23T22:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-generate-internal-logic-in-isolation
-status: stable
+status: evergreen
 tags: [autopoiesis, emergence, self-organization, topic/culture, topic/systems]
 title: Systems Generate Internal Logic in Isolation
 type: claim

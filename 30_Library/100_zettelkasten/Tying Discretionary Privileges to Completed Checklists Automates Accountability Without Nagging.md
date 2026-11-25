@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-24T16:22:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/tying-discretionary-privileges-to-completed-checklists-automates-accountability-without-nagging
 proposition: Linking discretionary evening privileges such as screen time and Wi-Fi to completed daily checklists lets the household system enforce boundaries neutrally without parental nagging or emotional escalation.
-status: draft
+status: seed
 tags:
 - TheHuman/Family
 - chores

@@ -12,7 +12,7 @@ evidence_links: []
 modified: 2026-11-18T09:44:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/valuing-the-learning-process-over-external-outcomes-sustains-motivation
 proposition: Locating the value of learning in the process itself—curiosity, insight, and iterative adjustment—rather than in external outcomes or credentials sustains motivation and prevents goal displacement.
-status: stable
+status: evergreen
 tags:
   - TheHuman/Health/ADHD
   - TheHuman/Mindset

@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-universal-speed-of-causality
-status: stable
+status: evergreen
 tags: [causality, physics, relativity, time]
 title: SoT - The Universal Speed of Causality
 type: sot

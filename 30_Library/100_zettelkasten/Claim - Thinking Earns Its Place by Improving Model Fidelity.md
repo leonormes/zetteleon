@@ -12,7 +12,7 @@ permalink: llmeon/30-library/100-zettelkasten/claim-thinking-earns-its-place-by-
 position-date: 2026-08-29
 project_category: prodos
 proposition: ''
-status: draft
+status: seed
 supersedes:
 - '[[Claim - A Note That Does Not Help You Act Is Noise]]'
 tags:

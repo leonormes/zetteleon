@@ -8,7 +8,7 @@ distinguishes_from:
   - "[[Autopoiesis The Self-Referential System]]"
 modified: 2026-11-23T21:13:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/7-cybernetics-1
-status: stable
+status: evergreen
 tags:
   - cybernetics
   - feedback-loops

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-interpretation-of-references
-status: stable
+status: evergreen
 tags:
 - abstraction
 - representation

@@ -6,7 +6,7 @@ created: 2026-11-17T14:26:00+00:00
 modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-run-lifestyle-centric-planning
-status: stable
+status: evergreen
 steps:
 - Draft declarative life properties across Constitution, Craft, and Community rather than rigid output goals.
 - Assess where your current daily reality diverges from those target properties.

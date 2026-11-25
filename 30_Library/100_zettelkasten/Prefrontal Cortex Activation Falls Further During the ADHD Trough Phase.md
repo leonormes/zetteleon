@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-23 12:00:00+00:00
 proposition: The prefrontal cortex is already underactivated in ADHD, and during the
   trough it becomes even less responsive.
-status: draft
+status: seed
 tags:
 - adhd
 - prefrontal-cortex

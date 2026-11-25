@@ -18,7 +18,7 @@ prodos:
       - family-parenting
   trust: stable
 source_of_truth: true
-status: draft
+status: seed
 tags:
   - TheHuman/Family
   - TheHuman/Health/ADHD

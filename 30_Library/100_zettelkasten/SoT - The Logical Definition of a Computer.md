@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-logical-definition-of-a-computer
-status: stable
+status: evergreen
 tags: [cloud, computer-science, distributed-systems, operating-systems, virtualization]
 title: SoT - The Logical Definition of a Computer
 type: sot

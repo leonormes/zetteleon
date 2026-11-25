@@ -8,7 +8,7 @@ prodos:
   trust: working
 project_category: prodos
 project_name: ProdOS
-status: draft
+status: seed
 tags:
   - domain/pkm
   - prodos/sot

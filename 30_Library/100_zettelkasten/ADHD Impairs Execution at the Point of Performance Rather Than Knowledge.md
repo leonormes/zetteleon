@@ -11,7 +11,7 @@ modified: 2026-11-17T15:25:30+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/adhd-impairs-execution-at-the-point-of-performance-rather-than-knowledge
 proposition: Adult ADHD impairs executive self-regulation at the point of performance rather than knowledge or skill, making remembering a task and initiating it two separate bottlenecks.
-status: stable
+status: evergreen
 tags:
 - adhd
 - clinical-models

@@ -4,7 +4,7 @@ created: 2026-07-13T22:00:00+00:00
 modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/self-change-refutes-the-determinism-of-the-plant-metaphor
-status: draft
+status: seed
 tags: [agency, mental-models, metaphor, neuroplasticity]
 title: Self-Change Refutes the Determinism of the Plant Metaphor
 type: claim

@@ -9,7 +9,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/extreme-political-beliefs-are-stress-responses-to-real-environmental-pain
 proposition: Many extreme political beliefs are stress responses to real environmental distress that pair a simple narrative with a misattributed cause
 source_title: HEAD Being Right or Wrong About Things in Life (Gemini conversation 2026-07-13)
-status: draft
+status: seed
 tags: [diagnosis, narratives, politics, stress]
 title: Extreme Political Beliefs Are Stress Responses to Real Environmental Pain
 type: claim

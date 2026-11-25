@@ -11,7 +11,7 @@ modified: 2026-11-17T14:49:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/generative-thinking-requires-cognitive-independence-to-endure-social-resistance
 proposition: Generative thinking requires cognitive independence and bravery because established paradigms are defended by institutions, forcing challengers to endure social isolation before consensus shifts.
-status: stable
+status: evergreen
 tags:
 - bravery
 - cognitive-independence

@@ -9,7 +9,7 @@ entry_points:
 - '[[SoT - What Knowledge Is]]'
 - '[[SoT - Building and Holding Beliefs]]'
 modified: 2026-10-23 09:00:00+00:00
-status: draft
+status: seed
 tags:
 - topic/epistemology
 - prodos/moc

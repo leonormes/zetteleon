@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-mechanical-sympathy
-status: stable
+status: evergreen
 tags: [hardware, mindset, performance]
 title: SoT - Mechanical Sympathy
 type: sot

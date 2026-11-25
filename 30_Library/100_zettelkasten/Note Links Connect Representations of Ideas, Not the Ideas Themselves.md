@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/note-links-connect-representations-of-ideas-not-the-i
 proposition: A link between two notes joins representations of ideas, so linking on shared keywords or superficial similarity does not connect the ideas themselves.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags: [linking, notes, pkm, representation, zettelkasten]
 title: Note Links Connect Representations of Ideas, Not the Ideas Themselves
 type: claim

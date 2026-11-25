@@ -9,7 +9,7 @@ see_also:
   - "[[Meta MOC - The Core Domains]]"
   - "[[MOC - PKM as Process vs Product]]"
   - "[[SoT - Canonical Interest Tags]]"
-status: stable
+status: evergreen
 tags: [prodos/meta, topic/pkm, type/reference]
 title: Reference - Vault Interest Map
 type: sot

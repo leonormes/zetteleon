@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/empathy-is-cognitive-work
 proposition: Understanding another person requires active effort to bridge conceptual gaps, beyond hearing their words.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - cognition
   - communication

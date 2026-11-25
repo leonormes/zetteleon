@@ -16,7 +16,7 @@ permalink: llmeon/10-system/templates/template-claim
 
 %% Claim card with Meta Bind inline controls. Same canonical schema as Template - Atomic Zettel in SoT - Atomic Note Standard (The Proposition Card). Name the file with the claim itself, as a full declarative sentence of at least four words. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%
 
-**Status:** `INPUT[inlineSelect(option(draft), option(seed), option(stable), option(evergreen), option(stale), option(superseded), option(archived)):status]` · **Epistemic Status:** `INPUT[inlineSelect(option(high), option(medium), option(low), option(unknown)):epistemic_status]`
+**Status:** `INPUT[inlineSelect(option(seed), option(evergreen), option(stale), option(superseded), option(archived)):status]` · **Epistemic Status:** `INPUT[inlineSelect(option(high), option(medium), option(low), option(unknown)):epistemic_status]`
 
 ## <% tp.file.title %>
 

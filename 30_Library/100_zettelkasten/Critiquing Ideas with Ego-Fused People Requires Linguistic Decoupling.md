@@ -9,7 +9,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/critiquing-ideas-with-ego-fused-people-requires-linguistic-decoupling
 proposition: A critique of an identity-fused idea stays off the person only if it is worded with the claim and not the person as its subject, with no you or your
 source_title: HEAD Being Right or Wrong About Things in Life (Gemini conversation 2026-07-13)
-status: draft
+status: seed
 tags: [communication, conflict, decoupling, ego]
 title: Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling
 type: claim

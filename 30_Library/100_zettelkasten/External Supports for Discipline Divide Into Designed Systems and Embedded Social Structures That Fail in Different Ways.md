@@ -6,7 +6,7 @@ evidence_links: []
 contradicts: []
 created: 2026-11-24T18:00:00+00:00
 modified: 2026-11-24T18:00:00+00:00
-status: draft
+status: seed
 tags:
   - TheHuman/Motivation
   - discipline

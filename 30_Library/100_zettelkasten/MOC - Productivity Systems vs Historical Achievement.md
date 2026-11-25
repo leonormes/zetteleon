@@ -7,7 +7,7 @@ exclusions: Specific tutorials for GTD or Atomic Habits.
 modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/mo-c/moc-productivity-systems-vs-historical-achievement
 scope: An exploration of how external systems and collective structures substitute for internal willpower, both historically and in modern neurodiverse contexts.
-status: stable
+status: evergreen
 tags:
 - history
 - TheHuman/Cognition

@@ -45,7 +45,7 @@ VALID_PRODOS_LIFECYCLES = {
 # every canonical note type, including claim. Empty-string/literal-"null" legacy values are
 # common migration artifacts and are just as invalid to the Bases plugin as any other
 # out-of-enum string.
-VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded", "archived"}
+VALID_STATUS = {"seed", "evergreen", "stale", "superseded", "archived"}
 QUESTION_STATUS = VALID_STATUS | {"open", "thinking", "resolved"}
 PROBLEM_STATUS = VALID_STATUS | {"captured", "clarifying", "active-project", "mitigated", "accepted-constraint"}
 

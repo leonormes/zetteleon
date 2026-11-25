@@ -10,7 +10,7 @@ permalink: llmeon/30-library/100-zettelkasten/crafting-compelling-task-descripti
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Effective task execution requires defining the physical next action with specificity while simultaneously anchoring it to a motivational 'Why'.
-status: stable
+status: evergreen
 tags:
 - execution
 - motivation

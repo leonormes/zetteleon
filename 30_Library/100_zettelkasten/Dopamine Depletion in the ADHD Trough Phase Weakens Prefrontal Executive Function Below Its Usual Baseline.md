@@ -9,7 +9,7 @@ modified: 2026-11-23 12:00:00+00:00
 proposition: Executive functions rely on dopamine signalling in the prefrontal cortex.
   The dopamine deficit of the trough phase therefore compromises them even more than
   the ADHD baseline does.
-status: draft
+status: seed
 tags:
 - adhd
 - dopamine

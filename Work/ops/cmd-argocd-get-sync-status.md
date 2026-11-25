@@ -8,7 +8,7 @@ last_verified: 2026-02-14
 modified: 2026-10-22T15:11:08+00:00
 namespace: argocd
 permalink: llmeon/30-library/ops/cmd-argocd-get-sync-status
-status: stable
+status: evergreen
 tags: [cmd, deployment, incident]
 target_service: argocd-server
 title: cmd-argocd-get-sync-status

@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-19T12:50:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemic-actions-thinking-via-doing
 proposition: "Epistemic actions are physical actions performed to simplify cognitive computation rather than change the world, offloading internal simulation onto the fast feedback loop of the physical environment."
-status: stable
+status: evergreen
 tags: [action, TheHuman/Cognition, TheHuman/Psychology]
 title: Epistemic Actions - Thinking via Doing
 type: claim

@@ -9,7 +9,7 @@ modified: 2026-11-17T15:54:24+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/understanding-is-demonstrated-by-creation-rather-than-passive-familiarity
 proposition: Passive familiarity with a concept, tool, or mental model does not constitute understanding because comprehension is demonstrated only by building a working artefact or solving a real problem with it.
-status: stable
+status: evergreen
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: Understanding Is Demonstrated by Creation Rather Than Passive Familiarity
 type: claim

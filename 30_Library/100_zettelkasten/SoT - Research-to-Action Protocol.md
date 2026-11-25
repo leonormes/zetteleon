@@ -12,7 +12,7 @@ project_category: prodos
 see_also:
 - '[[SoT - Context Engineering]]'
 - '[[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]'
-status: stable
+status: evergreen
 tags:
 - adhd-tools
 - prodos

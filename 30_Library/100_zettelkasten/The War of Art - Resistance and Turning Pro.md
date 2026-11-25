@@ -6,7 +6,7 @@ aliases:
 created: 2025-12-11T00:00:00+00:00
 last_reviewed: 2025-12-11
 modified: 2026-11-24T22:23:02+00:00
-status: draft
+status: seed
 tags:
   - mental_model
   - pressfield

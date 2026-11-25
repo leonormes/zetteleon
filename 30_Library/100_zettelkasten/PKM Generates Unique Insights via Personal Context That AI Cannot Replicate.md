@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-14T16:51:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/pkm-generates-unique-insights-via-personal-context-that-ai-cannot-replicate
 proposition: Personal Knowledge Management generates unique insights by manually linking ideas within an individual's lived personal context, which statistical AI models cannot access or replicate.
-status: stable
+status: evergreen
 tags: [ai, insight, knowledge-graphs, pkm, topic/knowledge-architecture]
 title: PKM Generates Unique Insights via Personal Context That AI Cannot Replicate
 type: claim

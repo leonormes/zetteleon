@@ -13,7 +13,7 @@ see_also:
 - '[[Protocol - Action-First GTD (LLM Chief of Staff)]]'
 - '[[Protocol - Weekly Command Centre]]'
 - '[[Reference - File Structure]]'
-status: stable
+status: evergreen
 tags:
 - gtd
 - para

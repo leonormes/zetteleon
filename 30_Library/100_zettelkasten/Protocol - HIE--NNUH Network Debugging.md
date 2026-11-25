@@ -20,7 +20,7 @@ tags:
   - protocol
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
-status: draft
+status: seed
 prodos:
   kind: protocol
   protocol:

@@ -4,7 +4,7 @@ created: 2026-03-28T17:55:19+00:00
 modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/30-library/400-indexes/meditation-wiki-meditation-reading-list
 source: https://www.reddit.com/r/Meditation/wiki/booklist/
-status: draft
+status: seed
 tags: []
 title: Meditation Wiki Meditation Reading List
 type: index

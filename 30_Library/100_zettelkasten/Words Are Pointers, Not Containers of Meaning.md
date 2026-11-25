@@ -11,7 +11,7 @@ modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/words-are-pointers-not-containers-of-meaning
 proposition: Words point towards meaning held in the lived experience of each person rather than containing meaning inside themselves.
 see_also: ["[[MOC - The Gap Between Thought and Language]]", "[[MOC Symbols vs Concepts They Represent]]"]
-status: stable
+status: evergreen
 tags: [communication, epistemology, language, meaning, metaphor, semantics]
 title: Words Are Pointers, Not Containers of Meaning
 type: claim

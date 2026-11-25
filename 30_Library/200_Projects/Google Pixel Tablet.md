@@ -4,7 +4,7 @@ manufacturer: Google
 model: Pixel Tablet
 modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/google-pixel-tablet
-status: stable
+status: evergreen
 tags: [android, equipment, google, pixel, tablet]
 title: Google Pixel Tablet
 type: equipment

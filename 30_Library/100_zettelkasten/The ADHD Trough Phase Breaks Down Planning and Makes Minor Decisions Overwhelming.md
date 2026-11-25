@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-23 12:00:00+00:00
 proposition: During the trough a person cannot organise their thoughts or plan next
   steps, and even minor decisions feel overwhelming.
-status: draft
+status: seed
 tags:
 - adhd
 - planning

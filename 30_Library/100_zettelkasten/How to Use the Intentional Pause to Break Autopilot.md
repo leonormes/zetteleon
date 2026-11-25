@@ -7,7 +7,7 @@ created: 2026-11-17T14:26:00+00:00
 modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-use-the-intentional-pause-to-break-autopilot
-status: stable
+status: evergreen
 steps:
 - Stop for three seconds before opening a browser tab, picking up a phone, or switching context.
 - Ask explicitly what am I hiring this tool to do right now.

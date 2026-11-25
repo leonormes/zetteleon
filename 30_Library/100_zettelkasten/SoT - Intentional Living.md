@@ -11,7 +11,7 @@ conformant: true
 created: 2025-12-24T12:00:00+00:00
 modified: 2026-11-17T14:27:00+00:00
 permalink: llmeon/30-library/so-t/so-t-intentional-living
-status: stable
+status: evergreen
 tags:
   - deep_life
   - habits

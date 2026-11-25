@@ -5,7 +5,7 @@ created: 2025-06-25T20:14:33+00:00
 last_reviewed: 2025-12-16
 modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-dive-sessions-for-adhd-adapted-gtd-next-actions
-status: draft
+status: seed
 tags:
   - experiment
   - hypothesis

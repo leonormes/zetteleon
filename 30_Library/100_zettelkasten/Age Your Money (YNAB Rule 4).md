@@ -9,7 +9,7 @@ modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/age-your-money-ynab-rule-4
 proposition: Spending money that was earned at least 30 days earlier breaks the paycheck-to-paycheck
   cycle by building a buffer that removes the need to time bills against income.
-status: draft
+status: seed
 tags: [budgeting, finance, resilience, ynab]
 title: Age Your Money (YNAB Rule 4)
 type: claim

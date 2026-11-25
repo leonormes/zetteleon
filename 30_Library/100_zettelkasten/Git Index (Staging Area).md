@@ -9,7 +9,7 @@ distinguishes_from:
   - "[[Git Repository Object Store (.git Folder)]]"
 modified: 2026-11-18T15:56:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/git-index-staging-area
-status: stable
+status: evergreen
 tags:
   - domain/infrastructure
   - git

@@ -1,7 +1,7 @@
 ---
 title: Migrated TaskNotes Tasks
 type: project
-status: draft
+status: seed
 created: 2026-11-24 10:30:00+00:00
 modified: 2026-11-24 10:30:00+00:00
 tags:

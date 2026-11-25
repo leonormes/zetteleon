@@ -4,7 +4,7 @@ manufacturer: Bang & Olufsen
 model: Beoplay H7
 modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/bang-and-olufsen-beoplay-h7
-status: stable
+status: evergreen
 tags: [audio, bang-and-olufsen, bluetooth, equipment, headphones]
 title: Bang and Olufsen Beoplay H7
 type: equipment

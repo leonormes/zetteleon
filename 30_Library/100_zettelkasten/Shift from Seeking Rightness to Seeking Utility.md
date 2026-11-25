@@ -10,7 +10,7 @@ evidence_links: []
 modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/shift-from-seeking-rightness-to-seeking-utility
 proposition: Since objective 'rightness' is an unattainable epistemic standard, a more stable foundation for confidence is a belief's utility—whether it is effective and leads to a better outcome—rather than a claim to objective truth.
-status: stable
+status: evergreen
 tags:
 - confidence
 - pragmatism

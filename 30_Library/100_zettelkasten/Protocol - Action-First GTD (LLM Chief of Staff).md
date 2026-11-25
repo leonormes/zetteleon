@@ -18,7 +18,7 @@ project_category: prodos
 see_also:
   - "[[SoT - Execution Protocol (GTD & PARA)]]"
   - "[[Protocol - Vague-to-Action]]"
-status: stable
+status: evergreen
 tags:
   - gtd
   - llm

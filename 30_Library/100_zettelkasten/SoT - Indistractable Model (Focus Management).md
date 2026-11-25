@@ -4,7 +4,7 @@ conformant: true
 created: 2025-12-24T12:10:45+00:00
 modified: 2026-11-15T10:30:00+00:00
 permalink: llmeon/30-library/so-t/so-t-indistractable-model-focus-management
-status: stable
+status: evergreen
 tags: [focus, indistractable, productivity, psychology, TheHuman/Health/ADHD]
 title: SoT - Indistractable Model (Focus Management)
 type: sot

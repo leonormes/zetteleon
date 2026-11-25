@@ -4,7 +4,7 @@ aliases:
 created: 2025-12-12T12:05:00+00:00
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-cognitive-biases
-status: stable
+status: evergreen
 tags:
 - bias
 - TheHuman/Cognition

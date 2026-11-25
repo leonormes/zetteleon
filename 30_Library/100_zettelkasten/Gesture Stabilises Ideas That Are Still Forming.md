@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/gesture-stabilises-ideas-that-are-still-forming
 proposition: Gesture acts as a virtual diagram that stabilises and advances ideas that are still forming in the mind.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - embodied-cognition
   - gesture

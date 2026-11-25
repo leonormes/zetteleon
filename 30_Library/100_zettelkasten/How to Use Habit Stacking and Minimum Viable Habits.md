@@ -7,7 +7,7 @@ created: 2026-11-17T14:26:00+00:00
 modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-use-habit-stacking-and-minimum-viable-habits
-status: stable
+status: evergreen
 steps:
 - Shrink the new behaviour to a minimum viable version that takes ten seconds or one sentence.
 - Anchor the tiny behaviour to an existing automated routine using the formula After Current Habit I will New Habit.

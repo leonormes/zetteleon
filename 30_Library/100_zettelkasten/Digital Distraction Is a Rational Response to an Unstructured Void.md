@@ -11,7 +11,7 @@ modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/digital-distraction-is-a-rational-response-to-an-unstructured-void
 proposition: Digital distraction is a rational response to an unstructured existential void rather than a moral failing, so willpower alone cannot defeat it without constructing a more compelling, intentional life.
-status: stable
+status: evergreen
 tags:
 - attention
 - deep-life

@@ -8,7 +8,7 @@ created: 2026-01-03T10:10:15+00:00
 modified: 2026-11-24T14:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 source_of_truth: true
-status: stable
+status: evergreen
 tags:
   - dopamine
   - emotional-regulation

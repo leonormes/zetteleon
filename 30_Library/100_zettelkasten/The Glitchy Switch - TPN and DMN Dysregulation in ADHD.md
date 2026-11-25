@@ -9,7 +9,7 @@ permalink: llmeon/30-library/100-zettelkasten/the-glitchy-switch-tpn-and-dmn-dys
 definition: The glitchy switch is the ADHD pattern in which the Default Mode Network intrudes on task-positive activity, or the person gets stuck in the default mode, instead of the two networks switching cleanly.
 distinguishes_from: ["[[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]"]
 used_in_claims: ["[[GTD and the Cognitive Load of Execution]]", "[[Balance and Coordination Exercise Strengthens Cerebellar Function and Improves Regulation in ADHD]]", "[[ADHD Brains Fail to Deactivate the Default Mode Network During Sustained Attention Tasks]]", "[[The Neurological Divide Between Procrastination and Task Initiation]]"]
-status: stable
+status: evergreen
 tags: [brain-networks, distraction, DMN, dysregulation, rumination, TheHuman/Health/ADHD, TheHuman/Neuroscience, TPN]
 title: The Glitchy Switch - TPN and DMN Dysregulation in ADHD
 type: concept

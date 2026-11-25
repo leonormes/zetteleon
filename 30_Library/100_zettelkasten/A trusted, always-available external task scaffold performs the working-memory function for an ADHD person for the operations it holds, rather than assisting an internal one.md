@@ -13,7 +13,7 @@ evidence_links:
 modified: 2026-11-18T15:48:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/trusted-external-task-scaffold-performs-working-memory-for-adhd
 proposition: For a given operation, a constantly available, easily accessed, and automatically trusted external task scaffold performs the working-memory function for an ADHD person rather than assisting an internal one.
-status: stable
+status: evergreen
 tags:
   - TheHuman/Cognition
   - TheHuman/Health/ADHD

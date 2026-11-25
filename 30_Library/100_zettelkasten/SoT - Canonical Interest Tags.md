@@ -7,7 +7,7 @@ permalink: llmeon/30-library/so-t/so-t-canonical-interest-tags
 see_also:
   - "[[Reference - Vault Interest Map]]"
   - "[[Meta MOC - The Core Domains]]"
-status: stable
+status: evergreen
 tags: [domain/pkm, topic/knowledge-architecture, topic/tooling]
 title: SoT - Canonical Interest Tags
 type: sot

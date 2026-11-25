@@ -9,7 +9,7 @@ permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
 prodos.kind: sot
 prodos.lifecycle: active
 project_category: prodos
-status: stable
+status: evergreen
 tags:
   - initiation
   - productivity

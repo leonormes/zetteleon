@@ -9,7 +9,7 @@ see_also:
   - "[[MOC - Health and Vitality]]"
   - "[[SoT - Metabolic Health & Satiety Management]]"
   - "[[SoT - Primal Movement Patterns]]"
-status: stable
+status: evergreen
 tags: [fitness, health, longevity, mobility, physical_hardware]
 title: SoT - Physical Health and Vitality
 type: sot

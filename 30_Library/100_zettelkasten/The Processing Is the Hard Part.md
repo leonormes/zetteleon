@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-19T12:18:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-processing-is-the-hard-part
 proposition: In knowledge work, real understanding is produced by the effortful cognitive labour of translating pre-verbal intuition into precise own-words claims and links, not by collecting material into an inbox.
-status: stable
+status: evergreen
 tags:
   - domain/pkm
   - TheHuman/Cognition

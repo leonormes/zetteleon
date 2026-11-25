@@ -11,7 +11,7 @@ modified: 2026-11-17T11:25:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/communication-is-coordination-through-reconstruction-not-direct-transmission
 proposition: Communication does not transfer thoughts directly from one mind to another, but coordinates meaning by sending linguistic stimuli that the listener reconstructs through their own experiential filter.
-status: stable
+status: evergreen
 tags:
 - communication
 - epistemology

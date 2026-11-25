@@ -10,7 +10,7 @@ permalink: llmeon/30-library/100-zettelkasten/writing-as-cognitive-rigour
 proposition: "Writing is the primary tool for technical and formal rigour because unwritten ideas remain unexamined illusions of thought."
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs
-status: stable
+status: evergreen
 tags: [cognition, documentation, rigour, writing]
 title: Writing as Cognitive Rigour
 type: claim

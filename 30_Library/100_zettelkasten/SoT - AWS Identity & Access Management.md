@@ -7,7 +7,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-aws-identity-access-management
-status: stable
+status: evergreen
 synthesis-count: 1
 tags: [aws, iam, security, sot]
 title: SoT - AWS Identity & Access Management

@@ -8,7 +8,7 @@ modified: 2026-11-17T10:30:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong-1-1
 proposition: Only propositions, not topical labels, can be tested against reality, contradicted, refined, and linked to justifying evidence.
-status: stable
+status: evergreen
 tags: [domain/pkm, topic/zettelkasten]
 title: Propositions Are the Only Thing That Can Be Wrong
 type: claim

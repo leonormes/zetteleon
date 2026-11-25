@@ -11,7 +11,7 @@ modified: 2026-11-14T13:08:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-acts-as-an-external-working-memory
 proposition: "Transferring thoughts and tasks onto a stable written medium acts as an external working memory that frees cognitive resources for deeper processing."
 see_also: ["[[MOC - Bessie]]", "[[Externalize Memory Aggressively (cognitive offloading)]]"]
-status: stable
+status: evergreen
 tags: [bessie, cognitive-offloading, writing, working-memory]
 tension: ["[[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]"]
 title: Writing Acts as an External Working Memory

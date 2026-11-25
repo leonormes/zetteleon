@@ -9,7 +9,7 @@ see_also:
 - '[[MOC - How Can I Know Something]]'
 - '[[SoT - What Makes Science Knowledge]]'
 - '[[SoT - Reality, Models, and the Limits of Accuracy]]'
-status: draft
+status: seed
 tags:
 - topic/epistemology
 - topic/philosophy-of-science

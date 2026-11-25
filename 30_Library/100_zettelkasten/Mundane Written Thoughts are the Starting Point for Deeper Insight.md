@@ -9,7 +9,7 @@ merged_from: ["[[Writing in Iterative Refinement]]"]
 modified: 2026-11-14T13:06:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/mundane-written-thoughts-are-the-starting-point-for-deeper-insight
 proposition: "Mundane or ordinary thoughts captured in writing are not failures, but the stable raw material required to systematically revise and develop deeper insights."
-status: stable
+status: evergreen
 tags: [process, TheHuman/Creativity, thinking, writing]
 title: Mundane Written Thoughts are the Starting Point for Deeper Insight
 type: claim

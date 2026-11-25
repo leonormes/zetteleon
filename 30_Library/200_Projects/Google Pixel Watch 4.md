@@ -4,7 +4,7 @@ manufacturer: Google
 model: Pixel Watch 4 (45 mm Wi-Fi)
 modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/google-pixel-watch-4
-status: stable
+status: evergreen
 tags: [equipment, fitness, google, pixel, smartwatch, wear-os]
 title: Google Pixel Watch 4
 type: equipment

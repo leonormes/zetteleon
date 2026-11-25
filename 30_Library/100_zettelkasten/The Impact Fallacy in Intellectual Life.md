@@ -4,7 +4,7 @@ created: 2025-08-27T19:19:29+00:00
 last_reviewed: "null"
 modified: 2026-11-16T15:20:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-impact-fallacy-in-intellectual-lifenull
-status: draft
+status: seed
 tags:
   - meaning
   - personal-growth

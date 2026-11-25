@@ -3,7 +3,7 @@ conformant: true
 created: 2026-11-24T16:22:00+00:00
 modified: 2026-11-24T16:22:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-to-run-the-four-step-non-punitive-chore-reset
-status: draft
+status: seed
 steps:
 - Pause discretionary screens neutrally in Green Brain and look at the written checklist together without blame.
 - Offer a binary two-minute physical starter choice such as rubbish first or clothes first.

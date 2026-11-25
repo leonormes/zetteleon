@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-18T16:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/merging-capture-and-judgement-is-a-contributing-reason-to-do-lists-fail
 proposition: Merging capture and judgement is one contributing reason traditional to-do lists fail.
-status: draft
+status: seed
 tags:
   - gtd
   - workflow

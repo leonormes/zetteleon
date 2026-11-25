@@ -8,7 +8,7 @@ modified: 2026-11-22T16:57:19+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/analytical-rigour-applies-to-facts-the-ecological-model-to-values
 proposition: Analytical rigour suits factual and formal claims while opinions and values are better understood by tracing the inputs that grew them
-status: draft
+status: seed
 tags: [epistemology, facts-vs-values, rigour]
 title: Analytical Rigour Applies to Facts, the Ecological Model to Values
 type: claim

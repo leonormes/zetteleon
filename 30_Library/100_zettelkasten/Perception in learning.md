@@ -6,7 +6,7 @@ definition: The cognitive process of organising, identifying and interpreting se
 distinguishes_from: ["[[Attention in Learning]]", "[[Apophenia is the Tendency to Perceive Patterns in Random Data]]"]
 modified: 2026-10-23T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/perception-in-learning
-status: stable
+status: evergreen
 tags: [learning, perception, TheHuman/Cognition]
 title: Perception in learning
 type: concept

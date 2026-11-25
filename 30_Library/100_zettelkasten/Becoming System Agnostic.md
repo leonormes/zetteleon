@@ -9,7 +9,7 @@ id: Becoming tool agnostic
 last_reviewed: ''
 modified: 2026-10-28T08:42:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/becoming-system-agnostic
-status: stable
+status: evergreen
 tags:
 - dependencies
 - simple

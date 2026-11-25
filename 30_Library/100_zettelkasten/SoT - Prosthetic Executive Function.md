@@ -8,7 +8,7 @@ permalink: llmeon/30-library/so-t/so-t-prosthetic-executive-function
 project_category: prodos
 review_cycle: quarterly
 scope: Structural framework and empirical boundary conditions for compensating for adult ADHD executive dysfunction through external environmental, digital, and human scaffolding, distinguishing EF-independent push floors from EF-dependent pull tools.
-status: stable
+status: evergreen
 tags: [cognitive-scaffolding, extended-mind, prosthetic-ef, sot, TheHuman/Health/ADHD, topic/productivity]
 title: SoT - Prosthetic Executive Function
 type: sot

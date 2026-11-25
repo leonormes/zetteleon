@@ -11,7 +11,7 @@ modified: 2026-11-17T14:57:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/external-scaffolds-fail-through-circularity-when-they-require-executive-function-to-operate
 proposition: External productivity scaffolds fail for adult ADHD through circularity whenever they require the impaired executive function of the user to set up, remember, maintain, and obey them.
-status: stable
+status: evergreen
 tags:
 - adhd
 - behavioral-design

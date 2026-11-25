@@ -5,7 +5,7 @@ created: 2026-01-09T21:57:29+00:00
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cognitive-tools-and-visual-abstraction
-status: stable
+status: evergreen
 tags: [cognition, design, education, mental-models, visualization]
 title: SoT - Cognitive Tools and Visual Abstraction
 type: sot

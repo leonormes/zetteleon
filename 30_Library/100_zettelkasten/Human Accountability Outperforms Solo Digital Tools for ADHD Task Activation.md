@@ -11,7 +11,7 @@ modified: 2026-11-17T14:57:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/human-accountability-outperforms-solo-digital-tools-for-adhd-task-activation
 proposition: Scheduled human accountability—such as coaching, body doubling, and pair programming—outperforms solo digital tools for ADHD task activation because another person supplies external initiation energy and emotional co-regulation.
-status: stable
+status: evergreen
 tags:
 - accountability
 - adhd

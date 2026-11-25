@@ -5,7 +5,7 @@ created: 2025-12-21T00:00:00+00:00
 modified: 2026-10-22T15:11:11+00:00
 permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 see_also: ["[[MOC - Action Management]]", "[[SoT - Behavioral Architecture]]", "[[SoT - Indistractable Model (Focus Management)]]"]
-status: stable
+status: evergreen
 tags: [boundaries, principles, prodos/sot, rules, TheHuman/Mindset, topic/productivity]
 title: SoT - Principles for Peaceful Productivity
 type: sot

@@ -5,7 +5,7 @@ created: 2026-01-08T07:48:54+00:00
 last_reviewed: ''
 modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/so-t/so-t-bessie-gcse-dashboard
-status: stable
+status: evergreen
 tags: [bessie, dashboard, education]
 title: SoT - Bessie GCSE Dashboard
 type: sot

@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-zero-knowledge-architecture
-status: stable
+status: evergreen
 tags: [cryptography, data, rust, SoftwareEngineering/Architecture, zkp]
 title: SoT - Zero Knowledge Architecture
 type: sot

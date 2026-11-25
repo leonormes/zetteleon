@@ -11,7 +11,7 @@ modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/consistency-depends-on-structural-design-rather-than-willpower
 proposition: Long-term consistency in intentional living depends on deliberate structural design—explicit intent, timeframe anchors, tiny entry barriers, environmental cues, and identity—rather than willpower.
-status: stable
+status: evergreen
 tags:
 - behavioral-design
 - consistency

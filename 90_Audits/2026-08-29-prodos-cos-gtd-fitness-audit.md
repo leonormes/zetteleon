@@ -4,7 +4,7 @@ created: 2026-08-28T23:00:00+00:00
 modified: 2026-10-22T15:11:06+00:00
 non_conformance_reason: ''
 permalink: llmeon/90-audits/2026-08-29-prodos-cos-gtd-fitness-audit
-status: stable
+status: evergreen
 tags:
 - 1
 - adhd

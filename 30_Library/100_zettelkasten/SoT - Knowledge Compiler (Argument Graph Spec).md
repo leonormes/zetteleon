@@ -7,7 +7,7 @@ modified: 2026-11-17T21:48:44+00:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-compiler-argument-graph-spec
 project_category: prodos
 see_also: ["[[SoT - Human vs AI Cognition]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]", "[[SoT - Unified Writing to Think Process]]"]
-status: stable
+status: evergreen
 tags: [domain/pkm, topic/knowledge-architecture, topic/knowledge-graph]
 tension: ["[[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]"]
 title: SoT - Knowledge Compiler (Argument Graph Spec)

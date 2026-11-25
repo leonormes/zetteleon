@@ -5,7 +5,7 @@ created: 2025-10-16T08:19:54+00:00
 description: Lean system context for LLMs operating Leon's ADHD-adapted GTD/ProdOS stack (Obsidian, Jira, Todoist, Calendar).
 modified: 2026-11-14T15:15:00+00:00
 permalink: llmeon/10-system/prompts/llm-gtd-context
-status: stable
+status: evergreen
 tags:
 - domain/productivity
 - type/context

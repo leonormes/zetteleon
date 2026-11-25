@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-11-24T13:00:00+00:00
 modified: 2026-11-24T13:00:00+00:00
-status: draft
+status: seed
 tags:
   - TheHuman/Family
   - parenting

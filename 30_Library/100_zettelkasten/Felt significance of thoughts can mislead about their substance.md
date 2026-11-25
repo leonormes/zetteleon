@@ -17,7 +17,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance-1
 proposition: The phenomenological experience of a thought feeling important or profound
   is not a reliable indicator of its actual validity or substance.
-status: stable
+status: evergreen
 tags:
 - critical-thinking
 - metacognition

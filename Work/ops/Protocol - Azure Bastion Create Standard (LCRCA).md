@@ -2,7 +2,7 @@
 created: 2025-12-04T12:02:41+00:00
 modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/30-library/ops/protocol-az-bastion-create-standard
-status: draft
+status: seed
 tags:
   - bastion
   - customer/lcrca

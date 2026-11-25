@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-18T16:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/unfinished-collection-prevents-decision-closure-during-clarification
 proposition: Ongoing capture during evaluation prevents decision closure on the items already collected.
-status: draft
+status: seed
 tags:
   - TheHuman/Cognition
   - gtd

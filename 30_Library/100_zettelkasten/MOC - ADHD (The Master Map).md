@@ -9,7 +9,7 @@ modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-the-master-map
 prodos.kind: moc
 prodos.lifecycle: active
-status: stable
+status: evergreen
 tags:
 - executive-function
 - neurodiversity

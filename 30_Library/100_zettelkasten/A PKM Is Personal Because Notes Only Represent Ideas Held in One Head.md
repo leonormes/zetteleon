@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/a-pkm-is-personal-because-notes-only-represent-ideas-
 proposition: Because the ideas are mostly in the head of the owner and the notes only represent them, another person cannot take the notes and understand the same things.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - notes
   - personal

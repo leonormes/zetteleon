@@ -6,7 +6,7 @@ permalink: llmeon/30-library/200-projects/bessie-education-and-support
 project_category: education
 project_name: Bessie
 project_status: active
-status: draft
+status: seed
 tags: [bessie, education, family, gcse]
 title: Bessie - Education & Support
 type: project

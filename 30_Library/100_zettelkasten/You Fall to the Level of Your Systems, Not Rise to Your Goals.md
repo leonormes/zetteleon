@@ -14,7 +14,7 @@ evidence_links: []
 modified: 2026-11-15T10:57:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/you-fall-to-the-level-of-your-systems-not-rise-to-your-goals
 proposition: The quality of outcomes is determined not by the ambition of goals but by the effectiveness, friction profile, and bad-day reliability of underlying systems.
-status: stable
+status: evergreen
 tags:
   - goals
   - outcomes

@@ -25,7 +25,7 @@ see_also:
   - "[[MOC - Interpretation of References]]"
   - "[[SoT - The Extended Mind]]"
   - "[[SoT - Unified Writing to Think Process]]"
-status: stable
+status: evergreen
 tags:
   - adhd-optimization
   - execution

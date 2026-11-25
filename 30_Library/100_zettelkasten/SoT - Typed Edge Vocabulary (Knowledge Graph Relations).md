@@ -13,7 +13,7 @@ see_also:
 - '[[SoT - Typed Answer Contract (TAC) for LLM Output]]'
 - '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
 - '[[SoT - Knowledge Compiler (Argument Graph Spec)]]'
-status: stable
+status: evergreen
 tags:
 - domain/pkm
 - prodos/sot

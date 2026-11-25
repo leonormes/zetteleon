@@ -10,7 +10,7 @@ modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/interest-pairing-can-increase-engagement-in-mundane-tasks-for-adhd
 proposition: Pairing a high-interest sensory input strictly with a low-interest physical chore lowers initiation activation energy and speeds up starting the mundane task.
 source: '[[MOC - ADHD Experiments & Protocols]]'
-status: draft
+status: seed
 tags: [experiment, hypothesis, interest-pairing, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
 type: claim

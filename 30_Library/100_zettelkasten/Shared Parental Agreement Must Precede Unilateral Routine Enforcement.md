@@ -10,7 +10,7 @@ proposition: Enforcing a household routine rule unilaterally before both parents
 see_also:
   - "[[MOC - Relational Dynamics & Family (Triage)]]"
 source_title: Household routines - position and proposal (DRAFT)
-status: stable
+status: evergreen
 tags:
   - TheHuman/Family
   - chores

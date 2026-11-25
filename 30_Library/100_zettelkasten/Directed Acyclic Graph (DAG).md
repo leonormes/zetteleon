@@ -9,7 +9,7 @@ distinguishes_from:
   - "[[Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured]]"
 modified: 2026-11-18T15:56:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graph-dag
-status: stable
+status: evergreen
 tags:
   - domain/infrastructure
   - git

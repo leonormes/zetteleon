@@ -11,7 +11,7 @@ modified: 2026-11-17T11:25:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/misunderstanding-is-the-default-state-when-experiential-filters-diverge
 proposition: Misunderstanding is the default state of human communication rather than an anomaly because speaker and listener never share identical experiential filters.
-status: stable
+status: evergreen
 tags:
 - cognitive-bias
 - communication

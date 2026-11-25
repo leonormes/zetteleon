@@ -61,7 +61,7 @@ Minimum frontmatter shape:
 ---
 title: <matches filename>
 type: sot            # or protocol
-status: draft
+status: seed
 tags: [prodos, sot]
 conformant: true     # or false, with non_conformance_reason
 ---

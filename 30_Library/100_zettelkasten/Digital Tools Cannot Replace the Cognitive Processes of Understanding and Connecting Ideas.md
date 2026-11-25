@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/digital-tools-cannot-replace-the-cognitive-processes-
 proposition: Digital tools cannot replace the cognitive processes involved in understanding and connecting ideas.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - cognition
   - digital-tools

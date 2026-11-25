@@ -11,7 +11,7 @@ prodos:
   kind: sot
   lifecycle: active
   trust: working
-status: draft
+status: seed
 supersedes:
   - "[[SoT - Family Chores Purpose and Values]]"
   - "[[SoT - Family Household Governance]]"

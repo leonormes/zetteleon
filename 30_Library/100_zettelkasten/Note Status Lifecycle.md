@@ -23,7 +23,7 @@ used_in_claims:
 
 ## Note Status Lifecycle
 
-A note's `status` field records how mature and trustworthy the note is, not whether its claim is true, which belongs to `epistemic_status`. The allowed values are `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded` and `archived`, and they are fixed by [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] and checked by `validate_note_frontmatter.py`. `validate_note_shape.py` still lists only the first six, so it rejects `archived` on a new atomic note.
+A note's `status` field records how mature and trustworthy the note is, not whether its claim is true, which belongs to `epistemic_status`. The allowed values are `seed`, `evergreen`, `stale`, `superseded` and `archived`, and they are fixed by [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] and checked by `validate_note_frontmatter.py`. `validate_note_shape.py` uses the same five values. `draft` and `stable` were retired on 2026-11-25: existing notes were migrated to `seed` and `evergreen`.
 
 [implements:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], strength=3, confidence=medium]
 
@@ -34,30 +34,27 @@ A note's `status` field records how mature and trustworthy the note is, not whet
 - Notes with `own_words: true`, and everything in `01_journals/` and `20_Thinking/`, are protected. An agent never edits their body, so it cannot promote them through the criteria below. It can only suggest a status in chat.
 - Notes created before 2026-09-26 are frozen under the Atomic Note Standard. A status change is a frontmatter edit and does not oblige anyone to restructure the body.
 
-### The Seven States
+### The Five States
 
 | Status | Meaning | Enters when |
 |:-------|:--------|:------------|
-| `draft` | Incomplete or in flux. | Work has started but the note does not yet state its point. |
-| `seed` | Complete enough to read, not yet integrated or reviewed. | Default for new notes. LLM-generated notes always start here. By far the most common value: on 2026-11-23, 464 notes in `100_zettelkasten/` against 204 `stable`, 47 `draft`, 12 `superseded`, 6 `evergreen` and 1 `stale`. |
-| `stable` | Complete, reviewed and linked in. | The criteria below are met. |
-| `evergreen` | Reliable backbone knowledge, used in several contexts. | The stricter criteria below are met. |
+| `seed` | Not yet integrated or reviewed. Covers both work in progress and complete-but-unreviewed notes. | Default for new notes. LLM-generated notes always start here. After the 2026-11-25 collapse it is the most common value. |
+| `evergreen` | Complete, reviewed and linked in. Reliable knowledge, used in several contexts. | The criteria below are met. |
 | `stale` | Possibly out of date. Needs reconsolidation or deprecation. | A note surfaces in search where it does not belong, or its sources or surrounding notes have moved on. |
 | `superseded` | Replaced by another note. | Another note has absorbed it. `superseded_by` is then required. |
 | `archived` | Kept for the record, no longer maintained, and not replaced by anything. | The note is finished or abandoned and has no successor. No note uses it yet (0 on 2026-11-23), and it is separate from `prodos.lifecycle: archived`. |
 
-The older three-stage model called these seedling, growing and evergreen. Read seedling as `seed` and growing as `stable`. That mapping is an interpretation, since the contract migrated the old `owned` value to `stable` on the same reasoning that the note was complete. Treat it as a working convention, not a rule.
+The older three-stage model called these seedling, growing and evergreen. Read seedling as `seed` and both growing and the former `stable` as `evergreen`. On 2026-11-25 the vault collapsed `draft` into `seed` and `stable` into `evergreen`, so every note previously marked `stable` now reads `evergreen`. Some of those were never held to the stricter criteria below, so treat the old `stable` set as unreviewed for backbone status.
 
 ### Promotion Criteria
 
 A promotion needs evidence that can be checked in the vault, not a feeling of readiness.
 
-- `seed` to `stable`:
+- `seed` to `evergreen`:
   - the note states its point in one proposition or definition;
   - its frontmatter validates and its links are annotated;
   - it has at least one inbound link from a structural note (a MoC, SoT or another note that builds on it);
   - Leon has reviewed it for accuracy and framing. An agent cannot supply this step.
-- `stable` to `evergreen`:
   - at least two inbound links from structural notes, showing it is useful in more than one context;
   - typed edges (`supports`, `depends_on` and the rest) that justify its place in the argument graph, run through `edge_lint.py`;
   - for claims, `epistemic_status` that the evidence links support.
@@ -73,15 +70,15 @@ The old criteria of a `purpose` field, a `confidence` score and a `review_interv
 
 ### Evidence
 
-- The enum is stated in the Frontmatter Contract §2 and mirrored in `VALID_STATUS` in `validate_note_frontmatter.py` and in the `Note` fileClass. Those three agree on seven values. `VALID_STATUS` in `validate_note_shape.py` has six and omits `archived`, a gap that is not yet fixed. The contract records that `seed` was added on 2026-09-22 and `archived` on 2026-11-22.
+- The enum is stated in the Frontmatter Contract §2 and mirrored in `VALID_STATUS` in `validate_note_frontmatter.py` and in the `Note` fileClass. Those agree on five values, and `VALID_STATUS` in `validate_note_shape.py` now matches. The contract records that `seed` was added on 2026-09-22 and `archived` on 2026-11-22.
 - The retirement of `purpose` and `last_reviewed` for atomic notes is recorded in the Atomic Note Standard.
 - The promotion thresholds (one and two inbound structural links, author review) come from this note's earlier version and have not been tested against the vault. No script currently computes inbound structural link counts or promotes anything.
 
 ### Implications
 
 - A reader can use `status` to decide how much weight to give a note, and an agent can use it to decide how much to rely on one. Treat `seed` as a draft of an idea, not as settled knowledge.
-- Agents create at `seed`, and moving to `stable` needs Leon's review, which keeps promotion a human decision.
-- If the two-link evergreen threshold is worth keeping, a Dataview or script check would turn it from a convention into something enforced. That is not built.
+- Agents create at `seed`, and moving to `evergreen` needs Leon's review, which keeps promotion a human decision.
+- If the two-link threshold is worth keeping, a Dataview or script check would turn it from a convention into something enforced. That is not built.
 
 ### Related
 

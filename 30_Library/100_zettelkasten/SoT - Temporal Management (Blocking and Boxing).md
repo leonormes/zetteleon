@@ -10,7 +10,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-temporal-management-blocking-and-boxing
 project_category: prodos
 source_of_truth: true
-status: stable
+status: evergreen
 tags:
 - cal-newport
 - parkinsons-law

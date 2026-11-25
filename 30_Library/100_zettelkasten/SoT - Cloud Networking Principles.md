@@ -5,7 +5,7 @@ created: 2026-01-09T22:08:05+00:00
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cloud-networking-principles
-status: stable
+status: evergreen
 tags: [architecture, cloud, networking, principles, security]
 title: SoT - Cloud Networking Principles
 type: sot

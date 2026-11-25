@@ -7,7 +7,7 @@ created: 2026-11-17T11:25:00+00:00
 modified: 2026-11-17T11:25:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-repair-misunderstanding-during-communication
-status: stable
+status: evergreen
 steps:
 - Assume you have been misunderstood until feedback proves otherwise.
 - Ask explicit clarification questions about key terms rather than assuming shared definitions.

@@ -13,7 +13,7 @@ epistemic_status: medium
 modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: missing schema field used_in_claims for type concept (required when conformant - true)
 permalink: llmeon/30-library/100-zettelkasten/the-trap-of-the-architect-is-sophisticated-system-building-substituting-for-physical-action
-status: stable
+status: evergreen
 tags:
 - avoidance
 - meta-work

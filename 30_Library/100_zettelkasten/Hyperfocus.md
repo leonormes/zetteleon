@@ -8,7 +8,7 @@ permalink: llmeon/30-library/100-zettelkasten/hyperfocus-is-a-state-of-intense-i
 definition: Hyperfocus is a state of intense, sustained concentration on a task that genuinely interests a person with ADHD, during which distractibility can seem to vanish.
 distinguishes_from: ["[[Flow State is a State of Optimal Dopamine Stimulation]]"]
 used_in_claims: ["[[ADHD Novelty Seeking and Hyperfocus Fuel Generative Framework Synthesis]]", "[[Flexible routines accommodate hyperfocus and task-switching patterns]]", "[[Sprint Journaling Prevents Overwhelm in ADHD]]"]
-status: stable
+status: evergreen
 tags: [focus, interest, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity/hyperfocus]
 title: Hyperfocus
 type: concept

@@ -5,7 +5,7 @@ created: 2025-10-26T11:12:00+00:00
 last_reviewed: 2025-12-16
 modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/body-doubling-for-adhd-focus
-status: draft
+status: seed
 steps:
   - Set up phone or webcam facing yourself (and screen if possible).
   - Start recording or a time-lapse and work for 45 minutes under the "On Air" rule (no phone or tab-switching).

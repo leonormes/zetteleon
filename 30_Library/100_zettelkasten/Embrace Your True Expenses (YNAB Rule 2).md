@@ -10,7 +10,7 @@ permalink: llmeon/30-library/100-zettelkasten/embrace-your-true-expenses-ynab-ru
 proposition: Treating large irregular bills as monthly instalments saved in advance
   turns predictable surprises into planned costs and removes the cash crunch that
   forces money away from other jobs.
-status: draft
+status: seed
 tags: [budgeting, finance, ynab]
 title: Embrace Your True Expenses (YNAB Rule 2)
 type: claim

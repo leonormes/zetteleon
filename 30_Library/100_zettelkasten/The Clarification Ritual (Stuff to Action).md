@@ -5,7 +5,7 @@ created: 2025-12-16T14:40:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
 modified: 2026-11-18T16:07:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-clarification-ritual-stuff-to-action
-status: draft
+status: seed
 steps: ["For each item, decide what it is, whether it is actionable, what the next physical action is, and assign a context tag.", Clarify only without executing any of the tasks., Open the Inbox at the end-of-day Shutdown Ritual for a dedicated 15-minute block.]
 tags: [clarification, experiment, gtd, hypothesis, TheHuman/Health/ADHD, topic/productivity]
 title: The Clarification Ritual (Stuff to Action)

@@ -10,7 +10,7 @@ distinguishes_from:
   - "[[Emotional Reasoning]]"
 modified: 2026-11-15T11:04:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/understanding-emotion
-status: stable
+status: evergreen
 tags:
   - emotional_regulation
   - musashi

@@ -4,7 +4,7 @@ created: 2026-11-16T12:30:00+00:00
 description: Build today's plan by reading the Todoist runway and timeboxing the chosen tasks as dated, timed and sized Todoist tasks, with Big Rocks first and a 25% buffer. Use for `/daily-plan`, "plan my day", or the start of a working session.
 modified: 2026-11-17T10:17:00+00:00
 permalink: llmeon/10-system/prompts/protocol-daily-plan-todoist-timeboxing
-status: draft
+status: seed
 tags:
 - agent/chief-of-staff
 - domain/pkm

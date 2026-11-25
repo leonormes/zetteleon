@@ -5,7 +5,7 @@ manufacturer: Acer
 model: Chromebook Spin 714 CP714-2WN-36LD
 modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/acer-chromebook-spin-714-cp714-2wn-36ld
-status: stable
+status: evergreen
 tags: [acer, chromebook, chromeos, convertible, equipment, laptop]
 title: Acer Chromebook Spin 714 (CP714-2WN-36LD)
 type: equipment

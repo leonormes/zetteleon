@@ -14,7 +14,7 @@ see_also:
 - '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
 - '[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]'
 - '[[The Atomicity Principle - One Idea Per Note]]'
-status: stable
+status: evergreen
 tags:
 - domain/pkm
 - prodos/sot

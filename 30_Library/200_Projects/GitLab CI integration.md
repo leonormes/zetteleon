@@ -8,7 +8,7 @@ permalink: llmeon/30-library/200-projects/git-lab-ci-integration
 project_name: Pipeline
 source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839
 sources: [raw/2026-06-15-pieces-fitfile-cd-decision-document.md]
-status: draft
+status: seed
 tags: [cicd, confluence, devops, fitfile, input, pieces, pipeline, project, raw, wiki]
 title: GitLab CI integration
 type: null

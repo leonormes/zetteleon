@@ -9,7 +9,7 @@ modified: 2026-11-23 12:00:00+00:00
 proposition: Executive dysfunction in the trough leaves tasks undone, the accumulating
   responsibilities raise stress, and the stress impairs executive function further,
   producing a vicious cycle of overwhelm.
-status: draft
+status: seed
 tags:
 - adhd
 - stress

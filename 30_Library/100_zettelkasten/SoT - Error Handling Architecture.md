@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-error-handling-architecture
-status: stable
+status: evergreen
 tags: [error-handling, observability, rust, SoftwareEngineering/Architecture]
 title: SoT - Error Handling Architecture
 type: sot

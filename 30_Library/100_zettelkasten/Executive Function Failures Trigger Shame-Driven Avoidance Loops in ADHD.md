@@ -11,7 +11,7 @@ modified: 2026-11-17T15:32:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/executive-function-failures-trigger-shame-driven-avoidance-loops-in-adhd
 proposition: In ADHD, executive-function failures repeatedly trigger character-based shame and anticipatory anxiety, driving mood-repair avoidance that reinforces perceived incompetence in a self-sustaining loop.
-status: stable
+status: evergreen
 tags:
 - adhd
 - avoidance

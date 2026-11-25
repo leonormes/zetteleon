@@ -10,7 +10,7 @@ distinguishes_from:
 - "[[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]"
 modified: 2026-11-23T20:48:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/ef-independent-push-floor
-status: stable
+status: evergreen
 tags:
 - cognitive-scaffolding
 - executive-function

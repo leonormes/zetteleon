@@ -6,7 +6,7 @@ last_reviewed: ''
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
-status: stable
+status: evergreen
 tags: [exercise, health, somatics, TheHuman/Health/ADHD]
 title: Resource - Animal Flow Movement Guide
 type: sot

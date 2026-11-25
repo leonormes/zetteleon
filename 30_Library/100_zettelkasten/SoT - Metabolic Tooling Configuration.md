@@ -4,7 +4,7 @@ created: 2026-01-10T09:34:38+00:00
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-metabolic-tooling-configuration
-status: stable
+status: evergreen
 tags: [configuration, health, nutracheck, tools]
 title: SoT - Metabolic Tooling Configuration
 type: sot

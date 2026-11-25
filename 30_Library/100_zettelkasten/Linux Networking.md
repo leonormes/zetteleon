@@ -6,7 +6,7 @@ created: 2025-10-22T09:39:10+00:00
 last_reviewed:
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/linux-networking
-status: stable
+status: evergreen
 tags:
   - containers
   - linux

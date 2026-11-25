@@ -6,7 +6,7 @@ created: 2026-11-17T14:57:00+00:00
 modified: 2026-11-17T14:57:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-design-survivable-adhd-scaffolds
-status: stable
+status: evergreen
 steps:
 - Delete or automate recurring tasks before building a tracking workflow for them.
 - Prefer push cues that interrupt at the time and place of action over pull dashboards.

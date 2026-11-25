@@ -9,7 +9,7 @@ modified: 2026-11-15T10:42:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/sprint-journaling-prevents-overwhelm-in-adhd
 proposition: "Short timed writing bursts of five to ten minutes reduce ADHD task-initiation friction and prevent executive overwhelm during exploratory writing."
 see_also: ["[[MOC - PKM as Process vs Product]]"]
-status: stable
+status: evergreen
 tags: [TheHuman/Health/ADHD, time-management, topic/productivity, writing]
 title: Sprint Journaling Prevents Overwhelm in ADHD
 type: claim

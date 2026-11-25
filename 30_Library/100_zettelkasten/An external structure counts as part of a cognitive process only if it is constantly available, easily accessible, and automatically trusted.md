@@ -11,7 +11,7 @@ evidence_links:
 modified: 2026-11-24T16:25:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/external-structure-constitutive-cognitive-conditions
 proposition: An external structure counts as part of a cognitive process only if it is constantly available, easily accessible, and automatically trusted.
-status: stable
+status: evergreen
 tags:
   - TheHuman/Cognition
   - domain/pkm

@@ -7,7 +7,7 @@ created: 2026-11-17T14:26:00+00:00
 modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-run-zen-to-done-minimalist-execution
-status: stable
+status: evergreen
 steps:
 - Collect all incoming tasks, ideas, and commitments into a single trusted inbox.
 - Process each item with a quick binary decision to do, defer, delegate, or delete.

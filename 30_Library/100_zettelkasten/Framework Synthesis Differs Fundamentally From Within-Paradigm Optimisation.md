@@ -11,7 +11,7 @@ modified: 2026-11-17T14:49:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/framework-synthesis-differs-fundamentally-from-within-paradigm-optimisation
 proposition: Synthesising a new conceptual framework is fundamentally different from optimising within an existing paradigm because the former breaks invisible assumptions in unknown territory while the latter matches patterns across known rules.
-status: stable
+status: evergreen
 tags:
 - cognition
 - epistemology

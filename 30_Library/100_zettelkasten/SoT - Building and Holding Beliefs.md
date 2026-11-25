@@ -9,7 +9,7 @@ see_also:
 - '[[MOC - How Can I Know Something]]'
 - '[[SoT - What Knowledge Is]]'
 - '[[SoT - Metacognitive Calibration]]'
-status: draft
+status: seed
 tags:
 - topic/epistemology
 - topic/critical-thinking

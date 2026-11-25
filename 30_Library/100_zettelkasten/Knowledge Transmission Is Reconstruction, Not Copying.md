@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/knowledge-transmission-is-reconstruction-not-copying
 proposition: Transmitting knowledge through language means the receiver reconstructs meaning against a background of shared experience, rather than copying information from one mind to another.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - communication
   - epistemology

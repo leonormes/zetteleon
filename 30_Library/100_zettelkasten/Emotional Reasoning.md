@@ -10,7 +10,7 @@ distinguishes_from:
   - "[[Negative Events Exert Greater Psychological Impact Than Positive Ones of Equal Intensity]]"
 modified: 2026-11-18T16:40:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-reasoning
-status: stable
+status: evergreen
 tags:
   - cbt
   - cognitive-distortion

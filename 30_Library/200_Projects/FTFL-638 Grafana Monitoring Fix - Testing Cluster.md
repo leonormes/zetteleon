@@ -8,7 +8,7 @@ permalink: llmeon/30-library/200-projects/ftfl-638-grafana-monitoring-fix-testin
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
-status: stable
+status: evergreen
 tags: [aks, ftfl-638, grafana, infrastructure, kubernetes, monitoring]
 title: FTFL-638 Grafana Monitoring Fix - Testing Cluster
 type: null

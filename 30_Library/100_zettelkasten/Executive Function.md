@@ -6,7 +6,7 @@ definition: The set of top-down cognitive control processes that orchestrate beh
 distinguishes_from: ["[[Cognitive Load]]"]
 modified: 2026-11-24T16:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function
-status: draft
+status: seed
 tags: [cognition, executive-function, TheHuman/Health/ADHD]
 title: Executive Function
 type: concept

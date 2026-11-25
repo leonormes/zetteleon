@@ -54,7 +54,7 @@ Provide the output as a clean protocol markdown block or strict Todoist-ready ac
 ---
 title: Protocol - [Action Name]
 type: protocol
-status: draft
+status: seed
 upstream: ["[[SoT - Governing Theory]]"]
 tags: [protocol, ...]
 conformant: true

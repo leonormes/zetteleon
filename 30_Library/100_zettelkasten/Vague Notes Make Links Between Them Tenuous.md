@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/vague-notes-make-links-between-them-tenuous
 proposition: When notes are vague or lack depth, the links between them are tenuous, because interpreting the connection depends on the existing knowledge and mental models of the reader.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - ambiguity
   - linking

@@ -6,7 +6,7 @@ goal: Understand fable adaptation across cultures
 last_reviewed: 2025-11-01
 modified: 2026-11-24T22:21:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/sequence-evolution-of-fable-storytelling
-status: draft
+status: seed
 tags:
   - fable
   - history

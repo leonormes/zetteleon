@@ -15,7 +15,7 @@ project_category: prodos
 see_also:
 - '[[SoT - Unified Writing to Think Process]]'
 - '[[SoT - HEAD Note Contract (The Workbench)]]'
-status: stable
+status: evergreen
 tags:
 - pkm
 - TheHuman/Health/ADHD

@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-14T21:45:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/outsourcing-writing-to-ai-bypasses-the-cognitive-strain-that-builds-professional-competence
 proposition: Outsourcing first-draft writing and synthesis to AI bypasses the deliberate cognitive strain required to build deep domain comprehension and professional competence.
-status: stable
+status: evergreen
 tags: [ai, cognitive-fitness, professional-development, writing]
 title: Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence
 type: claim

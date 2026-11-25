@@ -8,7 +8,7 @@ prodos:
   lifecycle: active
 project_category: Family
 project_name: Family Chores
-status: draft
+status: seed
 tags: [TheHuman/Family, chores, family-agreement, action-plan]
 title: Family Chores - Everyone's Guide
 type: project

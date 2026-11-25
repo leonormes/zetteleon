@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-14T13:07:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-in-own-words-distinguishes-comprehension-from-the-illusion-of-knowledge
 proposition: "Translating a concept into ones own words forces engagement with causal structure and distinguishes genuine comprehension from the illusion of knowledge."
-status: stable
+status: evergreen
 tags: [comprehension, learning, pkm, writing]
 tension: ["[[The Disappointment of Written Thoughts]]"]
 title: Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge

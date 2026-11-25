@@ -14,7 +14,7 @@ entry_points:
   - "[[Protocol - Weekly Command Centre]]"
 modified: 2026-11-18T06:55:13+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-experiments-protocols
-status: stable
+status: evergreen
 tags:
   - experiments
   - hypothesis

@@ -15,7 +15,7 @@ prodos:
     - family-governance
     - household-operations
     binary_checklist: true
-status: draft
+status: seed
 tags:
 - TheHuman/Family
 - chores

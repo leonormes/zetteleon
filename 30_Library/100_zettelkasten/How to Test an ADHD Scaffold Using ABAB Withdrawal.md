@@ -7,7 +7,7 @@ created: 2026-11-17T14:57:00+00:00
 modified: 2026-11-17T14:57:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-test-an-adhd-scaffold-using-abab-withdrawal
-status: stable
+status: evergreen
 steps:
 - Run one week of baseline tracking on an objective target completion metric without the new scaffold.
 - Enable the scaffold for one week while recording the same objective outcome and bad-day performance.

@@ -3,7 +3,7 @@ conformant: true
 created: 2026-11-24T16:22:00+00:00
 modified: 2026-11-24T16:22:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-to-run-the-daily-chore-check-in
-status: draft
+status: seed
 steps:
 - Give one calm neutral reminder 30 minutes before check-in with no follow-up nagging.
 - Confirm everyone is in Green Brain at check-in time and pause if co-regulation is needed.

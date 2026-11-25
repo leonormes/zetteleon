@@ -12,7 +12,7 @@ prodos:
     binary_checklist: true
 see_also:
   - "[[Household Routines Proposal]]"
-status: draft
+status: seed
 tags:
   - TheHuman/Family
   - chores

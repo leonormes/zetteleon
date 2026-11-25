@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-23 12:00:00+00:00
 proposition: During the trough a person has difficulty holding information in mind
   or following multi-step instructions.
-status: draft
+status: seed
 tags:
 - adhd
 - working-memory

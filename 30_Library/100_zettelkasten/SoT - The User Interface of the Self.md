@@ -11,7 +11,7 @@ project_category: prodos
 see_also:
 - '[[SoT - PRODOS Core Specification]]'
 - '[[SoT - Prosthetic Executive Function]]'
-status: stable
+status: evergreen
 tags:
 - agency
 - cognitive_science

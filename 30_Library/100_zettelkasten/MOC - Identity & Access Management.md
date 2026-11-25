@@ -7,7 +7,7 @@ last_reviewed:
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-identity-access-management
 see_also: []
-status: stable
+status: evergreen
 superseded_by: ""
 supersedes: ""
 tags:

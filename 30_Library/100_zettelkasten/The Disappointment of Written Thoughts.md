@@ -10,7 +10,7 @@ modified: 2026-11-14T13:06:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-disappointment-of-written-thoughts
 proposition: "Thoughts that feel profound internally often appear skeletal or dull once written down because externalisation strips away unstated tacit scaffolding, revealing the diagnostic gap between felt intuition and articulated knowledge."
 see_also: ["[[MOC - PKM as Process vs Product]]"]
-status: stable
+status: evergreen
 tags: [TheHuman/Cognition/thinking, TheHuman/Creativity, TheHuman/Psychology, topic/writing]
 title: The Disappointment of Written Thoughts
 type: claim

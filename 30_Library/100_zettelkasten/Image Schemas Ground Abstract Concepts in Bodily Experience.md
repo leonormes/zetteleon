@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/image-schemas-ground-abstract-concepts-in-bodily-expe
 proposition: Recurring patterns of bodily experience, called image schemas, structure abstract concepts, as physical containment underlies expressions such as being in a good mood.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - abstraction
   - conceptual-metaphor

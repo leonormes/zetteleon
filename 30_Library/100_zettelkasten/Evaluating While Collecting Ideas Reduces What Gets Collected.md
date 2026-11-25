@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-18T16:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/evaluating-while-collecting-ideas-reduces-what-gets-collected
 proposition: Evaluating ideas while still collecting them reduces how many ideas get collected.
-status: draft
+status: seed
 tags:
   - TheHuman/Cognition
   - TheHuman/Psychology

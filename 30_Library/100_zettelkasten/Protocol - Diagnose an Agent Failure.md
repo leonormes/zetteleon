@@ -15,7 +15,7 @@ tags:
   - topic/evaluation
 title: Protocol - Diagnose an Agent Failure
 type: protocol
-status: draft
+status: seed
 prodos:
   kind: protocol
   protocol:

@@ -11,7 +11,7 @@ see_also:
   - "[[Meta MOC - The Core Domains]]"
   - "[[SoT - Physical Health and Vitality]]"
   - "[[MOC - ADHD (The Master Map)]]"
-status: stable
+status: evergreen
 tags:
   - fitness
   - health

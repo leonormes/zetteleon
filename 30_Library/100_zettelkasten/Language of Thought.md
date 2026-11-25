@@ -7,7 +7,7 @@ distinguishes_from: ["[[SoT - The Primacy of Experience (Pre-Linguistic Understa
 modified: 2026-11-14T12:05:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/language-of-thought
 see_also: ["[[MOC - The Gap Between Thought and Language]]", "[[Implications for Consciousness and Philosophy of Mind]]", "[[Qualia and Linguistic Limitations]]", "[[The Chinese Room Argument Contests Whether Symbol Manipulation Alone Constitutes Genuine Understanding]]"]
-status: stable
+status: evergreen
 tags: [language, mentalese, philosophy-of-mind, TheHuman/Cognition]
 title: Language of Thought
 type: concept

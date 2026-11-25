@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/bodily-feelings-act-as-pre-verbal-cognition
 proposition: Bodily feelings work as a primary form of cognition that guides decisions before conscious verbal reasoning occurs.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - cognition
   - decision-making

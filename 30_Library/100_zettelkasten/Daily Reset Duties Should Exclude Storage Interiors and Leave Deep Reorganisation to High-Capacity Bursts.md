@@ -8,7 +8,7 @@ modified: 2026-11-24 17:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/daily-reset-duties-should-exclude-storage-interiors-and-leave-deep-reorganisation-to-high-capacity-bursts
 proposition: The daily minimum should cover only what the day needs, while opening cupboards to sort or reorganise belongs to a separate deep-maintenance tier used when capacity or hyperfocus allows.
 source_title: AI chat summary on tidying and storage friction (unverified)
-status: draft
+status: seed
 tags:
   - TheHuman/Family
   - chores

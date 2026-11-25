@@ -4,7 +4,7 @@ created: 2026-08-03T00:00:00+01:00
 description: Run the four HEAD-note compliance tests over every note in 20_Thinking/21_Workbench, route failures out to their correct home, and report stale or unactionable threads. Use on a recurring basis, or after any bulk capture.
 modified: 2026-11-17T10:40:00+00:00
 permalink: llmeon/10-system/prompts/protocol-workbench-compliance-sweep
-status: stable
+status: evergreen
 tags:
 - agent/sweeper
 - domain/pkm

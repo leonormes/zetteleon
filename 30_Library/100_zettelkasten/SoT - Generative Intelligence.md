@@ -11,7 +11,7 @@ created: 2024-03-30T00:00:00+00:00
 modified: 2026-11-17T14:49:00+00:00
 permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true
-status: stable
+status: evergreen
 tags:
   - innovation
   - intelligence

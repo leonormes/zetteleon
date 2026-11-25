@@ -6,7 +6,7 @@ modified: 2026-11-24T15:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-extended-mind
 project_category: prodos
-status: stable
+status: evergreen
 tags: [extended_mind, mental_models, pkm, TheHuman/Cognition, TheHuman/Health/ADHD, TheHuman/Philosophy]
 title: SoT - The Extended Mind
 type: sot

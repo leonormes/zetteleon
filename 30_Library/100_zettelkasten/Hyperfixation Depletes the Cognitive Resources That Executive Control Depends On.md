@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-23 12:00:00+00:00
 proposition: Intense hyperfixation spends the mental resources that executive control
   draws on, so the person enters the post-hyperfixation trough with less of them available.
-status: draft
+status: seed
 tags:
 - adhd
 - executive-function

@@ -12,7 +12,7 @@ modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/00-inbox/the-symbol-grounding-problem
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags: [experience, language, meaning, semantics, symbol-grounding]
 title: The Symbol Grounding Problem
 type: concept

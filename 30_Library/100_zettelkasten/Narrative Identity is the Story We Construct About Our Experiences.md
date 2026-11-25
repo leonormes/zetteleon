@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-19T11:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/narrative-identity-is-the-story-we-construct-about-our-experiences
 proposition: Personal identity functions as an editable narrative organizing past events, present choices, and future intentions into continuity without requiring a fixed essence.
-status: stable
+status: evergreen
 tags:
   - narrative-identity
   - self

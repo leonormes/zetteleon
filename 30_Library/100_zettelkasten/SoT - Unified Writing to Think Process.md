@@ -7,7 +7,7 @@ modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/sot/the-unified-writing-to-think-process
 project_category: prodos
 see_also: ["[[MOC - PKM as Process vs Product]]", "[[SoT - PRODOS Core Specification]]", "[[PKM as Process vs Product]]", "[[MOC - Why Thoughts Feel More Important When Thinking Them]]"]
-status: stable
+status: evergreen
 tags: [learning, pkm, thinking, writing]
 tension: ["[[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]"]
 title: SoT - Unified Writing to Think Process

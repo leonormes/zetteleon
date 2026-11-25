@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-24T16:33:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/household-scaffolds-should-match-each-users-access-and-trust-and-be-bridged-through-one-master-record
 proposition: In a household where people differ in what they will reach and trust, each person should use the scaffold that works for them, with one master record bridged to the shared surface, and not have the most experienced user impose theirs.
-status: draft
+status: seed
 tags:
   - TheHuman/Family
   - TheHuman/Health/ADHD

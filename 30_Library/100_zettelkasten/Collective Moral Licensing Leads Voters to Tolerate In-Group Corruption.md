@@ -11,7 +11,7 @@ modified: 2026-11-18T09:33:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/collective-moral-licensing-leads-voters-to-tolerate-in-group-corruption
 proposition: Voters who identify as the moral resistance to a perceived extreme threat acquire collective moral credentials that license them to tolerate lies, manipulation, or corruption from their own representatives.
 source_title: Political Contrast Effect Research
-status: stable
+status: evergreen
 tags:
   - corruption
   - in-group-out-group

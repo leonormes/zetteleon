@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/outcome-goal-systems-cause-motivational-decay-process
 proposition: Placing psychological reward solely at a project terminus depletes engagement across the middle passage, whereas redirecting reward toward process milestones, visible next actions, and implementation-intention triggers sustains motivation.
 source_title: Neuro-Variable Execution, Spatial Cognition and Knowledge Architecture - An Investigative Report
 source_url: ""
-status: stable
+status: evergreen
 tags:
   - dopamine
   - motivation

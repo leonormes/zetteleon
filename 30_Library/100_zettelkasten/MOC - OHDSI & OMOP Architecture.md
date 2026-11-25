@@ -4,7 +4,7 @@ created: 2026-01-06T19:25:32+00:00
 last_reviewed: null
 modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/mo-c/moc-ohdsi-omop-architecture
-status: stable
+status: evergreen
 tags: [health-informatics, moc, ohdsi, omop, SoftwareEngineering/Architecture]
 title: MOC - OHDSI & OMOP Architecture
 type: map

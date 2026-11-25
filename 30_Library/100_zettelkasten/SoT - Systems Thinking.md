@@ -8,7 +8,7 @@ created: 2025-12-12T00:00:00+00:00
 modified: 2026-11-23T21:28:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-systems-thinking
-status: stable
+status: evergreen
 tags:
   - complexity
   - mental_models

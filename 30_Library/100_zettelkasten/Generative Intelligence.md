@@ -10,7 +10,7 @@ distinguishes_from:
 modified: 2026-11-17T14:49:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/generative-intelligence
-status: stable
+status: evergreen
 tags:
 - cognition
 - innovation

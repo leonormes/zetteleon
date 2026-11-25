@@ -9,7 +9,7 @@ modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/dividing-a-process-does-not-make-the-intact-process-illusory
 proposition: Showing that a biological process can be divided does not show that the process is an illusion; water can be split into hydrogen and oxygen, yet the wetness of intact water is real, and likewise the unity of the self need not be illusory just because the brain can be split.
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
-status: draft
+status: seed
 tags: [consciousness, emergence, philosophy-of-mind, self, TheHuman/Identity, TheHuman/Philosophy]
 title: Dividing a Process Does Not Make the Intact Process Illusory
 type: claim

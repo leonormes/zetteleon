@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cloud-networking-core-components
-status: stable
+status: evergreen
 tags: [aws, azure, cloud, kubernetes, networking]
 title: SoT - Cloud Networking Core Components
 type: sot

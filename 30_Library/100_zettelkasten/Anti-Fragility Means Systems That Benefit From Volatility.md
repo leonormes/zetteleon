@@ -9,7 +9,7 @@ evidence_links: []
 modified: 2026-11-19T11:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/anti-fragility-means-systems-that-benefit-from-volatility
 proposition: Antifragility is the property of systems that gain from disorder and volatility through optionality, redundancy, and bounded-downside experimentation rather than merely resisting shocks.
-status: stable
+status: evergreen
 tags:
   - anti-fragility
   - chaos

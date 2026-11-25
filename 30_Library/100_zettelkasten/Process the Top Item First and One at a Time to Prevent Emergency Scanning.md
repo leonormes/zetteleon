@@ -9,7 +9,7 @@ modified: 2026-11-18T16:26:00+00:00
 non_conformance_reason: "evidence_links empty (uncited quote has no verified source note in the vault)"
 permalink: llmeon/30-library/100-zettelkasten/process-the-top-item-first-and-one-at-a-time-to-prevent-emergency-scanning
 proposition: Clarifying a capture container in a fixed order, without choosing which item to process next, prevents the selective processing through which less attractive items accumulate.
-status: draft
+status: seed
 tags: [attention-management, focus, gtd, processing]
 title: Clarifying a Capture Container in Fixed Order Prevents Selective Processing
 type: claim

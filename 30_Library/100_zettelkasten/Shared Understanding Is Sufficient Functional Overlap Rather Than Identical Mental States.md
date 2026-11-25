@@ -11,7 +11,7 @@ modified: 2026-11-17T11:25:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/shared-understanding-is-sufficient-functional-overlap-rather-than-identical-mental-states
 proposition: Shared understanding does not require identical mental states between speaker and listener, but only sufficient overlap between their experiential worlds to enable cooperation.
-status: stable
+status: evergreen
 tags:
 - communication
 - coordination

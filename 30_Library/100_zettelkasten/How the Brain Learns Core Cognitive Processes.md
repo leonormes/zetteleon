@@ -6,7 +6,7 @@ definition: The set of cognitive processes, attention, perception and memory, th
 distinguishes_from: ["[[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]]", "[[Information Retrieval Is Not Learning]]"]
 modified: 2026-10-23T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-the-brain-learns-core-cognitive-processes
-status: stable
+status: evergreen
 tags: [cognition, learning, TheHuman/Cognition, TheHuman/Neuroscience]
 title: How the Brain Learns Core Cognitive Processes
 type: concept

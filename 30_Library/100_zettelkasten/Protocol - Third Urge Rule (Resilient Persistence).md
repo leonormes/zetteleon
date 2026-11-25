@@ -5,7 +5,7 @@ aliases:
 created: 2025-12-24T12:00:00+00:00
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-third-urge-rule-resilient-persistence
-status: stable
+status: evergreen
 tags:
   - adhd-friendly
   - grit

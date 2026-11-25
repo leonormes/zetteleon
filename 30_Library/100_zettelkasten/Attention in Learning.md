@@ -6,7 +6,7 @@ definition: The cognitive process of selectively concentrating on one aspect of 
 distinguishes_from: ["[[Perception in learning]]", "[[Cognitive Load]]"]
 modified: 2026-10-23T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/attention-in-learning
-status: stable
+status: evergreen
 tags: [learning, attention, TheHuman/Cognition]
 title: Attention in Learning
 type: concept

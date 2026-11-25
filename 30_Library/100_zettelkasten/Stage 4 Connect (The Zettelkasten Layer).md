@@ -6,7 +6,7 @@ definition: "The fourth writing stage of the Unified Writing to Think process, f
 distinguishes_from: ["[[Stage 3 Understand (The Writing to Learn Layer)]]", "[[Stage 5 Synthesise (The Outcome Layer)]]"]
 modified: 2026-11-14T13:07:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-4
-status: stable
+status: evergreen
 tags: [cognition, pkm, writing]
 title: Stage 4 Connect (The Zettelkasten Layer)
 type: concept

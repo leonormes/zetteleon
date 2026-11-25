@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/communicating-depends-on-modelling-what-the-listener-
 proposition: Effective communication depends on the implicit model a speaker holds of what the listener already knows and is likely to misunderstand.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - audience
   - communication

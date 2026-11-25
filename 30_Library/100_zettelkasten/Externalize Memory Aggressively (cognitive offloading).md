@@ -6,7 +6,7 @@ definition: "Externalize memory aggressively is the practice of moving recall, p
 distinguishes_from: ["[[Epistemic Actions - Thinking via Doing]]"]
 modified: 2026-11-24T16:25:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/externalize-memory-aggressively-cognitive-offloading
-status: stable
+status: evergreen
 tags: [topic/pkm]
 title: Externalize Memory Aggressively (cognitive offloading)
 type: concept

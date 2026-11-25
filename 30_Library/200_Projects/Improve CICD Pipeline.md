@@ -6,7 +6,7 @@ outcome: null
 permalink: llmeon/30-library/200-projects/improve-cicd-pipeline
 project_name: Pipeline
 reviewed: null
-status: draft
+status: seed
 title: Improve CICD Pipeline
 type: project
 ---

@@ -9,7 +9,7 @@ evidence_links: []
 modified: 2026-11-19T11:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/integrity-means-acting-in-accordance-with-chosen-values
 proposition: Integrity is the alignment of action with consciously chosen values rather than claims of objective certainty, stabilizing identity and confidence under uncertainty.
-status: stable
+status: evergreen
 tags:
   - authenticity
   - integrity

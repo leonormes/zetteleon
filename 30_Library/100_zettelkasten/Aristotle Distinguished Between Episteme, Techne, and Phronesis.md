@@ -11,7 +11,7 @@ distinguishes_from:
   - "[[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]]"
 modified: 2026-11-18T14:03:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
-status: stable
+status: evergreen
 tags:
   - aristotle
   - knowledge

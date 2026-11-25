@@ -4,7 +4,7 @@ manufacturer: Google
 model: Pixel 9
 modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/google-pixel-9
-status: stable
+status: evergreen
 tags: [android, equipment, google, phone, pixel]
 title: Google Pixel 9
 type: equipment

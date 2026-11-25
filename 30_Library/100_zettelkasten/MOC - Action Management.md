@@ -8,7 +8,7 @@ modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-action-management
 related-soTs:
 - '[[SoT - Execution Protocol (GTD & PARA)]]'
-status: stable
+status: evergreen
 tags:
 - action
 - execution

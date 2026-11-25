@@ -10,7 +10,7 @@ permalink: llmeon/00-inbox/redundancy-across-channels-corrects-communication-err
 proposition: Communication carries meaning through several channels at once, so a receiver can reconstruct the intended meaning when part of the signal is missed or misread.
 source_title: beyond words (vault note)
 source_url: UNKNOWN
-status: stable
+status: evergreen
 tags:
   - channels
   - communication

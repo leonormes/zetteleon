@@ -6,7 +6,7 @@ last_reviewed: ''
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/resource-mathematical-model-of-team-understanding
-status: stable
+status: evergreen
 tags: [mathematics, mental_model, team_dynamics, topic/systems]
 title: Resource - Mathematical Model of Team Understanding
 type: sot

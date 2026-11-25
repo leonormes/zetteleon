@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-24T16:22:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/written-definitions-of-done-replace-personal-nagging-with-objective-chore-verification
 proposition: Written checklists that define completed work from start to finish let parents verify household tasks against an objective standard rather than personal mood or repeated nagging.
-status: draft
+status: seed
 tags:
 - TheHuman/Family
 - chores

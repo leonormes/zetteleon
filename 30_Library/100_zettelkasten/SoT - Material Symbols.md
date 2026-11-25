@@ -11,7 +11,7 @@ project_category: prodos
 see_also:
 - '[[SoT - The Extended Mind]]'
 - '[[SoT - HEAD Note Contract (The Workbench)]]'
-status: stable
+status: evergreen
 tags:
 - extended_mind
 - language

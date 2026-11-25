@@ -7,7 +7,7 @@ modified: 2026-10-22T15:11:04+00:00
 non_conformance_reason: agent-drafted work note awaiting Leon's review and edit
 permalink: llmeon/work/ftfl-590-problem-definition-unrestricted-data-source-connections
 related_ticket: FTFL-590
-status: draft
+status: seed
 tags:
   - data-sources
   - fitfile

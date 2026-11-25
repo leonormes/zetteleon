@@ -6,7 +6,7 @@ last-synthesis: 2026-04-05
 last_reviewed: null
 modified: 2026-10-22T15:11:11+00:00
 permalink: llmeon/30-library/so-t/so-t-nhs-identity-compliance
-status: stable
+status: evergreen
 synthesis-count: 1
 tags: [compliance, healthcare, iam, nhs, sot]
 title: SoT - NHS Identity Compliance

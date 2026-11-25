@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-19T11:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/values-serve-as-navigational-compass-in-absence-of-absolute-truth
 proposition: When facts are provisional and absolute certainty is unavailable, consciously chosen values provide directional coherence for evaluating trade-offs and making decisions over time.
-status: stable
+status: evergreen
 tags:
   - decision-making
   - navigation

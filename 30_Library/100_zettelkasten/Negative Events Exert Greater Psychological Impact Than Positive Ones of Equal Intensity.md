@@ -12,7 +12,7 @@ modified: 2026-11-18T16:46:00+00:00
 non_conformance_reason: "evidence_links empty (Kahneman Ch. 28 / Hanson Ch. 2 Calibre quotes not yet extracted into verified Evidence notes)"
 permalink: llmeon/30-library/100-zettelkasten/negative-events-exert-greater-psychological-impact-than-positive-ones-of-equal-intensity
 proposition: Negative events and information exert a greater psychological impact and capture more attention than neutral or positive ones of equal intensity because human threat-detection circuitry evolved to prioritise survival over opportunity.
-status: stable
+status: evergreen
 tags:
   - evolution
   - TheHuman/Cognition/bias

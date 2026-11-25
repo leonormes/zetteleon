@@ -11,7 +11,7 @@ modified: 2026-11-17T14:49:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/adhd-novelty-seeking-and-hyperfocus-fuel-generative-framework-synthesis
 proposition: The ADHD interest-based nervous system fuels generative framework synthesis because novelty and prediction-error dopamine drive exploration of the unknown while hyperfocus sustains deep immersion in ambiguity.
-status: stable
+status: evergreen
 tags:
 - adhd
 - dopamine

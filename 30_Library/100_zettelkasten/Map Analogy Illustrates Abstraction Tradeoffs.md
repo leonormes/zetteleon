@@ -4,7 +4,7 @@ created: 2025-10-31T11:23:00+00:00
 last_reviewed: ''
 modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/map-analogy-illustrates-abstraction-tradeoffs
-status: stable
+status: evergreen
 tags: [TheHuman/Cognition, visualization]
 title: Map Analogy Illustrates Abstraction Tradeoffs
 type: example

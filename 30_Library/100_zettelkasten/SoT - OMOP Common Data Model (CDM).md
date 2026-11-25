@@ -6,7 +6,7 @@ last_reviewed: null
 modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-omop-common-data-model-cdm
-status: stable
+status: evergreen
 tags: [data-model, ohdsi, omop, schema]
 title: SoT - OMOP Common Data Model (CDM)
 type: sot

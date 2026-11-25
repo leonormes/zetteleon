@@ -14,7 +14,7 @@ project_category: prodos
 see_also:
 - '[[SoT - Unified Writing to Think Process]]'
 - '[[Protocol - Vague-to-Action]]'
-status: stable
+status: evergreen
 tags:
 - cognitive-loop
 - framework

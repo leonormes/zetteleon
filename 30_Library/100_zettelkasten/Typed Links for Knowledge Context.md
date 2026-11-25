@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-14T16:49:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/typed-links-for-knowledge-context
 proposition: Typed links use inline relationship syntax to label how two notes relate, transforming bare wikilinks into a machine-readable semantic graph that supports directional navigation and argument compilation.
-status: stable
+status: evergreen
 tags: [linking, semantics, topic/knowledge-architecture, zettelkasten]
 title: Typed Links for Knowledge Context
 type: claim

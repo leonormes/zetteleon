@@ -11,7 +11,7 @@ modified: 2026-11-17T11:25:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/experts-must-de-compile-abstractions-into-concrete-examples-for-novices
 proposition: To bridge the expert-novice gap, experts must de-compile their abstract knowledge back into concrete examples and explicitly scaffold new ideas onto concepts the novice already possesses.
-status: stable
+status: evergreen
 tags:
 - communication
 - education

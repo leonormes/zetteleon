@@ -8,7 +8,7 @@ created: 2026-11-17T08:50:00+00:00
 modified: 2026-11-17T09:20:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/protocol-time-blocking-in-todoist-calendar-layout-and-durations
 project_category: prodos
-status: draft
+status: seed
 tags:
   - gtd
   - productivity

@@ -11,7 +11,7 @@ modified: 2026-11-17T15:32:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/adhd-involves-loose-signal-gating-that-lets-background-stimuli-compete-for-attention
 proposition: The ADHD nervous system exhibits loose signal gating that allows background stimuli to arrive with high salience, forcing deliberate effort to suppress distractions that neurotypical filtering suppresses automatically.
-status: stable
+status: evergreen
 tags:
 - adhd
 - attention

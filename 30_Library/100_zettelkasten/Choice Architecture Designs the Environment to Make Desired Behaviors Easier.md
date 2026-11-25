@@ -12,7 +12,7 @@ permalink: llmeon/30-library/100-zettelkasten/choice-architecture-designs-the-en
 proposition: Designing the physical, financial, or social environment to make desired choices the path of least resistance shifts behaviour more reliably than persuasion or willpower.
 see_also:
   - "[[MOC - Relational Dynamics & Family (Triage)]]"
-status: stable
+status: evergreen
 tags:
   - behavior-change
   - design

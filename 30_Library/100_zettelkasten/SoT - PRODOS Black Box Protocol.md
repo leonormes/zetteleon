@@ -13,7 +13,7 @@ project_category: prodos
 see_also:
 - '[[SoT - Protocol - The Launch Sequence]]'
 - '[[Protocol - Vague-to-Action]]'
-status: stable
+status: evergreen
 tags:
 - adhd-tools
 - improvement-logic

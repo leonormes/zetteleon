@@ -8,7 +8,7 @@ modified: 2026-10-23 09:00:00+00:00
 see_also:
 - '[[MOC - How Can I Know Something]]'
 - '[[SoT - What Knowledge Is]]'
-status: draft
+status: seed
 tags:
 - topic/epistemology
 - prodos/sot

@@ -7,7 +7,7 @@ evidence_links: []
 modified: 2026-11-24T16:22:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-co-regulation-must-precede-household-chore-audits-and-failure-autopsies
 proposition: Household chore check-ins, teaching moments, and failure autopsies only work in a calm regulated state, so any sign of fight-flight-freeze overload requires pausing chores immediately to co-regulate first.
-status: draft
+status: seed
 tags:
 - TheHuman/Family
 - TheHuman/Health/ADHD

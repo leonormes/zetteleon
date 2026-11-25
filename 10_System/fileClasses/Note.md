@@ -56,9 +56,7 @@ fields:
   id: status
   type: Select
   options:
-  - draft
   - seed
-  - stable
   - evergreen
   - stale
   - superseded

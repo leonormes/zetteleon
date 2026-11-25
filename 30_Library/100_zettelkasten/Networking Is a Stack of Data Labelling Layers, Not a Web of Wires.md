@@ -12,7 +12,7 @@ permalink: llmeon/30-library/100-zettelkasten/networking-is-a-stack-of-data-labe
 project_category: infrastructure
 project_name: Networking
 proposition: Networking is a stack of layered data labelling and only Layer 1 is a physical medium
-status: draft
+status: seed
 tags: [mental-model, SoftwareEngineering/Networking, TheHuman/Philosophy]
 title: Networking Is a Stack of Data Labelling Layers, Not a Web of Wires
 type: claim

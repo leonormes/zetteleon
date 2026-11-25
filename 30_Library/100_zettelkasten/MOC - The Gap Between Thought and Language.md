@@ -8,7 +8,7 @@ modified: 2026-11-16T10:12:00+00:00
 permalink: llmeon/30-library/mo-c/moc-the-gap-between-thought-and-language
 scope: "Philosophical exploration of the relationship between thought, language, and communication"
 see_also: ["[[MOC - Why Thoughts Feel More Important When Thinking Them]]", "[[MOC - How Can I Know Something]]", "[[MOC - The Nature and Origins of Intelligence]]"]
-status: stable
+status: evergreen
 tags: [communication, consciousness, epistemology, language, moc, philosophy-of-mind]
 title: MOC - The Gap Between Thought and Language
 type: map

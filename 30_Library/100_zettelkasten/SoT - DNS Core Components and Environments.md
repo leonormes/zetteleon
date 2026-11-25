@@ -6,7 +6,7 @@ last_reviewed: '2026-03-28'
 modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-dns-core-components-and-environments
-status: stable
+status: evergreen
 tags: [aws, azure, dns, networking, security, SoftwareEngineering/Architecture]
 title: SoT - DNS Core Components and Environments
 type: sot

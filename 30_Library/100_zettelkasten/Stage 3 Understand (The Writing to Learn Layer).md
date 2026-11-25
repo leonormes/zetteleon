@@ -6,7 +6,7 @@ definition: "The third writing stage of the Unified Writing to Think process, fo
 distinguishes_from: ["[[Stage 2 Clarify (The On Writing Well Layer)]]", "[[Stage 4 Connect (The Zettelkasten Layer)]]"]
 modified: 2026-11-14T13:07:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-3
-status: stable
+status: evergreen
 tags: [cognition, pkm, writing]
 title: Stage 3 Understand (The Writing to Learn Layer)
 type: concept

@@ -5,7 +5,7 @@ created: 2025-10-26T11:14:00+00:00
 modified: 2026-11-18T06:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/junebugging-a-gentle-focus-strategy-for-adhd
 source: '[[MOC - ADHD Experiments & Protocols]]'
-status: draft
+status: seed
 steps:
   - Pick one physical anchor point ("The Spot", e.g., the coffee table).
   - Allow wandering to adjacent rooms or tasks as items lead you there.

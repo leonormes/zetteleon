@@ -6,7 +6,7 @@ definition: The study of which brain regions and networks are active when develo
 distinguishes_from: ["[[Foundations of Learning and Cognition for Developers]]", "[[How the Brain Learns Core Cognitive Processes]]"]
 modified: 2026-10-23T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-neuroscience-of-developer-cognition
-status: stable
+status: evergreen
 tags: [cognition, neuroscience, software-engineering, TheHuman/Cognition, TheHuman/Neuroscience]
 title: The Neuroscience of Developer Cognition
 type: concept

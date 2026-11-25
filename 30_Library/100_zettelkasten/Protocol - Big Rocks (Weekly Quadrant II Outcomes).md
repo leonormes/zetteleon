@@ -8,7 +8,7 @@ created: 2026-11-16T13:00:00+00:00
 modified: 2026-11-17T10:16:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/protocol-big-rocks-weekly-quadrant-ii-outcomes
 project_category: prodos
-status: draft
+status: seed
 tags:
   - gtd
   - productivity

@@ -9,7 +9,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/a-false-belief-does-not-diminish-the-worth-of-a-person
 proposition: Holding a false belief makes a person mistaken about that belief and does not reduce their worth as a human being
 source_title: HEAD Being Right or Wrong About Things in Life (Gemini conversation 2026-07-13)
-status: draft
+status: seed
 tags: [compassion, decoupling, judgement, worth]
 title: A False Belief Does Not Diminish the Worth of a Person
 type: claim

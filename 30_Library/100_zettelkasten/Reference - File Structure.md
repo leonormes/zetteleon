@@ -7,7 +7,7 @@ created: 2026-01-03T10:07:49+00:00
 modified: 2026-11-15T10:17:00+00:00
 permalink: llmeon/30-library/so-t/reference-file-structure
 project_category: prodos
-status: stable
+status: evergreen
 tags:
 - architecture
 - prodos

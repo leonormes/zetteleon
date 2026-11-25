@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-18T07:14:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-brain-is-biased-toward-its-own-thoughts-in-the-moment
 proposition: Human cognition systematically overvalues its own in-the-moment thoughts because first-person phenomenological immediacy inflates their felt importance and masks logical gaps.
-status: stable
+status: evergreen
 tags: [bias, metacognition, TheHuman/Cognition]
 title: The brain is biased toward its own thoughts in the moment
 type: claim

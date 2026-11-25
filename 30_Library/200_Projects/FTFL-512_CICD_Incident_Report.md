@@ -8,7 +8,7 @@ project_name: Pipeline
 related_tickets:
   - FTFL-999
 sources: Two independent read-only investigations (live-cluster probe + LTM/SoT synthesis), reconciled
-status: stable
+status: evergreen
 tags:
   - 1
   - 2

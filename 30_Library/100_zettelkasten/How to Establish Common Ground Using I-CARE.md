@@ -7,7 +7,7 @@ created: 2026-11-17T11:25:00+00:00
 modified: 2026-11-17T11:25:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/how-to-establish-common-ground-using-i-care
-status: stable
+status: evergreen
 steps:
 - Pause before introducing complex or abstract claims to scan for shared reference points.
 - Probe Interests to find topics or problems both parties care about.

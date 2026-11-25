@@ -8,7 +8,7 @@ evidence_links: []
 modified: 2026-11-23 12:00:00+00:00
 proposition: During the trough a person cannot start even simple and necessary tasks
   such as showering, eating or answering messages.
-status: draft
+status: seed
 tags:
 - adhd
 - task-initiation

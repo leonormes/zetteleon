@@ -11,7 +11,7 @@ permalink: llmeon/30-library/100-zettelkasten/how-to-build-neurodivergent-friend
 prodos:
   kind: moc
   lifecycle: stable
-status: stable
+status: evergreen
 tags: [autism, map, routine, TheHuman/Family, TheHuman/Health/ADHD, topic/productivity/productivity-system]
 title: How to Build Neurodivergent-Friendly Routines
 type: map

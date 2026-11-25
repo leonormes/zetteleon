@@ -9,7 +9,7 @@ see_also:
   - "[[MOC - How Can I Know Something]]"
   - "[[MOC - Theory and Reality (Godfrey-Smith)]]"
   - "[[SoT - Sources and Limits of Knowledge]]"
-status: draft
+status: seed
 tags:
   - topic/epistemology
   - topic/philosophy-of-science

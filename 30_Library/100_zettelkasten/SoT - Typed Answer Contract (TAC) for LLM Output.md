@@ -7,7 +7,7 @@ modified: 2026-11-14T17:08:14+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-answer-contract-tac-for-llm-output
 project_category: prodos
 see_also: ["[[Goal - Orphan Triage Sweep (Daily Cron)]]", "[[SoT - Agentic AI Design Patterns]]", "[[SoT - AI Agent Skill Architecture]]", "[[SoT - Knowledge Compiler (Argument Graph Spec)]]"]
-status: stable
+status: evergreen
 tags: [domain/ai, prodos/sot, sot, topic/pkm, type/protocol]
 title: SoT - Typed Answer Contract (TAC) for LLM Output
 type: sot

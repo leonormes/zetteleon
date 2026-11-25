@@ -9,7 +9,7 @@ merged_from: ["[[Committing Thought to Language Reveals Actual Versus Assumed Be
 modified: 2026-11-14T13:06:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-puts-us-in-the-powerful-position-of-being-able-to-observe-our-thinking
 proposition: "Externalising amorphous thoughts into full-sentence written language makes argument structure observable and exposes hidden contradictions between assumed and actual beliefs."
-status: stable
+status: evergreen
 tags: [cognitive-dissonance, logic, self-reflection, topic/pkm/zettelkasten, topic/writing]
 tension: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 title: Writing puts us in the powerful position of being able to observe our thinking

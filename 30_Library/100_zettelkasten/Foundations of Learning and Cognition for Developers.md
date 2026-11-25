@@ -6,7 +6,7 @@ definition: The application of the general learning processes, attention, percep
 distinguishes_from: ["[[How the Brain Learns Core Cognitive Processes]]", "[[The Neuroscience of Developer Cognition]]"]
 modified: 2026-11-15T10:42:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/foundations-of-learning-and-cognition-for-developers
-status: stable
+status: evergreen
 tags: [cognition, learning, software-engineering, TheHuman/Cognition]
 title: Foundations of Learning and Cognition for Developers
 type: concept

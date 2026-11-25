@@ -11,7 +11,7 @@ modified: 2026-11-17T14:26:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/identity-integration-shifts-habit-execution-from-doing-to-being
 proposition: Shifting self-framing from performing an isolated action to embodying an identity sustains consistent behaviour because actions become expressions of who you are rather than chores.
-status: stable
+status: evergreen
 tags:
 - habits
 - identity

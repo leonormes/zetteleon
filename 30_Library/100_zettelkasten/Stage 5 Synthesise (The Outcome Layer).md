@@ -6,7 +6,7 @@ definition: "The final stage of the Unified Writing to Think process, focusing o
 distinguishes_from: ["[[Stage 4 Connect (The Zettelkasten Layer)]]"]
 modified: 2026-11-17T14:05:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-5
-status: stable
+status: evergreen
 tags: [cognition, pkm, writing]
 title: Stage 5 Synthesise (The Outcome Layer)
 type: concept

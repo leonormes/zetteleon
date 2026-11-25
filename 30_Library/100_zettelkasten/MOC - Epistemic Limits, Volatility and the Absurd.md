@@ -4,7 +4,7 @@ conformant: true
 created: 2026-11-01T12:00:00+00:00
 modified: 2026-11-11T14:15:49+00:00
 permalink: llmeon/30-library/mo-c/moc-epistemic-limits-volatility-and-the-absurd
-status: draft
+status: seed
 tags: [prodos/moc, TheHuman/Philosophy, topic/epistemology]
 title: MOC - Epistemic Limits, Volatility and the Absurd
 type: map

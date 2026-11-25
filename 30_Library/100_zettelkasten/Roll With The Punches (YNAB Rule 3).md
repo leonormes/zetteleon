@@ -10,7 +10,7 @@ permalink: llmeon/30-library/100-zettelkasten/roll-with-the-punches-ynab-rule-3
 proposition: Moving money between categories when plans meet reality is the budget
   working as designed, because it makes the true cost of an overspend visible instead
   of hiding it behind guilt.
-status: draft
+status: seed
 tags: [budgeting, finance, resilience, ynab]
 title: Roll With The Punches (YNAB Rule 3)
 type: claim

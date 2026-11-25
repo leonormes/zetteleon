@@ -11,7 +11,7 @@ modified: 2026-11-16T10:10:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/languages-co-evolve-with-culture-to-encode-locally-relevant-distinctions
 proposition: Languages evolve alongside their cultures to lexicalise locally relevant distinctions and embed shared social scripts, reducing how much context speakers inside the community must state explicitly.
 source_title: beyond words (vault note)
-status: stable
+status: evergreen
 tags:
   - communication
   - culture

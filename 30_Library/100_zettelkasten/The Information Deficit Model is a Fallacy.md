@@ -9,7 +9,7 @@ modified: 2026-11-24T16:24:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 proposition: "Providing people with more facts or explanations does not reliably change their behaviour because information alone does not bridge the intention-action gap."
 see_also: ["[[MOC - Relational Dynamics & Family (Triage)]]", "[[MOC - Family & Finance]]", "[[HEAD - How Do We Shift Family Behaviour Around Chores and Money Without Over-Explaining?]]"]
-status: stable
+status: evergreen
 tags: [behavior-change, communication, fallacy, TheHuman/Family, TheHuman/Psychology]
 title: The Information Deficit Model is a Fallacy
 type: claim

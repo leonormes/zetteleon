@@ -9,7 +9,7 @@ evidence_links: []
 modified: 2026-11-18T15:48:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-raises-share-of-operations-exceeding-working-memory
 proposition: ADHD raises the share of daily operations that exceed unaided working-memory capacity, so more external scaffolds become constitutive rather than merely assistive.
-status: draft
+status: seed
 tags:
   - TheHuman/Cognition
   - TheHuman/Health/ADHD
