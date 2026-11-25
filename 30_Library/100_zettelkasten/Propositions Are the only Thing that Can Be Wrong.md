@@ -1,15 +1,18 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-05-04T08:01:26+00:00
+created: 2026-05-04 08:01:26+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-11-17T10:30:00+00:00
+modified: 2026-11-17 10:30:00+00:00
 non_conformance_reason: ''
-permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong-1-1
-proposition: Only propositions, not topical labels, can be tested against reality, contradicted, refined, and linked to justifying evidence.
+permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong-1-1-1
+proposition: Only propositions, not topical labels, can be tested against reality,
+  contradicted, refined, and linked to justifying evidence.
 status: evergreen
-tags: [domain/pkm, topic/zettelkasten]
+tags:
+- domain/pkm
+- topic/zettelkasten
 title: Propositions Are the Only Thing That Can Be Wrong
 type: claim
 ---

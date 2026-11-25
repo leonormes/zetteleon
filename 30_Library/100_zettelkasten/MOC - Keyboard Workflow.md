@@ -4,7 +4,7 @@ created: 2025-12-21T19:00:00+00:00
 last_reviewed: null
 modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-keyboard-workflow
-status: null
+status: seed
 tags: [keyboard, workflow]
 title: MOC - Keyboard Workflow
 type: map

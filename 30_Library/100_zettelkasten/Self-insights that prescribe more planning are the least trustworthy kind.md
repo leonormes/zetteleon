@@ -2,13 +2,16 @@
 axiom: true
 conformant: true
 contradicts: []
-created: 2026-08-28T23:00:00+00:00
+created: 2026-08-28 23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:14+00:00
-permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind-1
+modified: 2026-10-22 15:11:14+00:00
+permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind-1-1
 project_category: prodos
-proposition: When a self-insight concludes that better or more careful planning is the unlock, that conclusion is the least reliable class of self-explanation available to me, because a correct insight and a sophisticated avoidance produce identical subjective signatures.
+proposition: When a self-insight concludes that better or more careful planning is
+  the unlock, that conclusion is the least reliable class of self-explanation available
+  to me, because a correct insight and a sophisticated avoidance produce identical
+  subjective signatures.
 status: evergreen
 tags:
 - domain/pkm

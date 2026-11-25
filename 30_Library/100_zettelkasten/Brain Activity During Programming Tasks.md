@@ -3,7 +3,7 @@ aliases: []
 created: 2025-05-26 20:31:26+00:00
 last_reviewed: ''
 modified: 2026-02-01 15:08:36+00:00
-status: ''
+status: seed
 tags:
 - devex
 title: Brain Activity During Programming Tasks
