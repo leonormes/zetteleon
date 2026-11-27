@@ -31,8 +31,6 @@ Todoist is the source of truth for tasks and also the timeline. A time block is 
 - Provisional rule: a block is transient. The CoS sets date, time and duration for today's plan and clears them at shutdown, so no due date survives overnight. This is option 1 in the time-blocking note. The existing rule that `Today` holds only hard-landscape commitments is relaxed during the day only.
 - NEVER clear or move a due date the CoS did not set itself. Tasks that were already dated by Leon, or that have a Deadline, are hard landscape and keep their dates.
 - NEVER create a calendar event for work. Time blocks live on the Todoist tasks.
-- **Toggl Track is a timer and telemetry layer only.** Through the `toggl` MCP the CoS may read, start and stop timers and read time entries. It NEVER creates, edits or deletes Toggl tasks, time blocks, projects, clients or tags, never deletes time entries, and never uses Toggl to list or choose work. An entry carries the Todoist block title, with every customer and trust name replaced by the Jira ticket ID or a generic label, and at most an existing `Work` or `Personal` project.
-- On a fresh session, the CoS must call `mcp__toggl__select_workspace` (organisation ID `21826425`, workspace ID `21825724`) before calling any other Toggl tool.
 - Use `reschedule-tasks` to place or move a block, not `update-tasks`, so recurrence is preserved.
 - **Todoist Bridge (`#todoist` checkboxes):** Todoist Bridge does not sync due dates or durations, so time blocks are set only on the Todoist task with `reschedule-tasks`. Never write a date or time into the matching Obsidian checkbox.
 
@@ -47,8 +45,7 @@ Labels such as `@next_action` were purged, so use location as defined in [[SoT -
 
 ## Procedure
 
-0. **Step 0 — Morning Reset & Shutdown Guard**: Before scheduling, audit `(overdue | today) & no deadline` in Todoist, stripping stale CoS-set `Today` dates back to the flat runway via `update-tasks` (`dueString: "remove"`), while never clearing dates Leon set or Deadlines. Never roll soft tasks to tomorrow. If the last shutdown did not run, report its Planned vs Actual line (see End-of-day shutdown) before stripping, because removing a date can remove the duration.
-0b. **Active ADHD Experiment Check**: Read `[[MOC - ADHD Experiments & Protocols]]` and any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`). Apply its active test conditions to today's plan as a controlled scientific test (hypothesis → controlled test → `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]` → keep/reject in `[[MOC - ADHD Experiments & Protocols]]`), rather than ad-hoc "whatever feels best" scheduling.
+0. **Step 0 — Morning Reset & Shutdown Guard**: Before scheduling, audit `(overdue | today) & no deadline` in Todoist, stripping stale CoS-set `Today` dates back to the flat runway via `update-tasks` (`dueString: "remove"`), while never clearing dates Leon set or Deadlines. Never roll soft tasks to tomorrow.0b. **Active ADHD Experiment Check**: Read `[[MOC - ADHD Experiments & Protocols]]` and any active `experiment` `HEAD` note in `20_Thinking/21_Workbench/` (e.g. `[[HEAD - Do 75m Deep Dive Sessions Outperform Granular Next Actions for ADHD?]]`). Apply its active test conditions to today's plan as a controlled scientific test (hypothesis → controlled test → `[[How to Test an ADHD Scaffold Using ABAB Withdrawal]]` → keep/reject in `[[MOC - ADHD Experiments & Protocols]]`), rather than ad-hoc "whatever feels best" scheduling.
 1. Read the runway and today's hard landscape from Todoist: `find-tasks-by-date` for today, and the runway filter.
 2. Read this week's Big Rock parent tasks and their subtasks. Read-only Jira starter check: search for open tickets assigned to Leon that are In Progress or in the active sprint (project FTFL). For each, check the runway for one starter action and list tickets with none as "no starter". Never create a task that mirrors a ticket ([[SoT - GTD Action System]]: one starter per active ticket, never the ticket itself).
 3. Monday proposal: if today is Monday or the first working day of the week and there are no Big Rock parents for this week, run the proposal below before anything else.
@@ -83,7 +80,6 @@ Per [[SoT - Typed Answer Contract (TAC) for LLM Output]], state confidence, say 
 
 Soft timeboxes are not rolled forward.
 
-- Optional, and before clearing anything: list the day's Toggl time entries (not a report query, which the Free plan caps), sum them and report one line, `Planned vs Actual (<date>): <P>m planned, <A>m tracked, <N> blocks, largest gap <block title> <+/-m>`. Match entries to blocks by title, allowing for replaced names. Planned minutes come from today's plan table, or from block durations still readable. Leave out any block with no planned figure and say how many. Use the line to size later blocks. If Toggl cannot be read, say so and carry on.
 - For each uncompleted task the CoS blocked today, call `update-tasks` with `dueString: "remove"`. Skip tasks whose date Leon set and tasks with a Deadline.
 - NEVER set tomorrow's date on an uncompleted task. Tomorrow starts with a fresh proposal from the runway.
 - If the CoS cannot tell whether a date was its own, it asks Leon before clearing.

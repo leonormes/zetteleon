@@ -113,7 +113,7 @@ The five-step process:
 Practice rules:
 
 - Pad the schedule. Until estimates improve, block too much time, not too little. Add "conditional blocks", spare time at the end of the day or between big tasks that is used only if needed and is otherwise free.
-- Protect peak hours. Find the hours when concentration is best and put the most demanding work there. The guide suggests RescueTime or Toggl to find them. Leon's peak hours are not recorded in the vault.
+- Protect peak hours. Find the hours when concentration is best and put the most demanding work there. The guide suggests tools such as RescueTime to find them. Leon's peak hours are not recorded in the vault.
 - Plan for unforeseen demands. If other people's requests are part of the job, block time for them so they do not break the rest of the day. Open-ended reactive work can itself be blocked like any other obligation.
 - Do not overschedule leisure. Leave some free time unplanned.
 - Treat the plan as a guide, not a contract. Edit blocks through the day.
@@ -134,7 +134,7 @@ Reasons the guide gives, with the evidence it cites:
 - Day theming already has a note: [[Day Theming is a Macro Time Blocking Strategy]]. It is not part of `/daily-plan`.
 - The guide's buffer ("conditional blocks") matches the 25% unscheduled buffer. The 25% figure is the vault's own rule and the guide gives no number.
 - Rollover differs. The guide says to move unfinished work to a future block. ProdOS says no rollover. They are compatible if the CoS clears blocks at shutdown and proposes a fresh plan the next morning, so a "future block" is a new proposal and not an automatic carry-over.
-- Todoist has no actual-time tracking, which the earlier scheduling app had. The guide suggests RescueTime or Toggl, so that part would need another tool, and only if Leon wants it.
+- Todoist has no actual-time tracking, which the earlier scheduling app had. The guide suggests tools such as RescueTime, so that part would need another tool, and only if Leon wants it.
 - Visible Deep Work blocks help here. With two-way sync on, a Big Rock block shows Leon as busy to colleagues, which protects it from meeting invites.
 
 ## What the CoS can do through the Todoist MCP
