@@ -19,7 +19,7 @@ Details: In Luhmann's original system, Folgezettel (German for "subsequent notes
 
 Links:
 
-- [[The Atomicity Principle - One Idea Per Note]]
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]
 - [[Concept-Orientation Enables Cross-Domain Discovery]]
 
 > Status gates

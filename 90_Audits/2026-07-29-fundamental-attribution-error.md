@@ -51,7 +51,7 @@ Structurally identical pattern across four notes: an explicit connective phrase 
 
 | From | Where it sits |
 |---|---|
-| [[Minds Are Like Plants - Unique Products of Genes and Environment]] | Bare bullet, `## Related`, no surrounding prose |
+| [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]] | Bare bullet, `## Related`, no surrounding prose |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | Bare bullet, `## Related`, no surrounding prose |
 | [[A False Belief Does Not Diminish the Worth of a Person]] | Bare bullet, `## Related`, no surrounding prose |
 
@@ -65,7 +65,7 @@ Structurally identical pattern across four notes: an explicit connective phrase 
 | [[Pattern Recognition in Social Cognition]] | claim | 1 | outbound + inbound (mutual) | tip—bare link, no further inferential edges out of it toward FAE |
 | [[The Mereological Fallacy in Neuroscience]] | concept | 1 | inbound | tip—SEVER |
 | [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] | claim | 1 | inbound | tip—SEVER |
-| [[Minds Are Like Plants - Unique Products of Genes and Environment]] | claim | 1 | inbound | tip—SEVER |
+| [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]] | claim | 1 | inbound | tip—SEVER |
 | [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]] | claim | 1 | inbound | tip—UNDERSPECIFIED (frontier, worth extending) |
 | [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | atom | 1 | inbound | tip—SEVER |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | claim | 1 | inbound | tip—SEVER |
@@ -94,7 +94,7 @@ placed in [[Evil Arises from Malice or Thoughtless Banality — Motivation Is No
 | [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]] | [[Fundamental Attribution Error]] | Fails Substitution and Load—generic disposition-bias framing | "shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors" |
 | [[Fundamental Attribution Error]] | [[Pattern Recognition in Social Cognition]] | Bare, `### Related`, no prose either direction | (no prose—bare wikilink) |
 | [[Pattern Recognition in Social Cognition]] | [[Fundamental Attribution Error]] | Bare, `### Related`, no prose either direction | (no prose—bare wikilink) |
-| [[Minds Are Like Plants - Unique Products of Genes and Environment]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
+| [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
 | [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
 | [[A False Belief Does Not Diminish the Worth of a Person]] | [[Fundamental Attribution Error]] | Bare, `## Related`, no prose | (no prose—bare wikilink) |
 

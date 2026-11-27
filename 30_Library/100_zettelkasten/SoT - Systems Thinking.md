@@ -91,7 +91,7 @@ System design also faces a structural trade-off between streamlined efficiency a
 
 ![[Over-Optimized Systems Trade Systemic Resilience and Redundancy for Fragile Efficiency#^claim]]
 
-![[Resilience is the Ability to Bounce Back from Setbacks#^claim]]
+![[Resilience is the Ability to Bounce Back from Setbacks#^def]]
 
 ![[Anti-Fragility Means Systems That Benefit From Volatility#^claim]]
 

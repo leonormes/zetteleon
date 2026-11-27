@@ -8,7 +8,7 @@ conformant: true
 contrasts_with:
 - '[[SoT - Illusion of Explanatory Depth (IoED)]]'
 created: 2026-04-04T12:30:00+00:00
-modified: 2026-11-17T14:05:00+00:00
+modified: 2026-11-25T15:59:25+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 project_category: prodos
 see_also:
@@ -76,7 +76,6 @@ For ADHD brains, the "Research Rabbit Hole" and "Information Hoarding" provide i
 
 ## 5. Related Concepts
 
-- [[MOC - ProdOS]]
 - [[SoT - Illusion of Explanatory Depth (IoED)|The Collector's Fallacy]] (The problem A-C-T solves)
 - [[SoT - PRODOS Core Specification]] (The underlying engine) [implements:: [[SoT - PRODOS Core Specification]], confidence=high]
 - [[SoT - Prosthetic Executive Function]] (The theory of externalized EF) [implements:: [[SoT - Prosthetic Executive Function]], confidence=high]

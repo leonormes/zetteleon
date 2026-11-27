@@ -1,78 +1,95 @@
 ---
-aliases: [Financial Physics, Money as Energy, Ontology of Money, Spendfulness]
+aliases: [Financial Physics, Money as Energy, Ontology of Money]
 conformant: true
 created: 2025-12-30T15:50:00+00:00
-modified: 2026-10-22T15:11:12+00:00
+modified: 2026-11-26T00:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-financial-philosophy-and-spendfulness
+status: seed
 tags: [finance, ontology, physics, psychology, TheHuman/Mindset]
 title: SoT - Financial Philosophy and Spendfulness
 type: sot
 ---
 
-## SoT - Financial Philosophy and Spendfulness
+## Minimum Viable Understanding (MVU)
 
-### 1. Definitive Statement
-
-> [!definition] Spendfulness
-> A state of psychological agency where spending decisions are vectors perfectly aligned with personal values. It treats money not as a scoreboard for status, but as Stored Labour (Potential Energy) waiting to be actuated.
+Money is treated here as stored capacity to be deployed in line with personal values, not as a score. The thread runs from what money and spending are, through how to direct and divert it, to what accumulation is for: enough, and control over your own time. Its cards are low-confidence working propositions with no outside source yet.
 
 ---
 
-### 2. The Physics of Finance
+## 1. Premises: What Spending and Money Are
 
-#### I. Potential vs. Kinetic Energy
+The aim of the whole thread:
 
-- Money ($E_p$): A bank account is a static battery. It represents the _capacity_ to cause change but does no work itself.
-- Spending ($E_k$): The act of conversion. The "power" of money is the moment potential energy becomes kinetic motion (labour, logistics, manufacturing).
+![[Spendfulness#^def]]
 
-#### II. The Vector of Allocation
+Money is a constructed institution with real effects:
 
-Spending is a Vector (Amount + Direction).
+![[Social Constructs Have Real Effects Despite Lacking Objective Truth#^claim]]
 
-1. Dissipative Work (Squandering): Energy directed toward high-entropy consumption (status signals). The energy is converted to "heat" and vanishes.
-2. Generative Work (Leverage): Energy directed toward capital, infrastructure, or skills. It builds a "machine" that reduces the energy cost of future tasks.
+Its force is potential until spent:
 
----
-
-### 3. The Money River Model (Subconscious Scarcity)
-
-To trigger healthy spending adjustments without willpower, we induce Perceived Scarcity.
-
-- The River: The raw flow of income and bills.
-- The Lake (Diversion): Diverting a portion of flow _immediately_ upon receipt (e.g., "Zero-Out Method").
-- The Result: The brain perceives a lower balance and naturally adjusts lifestyle to fit the remaining flow without significant effort.
+![[Money Is Stored Capacity That Does No Work Until It Is Spent#^claim]]
 
 ---
 
-### 4. Ontological Framework
+## 2. Argument Thread: Directing the Flow
 
-| Entity | Nature | Role |
-|:--- |:--- |:--- |
-| Money | Institutional Fact | A tool for exchange and measurement. |
-| Wealth | Capability/Possession | The aggregate of valuable resources (tangible and intangible). |
-| Spending | API Command | An instruction sent to the societal CPU to execute a subroutine. |
+Once money is spent, direction matters as much as amount:
 
----
+![[The Direction of Spending Decides Whether Money Dissipates or Builds Capacity#^claim]]
 
-### 5. The Accumulation Trap
+The flow can also be reshaped before any spending decision is made:
 
-- Scoreboard vs. Fuel: Traditional narratives treat wealth as a scoreboard ("He who has the most wins"). We treat it as fuel. Carrying a million extra gallons of fuel simply weighs down the vehicle.
-- The Personal 100%: A state where you lack nothing essential.
-- Success Criteria: If you can wake up and decide what to do with your time, you have achieved the highest form of wealth available.
+![[Diverting Income on Receipt Creates a Felt Scarcity That Lowers Spending Without Willpower#^claim]]
+
+Without a prior plan, the opposite happens:
+
+![[Reactive Spending Creates Financial Stress#^claim]]
 
 ---
 
-### 6. Minimum Viable Understanding (MVU)
+## 3. Putting It to Work
 
-1. Alignment over Restriction: A budget is a tool for Permission (Guilt-Free Spending) rather than deprivation.
-2. Resources are for Deploying: Stored energy that is never used does no work.
-3. Own Your Time: The ultimate goal of financial energy management is to purchase autonomy.
+Assigning money a job is how alignment is carried out:
+
+![[Give Every Dollar a Job (YNAB Rule 1)#^claim]]
+
+Planned spending then becomes permission:
+
+![[Guilt-Free Spending is a Feature of Intentional Budgeting#^claim]]
+
+---
+
+## 4. Conclusions: What Accumulation Is For
+
+![[Wealth#^def]]
+
+![[Wealth Held Beyond Its Use Becomes a Burden#^claim]]
+
+![[The Personal 100 Percent#^def]]
+
+![[Control Over Your Own Time Is the Highest Form of Wealth#^claim]]
+
+---
+
+## Working Knowledge & Synthesis
+
+- [[Spendfulness]]—_the aim the thread serves._ [synthesizes:: [[Spendfulness]]]
+- [[Social Constructs Have Real Effects Despite Lacking Objective Truth]]—_why an institution such as money has causal force._ [synthesizes:: [[Social Constructs Have Real Effects Despite Lacking Objective Truth]]]
+- [[Money Is Stored Capacity That Does No Work Until It Is Spent]]—_the premise of the energy analogy._ [synthesizes:: [[Money Is Stored Capacity That Does No Work Until It Is Spent]]]
+- [[The Direction of Spending Decides Whether Money Dissipates or Builds Capacity]]—_how to judge an allocation._ [synthesizes:: [[The Direction of Spending Decides Whether Money Dissipates or Builds Capacity]]]
+- [[Diverting Income on Receipt Creates a Felt Scarcity That Lowers Spending Without Willpower]]—_the Money River mechanism._ [synthesizes:: [[Diverting Income on Receipt Creates a Felt Scarcity That Lowers Spending Without Willpower]]]
+- [[Reactive Spending Creates Financial Stress]]—_the failure the plan avoids._ [synthesizes:: [[Reactive Spending Creates Financial Stress]]]
+- [[Give Every Dollar a Job (YNAB Rule 1)]]—_the allocation procedure._ [synthesizes:: [[Give Every Dollar a Job (YNAB Rule 1)]]]
+- [[Guilt-Free Spending is a Feature of Intentional Budgeting]]—_alignment as permission rather than restriction._ [synthesizes:: [[Guilt-Free Spending is a Feature of Intentional Budgeting]]]
+- [[Wealth]]—_what is being accumulated._ [synthesizes:: [[Wealth]]]
+- [[Wealth Held Beyond Its Use Becomes a Burden]]—_the accumulation trap._ [synthesizes:: [[Wealth Held Beyond Its Use Becomes a Burden]]]
+- [[The Personal 100 Percent]]—_the point of sufficiency._ [synthesizes:: [[The Personal 100 Percent]]]
+- [[Control Over Your Own Time Is the Highest Form of Wealth]]—_the end goal._ [synthesizes:: [[Control Over Your Own Time Is the Highest Form of Wealth]]]
 
 ---
 
 ## Related
 
-- [[Give Every Dollar a Job (YNAB Rule 1)]]—_The hierarchy of jobs and questions for allocating new funds._
-- [[Reactive Spending Creates Financial Stress]]—_The spend-first, categorize-later approach as a source of anxiety._
-- [[MOC - Family & Finance]]—_The method, psychology, and implementation of zero-based budgeting._
+- [[MOC - Family & Finance]]—_the method, psychology and implementation of zero-based budgeting._

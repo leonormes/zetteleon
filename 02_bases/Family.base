@@ -11,28 +11,25 @@ filters:
         - file.tags.contains("relationship")
         - file.tags.contains("bessie")
         - file.tags.contains("growth-mindset")
-
 formulas:
-  days_since_touch: '(now() - file.mtime).days.round(0)'
-  role_layer: 'if(type == "sot", "1 · SoT (Why)", if(type == "protocol" || type == "procedure", "2 · Protocol / How-To", if(type == "project", "3 · Family Guide / Project", if(type == "map", "0 · Map / Hub", "4 · Claim / Concept"))))'
-
+  days_since_touch: (now() - file.mtime).days.round(0)
+  role_layer: if(type == "sot", "1 · SoT (Why)", if(type == "protocol" || type == "procedure", "2 · Protocol / How-To", if(type == "project", "3 · Family Guide / Project", if(type == "map", "0 · Map / Hub", "4 · Claim / Concept"))))
 properties:
   note.type:
-    displayName: "Type"
+    displayName: Type
   note.status:
-    displayName: "Status"
+    displayName: Status
   note.conformant:
-    displayName: "TAC Valid"
+    displayName: TAC Valid
   note.project_name:
-    displayName: "Project"
+    displayName: Project
   formula.role_layer:
-    displayName: "ProdOS Layer"
+    displayName: ProdOS Layer
   formula.days_since_touch:
-    displayName: "Days Since Touch"
-
+    displayName: Days Since Touch
 views:
   - type: table
-    name: "Household Teamwork & Chores"
+    name: Household Teamwork & Chores
     filters:
       and:
         - status != "archived"
@@ -59,7 +56,7 @@ views:
     columnSize:
       file.name: 540
   - type: kanban
-    name: "Chores System Lifecycle"
+    name: Chores System Lifecycle
     filters:
       and:
         - status != "archived"
@@ -68,7 +65,7 @@ views:
             - file.tags.contains("household")
             - file.tags.contains("routines")
     groupBy:
-      property: note.status
+      property: status
       direction: ASC
     groupOrder:
       - seed
@@ -80,7 +77,7 @@ views:
       - type
       - formula.days_since_touch
   - type: table
-    name: "All Active Family Notes"
+    name: All Active Family Notes
     filters:
       and:
         - status != "archived"
@@ -98,7 +95,7 @@ views:
     columnSize:
       file.name: 645
   - type: table
-    name: "Sources of Truth & Protocols"
+    name: Sources of Truth & Protocols
     filters:
       and:
         - or:
@@ -117,7 +114,7 @@ views:
       - property: file.name
         direction: ASC
   - type: table
-    name: "Projects & Guides"
+    name: Projects & Guides
     filters:
       and:
         - type == "project"
@@ -131,7 +128,7 @@ views:
       - property: file.name
         direction: ASC
   - type: table
-    name: "Non-Conformant Review"
+    name: Non-Conformant Review
     filters:
       and:
         - conformant == false

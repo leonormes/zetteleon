@@ -77,14 +77,10 @@ views:
       - created
       - modified
     sort:
-      - property: status
-        direction: ASC
       - property: file.mtime
-        direction: DESC
-      - property: file.name
         direction: ASC
     columnSize:
-      file.name: 380
+      file.name: 652
       note.proposition: 360
       note.non_conformance_reason: 260
   - type: table

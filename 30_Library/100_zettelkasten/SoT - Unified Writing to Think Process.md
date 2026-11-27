@@ -178,7 +178,7 @@ _Full atomic note: [[Stage 5 Synthesise (The Outcome Layer)]]._
 [synthesizes:: [[Daily Writing is a Cognitive Practice for Structuring Thought]]]
 [synthesizes:: [[Focus on the Process Not the Product in Daily Writing]]]
 [synthesizes:: [[The Disappointment of Written Thoughts]]]
-[synthesizes:: [[Making Knowledge Personal Through Voice]]]
+[synthesizes:: [[Writing Notes in a Personal Voice Keeps the Thinking Behind Each Conclusion Visible]]]
 
 ---
 

@@ -3,9 +3,8 @@ conformant: true
 contradicts: []
 created: 2026-11-17 16:00:00+00:00
 epistemic_status: medium
-evidence_links:
-- '[[SoT - Illusion of Explanatory Depth (IoED)]]'
-modified: 2026-11-17 16:00:00+00:00
+evidence_links: []
+modified: 2026-11-27T14:05:00+00:00
 proposition: Building or applying a model forces hidden gaps and unexamined assumptions
   to surface, which collapses the illusion of explanatory depth that passive reading
   leaves intact.
@@ -43,6 +42,8 @@ This is the mechanism proposed when splitting [[Understanding Is Demonstrated by
 - [[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]]—_supports: this is why building is a reliable test of understanding._
 - [[IoED Definition Gap Felt vs Actual Understanding]]—_extends: names the felt-versus-actual gap that creation exposes._
 - [[Elaboration Through Own Words Deepens Understanding]]—_complement: the same exposure of gaps, reached by explaining rather than building._
+- [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]]—_depends on: physical and material work supplies immediate corrective feedback that abstract thought lacks._
 
+[depends_on:: [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]], strength=4, confidence=high]
 [supports:: [[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]], strength=4, confidence=medium]
 [extends:: [[IoED Definition Gap Felt vs Actual Understanding]], confidence=medium]

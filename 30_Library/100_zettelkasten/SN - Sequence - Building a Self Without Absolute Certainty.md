@@ -36,7 +36,7 @@ This realisation can make the world feel arbitrary, but the first step is to ref
 
 With this reframe, the goal of thinking must shift from an unattainable ideal to a practical one.
 
-1. [[Shift from Seeking Rightness to Seeking Utility]]—_proposes a new foundation for confidence, grounded in effectiveness rather than truth._ This is the pivot on which the rest of the sequence turns, and it aligns with [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]]—progress comes from what reliably works, not from being right.
+1. [[Confidence Is More Stable When Grounded in What a Belief Achieves Than in Being Right]]—_proposes a new foundation for confidence, grounded in effectiveness rather than truth._ This is the pivot on which the rest of the sequence turns, and it aligns with [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]]—progress comes from what reliably works, not from being right.
 
 That foundation allows the reconstruction of a stable identity—not by finding a "true self", but by building one.
 
@@ -73,7 +73,7 @@ With these foundational shifts in place, practical mental models become availabl
 
 [depends_on:: [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]], strength=5, confidence=high]
 
-[depends_on:: [[Shift from Seeking Rightness to Seeking Utility]], strength=5, confidence=high]
+[depends_on:: [[Confidence Is More Stable When Grounded in What a Belief Achieves Than in Being Right]], strength=5, confidence=high]
 
 [synthesizes:: [[The Self is Constructed Through a Commitment to Chosen Values]], strength=5, confidence=high]
 

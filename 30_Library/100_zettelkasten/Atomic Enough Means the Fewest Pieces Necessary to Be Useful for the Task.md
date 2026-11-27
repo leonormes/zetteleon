@@ -15,7 +15,7 @@ status: seed
 tags: [atomic-enough, atomicity, granularity, heuristic, note-structure, zettelkasten]
 title: Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task
@@ -41,7 +41,7 @@ Doto quotes a fellow note-maker for the "fewest pieces" wording and says you wil
 
 ### Related
 
-- [[The Atomicity Principle - One Idea Per Note]]—extends: the principle this heuristic qualifies
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: the principle this heuristic qualifies
 - [[The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained]]—shared mechanism: atomicity is a matter of degree, in Luhmann as in practice
 - [[The Words But and However Signal That What Follows May Deserve Its Own Note]]—shared mechanism: a heuristic for judging when to split
 

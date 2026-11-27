@@ -61,7 +61,7 @@ The source's falsification criterion: the claim fails if organisations made up o
 
 ### See Also
 
-- [[The Duality of Novelty Seeking in ADHD]]—shared mechanism: the same trait cast as both a source of exploration and a source of pitfalls.
+- [[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]]—shared mechanism: the same trait cast as both a source of exploration and a source of pitfalls.
 
 ### Further Reading
 

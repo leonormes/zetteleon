@@ -2,14 +2,19 @@
 aliases: []
 conformant: true
 created: 2025-02-07T12:57:55+00:00
-definition: "The increased interest and engagement people experience when introduced to something new, which acts as a powerful initial motivator but reliably wanes over time (the 'motivation curve', the 'honeymoon phase') as the stimulus stops being novel."
+definition: The increased interest and engagement people experience when introduced to something new, which acts as a powerful initial motivator but reliably wanes over time (the 'motivation curve', the 'honeymoon phase') as the stimulus stops being novel.
 distinguishes_from: []
 modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/novelty-effect
-tags: [novelty, TheHuman/Health/ADHD]
+tags:
+  - novelty
+  - TheHuman/Health/ADHD
 title: Novelty Effect
 type: concept
-used_in_claims: ["[[Appeal to Novelty]]", "[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[The Duality of Novelty Seeking in ADHD]]"]
+used_in_claims:
+  - "[[Appeal to Novelty]]"
+  - "[[Claim - Novelty-craving drives self-defeating system-hopping]]"
+  - "[[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]]"
 ---
 
 The novelty effect refers to the increased interest and engagement individuals experience when introduced to something new. This effect can be a powerful motivator initially but tends to wane over time, as seen in the 'motivation curve' and 'honeymoon phase'.

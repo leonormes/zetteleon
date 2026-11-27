@@ -45,7 +45,7 @@ Source: [[Beyond Words]] (line 50).
 
 - [[SoT - Knowledge Compiler (Argument Graph Spec)]]—_Operationalises this boundary: the computer traverses edges, resolves targets, and flags C1–C3 structural gaps/conflicts, while the human supplies all propositions, link semantics, and axiom judgements._
 - [[SoT - Processing IS the Work]]—_Establishes that PKM synthesis cannot be delegated to a machine without forfeiting the comprehension it exists to produce._ [extends:: [[SoT - Processing IS the Work]], strength=4, confidence=high]
-- [[Zettelkasten System Essence]]—_Extends: more tooling can grow without any idea being better understood._ [extends:: [[Zettelkasten System Essence]], strength=4, confidence=high]
+- [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]]—_Extends: more tooling can grow without any idea being better understood._ [extends:: [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]], strength=4, confidence=high]
 - [[SoT - Prosthetic Executive Function]]—_Shared mechanism: tools externalise memory and structure, fitting this note's storage-and-retrieval boundary._
 - [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—_Shared mechanism: the connecting done by the person is rooted in lived context that tools cannot supply._
 

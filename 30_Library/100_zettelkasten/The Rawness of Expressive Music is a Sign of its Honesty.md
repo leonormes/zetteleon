@@ -28,7 +28,7 @@ Details: In music as expression, elements that might be considered 'mistakes' in
 - [[The Polish of Commercial Music is Designed to Maximize Consumption]]—_the contrasting commercial aesthetic._
 - [[SoT - Wabi-Sabi]]—_expressive rawness applies the wabi-sabi aesthetic of finding honesty and beauty in imperfection rather than polished symmetry._
 - [[Honesty is Being Truthful and Sincere]]—_artistic rawness is an aesthetic expression of sincerity, prioritising genuine feeling over manufactured perfection._
-- [[Making Knowledge Personal Through Voice]]—_parallel in writing: an unpolished personal voice signals authentic thinking just as sonic rawness signals authentic expression._
+- [[Writing Notes in a Personal Voice Keeps the Thinking Behind Each Conclusion Visible]]—_parallel in writing: an unpolished personal voice signals authentic thinking just as sonic rawness signals authentic expression._
 
 [supports:: [[Authentic Music Creates Communities While Commercial Music Creates Consumers]], strength=4, confidence=high]
 

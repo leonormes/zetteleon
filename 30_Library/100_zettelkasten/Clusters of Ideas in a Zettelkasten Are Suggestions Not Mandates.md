@@ -15,7 +15,7 @@ status: seed
 tags: [clusters, connection, emergent-structure, lumps, writing, zettelkasten]
 title: Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates

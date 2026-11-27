@@ -22,5 +22,5 @@ Just as a plant grows in a certain way to survive its unique conditions, a world
 
 - [[Pragmatism Defines Truth by Practical Consequences]]—_Aligns with the pragmatic philosophy that a belief's value is found in its utility and outcomes._
 [extends:: [[Pragmatism Defines Truth by Practical Consequences]]]
-- [[Minds Are Like Plants - Unique Products of Genes and Environment]]—_Directly applies the ecological plant metaphor to the function of beliefs._
-[supports:: [[Minds Are Like Plants - Unique Products of Genes and Environment]]]
+- [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]]—_Directly applies the ecological plant metaphor to the function of beliefs._
+[supports:: [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]]]

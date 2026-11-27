@@ -6,7 +6,7 @@ aliases:
   - VIA Character Strengths
 conformant: true
 created: 2025-07-16T17:30:02+00:00
-modified: 2026-11-23T13:52:27+00:00
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
 scope: Virtue ethics foundations, the VIA 24 character strengths taxonomy, values-aligned self-construction, habituation, child character development, and the counterweight against reading capacity limits as moral failings
 see_also:
@@ -111,6 +111,18 @@ Notes in the vault that sit in the same conceptual layer but are either outcomes
 - [[Perseverance is Finishing What You Start Despite Difficulty]] and [[Self-Regulation is Managing Your Emotions and Actions]]—plain-language variants of two canonical strengths, written for the children's maps in §5 and cross-linked directly with their formal counterparts.
 - [[Whether Anger Can Be Virtuous Is a Genuinely Contested Philosophical Split, Not Settled Science]]—the live fault line between Aristotelian "good temper" (proportionate, reason-governed [[Righteous Indignation]] in response to genuine injustice, grounded in [[Anger Is a Cognitive Interpretation of Injustice, Not an Automatic Physical Reaction]]) and the Stoic/Buddhist view that anger inherently corrupts reason. [synthesizes:: [[Whether Anger Can Be Virtuous Is a Genuinely Contested Philosophical Split, Not Settled Science]], strength=3, confidence=medium]
 
+### 2.8 Claims About Strengths
+
+The strength notes define terms. Testable claims about them are kept separately.
+
+- [[Perseverance Toward Long-Term Goals Predicts Who Completes Demanding Programmes]]
+- [[Resilience Can Be Taught Rather Than Being Only a Fixed Trait]]
+- [[Self-Discipline Predicts Academic Success Better Than Measured Intelligence]]
+- [[Humility Makes Self-Assessment More Accurate]]
+- [[Consistent Honesty Builds Trust in Relationships]]
+- [[Considering Consequences Before Acting Reduces Avoidable Long-Term Risks]]
+- [[Zest Is a Lasting Disposition Rather Than a Spike of Arousal]]
+
 ---
 
 ## 3. Character as Constructed, Not Discovered
@@ -202,6 +214,7 @@ Individual strengths as they show up elsewhere in the vault, evidencing that the
 
 ## Tensions & Gaps
 
+- Filing differs by source. Seligman, *Flourish*, appendix, lists Social Intelligence under Wisdom and Knowledge, and Forgiveness and Zest under Transcendence. This map files them under Humanity, Temperance and Courage, which has not been checked against a source here.
 - Two parallel strength vocabularies (resolved via cross-linking and alias disambiguation). [[Perseverance is Finishing What One Starts Despite Obstacles]] / [[Perseverance is Finishing What You Start Despite Difficulty]] and [[Self-Regulation is Disciplining One's Feelings and Appetites]] / [[Self-Regulation is Managing Your Emotions and Actions]] are formal/child-facing pairs kept separate so §5 reads naturally for children while §2 retains VIA terminology. Both pairs now cross-link each other directly and carry non-colliding aliases.
 - VIA is a taxonomy, not a theory. It tells you what strengths exist and that they cluster; it does not explain how one is acquired or why the six virtues are the right cut. §1 (Aristotle) and §4 (habituation) are doing the explanatory work VIA does not do. Do not mistake the list's tidiness for a causal model.
 - The empirical status of the six-virtue structure is weaker than the map implies. The claim of cross-cultural universality is contested and the factor structure has not replicated cleanly. This map treats VIA as a _useful vocabulary_, not a validated ontology—consistent with the Utility-over-Truth axiom in the execution domain.

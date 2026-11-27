@@ -1,19 +1,20 @@
 ---
 aliases: [Move Money Between Categories, Roll With The Punches, Whack-a-Mole]
 conformant: true
-contradicts: []
 created: 2026-10-21T09:00:00+00:00
-epistemic_status: medium
-evidence_links: []
-modified: 2026-10-22T15:11:14+00:00
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/roll-with-the-punches-ynab-rule-3
-proposition: Moving money between categories when plans meet reality is the budget
-  working as designed, because it makes the true cost of an overspend visible instead
-  of hiding it behind guilt.
 status: seed
+steps:
+- Find each overspent category.
+- Choose which category will give up the money.
+- Move enough money to cover the overspend.
+- Re-estimate any category that keeps overspending.
 tags: [budgeting, finance, resilience, ynab]
 title: Roll With The Punches (YNAB Rule 3)
-type: claim
+trigger: A category is overspent or the plan no longer matches reality.
+type: procedure
+verification: No category is negative and each total reflects what was really spent.
 ---
 
 ## Roll With The Punches (YNAB Rule 3)
@@ -26,13 +27,20 @@ Applies once money has been assigned under [[Give Every Dollar a Job (YNAB Rule 
 
 ### Evidence
 
-This is the household's working method, set out as the third of four rules in [[SoT - Family Financial Wellness]], where moving money is called successful engagement and WAM is listed as guilt-free. The vault holds no outside source for it yet, so the claim rests on that operational record and on the reasoning above.
+This is the household's working method, set out as the third of four rules in [[SoT - Family Financial Wellness]], where moving money is called successful engagement and WAM is listed as guilt-free. The vault holds no outside source for it yet, so the procedure rests on that operational record.
 
 ### Implications
 
-- Shame about a red category is replaced by a trade-off decision, which suits a brain prone to avoidance.
-- The plan stays accurate, so Rule 1 is not abandoned the first time a month goes wrong.
-- Repeated overspends in one category are a signal to re-estimate it, which feeds back into Rule 2.
+Run the steps in order:
+
+1. Find each overspent (red) category.
+2. Choose which category will give up the money. This is a trade-off decision, not a verdict on you.
+3. Move enough money to cover the overspend.
+4. Re-estimate any category that keeps overspending, which feeds back into [[Embrace Your True Expenses (YNAB Rule 2)]].
+
+Check: no category is negative and each total reflects what was really spent.
+
+Replacing shame with a trade-off decision suits a brain prone to avoidance. The plan stays accurate, so Rule 1 is not abandoned the first time a month goes wrong.
 
 ### Related
 

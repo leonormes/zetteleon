@@ -15,7 +15,7 @@ status: seed
 tags: [atomicity, long-notes, note-structure, triage, writing, zettelkasten]
 title: Long Notes Holding Divergent Ideas Turn Writing Into Triage
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## Long Notes Holding Divergent Ideas Turn Writing Into Triage
@@ -49,7 +49,7 @@ Doto raises the worry that splitting a complex note clutters the slip box, and a
 
 ### Related
 
-- [[The Atomicity Principle - One Idea Per Note]]—extends: the principle this failure mode motivates
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: the principle this failure mode motivates
 - [[A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics]]—shared mechanism: a complex note is hard to connect and hard to use
 - [[The Words But and However Signal That What Follows May Deserve Its Own Note]]—extends: the heuristic that catches a second idea before the note is saved
 - [[One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review]]—shared mechanism: a long note buries the point that is needed later

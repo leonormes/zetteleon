@@ -26,12 +26,12 @@ The solution lies in understanding the distinction between [[SoT - Unified Writi
 [synthesizes:: [[SoT - Unified Writing to Think Process]]]
 - The Posture: [[Focus on the Process Not the Product in Daily Writing]]—keeps daily practice focused on translation rather than polished artefacts.
 [synthesizes:: [[Focus on the Process Not the Product in Daily Writing]]]
-- The Unit: [[The Atomicity Principle - One Idea Per Note]] sets what goes into each note, one idea that can be linked, contested and reused, and the notes that follow it explain why and how far to take it.
-[synthesizes:: [[The Atomicity Principle - One Idea Per Note]]]
+- The Unit: [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]] sets what goes into each note, one idea that can be linked, contested and reused, and the notes that follow it explain why and how far to take it.
+[synthesizes:: [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]]
 - The Structure: Polished conclusions are not discarded; they become [[Structure Notes as Maps of Thought Trails]], organizing the messier, more personal notes that represent the actual thinking process.
 [synthesizes:: [[Structure Notes as Maps of Thought Trails]]]
-- The Method: We can make the process more effective by [[Making Knowledge Personal Through Voice]] and using practical exercises like [[The Five-Minute Free-Write Technique]] to overcome resistance.
-[synthesizes:: [[Making Knowledge Personal Through Voice]]]
+- The Method: We can make the process more effective by [[Writing Notes in a Personal Voice Keeps the Thinking Behind Each Conclusion Visible|Making Knowledge Personal Through Voice]] and using practical exercises like [[The Five-Minute Free-Write Technique]] to overcome resistance.
+[synthesizes:: [[Writing Notes in a Personal Voice Keeps the Thinking Behind Each Conclusion Visible]]]
 [synthesizes:: [[The Five-Minute Free-Write Technique]]]
 - The Application: This approach is particularly powerful because [[Stage 3 Understand (The Writing to Learn Layer)|Writing Demystifies Complex Subjects]], allowing us to reason our way into difficult topics.
 [synthesizes:: [[Stage 3 Understand (The Writing to Learn Layer)]]]

@@ -15,7 +15,7 @@ status: seed
 tags: [atomicity, but-however, heuristic, note-structure, splitting-notes, zettelkasten]
 title: The Words But and However Signal That What Follows May Deserve Its Own Note
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## The Words But and However Signal That What Follows May Deserve Its Own Note
@@ -38,7 +38,7 @@ A rule of thumb from Doto, who says the answer to his own question is "(almost) 
 
 ### Related
 
-- [[The Atomicity Principle - One Idea Per Note]]—extends: the principle this heuristic applies
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: the principle this heuristic applies
 - [[Atomic Signal Extractor → Write TMP file]]—shared mechanism: the Extractor prompt uses the same words as its conjunction test
 - [[SoT - Atomic Note Standard (The Proposition Card)]]—shared mechanism: the standard also treats a but in the opening statement as a sign of two notes
 - [[Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task]]—extends: deciding whether to split is a judgement about the right level

@@ -41,9 +41,9 @@ Knowledge / PKM
 
 ADHD
 
-[supports:: [[The Duality of Novelty Seeking in ADHD]], confidence=medium]
+[supports:: [[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]], confidence=medium]
 
-- [[The Duality of Novelty Seeking in ADHD]]—the networking-subject tangent ("new and technical… vast… hard… perfect for my flavour of ADHD obsession") is a first-person example of the novelty-seeking pattern that note maps.
+- [[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]]—the networking-subject tangent ("new and technical… vast… hard… perfect for my flavour of ADHD obsession") is a first-person example of the novelty-seeking pattern that note maps.
 - [[MOC - ADHD Hyperfixation-Burnout Cycle]]—broader context: the pull toward a vast, hard, unfamiliar subject is the Phase 1 spark that cycle describes.
 
 GTD

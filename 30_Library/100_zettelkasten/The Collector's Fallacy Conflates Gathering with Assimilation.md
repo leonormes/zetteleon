@@ -1,22 +1,24 @@
 ---
-conformant: false
+conformant: true
 created: 2026-09-13T09:33:18+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-10-22T15:11:14+00:00
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
+definition: Cognitive bias in which the brain confuses the mechanical act of gathering information into a centralised location with the actual cognitive assimilation of that knowledge.
+distinguishes_from: ["[[Familiarity vs Comprehension Distinct States]]", "[[Information Retrieval Is Not Learning]]"]
+modified: 2026-11-27T14:02:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-collectors-fallacy-conflates-gathering-with-assimilation
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
 status: seed
-tags: [cognitive-bias, collectors-fallacy, pkm, sensemaking]
+tags: [cognitive-bias, collectors-fallacy, domain/pkm, sensemaking]
 title: "The Collector's Fallacy Conflates Gathering with Assimilation"
 type: concept
-upstream: '[[PKM Meta-Graph System Research]]'
+used_in_claims: ["[[The Processing Is the Hard Part]]", "[[Eufriction - Productive Friction Strengthens Thinking]]"]
 ---
 
 ## The Collector's Fallacy Conflates Gathering with Assimilation
 
-The Collector's Fallacy is the cognitive bias in which the brain confuses the mechanical act of gathering information into a centralised location with the actual cognitive assimilation of that knowledge.
+The Collector's Fallacy is the cognitive bias in which the brain confuses the mechanical act of gathering information into a centralised location with the actual cognitive assimilation of that knowledge. ^def
 
 ### Scope & Conditions
 

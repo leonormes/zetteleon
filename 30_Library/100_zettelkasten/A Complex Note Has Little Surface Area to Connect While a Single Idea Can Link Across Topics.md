@@ -15,7 +15,7 @@ status: seed
 tags: [atomicity, connection, note-structure, single-idea, surface-area, zettelkasten]
 title: A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics
@@ -44,7 +44,7 @@ Doto's apples example: a note that hides a second idea ties the first to one lin
 
 ### Related
 
-- [[The Atomicity Principle - One Idea Per Note]]—extends: the principle this mechanism explains
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: the principle this mechanism explains
 - [[Long Notes Holding Divergent Ideas Turn Writing Into Triage]]—shared mechanism: the cost of a complex note falls on the writer when it is used
 - [[Working With a Zettelkasten Is a Practice of Decomposition and Reassembly]]—shared mechanism: separating an idea from its original argument frees it to connect elsewhere
 - [[Concept-Orientation Enables Cross-Domain Discovery]]—shared mechanism: notes organised by idea rather than by source surface connections across domains

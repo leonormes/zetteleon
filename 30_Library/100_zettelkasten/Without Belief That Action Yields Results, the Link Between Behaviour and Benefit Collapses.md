@@ -2,22 +2,18 @@
 conformant: true
 contradicts: []
 created: 2026-09-28T00:00:00+00:00
-created_utc: '2026-09-28T00:00:00+00:00'
+created_utc: 2026-09-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-26T17:31:41+00:00
 permalink: llmeon/00-inbox/without-belief-that-action-yields-results-the-link-between-behaviour-and-benefit-collapses
-proposition: When the conviction that actions will produce results is missing, the
-  connection between behaviour and benefit collapses and people quit short of their
-  true limits.
+proposition: When the conviction that actions will produce results is missing, the connection between behaviour and benefit collapses and people quit short of their true limits.
 source_title: Beyond Belief - Beliefs as Practical Tools (LLM summary of Nir Eyal)
 source_url: calibre://view-book/GCcalibreBooks/1686/EPUB
 status: seed
 tags: [behaviour, belief, eyal, motivation, quitting]
-title: Without Belief That Action Yields Results, the Link Between Behaviour and Benefit
-  Collapses
+title: Without Belief That Action Yields Results, the Link Between Behaviour and Benefit Collapses
 type: claim
-upstream: '[[LLM - The Nature of Beliefs Between Fact and Faith]]'
 ---
 
 ## Without Belief That Action Yields Results, the Link Between Behaviour and Benefit Collapses

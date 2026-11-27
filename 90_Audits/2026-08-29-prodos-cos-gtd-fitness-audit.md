@@ -214,7 +214,7 @@ Its §5 asked for one thing: _"When this week is my weekly review going to live?
 
 Fifteen weeks. Not done.
 
-This is not a character observation. It is the [[I have a lot of shame about my life]] mechanism operating exactly as you described it, and [[Tool tinkering is a form of productive procrastination]] and [[System Tweaking as a Form of Procrastination in ADHD]] are your own names for it. The system-building is the novel, interesting, dopamine-returning work. The review is the un-novel work. Predictably, one happened and the other didn't.
+This is not a character observation. It is the [[I have a lot of shame about my life]] mechanism operating exactly as you described it, and [[Tool tinkering is a form of productive procrastination]] and [[System Tweaking Rewards the ADHD Brain More Than the Work the System Serves]] are your own names for it. The system-building is the novel, interesting, dopamine-returning work. The review is the un-novel work. Predictably, one happened and the other didn't.
 
 Corroborating: your `#Someday` project holds nine items, all captured 2026-08-02, all PKM/Hermes meta-work, all still open, zero personal-life items. Including one you wrote yourself: _"Personal check: am I actually reading raw/ sources, or just trusting the wiki summaries?"_—with the note that you deliberately refused to make it a tracked field, because _"bolting a checkbox onto it would be the exact cognitive-offloading the video warns against."_
 

@@ -16,13 +16,13 @@ The ADHD brain is often interest-driven and craves novelty. This note serves as 
 ## Core Concepts
 
 - [[Motivational differences in ADHD may stem from dopamine dysregulation]]: The neurological basis—dopamine pathway dysfunction drives novelty-seeking behaviour.
-- [[The Duality of Novelty Seeking in ADHD]]: The positive and negative aspects of this trait.
+- [[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]]: The positive and negative aspects of this trait.
 - [[Managing Novelty Seeking in ADHD]]: Strategies for channelling novelty seeking productively.
 
 ## Common Manifestations
 
 - [[Shiny Object Syndrome in ADHD]]: The tendency to jump between new systems and projects.
-- [[System Tweaking as a Form of Procrastination in ADHD]]: The pattern of endlessly refining tools instead of using them.
+- [[System Tweaking Rewards the ADHD Brain More Than the Work the System Serves]]: The pattern of endlessly refining tools instead of using them.
 - [[Dopamine-Seeking Behavior The Research Rabbit Hole]]: The preference for information gathering over implementation.
 
 ## Broader Context

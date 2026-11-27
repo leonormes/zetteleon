@@ -1,22 +1,29 @@
 ---
 aliases: []
+conformant: true
 created: 2025-10-31T10:09:00+00:00
-last_reviewed: ''
-modified: 2026-11-22T19:24:24+00:00
+modified: 2026-11-27T14:05:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/feynman-technique-deepens-learning-through-teaching
 see_also: []
 status: seed
+steps:
+- Choose a concept to learn
+- Explain it in simple language as if teaching a child
+- Identify gaps in your explanation
+- Review source material to fill the gaps
+- Simplify the explanation and use analogies
 superseded_by: ''
 supersedes: ''
 tags: [learning, teaching, understanding]
 title: Feynman Technique Deepens Learning Through Teaching
-type: technique
-updated: null
+trigger: When learning a new concept or testing whether you genuinely understand an idea
+type: procedure
+verification: You can explain the concept cleanly from memory in plain language without falling back on jargon or source notes.
 ---
 
 ## Feynman Technique Deepens Learning Through Teaching
 
-Summary: The Feynman Technique is a learning method that involves explaining concepts in simple terms as if teaching them to someone else, which reveals gaps in understanding and strengthens comprehension.
+Summary: The Feynman Technique is a learning method that involves explaining concepts in simple terms as if teaching them to someone else, which reveals gaps in understanding and strengthens comprehension. ^claim
 
 Steps:
 

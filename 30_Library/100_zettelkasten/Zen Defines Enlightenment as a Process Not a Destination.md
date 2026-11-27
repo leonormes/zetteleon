@@ -18,7 +18,7 @@ Details: This waking up involves the direct recognition of interconnectedness, i
 
 ## See Also
 
-- [[Zen Emphasizes Enlightened Activity Over Enlightened People]] - _Shifts the focus from achieving a permanent status to engaging in compassionate, mindful action in each moment._
+- [[Treating a Virtue as Something You Do Rather Than Something You Are Makes It Easier to Resume After a Lapse]] - _Shifts the focus from achieving a permanent status to engaging in compassionate, mindful action in each moment._
 - [[MOC - Why Chasing Enlightenment Causes Suffering]] - _Explores how the pursuit of a static enlightened state paradoxically traps the practitioner in suffering._
-- [[Zen Practice Centers on Accepting Impermanence]] - _Provides the foundational context that all things, including the self and moments of clarity, are in a constant state of flux._
+- [[Expecting Things to Change Makes It Easier to Adapt Than Trying to Hold Them Fixed]] - _Provides the foundational context that all things, including the self and moments of clarity, are in a constant state of flux._
 - [[Harris Uses the Split Brain to Deny the Unified Self]]—_Harris's case against the metaphysically simple self mirrors Zen's denial of a fixed, permanent self._

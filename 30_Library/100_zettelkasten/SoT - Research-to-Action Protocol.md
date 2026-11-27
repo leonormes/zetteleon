@@ -62,4 +62,4 @@ If the Hurry Timer fires first:
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]] [implements:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]], confidence=high]
 - [[Time-Boxing Research Prevents Productive Procrastination]]—_The atomic technique at the core of the Hangar Phase: one specific question, a fixed timer, then act._
 - [[Knowledge Emerges Through Application and Experience]]—_The premise behind the hard start: understanding comes from applying, so try the work before reading more about it._ [depends_on:: [[Knowledge Emerges Through Application and Experience]], confidence=medium]
-- [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]—_Scope guardrail against research becoming a substitute for physical execution._ [depends_on:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], confidence=medium]
+- [[Self-insights that prescribe more planning are the least trustworthy kind]]—_Scope guardrail against research becoming a substitute for physical execution._ [depends_on:: [[Self-insights that prescribe more planning are the least trustworthy kind]], confidence=medium]

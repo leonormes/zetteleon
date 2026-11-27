@@ -19,7 +19,7 @@ Details: In Zettelkasten methodology, the organizing principle shifts from "Unde
 
 Links:
 
-- [[The Atomicity Principle - One Idea Per Note]]
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]
 - [[Creating Meaningful Links]]
 - [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]]
 

@@ -15,7 +15,7 @@ status: seed
 tags: [link, main-note, minimum, note-structure, single-idea, zettelkasten]
 title: A Main Note Holds at Minimum a Single Idea and a Link to Another Idea
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## A Main Note Holds at Minimum a Single Idea and a Link to Another Idea
@@ -42,6 +42,6 @@ Doto's minimum for a main note; other elements may be added but these two are th
 ### Related
 
 - [[Main Notes Are the Essential Building Blocks]]—extends: adds a minimum to the traits listed there
-- [[The Atomicity Principle - One Idea Per Note]]—extends: the single idea is the atomicity principle in its smallest form
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: the single idea is the atomicity principle in its smallest form
 - [[Key questions when linking notes in the Zettelkasten method]]—shared mechanism: the questions that help choose what the link should say
 - [[SoT - Atomic Note Standard (The Proposition Card)]]—extends: the standard requires annotated Related links on every card

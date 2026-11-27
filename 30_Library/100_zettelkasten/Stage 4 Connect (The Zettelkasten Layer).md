@@ -10,7 +10,7 @@ status: evergreen
 tags: [cognition, pkm, writing]
 title: Stage 4 Connect (The Zettelkasten Layer)
 type: concept
-used_in_claims: ["[[Finding Thoughts]]", "[[Writer Thinking vs Archivist Thinking]]"]
+used_in_claims: ["[[Finding Thoughts]]", "[[Filing Notes for Future Rediscovery Produces More Connections Than Filing Them by Topic]]"]
 ---
 
 _The Goal: To place your new understanding into the context of your existing knowledge._
@@ -32,7 +32,7 @@ Outcome: A new, well-formed atomic note that is integrated into your Zettelkaste
 - [[Stage 3 Understand (The Writing to Learn Layer)]]—_The preceding stage._
 [depends_on:: [[Stage 3 Understand (The Writing to Learn Layer)]]]
 - [[Stage 5 Synthesise (The Outcome Layer)]]—_The next stage._
-- [[Writer Thinking vs Archivist Thinking]]—supports: connecting notes by context of discovery rather than archival folders.
-[supports:: [[Writer Thinking vs Archivist Thinking]]]
+- [[Filing Notes for Future Rediscovery Produces More Connections Than Filing Them by Topic]]—supports: connecting notes by context of discovery rather than archival folders.
+[supports:: [[Filing Notes for Future Rediscovery Produces More Connections Than Filing Them by Topic]]]
 - [[SoT - Unified Writing to Think Process]]—_The overarching framework._
 [extends:: [[SoT - Unified Writing to Think Process]]]

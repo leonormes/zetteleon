@@ -15,7 +15,7 @@ status: seed
 tags: [atomic-ish, atomicity, history, luhmann, note-structure, zettelkasten]
 title: The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained
@@ -39,6 +39,6 @@ Doto's answer to whether Luhmann made "atomic notes"; it qualifies the use of Lu
 ### Related
 
 - [[Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task]]—shared mechanism: atomicity is a matter of degree
-- [[The Atomicity Principle - One Idea Per Note]]—extends: a qualification on how strictly the principle is read
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: a qualification on how strictly the principle is read
 - [[Luhmann Emphasized Connection-Making]]—shared mechanism: in Luhmann practice the emphasis was on connection more than on size
-- [[Zettelkasten System Essence]]—shared mechanism: Luhmann did the thinking and the linking himself, and the slips were the artefact
+- [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]]—shared mechanism: Luhmann did the thinking and the linking himself, and the slips were the artefact

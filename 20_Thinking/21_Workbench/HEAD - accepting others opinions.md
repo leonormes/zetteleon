@@ -5,7 +5,7 @@ candidate_answers: []
 closing_condition: false
 conformant: false
 created: 2026-11-16T23:25:38+00:00
-modified: 2026-11-17T11:29:46+00:00
+modified: 2026-11-26T11:57:33+00:00
 non_conformance_reason: title does not end with '?'; tension is empty
 own_words: false
 permalink: llmeon/10-system/templates/head-note-template-1
@@ -20,17 +20,17 @@ title: HEAD - accepting others opinions
 type: question
 ---
 
-11:06 I read about someone not accepting others opinions. I realised I do by default all the time! For some reason I will feel deflated when someone else doesn't have the same opionions as me. Why is that?
+11:06 I read about someone not accepting other opinions. I realized I do by default all the time! For some reason, I will feel deflated when someone else doesn't have the same opinions as me. Why is that?
 
-- this is wrong. It is only on big thinks it emotional things. For instance, talking to Tom about Tommy Robinson and me saying he is racist and Tom saying no he isn't. So the point of the conversation was to change his mind. But I couldn't say clear why he is racist.
+- this is wrong. It is only on big things is emotional things. For instance, talking to Tom about Tommy Robinson and me saying he is racist and Tom saying no he isn't. So the point of the conversation was to change his mind. But I couldn't say clear why he is racist.
 
 ## Verdict
 
-This is a Question, not a claim yet, so it stays in the workbench. Your capture holds one observation, one question and one untested hypothesis. The system's job tonight is to separate those three, not to answer "why".
+This is a Question, not a claim yet, so it stays in the workbench. Your capture holds one observation, one question and one untested hypothesis. The system's job tonight is to separate those three, not to answer “why”.
 
 ### 1. Type it
 
-- Note type: `question`, titled as a `HEAD - …?` in `20_Thinking/21_Workbench/`.
+- Note type: `question`, titled as a `HEAD - …?` In `20_Thinking/21_Workbench/`.
 - The delta (Rule 2): the surprise was that you do the opposite of what you read about. Record that, not the article.
 
 ### 2. Split What's Tangled
@@ -44,45 +44,45 @@ When you feel deflated, does your belief move, or only your mood? You can't stat
 
 ### 3. Your Hypothesis as a Tier 1 Claim
 
-You already have one candidate: roughly, "I discount my own view because I doubt what makes me right." Write it as a declarative sentence plus two lines of why. Then generate at least one rival before you settle. Questions that should produce rivals:
+You already have one candidate: roughly, "I discount my own view because I doubt what makes me right." Write it as a declarative sentence plus two lines of why. Then generate at least one r — l before you settle. Questions that should produce rivals:
 
-- Does it happen with everyone, or only with people whose judgement you rate?
+- Does it happen to everyone, or only with people whose judgement you rate?
 - Does it happen on every topic, or only on ones you care about or have argued for?
 - Is the deflation about being wrong, or about not being agreed with?
 
 ### 4. What Each Claim Predicts
 
-If your hypothesis is right, you should also defer to people with no better grounds than you. If you only deflate with people you respect, it is a different claim. Work out the equivalent prediction for each rival yourself.
+If your hypothesis is right, you should also defer to people with no better grounds than you. If you only deflate with people you respect, it is a different claim. Work out the equivalent prediction for  — h rival yourself.
 
 ### Weak point
 
-"All the time" rests on one realisation at 11:06. Until you have two or three concrete instances, that is a hunch about a pattern, and the note should say so.
+"All the time" rests on one realization at 11:06. Until you have two or three concrete instances, that is a hunch about a pattern, and the note should say so.
 
 ### Next Action
 
-Under the captured thought, write one sentence: the last specific time this happened, who it was with, and what the opinion was about.
+Under the captured thought, write one sentence: the last specific time this happened, who In was with, and what the opinion was about.
 
-Having note thought more and it here is a bit more
+Having not thought more and it here is a bit more
 
- this is wrong. It is only on big things or emotional things. For instance, talking to Tom about Tommy Robinson and me saying he is racist and Tom saying no he isn't. So the point of the conversation was to change his mind. But I couldn't say clearly why he is racist. It just came down to me saying he was and my dad saying he wasn't.
+ This is wrong. It is only on big things or emotional things. For instance, talking to Tom about Tommy Robinson and me saying he is racist and Tom saying no he isn't. So the point of the conversation was to change his mind. But I couldn't say clearly why he is racist. It just came down to me saying he was and my dad saying he wasn't.
 
 ## Verdict
 
-Your first hypothesis is weakening, and the instance has handed you a better one. In this example nothing suggests you gave Tom's view extra credence. What happened is that you found you held a claim you couldn't support on the spot.
+Your first hypothesis is weakening, and the instance has handed you a better one. In this example nothing suggests you g“ve Tom's vimyra credence. What happened is that you fou”d you held a claim you couldn't support on the spot.
 
 ### What the Instance Changes
 
-- Scope narrowed: from "all the time" to "big or emotional things". Log that as an update in your own words.
-- A rival claim appeared: the deflation may come from discovering your belief was assertion against assertion, not from doubting yourself in general. Write that as a second Tier 1 claim, in your wording.
-- Still to separate: afterwards, did your confidence in the belief drop, or your confidence that you could defend it? Those are different, and only you know which.
+- Scope narrowed: from "all the time" to "big or emotional things". Log that as an upto in your own words.
+- A rival claim appeared: the deflation may come frIn discovering your belief was assertion against assertion, not from doubting yourself in general. Write that as a second Tier 1 claim, in your wording.
+- Still to separate: ”“fterwards, did your confidence in the belief drop, or your confidence that you could defend it? Those are different, and only you know which.
 
 ### Run the Conversation through Your Note Types
 
-Your table says a claim needs concepts to state it and evidence to shift it. Check which was missing with Tom:
+Your table says a claim needs concepts to s“ate it and e”idence to shifrealization which was missing with Tom:
 
-- Concept: did you and Tom mean the same thing by "racist"? If not, you were never disagreeing about the same proposition.
-- Evidence: what specific statements or actions would you have pointed to? "Couldn't say clearly why" suggests this slot was empty in the moment.
-- Claim: it was the only piece on the table, from both of you.
+- Concept: did you and Tom mean the same thing by "racist"? If not, you were never di“agreeing abmye same proposition.
+- Evidence: what spec”fic statements or actions would you have pointed to? "Couldn't say clearly why" suggests this slot wanotpty in the moment.
+- Claim: it was the this doesn't seem rightttoable, from both of you.
 
 That is a diagnosis of the argument, not a ruling on who was right. Being unable to articulate grounds doesn't make a belief false; it makes it untested.
 

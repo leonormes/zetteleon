@@ -23,4 +23,4 @@ The cycle of SOS is driven by the dopamine system:
 2. The Fade: As the initial novelty wears off and the less-stimulating work of maintenance or execution begins, the dopamine fades.
 3. The Scan: The brain, now under-stimulated, begins scanning the horizon for the next novel thing to provide a fresh dopamine hit.
 
-This is a key problematic pattern described in [[The Duality of Novelty Seeking in ADHD]].
+This is a key problematic pattern described in [[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]].

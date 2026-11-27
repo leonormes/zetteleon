@@ -111,7 +111,7 @@ The Thinking Stream is the "RAM" of ProdOS—a low-friction, high-throughput loo
 
 ### 3.1 The Core Lifecycle (CRPE)
 
-1. **CAPTURE:** Dump mental noise into the Daily Note (`00_Inbox/dump.md` in agent Mode B). Raw text, no formatting, no judgment. Translating abstract feeling and unprocessed noise into linear syntax activates the Prefrontal Cortex (PFC), dampening Amygdala/Mid-Cingulate stress loops and freeing Working Memory RAM (_Neuro-Synchronization_). If the dump is overwhelming, cap it at the top 10 loudest items and triage via [[Protocol - Action-First GTD (LLM Chief of Staff)]].
+1. **CAPTURE:** Dump mental noise into the Daily Note (or a capture note in `00_Inbox/`). Raw text, no formatting, no judgment. Translating abstract feeling and unprocessed noise into linear syntax activates the Prefrontal Cortex (PFC), dampening Amygdala/Mid-Cingulate stress loops and freeing Working Memory RAM (_Neuro-Synchronization_). If the dump is overwhelming, cap it at the top 10 loudest items and triage via [[Protocol - Action-First GTD (LLM Chief of Staff)]].
 2. **REFINE:** If an idea is complex or "stuck" and leaves a question that needs your judgement, open a `HEAD - <question>?` note in `20_Thinking/21_Workbench/`. Admission rules live in [[SoT - HEAD Note Contract (The Workbench)]].
 3. **PROCESS (The 120s Loop as Cognitive Defrag):** Bypasses the "Dumb Zone" of over-deliberation by shifting from Logic Mode (direction) to Dopamine Mode (fuel):
    - **Goal:** What is the single, physical outcome desired?
@@ -157,7 +157,7 @@ The Minimal Viable Action (MVA) is the atomic unit of execution:
 
 ### 4.3 Execution, Decomposition & Launch Protocols
 
-- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Decoupling raw capture (Human) from task sorting (LLM/MCP, including Mode B agent orchestration)._ [synthesizes:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=high]
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_Decoupling raw capture (Human) from task sorting (LLM/MCP, one-item-at-a-time inbox triage)._ [synthesizes:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=high]
 - [[SoT - Execution Protocol (GTD & PARA)]]—_Harmonized PARA containers, GTD outcome projects, 5-stage workflow, and Definition of Done._ [synthesizes:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=high]
 - [[SoT - GTD Action System]]—_The live four-tier operational implementation across Obsidian, Jira, Todoist, and the native calendar._ [synthesizes:: [[SoT - GTD Action System]], confidence=high]
 - [[Protocol - Vague-to-Action]]—_Three-phase algorithm decomposing vague/heavy avoidance items into <120s binary MVAs._ [synthesizes:: [[Protocol - Vague-to-Action]], confidence=high]
@@ -217,7 +217,7 @@ _Purpose lineage, cognitive limits, and anti-bloat boundary conditions._
 - The Telos Method—_Seven-layer Chain of Explainability (`Problem -> Mission -> Narratives -> Goals -> Challenges -> Strategies -> Projects`)._
 - [[SoT - The User Interface of the Self]]—_Consciousness as retrospective integration UI rather than central executive command._ [synthesizes:: [[SoT - The User Interface of the Self]], confidence=high]
 - [[SoT - Material Symbols]]—_Language, notation, and templates as cognitive scaffolding enabling second-order inspection._ [synthesizes:: [[SoT - Material Symbols]], confidence=high]
-- [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]—_Scope guardrail against mistaking architectural planning for execution._ [depends_on:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], confidence=high]
+- [[Self-insights that prescribe more planning are the least trustworthy kind]]—_Scope guardrail against mistaking architectural planning for execution._ [depends_on:: [[Self-insights that prescribe more planning are the least trustworthy kind]], confidence=high]
 - [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—_Thinking-side counter-balance revising [[Claim - A Note That Does Not Help You Act Is Noise]] (retired execution-only position)._
 
 ### 7.1 Related System Maps

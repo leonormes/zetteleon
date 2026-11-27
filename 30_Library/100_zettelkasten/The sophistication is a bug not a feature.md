@@ -20,4 +20,4 @@ The difficulty is the thinking in my head currently is supported by feelings and
 
 [[Back to Simpler Ways]]
 
-[[Zettelkasten System Essence]]
+[[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]]

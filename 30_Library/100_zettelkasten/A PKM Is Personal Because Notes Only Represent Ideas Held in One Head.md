@@ -45,7 +45,7 @@ Source: [[Beyond Words]] (line 51).
 
 - [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—_shared mechanism: the value rests on the individual's own context._
 - [[Personal Context and Relevance are Key to Knowledge Formation]]—_shared mechanism: knowledge forms when information is tied to the individual's own experience._
-- [[Making Knowledge Personal Through Voice]]—_shared mechanism: a PKM is written in the owner's own voice as a record of their journey._
+- [[Writing Notes in a Personal Voice Keeps the Thinking Behind Each Conclusion Visible]]—_shared mechanism: a PKM is written in the owner's own voice as a record of their journey._
 - [[Tacit vs Explicit Knowledge]]—_shared mechanism: the unwritten layer of understanding is not readable by others._
-- [[Zettelkasten System Essence]]—_extends: the Zettelkasten lives in the mental processes of the person using it._ [extends:: [[Zettelkasten System Essence]], strength=4, confidence=high]
+- [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]]—_extends: the Zettelkasten lives in the mental processes of the person using it._ [extends:: [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]], strength=4, confidence=high]
 - [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]]—_extends: notes are representations of ideas rather than the ideas themselves._ [extends:: [[Note Links Connect Representations of Ideas, Not the Ideas Themselves]], strength=4, confidence=high]

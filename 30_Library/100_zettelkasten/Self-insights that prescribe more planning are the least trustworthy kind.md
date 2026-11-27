@@ -2,16 +2,14 @@
 axiom: true
 conformant: true
 contradicts: []
-created: 2026-08-28 23:00:00+00:00
+created: 2026-08-28T23:00:00+00:00
 epistemic_status: medium
-evidence_links: []
-modified: 2026-10-22 15:11:14+00:00
+evidence_links:
+- '[[Evidence - 29 August GTD Context-Reload Insight Deferred Urgent Azure Migration]]'
+modified: 2026-11-25T15:47:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind-1-1
 project_category: prodos
-proposition: When a self-insight concludes that better or more careful planning is
-  the unlock, that conclusion is the least reliable class of self-explanation available
-  to me, because a correct insight and a sophisticated avoidance produce identical
-  subjective signatures.
+proposition: When a self-insight concludes that better or more careful planning is the unlock, that conclusion is the least reliable class of self-explanation available to me, because a correct insight and a sophisticated avoidance produce identical subjective signatures.
 status: evergreen
 tags:
 - domain/pkm
@@ -19,104 +17,45 @@ tags:
 - topic/executive-function
 - topic/gtd
 - topic/metacognition
-title: Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind
+title: Self-insights that prescribe more planning are the least trustworthy kind
 type: claim
 ---
 
-## The Pattern
+## Self-insights that prescribe more planning are the least trustworthy kind
 
-An insight arrives. It feels like a revelation—things click into place, something previously inarticulate becomes sayable. The insight then resolves into a prescription. And the prescription is: _think about this more carefully, and it will unlock._
+When a self-insight resolves into a prescription to think or plan more carefully, that conclusion is the least reliable class of self-explanation available because a genuine structural realisation and sophisticated avoidance produce identical subjective signatures. Both deliver relief, clarity, and the feeling of progress, making them indistinguishable from the inside in the moment. Furthermore, introspection has asymmetric reliability: access to felt experience is reasonable, but causal self-explanations—such as concluding that more planning will unlock action—sit on the unreliable side. ^claim
 
-That specific shape is the one to distrust. Not because it is false. Because it is indistinguishable from the pleasant version of itself.
+### Scope & Conditions
 
-Two things produce that exact subjective signature:
+Governs GTD and task execution, where the deliverable is a physical action outside the vault—usually with an external deadline—and additional thinking displaces rather than produces it. Planning still earns its place under four conditions: an irreversible first move, an undefined outcome, dependence on others, or a materially branching first step; outside these, start immediately. Does not govern PKM or learning under [[SoT - Processing IS the Work]], where cognitive engagement is itself the product.
 
-1. A genuine structural realisation that will change behaviour
-2. A sophisticated avoidance that has found a way to feel like progress
+### Evidence
 
-Both deliver relief, clarity, and the sense of having done something. Neither can be told apart from the inside, in the moment.
+Rested on a single well-observed episode—[[Evidence - 29 August GTD Context-Reload Insight Deferred Urgent Azure Migration]]—in which a sound observation about involuntary context-reloading deepened across five exchanges into a prescription to plan more, while an urgent Azure migration deadline (FTFL-619) remained unmoved. This aligns with Nisbett & Wilson's finding on asymmetric introspection: people reliably report contents of experience but confidently supply post-hoc causal explanations that were not operative.
 
-## Why it is Hard to Detect
+### Implications
 
-The feeling of revelation is not evidence of correctness. It signals reorganisation of material already held, not the arrival of new information. Things clicking into place feels the same whether or not the arrangement is true.
+- Thinking is uniquely camouflaged as avoidance because it carries the lowest activation cost, produces legible output, is unfalsifiable in the short term, and feels responsible while deferring deadlines.
+- The phenomenology of revelation signals reorganisation of existing material, not new information, so it must be set aside as evidence of correctness.
+- Operationalise the guardrail via [[How to Test a Self-Insight That Prescribes Planning]]: separate the insight (vault) from the next physical action (Todoist) and run one bounded execution before acting on any planning prescription.
 
-So the phenomenology gives nothing. It has to be set aside entirely, which is difficult precisely because it is the most compelling part of the experience.
+### Falsifier
 
-Compounding this: introspection has asymmetric reliability.
+- A prospective test in which planning-prescribing insights consistently survive the discriminating test (attaching only to one task class rather than shifting with whatever is avoided) and reliably lead to completed bounded executions rather than deferred deadlines.
+- Resolving whether the GTD bottleneck is context-loading (cognitive tax removable by prior planning) versus context-reward (flat closure reward) via a deliberate horizontal read-and-act session.
 
-- Contents of experience—what was felt, what was noticed. Reasonably good access.
-- Causes of behaviour—why it happened. Poor access. (Nisbett & Wilson: people confidently supply reasons that demonstrably were not the operative cause.)
+### Related
 
-A "more planning" conclusion is almost always a causal claim. It sits on the unreliable side.
+- [[Evidence - 29 August GTD Context-Reload Insight Deferred Urgent Azure Migration]]—evidenced by: real-time episode where a valid self-observation terminated in deadline-displacing planning.
+- [[How to Test a Self-Insight That Prescribes Planning]]—operationalised by: discriminating test and bounded-execution counter-move.
+- [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]]—extends: applies the self-referential avoidance loop specifically to planning prescriptions.
+- [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]—supports: names the planning-camouflaged variant of system-building avoidance.
+- [[ADHD Overthinking is a Substitute for Action]]—extends: specifies why planning-shaped overthinking is uniquely hard to detect from the inside.
 
-## Worked example—29 August 2026
+### Tensions
 
-The specimen that produced this note.
-
-The insight. Looking at a GTD next-action list, I identified that I involuntarily reload the full project context before acting—turning each small task into a heavy cognitive exercise. I had never verbalised this before. The observation itself is sound and is genuinely new information about my own behaviour.
-
-The elaboration. Over several exchanges it developed further and better: disjointed closures do not register as rewarding; horizontal execution across many projects falters where vertical does not; the reward, not the information, is what the context reload is chasing.
-
-The conclusion it drove toward. _"If I were able to do the Allen thing and take time to plan the work I could unlock the GTD he talks about."_
-
-More planning. The phase I reliably enjoy and reliably do not convert.
-
-What was simultaneously true. FTFL-619 carried a hard Azure auto-migration deadline of 1 September. Across five exchanges it was raised three times and never moved. Monday 31 August was the only working day remaining. Meanwhile the theoretical thread—one topic, deepening each turn—was effortless.
-
-That is the pattern executing itself in the room while being discussed. It was not collected deliberately, which is what makes it good evidence.
-
-## Why This Shape Specifically
-
-This is not a claim that planning is bad. Planning earns its place under known conditions: the first move is irreversible, the outcome is undefined, success depends on others, or the first step branches materially. Outside those, start immediately.
-
-The risk is narrower. It is about insights whose _terminal recommendation_ is more thinking, because:
-
-- Thinking is the activity with the lowest activation cost for me
-- It produces immediate, legible-feeling output
-- It is unfalsifiable in the short term—nothing can prove the plan was not good enough yet
-- It defers the thing with the actual deadline while feeling responsible
-
-An avoidance that recommends more work would be easy to catch. An avoidance that recommends more _thought_ is camouflaged by being, in other contexts, correct advice.
-
-## The Discriminating Test
-
-Does the explanation vary with what is being avoided?
-
-- Different sophisticated reason each time → the reasons are decoration on something constant underneath. The explanation is post-hoc.
-- This explanation attaches to one class of task and conspicuously not to others → it is probably tracking something real.
-
-Answerable from memory. No instrumentation needed.
-
-## The Counter-move
-
-Not "stop having insights." The insight was worth having and the content was real.
-
-The move is procedural: when a self-insight terminates in a planning prescription, do not act on the prescription until one bounded execution has been run. The insight can be true and still be untrustworthy as an instruction. Let behaviour, not conviction, decide.
-
-Practically: the insight goes in the vault. The next physical action goes in Todoist. They do not get to be the same object.
-
-## Open / Gaps
-
-- `evidence_links` is empty. This claim currently rests on a single well-observed episode plus a recognised historical pattern. It has not been tested prospectively.
-- Unresolved: whether the underlying GTD problem is context-_loading_ (cognitive tax, removable by trusting prior planning) or context-_reward_ (closures feel flat, not under voluntary control). The two make different predictions and only the second would require abandoning horizontal execution.
-- Untested: whether a deliberately horizontal session—well-formed tasks, several projects, hard rule of read-and-act with no reconstruction—flows or stalls. That experiment settles the above and has not been run.
-- Typed edges added 2026-08-29 after the `AGENTS.md` §9.2 pre-task audit (139 gaps, 5 axioms, 12 contradictions, 2 live tensions, 4 cycles at time of write).
-
-## Scope Boundary
-
-Recorded 2026-08-29 as a tension against [[SoT - Processing IS the Work]]; it dissolves on inspection. The two notes are not in conflict because they are not about the same domain.
-
-[[SoT - Processing IS the Work]] governs PKM and learning. There the deliverable is understanding, and the cognitive engagement is itself the product. Reviewing, linking and synthesising cannot be delegated to a machine without forfeiting the thing they exist to produce: if the machine does the linking and the writing, nothing is learned. Friction is the mechanism, not a cost.
-
-This claim governs GTD and task execution. There the deliverable is a physical action outside the vault, usually with an external deadline. Additional thinking does not produce it and displaces it.
-
-They only appear to conflict because both concern thinking. They concern thinking directed at different products. No edge is warranted in either direction, and the earlier "where the deliverable lives" framing was too weak—it implied one spectrum with two ends, when in fact these are two separate domains with no overlap.
-
-Kept rather than deleted because the same false conflict will recur: any note recommending more cognitive engagement will surface against any note warning about cognitive engagement, and the resolution each time is to ask which domain is in scope.
-
-Related but genuinely open: [[Eufriction - Productive Friction Strengthens Thinking]] sits on the learning side of this boundary and has not been tested against the execution side.
-
-## Knowledge Graph
+- [[SoT - Processing IS the Work]]—apparent conflict dissolves by domain: PKM deliverables require cognitive friction, whereas execution deliverables are displaced by it.
+- [[Eufriction - Productive Friction Strengthens Thinking]]—open boundary: sits on the learning side of the divide and has not been tested against the execution side.
 
 [extends:: [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]], strength=4, confidence=medium]
 

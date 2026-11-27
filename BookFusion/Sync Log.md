@@ -206,3 +206,57 @@ type: note
 ## 23/11/2026, 15:37:33
 - Sketch Your Mind-6984222 [Open](obsidian://open?file=BookFusion%2FBooks%2FSketch%20Your%20Mind-6984222.md) 0
 - The Beginning Infinity Explanations That Transform the World-3531382 [Open](obsidian://open?file=BookFusion%2FBooks%2FThe%20Beginning%20Infinity%20Explanations%20That%20Transform%20the%20World-3531382.md) 0
+## 26/11/2026, 12:26:48
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 1
+## 25/11/2026, 17:10:39
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 25/11/2026, 17:40:40
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/25/2026, 5:40:39 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/25/2026, 10:40:51 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 25/11/2026, 22:40:54
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/25/2026, 11:10:53 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 25/11/2026, 23:10:56
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/25/2026, 11:40:54 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 25/11/2026, 23:40:58
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/26/2026, 2:41:02 AM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 26/11/2026, 02:41:06
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 26/11/2026, 17:30:05
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 26/11/2026, 16:11:46
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/26/2026, 4:27:27 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 26/11/2026, 21:41:13
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 26/11/2026, 19:41:57
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/26/2026, 7:57:36 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 27/11/2026, 08:00:56
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 26/11/2026, 23:42:10
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/26/2026, 11:57:46 PM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 27/11/2026, 02:12:19
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/27/2026, 2:27:52 AM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 27/11/2026, 02:42:22
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 27/11/2026, 11:12:47
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 11/27/2026, 11:28:20 AM
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0
+## 27/11/2026, 11:42:49
+- Snow Crash-9314504 [Open](obsidian://open?file=BookFusion%2FBooks%2FSnow%20Crash-9314504.md) 0

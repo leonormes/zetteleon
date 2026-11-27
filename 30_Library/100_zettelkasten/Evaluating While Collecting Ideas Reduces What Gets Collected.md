@@ -39,7 +39,7 @@ Evaluating ideas while still collecting them reduces how many ideas get collecte
 
 ### Related
 
-- [[Writer Thinking vs Archivist Thinking]]—shared heuristic: separates generative drafting from critical editing. [extends:: [[Writer Thinking vs Archivist Thinking]], strength=3, confidence=medium]
+- [[Filing Notes for Future Rediscovery Produces More Connections Than Filing Them by Topic]]—shared heuristic: separates generative drafting from critical editing. [extends:: [[Filing Notes for Future Rediscovery Produces More Connections Than Filing Them by Topic]], strength=3, confidence=medium]
 - [[The Clarification Ritual (Stuff to Action)]]—operationalises: enforces unjudged capture before clarification. [supports:: [[The Clarification Ritual (Stuff to Action)]], strength=4, confidence=medium]
 - [[Diffuse vs Focused Thinking Modes]]—candidate mechanism: broad associative search vs narrow analytical scrutiny. [depends_on:: [[Diffuse vs Focused Thinking Modes]], strength=2, confidence=low]
 - [[SoT - Prosthetic Executive Function]]—applies: externalises the queue boundary between capture and clarify. [implements:: [[SoT - Prosthetic Executive Function]], strength=4, confidence=medium]

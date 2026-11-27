@@ -31,10 +31,10 @@ The word doing the damage is _arbitrary_. A construct is contingent—it could h
 
 ## Related
 
-- [[Shift from Seeking Rightness to Seeking Utility]]—_The consequence for how a claim is evaluated once objective truth is off the table._
+- [[Confidence Is More Stable When Grounded in What a Belief Achieves Than in Being Right]]—_The consequence for how a claim is evaluated once objective truth is off the table._
 - [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]]—_The disorientation this claim is the remedy for._
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]]—_How to steer once constructs are seen as navigable rather than illusory._
 
 > Merged 2026-08-01 from `Social Constructs are Not Arbitrary, They are Real in Their Effects`—a duplicate claim captured in a parallel session. Its distinct contingent-vs-arbitrary argument is preserved above; its title now resolves to a tombstone redirect pointing here.
 
-[supports:: [[Shift from Seeking Rightness to Seeking Utility]], strength=4, confidence=high]
+[supports:: [[Confidence Is More Stable When Grounded in What a Belief Achieves Than in Being Right]], strength=4, confidence=high]

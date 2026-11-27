@@ -6,8 +6,16 @@ model: Karoq 1.5 TSI SE Edition
 modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/skoda-karoq-1-5-tsi-se-edition-en25dfu
 registration: EN25DFU
-status: active
-tags: [car, equipment, finance, karoq, pcp, sensitive, skoda, vehicle]
+status: evergreen
+tags:
+  - car
+  - equipment
+  - finance
+  - karoq
+  - pcp
+  - sensitive
+  - skoda
+  - vehicle
 title: ŠKODA Karoq 1.5 TSI SE Edition (EN25DFU)
 type: equipment
 ---

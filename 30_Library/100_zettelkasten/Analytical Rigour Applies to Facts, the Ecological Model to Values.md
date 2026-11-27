@@ -47,12 +47,12 @@ Haidt calls this over-trust of reason in moral matters the rationalist delusion.
 ### Related
 
 - [[Worth Debating Splits Into Factual Resolution and Relational or Philosophical Value, and Conflating Them Causes Confusion]]—parallel: the same split seen from the question of what is worth debating.
-- [[Minds Are Like Plants - Unique Products of Genes and Environment]]—defines the ecological model that this card applies to values.
+- [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]]—defines the ecological model that this card applies to values.
 - [[Claim - Persons are outcomes of nature and nurture, not right or wrong axioms]]—application: why a person is not judged right or wrong as a proposition is.
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]]—what to do next: once values lack theorem-grade truth, they steer as a compass.
 - [[Truth is a Necessary Condition for Knowledge]]—premise: the factual side assumes claims can be true or false.
 
-[depends_on:: [[Minds Are Like Plants - Unique Products of Genes and Environment]], strength=4, confidence=medium]
+[depends_on:: [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]], strength=4, confidence=medium]
 [supports:: [[Values Serve as Navigational Compass in Absence of Absolute Truth]], strength=3, confidence=medium]
 
 ### Tensions

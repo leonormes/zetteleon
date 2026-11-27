@@ -57,4 +57,4 @@ The current model integrates Schopenhauer's pessimism into a coherent lifestyle 
 - [[SoT - The Nature of Time and Perception]]
 - [[The Four Noble Truths Explain Suffering from Attachment]]
 - [[Multiplicity Is a Stage to Pass Through, Not a Destination]]
-- [[Zen Practice Centers on Accepting Impermanence]]
+- [[Expecting Things to Change Makes It Easier to Adapt Than Trying to Hold Them Fixed]]

@@ -13,7 +13,7 @@ project_category: prodos
 see_also:
 - '[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]'
 - '[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]'
-- '[[The Atomicity Principle - One Idea Per Note]]'
+- '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 status: evergreen
 tags:
 - domain/pkm
@@ -34,7 +34,7 @@ A zettel here is a proposition card: one idea, stated as a complete sentence in 
 
 | Principle | Where it comes from |
 |---|---|
-| One idea per note, in complete sentences, in your own words | [[Main Notes Are the Essential Building Blocks]], [[Elaboration Through Own Words Deepens Understanding]], [[The Atomicity Principle - One Idea Per Note]] |
+| One idea per note, in complete sentences, in your own words | [[Main Notes Are the Essential Building Blocks]], [[Elaboration Through Own Words Deepens Understanding]], [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]] |
 | The note is a proposition, something that can be wrong, and a claim is titled by the sentence itself | [[Propositions Are the Only Thing That Can Be Wrong]], [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] |
 | One canonical note per idea, linked from everywhere else | [[Linking as a Redundancy Reduction Strategy in Zettelkasten]] |
 | A link carries its reason: part of, similar or different, complements or competes | [[Key questions when linking notes in the Zettelkasten method]] |
@@ -42,7 +42,7 @@ A zettel here is a proposition card: one idea, stated as a complete sentence in 
 | Typed edges only where the logic matters | [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] |
 | Capture is temporary; the main note is built from processing it | [[Fleeting Notes Are Temporary Capture Mechanisms]], [[Literature Notes Bridge Source Material and Main Notes]] |
 | Hubs and maps are entry points, not the thinking | [[Hub Notes Provide Entry Points to Idea Clusters]], [[Structure Notes as Maps of Thought Trails]] |
-| The point is the thinking done while making the note, not the size of the graph | [[Zettelkasten System Essence]], [[Deep Processing is the Core of Zettelkasten]] |
+| The point is the thinking done while making the note, not the size of the graph | [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]], [[Deep Processing is the Core of Zettelkasten]] |
 
 ## 2. The Card (Body)
 

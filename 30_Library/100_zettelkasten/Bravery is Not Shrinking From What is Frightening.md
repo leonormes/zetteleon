@@ -1,30 +1,41 @@
 ---
 aliases: [Courage]
 conformant: true
-contradicts: []
 created: 2025-11-01T21:20:00+00:00
-epistemic_status: medium
-evidence_links: []
-modified: 2026-10-22T15:11:18+00:00
+definition: Bravery is the strength of not shrinking from threat, challenge, difficulty or pain.
+distinguishes_from: ["[[Perseverance is Finishing What One Starts Despite Obstacles]]", "[[Honesty is Being Truthful and Sincere]]"]
+modified: 2026-11-26T00:00:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/bravery-is-not-shrinking-from-what-is-frightening
-proposition: Bravery, also known as courage, is the inner strength to face things that are frightening or difficult
 tags: [bravery, character-strength, courage, fear, virtue]
 title: Bravery is Not Shrinking From What is Frightening
-type: claim
+type: concept
+used_in_claims: ["[[Generative Thinking Requires Cognitive Independence to Endure Social Resistance]]"]
 ---
 
-Bravery, also known as courage, is the inner strength to face things that are frightening or difficult.
+## Bravery is Not Shrinking From What is Frightening
 
-It is not necessarily the absence of fear, but rather the willingness to act despite it. This can manifest in various ways, such as:
+Bravery is the strength of not shrinking from threat, challenge, difficulty or pain. ^def
 
-- Trying something new and uncertain.
-- Speaking up for what is right, even when it is unpopular.
-- Facing a challenge or threat directly.
+### Scope & Conditions
 
-It is a core component of resilience and personal growth.
+- It does not require the absence of fear. It is willingness to act despite it.
+- Examples are trying something uncertain, speaking up for what is right when it is unpopular and facing a threat directly.
+- It is not the same as the virtue of Courage, which is the wider group it belongs to.
+- The vault also treats it as a core part of resilience and personal growth.
 
-## Related
+### Evidence
+
+> "You do not shrink from threat, challenge, pain, or difficulty."
+> (Seligman 2011, "Appendix: Signature Strengths Test", PDF p. 242) · [open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB?open_at=toc:Appendix:%20Signature%20Strengths%20Test)
+
+Seligman describes this strength in a self-report test. The wording of the definition is this vault’s.
+
+### Implications
+
+- Ask what you would do here if fear were allowed to be present but not to decide.
+
+### Related
 
 - [[VIA Virtue of Courage]]—_The virtue this strength belongs to._
 - [[Discomfort Signals Growth Potential]]—_Reads the discomfort that bravery acts through as a sign of growth rather than a stop signal._
@@ -32,3 +43,7 @@ It is a core component of resilience and personal growth.
 - [[Resilience is the Ability to Bounce Back from Setbacks]]—_The note says bravery is a core component of resilience._
 - [[Perseverance is Finishing What One Starts Despite Obstacles]]—_Sibling strength under the same virtue: bravery starts the hard thing and perseverance finishes it._
 - [[Honesty is Being Truthful and Sincere]]—_Sibling strength under the same virtue: speaking up for what is right is the shared edge between the two._
+
+### Further Reading
+
+- Seligman, Martin E. P. 2011. *Flourish: A New Understanding of Happiness and Wellbeing*. [Open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB)—_corroborates the description of this strength._

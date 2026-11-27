@@ -18,7 +18,7 @@ Details: Main notes represent the culmination of the Zettelkasten workflow—the
 
 Links:
 
-- [[The Atomicity Principle - One Idea Per Note]]
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]
 - [[Deep Processing is the Core of Zettelkasten]]
 - [[Concept-Orientation Enables Cross-Domain Discovery]]
 - [[Creating Meaningful Links]]

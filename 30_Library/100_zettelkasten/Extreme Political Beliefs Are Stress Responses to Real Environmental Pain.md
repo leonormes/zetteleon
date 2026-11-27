@@ -48,11 +48,11 @@ Fast thinking aims for a coherent story, not an accurate one, which fits a mind 
 - [[Confirmation as a Perceived Shortcut to Truth]]—mechanism: once a simple narrative is adopted, agreement from others feels like proof and brings relief.
 - [[Emotional Reasoning]]—mechanism: the feeling of distress is taken as evidence for the diagnosis.
 - [[The Information Deficit Model is a Fallacy]]—consequence: supplying facts alone does not bridge the gap, which is why the distress must be addressed too.
-- [[Minds Are Like Plants - Unique Products of Genes and Environment]]—framework: the soil and fertiliser model this claim applies to politics.
+- [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]]—framework: the soil and fertiliser model this claim applies to politics.
 - [[Beliefs Often Function as Belonging Cues to Secure Group Membership Rather Than as Truth-Seeking Theses]]—complement: a second non-logical driver of political belief, group membership.
 
 [depends_on:: [[The World's Ambiguity Drives the Need for Certainty]], strength=3, confidence=medium]
-[extends:: [[Minds Are Like Plants - Unique Products of Genes and Environment]], strength=3, confidence=medium]
+[extends:: [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]], strength=3, confidence=medium]
 
 ### Tensions
 

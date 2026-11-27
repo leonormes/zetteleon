@@ -16,7 +16,7 @@ upstream: '[[tmp_atoms_psychology-of-over-preparing]]'
 
 ## Information-Seeking Is Adaptive Only While It Remains Instrumental to an Actual Decision
 
-Information-seeking is adaptive when it changes a real decision, prediction, or response capacity (instrumental, contingency, or recovery information); it becomes a safety behaviour rather than sound judgement when its actual function is reassurance or identity-protection—proving certainty is impossible, or proving one isn't inadequate—rather than improving the decision at hand.
+Information-seeking is adaptive when it changes a real decision, prediction, or response capacity (instrumental, contingency, or recovery information); it becomes a safety behaviour rather than sound judgement when its actual function is reassurance or identity-protection—proving certainty is impossible, or proving one isn't inadequate—rather than improving the decision at hand. ^def
 
 ### Scope & Conditions
 

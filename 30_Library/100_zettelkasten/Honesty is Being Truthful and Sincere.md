@@ -1,29 +1,46 @@
 ---
 aliases: [Sincerity, Truthfulness]
 conformant: true
-contradicts: []
 created: 2025-11-01T21:22:00+00:00
-epistemic_status: medium
-evidence_links: []
-modified: 2026-10-22T15:11:16+00:00
+definition: Honesty is the strength of telling the truth, being sincere and presenting yourself genuinely, so that your actions match your words.
+distinguishes_from: ["[[Bravery is Not Shrinking From What is Frightening]]"]
+modified: 2026-11-26T00:00:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
-proposition: Honesty is the virtue of telling the truth, being sincere, and acting in a way that is worthy of trust
 tags: [character-strength, honesty, integrity, trust, virtue]
 title: Honesty is Being Truthful and Sincere
-type: claim
+type: concept
+used_in_claims: ["[[Consistent Honesty Builds Trust in Relationships]]", "[[The Rawness of Expressive Music is a Sign of its Honesty]]"]
 ---
 
-Honesty is the virtue of telling the truth, being sincere, and acting in a way that is worthy of trust.
+## Honesty is Being Truthful and Sincere
 
-It involves more than just not lying. It is about presenting oneself authentically and living with integrity. An honest person's actions align with their words.
+Honesty is the strength of telling the truth, being sincere and presenting yourself genuinely, so that your actions match your words. ^def
 
-This quality is a cornerstone of building strong, trusting relationships, both personally and professionally.
+### Scope & Conditions
 
-## Related
+- It is more than not lying.
+
+### Evidence
+
+> "You are an honest person, not only by speaking the truth but by living your life in a genuine and authentic way."
+> (Seligman 2011, "Appendix: Signature Strengths Test", PDF p. 244) · [open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB?open_at=toc:Appendix:%20Signature%20Strengths%20Test)
+
+Seligman describes this strength in a self-report test. The wording of the definition is this vault’s.
+
+### Implications
+
+- Ask whether what you show others matches what you intend and do.
+- Related claim: [[Consistent Honesty Builds Trust in Relationships]].
+
+### Related
 
 - [[VIA Virtue of Courage]]—_The virtue this strength belongs to._
 - [[Integrity Means Acting in Accordance With Chosen Values]]—_Honesty as integrity: actions that match stated values._
 - [[Building self-trust is essential for creating sustainable ADHD routines]]—_Honesty with oneself is a precondition for self-trust._
 - [[Bravery is Not Shrinking From What is Frightening]]—_Sibling strength under the same virtue: telling an unwelcome truth often takes courage._
 - [[Perseverance is Finishing What One Starts Despite Obstacles]]—_Sibling strength under the same virtue_
+
+### Further Reading
+
+- Seligman, Martin E. P. 2011. *Flourish: A New Understanding of Happiness and Wellbeing*. [Open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB)—_corroborates the description of this strength._

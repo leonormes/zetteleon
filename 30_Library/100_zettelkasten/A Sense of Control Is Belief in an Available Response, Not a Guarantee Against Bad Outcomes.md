@@ -16,7 +16,7 @@ upstream: '[[tmp_atoms_chaos-and-situational-awareness]]'
 
 ## A Sense of Control Is Belief in an Available Response, Not a Guarantee Against Bad Outcomes
 
-A healthy sense of control is not the belief that nothing bad can happen or that one knows everything; it is the belief that one has an available response that can influence or mitigate an adverse event, without that being a guarantee the event will never occur.
+A healthy sense of control is not the belief that nothing bad can happen or that one knows everything; it is the belief that one has an available response that can influence or mitigate an adverse event, without that being a guarantee the event will never occur. ^def
 
 ### Scope & Conditions
 

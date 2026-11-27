@@ -15,7 +15,7 @@ status: seed
 tags: [context-independence, full-sentences, note-structure, note-writing, sources, zettelkasten]
 title: A Note Should Be Written So It Can Be Understood Out of Context
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## A Note Should Be Written So It Can Be Understood Out of Context

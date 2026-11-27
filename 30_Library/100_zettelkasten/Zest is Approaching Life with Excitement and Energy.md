@@ -1,28 +1,57 @@
 ---
 aliases: [Enthusiasm, Vitality, Zest, Zest for Life]
 conformant: true
-contradicts: []
 created: 2026-08-01T00:00:00+00:00
-epistemic_status: high
-evidence_links: []
-modified: 2026-10-22T15:11:13+00:00
+definition: Zest is the character strength of approaching life with excitement and energy, doing things wholeheartedly rather than halfway.
+distinguishes_from: ["[[Humor is Liking to Laugh and Bring Smiles to Others]]"]
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/zest-is-approaching-life-with-excitement-and-energy
-prodos.kind: atomic
-prodos.lifecycle: seedling
-proposition: Zest, as a VIA character strength under the virtue of Courage, is approaching life with energy and wholeheartedness — a dispositional vitality, distinct from transient mood or stimulant-driven arousal.
+status: seed
 tags: [character-strength, courage, virtue, zest]
 title: Zest is Approaching Life with Excitement and Energy
-type: claim
+type: concept
+used_in_claims: ["[[Zest Is a Lasting Disposition Rather Than a Spike of Arousal]]"]
 ---
 
-Zest (also called vitality or enthusiasm) is approaching life with excitement and energy—doing things wholeheartedly rather than halfway, treating life as an adventure. The VIA classification files it under Courage because sustaining energy in the face of friction is an act of will, not a mood that happens to you.
+## Zest is Approaching Life with Excitement and Energy
 
-The distinction that matters: zest is dispositional, not phasic. It is not the dopaminergic spike of a novel stimulus. A person can feel flat and still act with zest; a person can feel highly aroused and be running on craving. This maps onto the hedonia/eudaimonia split in [[SoT - Values and Eudaimonia]]—zest is the tonic hum, not the phasic spike.
+Zest is the character strength of approaching life with excitement and energy, doing things wholeheartedly rather than halfway. It is also called vitality or enthusiasm. ^def
 
-## Related
+### Scope & Conditions
 
-- [[Hedonic Adaptation to Achieved Goals Is a Biological Certainty, Not a Character Failing]]—why the phasic version cannot be sustained, and why treating its absence as a character failure is a category error.
+- Applies to zest as a character strength in positive psychology, not to a single burst of excitement.
+- This vault files zest under the virtue of Courage, following the VIA classification, which I have not checked against a source here.
+- The reason offered for that filing, that sustaining energy against friction takes will, is my own reasoning.
 
+### Evidence
+
+> "You throw yourself body and soul into the activities you undertake."
+> (Seligman 2011, "Appendix: Signature Strengths Test", PDF p. 259) · [open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB?open_at=toc:Appendix:%20Signature%20Strengths%20Test)
+
+> "Do you wake up in the morning looking forward to the day?"
+> (Seligman 2011, "Appendix: Signature Strengths Test", PDF p. 259) · [open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB?open_at=toc:Appendix:%20Signature%20Strengths%20Test)
+
+These come from the zest items in a self-report test. The wording of the definition is the one this vault already used.
+
+![[Zest Is a Lasting Disposition Rather Than a Spike of Arousal#^claim]]
+
+### Implications
+
+- Judge zest by how wholeheartedly someone engages with ordinary activities.
+
+### Related
+
+- [[VIA Virtue of Courage]]—part of: the virtue this vault files zest under.
 [extends:: [[VIA Virtue of Courage]], strength=4, confidence=high]
+- [[Zest Is a Lasting Disposition Rather Than a Spike of Arousal]]—extends: what kind of thing zest is.
 
-[depends_on:: [[SoT - Values and Eudaimonia]], strength=3, confidence=medium]
+### Tensions
+
+- [[VIA Virtue of Transcendence]]—tension: Seligman lists zest in this cluster and names only valor, perseverance and integrity as routes to courage.
+
+> "I include valor, perseverance, and integrity as three ubiquitous routes to this virtue."
+> (Seligman 2011, "Appendix: Signature Strengths Test", PDF p. 242) · [open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB?open_at=toc:Appendix:%20Signature%20Strengths%20Test)
+
+### Further Reading
+
+- Seligman, Martin E. P. 2011. *Flourish: A New Understanding of Happiness and Wellbeing*. [Open in Calibre](calibre://view-book/GCcalibreBooks/294/EPUB)—_corroborates the description of zest and disagrees with its filing under Courage._

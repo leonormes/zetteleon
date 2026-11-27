@@ -4,9 +4,9 @@ conformant: true
 contradicts: []
 created: 2025-10-20T09:41:00+00:00
 epistemic_status: high
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
+evidence_links: []
 merged_from: ["[[Externalising Tacit Knowledge Illusion of Profundity]]"]
-modified: 2026-11-14T13:06:00+00:00
+modified: 2026-11-27T14:02:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-disappointment-of-written-thoughts
 proposition: "Thoughts that feel profound internally often appear skeletal or dull once written down because externalisation strips away unstated tacit scaffolding, revealing the diagnostic gap between felt intuition and articulated knowledge."
 see_also: ["[[MOC - PKM as Process vs Product]]"]
@@ -18,7 +18,7 @@ type: claim
 
 ## The Disappointment of Written Thoughts
 
-This is the common and frustrating experience where thoughts that feel profound, rich, and interconnected in the mind appear dull, simplistic, or uninspiring once written down. This disappointment is a major obstacle that stops people from using writing as a tool for thinking.
+This is the common and frustrating experience where thoughts that feel profound, rich, and interconnected in the mind appear dull, simplistic, or uninspiring once written down. This disappointment is a major obstacle that stops people from using writing as a tool for thinking. ^claim
 
 An idea sitting in the head is scaffolded by everything left unstated: private emotional charge, intuitive leaps, and a rich internal narrative that makes it feel connected to everything else you know. Speak or write the idea, and that tacit scaffolding vanishes—often leaving it looking skeletal or flawed even when the original insight was sound. This is the [[SoT - Illusion of Explanatory Depth (IoED)]] turned inward: the illusion applied to your own half-formed ideas rather than an external mechanism.
 

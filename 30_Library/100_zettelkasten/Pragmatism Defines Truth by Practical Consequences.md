@@ -44,7 +44,7 @@ Peirce's Maxim: Charles Sanders Peirce formulated the pragmatic maxim as: "Consi
 
 - [[SoT - Reality, Models, and the Limits of Accuracy]]—_Discusses the pragmatic value of models based on their ability to guide effective action rather than their theoretical correctness—the same "Utility Over Truth" principle this note grounds philosophically._
 - [[SoT - Belief Architecture & Cognitive Spaces]]—_Examines how ProdOS adopts a pragmatic truth standard for installing and validating new beliefs._
-- [[Shift from Seeking Rightness to Seeking Utility]]—_Explores the cognitive transition towards valuing a belief's practical utility as a source of confidence._
+- [[Confidence Is More Stable When Grounded in What a Belief Achieves Than in Being Right]]—_Explores the cognitive transition towards valuing a belief's practical utility as a source of confidence._
 - [[SoT - Pragmatism vs Rigour in Software]]—_Applies the principle of pragmatism to the engineering trade-offs between delivery velocity and formal correctness._
 - [[Epistemic Actions - Thinking via Doing]]—_Distinguishes between "Pragmatic Actions" (actions that change the world) and "Epistemic Actions" (actions that aid internal computation)._
 - [[Judge a Worldview by Its Utility in Its Environment, Not Its Correctness]]—_already carries an `extends` edge back to this note: applies the same utility-over-correctness standard to explaining why false worldviews persist._ [supports:: [[Judge a Worldview by Its Utility in Its Environment, Not Its Correctness]], strength=4, confidence=high]

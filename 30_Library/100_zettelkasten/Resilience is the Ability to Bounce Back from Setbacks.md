@@ -1,25 +1,37 @@
 ---
 aliases: [Bouncing Back]
 conformant: true
-contradicts: []
 created: 2025-11-01T21:26:00+00:00
-epistemic_status: high
-evidence_links: []
-modified: 2026-10-22T15:11:14+00:00
+definition: Resilience is the capacity to adapt to and recover from stress, adversity, trauma or disappointment.
+distinguishes_from: ["[[Perseverance is Finishing What You Start Despite Difficulty]]"]
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/resilience-is-the-ability-to-bounce-back-from-setbacks
-proposition: "Resilience — the capacity to adapt to and recover from stress, adversity, trauma, or disappointment — is a dynamic process of behaviours, thoughts, and actions that can be learned and developed, not a fixed trait."
 tags: [character-strength, growth, resilience, TheHuman/Psychology, virtue]
 title: Resilience is the Ability to Bounce Back from Setbacks
-type: claim
+type: concept
+used_in_claims: ["[[Over-Optimized Systems Trade Systemic Resilience and Redundancy for Fragile Efficiency]]", "[[Resilience Can Be Taught Rather Than Being Only a Fixed Trait]]", "[[Roll With The Punches (YNAB Rule 3)]]"]
 ---
 
-Resilience is the psychological capacity to adapt to and recover from stress, adversity, trauma, or disappointment. ^claim
+## Resilience is the Ability to Bounce Back from Setbacks
 
-It is often described as the ability to "bounce back" after a difficult experience. Resilience is not about avoiding hardship, but about navigating through it and emerging without lasting negative effects.
+Resilience is the capacity to adapt to and recover from stress, adversity, trauma or disappointment. ^def
 
-It is a dynamic process that involves behaviors, thoughts, and actions that can be learned and developed by anyone.
+### Scope & Conditions
 
-## Knowledge Graph
+- It is often described as bouncing back. It is not avoiding hardship but getting through it.
+- It involves behaviours, thoughts and actions.
+- In this vault it is treated as closer to an outcome of perseverance, bravery and hope than to a separate VIA strength.
+
+### Evidence
+
+This definition is the wording this vault already used. No source has been verified for it.
+
+### Implications
+
+- Ask what would help recovery from this setback.
+- Related claim: [[Resilience Can Be Taught Rather Than Being Only a Fixed Trait]].
+
+### Knowledge Graph
 
 [depends_on:: [[VIA Virtue of Courage]], strength=2, confidence=low]
 
@@ -43,7 +55,7 @@ It is a dynamic process that involves behaviors, thoughts, and actions that can 
 
 - [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]]—per [[MOC - Character and Virtue]] §6, attributing a setback to character rather than capacity fuels a shame spiral that blocks recalibration; this note's compassionate reframe is what keeps "bouncing back" psychologically available rather than foreclosed by self-blame.
 
-## Related
+### Related
 
 - [[MOC - Character and Virtue]]—the canonical hub; §2.7 discusses this note directly (see Knowledge Graph above), and §6 supplies the self-compassion counterweight this note depends on.
 - [[Inner Strength & Resilience Skills (Your Strong Spirit)]]—the child-facing MOC that lists this note as one of seven "Core Resilience Skills," alongside bravery and perseverance.

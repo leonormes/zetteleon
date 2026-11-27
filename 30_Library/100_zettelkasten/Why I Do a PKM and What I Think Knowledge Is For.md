@@ -29,7 +29,7 @@ Knowledge isn't a possession to accumulate—it's a byproduct of the effort of t
 
 [synthesizes:: [[The Processing Is the Hard Part]], strength=4, confidence=high]
 
-[synthesizes:: [[Zettelkasten System Essence]], strength=4, confidence=high]
+[synthesizes:: [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]], strength=4, confidence=high]
 
 [synthesizes:: [[PKM as Process vs Product]], strength=4, confidence=high]
 

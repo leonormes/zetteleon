@@ -1,37 +1,48 @@
 ---
 aliases: [Give Every Pound a Job, Intentional Allocation, Proactive Budgeting, Zero-Based Budgeting]
-conformant: false
+conformant: true
 created: 2025-11-18T14:32:00+00:00
-modified: 2026-10-22T15:11:16+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/give-every-dollar-a-job-ynab-rule-1
+status: seed
+steps:
+- Ask what this money must do before the next payday and fund rent, food, utilities and other immediate obligations.
+- Set money aside for larger and less frequent spending.
+- Set aside what you can for next month.
+- Assign money to the goals you want to prioritise, large or small.
+- Move money between categories wherever the plan needs to change.
 tags: [budgeting, finance, psychology, ynab]
 title: Give Every Dollar a Job (YNAB Rule 1)
-type: claim
+trigger: New money is received.
+type: procedure
+verification: The Ready to Assign balance is zero and all money currently held sits in a category.
 ---
 
-The foundational principle of the YNAB method is to "Give Every Dollar (or Pound) a Job." This practice operationalises Zero-Based Budgeting (ZBB) by proactively assigning every unit of currency currently possessed to a specific category until the "Ready to Assign" balance reaches zero.
+## Give Every Dollar a Job (YNAB Rule 1)
 
-## 🧠 The Emotional Shift: From Guessing to Intentionality
+Rule 1 of the YNAB method assigns every dollar (or pound) currently held to a category until the "Ready to Assign" balance reaches zero. It is the working form of Zero-Based Budgeting and replaces "Can I afford this?" with "What do I want my money to do for me?" ^claim
 
-This rule transforms budgeting from a reactive chore into an intentional act of prioritisation. It replaces the stressful question _"Can I afford this?"_ with the empowering question "What do I want my money to do for me?"
+### Scope & Conditions
 
-- Eliminating Mental Accounting: By assigning specific "digital envelopes," you prevent the fallacy that a single pool of savings can cover multiple conflicting goals (e.g., a holiday vs. a car repair).
-- Spendfulness: Aligning spending with true values, allowing for guilt-free spending on prioritised joys.
+Run this when new money arrives, using only money already held and not forecast income. It is the input to the rest of the system: without it, [[Embrace Your True Expenses (YNAB Rule 2)]] has no money to set aside and spending reverts to reaction.
 
-## 🪜 The Hierarchy of Jobs (The Five Questions)
+### Evidence
 
-When new funds are received, they are processed through this logic hierarchy:
+This is the household working method, listed as the first of four rules in [[SoT - Family Financial Wellness]]. No outside source is cited for the five questions.
 
-1. Reality: What does this money need to do before I am paid again? (Immediate obligations: rent, food, utilities).
-2. Stability: What larger, less frequent spending do I need to prepare for? ([[Embrace Your True Expenses (YNAB Rule 2)]]).
-3. Resilience: What can I set aside for next month's spending? (Creating a temporal buffer).
-4. Creation: What goals, large or small, do I want to prioritise? (Aspirational funding).
-5. Flexibility: What changes do I need to make? (Dynamic adjustment/[[Roll With The Punches (YNAB Rule 3)]]).
+### Implications
 
-## 🚀 Relational Impact
+Work through the five questions in order:
 
-This rule acts as the "Input" trigger for the entire financial system. Without Rule 1, [[Embrace Your True Expenses (YNAB Rule 2)]] (Stability) has no fuel, and the system reverts to reactive pattern-matching rather than intentional execution.
+1. **Reality:** what does this money need to do before I am paid again? Fund rent, food, utilities and other immediate obligations.
+2. **Stability:** what larger, less frequent spending do I need to prepare for? See [[Embrace Your True Expenses (YNAB Rule 2)]].
+3. **Resilience:** what can I set aside for next month? This builds a buffer in time.
+4. **Creation:** what goals, large or small, do I want to prioritise?
+5. **Flexibility:** what changes do I need to make? See [[Roll With The Punches (YNAB Rule 3)]].
+
+Check: "Ready to Assign" reads zero.
+
+Separate digital envelopes stop one pool of savings being counted towards several competing goals, such as a holiday and a car repair. Money assigned to things you value can be spent without guilt.
 
 ### Related
 
@@ -41,7 +52,7 @@ This rule acts as the "Input" trigger for the entire financial system. Without R
 - [[Fund Immediate Obligations First]]—concrete form of: the Reality question as a funding order.
 - [[Reactive Spending Creates Financial Stress]]—opposite of: spend-first, categorise-later.
 - [[Guilt-Free Spending is a Feature of Intentional Budgeting]]—consequence: assigned discretionary money is permission to spend.
-- [[SoT - Financial Philosophy and Spendfulness]]—spendfulness is the value alignment this rule operationalises.
+- [[SoT - Financial Philosophy and Spendfulness]]—value alignment: this rule is how spendfulness is put into practice.
 
 [implements:: [[Habit 1 - Be Proactive]]]
 

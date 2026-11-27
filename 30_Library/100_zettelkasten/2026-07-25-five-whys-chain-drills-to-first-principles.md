@@ -5,17 +5,15 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-22T15:11:19+00:00
+modified: 2026-11-27T14:05:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-five-whys-chain-drills-to-first-principles
-prodos.kind: atomic
-prodos.lifecycle: stable
-proposition: 'Repeatedly asking "why" about a claimed causal mechanism, typically five times in sequence, surfaces the point at which stated understanding runs out and exposes unexamined assumptions.'
+proposition: Repeatedly asking why about a claimed causal mechanism, typically five times in sequence, surfaces the point at which stated understanding runs out and exposes unexamined assumptions.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-five-whys-chain-drills-to-first-principles
 type: claim
 ---
 
-Ask "why?" about a claimed mechanism, then ask why again about the answer, five times over. The chain reliably runs out somewhere before five—and the point where it runs out is exactly the edge of what you actually understand. Listed in the source as one of the named Forcing Functions (antidotes) for IoED.
+Ask "why?" about a claimed mechanism, then ask why again about the answer, five times over. The chain reliably runs out somewhere before five—and the point where it runs out is exactly the edge of what you actually understand. Listed in the source as one of the named Forcing Functions (antidotes) for IoED. ^claim
 
 ## Evidence
 

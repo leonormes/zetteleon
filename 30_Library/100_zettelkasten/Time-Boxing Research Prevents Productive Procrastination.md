@@ -2,8 +2,7 @@
 aliases: [Time-boxed Research]
 conformant: true
 created: 2025-11-12T15:00:10+00:00
-last_reviewed: ''
-modified: 2026-10-22T15:11:13+00:00
+modified: 2026-11-27T14:05:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/time-boxing-research-prevents-productive-procrastination
 see_also: []
@@ -15,13 +14,12 @@ tags: [research, technique, TheHuman/Health/ADHD, time-management, topic/product
 title: Time-Boxing Research Prevents Productive Procrastination
 trigger: Before starting research on a problem you intend to act on
 type: procedure
-updated: null
 verification: The timer ended the research and the next thing you did was apply what you found, not read more.
 ---
 
 ## Time-Boxing Research Prevents Productive Procrastination
 
-What: A strategy to counter "productive procrastination" by establishing a firm, external boundary on passive information gathering (Type 1 Information).
+What: A strategy to counter "productive procrastination" by establishing a firm, external boundary on passive information gathering (Type 1 Information). ^claim
 
 How:
 
@@ -30,7 +28,7 @@ How:
 3. Focus exclusively on answering that specific question within the allotted time.
 4. When the timer goes off, immediately stop the research and pivot to an action: applying the information found.
 
-rel:: antidote [[SoT - Illusion of Explanatory Depth (IoED)]]—directly counters the Research Rabbit Hole pattern (§ 3 "Dopamine-Seeking Behavior").
+Directly counters the Research Rabbit Hole pattern in [[SoT - Illusion of Explanatory Depth (IoED)]] (§ 3 "Dopamine-Seeking Behavior"). [implements:: [[SoT - Illusion of Explanatory Depth (IoED)]], confidence=medium]
 
 Failure modes:
 

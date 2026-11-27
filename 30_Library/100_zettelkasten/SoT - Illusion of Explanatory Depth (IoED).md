@@ -1,151 +1,175 @@
 ---
-aliases: ["Collector's Fallacy", Causal Opacity, Consumption Trap, Heuristic Substitution, Information Hoarding, IoED, Passive Consumption, The Toilet Illusion]
+aliases:
+  - "Collector's Fallacy"
+  - Causal Opacity
+  - Consumption Trap
+  - Heuristic Substitution
+  - Information Hoarding
+  - IoED
+  - Passive Consumption
+  - The Toilet Illusion
 conformant: true
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-10-22T15:11:11+00:00
-non_conformance_reason: ''
+modified: 2026-11-27T14:08:49+00:00
 permalink: llmeon/30-library/so-t/so-t-illusion-of-explanatory-depth-io-ed
-synthesis_count: 3
-tags: [bias, learning, mental_models, TheHuman/Cognition, TheHuman/Health/ADHD]
+status: evergreen
+tags:
+  - bias
+  - learning
+  - mental_models
+  - TheHuman/Cognition
+  - TheHuman/Health/ADHD
 title: SoT - Illusion of Explanatory Depth (IoED)
 type: sot
 ---
 
-> [!definition] Definition: "The Illusion of Explanatory Depth (IoED)"
-> The cognitive bias where people believe they understand a complex system at a deep level, but their understanding is actually superficial. This gap is only revealed when they are forced to provide a detailed, step-by-step explanation of the system's causal mechanisms.
+> Position in the graph. This is the _mechanism_ hub for the Illusion of Explanatory Depth cluster—anchoring how cognitive efficiency heuristics produce false confidence in causal understanding, how ADHD amplifies the trap, and which forcing functions break it. Edges below point _downward_ to load-bearing premises/evidence (`depends_on`) and transcluded atoms (`synthesizes`); downstream protocols and adjacent hubs point _up_ here without closing cycles.
 
-## 2. The Core Mechanism: Heuristic Substitution
+## Minimum Viable Understanding (MVU)
 
-The brain creates this illusion to conserve metabolic energy. It is an efficiency hack that prioritizes _utility_ over _accuracy_. When confronted with a complex system (e.g., "The Economy," "Kubernetes," "A Toilet"), the brain performs a rapid heuristic check:
-
-1. The Query: "Do I understand X?"
-2. The Substitution: Instead of auditing the causal logic, the brain substitutes an easier question: _"Do I recognise X? Do I know what X is for?"_
-3. The False Positive: Because the label is familiar ("That is a toilet, it flushes"), the brain tags the system as "Known" and suppresses further enquiry.
-
-This creates Causal Opacity: a "black box" in the mental model that is labelled as transparent. The gap remains invisible until the individual is forced to _simulate_ the mechanism (explain or build it).
-
-### Familiarity vs. Comprehension
-
-The root error is conflating two distinct cognitive states:
-
-- Familiarity (Prediction): Knowing _that_ X happens. (e.g., "If I push the lever, the water goes down.")
-- Comprehension (Causality): Knowing _why_ X happens. (e.g., "The lever lifts the flapper valve, breaking the seal, allowing gravity to empty the tank into the bowl, triggering the siphon effect…")
-
-The Danger: We often navigate life using only Familiarity. However, when we need to _fix_, _debug_, or _innovate_ on a system, Familiarity fails completely. You cannot debug a system you only know by label.
-
-### The Signals We Mistake for Understanding
-
-The substitution works because the brain reads indirect signals instead of auditing what it knows. A signal is a shallow marker that produces the _feeling_ of understanding without ever testing it:
-
-- Familiarity: We meet the concept often (e.g., driving a car every day, or reading financial headlines and "knowing" economics).
-- Recognition: We know the vocabulary (e.g., "chlorophyll" and "carbon dioxide" for photosynthesis; "voting" and "representation" for democracy).
-- Belief Alignment: It fits what we already believe, so it feels obviously true.
-- Surface Explanation: We can state the gist ("pedalling moves the chain, which turns the wheel") but not how the gears interact or why the bicycle stays upright.
-- Exposure: We have skimmed a few articles or documentaries without testing ourselves on them.
-- Fluency: We can talk about it easily, even if the explanation is thin or wrong.
-- Overconfidence: General confidence in our own intelligence or knowledge is carried over to a topic we have not examined.
-
-The Real Test: None of these signals answers four questions. Can you _explain_ the mechanism in detail? _Predict_ how it behaves in a new situation? Say how its parts _interact_? _Troubleshoot_ it when it breaks? The gap appears when you are made to explain, give examples or answer specific questions.
+The Illusion of Explanatory Depth (IoED) is the cognitive bias in which familiarity with a system's label or surface utility masquerades as deep causal comprehension until we are forced to explain or build its mechanism step by step. For the ADHD brain, dopamine-seeking discovery and metacognitive deficits amplify this bias into premature loop closure, the Collector's Fallacy, and an illusion of profundity. Breaking the illusion requires externalising thought through active forcing functions—teaching, building, writing in one's own words, and time-boxed causal interrogation—rather than further passive consumption.
 
 ---
 
-## 3. The ADHD Multiplier: Metacognitive Blindness
+## 1. Core Mechanism — Heuristic Substitution, Causal Opacity & Shallow Signals
 
-For the neurodivergent brain, IoED is not just a bias; it is a functional impairment exacerbated by Metacognitive Deficits and dopamine-seeking behavior.
+IoED begins with the gap between felt and actual understanding, driven by an energy-conserving heuristic that substitutes surface recognition for causal auditing:
 
-1. Premature Loop Closure: The ADHD brain seeks dopamine. The act of _finding_ information (Search/Discovery) releases dopamine. The brain interprets this "Ah-ha!" feeling of recognition as "Learning Complete," prematurely closing the loop before deep encoding occurs.
-2. The "Mind-Blindness" of Knowledge: ADHD is associated with deficits in self-monitoring. We struggle to accurately assess _what we know_. We often feel we "know" a topic because we read about it once, only to find we cannot recall a single detail when put on the spot.
-3. The "Collector's Fallacy" (The Consumption Trap): This drives the accumulation of books, tabs, and saved articles. The _possession_ of the information feels like _knowledge_ of the information.
-    - Dopamine-Seeking: Information gathering provides immediate rewards without the effort of processing.
-    - Novelty Seeking: New content is stimulating; old content (processing) is "boring."
-    - Illusion of Control: Hoarding information creates a false sense of preparation—the belief that "just a little more research" will provide the certainty needed to act. This delays the moment of potential failure or judgement. (See [[Information Addiction in Overthinkers]] for the full mechanism, including the "perfect information fallacy.")
-4. Forms of Active Procrastination:
-    - System Tweaking: Organizing the "library" instead of reading the books.
-    - Shiny Object Syndrome: Abandoning a deep dive for a new, "more promising" topic.
-    - Research as Planning Substitute: Gathering more data to avoid the "friction" of starting.
+![[IoED Definition Gap Felt vs Actual Understanding#^claim]]
 
-> Key Insight: For ADHD, the IoED is the primary blocker to mastery. We stop at "I get it" (Familiarity) and never push to "I can build it" (Competence).
+![[2026-07-25-heuristic-substitution-creates-ioed#^claim]]
 
----
+That substitution leaves unexamined black boxes inside our mental models while conflating prediction-level familiarity with mechanistic comprehension:
 
-### 3.1. The Illusion of Profundity
+![[Causal Opacity#^def]]
 
-Internal thoughts can feel exceptionally deep because they are supported by "tacit knowledge"—private emotional charge, intuitive leaps, and a rich subjective narrative.
+![[Familiarity vs Comprehension Distinct States#^claim]]
 
-- The Support Gap: Within the mind, an idea is scaffolded by non-verbal context. When externalized (spoken or written), this internal context vanishes, often leaving the idea looking "skeletal" or flawed to others.
-- The ADHD Intensifier: If an idea is tied to a hyperfocus session or high-intensity dopamine flood, the _feeling_ of breakthrough can be mistaken for the _integrity_ of the logic.
+Because the brain reads indirect markers of fluency and recognition rather than running a causal simulation, the illusion persists until tested against concrete explanation, prediction, interaction, and troubleshooting:
 
-## 4. The Antidote: Forcing Functions
-
-You cannot "think" your way out of IoED; you must "act" your way out. You must force the brain to simulate the mechanism.
-
-### A. The Feynman Technique (The Explanation Test)
-
-Attempt to explain the concept in simple terms to a child or a rubber duck.
-
-- The Mechanism: When you hit a gap in your explanation ("…and then magic happens…"), you have located the edge of your knowledge. Writing forces you to convert "felt understanding" into explicit propositions.
-- The Fix: Go back to the source material _specifically_ to fill that gap.
-- Canonical reference: [[Feynman Technique Deepens Learning Through Teaching]]—full 5-step protocol.
-
-### B. The "Build It" Standard (The Creation Test)
-
-"What I cannot create, I do not understand."—Richard Feynman.
-
-- The Rule: You do not understand a code library until you have built a small app with it. You do not understand a mental model until you have applied it to a real-life problem.
-- Action: Move from _Passive Consumption_ to _Active Creation_.
-
-### C. Zettelkasten Methodology (Structural Eufriction)
-
-Zettelkasten directly counters the "Consumption Trap" through structural requirements:
-
-- Elaboration: You MUST write notes in your own words. If you can't paraphrase it, you don't understand it.
-- Integration: You MUST connect new notes to existing ideas.
-- Synthesis: You MUST create explicit contexts for links, explaining _why_ two ideas are related.
-- [[Eufriction - Productive Friction Strengthens Thinking|Eufriction]]: Strategic obstacles (manual linking, naming) that slow down consumption and improve retention.
-
-### D. The "Why" Chain (The Causal Audit)
-
-Ask "Why?" five times to drill down to first principles.
-
-### E. The "Question Master" Protocol
-
-Bypass passive reading by actively questioning the material using Bloom's Taxonomy (Analyze, Evaluate, Create).
-
-### F. Time-Boxing Research (The Rabbit Hole Boundary)
-
-Define a single specific question _before_ starting research, set a hard timer (15–25 min), and pivot to implementation the moment it fires. This prevents the Dopamine-Seeking loop from converting research into productive procrastination.
-
-- Canonical reference: [[Time-Boxing Research Prevents Productive Procrastination]]—full protocol with failure modes.
+![[Shallow Recognition Signals Masquerade as Causal Understanding Until Tested#^claim]]
 
 ---
 
-## 5. Distinction from Dunning-Kruger Effect (DKE)
+## 2. The ADHD Multiplier — Metacognitive Blindness, Collector's Fallacy & Illusion of Profundity
 
-While related, the two biases operate on different axes:
+In ADHD, IoED compounds into a functional barrier to mastery: discovery-driven dopamine closes the learning loop early, while self-monitoring deficits obscure what has actually been encoded:
 
-| Feature | Dunning-Kruger Effect | Illusion of Explanatory Depth (IoED) |
-|:--- |:--- |:--- |
-| Primary Driver | Metacognitive Deficit: Lack of skills prevents recognition of low skill. | Confabulation: Mistaking familiarity (surface recognition) for causal understanding. |
-| Calibration Type | Relative Ranking: "I am better than average." | Mechanistic Knowledge: "I know how this works." |
-| Correction | Improving competence (which improves metacognition). | Forcing detailed, step-by-step explanation (breaking the illusion). |
+![[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability#^claim]]
+
+![[Metacognitive Deficits in ADHD Create Practical Impairments#^claim]]
+
+The same reward loop fuels the Collector's Fallacy—equating captured material with assimilated knowledge—and disguises avoidance of execution friction as productive research or system tweaking (see also [[Information Addiction in Overthinkers]]):
+
+![[The Collector's Fallacy Conflates Gathering with Assimilation#^def]]
+
+![[Information Gathering Serves as Active Procrastination That Masks Avoidance of Execution Friction#^claim]]
+
+Even internally generated ideas suffer a parallel distortion: tacit emotional scaffolding and hyperfocus dopamine make unexternalised thoughts feel more rigorous than they are once written down:
+
+![[The Disappointment of Written Thoughts#^claim]]
+
+![[2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity#^claim]]
 
 ---
 
-## 6. Related Concepts
+## 3. The Antidote — Forcing Functions
 
-- [[SoT - Dunning-Kruger Effect|Dunning-Kruger Effect]]: IoED is the specific _mechanism_ behind the "Mount Stupid" peak of the curve.
-- The Knowledge Illusion: Relying on the "Community of Knowledge" (Google, AI) to sustain our individual illusion of knowing.
-- [[Eufriction - Productive Friction Strengthens Thinking|Eufriction]]: The antidote to the Collector's Fallacy.
-- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)|The A-C-T Framework]]: The ProdOS solution for breaking the collection loop.
-- [[SoT - Active Learning Techniques]]: Canonical collection of antidotes—Retrieval Practice, Feynman Technique, The Peter Method, Interleaving.
-- [[Information Addiction in Overthinkers]]: Elaborates the Collector's Fallacy mechanism—"illusion of control" and "perfect information fallacy" as drivers.
-- [[Time-Boxing Research Prevents Productive Procrastination]]: Operational antidote to the Research Rabbit Hole.
-- [[Flawed Mental Models Limit Mastery]]: IoED as the primary barrier to mastery; recovery protocol.
+Because abstract thought lacks the resistance that exposes gaps, dissolving IoED requires acting on the mechanism—forcing external simulation through teaching, creation, and structured friction:
 
-[supports:: [[Familiarity vs Comprehension Distinct States]], strength=4, confidence=high]
+![[Active Creation Surfaces Hidden Gaps and Dissolves the Illusion of Explanatory Depth#^claim]]
 
-[supports:: [[2026-07-25-heuristic-substitution-creates-ioed]], strength=4, confidence=high]
+![[Feynman Technique Deepens Learning Through Teaching#^claim]]
 
-[supports:: [[2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity]], strength=4, confidence=high]
+![[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity#^claim]]
 
-[supports:: [[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability]], strength=4, confidence=high]
+In personal knowledge management, Zettelkasten methodology enforces this transition by requiring paraphrase, deep processing, and deliberate eufriction:
+
+![[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge#^claim]]
+
+![[Deep Processing is the Core of Zettelkasten#^claim]]
+
+![[Eufriction - Productive Friction Strengthens Thinking#^claim]]
+
+Finally, targeted questioning and strict research boundaries prevent causal audits from collapsing back into passive consumption:
+
+![[2026-07-25-five-whys-chain-drills-to-first-principles#^claim]]
+
+![[2026-07-25-question-master-protocol-blooms-taxonomy#^claim]]
+
+![[Time-Boxing Research Prevents Productive Procrastination#^claim]]
+
+---
+
+## 4. Boundaries — Dunning-Kruger Distinction & The Knowledge Illusion
+
+IoED is distinct from relative-ranking overconfidence (the Dunning-Kruger Effect) and scales socially into the Knowledge Illusion, where access to external experts or tools is mistaken for personal causal grasp:
+
+![[2026-07-25-ioed-vs-dunning-kruger-distinction#^claim]]
+
+![[The Knowledge Illusion Mistakes Community Expertise for Individual Understanding#^claim]]
+
+---
+
+## Conclusions, Boundaries & Assumptions to Challenge
+
+**Conclusion:** Familiarity is sufficient for routine operation, but fails whenever a system must be debugged, adapted, or built from scratch. Reliable comprehension only begins when mental models are externalised against real-world or explanatory resistance.
+
+**Boundaries & assumptions to challenge:**
+
+- *Capture vs. assimilation tension:* [[The Collector's Fallacy Conflates Gathering with Assimilation]] stands in live contradiction with [[Claim - Over-capture plus deferred review is sustainable]]—bounded capture with a reliable review cadence may be viable where unbounded hoarding is not.
+- *Adaptive reliance on the community of knowledge:* [[The Knowledge Illusion Mistakes Community Expertise for Individual Understanding]] is only harmful when we mistake outsourced expertise for personal debugging competence; offloading non-core mechanisms is necessary given a [[Limited Capacity Brain]].
+- *Eufriction vs. activation paralysis:* Forcing functions work when calibrated to capacity, but excessive upfront friction can trigger ADHD task-initiation failure rather than deeper encoding.
+
+---
+
+## Working Knowledge & Synthesis
+
+### Synthesised Claims & Concepts
+
+- [[IoED Definition Gap Felt vs Actual Understanding]]—_Core definition of the gap between felt and actual causal understanding in §1._ [synthesizes:: [[IoED Definition Gap Felt vs Actual Understanding]], confidence=high]
+- [[2026-07-25-heuristic-substitution-creates-ioed]]—_Synthesises the metabolic heuristic-substitution mechanism in §1._ [synthesizes:: [[2026-07-25-heuristic-substitution-creates-ioed]], confidence=high]
+- [[Causal Opacity]]—_Synthesises the black-box mental-model concept in §1._ [synthesizes:: [[Causal Opacity]], confidence=high]
+- [[Familiarity vs Comprehension Distinct States]]—_Distinguishes prediction-level familiarity from mechanistic comprehension in §1._ [synthesizes:: [[Familiarity vs Comprehension Distinct States]], confidence=high]
+- [[Shallow Recognition Signals Masquerade as Causal Understanding Until Tested]]—_Synthesises the seven shallow signals and four-part causal test in §1._ [synthesizes:: [[Shallow Recognition Signals Masquerade as Causal Understanding Until Tested]], confidence=high]
+- [[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability]]—_Synthesises dopamine-driven premature loop closure in ADHD in §2._ [synthesizes:: [[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability]], confidence=high]
+- [[Metacognitive Deficits in ADHD Create Practical Impairments]]—_Synthesises self-monitoring deficits behind knowledge mind-blindness in §2._ [synthesizes:: [[Metacognitive Deficits in ADHD Create Practical Impairments]], confidence=high]
+- [[The Collector's Fallacy Conflates Gathering with Assimilation]]—_Synthesises the consumption-trap concept in §2._ [synthesizes:: [[The Collector's Fallacy Conflates Gathering with Assimilation]], confidence=high]
+- [[Information Gathering Serves as Active Procrastination That Masks Avoidance of Execution Friction]]—_Synthesises system tweaking, shiny-object switching, and research-as-avoidance in §2._ [synthesizes:: [[Information Gathering Serves as Active Procrastination That Masks Avoidance of Execution Friction]], confidence=high]
+- [[The Disappointment of Written Thoughts]]—_Synthesises the tacit-support gap behind the Illusion of Profundity in §2._ [synthesizes:: [[The Disappointment of Written Thoughts]], confidence=high]
+- [[2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity]]—_Synthesises the ADHD hyperfocus intensifier of the Illusion of Profundity in §2._ [synthesizes:: [[2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity]], confidence=high]
+- [[Active Creation Surfaces Hidden Gaps and Dissolves the Illusion of Explanatory Depth]]—_Umbrella forcing-function claim in §3._ [synthesizes:: [[Active Creation Surfaces Hidden Gaps and Dissolves the Illusion of Explanatory Depth]], confidence=high]
+- [[Feynman Technique Deepens Learning Through Teaching]]—_Synthesises the explanation test in §3._ [synthesizes:: [[Feynman Technique Deepens Learning Through Teaching]], confidence=high]
+- [[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]]—_Synthesises the Build-It standard in §3._ [synthesizes:: [[Understanding Is Demonstrated by Creation Rather Than Passive Familiarity]], confidence=high]
+- [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]—_Synthesises elaboration in own words in §3._ [synthesizes:: [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]], confidence=high]
+- [[Deep Processing is the Core of Zettelkasten]]—_Synthesises Zettelkasten deep-processing requirements in §3._ [synthesizes:: [[Deep Processing is the Core of Zettelkasten]], confidence=high]
+- [[Eufriction - Productive Friction Strengthens Thinking]]—_Synthesises structural eufriction against passive consumption in §3._ [synthesizes:: [[Eufriction - Productive Friction Strengthens Thinking]], confidence=high]
+- [[2026-07-25-five-whys-chain-drills-to-first-principles]]—_Synthesises the Five Whys causal audit in §3._ [synthesizes:: [[2026-07-25-five-whys-chain-drills-to-first-principles]], confidence=high]
+- [[2026-07-25-question-master-protocol-blooms-taxonomy]]—_Synthesises active Bloom's-taxonomy questioning in §3._ [synthesizes:: [[2026-07-25-question-master-protocol-blooms-taxonomy]], confidence=high]
+- [[Time-Boxing Research Prevents Productive Procrastination]]—_Synthesises research time-boxing against the dopamine rabbit hole in §3._ [synthesizes:: [[Time-Boxing Research Prevents Productive Procrastination]], confidence=high]
+- [[2026-07-25-ioed-vs-dunning-kruger-distinction]]—_Synthesises the axis distinction between IoED and the Dunning-Kruger Effect in §4._ [synthesizes:: [[2026-07-25-ioed-vs-dunning-kruger-distinction]], confidence=high]
+- [[The Knowledge Illusion Mistakes Community Expertise for Individual Understanding]]—_Synthesises the social Knowledge Illusion boundary in §4._ [synthesizes:: [[The Knowledge Illusion Mistakes Community Expertise for Individual Understanding]], confidence=high]
+
+### See Also
+
+- [[Limited Capacity Brain]]—_Underlying axiom explaining why the brain relies on energy-saving heuristic substitution (already grounds IoED via incoming `supports`)._
+- [[Human Understanding is Inherently Myopic]]—_Grounds the structural limits of individual causal models and reliance on community knowledge (referenced without reverse edge to avoid cycling via `Limited Capacity Brain`)._
+- [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]]—_Grounds why thinking alone cannot dissolve IoED and external simulation or creation is required (already grounds IoED via incoming `supports`)._
+- [[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics]]—_Primary empirical grounding for the robustness of IoED across topics (already grounds IoED via `IoED Definition Gap Felt vs Actual Understanding`)._
+- [[Evidence - Sloman and Fernbach Say We Mistake Knowledge in the Community for Knowledge in Our Heads]]—_Empirical grounding for the social extension of IoED into the Knowledge Illusion (already grounds [[The Knowledge Illusion Mistakes Community Expertise for Individual Understanding]]; referenced without `depends_on` to avoid cycling through `Human Understanding is Inherently Myopic` → `Limited Capacity Brain`)._
+- [[MOC - Cognitive Biases]]—_Parent map for cognitive bias mechanisms._
+- [[MOC - From Information to Knowledge]]—_Parent map linking passive consumption to genuine assimilation._
+- [[MOC - Why Thoughts Feel More Important When Thinking Them]]—_Parent map covering the Illusion of Profundity cluster._
+- [[MOC - ADHD and PKM Systems]]—_Connects ADHD metacognitive traps to personal knowledge management._
+- [[SoT - Dunning-Kruger Effect]]—_Adjacent bias; IoED supplies the mechanism behind the initial overconfidence peak._
+- [[SoT - Metacognitive Calibration]]—_Extends IoED into broader calibration practices (points up here; no reverse typed edge)._
+- [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]]—_Adjacent bias contrasting processing ease with causal depth._
+- [[Passive Study Habits Foster the Illusion of Fluency]]—_Illustrates how passive review reinforces fluency illusions alongside IoED._
+- [[The Illusion of Shared Understanding in Teams]]—_Team-level analogue of individual explanatory overconfidence._
+- [[Information Retrieval Is Not Learning]]—_Search-and-retrieval twin of the Collector's Fallacy._
+- [[Information Addiction in Overthinkers]]—_Elaborates the illusion of control and perfect-information fallacy behind hoarding._
+- [[Flawed Mental Models Limit Mastery]]—_Connects IoED directly to stalled mastery and recovery protocols._
+- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]—_Downstream ProdOS loop for breaking passive collection._
+- [[SoT - Active Learning Techniques]]—_Downstream collection of active learning antidotes._
+- [[SoT - Processing IS the Work]]—_Downstream operational protocol countering the Collector's Fallacy._
+- [[SoT - Research-to-Action Protocol]]—_Downstream operational protocol governing the transition from research to execution._

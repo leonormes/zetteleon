@@ -44,5 +44,5 @@ Covey names this same choice "the Clock and the Compass" in _First Things First_
 
 ## Related
 
-- [[Protocol - Action-First GTD (LLM Chief of Staff)]] [supports:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=medium]—_that protocol's Handoff step asks the LLM to assign a Todoist `!!Priority` to every extracted Next Action but never defines what "priority" means; this matrix is the missing triage logic—Quadrant I/III urgency maps to the higher Todoist priorities, Quadrant II importance is what the Chief of Staff should be protecting from being crowded out by them, and Quadrant IV should mostly not survive extraction into a Next Action at all._
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]] [supports:: [[Protocol - Action-First GTD (LLM Chief of Staff)]], confidence=medium]—_that protocol's Priority rule checks every proposed Next Action against this matrix; it supplies the triage logic—Quadrant I/III urgency maps to the higher Todoist priorities, Quadrant II importance is what the Chief of Staff should be protecting from being crowded out by them, and Quadrant IV should mostly not survive extraction into a Next Action at all._
 - [[Habit 1 - Be Proactive]]—_already lists this note alongside Habit 3 as the "weekly practice" that turns proactive choice into a recurring schedule._

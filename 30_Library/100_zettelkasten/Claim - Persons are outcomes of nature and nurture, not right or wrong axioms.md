@@ -32,6 +32,6 @@ This applies to evaluating human beings and their inherent worth, especially whe
 
 #### Related
 
-- [[Minds Are Like Plants - Unique Products of Genes and Environment]]—extends: expands on the metaphor of humans as plants
+- [[Minds Are Like Plants, Each a Unique Product of Genes and Environment]]—extends: expands on the metaphor of humans as plants
 - [[Understanding a Belief's Origins Is Not Endorsement]]—extends: explains the boundaries of the ecological mindset
 - [[Analytical Rigour Applies to Facts, the Ecological Model to Values]]—extends: clarifying where axiomatic vs ecological thinking applies

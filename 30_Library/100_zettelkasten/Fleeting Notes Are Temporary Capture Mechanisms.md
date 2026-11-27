@@ -19,7 +19,7 @@ Details: In the Zettelkasten workflow, fleeting notes represent the initial capt
 Links:
 
 - [[Deep Processing is the Core of Zettelkasten]]
-- [[The Atomicity Principle - One Idea Per Note]]
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]
 
 > Status gates
 >

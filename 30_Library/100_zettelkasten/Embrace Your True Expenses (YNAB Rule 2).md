@@ -1,19 +1,21 @@
 ---
 aliases: [Embrace Your True Expenses, Sinking Funds, True Expenses]
 conformant: true
-contradicts: []
 created: 2026-10-21T09:00:00+00:00
-epistemic_status: medium
-evidence_links: []
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/embrace-your-true-expenses-ynab-rule-2
-proposition: Treating large irregular bills as monthly instalments saved in advance
-  turns predictable surprises into planned costs and removes the cash crunch that
-  forces money away from other jobs.
 status: seed
+steps:
+- List each large and irregular bill with its expected cost.
+- Divide each cost by the months remaining before it falls due.
+- Assign that instalment every month to a named category for the bill.
+- Pay the bill from its category when it arrives.
+- Re-estimate the category with Rule 3 when the amount proves wrong.
 tags: [budgeting, finance, ynab]
 title: Embrace Your True Expenses (YNAB Rule 2)
-type: claim
+trigger: A large bill is irregular in timing but foreseeable.
+type: procedure
+verification: The bill is paid from its own category without taking money from other jobs in that month.
 ---
 
 ## Embrace Your True Expenses (YNAB Rule 2)
@@ -26,13 +28,21 @@ Applies to expenses that are irregular in timing but foreseeable in kind. It nee
 
 ### Evidence
 
-This is the household's working method, set out as the second of four rules in [[SoT - Family Financial Wellness]]. The vault holds no outside source for it yet, so the claim rests on that operational record and on the reasoning above.
+This is the household's working method, set out as the second of four rules in [[SoT - Family Financial Wellness]]. The vault holds no outside source for it yet, so the procedure rests on that operational record.
 
 ### Implications
 
-- Large bills stop competing with groceries and rent in the month they fall due.
-- Prioritising true-expense funding over aggressive debt payoff keeps the household from sliding back into credit, as the Payday Protocol states.
-- Each true-expense category is a named job, which makes the Stability question in Rule 1 concrete.
+Run the steps in order:
+
+1. List each large, irregular bill with its expected cost.
+2. Divide each cost by the months remaining before it falls due.
+3. Assign that instalment every month to a named category for the bill.
+4. Pay the bill from its category when it arrives.
+5. Re-estimate the category with [[Roll With The Punches (YNAB Rule 3)]] when the amount proves wrong.
+
+Check: the bill is paid without taking money from other jobs that month.
+
+Large bills stop competing with groceries and rent. Prioritising true-expense funding over aggressive debt payoff keeps the household from sliding back into credit, as the Payday Protocol states. Each true-expense category is a named job, which makes the Stability question in Rule 1 concrete.
 
 ### Related
 

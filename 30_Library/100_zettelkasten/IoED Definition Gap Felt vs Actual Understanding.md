@@ -5,17 +5,15 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics]]"]
-modified: 2026-10-22T15:11:19+00:00
+modified: 2026-11-27T14:02:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
-prodos.kind: atomic
-prodos.lifecycle: stable
 proposition: People systematically overestimate how well they understand complex causal systems, and the overestimation is exposed only when they attempt to give a real step-by-step causal explanation.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
-title: 2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
+title: IoED Definition Gap Felt vs Actual Understanding
 type: claim
 ---
 
-The Illusion of Explanatory Depth (IoED) is the gap between how well people believe they understand a complex causal system and how well they can actually explain it. The belief survives unchallenged until someone is forced to produce a real, step-by-step account of the mechanism—at which point the gap becomes visible. This is the base definition the rest of the IoED cluster (mechanism, ADHD amplification, antidotes, Dunning-Kruger distinction) builds outward from.
+The Illusion of Explanatory Depth (IoED) is the gap between how well people believe they understand a complex causal system and how well they can actually explain it. The belief survives unchallenged until someone is forced to produce a real, step-by-step account of the mechanism—at which point the gap becomes visible. This is the base definition the rest of the IoED cluster (mechanism, ADHD amplification, antidotes, Dunning-Kruger distinction) builds outward from. ^claim
 
 ## Evidence
 

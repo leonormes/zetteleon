@@ -16,7 +16,7 @@ status: seed
 tags: [atomicity, decomposition, mosaic-of-quotations, repurposing, writing, zettelkasten]
 title: Working With a Zettelkasten Is a Practice of Decomposition and Reassembly
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## Working With a Zettelkasten Is a Practice of Decomposition and Reassembly
@@ -42,7 +42,7 @@ Doto's account of how note-making repurposes ideas; he ties the "mosaic of quota
 
 ### Related
 
-- [[The Atomicity Principle - One Idea Per Note]]—extends: the principle whose payoff this describes
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: the principle whose payoff this describes
 - [[A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics]]—shared mechanism: separating an idea from its argument lets it connect elsewhere
 - [[Deep Processing is the Core of Zettelkasten]]—shared mechanism: taking a source apart and restating it is where learning happens
 - [[Literature Notes Bridge Source Material and Main Notes]]—extends: literature notes are the material that is decomposed into main notes

@@ -6,17 +6,17 @@ contradicts: ["[[ADHD Overthinking is a Substitute for Action]]", "[[The Comfort
 created: 2025-10-30T15:33:36+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-22T15:11:17+00:00
+modified: 2026-11-27T14:05:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/eufriction-productive-friction-strengthens-thinking
 proposition: Deliberate cognitive friction (eufriction) slows down workflow to force deeper engagement with ideas, transforming passive consumption into genuine synthesis and preventing analysis paralysis.
-tags: [cognitive-work, learning, TheHuman/Psychology, topic/pkm, topic/pkm/zettelkasten, topic/productivity]
+tags: [cognitive-work, learning, TheHuman/Psychology, domain/pkm, topic/pkm/zettelkasten, topic/productivity]
 title: Eufriction - Productive Friction Strengthens Thinking
 type: claim
 ---
 
 ## Eufriction - Productive Friction Strengthens Thinking
 
-Proposition: Deliberate cognitive friction (eufriction) slows down workflow to force deeper engagement with ideas, transforming passive consumption into genuine synthesis and preventing analysis paralysis.
+Proposition: Deliberate cognitive friction (eufriction) slows down workflow to force deeper engagement with ideas, transforming passive consumption into genuine synthesis and preventing analysis paralysis. ^claim
 
 ### 1. The Core Mechanism: Desirable Difficulty
 
@@ -33,7 +33,7 @@ This avoidance manifests in two distinct failure modes that directly contrast wi
 - Productive Procrastination (Meta-Work): Engaging in pseudo-productive tasks like infinite workflow optimisation or folder re-organisation ([[Tool tinkering is a form of productive procrastination]]) feels like real work, but in reality serves as an avoidance strategy to bypass cognitive effort ([[The Danger of Perpetual System-Building]]).
 - Speculative Overthinking (Analysis Paralysis): When task initiation costs are high, highly intellectual or neuro-divergent brains substitute uncritical rumination and endless planning for concrete action ([[ADHD Overthinking is a Substitute for Action]], [[The Comfort of Motion Hinders Genuine Action]]). Similarly, passive reading without synthesis traps thinkers in the Collector's Fallacy—rapidly hoarding information without gaining genuine comprehension ([[SoT - Illusion of Explanatory Depth (IoED)]], [[Information Addiction in Overthinkers]]).
 
-The Eufriction Antidote: Unproductive friction is a defensive retreat from emotional resistance. Eufriction, by contrast, acts as an offensive cognitive constraint. By forcing the immediate, physical commitment of drafting an unambiguous proposition ([[Propositions Are the Only Thing That Can Be Wrong]]), eufriction grounds abstract mental loops into tangible artifacts. It substitutes passive consumption and perfectionist rumination with active, effortful construction.
+The Eufriction Antidote: Unproductive friction is a defensive retreat from emotional resistance. Eufriction, by contrast, acts as an offensive cognitive constraint. By forcing the immediate, physical commitment of drafting an unambiguous proposition ([[SoT - Proposition-Centred PKM Architecture]]), eufriction grounds abstract mental loops into tangible artifacts. It substitutes passive consumption and perfectionist rumination with active, effortful construction.
 
 ### 3. Connections & Semantic Graph
 

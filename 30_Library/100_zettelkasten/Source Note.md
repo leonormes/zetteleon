@@ -13,7 +13,7 @@ status: seed
 tags: [allosso, definition, note-types, paraphrase, source-note, zettelkasten]
 title: Source Note
 type: concept
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 used_in_claims: ["[[A Note Should Be Written So It Can Be Understood Out of Context]]"]
 ---
 

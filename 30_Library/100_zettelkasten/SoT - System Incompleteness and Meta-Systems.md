@@ -3,7 +3,7 @@ aliases: [Gödel's Law in Software, Incompleteness in Systems Architecture, The 
 conformant: true
 created: 2026-01-05T07:34:29+00:00
 last_reviewed: null
-modified: 2026-10-22T15:11:11+00:00
+modified: 2026-11-26T22:14:39+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-system-incompleteness-and-meta-systems
 status: evergreen
@@ -75,5 +75,4 @@ Treat the build pipeline as a formal proof system.
 ### 6. Related Components
 
 - [[SoT - Pragmatism vs Rigour in Software]] (The trade-off between strict meta-systems and velocity).
-- [[SoT - Data-Centric Software Engineering]] (Data as the axiom).
 - [[Gödel's Incompleteness Theorems Constrain Foundational Programs]] (The mathematical proof).

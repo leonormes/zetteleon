@@ -25,7 +25,7 @@ updated: null
 
 To understand this paradox, one must grasp several key Zen concepts:
 
-- Impermanence: [[Zen Practice Centers on Accepting Impermanence]] rel:: explains that all things, including mental states, are constantly changing. Clinging to the idea of a _permanent_ enlightened state is a direct contradiction of this reality.
+- Impermanence: [[Expecting Things to Change Makes It Easier to Adapt Than Trying to Hold Them Fixed]] rel:: explains that all things, including mental states, are constantly changing. Clinging to the idea of a _permanent_ enlightened state is a direct contradiction of this reality.
 - Suffering (Dukkha): [[The Four Noble Truths Explain Suffering from Attachment]] rel:: part-of, which arises from our attachments and aversions. Chasing enlightenment is a form of attachment.
 - Letting Go: [[Letting Go of Fixed Views Leads to Peace]] rel:: solution. This includes letting go of the need for oneself to be a permanently "enlightened" person.
 
@@ -38,4 +38,4 @@ Instead of chasing a destination, Zen emphasizes the quality of the journey. Thi
 
 ### Reframing Enlightenment
 
-Ultimately, the solution is to reframe the goal. [[Zen Defines Enlightenment as a Process Not a Destination]] rel:: defines. It is a continuous process of waking up, not a static achievement. Therefore, the focus shifts to action, as [[Zen Emphasizes Enlightened Activity Over Enlightened People]] rel:: solution, not on achieving a personal status.
+Ultimately, the solution is to reframe the goal. [[Zen Defines Enlightenment as a Process Not a Destination]] rel:: defines. It is a continuous process of waking up, not a static achievement. Therefore, the focus shifts to action, as [[Treating a Virtue as Something You Do Rather Than Something You Are Makes It Easier to Resume After a Lapse|Zen Emphasizes Enlightened Activity Over Enlightened People]] rel:: solution, not on achieving a personal status.

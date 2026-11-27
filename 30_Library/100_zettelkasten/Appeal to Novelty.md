@@ -31,5 +31,5 @@ used_in_claims: ['[[Claim - Novelty-craving drives self-defeating system-hopping
 ## Related
 
 - [[Shiny Object Syndrome in ADHD]]—_the ADHD-specific behavioural pattern this fallacy underwrites: abandoning a working project or system for a newer one, driven by the same "new = better" reasoning error._
-- [[The Duality of Novelty Seeking in ADHD]]—_the broader framework this fallacy's ADHD instances sit inside._
+- [[Novelty Seeking in ADHD Is a Source of Both Strengths and Pitfalls]]—_the broader framework this fallacy's ADHD instances sit inside._
 - [[Q - Iterating versus system-hopping]]—_the open question this fallacy bears on directly: is a system change genuine iteration, or is it this fallacy driving a fresh-start migration?_

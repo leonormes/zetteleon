@@ -18,4 +18,4 @@ Details: Zen practice does not teach that suffering can be entirely eliminated. 
 
 ### Related
 
-- [[Zen Emphasizes Enlightened Activity Over Enlightened People]]—_a practice-focused response._
+- [[Treating a Virtue as Something You Do Rather Than Something You Are Makes It Easier to Resume After a Lapse]]—_a practice-focused response._

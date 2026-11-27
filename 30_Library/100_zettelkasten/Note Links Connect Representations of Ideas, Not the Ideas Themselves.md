@@ -38,7 +38,7 @@ The source frames this as an "illusion of linked ideas" in a personal knowledge 
 
 - [[Creating Meaningful Links]]—_extends: distinguishes meaningful from superficial links; this note supplies a reason superficial ones fail._ [extends:: [[Creating Meaningful Links]], strength=4, confidence=high]
 - [[Key questions when linking notes in the Zettelkasten method]]—_shared mechanism: questions to ask so that a link expresses a real relationship._
-- [[Zettelkasten System Essence]]—_extends: the size of the link graph is not evidence of understanding._ [extends:: [[Zettelkasten System Essence]], strength=4, confidence=high]
+- [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]]—_extends: the size of the link graph is not evidence of understanding._ [extends:: [[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]], strength=4, confidence=high]
 - [[Ideas Exist Beyond Linguistic Expression]]—_shared mechanism: a note is a representation of an idea in the same way words are._
 - [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]]—_shared mechanism: notes that state claims give links something substantive to connect._
 - [[Vague Notes Make Links Between Them Tenuous]]—_extends: the consequence for note quality: vague notes make the links between them tenuous._

@@ -1,18 +1,16 @@
 ---
 aliases: [Age of Money, Age Your Money, Month Ahead]
 conformant: true
-contradicts: []
 created: 2026-10-21T09:00:00+00:00
-epistemic_status: medium
-evidence_links: []
-modified: 2026-10-22T15:11:18+00:00
+definition: Age of money is the gap between earning money and spending it, and Rule 4 aims for at least 30 days.
+distinguishes_from: []
+modified: 2026-11-26T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/age-your-money-ynab-rule-4
-proposition: Spending money that was earned at least 30 days earlier breaks the paycheck-to-paycheck
-  cycle by building a buffer that removes the need to time bills against income.
 status: seed
 tags: [budgeting, finance, resilience, ynab]
 title: Age Your Money (YNAB Rule 4)
-type: claim
+type: concept
+used_in_claims: []
 ---
 
 ## Age Your Money (YNAB Rule 4)
@@ -29,7 +27,7 @@ This is the household's working method, set out as the fourth of four rules in [
 
 ### Implications
 
-- Bills no longer have to be timed against the next payday, which frees attention for longer-term planning.
+- Bills no longer have to be timed against the next payday, which breaks the paycheck-to-paycheck cycle and frees attention for longer-term planning.
 - Income forecasting becomes unnecessary because the money is already held.
 - Progress has a single number to watch, which suits a visible-awareness approach.
 

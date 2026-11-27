@@ -15,7 +15,7 @@ status: seed
 tags: [book-review, findability, note-structure, retrieval, single-idea, zettelkasten]
 title: One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review
 type: claim
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+upstream: '[[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]'
 ---
 
 ## One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review
@@ -38,6 +38,6 @@ Allosso speaks from experience of looking for a particular point in a long revie
 
 ### Related
 
-- [[The Atomicity Principle - One Idea Per Note]]—extends: retrieval is one reason for the principle
+- [[Holding One Idea per Note Lets Each Idea Be Linked, Contested and Reused on Its Own]]—extends: retrieval is one reason for the principle
 - [[Long Notes Holding Divergent Ideas Turn Writing Into Triage]]—shared mechanism: a long note hides the point that is looked for
 - [[Literature Notes Bridge Source Material and Main Notes]]—shared mechanism: literature notes hold brief citations, not an extensive summary of the source

@@ -218,7 +218,7 @@ _Generated 2026-08-29. Sources: 325 ProdOS-referencing notes, 6 notes carrying a
 
 [extends:: [[SoT - Processing IS the Work]], strength=4, confidence=high]
 
-[extends:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], strength=4, confidence=high]
+[extends:: [[Self-insights that prescribe more planning are the least trustworthy kind]], strength=4, confidence=high]
 
 [contradicts:: [[SoT - PRODOS Core Specification]], strength=4, confidence=high]
 

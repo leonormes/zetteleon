@@ -19,7 +19,7 @@ upstream: '[[tmp_atoms_psychology-of-over-preparing]]'
 
 ## Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real
 
-Checking or information-seeking used as a safety behaviour reduces distress immediately, but because relief arrives before the person can observe whether the feared outcome would have happened anyway, the nervous system credits the safety behaviour with preventing danger—which lowers tolerance for acting under ordinary uncertainty next time and makes the behaviour self-reinforcing.
+Checking or information-seeking used as a safety behaviour reduces distress immediately, but because relief arrives before the person can observe whether the feared outcome would have happened anyway, the nervous system credits the safety behaviour with preventing danger—which lowers tolerance for acting under ordinary uncertainty next time and makes the behaviour self-reinforcing. ^claim
 
 ### Scope & Conditions
 

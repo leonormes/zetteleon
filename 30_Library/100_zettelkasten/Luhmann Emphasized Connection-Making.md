@@ -14,4 +14,4 @@ Luhmann emphasized that the process of connection-making was where true understa
 
 [[Maintaining Lines of Thought Over Time]]
 
-[[Zettelkasten System Essence]]
+[[Understanding Comes From Doing the Linking Yourself, Not From the Size of the Note Collection]]

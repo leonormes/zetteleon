@@ -15,7 +15,7 @@ title: Guilt-Free Spending is a Feature of Intentional Budgeting
 type: claim
 ---
 
-A common misconception is that a budget's purpose is to eliminate all "fun" spending. In reality, an effective budget enables guilt-free spending by design.
+A common misconception is that a budget's purpose is to eliminate all "fun" spending. In reality, an effective budget enables guilt-free spending by design. ^claim
 
 When you [[Give Every Dollar a Job (YNAB Rule 1)|proactively assign money]] to discretionary categories like "Dining Out," "Hobbies," or "Coffee," you are giving yourself explicit permission to spend that money on those things. Because the spending was planned and aligns with your values, it can be enjoyed without the guilt, regret, or second-guessing that accompanies unplanned, reactive purchases. This prevents the deprivation-burnout cycle common with overly restrictive budgets.
 

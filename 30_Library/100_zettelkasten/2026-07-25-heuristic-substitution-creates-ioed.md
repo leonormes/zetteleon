@@ -3,17 +3,17 @@ conformant: true
 contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
-modified: 2026-10-22T15:11:19+00:00
+evidence_links: []
+modified: 2026-11-27T14:02:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-heuristic-substitution-creates-ioed
-proposition: 'The brain conserves effort by substituting the easy question "do I recognise X?" for the hard question "do I understand X?", tagging familiar labels as "known" without auditing the underlying causal logic.'
+proposition: The brain conserves effort by substituting the easy question of whether it recognises X for the hard question of whether it understands X, tagging familiar labels as known without auditing the underlying causal logic.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-heuristic-substitution-creates-ioed
 type: claim
 ---
 
-When faced with a complex system, the brain swaps the hard question ("do I understand this?") for an easy one ("do I recognise this?"). Recognising a familiar label gets mistaken for auditing the causal logic, so the system gets tagged "known" and enquiry stops there. This substitution is the mechanism behind the Illusion of Explanatory Depth, not just a restatement of it.
+When faced with a complex system, the brain swaps the hard question ("do I understand this?") for an easy one ("do I recognise this?"). Recognising a familiar label gets mistaken for auditing the causal logic, so the system gets tagged "known" and enquiry stops there. This substitution is the mechanism behind the Illusion of Explanatory Depth, not just a restatement of it. ^claim
 
 ## Evidence
 
