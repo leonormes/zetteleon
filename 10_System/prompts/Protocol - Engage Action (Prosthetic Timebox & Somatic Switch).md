@@ -30,22 +30,43 @@ Refuse to start the timer until the user defines all three of the following:
    - **(b) Starter Task (1–15m):** The immediate momentum ramp following the MVA.
 3. **`If stuck (PINCH + Effort Pact):`**
    - Select one PINCH catalyst (*Play, Interest, Novelty, Competition, Hurry*).
-   - Confirm external triggers are blocked (notifications silenced, distracting tabs/apps closed) and the active Todoist timebox (`https://app.todoist.com/app/task/<task-id>`) or the note holding its `#todoist` checkbox is open with the timer running (use TaskNotes Pomodoro or `obsidian vault="LLMeon" tasknotes:start-time` to log `timeEntries`).
+   - Confirm external triggers are blocked (notifications silenced, distracting tabs/apps closed) and the active Todoist timebox (`https://app.todoist.com/app/task/<task-id>`) or the note holding its `#todoist` checkbox is open.
+
+### Start the Timer (Toggl)
+
+Once all three are confirmed (`Done means:` is the block's `Done in this block:` line, and the MVA is its `First 2-min move:`), start the timer with the `toggl` MCP. The control-plane rule in [[Protocol - Daily Plan (Todoist Timeboxing)]] applies.
+
+- On a fresh session, call `mcp__toggl__select_workspace` (organisation ID `21826425`, workspace ID `21825724`) before calling any other Toggl tool.
+- Check the current timer first. If one is already running, name it and ask before replacing it.
+- Start one entry per block. Its description is the Todoist block title with every customer and trust name replaced by the Jira ticket ID or a generic label, and is otherwise unchanged. Add the `Work` or `Personal` project only if it already exists in Toggl.
+- Pick one gear and say which:
+  - **50/10** for Deep Work blocks. A 25m bell is an optional 10-second flow check-in and never an automatic stop.
+  - **25/5** for Comms Triage, Admin batches and high-friction starts.
+- **Experiment precedence:** if an active ADHD experiment in `20_Thinking/21_Workbench/` specifies its own block length or break rule (such as the 75m Deep Dive test), that experiment overrides the default 50/10 gear. Say which experiment applies.
+- Gears sit inside the box and never extend it. The timer runs through bells and breaks. Bells come from Leon's device, which must not stop the Toggl entry.
+- If a Toggl call fails, say so and carry on with a manual timer. Never report a timer as running without a successful call.
 
 ## Phase 2: In-Box Containment (Urge Surfing)
 
 Once the timer is running, hold the boundary:
 
 - Instruct the user that if an internal trigger (boredom, uncertainty, perfectionism) or a rabbit-hole urge fires during the box, they must **not** follow it.
-- Instead, dump a 1-line capture note into `00_Inbox/` (or a `HEAD - ...?` candidate) and immediately return to the current box until the timer rings.
+- Instead, dump a 1-line capture note into `00_Inbox/` (or a `HEAD - ...?` candidate) and immediately return to the current box until it ends.
 
 ## Phase 3: The Guillotine (`On stop` / Box Exit & Somatic Switch)
 
-When the timer rings, mandate an immediate hard stop—no silent overrun—and force one of three choices:
+When the outer box ends (not at a gear bell), or Leon says "switch", mandate an immediate hard stop—no silent overrun—and force one of three choices:
 
 1. **Ship It:** Mark the task complete in Todoist, or tick the `#todoist` checkbox in Obsidian (Todoist Bridge syncs the completion).
 2. **Extend Once (Conscious Trade-off):** Add one bounded `15m` or `30m` box *only* after explicitly naming which block comes off today's schedule.
-3. **Park It (`#SAVESTATE`):** Write a 1-sentence state capture plus the next `<120s` MVA into the Todoist task comment or the note holding the checkbox so working memory can release the loop.
+3. **Park It (`#SAVESTATE`):** Leave the task open so working memory can release the loop.
+
+### Stop and Log
+
+After **Ship It** or **Park It**, or at the end of an extension:
+
+- Stop the running Toggl timer. If the running entry is not this block, report it and ask before stopping it.
+- Add one comment to the Todoist task with `add-comments`: `#SAVESTATE Done: … | Next physical step: … | Waiting on: …`. The next step is a `<120s` MVA. Use `none` for an empty field. With no Todoist task, put the line in the note holding the checkbox.
 
 ### Mandatory Somatic Switch
 

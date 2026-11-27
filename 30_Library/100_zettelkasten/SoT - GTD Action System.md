@@ -40,6 +40,8 @@ type: sot
 | Actions | Todoist | The single next physical action, across _all_ of life | The runway |
 | Hard landscape | Native calendar | Only date/time-specific, must-happen commitments | The calendar |
 
+Toggl Track is not a fifth tier. It records time against Todoist block titles for planned-vs-actual calibration, and holds no task list, project plan or outcome. The rule for agents is in [[Protocol - Daily Plan (Todoist Timeboxing)]].
+
 ### The Rule that Kills the Jira/Todoist "Duplication"
 
 The overlap between Jira and Todoist _feels_ real but is an illusion—they sit at different altitudes:
